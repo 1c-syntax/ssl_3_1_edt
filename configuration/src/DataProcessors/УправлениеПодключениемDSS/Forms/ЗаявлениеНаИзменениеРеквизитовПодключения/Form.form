@@ -57,6 +57,10 @@
       <items xsi:type="form:FormField">
         <name>КартинкаРаздела1</name>
         <id>94</id>
+        <title>
+          <key>ru</key>
+          <value>Раздел1</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -233,6 +237,10 @@
       <items xsi:type="form:FormField">
         <name>Режим_СменаПароля</name>
         <id>1</id>
+        <title>
+          <key>ru</key>
+          <value>Сменить пароль входа на сервер DSS</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -253,10 +261,10 @@
           <id>3</id>
           <title>
             <key>ru</key>
-            <value>Пароль позволяет авторизоваться на сервере облачной подписи для выполнения различных операций, таких как формирование ЭП, расшифрование, шифрование и прочие.
+            <value>Пароль позволяет авторизоваться на сервере DSS для выполнения различных операций, таких как формирование ЭП, расшифрование, шифрование и прочие.
 
 При обработке заявления с выбранной настройкой произойдет следующее
-1.На сервере облачной подписи будет установлен новый пароль для учетной записи. Старый пароль перестанет действовать.
+1.На сервере DSS будет установлен новый пароль для учетной записи. Старый пароль перестанет действовать.
 2. В момент обновления статуса одобренного заявления будет отображена форма с новым паролем. Запомните или сохраните его.</value>
           </title>
           <visible>true</visible>
@@ -363,6 +371,10 @@
       <items xsi:type="form:FormField">
         <name>КартинкаРаздела2</name>
         <id>107</id>
+        <title>
+          <key>ru</key>
+          <value>Раздел2</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -539,6 +551,10 @@
       <items xsi:type="form:FormField">
         <name>Режим_СменаКлючаМобильногоПриложения</name>
         <id>4</id>
+        <title>
+          <key>ru</key>
+          <value>Новый QR-code для подтверждения операций</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -559,12 +575,12 @@
           <id>6</id>
           <title>
             <key>ru</key>
-            <value>QR-код ключа активации используется для привязки мобильного приложения myDSS к серверу облачной подписи.
+            <value>QR-код ключа активации используется для привязки мобильного приложения myDSS к серверу DSS.
 После привязки мобильного приложения появляется возможность подтверждать операции с формированием электронной подписи.
 
 При обработке заявления с выбранной настройкой произойдет следующее
-1. На сервере облачной подписи будет сформирован новый QR-код, содержащий ключ активации  мобильного приложения. Обратите внимание, что старый QR код перестанет действовать.
-2. В момент обновления статуса одобренного заявления будет отображена форма с новым QR-кодом.Отсканируйте его в мобильном приложении myDSS или сохраните его.
+1. На сервере DSS будет сформирован новый QR-код, содержащий ключ активации  мобильного приложения. Обратите внимание, что старый QR код перестанет действовать.
+2. В момент обновления статуса одобренного заявления будет отображена форма с новым QR-кодом. Отсканируйте его в мобильном приложении myDSS или сохраните его.
 3. Также на мобильный телефон должен прийти код активации этого ключа, введите его после сканирования QR-кода.</value>
           </title>
           <visible>true</visible>
@@ -671,6 +687,10 @@
       <items xsi:type="form:FormField">
         <name>КартинкаРаздела3</name>
         <id>120</id>
+        <title>
+          <key>ru</key>
+          <value>Раздел3</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -847,6 +867,10 @@
       <items xsi:type="form:FormField">
         <name>Режим_ПовторнаяОтправкаКлючМобильногоПриложения</name>
         <id>7</id>
+        <title>
+          <key>ru</key>
+          <value>Получить действующий QR-код для подтверждения операций</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -982,6 +1006,10 @@
       <items xsi:type="form:FormField">
         <name>Режим_ПовторнаяОтправкаКодаАктивации</name>
         <id>10</id>
+        <title>
+          <key>ru</key>
+          <value>Отправить новый код активации ключа на мобильный телефон</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1110,6 +1138,10 @@
       <items xsi:type="form:FormField">
         <name>КартинкаРаздела4</name>
         <id>136</id>
+        <title>
+          <key>ru</key>
+          <value>Раздел4</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1295,6 +1327,10 @@
             <items xsi:type="form:FormField">
               <name>Режим_СменаКонтактов</name>
               <id>13</id>
+              <title>
+                <key>ru</key>
+                <value>Новый номер мобильного телефона:</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1424,6 +1460,10 @@
             <items xsi:type="form:FormField">
               <name>Телефон</name>
               <id>23</id>
+              <title>
+                <key>ru</key>
+                <value>Номер мобильного телефона</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1501,7 +1541,7 @@
               <id>150</id>
               <title>
                 <key>ru</key>
-                <value>Телефон на обнаружен</value>
+                <value>Телефон не обнаружен</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1717,6 +1757,10 @@
       <items xsi:type="form:FormField">
         <name>ДатаЗаявления</name>
         <id>77</id>
+        <title>
+          <key>ru</key>
+          <value>Дата заявления</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1767,6 +1811,10 @@
       <items xsi:type="form:FormField">
         <name>СостояниеЗаявления</name>
         <id>87</id>
+        <title>
+          <key>ru</key>
+          <value>Состояние заявления</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1817,6 +1865,10 @@
       <items xsi:type="form:FormField">
         <name>ИдентификаторЗаявления</name>
         <id>74</id>
+        <title>
+          <key>ru</key>
+          <value>Идентификатор заявления</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1867,6 +1919,10 @@
       <items xsi:type="form:FormField">
         <name>ИдентификаторАбонента</name>
         <id>84</id>
+        <title>
+          <key>ru</key>
+          <value>Идентификатор абонента</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1917,6 +1973,10 @@
       <items xsi:type="form:FormField">
         <name>СрокQRКода</name>
         <id>160</id>
+        <title>
+          <key>ru</key>
+          <value>Срок действия текущего QR-кода</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1967,6 +2027,10 @@
       <items xsi:type="form:Button">
         <name>ПолучитьТекстЗаявления</name>
         <id>80</id>
+        <title>
+          <key>ru</key>
+          <value>Текст заявления</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1998,6 +2062,10 @@
       <items xsi:type="form:Button">
         <name>ОтменитьЗаявление</name>
         <id>82</id>
+        <title>
+          <key>ru</key>
+          <value>Отменить заявление</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -2073,6 +2141,10 @@
       <items xsi:type="form:Button">
         <name>Отправить</name>
         <id>29</id>
+        <title>
+          <key>ru</key>
+          <value>Отправить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -2228,6 +2300,7 @@
   </handlers>
   <width>60</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

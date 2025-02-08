@@ -58,7 +58,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СправкаExtendedTooltip</name>
+          <name>СправкаРасширеннаяПодсказка</name>
           <id>145</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -89,7 +89,7 @@
         <value>Справка</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаСправкаExtendedTooltip</name>
+        <name>ГруппаСправкаРасширеннаяПодсказка</name>
         <id>143</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -118,7 +118,7 @@
       <value>Заголовок</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаЗаголовокExtendedTooltip</name>
+      <name>ГруппаЗаголовокРасширеннаяПодсказка</name>
       <id>135</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -142,11 +142,15 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>Группа3</name>
+    <name>ГруппаИспользоватьПолнотекстовыйПоиск</name>
     <id>212</id>
     <items xsi:type="form:FormField">
       <name>ИспользоватьПолнотекстовыйПоиск</name>
       <id>214</id>
+      <title>
+        <key>ru</key>
+        <value>Использовать полнотекстовый поиск</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -197,8 +201,12 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Использовать полнотекстовый поиск</value>
+    </title>
     <extendedTooltip>
-      <name>Группа3РасширеннаяПодсказка</name>
+      <name>ГруппаИспользоватьПолнотекстовыйПоискРасширеннаяПодсказка</name>
       <id>213</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -222,10 +230,10 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>Группа1</name>
+    <name>ГруппаОсновное</name>
     <id>151</id>
     <items xsi:type="form:FormGroup">
-      <name>ГруппаИспользоватьПолнотекстовыйПоиск</name>
+      <name>ГруппаАктивныеПользователи</name>
       <id>101</id>
       <items xsi:type="form:Button">
         <name>ОбработкаАктивныеПользователи</name>
@@ -235,7 +243,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ОбработкаАктивныеПользователиExtendedTooltip</name>
+          <name>ОбработкаАктивныеПользователиРасширеннаяПодсказка</name>
           <id>116</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -264,10 +272,10 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Использовать полнотекстовый поиск</value>
+        <value>Активные пользователи</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаИспользоватьПолнотекстовыйПоискРасширеннаяПодсказка</name>
+        <name>ГруппаАктивныеПользователиРасширеннаяПодсказка</name>
         <id>114</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -351,6 +359,10 @@
         <items xsi:type="form:FormField">
           <name>МаксимальныйРазмерИндексируемыхДанных</name>
           <id>197</id>
+          <title>
+            <key>ru</key>
+            <value>Ограничить максимальный размер индексируемых данных</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -565,6 +577,10 @@
       <items xsi:type="form:FormField">
         <name>ДатаАктуальностиИндекса</name>
         <id>5</id>
+        <title>
+          <key>ru</key>
+          <value>Дата актуальности индекса</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -575,7 +591,7 @@
         </dataPath>
         <skipOnInput>true</skipOnInput>
         <extendedTooltip>
-          <name>ДатаАктуальностиИндексаExtendedTooltip</name>
+          <name>ДатаАктуальностиИндексаРасширеннаяПодсказка</name>
           <id>118</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -612,6 +628,10 @@
       <items xsi:type="form:FormField">
         <name>СтатусИндекса</name>
         <id>3</id>
+        <title>
+          <key>ru</key>
+          <value>Статус индекса</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -622,7 +642,7 @@
         </dataPath>
         <skipOnInput>true</skipOnInput>
         <extendedTooltip>
-          <name>СтатусИндексаExtendedTooltip</name>
+          <name>СтатусИндексаРасширеннаяПодсказка</name>
           <id>119</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -657,18 +677,22 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
-        <name>ГруппаКнопки1</name>
+        <name>ГруппаКнопки</name>
         <id>93</id>
         <items xsi:type="form:Button">
           <name>ОбновитьИндекс</name>
           <id>11</id>
+          <title>
+            <key>ru</key>
+            <value>Обновить индекс</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ОбновитьИндексExtendedTooltip</name>
+            <name>ОбновитьИндексРасширеннаяПодсказка</name>
             <id>121</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -693,13 +717,17 @@
         <items xsi:type="form:Button">
           <name>ОчиститьИндекс</name>
           <id>12</id>
+          <title>
+            <key>ru</key>
+            <value>Очистить индекс</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ОчиститьИндексExtendedTooltip</name>
+            <name>ОчиститьИндексРасширеннаяПодсказка</name>
             <id>122</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -724,6 +752,10 @@
         <items xsi:type="form:Button">
           <name>ПроверитьИндекс</name>
           <id>155</id>
+          <title>
+            <key>ru</key>
+            <value>Проверить индекс</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -759,10 +791,10 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Кнопки 1</value>
+          <value>Кнопки</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаКнопки1ExtendedTooltip</name>
+          <name>ГруппаКнопкиРасширеннаяПодсказка</name>
           <id>120</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -799,7 +831,7 @@
         <value>Группа управление автоматическим извлечением текстов</value>
       </toolTip>
       <extendedTooltip>
-        <name>ГруппаУправлениеПолнотекстовымПоискомExtendedTooltip</name>
+        <name>ГруппаУправлениеПолнотекстовымПоискомРасширеннаяПодсказка</name>
         <id>117</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -827,8 +859,12 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Основное</value>
+    </title>
     <extendedTooltip>
-      <name>Группа1РасширеннаяПодсказка</name>
+      <name>ГруппаОсновноеРасширеннаяПодсказка</name>
       <id>152</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -859,7 +895,7 @@
       <id>103</id>
       <title>
         <key>ru</key>
-        <value>Извлечение текстов из файлов необходимо для полнотекстового поиска в программе.</value>
+        <value>Извлечение текстов из файлов необходимо для полнотекстового поиска в приложении.</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -867,7 +903,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ПояснениеИзвлекатьТекстыФайловНаСервере4ExtendedTooltip</name>
+        <name>ПояснениеИзвлекатьТекстыФайловНаСервере4РасширеннаяПодсказка</name>
         <id>124</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -902,7 +938,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
-      <name>Группа2</name>
+      <name>ГруппаАвтоматическоеИзвлечениеТекстовОсновное</name>
       <id>189</id>
       <items xsi:type="form:FormGroup">
         <name>ГруппаКолонки</name>
@@ -910,6 +946,10 @@
         <items xsi:type="form:FormField">
           <name>ИзвлекатьТекстыФайловНаСервереWindows</name>
           <id>159</id>
+          <title>
+            <key>ru</key>
+            <value>Извлекать тексты файлов</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1040,11 +1080,15 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
-        <name>Группа5</name>
+        <name>ГруппаИзвлечениеТекстов</name>
         <id>171</id>
         <items xsi:type="form:FormField">
           <name>ИзвлекатьТекстыФайловНаСервереLinux</name>
           <id>175</id>
+          <title>
+            <key>ru</key>
+            <value>Извлекать тексты файлов</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1145,8 +1189,12 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Извлечение текстов</value>
+        </title>
         <extendedTooltip>
-          <name>Группа5РасширеннаяПодсказка</name>
+          <name>ГруппаИзвлечениеТекстовРасширеннаяПодсказка</name>
           <id>172</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1173,8 +1221,12 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Основное</value>
+      </title>
       <extendedTooltip>
-        <name>Группа2РасширеннаяПодсказка</name>
+        <name>ГруппаАвтоматическоеИзвлечениеТекстовОсновноеРасширеннаяПодсказка</name>
         <id>190</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1208,7 +1260,7 @@
     </title>
     <verticalStretch>false</verticalStretch>
     <extendedTooltip>
-      <name>ГруппаАвтоматическоеИзвлечениеТекстовExtendedTooltip</name>
+      <name>ГруппаАвтоматическоеИзвлечениеТекстовРасширеннаяПодсказка</name>
       <id>123</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1267,6 +1319,7 @@
   <excludedCommands>Write</excludedCommands>
   <excludedCommands>WriteAndClose</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

@@ -228,7 +228,7 @@
       <value>Учетная запись электронной почты</value>
     </synonym>
     <type>
-      <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+      <types>DefinedType.ОбменДаннымиУчетныеЗаписиЭлектроннойПочты</types>
     </type>
     <toolTip>
       <key>ru</key>
@@ -548,6 +548,26 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+  </resources>
+  <resources uuid="e59e9cfc-43b2-4bdf-a512-b6f87f781cee">
+    <name>WSОбластьДанныхКорреспондента</name>
+    <synonym>
+      <key>ru</key>
+      <value>WS Область данных корреспондента</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>7</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="eb551461-ae0d-41dd-89fa-2f6e7f3c4840">
@@ -630,6 +650,22 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
+  <resources uuid="178342fd-1ba5-422d-89d2-4f486e45dae9">
+    <name>WSКонечнаяТочкаКорреспондента</name>
+    <synonym>
+      <key>ru</key>
+      <value>WS Конечная точка корреспондента</value>
+    </synonym>
+    <comment>Используется только в сервисе и только при автоматической настройки через внутреннюю публикацию</comment>
+    <type>
+      <types>DefinedType.КонечнаяТочкаОбменаСообщениями</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <dimensions uuid="7e9fadd6-d0ad-4856-a195-1058f00bf488">
     <name>Корреспондент</name>
     <synonym>
@@ -650,9 +686,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>4898249e-d639-4b75-aad5-652b0ce3b1cf.00000000-0000-0000-0000-000000000000</value>
-    </fillValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>

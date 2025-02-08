@@ -798,6 +798,10 @@
         <items xsi:type="form:Button">
           <name>КомандаДалее</name>
           <id>27</id>
+          <title>
+            <key>ru</key>
+            <value>Удалить настройку синхронизации</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -829,6 +833,10 @@
         <items xsi:type="form:Button">
           <name>КомандаОтмена</name>
           <id>29</id>
+          <title>
+            <key>ru</key>
+            <value>Отмена</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -924,6 +932,10 @@
         <items xsi:type="form:Button">
           <name>КомандаОтмена1</name>
           <id>33</id>
+          <title>
+            <key>ru</key>
+            <value>Отмена</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1019,6 +1031,10 @@
         <items xsi:type="form:Button">
           <name>КомандаГотово</name>
           <id>37</id>
+          <title>
+            <key>ru</key>
+            <value>Готово</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1160,6 +1176,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

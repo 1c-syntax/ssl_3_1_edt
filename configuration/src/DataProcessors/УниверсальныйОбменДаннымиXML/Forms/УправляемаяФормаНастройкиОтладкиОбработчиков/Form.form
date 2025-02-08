@@ -457,6 +457,10 @@
       <items xsi:type="form:Button">
         <name>ОткрытьФайл</name>
         <id>12</id>
+        <title>
+          <key>ru</key>
+          <value>Открыть файл</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -644,258 +648,148 @@
     <name>Группа_Шаг_4</name>
     <id>4</id>
     <items xsi:type="form:FormGroup">
-      <name>СтраницыШаг4</name>
-      <id>50</id>
-      <items xsi:type="form:FormGroup">
-        <name>СтраницаЗеленый</name>
-        <id>52</id>
-        <items xsi:type="form:Decoration">
-          <name>Декорация1</name>
-          <id>56</id>
-          <title>
-            <key>ru</key>
-            <value>Имя файла внешней обработки с модулем отладки на сервере</value>
-          </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>Декорация1РасширеннаяПодсказка</name>
-            <id>58</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>Декорация1КонтекстноеМеню</name>
-            <id>57</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </items>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
+      <name>Группа1</name>
+      <id>62</id>
+      <items xsi:type="form:FormField">
+        <name>ИмяФайлаВнешнейОбработкиОбработчиковСобытий</name>
+        <id>15</id>
         <title>
           <key>ru</key>
-          <value>Страница зеленый</value>
+          <value>Имя файла внешней обработки с модулем отладки на сервере</value>
         </title>
-        <extendedTooltip>
-          <name>СтраницаЗеленыйРасширеннаяПодсказка</name>
-          <id>53</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <type>Page</type>
-        <extInfo xsi:type="form:PageGroupExtInfo">
-          <group>Vertical</group>
-          <showTitle>true</showTitle>
-        </extInfo>
-      </items>
-      <items xsi:type="form:FormGroup">
-        <name>СтраницаКрасный</name>
-        <id>54</id>
-        <items xsi:type="form:Decoration">
-          <name>Декорация2</name>
-          <id>59</id>
-          <title>
-            <key>ru</key>
-            <value>Имя файла внешней обработки с модулем отладки на сервере</value>
-          </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>Декорация2РасширеннаяПодсказка</name>
-            <id>61</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>Декорация2КонтекстноеМеню</name>
-            <id>60</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <textColor xsi:type="core:ColorRef">
-            <color>Style.SpecialTextColor</color>
-          </textColor>
-          <font xsi:type="core:FontRef">
-            <font>Style.NormalTextFont</font>
-          </font>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
-        <title>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ИмяФайлаВнешнейОбработкиОбработчиковСобытий</segments>
+        </dataPath>
+        <titleLocation>None</titleLocation>
+        <toolTip>
           <key>ru</key>
-          <value>Страница красный</value>
-        </title>
-        <extendedTooltip>
-          <name>СтраницаКрасныйРасширеннаяПодсказка</name>
-          <id>55</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <type>Page</type>
-        <extInfo xsi:type="form:PageGroupExtInfo">
-          <group>Vertical</group>
-          <showTitle>true</showTitle>
-        </extInfo>
-      </items>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <title>
-        <key>ru</key>
-        <value>Страницы шаг 4</value>
-      </title>
-      <extendedTooltip>
-        <name>СтраницыШаг4РасширеннаяПодсказка</name>
-        <id>51</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <type>Pages</type>
-      <extInfo xsi:type="form:PagesGroupExtInfo">
-        <currentRowUse>Auto</currentRowUse>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>ИмяФайлаВнешнейОбработкиОбработчиковСобытий</name>
-      <id>15</id>
-      <title>
-        <key>ru</key>
-        <value>Имя файла внешней обработки с модулем отладки на сервере</value>
-      </title>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Объект.ИмяФайлаВнешнейОбработкиОбработчиковСобытий</segments>
-      </dataPath>
-      <titleLocation>None</titleLocation>
-      <handlers>
-        <event>OnChange</event>
-        <name>ИмяФайлаВнешнейОбработкиОбработчиковСобытийПриИзменении</name>
-      </handlers>
-      <extendedTooltip>
-        <name>ИмяФайлаВнешнейОбработкиОбработчиковСобытийExtendedTooltip</name>
-        <id>46</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ИмяФайлаВнешнейОбработкиОбработчиковСобытийКонтекстноеМеню</name>
-        <id>16</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
+          <value>123</value>
+        </toolTip>
+        <toolTipRepresentation>ShowBottom</toolTipRepresentation>
         <handlers>
-          <event>StartChoice</event>
-          <name>ИмяФайлаВнешнейОбработкиОбработчиковСобытийНачалоВыбора</name>
+          <event>OnChange</event>
+          <name>ИмяФайлаВнешнейОбработкиОбработчиковСобытийПриИзменении</name>
         </handlers>
+        <extendedTooltip>
+          <name>ИмяФайлаВнешнейОбработкиОбработчиковСобытийExtendedTooltip</name>
+          <id>46</id>
+          <title>
+            <key>ru</key>
+            <value>Путь к внешней обработке с модулем отладки на сервере или в общей сетевой папке. Или имя обработки конфигурации с модулем отладки</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <width>48</width>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ИмяФайлаВнешнейОбработкиОбработчиковСобытийКонтекстноеМеню</name>
+          <id>16</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <handlers>
+            <event>StartChoice</event>
+            <name>ИмяФайлаВнешнейОбработкиОбработчиковСобытийНачалоВыбора</name>
+          </handlers>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <choiceButton>true</choiceButton>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <items xsi:type="form:Button">
+        <name>ПроверитьДоступность</name>
+        <id>64</id>
+        <title>
+          <key>ru</key>
+          <value>Проверить доступность</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ПроверитьДоступностьРасширеннаяПодсказка</name>
+          <id>65</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualButton</type>
+        <commandName>Form.Command.ПроверитьДоступность</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <choiceButton>true</choiceButton>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Группа</value>
+      </title>
+      <extendedTooltip>
+        <name>Группа1РасширеннаяПодсказка</name>
+        <id>63</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>HorizontalIfPossible</group>
+        <behavior>Auto</behavior>
+        <showLeftMargin>true</showLeftMargin>
+        <united>true</united>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
     <visible>true</visible>
@@ -939,6 +833,10 @@
     <items xsi:type="form:Button">
       <name>Готово</name>
       <id>18</id>
+      <title>
+        <key>ru</key>
+        <value>Готово</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1043,6 +941,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -1144,6 +1043,27 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ПроверитьДоступность</name>
+    <title>
+      <key>ru</key>
+      <value>Проверить доступность</value>
+    </title>
+    <id>4</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Проверить доступность</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПроверитьДоступность</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <parameters>
     <name>ИмяОбработки</name>

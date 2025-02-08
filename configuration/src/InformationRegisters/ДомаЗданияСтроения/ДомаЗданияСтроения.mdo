@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18ba2c0c-d606-47ee-9409-66acb24bd794">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e520fbbb-3521-4707-bbe7-c8ead04fb2dc">
   <producedTypes>
-    <selectionType typeId="6825ed3a-e15b-4373-b93d-6e1d32e2ec51" valueTypeId="93741675-7c4f-45a0-ba32-660e12ffe85b"/>
-    <listType typeId="efd1ed41-6d0b-4899-9973-6418dae4daf6" valueTypeId="ddab87bc-607e-4870-bcd5-516d69fa3eb6"/>
-    <managerType typeId="68915c77-9427-441f-9be0-9455ef183911" valueTypeId="0cdbd636-085c-461e-8f42-a08c5a8df191"/>
-    <recordSetType typeId="abf73c3e-c6a9-4e20-bc4f-da082bfd82d5" valueTypeId="de73b0f4-5510-44d0-bf34-90548d70e77d"/>
-    <recordKeyType typeId="676d71c2-208e-4443-980e-4e2f04ce064c" valueTypeId="4175072d-1e28-4926-8d97-9d3dae447d35"/>
-    <recordType typeId="5fd576e0-854d-42f8-ab1a-810eb9e78c2f" valueTypeId="145272db-9818-44cf-b0af-7c21f1a4cfc9"/>
-    <recordManagerType typeId="ce11bd8d-86f8-4073-89cc-a12374187136" valueTypeId="0e0a8bda-20c9-442c-a5e7-96124530cf6b"/>
+    <selectionType typeId="229197cf-1a4a-46ee-80f1-554f1a977a01" valueTypeId="b08c8075-0de1-4dde-9079-9852a7f64fa5"/>
+    <listType typeId="5a6cbc3c-89f4-428c-95e0-2643418735fe" valueTypeId="5fd872a6-f8d7-4f4a-b5ea-5b79f4a16aab"/>
+    <managerType typeId="d06069e7-7b4d-4ea9-a617-9d8679340c96" valueTypeId="9e0a9cec-0a90-4ca7-9fa6-3a74f406db9d"/>
+    <recordSetType typeId="8e68ab91-70c3-42bf-a038-6c67ac2b73f3" valueTypeId="7d43f1cd-e76c-43d9-8f99-e4f68de36d0d"/>
+    <recordKeyType typeId="c93d7c8a-5e23-499a-903e-dd201067b885" valueTypeId="1e06b09e-d572-47e4-a31e-e693d9467e05"/>
+    <recordType typeId="a657406e-adf0-4e8f-9d0f-ab4ebb446869" valueTypeId="667befd2-34d0-4eb1-bb92-e027a5416ee4"/>
+    <recordManagerType typeId="405f0362-d820-4cca-9a68-8757a1bcc506" valueTypeId="1950c6bf-49d0-4d23-ab6a-9b6de30c3a3b"/>
   </producedTypes>
   <name>ДомаЗданияСтроения</name>
   <synonym>
@@ -50,7 +50,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <attributes uuid="9f24891c-3846-455a-bf95-be3b186f4342">
+  <attributes uuid="a87faa63-4e1c-440c-b852-0e4e1485a047">
     <name>Строения</name>
     <synonym>
       <key>ru</key>
@@ -64,7 +64,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <dimensions uuid="ddc332d9-1d60-40fe-87fd-7f2164db1edf">
+  <dimensions uuid="36244ad9-5b3a-431e-9dbf-b05ee9da1188">
     <name>АдресныйОбъект</name>
     <synonym>
       <key>ru</key>
@@ -79,7 +79,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="d0e3c3a5-e74c-4c0a-8679-77e6a097eb36">
+  <dimensions uuid="6cf7fd67-e426-4fe3-a49d-fbcfae5fb52d">
     <name>КодСубъектаРФ</name>
     <synonym>
       <key>ru</key>
@@ -98,7 +98,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="20c43755-49cc-4f11-bd2f-52a9e53547ef">
+  <dimensions uuid="92c4d60b-22df-4fef-a5b9-a97bc63b4858">
     <name>ДополнительныеАдресныеСведения</name>
     <synonym>
       <key>ru</key>

@@ -54,6 +54,10 @@
     <items xsi:type="form:FormField">
       <name>ОтборПоСтатусуСопоставления</name>
       <id>30</id>
+      <title>
+        <key>ru</key>
+        <value>Выводить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -150,6 +154,10 @@
       <items xsi:type="form:Button">
         <name>ЗаписатьИЗакрыть</name>
         <id>271</id>
+        <title>
+          <key>ru</key>
+          <value>Записать и закрыть</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -182,6 +190,10 @@
       <items xsi:type="form:Button">
         <name>ЗаписатьОбновить</name>
         <id>270</id>
+        <title>
+          <key>ru</key>
+          <value>Записать</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -216,6 +228,10 @@
         <items xsi:type="form:Button">
           <name>ВыполнитьАвтоматическоеСопоставление</name>
           <id>71</id>
+          <title>
+            <key>ru</key>
+            <value>Сопоставить автоматически...</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -247,6 +263,10 @@
         <items xsi:type="form:Button">
           <name>ДобавитьСопоставление</name>
           <id>163</id>
+          <title>
+            <key>ru</key>
+            <value>Установить соответствие</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -278,6 +298,10 @@
         <items xsi:type="form:Button">
           <name>ОтменитьСопоставление</name>
           <id>33</id>
+          <title>
+            <key>ru</key>
+            <value>Отменить соответствие</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -311,6 +335,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Связи</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаСвязиExtendedTooltip</name>
           <id>346</id>
@@ -331,6 +359,10 @@
       <items xsi:type="form:Button">
         <name>Обновить</name>
         <id>39</id>
+        <title>
+          <key>ru</key>
+          <value>Обновить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -428,6 +460,10 @@
         <items xsi:type="form:Button">
           <name>Сортировка</name>
           <id>167</id>
+          <title>
+            <key>ru</key>
+            <value>Сортировать</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -462,6 +498,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Найти</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаНайтиExtendedTooltip</name>
           <id>351</id>
@@ -482,6 +522,10 @@
       <items xsi:type="form:Button">
         <name>ВыполнитьЗагрузкуДанных</name>
         <id>282</id>
+        <title>
+          <key>ru</key>
+          <value>Загрузить данные из другой программы</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -517,6 +561,10 @@
         <items xsi:type="form:Button">
           <name>ИзменитьСписокПолейТаблицы</name>
           <id>266</id>
+          <title>
+            <key>ru</key>
+            <value>Колонки...</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -551,6 +599,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Подменю настройки</value>
+        </title>
         <extendedTooltip>
           <name>ПодменюНастройкиExtendedTooltip</name>
           <id>356</id>
@@ -638,6 +690,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Форма группа вывести список</value>
+        </title>
         <extendedTooltip>
           <name>ФормаГруппаВывестиСписокExtendedTooltip</name>
           <id>358</id>
@@ -754,6 +810,63 @@
         <excludedCommands>SelectAll</excludedCommands>
         <excludedCommands>SortListAsc</excludedCommands>
         <excludedCommands>SortListDesc</excludedCommands>
+        <items xsi:type="form:FormField">
+          <name>ТаблицаСопоставленияСопоставлениеПоСсылкеКартинка</name>
+          <id>419</id>
+          <title>
+            <key>ru</key>
+            <value>Сопоставление по ссылке картинка</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ТаблицаСопоставления.СопоставлениеПоСсылкеКартинка</segments>
+          </dataPath>
+          <titleLocation>None</titleLocation>
+          <extendedTooltip>
+            <name>ТаблицаСопоставленияСопоставлениеПоСсылкеКартинкаРасширеннаяПодсказка</name>
+            <id>421</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ТаблицаСопоставленияСопоставлениеПоСсылкеКартинкаКонтекстноеМеню</name>
+            <id>420</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>PictureField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:ImageFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <horizontalStretch>true</horizontalStretch>
+            <verticalStretch>true</verticalStretch>
+            <valuesPicture xsi:type="core:PictureRef">
+              <picture>StdPicture.GetURL</picture>
+            </valuesPicture>
+            <fileDragMode>AsFileRef</fileDragMode>
+          </extInfo>
+        </items>
         <items xsi:type="form:FormGroup">
           <name>ДанныеЭтойПрограммы</name>
           <id>306</id>
@@ -763,6 +876,10 @@
             <items xsi:type="form:FormField">
               <name>ТаблицаСопоставленияПриемникИндексКартинки</name>
               <id>285</id>
+              <title>
+                <key>ru</key>
+                <value>Приемник индекс картинки</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -815,6 +932,10 @@
             <items xsi:type="form:FormField">
               <name>ТаблицаСопоставленияПриемникПоле1</name>
               <id>48</id>
+              <title>
+                <key>ru</key>
+                <value>Приемник поле1</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -865,6 +986,10 @@
             <items xsi:type="form:FormField">
               <name>ТаблицаСопоставленияПриемникПоле2</name>
               <id>50</id>
+              <title>
+                <key>ru</key>
+                <value>Приемник поле2</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -915,6 +1040,10 @@
             <items xsi:type="form:FormField">
               <name>ТаблицаСопоставленияПриемникПоле3</name>
               <id>52</id>
+              <title>
+                <key>ru</key>
+                <value>Приемник поле3</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -965,6 +1094,10 @@
             <items xsi:type="form:FormField">
               <name>ТаблицаСопоставленияПриемникПоле4</name>
               <id>54</id>
+              <title>
+                <key>ru</key>
+                <value>Приемник поле4</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1015,6 +1148,10 @@
             <items xsi:type="form:FormField">
               <name>ТаблицаСопоставленияПриемникПоле5</name>
               <id>56</id>
+              <title>
+                <key>ru</key>
+                <value>Приемник поле5</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1136,6 +1273,10 @@
             <items xsi:type="form:FormField">
               <name>ТаблицаСопоставленияИсточникИндексКартинки</name>
               <id>283</id>
+              <title>
+                <key>ru</key>
+                <value>Источник индекс картинки</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1186,6 +1327,10 @@
             <items xsi:type="form:FormField">
               <name>ТаблицаСопоставленияИсточникПоле1</name>
               <id>58</id>
+              <title>
+                <key>ru</key>
+                <value>Источник поле1</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1236,6 +1381,10 @@
             <items xsi:type="form:FormField">
               <name>ТаблицаСопоставленияИсточникПоле2</name>
               <id>60</id>
+              <title>
+                <key>ru</key>
+                <value>Источник поле2</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1286,6 +1435,10 @@
             <items xsi:type="form:FormField">
               <name>ТаблицаСопоставленияИсточникПоле3</name>
               <id>62</id>
+              <title>
+                <key>ru</key>
+                <value>Источник поле3</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1336,6 +1489,10 @@
             <items xsi:type="form:FormField">
               <name>ТаблицаСопоставленияИсточникПоле4</name>
               <id>64</id>
+              <title>
+                <key>ru</key>
+                <value>Источник поле4</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1386,6 +1543,10 @@
             <items xsi:type="form:FormField">
               <name>ТаблицаСопоставленияИсточникПоле5</name>
               <id>66</id>
+              <title>
+                <key>ru</key>
+                <value>Источник поле5</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1654,6 +1815,10 @@
             <items xsi:type="form:Button">
               <name>КонтекстноеМенюТаблицаСопоставленияДобавитьСопоставление</name>
               <id>279</id>
+              <title>
+                <key>ru</key>
+                <value>Установить соответствие</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1685,6 +1850,10 @@
             <items xsi:type="form:Button">
               <name>КонтекстноеМенюТаблицаСопоставленияОтменитьСопоставление</name>
               <id>280</id>
+              <title>
+                <key>ru</key>
+                <value>Отменить соответствие</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1718,6 +1887,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Таблица сопоставления контекстное меню группа связи</value>
+            </title>
             <extendedTooltip>
               <name>ТаблицаСопоставленияКонтекстноеМенюГруппаСвязиExtendedTooltip</name>
               <id>363</id>
@@ -1803,6 +1976,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Таблица сопоставления контекстное меню группа найти</value>
+            </title>
             <extendedTooltip>
               <name>ТаблицаСопоставленияКонтекстноеМенюГруппаНайтиExtendedTooltip</name>
               <id>366</id>
@@ -1823,6 +2000,10 @@
           <items xsi:type="form:Button">
             <name>ТаблицаСопоставленияКонтекстноеМенюСортировка</name>
             <id>291</id>
+            <title>
+              <key>ru</key>
+              <value>Сортировать</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1918,6 +2099,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Таблица сопоставления контекстное меню группа вывести список</value>
+            </title>
             <extendedTooltip>
               <name>ТаблицаСопоставленияКонтекстноеМенюГруппаВывестиСписокExtendedTooltip</name>
               <id>370</id>
@@ -2618,13 +2803,17 @@
       <skipOnInput>false</skipOnInput>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Информация</picture>
+          <picture>StdPicture.Information</picture>
         </picture>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>КоличествоОбъектовСопоставленных</name>
       <id>316</id>
+      <title>
+        <key>ru</key>
+        <value>Сопоставлено</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -2720,6 +2909,10 @@
     <items xsi:type="form:FormField">
       <name>КоличествоОбъектовНесопоставленных</name>
       <id>277</id>
+      <title>
+        <key>ru</key>
+        <value>Не сопоставлено</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -2888,6 +3081,7 @@
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -3329,6 +3523,39 @@
         <numberQualifiers>
           <precision>1</precision>
           <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СопоставлениеПоСсылке</name>
+      <id>27</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СопоставлениеПоСсылкеКартинка</name>
+      <title>
+        <key>ru</key>
+        <value>Сопоставление по ссылке картинка</value>
+      </title>
+      <id>28</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
         </numberQualifiers>
       </valueType>
       <view>

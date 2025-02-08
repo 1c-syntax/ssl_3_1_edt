@@ -5,11 +5,11 @@
     <value>Регистрация событий доступа к персональным данным</value>
   </title>
   <items xsi:type="form:Table">
-    <name>ОбластиПерсональныхДанных</name>
+    <name>КатегорииПерсональныхДанных</name>
     <id>7</id>
     <title>
       <key>ru</key>
-      <value>Области персональных данных</value>
+      <value>Категории персональных данных</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -17,11 +17,11 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>ОбластиПерсональныхДанных</segments>
+      <segments>КатегорииПерсональныхДанных</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <autoCommandBar>
-      <name>ОбластиПерсональныхДанныхКоманднаяПанель</name>
+      <name>КатегорииПерсональныхДанныхКоманднаяПанель</name>
       <id>9</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -37,10 +37,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>ОбластиПерсональныхДанныхSearchString</name>
+      <name>КатегорииПерсональныхДанныхСтрокаПоиска</name>
       <id>13</id>
       <extendedTooltip>
-        <name>ОбластиПерсональныхДанныхSearchStringExtendedTooltip</name>
+        <name>КатегорииПерсональныхДанныхСтрокаПоискаРасширеннаяПодсказка</name>
         <id>15</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -55,7 +55,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ОбластиПерсональныхДанныхSearchStringContextMenu</name>
+        <name>КатегорииПерсональныхДанныхСтрокаПоискаКонтекстноеМеню</name>
         <id>14</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -64,7 +64,7 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <source>ОбластиПерсональныхДанныхSearchString</source>
+      <source>КатегорииПерсональныхДанныхСтрокаПоиска</source>
       <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -75,10 +75,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>ОбластиПерсональныхДанныхViewStatus</name>
+      <name>КатегорииПерсональныхДанныхСостояниеПросмотра</name>
       <id>16</id>
       <extendedTooltip>
-        <name>ОбластиПерсональныхДанныхViewStatusExtendedTooltip</name>
+        <name>КатегорииПерсональныхДанныхСостояниеПросмотраРасширеннаяПодсказка</name>
         <id>18</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -93,7 +93,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ОбластиПерсональныхДанныхViewStatusContextMenu</name>
+        <name>КатегорииПерсональныхДанныхСостояниеПросмотраКонтекстноеМеню</name>
         <id>17</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -103,7 +103,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>ViewStatusAddition</type>
-      <source>ОбластиПерсональныхДанныхViewStatus</source>
+      <source>КатегорииПерсональныхДанныхСостояниеПросмотра</source>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
@@ -114,10 +114,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <name>ОбластиПерсональныхДанныхSearchControl</name>
+      <name>КатегорииПерсональныхДанныхУправлениеПоиском</name>
       <id>19</id>
       <extendedTooltip>
-        <name>ОбластиПерсональныхДанныхSearchControlExtendedTooltip</name>
+        <name>КатегорииПерсональныхДанныхУправлениеПоискомРасширеннаяПодсказка</name>
         <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -132,7 +132,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ОбластиПерсональныхДанныхSearchControlContextMenu</name>
+        <name>КатегорииПерсональныхДанныхУправлениеПоискомКонтекстноеМеню</name>
         <id>20</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -142,13 +142,13 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>SearchControlAddition</type>
-      <source>ОбластиПерсональныхДанныхSearchControl</source>
+      <source>КатегорииПерсональныхДанныхУправлениеПоиском</source>
       <extInfo xsi:type="form:SearchControlAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ОбластиПерсональныхДанныхExtendedTooltip</name>
+      <name>КатегорииПерсональныхДанныхРасширеннаяПодсказка</name>
       <id>11</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -163,7 +163,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ОбластиПерсональныхДанныхКонтекстноеМеню</name>
+      <name>КатегорииПерсональныхДанныхКонтекстноеМеню</name>
       <id>8</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -207,7 +207,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>ДекорацияРегистрацияСобытияДоступНадписьExtendedTooltip</name>
+      <name>ДекорацияРегистрацияСобытияДоступНадписьРасширеннаяПодсказка</name>
       <id>12</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -247,13 +247,17 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписатьИЗакрыть</name>
       <id>6</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗаписатьИЗакрытьExtendedTooltip</name>
+        <name>ФормаЗаписатьИЗакрытьРасширеннаяПодсказка</name>
         <id>10</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -292,6 +296,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -300,10 +305,10 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
-    <name>ОбластиПерсональныхДанных</name>
+    <name>КатегорииПерсональныхДанных</name>
     <title>
       <key>ru</key>
-      <value>Области персональных данных</value>
+      <value>Категории персональных данных</value>
     </title>
     <id>1</id>
     <valueType>

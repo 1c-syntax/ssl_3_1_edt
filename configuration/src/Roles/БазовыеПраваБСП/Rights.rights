@@ -91,6 +91,20 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.ПроверкаФайлаОбновления</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.Сканирование.Command.СканироватьЛист</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ПериодыНерабочихДнейКалендаря</name>
 		<right>
 			<name>Read</name>
@@ -221,6 +235,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.РазблокированиеРеквизитов</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ЗапрещатьЗагрузкуФайловПоРасширению</name>
 		<right>
 			<name>Read</name>
@@ -232,7 +253,29 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonAttribute.ОтредактированныеПредопределенныеРеквизиты</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.РегиональныеНастройки</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ЗаявленияНаВыпускСертификата</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -266,17 +309,6 @@
 	</object>
 	<object>
 		<name>Constant.СоздаватьПодкаталогиСИменамиВладельцев</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ДомаЗданияСтроения</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -395,6 +427,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ИсторияАдминистративнойИерархии</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ВерсияКлассификатораБанков</name>
 		<right>
 			<name>Read</name>
@@ -424,6 +467,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ИерархияГруппПользователей</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ИспользоватьПризнакРассмотрено</name>
 		<right>
 			<name>Read</name>
@@ -436,6 +490,17 @@
 	</object>
 	<object>
 		<name>InformationRegister.ПредопределенныеВариантыОтчетовВерсийРасширений</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ДобавлятьМеткиВремениАвтоматически</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -468,9 +533,23 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.ЭлектроннаяПодпись</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ИспользованиеПоставляемыхДополнительныхОтчетовИОбработокВОбластяхДанных</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.РедактированиеДокументаOfficeOpen</name>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -482,6 +561,20 @@
 		</right>
 		<right>
 			<name>Edit</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.НастройкиЭлектроннойПодписиИШифрования</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.ФормаВыбораЦвета</name>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -503,6 +596,33 @@
 		<name>CommonForm.ПраваДоступаУпрощенно</name>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Configuration.БиблиотекаСтандартныхПодсистем</name>
+		<right>
+			<name>MainWindowModeNormal</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeEmbeddedWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeFullscreenWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeKiosk</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>AnalyticsSystemClient</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -744,6 +864,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.ВопросОбУстановкеРасширенияРаботыСКриптографией</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.ВыборРолиИсполнителя</name>
 		<right>
 			<name>View</name>
@@ -787,9 +914,31 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.УсовершенствоватьПодписиАвтоматически</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.СписокРасширенийФайловOpenDocument</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.ЗаявлениеНаВыпускНовогоКвалифицированногоСертификата</name>
+		<right>
+			<name>Use</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -907,6 +1056,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.РезультатПроверки</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ОсновнойЯзык</name>
 		<right>
 			<name>Read</name>
@@ -991,6 +1147,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.ХранитьИсториюРассылкиОтчетов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.ФормаНастроекОтчета</name>
 		<right>
 			<name>View</name>
@@ -1006,6 +1173,24 @@
 	</object>
 	<object>
 		<name>CommonForm.РасширенноеПредставлениеОшибки</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.РазрешенныеНеаккредитованныеУЦ</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.ОтчетОСохраненииФайловЭлектронныхПодписей</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -1044,6 +1229,17 @@
 		<name>Constant.ИспользоватьДополнительныеРеквизитыИСведения</name>
 		<right>
 			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.Сканирование</name>
+		<right>
+			<name>Use</name>
 			<value>true</value>
 		</right>
 		<right>
@@ -1231,6 +1427,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.ИспользоватьГруппыВнешнихПользователей</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ИспользоватьДатуИВремяВСрокахЗадач</name>
 		<right>
 			<name>Read</name>
@@ -1238,6 +1445,50 @@
 		</right>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.СохранениеВместеСЭлектроннойПодписью</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.КлассификаторыМЧД</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ИспользоватьКомандуЗаметки</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.СертификатыКлючейЭлектроннойПодписиИШифрования</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1253,7 +1504,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.ИспользоватьСервисОблачнойПодписи</name>
+		<name>Constant.ИспользоватьСервисDSS</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1293,6 +1544,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.КонтрольИзмененияРолейПользователяИБ</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.СоставыГруппПользователей</name>
 		<right>
 			<name>Read</name>
@@ -1315,7 +1573,29 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.ИспользоватьКомандуНапоминаний</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ПользовательскиеМакетыПечати</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.МуниципальнаяИерархия</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1333,7 +1613,40 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.АдресаСерверовМетокВремени</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.ПодготовкаНовогоПисьма</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.КоличествоМесяцевХраненияИсторииРассылкиОтчетов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.КоличествоПотоковДлительныхОпераций</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -1397,6 +1710,17 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ИсторияМуниципальнойИерархии</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ИспользоватьПолнотекстовыйПоиск</name>
 		<right>
 			<name>Read</name>
@@ -1427,6 +1751,17 @@
 	</object>
 	<object>
 		<name>CommonForm.ВыборТиповПользователей</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.НастройкиКомандПечати</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -1623,7 +1958,29 @@
 		</right>
 	</object>
 	<object>
+		<name>Report.СертификатыЭлектроннойПодписи</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonForm.НастройкаРабочегоКаталога</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.СтандартныеПодсистемыВАвтономномРежиме</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -1674,6 +2031,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.ФормаВыбораШрифта</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.МаксимальныйРазмерФайлаОбластиДанных</name>
 		<right>
 			<name>Read</name>
@@ -1697,6 +2061,21 @@
 	</object>
 	<object>
 		<name>Catalog.УчетныеЗаписиСинхронизацииФайлов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ПрограммыЭлектроннойПодписиИШифрования</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1737,7 +2116,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.ИспользоватьОнлайнПоддержку</name>
+		<name>InformationRegister.АдминистративнаяИерархия</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1760,17 +2139,6 @@
 	</object>
 	<object>
 		<name>Constant.ИспользоватьНесколькоПроизводственныхКалендарей</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.АдресныеОбъекты</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1825,6 +2193,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.Сертификат</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Catalog.КлассификаторБанков</name>
 		<right>
 			<name>Read</name>
@@ -1836,6 +2211,17 @@
 		</right>
 		<right>
 			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ЗемельныеУчастки</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -1859,17 +2245,6 @@
 	</object>
 	<object>
 		<name>Constant.СписокЗапрещенныхРасширений</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.СвязиАдресныхОбъектов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1966,7 +2341,29 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.КаталогВременныхФайловДляWindows</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ИспользоватьНапоминанияПользователя</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ТипПодписиКриптографииПоУмолчанию</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -2076,6 +2473,24 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.АдресныеОбъекты</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.РазрешенныеНеаккредитованныеУЦ</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ИспользоватьРазделениеПоОбластямДанных</name>
 		<right>
 			<name>Read</name>
@@ -2121,6 +2536,24 @@
 	</object>
 	<object>
 		<name>Constant.СведенияОбОбновленииИБ</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.РедактированиеМеток</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.РегистрироватьИзмененияПравДоступа</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -2182,47 +2615,9 @@
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ЗемельныеУчастки</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>SessionParameter.ОтключениеОбновленияКлючейДоступа</name>
 		<right>
 			<name>Get</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Configuration.БиблиотекаСтандартныхПодсистем</name>
-		<right>
-			<name>MainWindowModeNormal</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeEmbeddedWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeFullscreenWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeKiosk</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>AnalyticsSystemClient</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -2285,6 +2680,32 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.КаталогВременныхФайловДляLinux</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.МакетыПечатныхФорм</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ИдентификаторыОбъектовВерсийРасширений</name>
 		<right>
 			<name>Read</name>
@@ -2343,7 +2764,25 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.ПечатьДокументовOfficeOpen</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>CommonCommand.ПерсональнаяНастройкаПроксиСервера</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ДомаЗданияСтроения</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -2390,6 +2829,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.СвойстваИсправленийПередОбновлениемИБ</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>SessionParameter.ДействующиеДатыЗапретаИзменения</name>
 		<right>
 			<name>Get</name>
@@ -2405,17 +2855,6 @@
 	</object>
 	<object>
 		<name>Constant.ПараметрыХраненияФайловВИБ</name>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ОриентирыАдресныхОбъектов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -2556,6 +2995,17 @@
 		<name>SessionParameter.ОбластьДанныхЗначение</name>
 		<right>
 			<name>Get</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.УсовершенствоватьПодписиСДаты</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>

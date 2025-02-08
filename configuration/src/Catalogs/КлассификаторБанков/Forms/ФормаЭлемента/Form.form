@@ -15,7 +15,7 @@
         <segments>Объект.Description</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>29</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -67,7 +67,7 @@
         <segments>Объект.Parent</segments>
       </dataPath>
       <extendedTooltip>
-        <name>РодительExtendedTooltip</name>
+        <name>РодительРасширеннаяПодсказка</name>
         <id>35</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -170,7 +170,7 @@
         <segments>Объект.Телефоны</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТелефоныExtendedTooltip</name>
+        <name>ТелефоныРасширеннаяПодсказка</name>
         <id>37</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -304,7 +304,7 @@
         <value>Страница надпись деятельность прекращена</value>
       </title>
       <extendedTooltip>
-        <name>СтраницаНадписьДеятельностьПрекращенаExtendedTooltip</name>
+        <name>СтраницаНадписьДеятельностьПрекращенаРасширеннаяПодсказка</name>
         <id>25</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -385,7 +385,7 @@
         <value>Страница флажок деятельность прекращена</value>
       </title>
       <extendedTooltip>
-        <name>СтраницаФлажокДеятельностьПрекращенаExtendedTooltip</name>
+        <name>СтраницаФлажокДеятельностьПрекращенаРасширеннаяПодсказка</name>
         <id>27</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -415,7 +415,7 @@
       <value>Страницы деятельность прекращена</value>
     </title>
     <extendedTooltip>
-      <name>СтраницыДеятельностьПрекращенаExtendedTooltip</name>
+      <name>СтраницыДеятельностьПрекращенаРасширеннаяПодсказка</name>
       <id>24</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -455,7 +455,7 @@
             <segments>Объект.Code</segments>
           </dataPath>
           <extendedTooltip>
-            <name>КодExtendedTooltip</name>
+            <name>КодРасширеннаяПодсказка</name>
             <id>32</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -539,7 +539,7 @@
           <segments>Объект.КоррСчет</segments>
         </dataPath>
         <extendedTooltip>
-          <name>КоррСчетExtendedTooltip</name>
+          <name>КоррСчетРасширеннаяПодсказка</name>
           <id>31</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -589,7 +589,7 @@
         <value>Корр счет БИК</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаКоррСчетБИКExtendedTooltip</name>
+        <name>ГруппаКоррСчетБИКРасширеннаяПодсказка</name>
         <id>30</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -623,7 +623,7 @@
         <segments>Объект.Город</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ГородExtendedTooltip</name>
+        <name>ГородРасширеннаяПодсказка</name>
         <id>34</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -674,7 +674,7 @@
         <segments>Объект.Адрес</segments>
       </dataPath>
       <extendedTooltip>
-        <name>АдресExtendedTooltip</name>
+        <name>АдресРасширеннаяПодсказка</name>
         <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1128,6 +1128,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

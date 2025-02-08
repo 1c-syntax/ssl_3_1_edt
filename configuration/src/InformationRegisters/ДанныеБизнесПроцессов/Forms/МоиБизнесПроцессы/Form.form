@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
   <title>
     <key>ru</key>
     <value>Мои бизнес-процессы</value>
@@ -78,13 +78,17 @@
     <items xsi:type="form:Button">
       <name>ФормаПометкаУдаления</name>
       <id>31</id>
+      <title>
+        <key>ru</key>
+        <value>Пометить на удаление / Снять пометку</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаПометкаУдаленияExtendedTooltip</name>
+        <name>ФормаПометкаУдаленияРасширеннаяПодсказка</name>
         <id>47</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -118,7 +122,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаОтменитьПоискExtendedTooltip</name>
+          <name>ФормаОтменитьПоискРасширеннаяПодсказка</name>
           <id>49</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -148,7 +152,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаНайтиExtendedTooltip</name>
+          <name>ФормаНайтиРасширеннаяПодсказка</name>
           <id>50</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -179,7 +183,7 @@
         <value>Поиск</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаПоискExtendedTooltip</name>
+        <name>ГруппаПоискРасширеннаяПодсказка</name>
         <id>48</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -198,6 +202,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗадачиБизнесПроцесса</name>
       <id>88</id>
+      <title>
+        <key>ru</key>
+        <value>Задачи</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -228,13 +236,17 @@
     <items xsi:type="form:Button">
       <name>ФормаКартаМаршрута</name>
       <id>35</id>
+      <title>
+        <key>ru</key>
+        <value>Карта маршрута</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаКартаМаршрутаExtendedTooltip</name>
+        <name>ФормаКартаМаршрутаРасширеннаяПодсказка</name>
         <id>51</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -316,7 +328,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>НомерExtendedTooltip</name>
+        <name>НомерРасширеннаяПодсказка</name>
         <id>60</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -365,7 +377,7 @@
         <segments>Список.Наименование</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>61</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -415,7 +427,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>ДатаExtendedTooltip</name>
+        <name>ДатаРасширеннаяПодсказка</name>
         <id>62</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -470,7 +482,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>ДатаЗавершенияExtendedTooltip</name>
+        <name>ДатаЗавершенияРасширеннаяПодсказка</name>
         <id>65</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -565,7 +577,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.БизнесПроцесс.Состояние</segments>
+        <segments>Список.Состояние</segments>
       </dataPath>
       <extendedTooltip>
         <name>БизнесПроцессСостояниеРасширеннаяПодсказка</name>
@@ -739,7 +751,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>59</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -765,7 +777,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СписокКонтекстноеМенюИзменитьExtendedTooltip</name>
+          <name>СписокКонтекстноеМенюИзменитьРасширеннаяПодсказка</name>
           <id>52</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -789,13 +801,17 @@
       <items xsi:type="form:Button">
         <name>СписокКонтекстноеМенюПометкаУдаления</name>
         <id>46</id>
+        <title>
+          <key>ru</key>
+          <value>Пометить на удаление / Снять пометку</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СписокКонтекстноеМенюПометкаУдаленияExtendedTooltip</name>
+          <name>СписокКонтекстноеМенюПометкаУдаленияРасширеннаяПодсказка</name>
           <id>53</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -828,7 +844,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокКонтекстноеМенюНайтиExtendedTooltip</name>
+            <name>СписокКонтекстноеМенюНайтиРасширеннаяПодсказка</name>
             <id>55</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -858,7 +874,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокКонтекстноеМенюОтменитьПоискExtendedTooltip</name>
+            <name>СписокКонтекстноеМенюОтменитьПоискРасширеннаяПодсказка</name>
             <id>56</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -889,7 +905,7 @@
           <value>Контекстное меню группа</value>
         </title>
         <extendedTooltip>
-          <name>СписокКонтекстноеМенюГруппаExtendedTooltip</name>
+          <name>СписокКонтекстноеМенюГруппаРасширеннаяПодсказка</name>
           <id>54</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -908,13 +924,17 @@
       <items xsi:type="form:Button">
         <name>СписокКонтекстноеМенюКартаМаршрута</name>
         <id>41</id>
+        <title>
+          <key>ru</key>
+          <value>Карта маршрута</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СписокКонтекстноеМенюКартаМаршрутаExtendedTooltip</name>
+          <name>СписокКонтекстноеМенюКартаМаршрутаРасширеннаяПодсказка</name>
           <id>57</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -944,7 +964,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СписокКонтекстноеМенюКопироватьВБуферОбменаExtendedTooltip</name>
+          <name>СписокКонтекстноеМенюКопироватьВБуферОбменаРасширеннаяПодсказка</name>
           <id>58</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1001,12 +1021,17 @@
         <endDate>0001-01-01T00:00:00</endDate>
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
       <userSettingsGroup>ГруппаПользовательскихНастроек</userSettingsGroup>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
     <name>ПоказыватьЗавершенные</name>
     <id>29</id>
+    <title>
+      <key>ru</key>
+      <value>Показывать завершенные</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -1021,7 +1046,7 @@
       <name>ПоказыватьЗавершенныеПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>ПоказыватьЗавершенныеExtendedTooltip</name>
+      <name>ПоказыватьЗавершенныеРасширеннаяПодсказка</name>
       <id>66</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1069,6 +1094,10 @@
     <name>ОбработкаОповещения</name>
   </handlers>
   <handlers>
+    <event>OnLoadDataFromSettingsAtServer</event>
+    <name>ПриЗагрузкеДанныхИзНастроекНаСервере</name>
+  </handlers>
+  <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
@@ -1077,6 +1106,7 @@
     <name>ПриЗагрузкеДанныхИзНастроекНаСервере</name>
   </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -1117,12 +1147,13 @@
 	РегистрСведенийДанныеБизнесПроцессов.ДатаЗавершения,
 	РегистрСведенийДанныеБизнесПроцессов.Наименование,
 	РегистрСведенийДанныеБизнесПроцессов.ПометкаУдаления,
+	РегистрСведенийДанныеБизнесПроцессов.Состояние,
 	ВЫБОР
 		КОГДА РегистрСведенийДанныеБизнесПроцессов.ПометкаУдаления
 			ТОГДА 6
 		КОГДА РегистрСведенийДанныеБизнесПроцессов.Завершен = ИСТИНА
 			ТОГДА 5
-		КОГДА РегистрСведенийДанныеБизнесПроцессов.Владелец.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияБизнесПроцессов.Остановлен)
+		КОГДА РегистрСведенийДанныеБизнесПроцессов.Состояние = ЗНАЧЕНИЕ(Перечисление.СостоянияБизнесПроцессов.Остановлен)
 			ТОГДА 0
 		КОГДА РегистрСведенийДанныеБизнесПроцессов.Стартован = ИСТИНА
 			ТОГДА 3
@@ -1150,6 +1181,78 @@
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Состояние</dataPath>
+        <field>Состояние</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>БизнесПроцесс</dataPath>
+        <field>БизнесПроцесс</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Бизнес процесс</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Номер</dataPath>
+        <field>Номер</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Дата</dataPath>
+        <field>Дата</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Завершен</dataPath>
+        <field>Завершен</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Стартован</dataPath>
+        <field>Стартован</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Автор</dataPath>
+        <field>Автор</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаЗавершения</dataPath>
+        <field>ДатаЗавершения</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Наименование</dataPath>
+        <field>Наименование</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>КартинкаСтроки</dataPath>
+        <field>КартинкаСтроки</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Картинка строки</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Отложен</dataPath>
+        <field>Отложен</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Отложен</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
     </extInfo>
   </attributes>
   <attributes>

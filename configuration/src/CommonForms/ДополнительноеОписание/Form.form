@@ -3,6 +3,10 @@
   <items xsi:type="form:FormField">
     <name>ПолеHTMLДокумента</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Поле HTMLДокумента</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -108,6 +112,7 @@
   <excludedCommands>Retry</excludedCommands>
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <enabled>true</enabled>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
   <title>
     <key>ru</key>
     <value>Взаимодействия</value>
@@ -20,7 +20,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>КартинкаПредупреждениеРасширеннаяПодсказка1</name>
+        <name>ПредупреждениеОНеотправленныхПисьмахКартинкаРасширеннаяПодсказка</name>
         <id>930</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -35,7 +35,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>КартинкаПредупреждениеКонтекстноеМеню1</name>
+        <name>ПредупреждениеОНеотправленныхПисьмахКартинкаКонтекстноеМеню</name>
         <id>929</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -67,7 +67,7 @@
       </userVisible>
       <toolTipRepresentation>Button</toolTipRepresentation>
       <extendedTooltip>
-        <name>ПредупреждениеОНебезопасномСодержимомРасширеннаяПодсказка1</name>
+        <name>ПредупреждениеОНеотправленныхПисьмахНадписьРасширеннаяПодсказка</name>
         <id>933</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -82,7 +82,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ПредупреждениеОНебезопасномСодержимомКонтекстноеМеню1</name>
+        <name>ПредупреждениеОНеотправленныхПисьмахНадписьКонтекстноеМеню</name>
         <id>932</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -114,7 +114,7 @@
       <value>Группа предупреждение</value>
     </title>
     <extendedTooltip>
-      <name>ПредупреждениеБезопасностиРасширеннаяПодсказка1</name>
+      <name>ПредупреждениеОНеотправленныхПисьмахРасширеннаяПодсказка</name>
       <id>927</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -198,7 +198,7 @@
         <name>СтрокаПоискаПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>СтрокаПоискаExtendedTooltip</name>
+        <name>СтрокаПоискаРасширеннаяПодсказка</name>
         <id>421</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -265,7 +265,7 @@
         <name>ТипВзаимодействияПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ТипВзаимодействияExtendedTooltip</name>
+        <name>ТипВзаимодействияРасширеннаяПодсказка</name>
         <id>417</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -430,6 +430,10 @@
     <items xsi:type="form:FormField">
       <name>Статус</name>
       <id>67</id>
+      <title>
+        <key>ru</key>
+        <value>Статус</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
@@ -441,7 +445,7 @@
         <name>СтатусПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>СтатусExtendedTooltip</name>
+        <name>СтатусРасширеннаяПодсказка</name>
         <id>418</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -540,7 +544,7 @@
         <name>ОтветственныйПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ПользовательExtendedTooltip</name>
+        <name>ПользовательРасширеннаяПодсказка</name>
         <id>419</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -591,7 +595,7 @@
     </title>
     <enableContentChange>true</enableContentChange>
     <extendedTooltip>
-      <name>ГруппаФильтрыExtendedTooltip</name>
+      <name>ГруппаФильтрыРасширеннаяПодсказка</name>
       <id>416</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -625,6 +629,10 @@
       <items xsi:type="form:Button">
         <name>ИзменитьОтображениеПанелиНавигации</name>
         <id>830</id>
+        <title>
+          <key>ru</key>
+          <value>Изменить отображение панели навигации</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -661,13 +669,17 @@
         <items xsi:type="form:Button">
           <name>УстановитьВариантНавигацииПоПредмету</name>
           <id>27</id>
+          <title>
+            <key>ru</key>
+            <value>По предметам</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>УстановитьВариантНавигацииПоПредметуExtendedTooltip</name>
+            <name>УстановитьВариантНавигацииПоПредметуРасширеннаяПодсказка</name>
             <id>426</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -693,13 +705,17 @@
         <items xsi:type="form:Button">
           <name>УстановитьВариантНавигацииПоКонтакту</name>
           <id>28</id>
+          <title>
+            <key>ru</key>
+            <value>По контактам</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>УстановитьВариантНавигацииПоКонтактуExtendedTooltip</name>
+            <name>УстановитьВариантНавигацииПоКонтактуРасширеннаяПодсказка</name>
             <id>427</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -724,13 +740,17 @@
         <items xsi:type="form:Button">
           <name>УстановитьВариантНавигацииПоЗакладкам</name>
           <id>124</id>
+          <title>
+            <key>ru</key>
+            <value>По закладкам</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>УстановитьВариантНавигацииПоЗакладкамExtendedTooltip</name>
+            <name>УстановитьВариантНавигацииПоЗакладкамРасширеннаяПодсказка</name>
             <id>428</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -755,13 +775,17 @@
         <items xsi:type="form:Button">
           <name>УстановитьВариантНавигацииПоПапкам</name>
           <id>176</id>
+          <title>
+            <key>ru</key>
+            <value>По папкам</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>УстановитьВариантНавигацииПоПапкамExtendedTooltip</name>
+            <name>УстановитьВариантНавигацииПоПапкамРасширеннаяПодсказка</name>
             <id>429</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -793,7 +817,7 @@
           <value>Вариант навигации</value>
         </title>
         <extendedTooltip>
-          <name>ВыборВариантаНавигацииExtendedTooltip</name>
+          <name>ВыборВариантаНавигацииРасширеннаяПодсказка</name>
           <id>425</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -821,13 +845,17 @@
           <items xsi:type="form:Button">
             <name>СписокСоздатьВстречу</name>
             <id>44</id>
+            <title>
+              <key>ru</key>
+              <value>Встречу</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>СписокСоздатьВстречуExtendedTooltip</name>
+              <name>СписокСоздатьВстречуРасширеннаяПодсказка</name>
               <id>556</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -851,13 +879,17 @@
           <items xsi:type="form:Button">
             <name>СписокСоздатьЗапланированноеВзаимодействие</name>
             <id>45</id>
+            <title>
+              <key>ru</key>
+              <value>Запланированное взаимодействие</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>СписокСоздатьЗапланированноеВзаимодействиеExtendedTooltip</name>
+              <name>СписокСоздатьЗапланированноеВзаимодействиеРасширеннаяПодсказка</name>
               <id>557</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -881,13 +913,17 @@
           <items xsi:type="form:Button">
             <name>СписокСоздатьТелефонныйЗвонок</name>
             <id>46</id>
+            <title>
+              <key>ru</key>
+              <value>Телефонный звонок</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>СписокСоздатьТелефонныйЗвонокExtendedTooltip</name>
+              <name>СписокСоздатьТелефонныйЗвонокРасширеннаяПодсказка</name>
               <id>558</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -911,13 +947,17 @@
           <items xsi:type="form:Button">
             <name>СписокСоздатьСообщениеSMS</name>
             <id>415</id>
+            <title>
+              <key>ru</key>
+              <value>Сообщение SMS</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>СписокСоздатьСообщениеSMSExtendedTooltip</name>
+              <name>СписокСоздатьСообщениеSMSРасширеннаяПодсказка</name>
               <id>559</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -941,13 +981,17 @@
           <items xsi:type="form:Button">
             <name>СписокСоздатьЭлектронноеПисьмо</name>
             <id>47</id>
+            <title>
+              <key>ru</key>
+              <value>Электронное письмо</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>СписокСоздатьЭлектронноеПисьмоExtendedTooltip</name>
+              <name>СписокСоздатьЭлектронноеПисьмоРасширеннаяПодсказка</name>
               <id>560</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -978,7 +1022,7 @@
             <value>Создать</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаСоздатьExtendedTooltip</name>
+            <name>ГруппаСоздатьРасширеннаяПодсказка</name>
             <id>555</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1013,7 +1057,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокСоздатьЭлектронноеПисьмоОтдельнаяКнопкаExtendedTooltip</name>
+            <name>СписокСоздатьЭлектронноеПисьмоОтдельнаяКнопкаРасширеннаяПодсказка</name>
             <id>561</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1042,6 +1086,10 @@
           <items xsi:type="form:Button">
             <name>СписокОтветить</name>
             <id>342</id>
+            <title>
+              <key>ru</key>
+              <value>Ответить</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1074,6 +1122,10 @@
           <items xsi:type="form:Button">
             <name>СписокОтветитьВсем</name>
             <id>343</id>
+            <title>
+              <key>ru</key>
+              <value>Ответить всем</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1104,6 +1156,10 @@
           <items xsi:type="form:Button">
             <name>СписокПереслать</name>
             <id>344</id>
+            <title>
+              <key>ru</key>
+              <value>Переслать</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1162,13 +1218,17 @@
         <items xsi:type="form:Button">
           <name>СписокОтправитьПолучитьПочту</name>
           <id>59</id>
+          <title>
+            <key>ru</key>
+            <value>Отправить и получить</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокОтправитьПолучитьПочтуExtendedTooltip</name>
+            <name>СписокОтправитьПолучитьПочтуРасширеннаяПодсказка</name>
             <id>562</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1230,13 +1290,17 @@
           <items xsi:type="form:Button">
             <name>СписокРассмотрено</name>
             <id>40</id>
+            <title>
+              <key>ru</key>
+              <value>Рассмотрено</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>СписокРассмотреноExtendedTooltip</name>
+              <name>СписокРассмотреноРасширеннаяПодсказка</name>
               <id>564</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1260,13 +1324,17 @@
           <items xsi:type="form:Button">
             <name>СписокОтложитьРассмотрение</name>
             <id>42</id>
+            <title>
+              <key>ru</key>
+              <value>Отложить рассмотрение...</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>СписокОтложитьРассмотрениеExtendedTooltip</name>
+              <name>СписокОтложитьРассмотрениеРасширеннаяПодсказка</name>
               <id>565</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1290,13 +1358,17 @@
           <items xsi:type="form:Button">
             <name>СписокНеРассмотрено</name>
             <id>191</id>
+            <title>
+              <key>ru</key>
+              <value>Снять признак рассмотрено</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>СписокНеРассмотреноExtendedTooltip</name>
+              <name>СписокНеРассмотреноРасширеннаяПодсказка</name>
               <id>566</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1321,13 +1393,17 @@
           <items xsi:type="form:Button">
             <name>СписокОтветственный</name>
             <id>39</id>
+            <title>
+              <key>ru</key>
+              <value>Установить ответственного...</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>СписокОтветственныйExtendedTooltip</name>
+              <name>СписокОтветственныйРасширеннаяПодсказка</name>
               <id>567</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1351,13 +1427,17 @@
           <items xsi:type="form:Button">
             <name>СписокПредмет</name>
             <id>41</id>
+            <title>
+              <key>ru</key>
+              <value>Установить предмет взаимодействия...</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>СписокПредметExtendedTooltip</name>
+              <name>СписокПредметРасширеннаяПодсказка</name>
               <id>568</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1388,7 +1468,7 @@
             <value>Рассмотрено</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаРассмотреноExtendedTooltip</name>
+            <name>ГруппаРассмотреноРасширеннаяПодсказка</name>
             <id>563</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1482,7 +1562,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ИзменитьExtendedTooltip</name>
+              <name>ИзменитьРасширеннаяПодсказка</name>
               <id>570</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1512,7 +1592,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>СкопироватьExtendedTooltip</name>
+              <name>СкопироватьРасширеннаяПодсказка</name>
               <id>571</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1546,7 +1626,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>УстановитьПометкуУдаленияExtendedTooltip</name>
+                <name>УстановитьПометкуУдаленияРасширеннаяПодсказка</name>
                 <id>573</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1578,7 +1658,7 @@
               <value>Список установить пометку удаления</value>
             </title>
             <extendedTooltip>
-              <name>ГруппаСписокУстановитьПометкуУдаленияExtendedTooltip</name>
+              <name>ГруппаСписокУстановитьПометкуУдаленияРасширеннаяПодсказка</name>
               <id>572</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1606,7 +1686,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>НайтиExtendedTooltip</name>
+                <name>НайтиРасширеннаяПодсказка</name>
                 <id>575</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1637,7 +1717,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>ОтменитьПоискExtendedTooltip</name>
+                <name>ОтменитьПоискРасширеннаяПодсказка</name>
                 <id>576</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1668,7 +1748,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>УстановитьИнтервалДатExtendedTooltip</name>
+                <name>УстановитьИнтервалДатРасширеннаяПодсказка</name>
                 <id>577</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1699,7 +1779,7 @@
               <value>Найти</value>
             </title>
             <extendedTooltip>
-              <name>ГруппаНайтиExtendedTooltip</name>
+              <name>ГруппаНайтиРасширеннаяПодсказка</name>
               <id>574</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1725,7 +1805,7 @@
             <value>Команды списка</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаКомандыСпискаExtendedTooltip</name>
+            <name>ГруппаКомандыСпискаРасширеннаяПодсказка</name>
             <id>569</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1744,13 +1824,17 @@
         <items xsi:type="form:Button">
           <name>СписокОбновить</name>
           <id>60</id>
+          <title>
+            <key>ru</key>
+            <value>Обновить</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокОбновитьExtendedTooltip</name>
+            <name>СписокОбновитьРасширеннаяПодсказка</name>
             <id>578</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1781,7 +1865,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокНастройкаСпискаExtendedTooltip</name>
+            <name>СписокНастройкаСпискаРасширеннаяПодсказка</name>
             <id>579</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1811,7 +1895,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокВывестиСписокExtendedTooltip</name>
+            <name>СписокВывестиСписокРасширеннаяПодсказка</name>
             <id>580</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1841,7 +1925,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокИзменитьФормуExtendedTooltip</name>
+            <name>СписокИзменитьФормуРасширеннаяПодсказка</name>
             <id>582</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1865,6 +1949,10 @@
         <items xsi:type="form:Button">
           <name>СписокОтображатьОбластьЧтения</name>
           <id>792</id>
+          <title>
+            <key>ru</key>
+            <value>Отображать область чтения</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1896,13 +1984,17 @@
         <items xsi:type="form:Button">
           <name>ФормаПерсональныеНастройки</name>
           <id>146</id>
+          <title>
+            <key>ru</key>
+            <value>Персональные настройки...</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ФормаПерсональныеНастройкиExtendedTooltip</name>
+            <name>ФормаПерсональныеНастройкиРасширеннаяПодсказка</name>
             <id>583</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1990,7 +2082,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СписокСправкаExtendedTooltip</name>
+          <name>СписокСправкаРасширеннаяПодсказка</name>
           <id>581</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2021,7 +2113,7 @@
         <value>Командная панель варианта навигации</value>
       </title>
       <extendedTooltip>
-        <name>КоманднаяПанельВариантаНавигацииExtendedTooltip</name>
+        <name>КоманднаяПанельВариантаНавигацииРасширеннаяПодсказка</name>
         <id>424</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2460,13 +2552,17 @@
                 <items xsi:type="form:Button">
                   <name>КонтактыКонтекстноеМенюПредмет</name>
                   <id>112</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Установить предмет взаимодействия...</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>КонтактыКонтекстноеМенюПредметExtendedTooltip</name>
+                    <name>КонтактыКонтекстноеМенюПредметРасширеннаяПодсказка</name>
                     <id>436</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2490,13 +2586,17 @@
                 <items xsi:type="form:Button">
                   <name>КонтактыКонтекстноеМенюОтветственный</name>
                   <id>110</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Установить ответственного...</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>КонтактыКонтекстноеМенюОтветственныйExtendedTooltip</name>
+                    <name>КонтактыКонтекстноеМенюОтветственныйРасширеннаяПодсказка</name>
                     <id>435</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2520,13 +2620,17 @@
                 <items xsi:type="form:Button">
                   <name>КонтактыКонтекстноеМенюОтложитьРассмотрение</name>
                   <id>113</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Отложить рассмотрение...</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>КонтактыКонтекстноеМенюОтложитьРассмотрениеExtendedTooltip</name>
+                    <name>КонтактыКонтекстноеМенюОтложитьРассмотрениеРасширеннаяПодсказка</name>
                     <id>434</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2550,13 +2654,17 @@
                 <items xsi:type="form:Button">
                   <name>КонтактыКонтекстноеМенюРассмотрено</name>
                   <id>111</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Рассмотрено</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>КонтактыКонтекстноеМенюРассмотреноExtendedTooltip</name>
+                    <name>КонтактыКонтекстноеМенюРассмотреноРасширеннаяПодсказка</name>
                     <id>433</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2580,13 +2688,17 @@
                 <items xsi:type="form:Button">
                   <name>КонтактыКонтекстноеМенюДобавитьВЗакладки</name>
                   <id>393</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Добавить в закладки</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>КонтактыКонтекстноеМенюДобавитьВЗакладкиExtendedTooltip</name>
+                    <name>КонтактыКонтекстноеМенюДобавитьВЗакладкиРасширеннаяПодсказка</name>
                     <id>437</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2610,13 +2722,17 @@
                 <items xsi:type="form:Button">
                   <name>КонтактыКонтекстноеМенюИзменитьЗначениеПанелиНавигации</name>
                   <id>325</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Изменить...</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>КонтактыКонтекстноеМенюИзменитьЗначениеПанелиНавигацииExtendedTooltip</name>
+                    <name>КонтактыКонтекстноеМенюИзменитьЗначениеПанелиНавигацииРасширеннаяПодсказка</name>
                     <id>438</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2794,7 +2910,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>КонтактыКонтекстноеМенюКопироватьВБуферОбменаExtendedTooltip</name>
+                    <name>КонтактыКонтекстноеМенюКопироватьВБуферОбменаРасширеннаяПодсказка</name>
                     <id>440</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2824,7 +2940,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>КонтактыКонтекстноеМенюВывестиСписокExtendedTooltip</name>
+                    <name>КонтактыКонтекстноеМенюВывестиСписокРасширеннаяПодсказка</name>
                     <id>442</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2838,7 +2954,7 @@
                       <horizontalAlign>Left</horizontalAlign>
                     </extInfo>
                   </extendedTooltip>
-                  <commandName>31:49602716-fea6-497f-8047-726404038857</commandName>
+                  <commandName>Form.Item.КонтактыПанелиНавигации.StandardCommand.OutputList</commandName>
                   <representation>Auto</representation>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
@@ -2882,6 +2998,7 @@
                 </period>
                 <topLevelParent xsi:type="core:UndefinedValue"/>
                 <showRoot>true</showRoot>
+                <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
               </extInfo>
             </items>
             <items xsi:type="form:Decoration">
@@ -2939,7 +3056,7 @@
             </title>
             <enableContentChange>true</enableContentChange>
             <extendedTooltip>
-              <name>СтраницаКонтактExtendedTooltip</name>
+              <name>СтраницаКонтактРасширеннаяПодсказка</name>
               <id>431</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -3383,6 +3500,10 @@
                 <items xsi:type="form:Button">
                   <name>ПредметыПанельНавигацииКонтекстноеМенюРассмотрено</name>
                   <id>715</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Рассмотрено</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -3413,6 +3534,10 @@
                 <items xsi:type="form:Button">
                   <name>ПредметыПанельНавигацииКонтекстноеМенюОтложитьРассмотрение</name>
                   <id>717</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Отложить рассмотрение...</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -3443,6 +3568,10 @@
                 <items xsi:type="form:Button">
                   <name>ПредметыПанельНавигацииКонтекстноеМенюОтветственный</name>
                   <id>719</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Установить ответственного...</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -3473,6 +3602,10 @@
                 <items xsi:type="form:Button">
                   <name>ПредметыПанельНавигацииКонтекстноеМенюПредмет</name>
                   <id>721</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Установить предмет взаимодействия...</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -3503,6 +3636,10 @@
                 <items xsi:type="form:Button">
                   <name>ПредметыПанельНавигацииКонтекстноеМенюДобавитьВЗакладки</name>
                   <id>723</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Добавить в закладки</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -3596,6 +3733,10 @@
                   <items xsi:type="form:Button">
                     <name>ПредметыПанельНавигацииКонтекстноеМенюТолькоАктивныеПредметы</name>
                     <id>790</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Только активные предметы</value>
+                    </title>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -3802,6 +3943,7 @@
                 </period>
                 <topLevelParent xsi:type="core:UndefinedValue"/>
                 <showRoot>true</showRoot>
+                <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
               </extInfo>
             </items>
             <items xsi:type="form:Decoration">
@@ -3858,7 +4000,7 @@
               <value>Страница предмет</value>
             </title>
             <extendedTooltip>
-              <name>СтраницаПредметExtendedTooltip</name>
+              <name>СтраницаПредметРасширеннаяПодсказка</name>
               <id>447</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -3917,7 +4059,7 @@
                   <segments>Закладки.Description</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ЗакладкиНаименованиеExtendedTooltip</name>
+                  <name>ЗакладкиНаименованиеРасширеннаяПодсказка</name>
                   <id>473</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -3948,6 +4090,54 @@
                 <extInfo xsi:type="form:LabelFieldExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
+                </extInfo>
+              </items>
+              <items xsi:type="form:FormField">
+                <name>ЗакладкиСсылка</name>
+                <id>940</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible/>
+                <dataPath xsi:type="form:DataPath">
+                  <segments>Закладки.Ref</segments>
+                </dataPath>
+                <extendedTooltip>
+                  <name>ЗакладкиСсылкаРасширеннаяПодсказка</name>
+                  <id>942</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>ЗакладкиСсылкаКонтекстноеМеню</name>
+                  <id>941</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>InputField</type>
+                <editMode>Enter</editMode>
+                <showInHeader>true</showInHeader>
+                <headerHorizontalAlign>Left</headerHorizontalAlign>
+                <showInFooter>true</showInFooter>
+                <extInfo xsi:type="form:InputFieldExtInfo">
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <wrap>true</wrap>
+                  <chooseType>true</chooseType>
+                  <typeDomainEnabled>true</typeDomainEnabled>
+                  <textEdit>true</textEdit>
                 </extInfo>
               </items>
               <autoCommandBar>
@@ -4081,7 +4271,7 @@
                 </extInfo>
               </searchControlAddition>
               <extendedTooltip>
-                <name>ЗакладкиExtendedTooltip</name>
+                <name>ЗакладкиРасширеннаяПодсказка</name>
                 <id>472</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -4101,13 +4291,17 @@
                 <items xsi:type="form:Button">
                   <name>ЗакладкиКонтекстноеМенюРассмотрено</name>
                   <id>126</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Рассмотрено</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ЗакладкиКонтекстноеМенюРассмотреноExtendedTooltip</name>
+                    <name>ЗакладкиКонтекстноеМенюРассмотреноРасширеннаяПодсказка</name>
                     <id>465</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -4131,13 +4325,17 @@
                 <items xsi:type="form:Button">
                   <name>ЗакладкиКонтекстноеМенюОтложитьРассмотрение</name>
                   <id>128</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Отложить рассмотрение...</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ЗакладкиКонтекстноеМенюОтложитьРассмотрениеExtendedTooltip</name>
+                    <name>ЗакладкиКонтекстноеМенюОтложитьРассмотрениеРасширеннаяПодсказка</name>
                     <id>466</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -4161,13 +4359,17 @@
                 <items xsi:type="form:Button">
                   <name>ЗакладкиОтветственный</name>
                   <id>125</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Установить ответственного...</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ЗакладкиОтветственныйExtendedTooltip</name>
+                    <name>ЗакладкиОтветственныйРасширеннаяПодсказка</name>
                     <id>467</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -4191,13 +4393,17 @@
                 <items xsi:type="form:Button">
                   <name>ЗакладкиКонтекстноеМенюПредмет</name>
                   <id>127</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Установить предмет взаимодействия...</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ЗакладкиКонтекстноеМенюПредметExtendedTooltip</name>
+                    <name>ЗакладкиКонтекстноеМенюПредметРасширеннаяПодсказка</name>
                     <id>468</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -4230,7 +4436,7 @@
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>ЗакладкиОбновитьExtendedTooltip</name>
+                      <name>ЗакладкиОбновитьРасширеннаяПодсказка</name>
                       <id>470</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -4260,7 +4466,7 @@
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>ЗакладкиВывестиСписокExtendedTooltip</name>
+                      <name>ЗакладкиВывестиСписокРасширеннаяПодсказка</name>
                       <id>471</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -4291,7 +4497,7 @@
                     <value>Закладки контекстное меню стандартные команды</value>
                   </title>
                   <extendedTooltip>
-                    <name>ЗакладкиКонтекстноеМенюСтандартныеКомандыExtendedTooltip</name>
+                    <name>ЗакладкиКонтекстноеМенюСтандартныеКомандыРасширеннаяПодсказка</name>
                     <id>469</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -4346,6 +4552,7 @@
                 <restoreCurrentRow>true</restoreCurrentRow>
                 <topLevelParent xsi:type="core:UndefinedValue"/>
                 <showRoot>true</showRoot>
+                <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -4358,7 +4565,7 @@
               <value>Страница закладки</value>
             </title>
             <extendedTooltip>
-              <name>СтраницаЗакладкиExtendedTooltip</name>
+              <name>СтраницаЗакладкиРасширеннаяПодсказка</name>
               <id>464</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -4415,6 +4622,10 @@
                 <items xsi:type="form:FormField">
                   <name>СвойстваПредставление</name>
                   <id>133</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Представление</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -4425,7 +4636,7 @@
                   </dataPath>
                   <titleLocation>None</titleLocation>
                   <extendedTooltip>
-                    <name>СвойстваПредставлениеExtendedTooltip</name>
+                    <name>СвойстваПредставлениеРасширеннаяПодсказка</name>
                     <id>487</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -4465,6 +4676,10 @@
                 <items xsi:type="form:FormField">
                   <name>СвойстваНомерКартинки</name>
                   <id>136</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Номер картинки</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -4474,7 +4689,7 @@
                     <segments>Свойства.НомерКартинки</segments>
                   </dataPath>
                   <extendedTooltip>
-                    <name>СвойстваНомерКартинкиExtendedTooltip</name>
+                    <name>СвойстваНомерКартинкиРасширеннаяПодсказка</name>
                     <id>488</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -4521,7 +4736,7 @@
                   <value>Свойства группа колонок</value>
                 </title>
                 <extendedTooltip>
-                  <name>СвойстваГруппаКолонокExtendedTooltip</name>
+                  <name>СвойстваГруппаКолонокРасширеннаяПодсказка</name>
                   <id>486</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -4680,7 +4895,7 @@
                 </extInfo>
               </searchControlAddition>
               <extendedTooltip>
-                <name>СвойстваExtendedTooltip</name>
+                <name>СвойстваРасширеннаяПодсказка</name>
                 <id>485</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -4703,13 +4918,17 @@
                   <items xsi:type="form:Button">
                     <name>СвойстваКонтекстноеМенюРассмотрено</name>
                     <id>139</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Рассмотрено</value>
+                    </title>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>СвойстваКонтекстноеМенюРассмотреноExtendedTooltip</name>
+                      <name>СвойстваКонтекстноеМенюРассмотреноРасширеннаяПодсказка</name>
                       <id>476</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -4733,13 +4952,17 @@
                   <items xsi:type="form:Button">
                     <name>СвойстваКонтекстноеМенюОтложитьРассмотрение</name>
                     <id>141</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Отложить рассмотрение...</value>
+                    </title>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>СвойстваКонтекстноеМенюОтложитьРассмотрениеExtendedTooltip</name>
+                      <name>СвойстваКонтекстноеМенюОтложитьРассмотрениеРасширеннаяПодсказка</name>
                       <id>477</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -4763,13 +4986,17 @@
                   <items xsi:type="form:Button">
                     <name>СвойстваКонтекстноеМенюОтветственный</name>
                     <id>138</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Установить ответственного...</value>
+                    </title>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>СвойстваКонтекстноеМенюОтветственныйExtendedTooltip</name>
+                      <name>СвойстваКонтекстноеМенюОтветственныйРасширеннаяПодсказка</name>
                       <id>478</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -4793,13 +5020,17 @@
                   <items xsi:type="form:Button">
                     <name>СвойстваКонтекстноеМенюПредмет</name>
                     <id>140</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Установить предмет взаимодействия...</value>
+                    </title>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>СвойстваКонтекстноеМенюПредметExtendedTooltip</name>
+                      <name>СвойстваКонтекстноеМенюПредметРасширеннаяПодсказка</name>
                       <id>479</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -4830,7 +5061,7 @@
                     <value>Свойства контекстное меню группа рассмотрено</value>
                   </title>
                   <extendedTooltip>
-                    <name>СвойстваКонтекстноеМенюГруппаРассмотреноExtendedTooltip</name>
+                    <name>СвойстваКонтекстноеМенюГруппаРассмотреноРасширеннаяПодсказка</name>
                     <id>475</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -4849,13 +5080,17 @@
                 <items xsi:type="form:Button">
                   <name>СвойстваКонтекстноеМенюДобавитьВЗакладки</name>
                   <id>145</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Добавить в закладки</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>СвойстваКонтекстноеМенюДобавитьВЗакладкиExtendedTooltip</name>
+                    <name>СвойстваКонтекстноеМенюДобавитьВЗакладкиРасширеннаяПодсказка</name>
                     <id>480</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -4888,7 +5123,7 @@
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>СвойстваКонтекстноеМенюКопироватьВБуферОбменаExtendedTooltip</name>
+                      <name>СвойстваКонтекстноеМенюКопироватьВБуферОбменаРасширеннаяПодсказка</name>
                       <id>482</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -4912,13 +5147,17 @@
                   <items xsi:type="form:Button">
                     <name>СвойстваКонтекстноеМенюОбновить</name>
                     <id>206</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Обновить</value>
+                    </title>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>СвойстваКонтекстноеМенюОбновитьExtendedTooltip</name>
+                      <name>СвойстваКонтекстноеМенюОбновитьРасширеннаяПодсказка</name>
                       <id>483</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -4948,7 +5187,7 @@
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>СвойстваКонтекстноеМенюВывестиСписокExtendedTooltip</name>
+                      <name>СвойстваКонтекстноеМенюВывестиСписокРасширеннаяПодсказка</name>
                       <id>484</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -4979,7 +5218,7 @@
                     <value>Свойства контекстное меню группа обновить</value>
                   </title>
                   <extendedTooltip>
-                    <name>СвойстваКонтекстноеМенюГруппаОбновитьExtendedTooltip</name>
+                    <name>СвойстваКонтекстноеМенюГруппаОбновитьРасширеннаяПодсказка</name>
                     <id>481</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -5038,7 +5277,7 @@
               <value>Страница свойства</value>
             </title>
             <extendedTooltip>
-              <name>СтраницаСвойстваExtendedTooltip</name>
+              <name>СтраницаСвойстваРасширеннаяПодсказка</name>
               <id>474</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -5093,6 +5332,10 @@
                 <items xsi:type="form:FormField">
                   <name>ПапкиНомерКартинки</name>
                   <id>182</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Номер картинки</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -5103,7 +5346,7 @@
                   </dataPath>
                   <titleLocation>None</titleLocation>
                   <extendedTooltip>
-                    <name>ПапкиНомерКартинкиExtendedTooltip</name>
+                    <name>ПапкиНомерКартинкиРасширеннаяПодсказка</name>
                     <id>524</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -5142,6 +5385,10 @@
                 <items xsi:type="form:FormField">
                   <name>ПапкиПредставление</name>
                   <id>184</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Представление</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -5152,7 +5399,7 @@
                   </dataPath>
                   <titleLocation>None</titleLocation>
                   <extendedTooltip>
-                    <name>ПапкиПредставлениеExtendedTooltip</name>
+                    <name>ПапкиПредставлениеРасширеннаяПодсказка</name>
                     <id>525</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -5201,7 +5448,7 @@
                 </title>
                 <enableContentChange>true</enableContentChange>
                 <extendedTooltip>
-                  <name>ПапкиГруппаКолонокExtendedTooltip</name>
+                  <name>ПапкиГруппаКолонокРасширеннаяПодсказка</name>
                   <id>523</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -5384,7 +5631,7 @@
                 </extInfo>
               </searchControlAddition>
               <extendedTooltip>
-                <name>ПапкиExtendedTooltip</name>
+                <name>ПапкиРасширеннаяПодсказка</name>
                 <id>522</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -5407,13 +5654,17 @@
                   <items xsi:type="form:Button">
                     <name>ПапкиКонтекстноеМенюРассмотрено</name>
                     <id>187</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Рассмотрено</value>
+                    </title>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>ПапкиКонтекстноеМенюРассмотреноExtendedTooltip</name>
+                      <name>ПапкиКонтекстноеМенюРассмотреноРасширеннаяПодсказка</name>
                       <id>508</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -5437,13 +5688,17 @@
                   <items xsi:type="form:Button">
                     <name>ПапкиКонтекстноеМенюОтложитьРассмотрение</name>
                     <id>189</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Отложить рассмотрение...</value>
+                    </title>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>ПапкиКонтекстноеМенюОтложитьРассмотрениеExtendedTooltip</name>
+                      <name>ПапкиКонтекстноеМенюОтложитьРассмотрениеРасширеннаяПодсказка</name>
                       <id>509</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -5467,13 +5722,17 @@
                   <items xsi:type="form:Button">
                     <name>ПапкиКонтекстноеМенюОтветственный</name>
                     <id>186</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Установить ответственного...</value>
+                    </title>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>ПапкиКонтекстноеМенюОтветственныйExtendedTooltip</name>
+                      <name>ПапкиКонтекстноеМенюОтветственныйРасширеннаяПодсказка</name>
                       <id>510</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -5504,7 +5763,7 @@
                     <value>Папки контекстное меню группа рассмотрено</value>
                   </title>
                   <extendedTooltip>
-                    <name>ПапкиКонтекстноеМенюГруппаРассмотреноExtendedTooltip</name>
+                    <name>ПапкиКонтекстноеМенюГруппаРассмотреноРасширеннаяПодсказка</name>
                     <id>507</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -5523,13 +5782,17 @@
                 <items xsi:type="form:Button">
                   <name>ПапкиКонтекстноеМенюДобавитьВЗакладки</name>
                   <id>394</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Добавить в закладки</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ПапкиКонтекстноеМенюДобавитьВЗакладкиExtendedTooltip</name>
+                    <name>ПапкиКонтекстноеМенюДобавитьВЗакладкиРасширеннаяПодсказка</name>
                     <id>511</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -5553,13 +5816,17 @@
                 <items xsi:type="form:Button">
                   <name>ПапкиКонтекстноеМенюПрименитьПравилаОбработки</name>
                   <id>190</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Применить правила обработки...</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ПапкиКонтекстноеМенюПрименитьПравилаОбработкиExtendedTooltip</name>
+                    <name>ПапкиКонтекстноеМенюПрименитьПравилаОбработкиРасширеннаяПодсказка</name>
                     <id>512</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -5583,13 +5850,17 @@
                 <items xsi:type="form:Button">
                   <name>ПапкиКонтекстноеМенюПеренестиВПапку</name>
                   <id>199</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Перенести в папку...</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ПапкиКонтекстноеМенюПеренестиВПапкуExtendedTooltip</name>
+                    <name>ПапкиКонтекстноеМенюПеренестиВПапкуРасширеннаяПодсказка</name>
                     <id>513</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -5626,7 +5897,7 @@
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>ПапкиКонтекстноеМенюДобавитьExtendedTooltip</name>
+                      <name>ПапкиКонтекстноеМенюДобавитьРасширеннаяПодсказка</name>
                       <id>515</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -5650,13 +5921,17 @@
                   <items xsi:type="form:Button">
                     <name>ПапкиКонтекстноеМенюИзменитьЗначениеПанелиНавигации</name>
                     <id>329</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Изменить...</value>
+                    </title>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>ПапкиКонтекстноеМенюИзменитьЗначениеПанелиНавигацииExtendedTooltip</name>
+                      <name>ПапкиКонтекстноеМенюИзменитьЗначениеПанелиНавигацииРасширеннаяПодсказка</name>
                       <id>516</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -5686,7 +5961,7 @@
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>ПапкиКонтекстноеМенюУдалитьExtendedTooltip</name>
+                      <name>ПапкиКонтекстноеМенюУдалитьРасширеннаяПодсказка</name>
                       <id>517</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -5717,7 +5992,7 @@
                     <value>Папки контекстное меню группа изменить</value>
                   </title>
                   <extendedTooltip>
-                    <name>ПапкиКонтекстноеМенюГруппаИзменитьExtendedTooltip</name>
+                    <name>ПапкиКонтекстноеМенюГруппаИзменитьРасширеннаяПодсказка</name>
                     <id>514</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -5745,7 +6020,7 @@
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>ПапкиКонтекстноеМенюКопироватьВБуферОбменаExtendedTooltip</name>
+                      <name>ПапкиКонтекстноеМенюКопироватьВБуферОбменаРасширеннаяПодсказка</name>
                       <id>519</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -5769,13 +6044,17 @@
                   <items xsi:type="form:Button">
                     <name>ПапкиКонтекстноеМенюОбновить</name>
                     <id>210</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Обновить</value>
+                    </title>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>ПапкиКонтекстноеМенюОбновитьExtendedTooltip</name>
+                      <name>ПапкиКонтекстноеМенюОбновитьРасширеннаяПодсказка</name>
                       <id>520</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -5805,7 +6084,7 @@
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>ПапкиКонтекстноеМенюВывестиСписокExtendedTooltip</name>
+                      <name>ПапкиКонтекстноеМенюВывестиСписокРасширеннаяПодсказка</name>
                       <id>521</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -5836,7 +6115,7 @@
                     <value>Папки контекстное меню группа обновить</value>
                   </title>
                   <extendedTooltip>
-                    <name>ПапкиКонтекстноеМенюГруппаОбновитьExtendedTooltip</name>
+                    <name>ПапкиКонтекстноеМенюГруппаОбновитьРасширеннаяПодсказка</name>
                     <id>518</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -5894,7 +6173,7 @@
               <value>Страница папки</value>
             </title>
             <extendedTooltip>
-              <name>СтраницаПапкиExtendedTooltip</name>
+              <name>СтраницаПапкиРасширеннаяПодсказка</name>
               <id>506</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -5950,6 +6229,10 @@
                 <items xsi:type="form:FormField">
                   <name>КатегорииНомерКартинки</name>
                   <id>312</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Номер картинки</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -5960,7 +6243,7 @@
                   </dataPath>
                   <titleLocation>None</titleLocation>
                   <extendedTooltip>
-                    <name>КатегорииНомерКартинкиExtendedTooltip</name>
+                    <name>КатегорииНомерКартинкиРасширеннаяПодсказка</name>
                     <id>539</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -6002,6 +6285,10 @@
                 <items xsi:type="form:FormField">
                   <name>КатегорииПредставление</name>
                   <id>309</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Представление</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -6012,7 +6299,7 @@
                   </dataPath>
                   <titleLocation>None</titleLocation>
                   <extendedTooltip>
-                    <name>КатегорииПредставлениеExtendedTooltip</name>
+                    <name>КатегорииПредставлениеРасширеннаяПодсказка</name>
                     <id>540</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -6062,7 +6349,7 @@
                 </title>
                 <readOnly>true</readOnly>
                 <extendedTooltip>
-                  <name>КатегорииГруппаКолонокExtendedTooltip</name>
+                  <name>КатегорииГруппаКолонокРасширеннаяПодсказка</name>
                   <id>538</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -6213,7 +6500,7 @@
                 </extInfo>
               </searchControlAddition>
               <extendedTooltip>
-                <name>КатегорииExtendedTooltip</name>
+                <name>КатегорииРасширеннаяПодсказка</name>
                 <id>537</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -6236,13 +6523,17 @@
                   <items xsi:type="form:Button">
                     <name>КатегорииКонтекстноеМенюРассмотрено</name>
                     <id>318</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Рассмотрено</value>
+                    </title>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>КатегорииКонтекстноеМенюРассмотреноExtendedTooltip</name>
+                      <name>КатегорииКонтекстноеМенюРассмотреноРасширеннаяПодсказка</name>
                       <id>528</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -6266,13 +6557,17 @@
                   <items xsi:type="form:Button">
                     <name>КатегорииКонтекстноеМенюОтложитьРассмотрение</name>
                     <id>320</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Отложить рассмотрение...</value>
+                    </title>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>КатегорииКонтекстноеМенюОтложитьРассмотрениеExtendedTooltip</name>
+                      <name>КатегорииКонтекстноеМенюОтложитьРассмотрениеРасширеннаяПодсказка</name>
                       <id>529</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -6296,13 +6591,17 @@
                   <items xsi:type="form:Button">
                     <name>КатегорииКонтекстноеМенюОтветственный</name>
                     <id>316</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Установить ответственного...</value>
+                    </title>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>КатегорииКонтекстноеМенюОтветственныйExtendedTooltip</name>
+                      <name>КатегорииКонтекстноеМенюОтветственныйРасширеннаяПодсказка</name>
                       <id>530</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -6326,13 +6625,17 @@
                   <items xsi:type="form:Button">
                     <name>КатегорииКонтекстноеМенюПредмет</name>
                     <id>319</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Установить предмет взаимодействия...</value>
+                    </title>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>КатегорииКонтекстноеМенюПредметExtendedTooltip</name>
+                      <name>КатегорииКонтекстноеМенюПредметРасширеннаяПодсказка</name>
                       <id>531</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -6363,7 +6666,7 @@
                     <value>Категории контекстное меню группа рассмотрено</value>
                   </title>
                   <extendedTooltip>
-                    <name>КатегорииКонтекстноеМенюГруппаРассмотреноExtendedTooltip</name>
+                    <name>КатегорииКонтекстноеМенюГруппаРассмотреноРасширеннаяПодсказка</name>
                     <id>527</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -6382,13 +6685,17 @@
                 <items xsi:type="form:Button">
                   <name>КатегорииКонтекстноеМенюДобавитьВЗакладки</name>
                   <id>321</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Добавить в закладки</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>КатегорииКонтекстноеМенюДобавитьВЗакладкиExtendedTooltip</name>
+                    <name>КатегорииКонтекстноеМенюДобавитьВЗакладкиРасширеннаяПодсказка</name>
                     <id>532</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -6421,7 +6728,7 @@
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>КатегорииКонтекстноеМенюКопироватьВБуферОбменаExtendedTooltip</name>
+                      <name>КатегорииКонтекстноеМенюКопироватьВБуферОбменаРасширеннаяПодсказка</name>
                       <id>534</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -6445,13 +6752,17 @@
                   <items xsi:type="form:Button">
                     <name>КатегорииКонтекстноеМенюОбновить</name>
                     <id>314</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Обновить</value>
+                    </title>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>КатегорииКонтекстноеМенюОбновитьExtendedTooltip</name>
+                      <name>КатегорииКонтекстноеМенюОбновитьРасширеннаяПодсказка</name>
                       <id>535</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -6481,7 +6792,7 @@
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>КатегорииКонтекстноеМенюВывестиСписокExtendedTooltip</name>
+                      <name>КатегорииКонтекстноеМенюВывестиСписокРасширеннаяПодсказка</name>
                       <id>536</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -6512,7 +6823,7 @@
                     <value>Категории контекстное меню группа обновить</value>
                   </title>
                   <extendedTooltip>
-                    <name>КатегорииКонтекстноеМенюГруппаОбновитьExtendedTooltip</name>
+                    <name>КатегорииКонтекстноеМенюГруппаОбновитьРасширеннаяПодсказка</name>
                     <id>533</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -6571,7 +6882,7 @@
               <value>Страница категории</value>
             </title>
             <extendedTooltip>
-              <name>СтраницаКатегорииExtendedTooltip</name>
+              <name>СтраницаКатегорииРасширеннаяПодсказка</name>
               <id>526</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -6601,7 +6912,7 @@
             <value>Страницы панели навигации</value>
           </title>
           <extendedTooltip>
-            <name>СтраницыПанелиНавигацииExtendedTooltip</name>
+            <name>СтраницыПанелиНавигацииРасширеннаяПодсказка</name>
             <id>430</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -6630,7 +6941,7 @@
           <value>Панель навигации</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаПанельНавигацииExtendedTooltip</name>
+          <name>ГруппаПанельНавигацииРасширеннаяПодсказка</name>
           <id>423</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -6693,7 +7004,7 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
-                <name>НомерКартинкиExtendedTooltip</name>
+                <name>НомерКартинкиРасширеннаяПодсказка</name>
                 <id>587</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -6751,7 +7062,7 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
-                <name>ВажностьНомерКартинкиExtendedTooltip</name>
+                <name>ВажностьНомерКартинкиРасширеннаяПодсказка</name>
                 <id>585</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -6840,7 +7151,7 @@
                   <segments>Список.Участники</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>УчастникиExtendedTooltip</name>
+                  <name>УчастникиРасширеннаяПодсказка</name>
                   <id>589</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -6936,10 +7247,10 @@
                   <common>true</common>
                 </userVisible>
                 <dataPath xsi:type="form:DataPath">
-                  <segments>Список.Date</segments>
+                  <segments>Список.Дата</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ДатаExtendedTooltip</name>
+                  <name>ДатаРасширеннаяПодсказка</name>
                   <id>588</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -6980,6 +7291,10 @@
               <items xsi:type="form:FormField">
                 <name>ЕстьВложения</name>
                 <id>108</id>
+                <title>
+                  <key>ru</key>
+                  <value>Есть вложения</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -6994,7 +7309,7 @@
                   <value>Есть вложения</value>
                 </toolTip>
                 <extendedTooltip>
-                  <name>ЕстьВложенияExtendedTooltip</name>
+                  <name>ЕстьВложенияРасширеннаяПодсказка</name>
                   <id>586</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -7076,7 +7391,7 @@
                 <segments>Список.Тема</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ТемаExtendedTooltip</name>
+                <name>ТемаРасширеннаяПодсказка</name>
                 <id>590</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -7243,7 +7558,7 @@
             <enabled>true</enabled>
             <userVisible/>
             <dataPath xsi:type="form:DataPath">
-              <segments>Список.Ref</segments>
+              <segments>Список.Ссылка</segments>
             </dataPath>
             <extendedTooltip>
               <name>СсылкаРасширеннаяПодсказка</name>
@@ -7431,7 +7746,7 @@
             </extInfo>
           </searchControlAddition>
           <extendedTooltip>
-            <name>СписокExtendedTooltip</name>
+            <name>СписокРасширеннаяПодсказка</name>
             <id>584</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -7454,13 +7769,17 @@
               <items xsi:type="form:Button">
                 <name>СписокКонтекстноеМенюУстановитьПризнакРассмотрено</name>
                 <id>377</id>
+                <title>
+                  <key>ru</key>
+                  <value>Рассмотрено</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СписокКонтекстноеМенюУстановитьПризнакРассмотреноExtendedTooltip</name>
+                  <name>СписокКонтекстноеМенюУстановитьПризнакРассмотреноРасширеннаяПодсказка</name>
                   <id>545</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -7484,13 +7803,17 @@
               <items xsi:type="form:Button">
                 <name>СписокКонтекстноеМенюОтложитьРассмотрениеСписок</name>
                 <id>378</id>
+                <title>
+                  <key>ru</key>
+                  <value>Отложить рассмотрение...</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СписокКонтекстноеМенюОтложитьРассмотрениеСписокExtendedTooltip</name>
+                  <name>СписокКонтекстноеМенюОтложитьРассмотрениеСписокРасширеннаяПодсказка</name>
                   <id>546</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -7514,13 +7837,17 @@
               <items xsi:type="form:Button">
                 <name>СписокКонтекстноеМенюПредметСписок</name>
                 <id>379</id>
+                <title>
+                  <key>ru</key>
+                  <value>Установить предмет взаимодействия...</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СписокКонтекстноеМенюПредметСписокExtendedTooltip</name>
+                  <name>СписокКонтекстноеМенюПредметСписокРасширеннаяПодсказка</name>
                   <id>547</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -7551,7 +7878,7 @@
                 <value>Список входящие контекстное меню группа рассмотрение предмет входящие</value>
               </title>
               <extendedTooltip>
-                <name>СписокКонтекстноеМенюГруппаРассмотрениеПредметExtendedTooltip</name>
+                <name>СписокКонтекстноеМенюГруппаРассмотрениеПредметРасширеннаяПодсказка</name>
                 <id>544</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -7573,6 +7900,10 @@
               <items xsi:type="form:Button">
                 <name>СписокКонтекстноеМенюОтветить</name>
                 <id>901</id>
+                <title>
+                  <key>ru</key>
+                  <value>Ответить</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -7603,6 +7934,10 @@
               <items xsi:type="form:Button">
                 <name>СписокКонтекстноеМенюОтветитьВсем</name>
                 <id>903</id>
+                <title>
+                  <key>ru</key>
+                  <value>Ответить всем</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -7633,6 +7968,10 @@
               <items xsi:type="form:Button">
                 <name>СписокКонтекстноеМенюПереслать</name>
                 <id>905</id>
+                <title>
+                  <key>ru</key>
+                  <value>Переслать</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -7663,6 +8002,10 @@
               <items xsi:type="form:Button">
                 <name>СписокКонтекстноеМенюПереслатьКакВложение</name>
                 <id>907</id>
+                <title>
+                  <key>ru</key>
+                  <value>Переслать как вложение</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -7719,13 +8062,17 @@
             <items xsi:type="form:Button">
               <name>СписокКонтекстноеМенюДобавитьВЗакладки</name>
               <id>142</id>
+              <title>
+                <key>ru</key>
+                <value>Добавить в закладки</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>СписокКонтекстноеМенюДобавитьВЗакладкиExtendedTooltip</name>
+                <name>СписокКонтекстноеМенюДобавитьВЗакладкиРасширеннаяПодсказка</name>
                 <id>548</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -7755,7 +8102,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>СписокКонтекстноеМенюИзменитьExtendedTooltip</name>
+                <name>СписокКонтекстноеМенюИзменитьРасширеннаяПодсказка</name>
                 <id>549</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -7779,13 +8126,17 @@
             <items xsi:type="form:Button">
               <name>СписокКонтекстноеМенюПеренестиВПапку</name>
               <id>198</id>
+              <title>
+                <key>ru</key>
+                <value>Перенести в папку...</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>СписокКонтекстноеМенюПеренестиВПапкуExtendedTooltip</name>
+                <name>СписокКонтекстноеМенюПеренестиВПапкуРасширеннаяПодсказка</name>
                 <id>550</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -7809,13 +8160,17 @@
             <items xsi:type="form:Button">
               <name>СписокКонтекстноеМенюВзаимодействияПоПредмету</name>
               <id>380</id>
+              <title>
+                <key>ru</key>
+                <value>Взаимодействия по предмету</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>СписокКонтекстноеМенюВзаимодействияПоПредметуExtendedTooltip</name>
+                <name>СписокКонтекстноеМенюВзаимодействияПоПредметуРасширеннаяПодсказка</name>
                 <id>551</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -7848,7 +8203,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СписокКонтекстноеМенюУстановитьПометкуУдаленияExtendedTooltip</name>
+                  <name>СписокКонтекстноеМенюУстановитьПометкуУдаленияРасширеннаяПодсказка</name>
                   <id>553</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -7878,7 +8233,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>СписокКонтекстноеМенюСкопироватьExtendedTooltip</name>
+                  <name>СписокКонтекстноеМенюСкопироватьРасширеннаяПодсказка</name>
                   <id>554</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -7909,7 +8264,7 @@
                 <value>Контекстное меню группа удалить копировать</value>
               </title>
               <extendedTooltip>
-                <name>СписокКонтекстноеМенюГруппаУдалитьКопироватьExtendedTooltip</name>
+                <name>СписокКонтекстноеМенюГруппаУдалитьКопироватьРасширеннаяПодсказка</name>
                 <id>552</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -7963,6 +8318,7 @@
             <restoreCurrentRow>true</restoreCurrentRow>
             <topLevelParent xsi:type="core:UndefinedValue"/>
             <showRoot>true</showRoot>
+            <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
             <userSettingsGroup>ГруппаПользовательскихНастроек</userSettingsGroup>
           </extInfo>
         </items>
@@ -7975,6 +8331,10 @@
             <items xsi:type="form:FormField">
               <name>ПредпросмотрОбычныйТекст</name>
               <id>150</id>
+              <title>
+                <key>ru</key>
+                <value>Предпросмотр</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -7985,7 +8345,7 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
-                <name>ПредпросмотрОбычныйТекстExtendedTooltip</name>
+                <name>ПредпросмотрОбычныйТекстРасширеннаяПодсказка</name>
                 <id>686</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -8034,7 +8394,7 @@
             </title>
             <readOnly>true</readOnly>
             <extendedTooltip>
-              <name>СтраницаПредпросмотрОбычныйТекстExtendedTooltip</name>
+              <name>СтраницаПредпросмотрОбычныйТекстРасширеннаяПодсказка</name>
               <id>685</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -8197,6 +8557,10 @@
             <items xsi:type="form:FormField">
               <name>ПредпросмотрHTML</name>
               <id>91</id>
+              <title>
+                <key>ru</key>
+                <value>Предпросмотр HTML</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -8207,7 +8571,7 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
-                <name>ПредпросмотрHTMLExtendedTooltip</name>
+                <name>ПредпросмотрHTMLРасширеннаяПодсказка</name>
                 <id>688</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -8259,7 +8623,7 @@
               <value>Страница предпросмотр HTML</value>
             </title>
             <extendedTooltip>
-              <name>СтраницаПредпросмотрHTMLExtendedTooltip</name>
+              <name>СтраницаПредпросмотрHTMLРасширеннаяПодсказка</name>
               <id>687</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -8289,7 +8653,7 @@
             <value>Страницы предпросмотр</value>
           </title>
           <extendedTooltip>
-            <name>СтраницыПредпросмотрExtendedTooltip</name>
+            <name>СтраницыПредпросмотрРасширеннаяПодсказка</name>
             <id>684</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -8311,6 +8675,10 @@
         <items xsi:type="form:FormField">
           <name>ОписаниеНайденоПолнотекстовымПоиском</name>
           <id>323</id>
+          <title>
+            <key>ru</key>
+            <value>Описание найденного полнотекстовым поиском</value>
+          </title>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
@@ -8367,7 +8735,7 @@
           <value>Список</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаСписокExtendedTooltip</name>
+          <name>ГруппаСписокРасширеннаяПодсказка</name>
           <id>541</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -8400,7 +8768,7 @@
         <value>Основное</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаОсновноеExtendedTooltip</name>
+        <name>ГруппаОсновноеРасширеннаяПодсказка</name>
         <id>422</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -8502,6 +8870,7 @@
   <excludedCommands>Refresh</excludedCommands>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveDataInSettings>UseList</saveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -8523,19 +8892,10 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.Date</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.DeletionMark</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.Ref</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.Type</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Список.ВажностьНомерКартинки</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.Дата</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Список.ЕстьВложения</segments>
@@ -8550,13 +8910,22 @@
       <segments>Список.Папка</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.ПометкаУдаления</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Список.Предмет</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Список.Рассмотрено</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.Ссылка</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Список.СтатусИсходящегоПисьма</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.Тип</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Список.УчетнаяЗапись</segments>
@@ -8635,7 +9004,13 @@
 	ЖурналДокументовВзаимодействияПереопределяемый.Участники,
 	ЖурналДокументовВзаимодействияПереопределяемый.Тип,
 	ЖурналДокументовВзаимодействияПереопределяемый.СтатусИсходящегоПисьма,
-	ЖурналДокументовВзаимодействияПереопределяемый.ЕстьВложения,
+	ВЫБОР
+		КОГДА ЕСТЬNULL(ЖурналДокументовВзаимодействияПереопределяемый.ЕстьВложения, НаличиеФайловПереопределяемый.ЕстьФайлы) ЕСТЬ NULL
+			ТОГДА ЛОЖЬ
+		КОГДА ЕСТЬNULL(ЖурналДокументовВзаимодействияПереопределяемый.ЕстьВложения, НаличиеФайловПереопределяемый.ЕстьФайлы)
+			ТОГДА ИСТИНА
+		ИНАЧЕ ЛОЖЬ
+	КОНЕЦ КАК ЕстьВложения,
 	ЕСТЬNULL(ПредметыВзаимодействийПереопределяемый.Предмет, НЕОПРЕДЕЛЕНО) КАК Предмет,
 	ТИПЗНАЧЕНИЯ(ПредметыВзаимодействийПереопределяемый.Предмет) КАК ТипПредмета,
 	ЖурналДокументовВзаимодействияПереопределяемый.УчетнаяЗапись,
@@ -8654,6 +9029,8 @@
 	ЖурналДокументов.Взаимодействия КАК ЖурналДокументовВзаимодействияПереопределяемый
 		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.ПредметыПапкиВзаимодействий КАК ПредметыВзаимодействийПереопределяемый
 		ПО ЖурналДокументовВзаимодействияПереопределяемый.Ссылка = ПредметыВзаимодействийПереопределяемый.Взаимодействие
+		ЛЕВОЕ СОЕДИНЕНИЕ РегистрСведений.НаличиеФайлов КАК НаличиеФайловПереопределяемый
+		ПО ЖурналДокументовВзаимодействияПереопределяемый.Ссылка = НаличиеФайловПереопределяемый.ОбъектСФайлами
 {ГДЕ
 	ЖурналДокументовВзаимодействияПереопределяемый.Ссылка КАК Поиск}</queryText>
       <mainTable>DocumentJournal.Взаимодействия</mainTable>
@@ -8662,6 +9039,205 @@
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Поиск</dataPath>
+        <field>Поиск</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Поиск</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ЕстьВложения</dataPath>
+        <field>ЕстьВложения</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Есть вложения</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВзаимодействиеОснование</dataPath>
+        <field>ВзаимодействиеОснование</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Размер</dataPath>
+        <field>Размер</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Размер</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаКогдаОтправить</dataPath>
+        <field>ДатаКогдаОтправить</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаАктуальностиОтправки</dataPath>
+        <field>ДатаАктуальностиОтправки</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИдентификаторСообщения</dataPath>
+        <field>ИдентификаторСообщения</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>НомерКартинки</dataPath>
+        <field>НомерКартинки</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Номер картинки</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ссылка</dataPath>
+        <field>Ссылка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Дата</dataPath>
+        <field>Дата</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Номер</dataPath>
+        <field>Номер</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Автор</dataPath>
+        <field>Автор</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Входящий</dataPath>
+        <field>Входящий</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Тема</dataPath>
+        <field>Тема</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ответственный</dataPath>
+        <field>Ответственный</field>
+        <title>
+          <value>Ответственный</value>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Рассмотрено</dataPath>
+        <field>Рассмотрено</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Рассмотрено</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>РассмотретьПосле</dataPath>
+        <field>РассмотретьПосле</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Рассмотреть после</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Участники</dataPath>
+        <field>Участники</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Тип</dataPath>
+        <field>Тип</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СтатусИсходящегоПисьма</dataPath>
+        <field>СтатусИсходящегоПисьма</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Предмет</dataPath>
+        <field>Предмет</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Предмет</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ТипПредмета</dataPath>
+        <field>ТипПредмета</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Тип предмета</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>УчетнаяЗапись</dataPath>
+        <field>УчетнаяЗапись</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Папка</dataPath>
+        <field>Папка</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Папка</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПолученоОтправлено</dataPath>
+        <field>ПолученоОтправлено</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Важность</dataPath>
+        <field>Важность</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВажностьНомерКартинки</dataPath>
+        <field>ВажностьНомерКартинки</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Важность номер картинки</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Проведен</dataPath>
+        <field>Проведен</field>
+      </fields>
     </extInfo>
   </attributes>
   <attributes>
@@ -9791,7 +10367,7 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ЗначениеУстановленноеПослеЗаполненияПанелиНавигации</name>
+    <name>ТекущееЗначениеПанелиНавигации</name>
     <id>41</id>
     <valueType/>
     <view>
@@ -10015,6 +10591,10 @@
       <value>Установить предмет взаимодействия...</value>
     </title>
     <id>5</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Установить предмет взаимодействия</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>

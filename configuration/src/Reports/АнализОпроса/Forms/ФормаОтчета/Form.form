@@ -6,6 +6,10 @@
     <items xsi:type="form:FormField">
       <name>Опрос</name>
       <id>3</id>
+      <title>
+        <key>ru</key>
+        <value>Опрос</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -15,7 +19,7 @@
         <segments>Опрос</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ОпросExtendedTooltip</name>
+        <name>ОпросРасширеннаяПодсказка</name>
         <id>11</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -62,6 +66,10 @@
     <items xsi:type="form:FormField">
       <name>ВидОтчета</name>
       <id>6</id>
+      <title>
+        <key>ru</key>
+        <value>Вид отчета</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -71,7 +79,7 @@
         <segments>ВидОтчета</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВидОтчетаExtendedTooltip</name>
+        <name>ВидОтчетаРасширеннаяПодсказка</name>
         <id>12</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -139,7 +147,7 @@
       <value>Параметры отчета</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаПараметрыОтчетаExtendedTooltip</name>
+      <name>ГруппаПараметрыОтчетаРасширеннаяПодсказка</name>
       <id>10</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -175,7 +183,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>ТаблицаОтчетаExtendedTooltip</name>
+      <name>ТаблицаОтчетаРасширеннаяПодсказка</name>
       <id>13</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -231,6 +239,10 @@
     <items xsi:type="form:Button">
       <name>Кнопка</name>
       <id>5</id>
+      <title>
+        <key>ru</key>
+        <value>Сформировать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -238,7 +250,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>КнопкаExtendedTooltip</name>
+        <name>КнопкаРасширеннаяПодсказка</name>
         <id>9</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -287,6 +299,7 @@
   <excludedCommands>SaveReportSettings</excludedCommands>
   <excludedCommands>SaveVariant</excludedCommands>
   <excludedCommands>StandardSettings</excludedCommands>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

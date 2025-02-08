@@ -19,6 +19,10 @@
     <items xsi:type="form:FormField">
       <name>ОшибкиКартинка</name>
       <id>66</id>
+      <title>
+        <key>ru</key>
+        <value>Картинка</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -69,6 +73,10 @@
     <items xsi:type="form:FormField">
       <name>ОшибкиПричина</name>
       <id>48</id>
+      <title>
+        <key>ru</key>
+        <value>Причина</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -122,6 +130,10 @@
     <items xsi:type="form:FormField">
       <name>ОшибкиПодробнее</name>
       <id>51</id>
+      <title>
+        <key>ru</key>
+        <value>Подробнее</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -362,60 +374,13 @@
       <name>Инструкция</name>
       <id>54</id>
       <items xsi:type="form:Decoration">
-        <name>ТипичныеПроблемы</name>
-        <id>56</id>
-        <title>
-          <key>ru</key>
-          <value>При возникновении затруднений ознакомьтесь со списком &lt;link ТипичныеПроблемы>типичных проблем при работе с программой электронной подписи и их решений&lt;/>.</value>
-        </title>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>ТипичныеПроблемыРасширеннаяПодсказка</name>
-          <id>58</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>ТипичныеПроблемыКонтекстноеМеню</name>
-          <id>57</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <formatted>true</formatted>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <handlers>
-            <event>URLProcessing</event>
-            <name>ТипичныеПроблемыОбработкаНавигационнойСсылки</name>
-          </handlers>
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </items>
-      <items xsi:type="form:Decoration">
         <name>ИнформацияДляПоддержки</name>
-        <id>59</id>
+        <id>69</id>
         <title>
           <key>ru</key>
-          <value>В иных случаях обратитесь в службу поддержки фирмы &quot;1С&quot;, предоставив &lt;link Ссылка>техническую информацию о возникшей проблеме&lt;/>.</value>
+          <value>При возникновении затруднений ознакомьтесь со списком &lt;link %1>типичных проблем при работе с приложениями электронной подписи и их решений&lt;/>.
+
+В иных случаях обратитесь в службу поддержки фирмы &quot;1С&quot;, предоставив &lt;link %2>техническую информацию о возникшей проблеме&lt;/>.</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -424,7 +389,7 @@
         </userVisible>
         <extendedTooltip>
           <name>ИнформацияДляПоддержкиРасширеннаяПодсказка</name>
-          <id>61</id>
+          <id>71</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -439,7 +404,7 @@
         </extendedTooltip>
         <contextMenu>
           <name>ИнформацияДляПоддержкиКонтекстноеМеню</name>
-          <id>60</id>
+          <id>70</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -501,6 +466,10 @@
       <items xsi:type="form:Button">
         <name>ФормаУстановитьРасширение</name>
         <id>15</id>
+        <title>
+          <key>ru</key>
+          <value>Установить расширение</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -531,6 +500,10 @@
       <items xsi:type="form:Button">
         <name>ФормаПерейтиКНастройкеПрограмм</name>
         <id>11</id>
+        <title>
+          <key>ru</key>
+          <value>Перейти к настройке приложений</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -677,6 +650,7 @@
   <width>55</width>
   <height>20</height>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -854,7 +828,7 @@
     <name>ПерейтиКНастройкеПрограмм</name>
     <title>
       <key>ru</key>
-      <value>Перейти к настройке программ</value>
+      <value>Перейти к настройке приложений</value>
     </title>
     <id>2</id>
     <use>

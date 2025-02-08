@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>СтрокаПоиска</name>
     <id>3</id>
+    <title>
+      <key>ru</key>
+      <value>Строка поиска</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -17,7 +21,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>СтрокаПоискаExtendedTooltip</name>
+      <name>СтрокаПоискаРасширеннаяПодсказка</name>
       <id>7</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -70,6 +74,10 @@
   <items xsi:type="form:Button">
     <name>Найти</name>
     <id>4</id>
+    <title>
+      <key>ru</key>
+      <value>Найти</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -77,7 +85,7 @@
     </userVisible>
     <skipOnInput>false</skipOnInput>
     <extendedTooltip>
-      <name>НайтиExtendedTooltip</name>
+      <name>НайтиРасширеннаяПодсказка</name>
       <id>8</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -126,6 +134,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>HorizontalIfPossible</group>
   <autoFillCheck>true</autoFillCheck>

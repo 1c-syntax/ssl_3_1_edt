@@ -42,13 +42,17 @@
     <items xsi:type="form:Button">
       <name>ФормаВключитьОтключитьРегламентноеЗадание</name>
       <id>12</id>
+      <title>
+        <key>ru</key>
+        <value>Включить / отключить выполнение синхронизации по расписанию</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаВключитьОтключитьРегламентноеЗаданиеExtendedTooltip</name>
+        <name>ФормаВключитьОтключитьРегламентноеЗаданиеРасширеннаяПодсказка</name>
         <id>14</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -130,7 +134,7 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>ИспользоватьРегламентноеЗаданиеExtendedTooltip</name>
+        <name>ИспользоватьРегламентноеЗаданиеРасширеннаяПодсказка</name>
         <id>17</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -186,7 +190,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>18</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -396,7 +400,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>16</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -416,13 +420,17 @@
       <items xsi:type="form:Button">
         <name>СписокКонтекстноеМенюВключитьОтключитьРегламентноеЗадание</name>
         <id>13</id>
+        <title>
+          <key>ru</key>
+          <value>Включить / отключить выполнение синхронизации по расписанию</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СписокКонтекстноеМенюВключитьОтключитьРегламентноеЗаданиеExtendedTooltip</name>
+          <name>СписокКонтекстноеМенюВключитьОтключитьРегламентноеЗаданиеРасширеннаяПодсказка</name>
           <id>15</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -479,6 +487,7 @@
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
       <userSettingsGroup>ГруппаПользовательскихНастроек</userSettingsGroup>
     </extInfo>
   </items>
@@ -492,6 +501,7 @@
     </userVisible>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -512,6 +522,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.DeletionMark</segments>
+    </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Список.Ref</segments>
     </notDefaultUseAlwaysAttributes>

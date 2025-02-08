@@ -13,6 +13,10 @@
       <items xsi:type="form:FormField">
         <name>Наименование</name>
         <id>29</id>
+        <title>
+          <key>ru</key>
+          <value>Представление</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -119,6 +123,10 @@
       <items xsi:type="form:FormField">
         <name>ШаблонПодтверждения</name>
         <id>11</id>
+        <title>
+          <key>ru</key>
+          <value>Шаблон подтверждения</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -129,7 +137,7 @@
         </dataPath>
         <toolTip>
           <key>ru</key>
-          <value>Имя шаблона операции произвольного подтверждения, который зарегистрирован на сервере облачной криптографии.
+          <value>Имя шаблона операции произвольного подтверждения, который зарегистрирован на сервере DSS.
 Необходим для операций не требующих доступа к закрытому ключу.</value>
         </toolTip>
         <toolTipRepresentation>Button</toolTipRepresentation>
@@ -231,6 +239,10 @@
       <items xsi:type="form:FormField">
         <name>Используется</name>
         <id>6</id>
+        <title>
+          <key>ru</key>
+          <value>Используется</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1089,6 +1101,10 @@
     <items xsi:type="form:Button">
       <name>ОК</name>
       <id>25</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1120,6 +1136,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОтмена</name>
       <id>27</id>
+      <title>
+        <key>ru</key>
+        <value>Отмена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1167,6 +1187,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

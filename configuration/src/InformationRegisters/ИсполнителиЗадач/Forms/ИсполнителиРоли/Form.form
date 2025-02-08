@@ -32,7 +32,7 @@
         <segments>Исполнители.Исполнитель</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ИсполнительExtendedTooltip</name>
+        <name>ИсполнительРасширеннаяПодсказка</name>
         <id>13</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -80,7 +80,7 @@
         <segments>Исполнители.ОсновнойОбъектАдресации</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ОсновнойОбъектАдресацииExtendedTooltip</name>
+        <name>ОсновнойОбъектАдресацииРасширеннаяПодсказка</name>
         <id>14</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -124,7 +124,7 @@
         <segments>Исполнители.ДополнительныйОбъектАдресации</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДополнительныйОбъектАдресацииExtendedTooltip</name>
+        <name>ДополнительныйОбъектАдресацииРасширеннаяПодсказка</name>
         <id>15</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -291,7 +291,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ИсполнителиExtendedTooltip</name>
+      <name>ИсполнителиРасширеннаяПодсказка</name>
       <id>12</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -343,6 +343,7 @@
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -360,6 +361,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

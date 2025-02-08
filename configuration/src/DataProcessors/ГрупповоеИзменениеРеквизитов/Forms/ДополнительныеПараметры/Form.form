@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
     <key>ru</key>
     <value>Дополнительные параметры</value>
@@ -10,6 +10,10 @@
     <items xsi:type="form:FormField">
       <name>ИзменятьВТранзакции</name>
       <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>Изменять в транзакции</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -25,7 +29,7 @@
         <name>ИзменятьВТранзакцииПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ИзменятьВТранзакцииExtendedTooltip</name>
+        <name>ИзменятьВТранзакцииРасширеннаяПодсказка</name>
         <id>54</id>
         <title>
           <key>ru</key>
@@ -38,9 +42,6 @@
         </userVisible>
         <type>Label</type>
         <autoMaxHeight>true</autoMaxHeight>
-        <textColor xsi:type="core:ColorRef">
-          <color>Style.ПоясняющийТекст</color>
-        </textColor>
         <extInfo xsi:type="form:LabelDecorationExtInfo">
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
@@ -72,8 +73,44 @@
       <value>Изменять в транзакции</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаИзменятьВТранзакцииExtendedTooltip</name>
+      <name>ГруппаИзменятьВТранзакцииРасширеннаяПодсказка</name>
       <id>53</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаЧислоОбъектовВПорции</name>
+    <id>98</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Число объектов в порции</value>
+    </title>
+    <extendedTooltip>
+      <name>ГруппаЧислоОбъектовВПорцииРасширеннаяПодсказка</name>
+      <id>99</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -101,6 +138,10 @@
     <items xsi:type="form:FormField">
       <name>ПрерыватьПриОшибке</name>
       <id>37</id>
+      <title>
+        <key>ru</key>
+        <value>Прерывать при ошибке</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -112,7 +153,7 @@
       <titleLocation>Right</titleLocation>
       <toolTipRepresentation>ShowBottom</toolTipRepresentation>
       <extendedTooltip>
-        <name>ПрерыватьПриОшибкеExtendedTooltip</name>
+        <name>ПрерыватьПриОшибкеРасширеннаяПодсказка</name>
         <id>57</id>
         <title>
           <key>ru</key>
@@ -125,9 +166,6 @@
         </userVisible>
         <type>Label</type>
         <autoMaxHeight>true</autoMaxHeight>
-        <textColor xsi:type="core:ColorRef">
-          <color>Style.ПоясняющийТекст</color>
-        </textColor>
         <extInfo xsi:type="form:LabelDecorationExtInfo">
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
@@ -159,7 +197,7 @@
       <value>Прерывание при ошибке</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаПрерываниеПриОшибкеExtendedTooltip</name>
+      <name>ГруппаПрерываниеПриОшибкеРасширеннаяПодсказка</name>
       <id>56</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -188,6 +226,10 @@
     <items xsi:type="form:FormField">
       <name>ОбрабатыватьГруппыРекурсивно</name>
       <id>3</id>
+      <title>
+        <key>ru</key>
+        <value>Обрабатывать дочерние элементы</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -199,7 +241,7 @@
       <titleLocation>Right</titleLocation>
       <toolTipRepresentation>ShowBottom</toolTipRepresentation>
       <extendedTooltip>
-        <name>ОбрабатыватьГруппыРекурсивноExtendedTooltip</name>
+        <name>ОбрабатыватьГруппыРекурсивноРасширеннаяПодсказка</name>
         <id>60</id>
         <title>
           <key>ru</key>
@@ -212,9 +254,6 @@
         </userVisible>
         <type>Label</type>
         <autoMaxHeight>true</autoMaxHeight>
-        <textColor xsi:type="core:ColorRef">
-          <color>Style.ПоясняющийТекст</color>
-        </textColor>
         <extInfo xsi:type="form:LabelDecorationExtInfo">
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
@@ -246,7 +285,7 @@
       <value>Обрабатывать рекурсивно</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаОбрабатыватьРекурсивноExtendedTooltip</name>
+      <name>ГруппаОбрабатыватьРекурсивноРасширеннаяПодсказка</name>
       <id>59</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -278,6 +317,10 @@
       <items xsi:type="form:FormField">
         <name>ПоказыватьСлужебныеРеквизиты</name>
         <id>80</id>
+        <title>
+          <key>ru</key>
+          <value>Показывать служебные реквизиты</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -302,9 +345,6 @@
           </userVisible>
           <type>Label</type>
           <autoMaxHeight>true</autoMaxHeight>
-          <textColor xsi:type="core:ColorRef">
-            <color>Style.ПоясняющийТекст</color>
-          </textColor>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
@@ -393,9 +433,6 @@
           </userVisible>
           <type>Label</type>
           <autoMaxHeight>true</autoMaxHeight>
-          <textColor xsi:type="core:ColorRef">
-            <color>Style.ПоясняющийТекст</color>
-          </textColor>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
@@ -456,6 +493,10 @@
       <items xsi:type="form:FormField">
         <name>ОтключитьСвязиПараметровВыбора</name>
         <id>93</id>
+        <title>
+          <key>ru</key>
+          <value>Отключить отборы при выборе значений</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -480,9 +521,6 @@
           </userVisible>
           <type>Label</type>
           <autoMaxHeight>true</autoMaxHeight>
-          <textColor xsi:type="core:ColorRef">
-            <color>Style.ПоясняющийТекст</color>
-          </textColor>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
@@ -582,13 +620,17 @@
     <items xsi:type="form:Button">
       <name>ФормаОК</name>
       <id>5</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОКExtendedTooltip</name>
+        <name>ФормаОКРасширеннаяПодсказка</name>
         <id>50</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -619,7 +661,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОтменаExtendedTooltip</name>
+        <name>ФормаОтменаРасширеннаяПодсказка</name>
         <id>51</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -649,7 +691,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСправкаExtendedTooltip</name>
+        <name>ФормаСправкаРасширеннаяПодсказка</name>
         <id>52</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -686,6 +728,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -734,23 +777,6 @@
       <types>Number</types>
       <numberQualifiers>
         <precision>1</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ЧислоОбъектовВПорции</name>
-    <id>4</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>5</precision>
         <nonNegative>true</nonNegative>
       </numberQualifiers>
     </valueType>
@@ -949,6 +975,12 @@
   </parameters>
   <parameters>
     <name>РежимРазработчика</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ПоказыватьСлужебныеРеквизиты</name>
     <valueType>
       <types>Boolean</types>
     </valueType>

@@ -63,9 +63,7 @@
       <value>Сервер</value>
     </synonym>
     <fillFromFillingValue>true</fillFromFillingValue>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>3bd96ce0-d668-4a53-9c79-4d3f3de3c07b.00000000-0000-0000-0000-000000000000</value>
-    </fillValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
     <fillChecking>ShowError</fillChecking>
     <fullTextSearch>Use</fullTextSearch>
     <minValue xsi:type="core:UndefinedValue"/>
@@ -108,12 +106,8 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Учетная запись облачной подписи</value>
+    <value>Учетная запись DSS</value>
   </objectPresentation>
-  <listPresentation>
-    <key>ru</key>
-    <value>Учетные записи облачной подписи</value>
-  </listPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <owners>Catalog.ЭкземплярыСервераDSS</owners>
@@ -256,9 +250,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:ReferenceValue">
-      <value>cebf63c8-08c7-4c6b-886a-356051f3ab01.55934f25-e740-4144-91bf-92866f928615</value>
-    </fillValue>
+    <fillValue xsi:type="core:ReferenceValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

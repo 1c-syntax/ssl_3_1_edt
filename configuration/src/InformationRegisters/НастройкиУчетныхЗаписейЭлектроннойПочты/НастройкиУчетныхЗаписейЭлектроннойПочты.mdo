@@ -251,7 +251,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Ответственный за обработку писем для данной учетной записи по умолчанию</value>
+      <value>Ответственный за обработку писем почты по умолчанию</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -271,7 +271,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Ответственный за ведение папок для данной учетной записи</value>
+      <value>Ответственный за ведение папок почты</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -291,7 +291,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Для исходящих писем данной учетной записи по умолчанию будет устанавливаться признак необходимости удалить это письмо из информационной базы после успешной отправки</value>
+      <value>Для исходящих писем по умолчанию будет устанавливаться признак необходимости удалить это письмо из информационной базы после успешной отправки</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -329,7 +329,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Признак использования учетной записи во встроенном почтовом клиенте.</value>
+      <value>Признак использования почты во встроенном почтовом клиенте.</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -349,7 +349,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>В представление учетной записи включать имя пользователя</value>
+      <value>В представление почты включать имя пользователя</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -398,14 +398,14 @@
     <name>УчетнаяЗаписьЭлектроннойПочты</name>
     <synonym>
       <key>ru</key>
-      <value>Учетная запись электронной почты</value>
+      <value>Электронная почта</value>
     </synonym>
     <type>
       <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Учетная запись, для которой выполняются настройки</value>
+      <value>Электронная почта, для которой выполняются настройки</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -452,7 +452,7 @@
     <representation>Auto</representation>
     <toolTip>
       <key>ru</key>
-      <value>Персональные настройки учетной записи</value>
+      <value>Персональные настройки почты</value>
     </toolTip>
   </commands>
 </mdclass:InformationRegister>

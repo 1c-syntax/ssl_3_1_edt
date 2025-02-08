@@ -190,6 +190,10 @@
       <items xsi:type="form:Button">
         <name>Выбрать</name>
         <id>39</id>
+        <title>
+          <key>ru</key>
+          <value>Выбрать</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -221,6 +225,10 @@
       <items xsi:type="form:Button">
         <name>ТаблицаСертификатовПродолжить</name>
         <id>47</id>
+        <title>
+          <key>ru</key>
+          <value>Продолжить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -251,6 +259,10 @@
       <items xsi:type="form:Button">
         <name>ФормаСвойстваСертификата</name>
         <id>43</id>
+        <title>
+          <key>ru</key>
+          <value>Просмотр</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -284,6 +296,10 @@
       <items xsi:type="form:Button">
         <name>УдалитьЗапрос</name>
         <id>45</id>
+        <title>
+          <key>ru</key>
+          <value>Удалить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -462,6 +478,10 @@
       <items xsi:type="form:Button">
         <name>ТаблицаСертификатовКонтекстноеМенюСвойстваСертификата</name>
         <id>37</id>
+        <title>
+          <key>ru</key>
+          <value>Просмотр</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -540,6 +560,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

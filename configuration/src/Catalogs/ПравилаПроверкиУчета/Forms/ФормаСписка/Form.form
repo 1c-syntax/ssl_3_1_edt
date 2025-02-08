@@ -42,6 +42,10 @@
     <items xsi:type="form:Button">
       <name>ФормаВыполнитьПроверку</name>
       <id>125</id>
+      <title>
+        <key>ru</key>
+        <value>Выполнить проверку</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -72,6 +76,10 @@
     <items xsi:type="form:Button">
       <name>ФормаВыполнитьВсеПроверки</name>
       <id>154</id>
+      <title>
+        <key>ru</key>
+        <value>Выполнить все</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -105,6 +113,10 @@
       <items xsi:type="form:Button">
         <name>ФормаВосстановитьПоНачальномуЗаполнению</name>
         <id>145</id>
+        <title>
+          <key>ru</key>
+          <value>Восстановить по начальному заполнению</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -326,7 +338,7 @@
             <segments>Список.РегламентноеЗаданиеПредставление</segments>
           </dataPath>
           <extendedTooltip>
-            <name>РегламентноеЗаданиеПредставлениеExtendedTooltip</name>
+            <name>РегламентноеЗаданиеПредставлениеРасширеннаяПодсказка</name>
             <id>14</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -668,6 +680,10 @@
       <items xsi:type="form:Button">
         <name>СписокКонтекстноеМенюВыполнитьПроверку</name>
         <id>17</id>
+        <title>
+          <key>ru</key>
+          <value>Выполнить проверку</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -738,24 +754,115 @@
       <restoreCurrentRow>true</restoreCurrentRow>
       <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
       <userSettingsGroup>ГруппаПользовательскихНастроек</userSettingsGroup>
     </extInfo>
   </items>
-  <items xsi:type="form:Decoration">
-    <name>ПредставлениеОбщегоРасписания</name>
-    <id>114</id>
-    <title>
-      <key>ru</key>
-      <value>&lt;Представление общего расписания></value>
-    </title>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаРасписание</name>
+    <id>156</id>
+    <items xsi:type="form:Decoration">
+      <name>ПредставлениеОбщегоРасписания</name>
+      <id>114</id>
+      <title>
+        <key>ru</key>
+        <value>&lt;Представление общего расписания></value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <toolTipRepresentation>Button</toolTipRepresentation>
+      <extendedTooltip>
+        <name>ПредставлениеОбщегоРасписанияРасширеннаяПодсказка</name>
+        <id>116</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПредставлениеОбщегоРасписанияКонтекстноеМеню</name>
+        <id>115</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <handlers>
+          <event>URLProcessing</event>
+          <name>ПредставлениеОбщегоРасписанияОбработкаНавигационнойСсылки</name>
+        </handlers>
+        <horizontalAlign>Left</horizontalAlign>
+        <verticalAlign>Center</verticalAlign>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>ИнформацияПоПоследнейПроверке</name>
+      <id>158</id>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ИнформацияПоПоследнейПроверкеРасширеннаяПодсказка</name>
+        <id>160</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ИнформацияПоПоследнейПроверкеКонтекстноеМеню</name>
+        <id>159</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:PictureDecorationExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>StdPicture.Information</picture>
+        </picture>
+        <fileDragMode>AsFileRef</fileDragMode>
+      </extInfo>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Расписание</value>
+    </title>
     <extendedTooltip>
-      <name>ПредставлениеОбщегоРасписанияРасширеннаяПодсказка</name>
-      <id>116</id>
+      <name>ГруппаРасписаниеРасширеннаяПодсказка</name>
+      <id>157</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -768,25 +875,14 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <contextMenu>
-      <name>ПредставлениеОбщегоРасписанияКонтекстноеМеню</name>
-      <id>115</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>Label</type>
-    <autoMaxHeight>true</autoMaxHeight>
-    <extInfo xsi:type="form:LabelDecorationExtInfo">
-      <handlers>
-        <event>URLProcessing</event>
-        <name>ПредставлениеОбщегоРасписанияОбработкаНавигационнойСсылки</name>
-      </handlers>
-      <horizontalAlign>Left</horizontalAlign>
-      <verticalAlign>Center</verticalAlign>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>HorizontalIfPossible</group>
+      <behavior>Auto</behavior>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -811,6 +907,7 @@
   <excludedCommands>LevelUp</excludedCommands>
   <excludedCommands>SetDeletionMark</excludedCommands>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -836,21 +933,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.Ref</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.ВыполняетсяТолькоВКонтексте</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.Используется</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.КонтекстВыполнения</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.Кор_НастройкаРегламентов_ИдентификаторРегламентногоЗадания</segments>
-    </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Список.ИдентификаторРегламентногоЗадания</segments>
     </notDefaultUseAlwaysAttributes>

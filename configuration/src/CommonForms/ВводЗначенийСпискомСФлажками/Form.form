@@ -385,6 +385,10 @@
         <items xsi:type="form:Button">
           <name>СписокВставитьИзБуфераОбменаМеню</name>
           <id>76</id>
+          <title>
+            <key>ru</key>
+            <value>Вставить из буфера обмена...</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -806,6 +810,10 @@
       <items xsi:type="form:Button">
         <name>КомандаОК</name>
         <id>26</id>
+        <title>
+          <key>ru</key>
+          <value>ОК</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -996,6 +1004,10 @@
       <items xsi:type="form:Button">
         <name>СписокВставитьИзБуфераОбмена</name>
         <id>33</id>
+        <title>
+          <key>ru</key>
+          <value>Вставить из буфера обмена...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1354,6 +1366,48 @@
         <representation>Compact</representation>
       </extInfo>
     </items>
+    <items xsi:type="form:Addition">
+      <title>
+        <key>ru</key>
+        <value>Поиск</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>СтрокаПоиска</name>
+      <id>110</id>
+      <extendedTooltip>
+        <name>СтрокаПоискаРасширеннаяПодсказка</name>
+        <id>112</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СтрокаПоискаКонтекстноеМеню</name>
+        <id>111</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <source>СписокСтрокаПоиска</source>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </items>
     <items xsi:type="form:Button">
       <name>ФормаИзменитьФорму</name>
       <id>70</id>
@@ -1426,6 +1480,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -1516,6 +1571,62 @@
     </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>ОписаниеТипов</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>ЗначенияДляВыбораЗаполнены</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ОграничиватьВыборУказаннымиЗначениями</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>БыстрыйВыбор</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ЗначенияДляВыбора</name>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>Отмеченные</name>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>Представление</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ВыборГруппИЭлементов</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>ПараметрыВыбора</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>КлючУникальности</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

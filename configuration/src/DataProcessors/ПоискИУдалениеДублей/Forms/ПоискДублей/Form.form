@@ -11,6 +11,10 @@
     <items xsi:type="form:FormField">
       <name>ОбластьПоискаДублей</name>
       <id>9</id>
+      <title>
+        <key>ru</key>
+        <value>Искать в</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -83,6 +87,10 @@
     <items xsi:type="form:FormField">
       <name>ПредставлениеПравилОтбора</name>
       <id>413</id>
+      <title>
+        <key>ru</key>
+        <value>Отбирать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -142,6 +150,10 @@
     <items xsi:type="form:FormField">
       <name>ПредставлениеПравилПоиска</name>
       <id>408</id>
+      <title>
+        <key>ru</key>
+        <value>Сравнивать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -185,7 +197,9 @@
           <event>Click</event>
           <name>ПредставлениеПравилПоискаНажатие</name>
         </handlers>
+        <height>2</height>
         <autoMaxHeight>true</autoMaxHeight>
+        <verticalStretch>true</verticalStretch>
         <hyperlink>true</hyperlink>
       </extInfo>
     </items>
@@ -231,6 +245,10 @@
       <items xsi:type="form:FormField">
         <name>ПоискНеВыполнялся</name>
         <id>64</id>
+        <title>
+          <key>ru</key>
+          <value>Поиск не выполнялся</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -294,6 +312,7 @@
         <key>ru</key>
         <value>Шаг поиск не выполнялся</value>
       </title>
+      <enableContentChange>true</enableContentChange>
       <extendedTooltip>
         <name>ШагПоискНеВыполнялсяРасширеннаяПодсказка</name>
         <id>63</id>
@@ -321,6 +340,10 @@
       <items xsi:type="form:FormField">
         <name>ВыполнениеПоиска</name>
         <id>188</id>
+        <title>
+          <key>ru</key>
+          <value>Поиск не выполнялся</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -384,6 +407,7 @@
         <key>ru</key>
         <value>Шаг поиск не выполнялся</value>
       </title>
+      <enableContentChange>true</enableContentChange>
       <extendedTooltip>
         <name>ШагВыполнениеПоискаРасширеннаяПодсказка</name>
         <id>187</id>
@@ -412,15 +436,19 @@
         <name>КоманднаяПанель</name>
         <id>96</id>
         <items xsi:type="form:Button">
-          <name>ВыбратьОсновнойЭлемент</name>
+          <name>ОтметитьКакОригинал</name>
           <id>88</id>
+          <title>
+            <key>ru</key>
+            <value>Отметить как оригинал</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ВыбратьОсновнойЭлементРасширеннаяПодсказка</name>
+            <name>ОтметитьКакОригиналРасширеннаяПодсказка</name>
             <id>89</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -434,7 +462,7 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <commandName>Form.Command.ВыбратьОсновнойЭлемент</commandName>
+          <commandName>Form.Command.ОтметитьКакОригинал</commandName>
           <representation>Auto</representation>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -447,6 +475,10 @@
           <items xsi:type="form:Button">
             <name>УстановитьВсеФлажки</name>
             <id>463</id>
+            <title>
+              <key>ru</key>
+              <value>Установить все флажки</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -477,6 +509,10 @@
           <items xsi:type="form:Button">
             <name>СнятьВсеФлажки</name>
             <id>465</id>
+            <title>
+              <key>ru</key>
+              <value>Снять все флажки</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -509,6 +545,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Установить снять флажки</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаУстановитьСнятьФлажкиРасширеннаяПодсказка</name>
             <id>462</id>
@@ -534,6 +574,10 @@
           <items xsi:type="form:Button">
             <name>РазвернутьГруппуДублей</name>
             <id>92</id>
+            <title>
+              <key>ru</key>
+              <value>Развернуть</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -564,6 +608,10 @@
           <items xsi:type="form:Button">
             <name>СвернутьГруппуДублей</name>
             <id>94</id>
+            <title>
+              <key>ru</key>
+              <value>Свернуть</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -596,6 +644,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Свернуть развернуть</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаСвернутьРазвернутьРасширеннаяПодсказка</name>
             <id>460</id>
@@ -618,6 +670,10 @@
         <items xsi:type="form:Button">
           <name>ПовторитьПоиск</name>
           <id>326</id>
+          <title>
+            <key>ru</key>
+            <value>Повторить поиск</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -648,6 +704,10 @@
         <items xsi:type="form:Button">
           <name>ОткрытьКандидатаВДубли</name>
           <id>90</id>
+          <title>
+            <key>ru</key>
+            <value>Открыть</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -678,6 +738,10 @@
         <items xsi:type="form:Button">
           <name>Подробнее</name>
           <id>469</id>
+          <title>
+            <key>ru</key>
+            <value>Подробнее >></value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -798,6 +862,9 @@
             <type>PictureField</type>
             <editMode>EnterOnInput</editMode>
             <showInHeader>true</showInHeader>
+            <headerPicture xsi:type="core:PictureRef">
+              <picture>CommonPicture.МетаданныеРеквизиты</picture>
+            </headerPicture>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:ImageFieldExtInfo">
@@ -817,6 +884,10 @@
             <items xsi:type="form:FormField">
               <name>НайденныеДублиПометка</name>
               <id>103</id>
+              <title>
+                <key>ru</key>
+                <value>Пометка</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -867,6 +938,10 @@
             <items xsi:type="form:FormField">
               <name>НайденныеДублиОсновной</name>
               <id>114</id>
+              <title>
+                <key>ru</key>
+                <value>Основной</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -878,7 +953,7 @@
               <titleLocation>None</titleLocation>
               <toolTip>
                 <key>ru</key>
-                <value>Это оригинальный элемент, который будет оставлен в программе</value>
+                <value>Это оригинальный элемент, который будет оставлен в приложении</value>
               </toolTip>
               <extendedTooltip>
                 <name>НайденныеДублиОсновнойРасширеннаяПодсказка</name>
@@ -924,6 +999,10 @@
             <items xsi:type="form:FormField">
               <name>НайденныеДублиНаименование</name>
               <id>100</id>
+              <title>
+                <key>ru</key>
+                <value>Наименование</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1006,6 +1085,10 @@
           <items xsi:type="form:FormField">
             <name>НайденныеДублиКод</name>
             <id>111</id>
+            <title>
+              <key>ru</key>
+              <value>Код</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible/>
@@ -1057,6 +1140,10 @@
           <items xsi:type="form:FormField">
             <name>НайденныеДублиКоличество</name>
             <id>119</id>
+            <title>
+              <key>ru</key>
+              <value>Мест использования</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1101,7 +1188,7 @@
             <editMode>EnterOnInput</editMode>
             <showInHeader>true</showInHeader>
             <headerPicture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Информация</picture>
+              <picture>StdPicture.Information</picture>
             </headerPicture>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
@@ -1271,6 +1358,10 @@
             <items xsi:type="form:Button">
               <name>НайденныеДублиКонтекстноеМенюВыбратьОсновнойЭлемент</name>
               <id>117</id>
+              <title>
+                <key>ru</key>
+                <value>Отметить как оригинал</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1291,7 +1382,7 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <commandName>Form.Command.ВыбратьОсновнойЭлемент</commandName>
+              <commandName>Form.Command.ОтметитьКакОригинал</commandName>
               <representation>Auto</representation>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
@@ -1304,6 +1395,10 @@
               <items xsi:type="form:Button">
                 <name>НайденныеДублиКонтекстноеМенюОткрытьКандидатаВДубли1</name>
                 <id>430</id>
+                <title>
+                  <key>ru</key>
+                  <value>Открыть</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1336,6 +1431,10 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Найденные дубли контекстное меню группа изменить</value>
+              </title>
               <extendedTooltip>
                 <name>НайденныеДублиКонтекстноеМенюГруппаИзменитьРасширеннаяПодсказка</name>
                 <id>423</id>
@@ -1439,7 +1538,7 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <commandName>0:198ea630-fda2-4cda-8a23-f999f4c67ee6</commandName>
+                <commandName>Form.StandardCommand.CustomizeForm</commandName>
                 <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1451,6 +1550,10 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Найденные дубли контекстное меню группа изменить форму</value>
+              </title>
               <extendedTooltip>
                 <name>НайденныеДублиКонтекстноеМенюГруппаИзменитьФормуРасширеннаяПодсказка</name>
                 <id>427</id>
@@ -1526,6 +1629,7 @@
           <verticalStretch>true</verticalStretch>
           <enableStartDrag>true</enableStartDrag>
           <enableDrag>true</enableDrag>
+          <searchStringLocation>Top</searchStringLocation>
         </items>
         <items xsi:type="form:FormGroup">
           <name>ГруппаПодробно</name>
@@ -1555,6 +1659,10 @@
                 <items xsi:type="form:FormField">
                   <name>МестаИспользованияКандидатаПредставлениеДанных</name>
                   <id>144</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Представление данных</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1809,6 +1917,7 @@
                 <verticalStretch>true</verticalStretch>
                 <enableStartDrag>true</enableStartDrag>
                 <enableDrag>true</enableDrag>
+                <searchStringLocation>Top</searchStringLocation>
                 <rowFilter xsi:type="core:UndefinedValue"/>
               </items>
               <visible>true</visible>
@@ -2027,6 +2136,10 @@
         <items xsi:type="form:FormField">
           <name>ОписаниеСостоянияНайденныхДублей</name>
           <id>202</id>
+          <title>
+            <key>ru</key>
+            <value>Описание состояния найденных дублей</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2197,6 +2310,10 @@
       <items xsi:type="form:FormField">
         <name>ВыполнениеУдаления</name>
         <id>207</id>
+        <title>
+          <key>ru</key>
+          <value>Поиск не выполнялся</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -2260,6 +2377,7 @@
         <key>ru</key>
         <value>Шаг выполнение удаления</value>
       </title>
+      <enableContentChange>true</enableContentChange>
       <extendedTooltip>
         <name>ШагВыполнениеУдаленияРасширеннаяПодсказка</name>
         <id>206</id>
@@ -2332,6 +2450,10 @@
         <items xsi:type="form:FormField">
           <name>ОписаниеСостоянияНайденныхДублей1</name>
           <id>344</id>
+          <title>
+            <key>ru</key>
+            <value>Описание состояния найденных дублей</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2599,6 +2721,10 @@
             <items xsi:type="form:FormField">
               <name>ВозможныеДублиВыбран</name>
               <id>497</id>
+              <title>
+                <key>ru</key>
+                <value>Выбран</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2647,6 +2773,10 @@
             <items xsi:type="form:FormField">
               <name>ВозможныеДублиИмяОбъектаМетаданных</name>
               <id>486</id>
+              <title>
+                <key>ru</key>
+                <value>Возможно, возникли дубли в</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2726,6 +2856,10 @@
           <items xsi:type="form:FormField">
             <name>ВозможныеДублиИсточники</name>
             <id>492</id>
+            <title>
+              <key>ru</key>
+              <value>при замене в</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2939,6 +3073,7 @@
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
           <fileDragMode>AsFileRef</fileDragMode>
+          <searchStringLocation>Top</searchStringLocation>
           <rowFilter xsi:type="core:UndefinedValue"/>
         </items>
         <visible>true</visible>
@@ -3096,6 +3231,10 @@
               <items xsi:type="form:FormField">
                 <name>НеобработанныеДублиОсновной</name>
                 <id>305</id>
+                <title>
+                  <key>ru</key>
+                  <value>Основной</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -3149,6 +3288,10 @@
               <items xsi:type="form:FormField">
                 <name>НеобработанныеДублиНаименование</name>
                 <id>296</id>
+                <title>
+                  <key>ru</key>
+                  <value>Наименование</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -3235,6 +3378,10 @@
             <items xsi:type="form:FormField">
               <name>НеобработанныеДублиКод</name>
               <id>293</id>
+              <title>
+                <key>ru</key>
+                <value>Код</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible/>
@@ -3286,6 +3433,10 @@
             <items xsi:type="form:FormField">
               <name>НеобработанныеДублиКоличество</name>
               <id>299</id>
+              <title>
+                <key>ru</key>
+                <value>Мест использования</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3502,6 +3653,10 @@
                 <items xsi:type="form:Button">
                   <name>НеобработанныеДублиКонтекстноеМенюОткрытьНеобработанныйДубль</name>
                   <id>432</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Открыть</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -3534,6 +3689,10 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <title>
+                  <key>ru</key>
+                  <value>Необработанные дубли контекстное меню группа открыть</value>
+                </title>
                 <extendedTooltip>
                   <name>НеобработанныеДублиКонтекстноеМенюГруппаОткрытьРасширеннаяПодсказка</name>
                   <id>443</id>
@@ -3611,47 +3770,17 @@
                 <placementArea>UserCmds</placementArea>
                 <representationInContextMenu>Auto</representationInContextMenu>
               </items>
-              <items xsi:type="form:FormGroup">
-                <name>НеобработанныеДублиКонтекстноеМенюГруппаИзменитьФорму</name>
-                <id>440</id>
-                <items xsi:type="form:Button">
-                  <name>НеобработанныеДублиКонтекстноеМенюИзменитьФорму</name>
-                  <id>438</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <extendedTooltip>
-                    <name>НеобработанныеДублиКонтекстноеМенюИзменитьФормуРасширеннаяПодсказка</name>
-                    <id>439</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <type>Label</type>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <extInfo xsi:type="form:LabelDecorationExtInfo">
-                      <horizontalAlign>Left</horizontalAlign>
-                    </extInfo>
-                  </extendedTooltip>
-                  <commandName>0:198ea630-fda2-4cda-8a23-f999f4c67ee6</commandName>
-                  <representation>Auto</representation>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <placementArea>UserCmds</placementArea>
-                  <representationInContextMenu>Auto</representationInContextMenu>
-                </items>
+              <items xsi:type="form:Button">
+                <name>НеобработанныеДублиКонтекстноеМенюИзменитьФорму</name>
+                <id>521</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>НеобработанныеДублиКонтекстноеМенюГруппаИзменитьФормуРасширеннаяПодсказка</name>
-                  <id>441</id>
+                  <name>НеобработанныеДублиКонтекстноеМенюИзменитьФормуРасширеннаяПодсказка</name>
+                  <id>522</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -3664,7 +3793,12 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <extInfo xsi:type="form:ButtonGroupExtInfo"/>
+                <commandName>Form.StandardCommand.CustomizeForm</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
               </items>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -3695,6 +3829,7 @@
             <verticalStretch>true</verticalStretch>
             <enableStartDrag>true</enableStartDrag>
             <enableDrag>true</enableDrag>
+            <searchStringLocation>Top</searchStringLocation>
           </items>
           <items xsi:type="form:FormGroup">
             <name>СтраницыМестаИспользованияНеобработанных</name>
@@ -3721,6 +3856,10 @@
                 <items xsi:type="form:FormField">
                   <name>МестаИспользованияНеобработанныхПиктограмма</name>
                   <id>320</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Пиктограмма</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -3770,6 +3909,10 @@
                 <items xsi:type="form:FormField">
                   <name>МестаИспользованияНеобработанныхПредставлениеДанных</name>
                   <id>311</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Представление объекта ошибки</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -4026,11 +4169,16 @@
                 <verticalStretch>true</verticalStretch>
                 <enableStartDrag>true</enableStartDrag>
                 <enableDrag>true</enableDrag>
+                <searchStringLocation>Top</searchStringLocation>
                 <rowFilter xsi:type="core:UndefinedValue"/>
               </items>
               <items xsi:type="form:FormField">
-                <name>ОписаниеОшибкиНеобработанных</name>
+                <name>ПодробностиОшибки</name>
                 <id>285</id>
+                <title>
+                  <key>ru</key>
+                  <value>Подробности ошибки</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -4041,7 +4189,7 @@
                 </dataPath>
                 <titleLocation>None</titleLocation>
                 <extendedTooltip>
-                  <name>ОписаниеОшибкиНеобработанныхРасширеннаяПодсказка</name>
+                  <name>ПодробностиОшибкиРасширеннаяПодсказка</name>
                   <id>287</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -4056,7 +4204,7 @@
                   </extInfo>
                 </extendedTooltip>
                 <contextMenu>
-                  <name>ОписаниеОшибкиНеобработанныхКонтекстноеМеню</name>
+                  <name>ПодробностиОшибкиКонтекстноеМеню</name>
                   <id>286</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -4072,15 +4220,65 @@
                 <headerHorizontalAlign>Left</headerHorizontalAlign>
                 <showInFooter>true</showInFooter>
                 <extInfo xsi:type="form:InputFieldExtInfo">
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <height>3</height>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <verticalStretch>false</verticalStretch>
+                  <height>2</height>
+                  <maxHeight>5</maxHeight>
+                  <horizontalStretch>true</horizontalStretch>
+                  <verticalStretch>true</verticalStretch>
                   <wrap>true</wrap>
                   <multiLine>true</multiLine>
                   <chooseType>true</chooseType>
                   <typeDomainEnabled>true</typeDomainEnabled>
                   <textEdit>true</textEdit>
+                </extInfo>
+              </items>
+              <items xsi:type="form:Decoration">
+                <name>ДекорацияОтправитьОтчетОбОшибке</name>
+                <id>523</id>
+                <title>
+                  <key>ru</key>
+                  <value>Отправить отчет об ошибке</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>ДекорацияОтправитьОтчетОбОшибкеРасширеннаяПодсказка</name>
+                  <id>525</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <contextMenu>
+                  <name>ДекорацияОтправитьОтчетОбОшибкеКонтекстноеМеню</name>
+                  <id>524</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <autoFill>true</autoFill>
+                </contextMenu>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <groupHorizontalAlign>Right</groupHorizontalAlign>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <handlers>
+                    <event>Click</event>
+                    <name>ДекорацияОтправитьОтчетОбОшибкеНажатие</name>
+                  </handlers>
+                  <hyperlink>true</hyperlink>
+                  <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </items>
               <visible>true</visible>
@@ -4092,10 +4290,6 @@
                 <key>ru</key>
                 <value>Описание мест использования необработанных</value>
               </title>
-              <toolTip>
-                <key>ru</key>
-                <value>Места использования</value>
-              </toolTip>
               <extendedTooltip>
                 <name>ОписаниеМестИспользованияНеобработанныхРасширеннаяПодсказка</name>
                 <id>268</id>
@@ -4279,7 +4473,7 @@
             <id>334</id>
             <title>
               <key>ru</key>
-              <value>Удаление групп(ы) дублей было отменено до выяснения и устранения причин.</value>
+              <value>Выберите элемент в списке, чтобы справа посмотреть, где его не удалось заменить.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -4314,7 +4508,7 @@
             <type>Label</type>
             <autoMaxHeight>true</autoMaxHeight>
             <horizontalStretch>true</horizontalStretch>
-            <verticalStretch>true</verticalStretch>
+            <verticalStretch>false</verticalStretch>
             <textColor xsi:type="core:ColorRef">
               <color>Style.ПоясняющийТекст</color>
             </textColor>
@@ -4334,6 +4528,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <toolTip>
+              <key>ru</key>
+              <value>Открыть отчет для просмотра всех мест использования дублей</value>
+            </toolTip>
             <extendedTooltip>
               <name>ВсеМестаИспользованияНеобработанныхРасширеннаяПодсказка</name>
               <id>325</id>
@@ -4477,6 +4675,10 @@
       <items xsi:type="form:FormField">
         <name>ДублейНеНайдено</name>
         <id>229</id>
+        <title>
+          <key>ru</key>
+          <value>Поиск не выполнялся</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -4540,6 +4742,7 @@
         <key>ru</key>
         <value>Шаг дублей не найдено</value>
       </title>
+      <enableContentChange>true</enableContentChange>
       <extendedTooltip>
         <name>ШагДублейНеНайденоРасширеннаяПодсказка</name>
         <id>228</id>
@@ -4606,7 +4809,7 @@
         <groupVerticalAlign>Center</groupVerticalAlign>
         <extInfo xsi:type="form:PictureDecorationExtInfo">
           <picture xsi:type="core:PictureRef">
-            <picture>CommonPicture.Предупреждение32</picture>
+            <picture>StdPicture.DialogExclamation</picture>
           </picture>
         </extInfo>
       </items>
@@ -4716,6 +4919,7 @@
         <key>ru</key>
         <value>Возникла ошибка</value>
       </title>
+      <enableContentChange>true</enableContentChange>
       <extendedTooltip>
         <name>ШагВозниклаОшибкаРасширеннаяПодсказка</name>
         <id>449</id>
@@ -4776,6 +4980,10 @@
       <items xsi:type="form:Button">
         <name>ШагМастераНазад</name>
         <id>171</id>
+        <title>
+          <key>ru</key>
+          <value>&lt; Назад</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -4873,6 +5081,10 @@
       <items xsi:type="form:Button">
         <name>ШагМастераОтмена</name>
         <id>177</id>
+        <title>
+          <key>ru</key>
+          <value>Отмена</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -4969,6 +5181,7 @@
       <key>ru</key>
       <value>Панель действий мастера</value>
     </title>
+    <enableContentChange>true</enableContentChange>
     <extendedTooltip>
       <name>ПанельДействийМастераРасширеннаяПодсказка</name>
       <id>168</id>
@@ -5034,7 +5247,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Предупреждение32</picture>
+          <picture>StdPicture.DialogExclamation</picture>
         </picture>
       </extInfo>
     </items>
@@ -5120,7 +5333,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Информация32</picture>
+          <picture>StdPicture.DialogInformation</picture>
         </picture>
       </extInfo>
     </items>
@@ -5210,7 +5423,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Информация</picture>
+          <picture>StdPicture.Information</picture>
         </picture>
       </extInfo>
     </items>
@@ -5221,6 +5434,7 @@
       <key>ru</key>
       <value>Картинок</value>
     </title>
+    <enableContentChange>true</enableContentChange>
     <extendedTooltip>
       <name>ГруппаКартинокРасширеннаяПодсказка</name>
       <id>76</id>
@@ -5269,8 +5483,8 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
-  <excludedCommands>CustomizeForm</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -5955,6 +6169,17 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>ИнформацияОбОшибке</name>
+      <id>5</id>
+      <valueType/>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>ОписаниеОшибкиНеобработанных</name>
@@ -6388,8 +6613,153 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ВозвращеноМеньшеЧемНайдено</name>
+    <id>42</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>КоличествоПорций</name>
+    <id>43</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ОбщееКоличествоВыбранных</name>
+    <id>44</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ОбщееКоличествоОбработанных</name>
+    <id>45</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПрогрессУдаления</name>
+    <id>46</id>
+    <valueType>
+      <types>ValueTable</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <columns>
+      <name>НомерСеанса</name>
+      <id>1</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>КоличествоОбработанных</name>
+      <id>2</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>КоличествоУдаленных</name>
+      <id>3</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+  </attributes>
+  <attributes>
+    <name>ОбщееКоличествоУдаленных</name>
+    <id>47</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
-    <name>ВыбратьОсновнойЭлемент</name>
+    <name>ОтметитьКакОригинал</name>
     <title>
       <key>ru</key>
       <value>Отметить как оригинал</value>
@@ -6407,7 +6777,7 @@
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ВыбратьОсновнойЭлемент</name>
+        <name>ОтметитьКакОригинал</name>
       </handler>
     </action>
     <representation>TextPicture</representation>
@@ -6535,10 +6905,6 @@
       <value>Отмена</value>
     </title>
     <id>12</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Прекратить работу мастера</value>
-    </toolTip>
     <use>
       <common>true</common>
     </use>

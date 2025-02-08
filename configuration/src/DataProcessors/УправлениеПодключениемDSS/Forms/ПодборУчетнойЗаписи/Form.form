@@ -2,7 +2,7 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
     <key>ru</key>
-    <value>Выбор учетной записи облачной подписи</value>
+    <value>Выбор учетной записи DSS</value>
   </title>
   <items xsi:type="form:FormGroup">
     <name>ГруппаВыборСостояния</name>
@@ -13,6 +13,10 @@
       <items xsi:type="form:FormField">
         <name>ИсточникВыбораНовая</name>
         <id>83</id>
+        <title>
+          <key>ru</key>
+          <value>Источник выбора</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -60,7 +64,7 @@
           <choiceList>
             <presentation>
               <key>ru</key>
-              <value>Новая учетная запись облачной подписи</value>
+              <value>Новая учетная запись DSS</value>
             </presentation>
             <value xsi:type="core:StringValue">
               <value>НовыйЛогин</value>
@@ -107,6 +111,10 @@
       <items xsi:type="form:FormField">
         <name>ИсточникВыбораСписок</name>
         <id>86</id>
+        <title>
+          <key>ru</key>
+          <value>Источник выбора</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -165,6 +173,10 @@
       <items xsi:type="form:FormField">
         <name>ВыборДействия</name>
         <id>125</id>
+        <title>
+          <key>ru</key>
+          <value>Выбор действия</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -367,6 +379,54 @@
                 <autoMaxHeight>true</autoMaxHeight>
               </extInfo>
             </items>
+            <items xsi:type="form:FormField">
+              <name>Ссылка</name>
+              <id>130</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible/>
+              <dataPath xsi:type="form:DataPath">
+                <segments>СписокВыбор.Ссылка</segments>
+              </dataPath>
+              <extendedTooltip>
+                <name>СсылкаРасширеннаяПодсказка</name>
+                <id>132</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>СсылкаКонтекстноеМеню</name>
+                <id>131</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <type>InputField</type>
+              <editMode>Enter</editMode>
+              <showInHeader>true</showInHeader>
+              <headerHorizontalAlign>Left</headerHorizontalAlign>
+              <showInFooter>true</showInFooter>
+              <extInfo xsi:type="form:InputFieldExtInfo">
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <wrap>true</wrap>
+                <chooseType>true</chooseType>
+                <typeDomainEnabled>true</typeDomainEnabled>
+                <textEdit>true</textEdit>
+              </extInfo>
+            </items>
             <commandBarLocation>None</commandBarLocation>
             <autoCommandBar>
               <name>СписокВыборКоманднаяПанель</name>
@@ -557,6 +617,7 @@
               </period>
               <topLevelParent xsi:type="core:UndefinedValue"/>
               <showRoot>true</showRoot>
+              <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
             </extInfo>
           </items>
           <visible>true</visible>
@@ -628,6 +689,10 @@
         <items xsi:type="form:FormField">
           <name>Сервер</name>
           <id>21</id>
+          <title>
+            <key>ru</key>
+            <value>Сервер</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -683,6 +748,10 @@
           <items xsi:type="form:FormField">
             <name>Логин</name>
             <id>18</id>
+            <title>
+              <key>ru</key>
+              <value>Логин учетной записи</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -869,6 +938,10 @@
     <items xsi:type="form:Button">
       <name>Подтвердить</name>
       <id>42</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -983,6 +1056,7 @@
     <name>ОбработкаПроверкиЗаполненияНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

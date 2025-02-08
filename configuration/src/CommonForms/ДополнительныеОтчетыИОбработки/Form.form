@@ -35,6 +35,10 @@
         <items xsi:type="form:FormField">
           <name>ОбработкиПредставление</name>
           <id>26</id>
+          <title>
+            <key>ru</key>
+            <value>Представление</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -44,7 +48,7 @@
             <segments>ТаблицаКоманд.Представление</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ОбработкиПредставлениеExtendedTooltip</name>
+            <name>ОбработкиПредставлениеРасширеннаяПодсказка</name>
             <id>57</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -215,7 +219,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>ТаблицаКомандExtendedTooltip</name>
+          <name>ТаблицаКомандРасширеннаяПодсказка</name>
           <id>56</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -257,6 +261,7 @@
         <verticalStretch>true</verticalStretch>
         <enableStartDrag>true</enableStartDrag>
         <enableDrag>true</enableDrag>
+        <searchStringLocation>Top</searchStringLocation>
         <rowFilter xsi:type="core:UndefinedValue"/>
       </items>
       <visible>true</visible>
@@ -269,7 +274,7 @@
         <value>Страница открыть обработку</value>
       </title>
       <extendedTooltip>
-        <name>СтраницаОткрытьОбработкуExtendedTooltip</name>
+        <name>СтраницаОткрытьОбработкуРасширеннаяПодсказка</name>
         <id>55</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -305,7 +310,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ДекорацияДлительнаяОперацияExtendedTooltip</name>
+          <name>ДекорацияДлительнаяОперацияРасширеннаяПодсказка</name>
           <id>59</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -352,7 +357,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ПоясняющаяДекорацияExtendedTooltip</name>
+          <name>ПоясняющаяДекорацияРасширеннаяПодсказка</name>
           <id>60</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -396,7 +401,7 @@
       </title>
       <verticalStretch>true</verticalStretch>
       <extendedTooltip>
-        <name>СтраницаВыполненияОбработкиExtendedTooltip</name>
+        <name>СтраницаВыполненияОбработкиРасширеннаяПодсказка</name>
         <id>58</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -427,7 +432,7 @@
       <value>Страницы</value>
     </title>
     <extendedTooltip>
-      <name>СтраницыExtendedTooltip</name>
+      <name>СтраницыРасширеннаяПодсказка</name>
       <id>54</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -452,6 +457,10 @@
     <items xsi:type="form:Button">
       <name>НастроитьСписок</name>
       <id>35</id>
+      <title>
+        <key>ru</key>
+        <value>Настроить список</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -459,7 +468,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>НастроитьСписокExtendedTooltip</name>
+        <name>НастроитьСписокРасширеннаяПодсказка</name>
         <id>63</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -487,6 +496,10 @@
       <items xsi:type="form:Button">
         <name>ВыполнитьОбработку</name>
         <id>28</id>
+        <title>
+          <key>ru</key>
+          <value>Выполнить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -495,7 +508,7 @@
         <defaultItem>true</defaultItem>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ВыполнитьОбработкуExtendedTooltip</name>
+          <name>ВыполнитьОбработкуРасширеннаяПодсказка</name>
           <id>65</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -558,7 +571,7 @@
         <value>Командная панель страницы открыть обработку</value>
       </title>
       <extendedTooltip>
-        <name>КоманднаяПанельСтраницыОткрытьОбработкуExtendedTooltip</name>
+        <name>КоманднаяПанельСтраницыОткрытьОбработкуРасширеннаяПодсказка</name>
         <id>64</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -631,6 +644,7 @@
   </handlers>
   <excludedCommands>CustomizeForm</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

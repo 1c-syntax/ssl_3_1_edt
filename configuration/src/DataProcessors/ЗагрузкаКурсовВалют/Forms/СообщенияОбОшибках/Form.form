@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>Текст</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Текст</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -114,6 +118,7 @@
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

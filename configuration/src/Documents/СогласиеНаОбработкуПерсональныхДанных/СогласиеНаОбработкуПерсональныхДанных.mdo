@@ -63,10 +63,14 @@
     <typesFilterValue xsi:type="core:StringValue">
       <value>Документ_СогласиеНаОбработкуПерсональныхДанных</value>
     </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
     <characteristicValues>Document.СогласиеНаОбработкуПерсональныхДанных.TabularSection.ДополнительныеРеквизиты</characteristicValues>
     <objectField>Document.СогласиеНаОбработкуПерсональныхДанных.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</objectField>
     <typeField>Document.СогласиеНаОбработкуПерсональныхДанных.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</typeField>
     <valueField>Document.СогласиеНаОбработкуПерсональныхДанных.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
   </characteristics>
   <characteristics>
     <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
@@ -75,10 +79,14 @@
     <typesFilterValue xsi:type="core:StringValue">
       <value>Документ_СогласиеНаОбработкуПерсональныхДанных</value>
     </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
     <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
     <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>
     <typeField>InformationRegister.ДополнительныеСведения.Dimension.Свойство</typeField>
     <valueField>InformationRegister.ДополнительныеСведения.Resource.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
   </characteristics>
   <createOnInput>Use</createOnInput>
   <help>
@@ -356,7 +364,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Дата, до которой будет действовать согласие. Если не указано, то согласие действует бессрочно.</value>
+      <value>Дата, до которой будет действовать согласие. Если не указано, то до истечения срока обязательного хранения документов.</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -516,5 +524,13 @@
       <value>Согласие на обработку персональных данных (документ Office Open XML)</value>
     </synonym>
     <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="ecb7dd1b-46d6-46b5-a51f-699f068ad6a0">
+    <name>ПредупреждениеОбУведомленииРКН_ru</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предупреждение об уведомлении РКН</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
   </templates>
 </mdclass:Document>

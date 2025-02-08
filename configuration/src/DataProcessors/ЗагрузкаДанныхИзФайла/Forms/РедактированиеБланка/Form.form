@@ -79,6 +79,10 @@
       <items xsi:type="form:FormField">
         <name>СписокКолонокВидимость</name>
         <id>5</id>
+        <title>
+          <key>ru</key>
+          <value>Видимость</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -123,6 +127,10 @@
       <items xsi:type="form:FormField">
         <name>СписокКолонокНаименование</name>
         <id>8</id>
+        <title>
+          <key>ru</key>
+          <value>Колонка</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -204,6 +212,10 @@
     <items xsi:type="form:FormField">
       <name>СписокКолонокСиноним</name>
       <id>11</id>
+      <title>
+        <key>ru</key>
+        <value>Наименование колонки</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -260,6 +272,10 @@
         <items xsi:type="form:Button">
           <name>СписокКолонокУстановитьФлажки</name>
           <id>25</id>
+          <title>
+            <key>ru</key>
+            <value>Установить флажки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -290,6 +306,10 @@
         <items xsi:type="form:Button">
           <name>СписокКолонокСнятьФлажки</name>
           <id>27</id>
+          <title>
+            <key>ru</key>
+            <value>Снять флажки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -441,6 +461,10 @@
       <items xsi:type="form:Button">
         <name>ФормаСброситьВсеНастройки</name>
         <id>29</id>
+        <title>
+          <key>ru</key>
+          <value>Сбросить настройки</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -622,7 +646,6 @@
       </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
-    <changeRowSet>true</changeRowSet>
     <changeRowOrder>true</changeRowOrder>
     <autoMaxWidth>true</autoMaxWidth>
     <autoMaxHeight>true</autoMaxHeight>
@@ -647,6 +670,10 @@
   <items xsi:type="form:FormField">
     <name>ОписаниеКолонки</name>
     <id>46</id>
+    <title>
+      <key>ru</key>
+      <value>Описание колонки</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -703,6 +730,10 @@
     <items xsi:type="form:Button">
       <name>ОК</name>
       <id>16</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -808,6 +839,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -1014,6 +1046,22 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>Использование</name>
+      <id>12</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>30</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>ИмяОбъектаСопоставления</name>
@@ -1170,6 +1218,10 @@
   </parameters>
   <parameters>
     <name>ПараметрыЗагрузки</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>ИнформацияПоКолонкам</name>
     <valueType/>
   </parameters>
   <commandInterface>

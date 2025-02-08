@@ -19,7 +19,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>Декорация1ExtendedTooltip</name>
+          <name>Декорация1РасширеннаяПодсказка</name>
           <id>37</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -71,7 +71,7 @@
           </dataPath>
           <titleLocation>Right</titleLocation>
           <extendedTooltip>
-            <name>АвторегистрацияДвиженийExtendedTooltip</name>
+            <name>АвторегистрацияДвиженийРасширеннаяПодсказка</name>
             <id>39</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -119,7 +119,7 @@
           </dataPath>
           <titleLocation>Right</titleLocation>
           <extendedTooltip>
-            <name>АвторегистрацияПоследовательностейExtendedTooltip</name>
+            <name>АвторегистрацияПоследовательностейРасширеннаяПодсказка</name>
             <id>40</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -233,7 +233,7 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>НомераСообщенийРегистрацииExtendedTooltip</name>
+          <name>НомераСообщенийРегистрацииРасширеннаяПодсказка</name>
           <id>42</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -363,7 +363,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>Декорация2ExtendedTooltip</name>
+        <name>Декорация2РасширеннаяПодсказка</name>
         <id>44</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -418,7 +418,7 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
-            <name>ОбработкаЗапросаВнешняяExtendedTooltip</name>
+            <name>ОбработкаЗапросаВнешняяРасширеннаяПодсказка</name>
             <id>47</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -589,7 +589,7 @@
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
-        <name>НастройкаКонтрольВыгрузкиОбъектовExtendedTooltip</name>
+        <name>НастройкаКонтрольВыгрузкиОбъектовРасширеннаяПодсказка</name>
         <id>51</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -630,7 +630,7 @@
       <value>Библиотека стандартных подсистем</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаБСПExtendedTooltip</name>
+      <name>ГруппаБСПРасширеннаяПодсказка</name>
       <id>50</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -673,7 +673,7 @@
       </userVisible>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>ФормаОКExtendedTooltip</name>
+        <name>ФормаОКРасширеннаяПодсказка</name>
         <id>33</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -707,7 +707,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОтменаExtendedTooltip</name>
+        <name>ФормаОтменаРасширеннаяПодсказка</name>
         <id>34</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -742,6 +742,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

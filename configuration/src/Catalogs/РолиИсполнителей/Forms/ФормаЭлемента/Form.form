@@ -18,7 +18,7 @@
           <segments>Объект.Description</segments>
         </dataPath>
         <extendedTooltip>
-          <name>НаименованиеExtendedTooltip</name>
+          <name>НаименованиеРасширеннаяПодсказка</name>
           <id>41</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -68,7 +68,7 @@
         </dataPath>
         <titleHeight>2</titleHeight>
         <extendedTooltip>
-          <name>КраткоеПредставлениеExtendedTooltip</name>
+          <name>КраткоеПредставлениеРасширеннаяПодсказка</name>
           <id>42</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -116,7 +116,7 @@
         <value>Наименование и сокращение</value>
       </title>
       <extendedTooltip>
-        <name>НаименованиеИСокращениеExtendedTooltip</name>
+        <name>НаименованиеИСокращениеРасширеннаяПодсказка</name>
         <id>40</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -151,7 +151,7 @@
         <segments>Объект.Code</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КодExtendedTooltip</name>
+        <name>КодРасширеннаяПодсказка</name>
         <id>43</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -199,7 +199,7 @@
       <value>Шапка</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаШапкаExtendedTooltip</name>
+      <name>ГруппаШапкаРасширеннаяПодсказка</name>
       <id>39</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -272,6 +272,10 @@
     <items xsi:type="form:Button">
       <name>ВыбратьНазначение</name>
       <id>62</id>
+      <title>
+        <key>ru</key>
+        <value>Выбрать назначение</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -357,7 +361,7 @@
         <value>Роль может назначаться исполнителям без указания других объектов адресации (основного или дополнительного).</value>
       </toolTip>
       <extendedTooltip>
-        <name>ИспользуетсяБезКонтекстаДругихИзмеренийАдресацииExtendedTooltip</name>
+        <name>ИспользуетсяБезКонтекстаДругихИзмеренийАдресацииРасширеннаяПодсказка</name>
         <id>48</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -414,7 +418,7 @@
         <name>ИспользуетсяВКонтекстеДругихИзмеренийАдресацииПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ИспользуетсяВКонтекстеДругихИзмеренийАдресацииExtendedTooltip</name>
+        <name>ИспользуетсяВКонтекстеДругихИзмеренийАдресацииРасширеннаяПодсказка</name>
         <id>50</id>
         <title>
           <key>ru</key>
@@ -462,7 +466,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ПояснениеExtendedTooltip</name>
+          <name>ПояснениеРасширеннаяПодсказка</name>
           <id>54</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -511,7 +515,7 @@
             <segments>Объект.ТипыОсновногоОбъектаАдресации</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ТипыОсновногоОбъектаАдресацииExtendedTooltip</name>
+            <name>ТипыОсновногоОбъектаАдресацииРасширеннаяПодсказка</name>
             <id>52</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -561,7 +565,7 @@
             <segments>Объект.ТипыДополнительногоОбъектаАдресации</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ТипыДополнительногоОбъектаАдресацииExtendedTooltip</name>
+            <name>ТипыДополнительногоОбъектаАдресацииРасширеннаяПодсказка</name>
             <id>53</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -609,7 +613,7 @@
           <value>Типы объектов адресации</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаТипыОбъектовАдресацииExtendedTooltip</name>
+          <name>ГруппаТипыОбъектовАдресацииРасширеннаяПодсказка</name>
           <id>51</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -642,7 +646,7 @@
         <value>Адресация задач исполнителям (дополнительно)</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаАдресацииДополнительноExtendedTooltip</name>
+        <name>ГруппаАдресацииДополнительноРасширеннаяПодсказка</name>
         <id>49</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -675,7 +679,7 @@
       <value>Адресация задач исполнителям</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаАдресацииExtendedTooltip</name>
+      <name>ГруппаАдресацииРасширеннаяПодсказка</name>
       <id>47</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -716,7 +720,7 @@
       </dataPath>
       <titleLocation>Left</titleLocation>
       <extendedTooltip>
-        <name>КомментарийExtendedTooltip</name>
+        <name>КомментарийРасширеннаяПодсказка</name>
         <id>56</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -770,7 +774,7 @@
       <value>Комментарий</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаКомментарийExtendedTooltip</name>
+      <name>ГруппаКомментарийРасширеннаяПодсказка</name>
       <id>55</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -818,6 +822,7 @@
     <name>ОбработкаПроверкиЗаполненияНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

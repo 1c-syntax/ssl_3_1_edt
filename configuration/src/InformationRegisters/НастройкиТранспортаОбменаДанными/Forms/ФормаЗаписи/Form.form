@@ -592,6 +592,10 @@
       <items xsi:type="form:Button">
         <name>ПроверитьПодключениеCOM</name>
         <id>67</id>
+        <title>
+          <key>ru</key>
+          <value>Проверить подключение</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -763,6 +767,10 @@
           <items xsi:type="form:FormField">
             <name>WSПароль</name>
             <id>94</id>
+            <title>
+              <key>ru</key>
+              <value>Пароль</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -927,9 +935,123 @@
           <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
+      <items xsi:type="form:FormField">
+        <name>WSКонечнаяТочкаКорреспондента</name>
+        <id>210</id>
+        <title>
+          <key>ru</key>
+          <value>Конечная точка</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>WSКонечнаяТочкаКорреспондента</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>WSКонечнаяТочкаКорреспондентаРасширеннаяПодсказка</name>
+          <id>212</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>WSКонечнаяТочкаКорреспондентаКонтекстноеМеню</name>
+          <id>211</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <readOnly>true</readOnly>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>WSОбластьДанныхКорреспондента</name>
+        <id>207</id>
+        <title>
+          <key>ru</key>
+          <value>Область данных</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Запись.WSОбластьДанныхКорреспондента</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>WSОбластьДанныхКорреспондентаРасширеннаяПодсказка</name>
+          <id>209</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>WSОбластьДанныхКорреспондентаКонтекстноеМеню</name>
+          <id>208</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <readOnly>true</readOnly>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
       <items xsi:type="form:Button">
         <name>ПараметрыДоступаВИнтернет</name>
         <id>119</id>
+        <title>
+          <key>ru</key>
+          <value>Параметры доступа в Интернет</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -961,6 +1083,10 @@
       <items xsi:type="form:Button">
         <name>ПроверитьПодключениеWS</name>
         <id>96</id>
+        <title>
+          <key>ru</key>
+          <value>Проверить подключение</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1131,6 +1257,10 @@
         <items xsi:type="form:FormField">
           <name>ПарольАрхиваСообщенияОбмена1</name>
           <id>101</id>
+          <title>
+            <key>ru</key>
+            <value>Пароль архива</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1272,6 +1402,10 @@
       <items xsi:type="form:Button">
         <name>ПроверитьПодключениеFILE</name>
         <id>42</id>
+        <title>
+          <key>ru</key>
+          <value>Проверить подключение</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1529,6 +1663,10 @@
         <items xsi:type="form:FormField">
           <name>FTPСоединениеПароль</name>
           <id>22</id>
+          <title>
+            <key>ru</key>
+            <value>Пароль</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1791,6 +1929,10 @@
       <items xsi:type="form:Button">
         <name>ПараметрыДоступаВИнтернетFTP</name>
         <id>120</id>
+        <title>
+          <key>ru</key>
+          <value>Параметры доступа в Интернет</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1869,6 +2011,10 @@
         <items xsi:type="form:FormField">
           <name>ПарольАрхиваСообщенияОбмена</name>
           <id>34</id>
+          <title>
+            <key>ru</key>
+            <value>Пароль архива</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2010,6 +2156,10 @@
       <items xsi:type="form:Button">
         <name>ПроверитьПодключениеFTP</name>
         <id>41</id>
+        <title>
+          <key>ru</key>
+          <value>Проверить подключение</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -2307,6 +2457,10 @@
         <items xsi:type="form:FormField">
           <name>ПарольАрхиваСообщенияОбмена2</name>
           <id>105</id>
+          <title>
+            <key>ru</key>
+            <value>Пароль архива</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2448,6 +2602,10 @@
       <items xsi:type="form:Button">
         <name>ПроверитьПодключениеEMAIL</name>
         <id>43</id>
+        <title>
+          <key>ru</key>
+          <value>Проверить подключение</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -2623,6 +2781,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписатьИЗакрыть</name>
       <id>184</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -2732,6 +2894,7 @@
   <excludedCommands>Delete</excludedCommands>
   <excludedCommands>WriteAndClose</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -2940,6 +3103,24 @@
         <common>true</common>
       </edit>
     </columns>
+  </attributes>
+  <attributes>
+    <name>WSКонечнаяТочкаКорреспондента</name>
+    <title>
+      <key>ru</key>
+      <value>Конечная точка</value>
+    </title>
+    <id>12</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <formCommands>
     <name>ПроверитьПодключениеFTP</name>

@@ -32,6 +32,10 @@
     <items xsi:type="form:FormField">
       <name>ТаблицаСортировкиИспользование</name>
       <id>6</id>
+      <title>
+        <key>ru</key>
+        <value>Использование</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -76,6 +80,10 @@
     <items xsi:type="form:FormField">
       <name>ТаблицаСортировкиИмяПоля</name>
       <id>4</id>
+      <title>
+        <key>ru</key>
+        <value>Имя поля</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -383,6 +391,10 @@
     <items xsi:type="form:Button">
       <name>Применить</name>
       <id>10</id>
+      <title>
+        <key>ru</key>
+        <value>Применить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -415,6 +427,10 @@
     <items xsi:type="form:Button">
       <name>Отменить</name>
       <id>14</id>
+      <title>
+        <key>ru</key>
+        <value>Отмена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -490,6 +506,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

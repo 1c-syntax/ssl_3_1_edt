@@ -26,6 +26,10 @@
     <items xsi:type="form:FormField">
       <name>СписокПредставление</name>
       <id>4</id>
+      <title>
+        <key>ru</key>
+        <value>Представление</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -80,6 +84,10 @@
       <items xsi:type="form:Button">
         <name>СписокВыбратьЗначение</name>
         <id>15</id>
+        <title>
+          <key>ru</key>
+          <value>Выбрать</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -260,6 +268,10 @@
         <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюВыбратьЗначение</name>
           <id>8</id>
+          <title>
+            <key>ru</key>
+            <value>Выбрать</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -447,6 +459,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

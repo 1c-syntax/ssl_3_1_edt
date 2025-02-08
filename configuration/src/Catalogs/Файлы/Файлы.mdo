@@ -111,10 +111,14 @@
     <typesFilterValue xsi:type="core:StringValue">
       <value>Справочник_Файлы</value>
     </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
     <characteristicValues>Catalog.Файлы.TabularSection.ДополнительныеРеквизиты</characteristicValues>
     <objectField>Catalog.Файлы.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</objectField>
     <typeField>Catalog.Файлы.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</typeField>
     <valueField>Catalog.Файлы.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
   </characteristics>
   <characteristics>
     <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
@@ -123,10 +127,14 @@
     <typesFilterValue xsi:type="core:StringValue">
       <value>Справочник_Файлы</value>
     </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
     <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
     <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>
     <typeField>InformationRegister.ДополнительныеСведения.Dimension.Свойство</typeField>
     <valueField>InformationRegister.ДополнительныеСведения.Resource.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
   </characteristics>
   <createOnInput>DontUse</createOnInput>
   <includeHelpInContents>true</includeHelpInContents>
@@ -357,32 +365,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="0526492c-be48-4c84-8d68-19fa1c7e9d6e">
-    <name>УдалитьПолноеНаименование</name>
-    <synonym>
-      <key>ru</key>
-      <value>(не используется) Полное наименование</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Имя файла (без расширения) длиной до 256 символов</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value>                                                                                                                                                                                                                                                                </value>
-    </fillValue>
-    <indexing>Index</indexing>
-    <fullTextSearch>Use</fullTextSearch>
-    <use>ForFolderAndItem</use>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="54ecaf7b-9bc5-483c-96e1-270bcd323590">
     <name>Редактирует</name>
     <synonym>
@@ -530,7 +512,6 @@
     <fillValue xsi:type="core:DateValue">
       <value>0001-01-01T00:00:00</value>
     </fillValue>
-    <indexing>Index</indexing>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="a4f15108-477c-465e-aaea-cb495ef52cf5">
@@ -911,6 +892,20 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
+  <forms uuid="526c688e-a4d4-45f7-8bba-b8ceff38fe27">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <forms uuid="7e32c295-a769-4cff-a3eb-992f7031475f">
     <name>Файлы</name>
     <synonym>
@@ -974,20 +969,6 @@
     <synonym>
       <key>ru</key>
       <value>Форма подбора</value>
-    </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="526c688e-a4d4-45f7-8bba-b8ceff38fe27">
-    <name>ФормаЭлемента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма элемента</value>
     </synonym>
     <help>
       <pages>

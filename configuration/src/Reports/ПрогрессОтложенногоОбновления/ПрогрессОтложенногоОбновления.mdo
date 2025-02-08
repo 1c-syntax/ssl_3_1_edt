@@ -15,6 +15,29 @@
   <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
   <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
   <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="54766e6b-cf49-4c58-b5e5-dcb6362ac5e2">
+    <name>ЗависимостьОбработчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зависимость обработчика</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f2210cf1-f9f5-41ed-8b4d-937778da842b">
+    <name>ЗарегистрированныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарегистрированные данные</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="07e81872-afac-4720-86b4-91e7bf4a2881">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>

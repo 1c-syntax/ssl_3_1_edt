@@ -7,16 +7,70 @@
   <name>ПрограммыЭлектроннойПодписиИШифрования</name>
   <synonym>
     <key>ru</key>
-    <value>Программы электронной подписи и шифрования</value>
+    <value>Приложения электронной подписи и шифрования</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <forms uuid="54f3fbe7-ac93-44f6-ba6e-37cb99f3569c">
-    <name>ПрограммаВОблачномСервисе</name>
+    <name>ВстроенныйКриптопровайдер</name>
     <synonym>
       <key>ru</key>
-      <value>Программа в облачном сервисе</value>
+      <value>Встроенный криптопровайдер</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="8b0fb329-098b-46db-8766-bc034d6f20a8">
+    <name>УстановкаПрограммКриптопровайдеров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка приложений для работы с электронной подписью</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c630e43c-98a6-4059-9b14-25d267410ba6">
+    <name>УстановкаCryptoProCSPРегистрационныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка CryptoPro CSP: Регистрационные данные</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d01089f3-427f-4624-955d-1a5a96098141">
+    <name>УстановкаViPNetCSPРегистрационныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка ViPNet CSP: Регистрационные данные</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6520d7f5-7326-4921-b8c1-6e6fbc56089c">
+    <name>УстановкаКриптопровайдераИнформацияОДистрибутиве</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка криптопровайдера: Информация о дистрибутиве</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="766f2abe-1dfd-4e16-bffd-83f44d25d82a">
+    <name>КлассификаторАУЦ_1_0_0_1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификатор АУЦ</value>
+    </synonym>
+    <comment>АПК:497 Не подлежит переводу, находится в локализованной части</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="0e7a34a8-ce5a-4767-8283-fd094e13d969">
+    <name>КлассификаторОшибокКриптографии</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификатор ошибок криптографии</value>
+    </synonym>
+    <comment>АПК:497 Не подлежит переводу, находится в локализованной части</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
 </mdclass:DataProcessor>

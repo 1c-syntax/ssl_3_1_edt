@@ -13,6 +13,10 @@
       <items xsi:type="form:FormField">
         <name>АдресПубликацииИнформационнойБазыВИнтернете</name>
         <id>1</id>
+        <title>
+          <key>ru</key>
+          <value>Адрес публикации информационной базы в интернете</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -27,7 +31,7 @@
           <name>АдресПубликацииИнформационнойБазыВИнтернетеПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>АдресПубликацииИнформационнойБазыВИнтернетеExtendedTooltip</name>
+          <name>АдресПубликацииИнформационнойБазыВИнтернетеРасширеннаяПодсказка</name>
           <id>21</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -81,7 +85,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ДекорацияАдресExtendedTooltip</name>
+          <name>ДекорацияАдресРасширеннаяПодсказка</name>
           <id>22</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -128,7 +132,7 @@
       </title>
       <width>40</width>
       <extendedTooltip>
-        <name>ГруппаАдресExtendedTooltip</name>
+        <name>ГруппаАдресРасширеннаяПодсказка</name>
         <id>20</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -175,7 +179,7 @@
           <name>СсылкаНаОбъектПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>СсылкаНаОбъектExtendedTooltip</name>
+          <name>СсылкаНаОбъектРасширеннаяПодсказка</name>
           <id>24</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -227,7 +231,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ДекорацияПодсказкаСсылкаНаОбъектExtendedTooltip</name>
+          <name>ДекорацияПодсказкаСсылкаНаОбъектРасширеннаяПодсказка</name>
           <id>25</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -275,7 +279,7 @@
       <width>50</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
-        <name>ГруппаСсылкаНаОбъектExtendedTooltip</name>
+        <name>ГруппаСсылкаНаОбъектРасширеннаяПодсказка</name>
         <id>23</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -308,7 +312,7 @@
       <value>Шапка</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаШапкаExtendedTooltip</name>
+      <name>ГруппаШапкаРасширеннаяПодсказка</name>
       <id>19</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -334,6 +338,10 @@
   <items xsi:type="form:FormField">
     <name>ФормируемаяСсылка</name>
     <id>6</id>
+    <title>
+      <key>ru</key>
+      <value>Сформированная ссылка</value>
+    </title>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -342,7 +350,7 @@
       <segments>СформированнаяСсылка</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ФормируемаяСсылкаExtendedTooltip</name>
+      <name>ФормируемаяСсылкаРасширеннаяПодсказка</name>
       <id>26</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -387,13 +395,17 @@
     <items xsi:type="form:Button">
       <name>Вставить</name>
       <id>8</id>
+      <title>
+        <key>ru</key>
+        <value>Вставить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ВставитьExtendedTooltip</name>
+        <name>ВставитьРасширеннаяПодсказка</name>
         <id>30</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -463,7 +475,7 @@
     <width>80</width>
     <horizontalStretch>false</horizontalStretch>
     <extendedTooltip>
-      <name>ГруппаПодвалExtendedTooltip</name>
+      <name>ГруппаПодвалРасширеннаяПодсказка</name>
       <id>27</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -507,6 +519,7 @@
   </handlers>
   <width>40</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

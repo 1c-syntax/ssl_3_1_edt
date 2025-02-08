@@ -20,7 +20,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ДлительнаяОперацияExtendedTooltip</name>
+        <name>ДлительнаяОперацияРасширеннаяПодсказка</name>
         <id>17</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -165,6 +165,7 @@
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

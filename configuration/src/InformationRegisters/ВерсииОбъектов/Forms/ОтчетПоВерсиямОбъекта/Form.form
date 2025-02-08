@@ -3,6 +3,10 @@
   <items xsi:type="form:FormField">
     <name>ТаблицаОтчета</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Таблица отчета</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -13,7 +17,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>ТаблицаОтчетаExtendedTooltip</name>
+      <name>ТаблицаОтчетаРасширеннаяПодсказка</name>
       <id>3</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -83,6 +87,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

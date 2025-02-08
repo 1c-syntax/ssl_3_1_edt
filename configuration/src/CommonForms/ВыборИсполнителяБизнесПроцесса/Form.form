@@ -19,7 +19,7 @@
           <value>Командная панель пользователи</value>
         </title>
         <extendedTooltip>
-          <name>КоманднаяПанельПользователиExtendedTooltip</name>
+          <name>КоманднаяПанельПользователиРасширеннаяПодсказка</name>
           <id>58</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -75,7 +75,7 @@
           </dataPath>
           <defaultItem>true</defaultItem>
           <extendedTooltip>
-            <name>НаименованиеExtendedTooltip</name>
+            <name>НаименованиеРасширеннаяПодсказка</name>
             <id>60</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -287,7 +287,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>СписокПользователиExtendedTooltip</name>
+          <name>СписокПользователиРасширеннаяПодсказка</name>
           <id>59</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -335,6 +335,10 @@
           <picture>CommonPicture.СостоянияПользователей</picture>
         </rowsPicture>
         <extInfo xsi:type="form:DynamicListTableExtInfo">
+          <handlers>
+            <event>OnGetDataAtServer</event>
+            <name>СписокПользователиПриПолученииДанныхНаСервере</name>
+          </handlers>
           <autoRefreshPeriod>60</autoRefreshPeriod>
           <period>
             <startDate>0001-01-01T00:00:00</startDate>
@@ -342,6 +346,7 @@
           </period>
           <topLevelParent xsi:type="core:UndefinedValue"/>
           <showRoot>true</showRoot>
+          <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -354,7 +359,7 @@
         <value>Пользователи</value>
       </title>
       <extendedTooltip>
-        <name>ПользователиExtendedTooltip</name>
+        <name>ПользователиРасширеннаяПодсказка</name>
         <id>57</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -412,7 +417,7 @@
             <segments>СписокРоли.Description</segments>
           </dataPath>
           <extendedTooltip>
-            <name>НаименованиеРолиExtendedTooltip</name>
+            <name>НаименованиеРолиРасширеннаяПодсказка</name>
             <id>63</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -622,7 +627,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>СписокРолиExtendedTooltip</name>
+          <name>СписокРолиРасширеннаяПодсказка</name>
           <id>62</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -673,6 +678,7 @@
           </period>
           <topLevelParent xsi:type="core:UndefinedValue"/>
           <showRoot>true</showRoot>
+          <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
@@ -688,7 +694,7 @@
         </dataPath>
         <titleLocation>Left</titleLocation>
         <extendedTooltip>
-          <name>СписокРолиКомментарийExtendedTooltip</name>
+          <name>СписокРолиКомментарийРасширеннаяПодсказка</name>
           <id>64</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -737,7 +743,7 @@
         <value>Роли исполнителей</value>
       </title>
       <extendedTooltip>
-        <name>РолиExtendedTooltip</name>
+        <name>РолиРасширеннаяПодсказка</name>
         <id>61</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -767,7 +773,7 @@
       <value>Страницы</value>
     </title>
     <extendedTooltip>
-      <name>СтраницыExtendedTooltip</name>
+      <name>СтраницыРасширеннаяПодсказка</name>
       <id>56</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -793,6 +799,10 @@
     <items xsi:type="form:Button">
       <name>Выбрать</name>
       <id>22</id>
+      <title>
+        <key>ru</key>
+        <value>Выбрать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -800,7 +810,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ВыбратьExtendedTooltip</name>
+        <name>ВыбратьРасширеннаяПодсказка</name>
         <id>55</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -841,6 +851,7 @@
   <excludedCommands>CustomizeForm</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>HorizontalIfPossible</group>
@@ -874,11 +885,7 @@
 	Пользователи.ПометкаУдаления,
 	Пользователи.Предопределенный,
 	Пользователи.Наименование,
-	ВЫБОР
-		КОГДА Пользователи.ПометкаУдаления
-			ТОГДА 0
-		ИНАЧЕ 1
-	КОНЕЦ КАК НомерКартинки
+	-1 КАК НомерКартинки
 ИЗ
 	Справочник.Пользователи КАК Пользователи
 ГДЕ
@@ -1005,23 +1012,7 @@
     <navigationPanel/>
     <commandBar>
       <cmiFragmentRecord>
-        <command>0:84aada14-1a22-46de-b6dc-67e663d3a9f7</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
         <command>CommonCommand.ИсторияИзменений</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>0</command>
         <userVisible/>
       </cmiFragmentRecord>
     </commandBar>

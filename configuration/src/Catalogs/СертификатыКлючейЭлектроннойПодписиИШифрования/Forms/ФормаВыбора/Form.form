@@ -339,7 +339,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>32</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -460,6 +460,7 @@
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -543,7 +544,7 @@
         <value>Стандартные команды</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаСтандартныеКомандыExtendedTooltip</name>
+        <name>ГруппаСтандартныеКомандыРасширеннаяПодсказка</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -570,7 +571,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСправкаExtendedTooltip</name>
+        <name>ФормаСправкаРасширеннаяПодсказка</name>
         <id>31</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -591,6 +592,87 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
+    <items xsi:type="form:Addition">
+      <title>
+        <key>ru</key>
+        <value>Список поиск</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>СписокПоиск</name>
+      <id>58</id>
+      <extendedTooltip>
+        <name>СписокПоискРасширеннаяПодсказка</name>
+        <id>60</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СписокПоискКонтекстноеМеню</name>
+        <id>59</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <source>СписокСтрокаПоиска</source>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Addition">
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>СписокПоискУправление</name>
+      <id>61</id>
+      <extendedTooltip>
+        <name>СписокПоискУправлениеРасширеннаяПодсказка</name>
+        <id>63</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СписокПоискУправлениеКонтекстноеМеню</name>
+        <id>62</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>SearchControlAddition</type>
+      <source>СписокУправлениеПоиском</source>
+      <extInfo xsi:type="form:SearchControlAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -608,6 +690,7 @@
   </handlers>
   <excludedCommands>Copy</excludedCommands>
   <excludedCommands>Delete</excludedCommands>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -651,10 +734,10 @@
 	СертификатыПереопределяемый.ДанныеСертификата КАК ДанныеСертификата,
 	СертификатыПереопределяемый.Программа КАК Программа,
 	СертификатыПереопределяемый.Отозван КАК Отозван,
-	СертификатыПереопределяемый.УсиленнаяЗащитаЗакрытогоКлюча КАК УсиленнаяЗащитаЗакрытогоКлюча,
+	СертификатыПереопределяемый.ВводитьПарольВПрограммеЭлектроннойПодписи КАК ВводитьПарольВПрограммеЭлектроннойПодписи,
 	СертификатыПереопределяемый.Организация КАК Организация,
 	СертификатыПереопределяемый.Пользователь КАК Пользователь,
-	СертификатыПереопределяемый.ПользовательОповещенОСрокеДействия КАК ПользовательОповещенОСрокеДействия,
+	СертификатыПереопределяемый.УдалитьПользовательОповещенОСрокеДействия КАК УдалитьПользовательОповещенОСрокеДействия,
 	СертификатыПереопределяемый.Предопределенный КАК Предопределенный,
 	СертификатыПереопределяемый.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных
 ИЗ

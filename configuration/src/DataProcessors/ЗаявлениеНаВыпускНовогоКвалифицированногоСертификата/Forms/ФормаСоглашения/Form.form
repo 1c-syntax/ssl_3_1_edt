@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>Соглашение</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Соглашение</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -250,6 +254,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

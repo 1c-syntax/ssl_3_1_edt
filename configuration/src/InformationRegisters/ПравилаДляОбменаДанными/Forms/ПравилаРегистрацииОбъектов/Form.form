@@ -107,6 +107,10 @@
       <items xsi:type="form:FormField">
         <name>ИсточникПравилТиповые</name>
         <id>29</id>
+        <title>
+          <key>ru</key>
+          <value>Источник правил</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -155,10 +159,10 @@
           <choiceList>
             <presentation>
               <key>ru</key>
-              <value>Использовать типовые правила</value>
+              <value>Типовые правила из макета</value>
             </presentation>
-            <value xsi:type="core:StringValue">
-              <value>ТиповыеИзКонфигурации</value>
+            <value xsi:type="core:ReferenceValue">
+              <value>Enum.ИсточникиПравилДляОбменаДанными.EnumValue.МакетКонфигурации</value>
             </value>
           </choiceList>
         </extInfo>
@@ -384,11 +388,342 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
+      <name>ГруппаПравилаМенеджерТиповой</name>
+      <id>74</id>
+      <items xsi:type="form:FormField">
+        <name>ИсточникПравилМенеджерТиповой</name>
+        <id>76</id>
+        <title>
+          <key>ru</key>
+          <value>Источник правил</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ИсточникПравил</segments>
+        </dataPath>
+        <titleLocation>None</titleLocation>
+        <toolTipRepresentation>Button</toolTipRepresentation>
+        <handlers>
+          <event>OnChange</event>
+          <name>ИсточникПравилПриИзменении</name>
+        </handlers>
+        <extendedTooltip>
+          <name>ИсточникПравилМенеджерТиповойРасширеннаяПодсказка</name>
+          <id>78</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ИсточникПравилМенеджерТиповойКонтекстноеМеню</name>
+          <id>77</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>RadioButtonField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+          <columnsCount>1</columnsCount>
+          <choiceList>
+            <presentation>
+              <key>ru</key>
+              <value>Правила из типового модуля</value>
+            </presentation>
+            <value xsi:type="core:ReferenceValue">
+              <value>Enum.ИсточникиПравилДляОбменаДанными.EnumValue.МенеджерТиповой</value>
+            </value>
+          </choiceList>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>ИмяТиповогоМенеджераРегистрации</name>
+        <id>122</id>
+        <title>
+          <key>ru</key>
+          <value>Имя типового менеджера регистрации</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ИмяТиповогоМенеджераРегистрации</segments>
+        </dataPath>
+        <titleLocation>None</titleLocation>
+        <toolTipRepresentation>Button</toolTipRepresentation>
+        <handlers>
+          <event>OnChange</event>
+          <name>ИмяМенеджераРегистрацииПриИзменении</name>
+        </handlers>
+        <extendedTooltip>
+          <name>ИмяТиповогоМенеджераРегистрацииРасширеннаяПодсказка</name>
+          <id>124</id>
+          <title>
+            <key>ru</key>
+            <value>В текущей конфигурации правила регистрации поставляются в общем модуле - менеджере регистрации. 
+
+Для того чтобы отредактировать правила регистрации мы предлагаем использовать механизм расширений конфигураций. При этом в расширении вы можете определить полностью свой модуль (рекомендуется при большом объеме правок) или применить расширение &quot;поверх&quot; текущего модуля регистрации.
+
+Для того чтобы использовать полностью свои правила регистрации, необходимо выбрать опцию &quot;Правила из пользовательского модуля&quot; и указать имя модуля с правилами регистрации. 
+
+При применении расширения &quot;поверх&quot; текущего модуля каких либо дополнительных настроек не требуется.
+
+Так же  сохранена возможность использовать &quot;классические&quot; правила из макета xml. Для этого необходимо выбрать опцию &quot;Загрузить из правил на компьютере&quot;, и загрузить файл с правилами регистрации.
+
+Для того чтобы сохранить типовой макет с правилами регистрации xml, необходимо воспользоваться командой &quot;Сохранить правила регистрации из макета (XML)&quot; из меню &quot;Еще&quot;.</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ИмяТиповогоМенеджераРегистрацииКонтекстноеМеню</name>
+          <id>123</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <readOnly>true</readOnly>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Правила типовые</value>
+      </title>
+      <extendedTooltip>
+        <name>ГруппаПравилаМенеджерТиповойРасширеннаяПодсказка</name>
+        <id>75</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>HorizontalIfPossible</group>
+        <showLeftMargin>true</showLeftMargin>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаПравилаМенеджер</name>
+      <id>91</id>
+      <items xsi:type="form:FormField">
+        <name>ИсточникПравилМенеджер</name>
+        <id>93</id>
+        <title>
+          <key>ru</key>
+          <value>Источник правил</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ИсточникПравил</segments>
+        </dataPath>
+        <titleLocation>None</titleLocation>
+        <handlers>
+          <event>OnChange</event>
+          <name>ИсточникПравилПриИзменении</name>
+        </handlers>
+        <extendedTooltip>
+          <name>ИсточникПравилМенеджерРасширеннаяПодсказка</name>
+          <id>95</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ИсточникПравилМенеджерКонтекстноеМеню</name>
+          <id>94</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>RadioButtonField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+          <columnsCount>1</columnsCount>
+          <choiceList>
+            <presentation>
+              <key>ru</key>
+              <value>Правила из пользовательского модуля</value>
+            </presentation>
+            <value xsi:type="core:ReferenceValue">
+              <value>Enum.ИсточникиПравилДляОбменаДанными.EnumValue.МенеджерПользовательский</value>
+            </value>
+          </choiceList>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>ИмяМенеджераРегистрации</name>
+        <id>111</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Запись.ИмяМенеджераРегистрации</segments>
+        </dataPath>
+        <titleLocation>None</titleLocation>
+        <handlers>
+          <event>OnChange</event>
+          <name>ИмяМенеджераРегистрацииПриИзменении</name>
+        </handlers>
+        <extendedTooltip>
+          <name>ИмяМенеджераРегистрацииРасширеннаяПодсказка</name>
+          <id>113</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ИмяМенеджераРегистрацииКонтекстноеМеню</name>
+          <id>112</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Правила типовые</value>
+      </title>
+      <extendedTooltip>
+        <name>ГруппаПравилаМенеджерРасширеннаяПодсказка</name>
+        <id>92</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>HorizontalIfPossible</group>
+        <showLeftMargin>true</showLeftMargin>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
       <name>ГруппаПравилаИзФайла</name>
       <id>69</id>
       <items xsi:type="form:FormField">
         <name>ИсточникПравилИзФайла</name>
         <id>71</id>
+        <title>
+          <key>ru</key>
+          <value>Источник правил</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -439,8 +774,8 @@
               <key>ru</key>
               <value>Загрузить из файла на компьютере:</value>
             </presentation>
-            <value xsi:type="core:StringValue">
-              <value>ЗагруженныеИзФайла</value>
+            <value xsi:type="core:ReferenceValue">
+              <value>Enum.ИсточникиПравилДляОбменаДанными.EnumValue.Файл</value>
             </value>
           </choiceList>
         </extInfo>
@@ -506,6 +841,10 @@
           <items xsi:type="form:Button">
             <name>ЗагрузитьПравилаИзФайла</name>
             <id>21</id>
+            <title>
+              <key>ru</key>
+              <value>Загрузить</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -547,6 +886,116 @@
           <extendedTooltip>
             <name>ГруппаДействияСПравиламиИзФайлаExtendedTooltip</name>
             <id>46</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>HorizontalIfPossible</group>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаДействияСПравиламиИзФайлаМенеджер</name>
+          <id>116</id>
+          <items xsi:type="form:Button">
+            <name>ЗагрузитьПравилаИзФайла1</name>
+            <id>118</id>
+            <title>
+              <key>ru</key>
+              <value>Загрузить</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <skipOnInput>true</skipOnInput>
+            <extendedTooltip>
+              <name>ЗагрузитьПравилаИзФайла1РасширеннаяПодсказка</name>
+              <id>119</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualButton</type>
+            <commandName>Form.Command.ЗагрузитьПравила</commandName>
+            <representation>Picture</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
+            <name>СохранитьПравилаВФайл</name>
+            <id>120</id>
+            <title>
+              <key>ru</key>
+              <value>Сохранить правила регистрации в файл</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>СохранитьПравилаВФайлРасширеннаяПодсказка</name>
+              <id>121</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualButton</type>
+            <commandName>Form.Command.СохранитьПравилаРегистрацииВФайл</commandName>
+            <representation>Picture</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <picture xsi:type="core:PictureRef">
+              <picture>StdPicture.SaveFile</picture>
+            </picture>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Действия с правилами из файла</value>
+          </title>
+          <extendedTooltip>
+            <name>ГруппаДействияСПравиламиИзФайлаМенеджерРасширеннаяПодсказка</name>
+            <id>117</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -670,6 +1119,10 @@
   <items xsi:type="form:FormField">
     <name>ИнформацияОПравилах</name>
     <id>11</id>
+    <title>
+      <key>ru</key>
+      <value>Информация о правилах</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -725,6 +1178,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписатьИЗакрыть</name>
       <id>50</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -748,36 +1205,6 @@
       <commandName>Form.Command.ЗаписатьИЗакрыть</commandName>
       <representation>Auto</representation>
       <defaultButton>true</defaultButton>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-    </items>
-    <items xsi:type="form:Button">
-      <name>ФормаЗаписать</name>
-      <id>52</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>ФормаЗаписатьРасширеннаяПодсказка</name>
-        <id>53</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <commandName>Form.StandardCommand.Write</commandName>
-      <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
@@ -815,8 +1242,46 @@
       <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:Button">
+      <name>ФормаЗаписатьПравила</name>
+      <id>114</id>
+      <title>
+        <key>ru</key>
+        <value>Записать</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаЗаписатьПравилаРасширеннаяПодсказка</name>
+        <id>115</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ЗаписатьПравила</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Button">
       <name>ФормаСохранитьПравилаРегистрацииВФайл</name>
       <id>58</id>
+      <title>
+        <key>ru</key>
+        <value>Сохранить правила регистрации в файл</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -844,6 +1309,41 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
+    <items xsi:type="form:Button">
+      <name>ФормаСохранитьПравилаРегистрацииИзМакета</name>
+      <id>125</id>
+      <title>
+        <key>ru</key>
+        <value>Сохранить правила регистрации из макета (XML)</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаСохранитьПравилаРегистрацииИзМакетаРасширеннаяПодсказка</name>
+        <id>126</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.СохранитьПравилаРегистрацииИзМакета</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -858,8 +1358,10 @@
   </handlers>
   <excludedCommands>Copy</excludedCommands>
   <excludedCommands>Delete</excludedCommands>
+  <excludedCommands>Write</excludedCommands>
   <excludedCommands>WriteAndClose</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -908,8 +1410,7 @@
     </title>
     <id>3</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>EnumRef.ИсточникиПравилДляОбменаДанными</types>
     </valueType>
     <view>
       <common>true</common>
@@ -922,6 +1423,24 @@
   <attributes>
     <name>СобытиеЖурналаРегистрацииЗагрузкаПравилДляОбменаДанными</name>
     <id>4</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИмяТиповогоМенеджераРегистрации</name>
+    <title>
+      <key>ru</key>
+      <value>Имя типового менеджера регистрации</value>
+    </title>
+    <id>5</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -1006,6 +1525,48 @@
     <representation>Text</representation>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <formCommands>
+    <name>ЗаписатьПравила</name>
+    <title>
+      <key>ru</key>
+      <value>Записать</value>
+    </title>
+    <id>4</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Записать правила</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЗаписатьПравила</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>СохранитьПравилаРегистрацииИзМакета</name>
+    <title>
+      <key>ru</key>
+      <value>Сохранить правила регистрации из макета (XML)</value>
+    </title>
+    <id>5</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Сохранить правила регистрации из макета</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СохранитьПравилаРегистрацииИзМакета</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>
@@ -1014,10 +1575,6 @@
     <handlers>
       <event>AfterWrite</event>
       <name>ПослеЗаписи</name>
-    </handlers>
-    <handlers>
-      <event>BeforeWrite</event>
-      <name>ПередЗаписью</name>
     </handlers>
   </extInfo>
 </form:Form>

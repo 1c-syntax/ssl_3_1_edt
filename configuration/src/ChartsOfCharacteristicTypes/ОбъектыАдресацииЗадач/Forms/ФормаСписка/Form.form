@@ -103,7 +103,7 @@
         <segments>Список.Description</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>11</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -118,7 +118,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>Наименование_КонтекстноеМеню</name>
+        <name>НаименованиеКонтекстноеМеню</name>
         <id>7</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -158,7 +158,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>ТипЗначенияExtendedTooltip</name>
+        <name>ТипЗначенияРасширеннаяПодсказка</name>
         <id>12</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -173,7 +173,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ТипЗначения_КонтекстноеМеню</name>
+        <name>ТипЗначенияКонтекстноеМеню</name>
         <id>9</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -245,7 +245,7 @@
     </items>
     <commandBarLocation>None</commandBarLocation>
     <autoCommandBar>
-      <name>Список_КоманднаяПанель</name>
+      <name>СписокКоманднаяПанель</name>
       <id>3</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -372,7 +372,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>10</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -387,7 +387,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>Список_КонтекстноеМеню</name>
+      <name>СписокКонтекстноеМеню</name>
       <id>2</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -423,12 +423,13 @@
         <endDate>0001-01-01T00:00:00</endDate>
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
       <userSettingsGroup>ГруппаПользовательскихНастроек</userSettingsGroup>
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>
   <autoCommandBar>
-    <name>Форма_КоманднаяПанель</name>
+    <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -442,6 +443,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -472,8 +474,6 @@
 	ПланВидовХарактеристикОбъектыАдресацииЗадач.ПометкаУдаления,
 	ПланВидовХарактеристикОбъектыАдресацииЗадач.Наименование,
 	ПланВидовХарактеристикОбъектыАдресацииЗадач.ТипЗначения,
-	ПланВидовХарактеристикОбъектыАдресацииЗадач.НаименованиеЯзык1,
-	ПланВидовХарактеристикОбъектыАдресацииЗадач.НаименованиеЯзык2,
 	ПланВидовХарактеристикОбъектыАдресацииЗадач.Предопределенный,
 	ПланВидовХарактеристикОбъектыАдресацииЗадач.ИмяПредопределенныхДанных
 ИЗ

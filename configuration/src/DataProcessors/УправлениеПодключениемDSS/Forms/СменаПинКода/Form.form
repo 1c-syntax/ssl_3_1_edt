@@ -10,6 +10,10 @@
     <items xsi:type="form:FormField">
       <name>ПояснениеОперации</name>
       <id>44</id>
+      <title>
+        <key>ru</key>
+        <value>Пояснение операции</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -559,6 +563,10 @@
     <items xsi:type="form:FormField">
       <name>Сохранить</name>
       <id>15</id>
+      <title>
+        <key>ru</key>
+        <value>Сохранить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -681,6 +689,10 @@
     <items xsi:type="form:Button">
       <name>ОК</name>
       <id>10</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -713,6 +725,10 @@
     <items xsi:type="form:Button">
       <name>Отмена</name>
       <id>40</id>
+      <title>
+        <key>ru</key>
+        <value>Отмена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -799,6 +815,7 @@
   </handlers>
   <width>40</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

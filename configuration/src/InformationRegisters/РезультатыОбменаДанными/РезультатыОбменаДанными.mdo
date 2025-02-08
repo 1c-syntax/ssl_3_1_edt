@@ -347,17 +347,12 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <forms uuid="fa99302b-3e86-4330-b9ff-c38d933f81f0">
-    <name>Форма</name>
+  <forms uuid="9a68a81b-c6bd-4353-baf4-da8a21f98fb9">
+    <name>ОбработкаПредупрежденийКоллизии</name>
     <synonym>
       <key>ru</key>
-      <value>Форма</value>
+      <value>Обработка предупреждений коллизии</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -366,15 +361,6 @@
     <synonym>
       <key>ru</key>
       <value>Обработка предупреждений по дате запрета загрузки</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="9a68a81b-c6bd-4353-baf4-da8a21f98fb9">
-    <name>ОбработкаПредупрежденийКоллизии</name>
-    <synonym>
-      <key>ru</key>
-      <value>Обработка предупреждений коллизии</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -406,6 +392,24 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="41990cad-a43e-46fd-b9bc-e8acc1d6e937">
+    <name>ПредупреждениеАдминистрированияПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предупреждение администрирования приложения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3bcce139-d42e-45c2-ace8-28aa34e01a38">
+    <name>ПредупреждениеКонвертацииОбъектаПриОтправке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предупреждение конвертации объекта при отправке</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <forms uuid="2e6a596c-c203-48b3-af11-bf0aef0f70a1">
     <name>ПредупреждениеНезаполненногоРеквизита</name>
     <synonym>
@@ -420,15 +424,6 @@
     <synonym>
       <key>ru</key>
       <value>Предупреждение непроведенного документа</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="93070fc1-4204-43b7-b8eb-1bf905f5fa3f">
-    <name>ПредупрежденияОбработчиковОтправкиПолучения</name>
-    <synonym>
-      <key>ru</key>
-      <value>Предупреждения обработчиков отправки/получения</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -451,11 +446,11 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="3bcce139-d42e-45c2-ace8-28aa34e01a38">
-    <name>ПредупреждениеКонвертацииОбъектаПриОтправке</name>
+  <forms uuid="93070fc1-4204-43b7-b8eb-1bf905f5fa3f">
+    <name>ПредупрежденияОбработчиковОтправкиПолучения</name>
     <synonym>
       <key>ru</key>
-      <value>Предупреждение конвертации объекта при отправке</value>
+      <value>Предупреждения обработчиков отправки/получения</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -475,6 +470,20 @@
       <key>ru</key>
       <value>Удаление устаревших предупреждений</value>
     </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fa99302b-3e86-4330-b9ff-c38d933f81f0">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

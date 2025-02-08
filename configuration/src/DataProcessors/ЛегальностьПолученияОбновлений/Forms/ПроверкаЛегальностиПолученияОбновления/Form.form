@@ -3,6 +3,10 @@
   <items xsi:type="form:FormField">
     <name>ТекстПредупреждения</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Текст предупреждения</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -13,7 +17,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>ТекстПредупрежденияExtendedTooltip</name>
+      <name>ТекстПредупрежденияРасширеннаяПодсказка</name>
       <id>9</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -107,7 +111,7 @@
       <id>12</id>
       <title>
         <key>ru</key>
-        <value>Разрешить автоматическую отправку сведений об использовании программы в фирму &quot;1С&quot;</value>
+        <value>Разрешить автоматическую отправку сведений об использовании приложения в фирму &quot;1С&quot;</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -120,8 +124,8 @@
       <titleLocation>Right</titleLocation>
       <toolTip>
         <key>ru</key>
-        <value>Собранные сведения включают в себя только технические характеристики работы программы,
-Отчеты об использовании программы помогают нам определить, над чем следует поработать в первую очередь. Вы можете в любой момент отключить отправку технических отчетов.</value>
+        <value>Собранные сведения включают в себя только технические характеристики работы приложения,
+Отчеты об использовании приложения помогают нам определить, над чем следует поработать в первую очередь. Вы можете в любой момент отключить отправку технических отчетов.</value>
       </toolTip>
       <toolTipRepresentation>Button</toolTipRepresentation>
       <extendedTooltip>
@@ -164,7 +168,7 @@
         <id>15</id>
         <title>
           <key>ru</key>
-          <value>Собранные сведения включают в себя только технические характеристики работы программы, являются обезличенными и не содержат информации о пользователях или бизнес-информации.</value>
+          <value>Собранные сведения включают в себя только технические характеристики работы приложения, являются обезличенными и не содержат информации о пользователях или бизнес-информации.</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -176,7 +180,7 @@
           <id>17</id>
           <title>
             <key>ru</key>
-            <value>Отчеты об использовании программы помогают нам определить, над чем следует поработать в первую очередь. Вы можете в любой момент отключить отправку технических отчетов.</value>
+            <value>Отчеты об использовании приложения помогают нам определить, над чем следует поработать в первую очередь. Вы можете в любой момент отключить отправку технических отчетов.</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -284,13 +288,17 @@
     <items xsi:type="form:Button">
       <name>ФормаПродолжить</name>
       <id>5</id>
+      <title>
+        <key>ru</key>
+        <value>Продолжить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаПродолжитьExtendedTooltip</name>
+        <name>ФормаПродолжитьРасширеннаяПодсказка</name>
         <id>8</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -334,6 +342,7 @@
     <name>ПриЗакрытии</name>
   </handlers>
   <windowOpeningMode>LockWholeInterface</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

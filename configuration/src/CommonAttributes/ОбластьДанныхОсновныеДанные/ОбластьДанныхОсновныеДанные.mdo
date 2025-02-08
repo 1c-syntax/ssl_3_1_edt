@@ -23,6 +23,10 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>ScheduledJob.ОбновлениеСтатусовМЧД</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>ScheduledJob.ПолучениеИОтправкаЭлектронныхПисем</metadata>
     <use>DontUse</use>
   </content>
@@ -83,10 +87,6 @@
     <use>DontUse</use>
   </content>
   <content>
-    <metadata>ScheduledJob.ПолучениеСубъектовДляСкрытияПерсональныхДанных</metadata>
-    <use>DontUse</use>
-  </content>
-  <content>
     <metadata>Constant.НастройкаПроксиСервера</metadata>
     <use>DontUse</use>
   </content>
@@ -95,7 +95,7 @@
     <use>DontUse</use>
   </content>
   <content>
-    <metadata>InformationRegister.ДомаЗданияСтроения</metadata>
+    <metadata>ScheduledJob.УстановкаПорядкаОтложенногоОбновленияВМоделиСервиса</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -119,6 +119,10 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>InformationRegister.ИсторияАдминистративнойИерархии</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>Constant.ВерсияКлассификатораБанков</metadata>
     <use>DontUse</use>
   </content>
@@ -127,7 +131,15 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>ScheduledJob.РассылкаОтчетов</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>Constant.ПрофильБезопасностиИнформационнойБазы</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.НастройкиРегистрацииСобытийДоступаКДанным</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -147,7 +159,19 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>ScheduledJob.ПолучениеСтатусовЭлектронныхПисем</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.ПрогрессОбновления</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>Catalog.КлючевыеОперации</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.АккредитованныеУдостоверяющиеЦентры</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -156,14 +180,6 @@
   </content>
   <content>
     <metadata>Constant.АдресДляВосстановленияПароляУчетнойЗаписи</metadata>
-    <use>DontUse</use>
-  </content>
-  <content>
-    <metadata>ScheduledJob.СкрытиеПерсональныхДанныхСубъектов</metadata>
-    <use>DontUse</use>
-  </content>
-  <content>
-    <metadata>Catalog.СценарииОбменовДанными</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -199,7 +215,15 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>ScheduledJob.УдалениеНеиспользуемыхВнешнихКомпонент</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>InformationRegister.ДанныеПроизводственногоКалендаря</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Catalog.СеансыОбменовДанными</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -224,6 +248,10 @@
   </content>
   <content>
     <metadata>ScheduledJob.ЗаполнениеДанныхДляОграниченияДоступа</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>ScheduledJob.ОчисткаУстаревшихДанных</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -287,11 +315,11 @@
     <use>DontUse</use>
   </content>
   <content>
-    <metadata>ScheduledJob.ОтложенноеОбновлениеИБ</metadata>
+    <metadata>ScheduledJob.ОтправкаСерверныхОповещенийКлиентам</metadata>
     <use>DontUse</use>
   </content>
   <content>
-    <metadata>ScheduledJob.КонтрольАктивностиПользователей</metadata>
+    <metadata>ScheduledJob.ОтложенноеОбновлениеИБ</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -300,6 +328,10 @@
   </content>
   <content>
     <metadata>InformationRegister.ОчередьИзвлеченияТекста</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.ПутьКТомуБезУчетаРегиональныхНастроек</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -343,6 +375,10 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>InformationRegister.КлассификаторыМЧД</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>InformationRegister.ДополнительныеАдресныеСведения</metadata>
     <use>DontUse</use>
   </content>
@@ -367,11 +403,27 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>InformationRegister.МуниципальнаяИерархия</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>Constant.ДатаПоследнегоОбновленияКлассификатораОшибок</metadata>
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>Constant.ИспользоватьОптимизированнуюЗаписьСозданияАвтономногоРабочегоМеста</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.КоличествоПотоковДлительныхОпераций</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>InformationRegister.НеразделенныеПользователи</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.СпискиОтзываСертификатов</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -387,7 +439,15 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>ScheduledJob.ПродлениеДостоверностиПодписей</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>ScheduledJob.ИзвлечениеТекста</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.ИсторияМуниципальнойИерархии</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -419,7 +479,7 @@
     <use>DontUse</use>
   </content>
   <content>
-    <metadata>ScheduledJob.УдалениеПомеченных</metadata>
+    <metadata>ScheduledJob.УдалениеПомеченныхОбъектов</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -432,6 +492,10 @@
   </content>
   <content>
     <metadata>Constant.СведенияОБлокируемыхОбъектах</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.ИспользоватьОценкуПроизводительностиСинхронизацииДанных</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -459,6 +523,10 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>Constant.СтандартныеПодсистемыВАвтономномРежиме</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>ScheduledJob.МониторингЗадач</metadata>
     <use>DontUse</use>
   </content>
@@ -467,11 +535,19 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>InformationRegister.АдминистративнаяИерархия</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>InformationRegister.УдалитьНастройкиТранспортаОбмена</metadata>
     <use>DontUse</use>
   </content>
   <content>
     <metadata>Constant.СинхронизироватьДанныеСПриложениемВИнтернетеПриНачалеРаботыПрограммы</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.НастройкиВходаПользователей</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -491,11 +567,11 @@
     <use>DontUse</use>
   </content>
   <content>
-    <metadata>InformationRegister.ОбластиСтатистики</metadata>
+    <metadata>Constant.ДанныеДляИзмененияМультиязычныхРеквизитов</metadata>
     <use>DontUse</use>
   </content>
   <content>
-    <metadata>InformationRegister.АдресныеОбъекты</metadata>
+    <metadata>InformationRegister.ОбластиСтатистики</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -503,7 +579,7 @@
     <use>DontUse</use>
   </content>
   <content>
-    <metadata>ScheduledJob.ОтключениеПроверкиИспользованияУдаляемыхОбъектов</metadata>
+    <metadata>ScheduledJob.КонтрольУдаленияПомеченныхОбъектов</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -515,6 +591,10 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>InformationRegister.ЗемельныеУчастки</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>InformationRegister.ИсторияАдресныхОбъектов</metadata>
     <use>DontUse</use>
   </content>
@@ -523,7 +603,7 @@
     <use>DontUse</use>
   </content>
   <content>
-    <metadata>InformationRegister.СвязиАдресныхОбъектов</metadata>
+    <metadata>InformationRegister.ПериодическиеСерверныеОповещения</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -531,7 +611,15 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>ScheduledJob.ОбновлениеКлассификаторовМЧД</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>ScheduledJob.СборИОтправкаСтатистики</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.КаталогВременныхФайловДляWindows</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -547,11 +635,31 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>ScheduledJob.РасчетСроковХраненияПерсональныхДанных</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>InformationRegister.БуферОперацийСтатистики</metadata>
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>InformationRegister.ОтправленныеСерверныеОповещения</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>Constant.ПараметрыЦентраМониторинга</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.АдресныеОбъекты</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.СвойстваРасширений</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>ScheduledJob.ОбработкаСервисовИнтеграции</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -587,6 +695,10 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>Constant.РегистрироватьПоказателиСерверныхОповещений</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>InformationRegister.ОбщиеПоставляемыеМакетыПечати</metadata>
     <use>DontUse</use>
   </content>
@@ -599,10 +711,6 @@
     <use>DontUse</use>
   </content>
   <content>
-    <metadata>InformationRegister.ЗемельныеУчастки</metadata>
-    <use>DontUse</use>
-  </content>
-  <content>
     <metadata>Constant.ЭтоАвтономноеРабочееМесто</metadata>
     <use>DontUse</use>
   </content>
@@ -612,6 +720,18 @@
   </content>
   <content>
     <metadata>InformationRegister.ВерсииПодсистемОбластейДанных</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.КаталогВременныхФайловДляLinux</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>ScheduledJob.ОбновлениеСостоянияЗаявленияНаВыпускСертификата</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>ScheduledJob.ОчисткаИсторииРассылкиОтчетов</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -636,6 +756,10 @@
   </content>
   <content>
     <metadata>ScheduledJob.ПроверкаВеденияУчета</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>InformationRegister.ДомаЗданияСтроения</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -667,10 +791,6 @@
     <use>DontUse</use>
   </content>
   <content>
-    <metadata>InformationRegister.ОриентирыАдресныхОбъектов</metadata>
-    <use>DontUse</use>
-  </content>
-  <content>
     <metadata>InformationRegister.ОперацииСтатистики</metadata>
     <use>DontUse</use>
   </content>
@@ -687,7 +807,15 @@
     <use>DontUse</use>
   </content>
   <content>
+    <metadata>ScheduledJob.ЗаполнениеПараметровРаботыРасширений</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
     <metadata>InformationRegister.ПакетыДляОтправки</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.ПорядокОбрабатываемыхДанных</metadata>
     <use>DontUse</use>
   </content>
   <content>
@@ -716,6 +844,10 @@
   </content>
   <content>
     <metadata>InformationRegister.БлокировкиСеансовОбластейДанных</metadata>
+    <use>DontUse</use>
+  </content>
+  <content>
+    <metadata>Constant.ДоставлятьСерверныеОповещенияБезСистемыВзаимодействия</metadata>
     <use>DontUse</use>
   </content>
   <dataSeparationValue>SessionParameter.ОбластьДанныхЗначение</dataSeparationValue>

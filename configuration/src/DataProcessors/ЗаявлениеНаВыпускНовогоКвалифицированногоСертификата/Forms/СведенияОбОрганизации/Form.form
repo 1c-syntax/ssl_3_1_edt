@@ -83,6 +83,10 @@
       <items xsi:type="form:FormField">
         <name>ЭтоИностраннаяОрганизация</name>
         <id>63</id>
+        <title>
+          <key>ru</key>
+          <value>Это иностранная организация</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -418,7 +422,7 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Горизонтальная группа 7</value>
+            <value>Горизонтальная группа</value>
           </title>
           <extendedTooltip>
             <name>ГоризонтальнаяГруппа7РасширеннаяПодсказка</name>
@@ -572,7 +576,7 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Вертикальная группа 1</value>
+          <value>Вертикальная группа</value>
         </title>
         <extendedTooltip>
           <name>ВертикальнаяГруппа1РасширеннаяПодсказка</name>
@@ -726,7 +730,7 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Вертикальная группа 2</value>
+          <value>Вертикальная группа</value>
         </title>
         <extendedTooltip>
           <name>ВертикальнаяГруппа2РасширеннаяПодсказка</name>
@@ -832,82 +836,18 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
+          <readOnly>true</readOnly>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
-            <handlers>
-              <event>StartChoice</event>
-              <name>ЮридическийАдресНачалоВыбора</name>
-            </handlers>
-            <handlers>
-              <event>Clearing</event>
-              <name>ЮридическийАдресОчистка</name>
-            </handlers>
-            <handlers>
-              <event>ChoiceProcessing</event>
-              <name>ЮридическийАдресОбработкаВыбора</name>
-            </handlers>
             <width>65</width>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
-            <choiceButton>true</choiceButton>
             <autoMarkIncomplete>true</autoMarkIncomplete>
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
-          </extInfo>
-        </items>
-        <items xsi:type="form:Decoration">
-          <name>ЮридическийАдресПредупреждение</name>
-          <id>47</id>
-          <title>
-            <key>ru</key>
-            <value>Адрес регистрации (предупреждение)</value>
-          </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>ЮридическийАдресПредупреждениеРасширеннаяПодсказка</name>
-            <id>49</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>ЮридическийАдресПредупреждениеКонтекстноеМеню</name>
-            <id>48</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <skipOnInput>true</skipOnInput>
-          <groupVerticalAlign>Center</groupVerticalAlign>
-          <extInfo xsi:type="form:PictureDecorationExtInfo">
-            <handlers>
-              <event>Click</event>
-              <name>АдресПредупреждениеНажатие</name>
-            </handlers>
-            <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Предупреждение</picture>
-            </picture>
-            <hyperlink>true</hyperlink>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -1086,6 +1026,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОК</name>
       <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1117,6 +1061,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОтмена</name>
       <id>3</id>
+      <title>
+        <key>ru</key>
+        <value>Отмена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1156,10 +1104,6 @@
     <name>ОбработкаОповещения</name>
   </handlers>
   <handlers>
-    <event>OnOpen</event>
-    <name>ПриОткрытии</name>
-  </handlers>
-  <handlers>
     <event>BeforeClose</event>
     <name>ПередЗакрытием</name>
   </handlers>
@@ -1168,6 +1112,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -1186,7 +1131,7 @@
     <valueType>
       <types>String</types>
       <stringQualifiers>
-        <length>64</length>
+        <length>255</length>
       </stringQualifiers>
     </valueType>
     <view>
@@ -1422,17 +1367,6 @@
       <types>String</types>
       <stringQualifiers/>
     </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ВидКонтактнойИнформации</name>
-    <id>19</id>
-    <valueType/>
     <view>
       <common>true</common>
     </view>

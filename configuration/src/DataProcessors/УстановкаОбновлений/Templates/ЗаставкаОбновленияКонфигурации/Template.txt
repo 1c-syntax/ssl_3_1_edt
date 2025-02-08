@@ -2,7 +2,7 @@
 <html>
 
 <head>
-  <meta http-equiv="Content-Type" content="application/hta; charset=UTF-16">
+  <meta http-equiv="Content-Type" content="application/hta; charset=UTF-8">
   <meta http-equiv="x-ua-compatible" content="IE=EmulateIE7">
   <hta:application id="oHTA" border="none" caption="no" contextmenu="no" selection="no" icon="splash.ico" innerborder="no"
     navigable="yes" showintaskbar="yes" scroll="no" version="1.0.0.0" />
@@ -29,9 +29,9 @@
     var errStep = 0
     var loadStep = 10 // шаг начала загрузки первого файла обновления
 
-    var endLoadStep = loadStep + cfgFileNames.length * 6 // следующий шаг после завершения загрузки файлов обновления
+    var endLoadStep = loadStep + cfgFileNames.length * 8 // следующий шаг после завершения загрузки файлов обновления
     if (cfgFileNames.length === 0) {
-      endLoadStep = loadStep + 6
+      endLoadStep = loadStep + 8
     }
     // Вывести сообщение о ходе обновления
     function setProgress (statusText) {
@@ -73,10 +73,10 @@
           ret = runDeferredHandlers()
           break
         case 8:
-          setProgress('[Шаг11УдалениеПатчей]')
+          setProgress('[Шаг11ОтключениеПатчей]')
           break
         case 9:
-          ret = DeletePatches()
+          ret = TurnOffPatches()
           break
         case endLoadStep:
           if (makeCompression) {
@@ -115,15 +115,15 @@
                 setProgress('[Шаг4ОбновлениеКонфигурации]')
                 break
               case 1:
-              	if (updateConfiguration){
+                if (updateConfiguration){
                   ret = updateDbCfg()
-                }       	
+                }
                 break
               case 2:
                 setProgress('[Шаг4ЗагрузкаРасширений]')
                 break
               case 3:
-               	if (loadExtentions) {
+                if (loadExtentions) {
                   ret = executeLoadExt()
                 }
                 break
@@ -136,8 +136,8 @@
             }
             break
           }
-          var cfgFileIndex = Math.floor((step - loadStep) / 6) // 0, 1, 2, 3, ...
-          var internalStep = (step - loadStep) % 6
+          var cfgFileIndex = Math.floor((step - loadStep) / 8) // 0, 1, 2, 3, ...
+          var internalStep = (step - loadStep) % 8
           var fileProperties = GetRequired(cfgFileNames[cfgFileIndex])
           var runHandlers = fileProperties.requiredVersion || (cfgFileIndex + 1 === cfgFileNames.length)
           switch (internalStep) {
@@ -159,11 +159,17 @@
               ret = updateDbCfg()
               break;
             case 4:
+              setProgress('[Шаг42ВключениеПатчей]')
+              break
+            case 5:
+              ret = TurnOnPatches()
+              break
+            case 6:
               if (runHandlers) {
                 setProgress(format('[Шаг43ОбновлениеИБ] ({0}/{1})', cfgFileIndex + 1, cfgFileNames.length))
               }
               break
-            case 5:
+            case 7:
               if (runHandlers) {
                 ret = executeUpdate(cfgFileIndex + 1 === cfgFileNames.length)
               }
@@ -208,7 +214,7 @@
       }
 
       // Последовательное выполнение шагов процедуры обновления.
-      // При отключении пользователей необходимо возвращаться на тот же шаг
+      // При резервном копировании и отключении пользователей может быть необходимо повторить попытку.
       if (ret !== -1) {
         step++
       }

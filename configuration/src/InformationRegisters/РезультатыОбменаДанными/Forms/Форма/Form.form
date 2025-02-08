@@ -10,6 +10,10 @@
     <items xsi:type="form:FormField">
       <name>Период</name>
       <id>34</id>
+      <title>
+        <key>ru</key>
+        <value>Период</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -65,6 +69,10 @@
     <items xsi:type="form:FormField">
       <name>УзелИнформационнойБазы</name>
       <id>36</id>
+      <title>
+        <key>ru</key>
+        <value>Отправитель</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -626,6 +634,10 @@
           <items xsi:type="form:Button">
             <name>ОшибкиОбъектаXDTOИзменитьВыделенныеОбъекты</name>
             <id>717</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить выделенные объекты</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -656,6 +668,10 @@
           <items xsi:type="form:Button">
             <name>ОшибкиОбъектаXDTOИзменить</name>
             <id>719</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -690,6 +706,10 @@
             <items xsi:type="form:Button">
               <name>ОшибкиОбъектаXDTOИгнорироватьОшибку</name>
               <id>723</id>
+              <title>
+                <key>ru</key>
+                <value>Игнорировать ошибку</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -720,6 +740,10 @@
             <items xsi:type="form:Button">
               <name>ОшибкиОбъектаXDTOНеИгнорироватьОшибку</name>
               <id>725</id>
+              <title>
+                <key>ru</key>
+                <value>Не игнорировать ошибку</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -751,6 +775,10 @@
             <items xsi:type="form:Button">
               <name>ОшибкиОбъектаXDTOПоказыватьПроигнорированные</name>
               <id>727</id>
+              <title>
+                <key>ru</key>
+                <value>Показывать проигнорированные</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -808,6 +836,10 @@
           <items xsi:type="form:Button">
             <name>ОшибкиОбъектаXDTOОбновить</name>
             <id>729</id>
+            <title>
+              <key>ru</key>
+              <value>Обновить</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1169,6 +1201,10 @@
           <items xsi:type="form:Button">
             <name>ОшибкиОбъектаXDTOКонтекстноеМенюИзменитьВыделенныеОбъекты</name>
             <id>705</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить выделенные объекты</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1199,6 +1235,10 @@
           <items xsi:type="form:Button">
             <name>ОшибкиОбъектаXDTOКонтекстноеМенюИзменить</name>
             <id>707</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1232,6 +1272,10 @@
             <items xsi:type="form:Button">
               <name>ОшибкиОбъектаXDTOКонтекстноеМенюИгнорироватьОшибку</name>
               <id>711</id>
+              <title>
+                <key>ru</key>
+                <value>Игнорировать ошибку</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1262,6 +1306,10 @@
             <items xsi:type="form:Button">
               <name>ОшибкиОбъектаXDTOКонтекстноеМенюНеИгнорироватьОшибку</name>
               <id>713</id>
+              <title>
+                <key>ru</key>
+                <value>Не игнорировать ошибку</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1385,6 +1433,7 @@
           </period>
           <topLevelParent xsi:type="core:UndefinedValue"/>
           <showRoot>true</showRoot>
+          <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -1963,6 +2012,10 @@
           <items xsi:type="form:Button">
             <name>НепроведенныеДокументыИзменитьВыделенныеДокументы</name>
             <id>26</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить выделенные...</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1993,6 +2046,10 @@
           <items xsi:type="form:Button">
             <name>НепроведенныеДокументыПровестиДокумент</name>
             <id>30</id>
+            <title>
+              <key>ru</key>
+              <value>Провести</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2023,6 +2080,10 @@
           <items xsi:type="form:Button">
             <name>НепроведенныеДокументыИзменить</name>
             <id>180</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2057,6 +2118,10 @@
             <items xsi:type="form:Button">
               <name>НепроведенныеДокументыИгнорироватьДокумент</name>
               <id>21</id>
+              <title>
+                <key>ru</key>
+                <value>Игнорировать</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2087,6 +2152,10 @@
             <items xsi:type="form:Button">
               <name>НепроведенныеДокументыНеИгнорироватьДокумент</name>
               <id>22</id>
+              <title>
+                <key>ru</key>
+                <value>Не игнорировать</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2118,6 +2187,10 @@
             <items xsi:type="form:Button">
               <name>НепроведенныеДокументыПоказыватьПроигнорированныеНепроведенные</name>
               <id>340</id>
+              <title>
+                <key>ru</key>
+                <value>Показывать проигнорированные</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2175,6 +2248,10 @@
           <items xsi:type="form:Button">
             <name>НепроведенныеДокументыОбновить</name>
             <id>357</id>
+            <title>
+              <key>ru</key>
+              <value>Обновить</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2536,6 +2613,10 @@
           <items xsi:type="form:Button">
             <name>НепроведенныеДокументыКонтекстноеМенюИзменитьВыделенныеДокументы</name>
             <id>62</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить выделенные...</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2566,6 +2647,10 @@
           <items xsi:type="form:Button">
             <name>НепроведенныеДокументыКонтекстноеМенюПровестиДокумент</name>
             <id>63</id>
+            <title>
+              <key>ru</key>
+              <value>Провести</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2596,6 +2681,10 @@
           <items xsi:type="form:Button">
             <name>НепроведенныеДокументыКонтекстноеМенюИзменить</name>
             <id>324</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2629,6 +2718,10 @@
             <items xsi:type="form:Button">
               <name>НепроведенныеДокументыКонтекстноеМенюИгнорироватьДокумент</name>
               <id>65</id>
+              <title>
+                <key>ru</key>
+                <value>Игнорировать</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2659,6 +2752,10 @@
             <items xsi:type="form:Button">
               <name>НепроведенныеДокументыКонтекстноеМенюНеИгнорироватьДокумент</name>
               <id>66</id>
+              <title>
+                <key>ru</key>
+                <value>Не игнорировать</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2778,6 +2875,7 @@
           </period>
           <topLevelParent xsi:type="core:UndefinedValue"/>
           <showRoot>true</showRoot>
+          <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -3240,6 +3338,10 @@
           <items xsi:type="form:Button">
             <name>НезаполненныеРеквизитыИзменитьВыделенныеОбъекты</name>
             <id>91</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить выделенные...</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -3270,6 +3372,10 @@
           <items xsi:type="form:Button">
             <name>НезаполненныеРеквизитыИзменить</name>
             <id>181</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -3304,6 +3410,10 @@
             <items xsi:type="form:Button">
               <name>НезаполненныеРеквизитыИгнорироватьОбъект</name>
               <id>89</id>
+              <title>
+                <key>ru</key>
+                <value>Игнорировать</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3334,6 +3444,10 @@
             <items xsi:type="form:Button">
               <name>НезаполненныеРеквизитыНеИгнорироватьОбъект</name>
               <id>167</id>
+              <title>
+                <key>ru</key>
+                <value>Не игнорировать</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3365,6 +3479,10 @@
             <items xsi:type="form:Button">
               <name>НезаполненныеРеквизитыПоказыватьПроигнорированныеНезаполненные</name>
               <id>341</id>
+              <title>
+                <key>ru</key>
+                <value>Показывать проигнорированные</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3422,6 +3540,10 @@
           <items xsi:type="form:Button">
             <name>НезаполненныеРеквизитыОбновить</name>
             <id>358</id>
+            <title>
+              <key>ru</key>
+              <value>Обновить</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -3783,6 +3905,10 @@
           <items xsi:type="form:Button">
             <name>НезаполненныеРеквизитыКонтекстноеМенюИзменитьВыделенныеОбъекты</name>
             <id>100</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить выделенные...</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -3813,6 +3939,10 @@
           <items xsi:type="form:Button">
             <name>НезаполненныеРеквизитыКонтекстноеМенюИзменить</name>
             <id>276</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -3846,6 +3976,10 @@
             <items xsi:type="form:Button">
               <name>НезаполненныеРеквизитыКонтекстноеМенюИгнорироватьОбъект</name>
               <id>97</id>
+              <title>
+                <key>ru</key>
+                <value>Игнорировать</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3876,6 +4010,10 @@
             <items xsi:type="form:Button">
               <name>НезаполненныеРеквизитыКонтекстноеМенюНеИгнорироватьОбъект</name>
               <id>99</id>
+              <title>
+                <key>ru</key>
+                <value>Не игнорировать</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3996,6 +4134,7 @@
           </period>
           <topLevelParent xsi:type="core:UndefinedValue"/>
           <showRoot>true</showRoot>
+          <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -4377,6 +4516,10 @@
           <items xsi:type="form:Button">
             <name>КоллизииСравнитьСТекущейВерсиейКоллизии</name>
             <id>158</id>
+            <title>
+              <key>ru</key>
+              <value>Показать отличия</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -4407,6 +4550,10 @@
           <items xsi:type="form:Button">
             <name>КоллизииОткрытьВерсиюКоллизии</name>
             <id>157</id>
+            <title>
+              <key>ru</key>
+              <value>Показать версию, созданную в этой информационной базе</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -4438,6 +4585,10 @@
           <items xsi:type="form:Button">
             <name>КоллизииОткрытьВерсиюКонфликта</name>
             <id>356</id>
+            <title>
+              <key>ru</key>
+              <value>Показать версию, полученную из другой информационной базы</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -4507,6 +4658,10 @@
             <items xsi:type="form:Button">
               <name>КоллизииИгнорироватьКонфликт</name>
               <id>272</id>
+              <title>
+                <key>ru</key>
+                <value>Подтвердить</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -4537,6 +4692,10 @@
             <items xsi:type="form:Button">
               <name>КоллизииНеИгнорироватьКонфликт</name>
               <id>312</id>
+              <title>
+                <key>ru</key>
+                <value>Снять признак &quot;Рассмотрено&quot;</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -4631,6 +4790,10 @@
           <items xsi:type="form:Button">
             <name>КоллизииПоказыватьПроигнорированныеКонфликты</name>
             <id>342</id>
+            <title>
+              <key>ru</key>
+              <value>Показывать рассмотренные конфликты</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -4665,6 +4828,10 @@
             <items xsi:type="form:Button">
               <name>ФормаОбновить</name>
               <id>28</id>
+              <title>
+                <key>ru</key>
+                <value>Обновить</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -5053,6 +5220,10 @@
           <items xsi:type="form:Button">
             <name>КоллизииКонтекстноеМенюСравнитьСТекущейВерсиейКоллизии</name>
             <id>161</id>
+            <title>
+              <key>ru</key>
+              <value>Показать отличия</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -5083,6 +5254,10 @@
           <items xsi:type="form:Button">
             <name>КоллизииКонтекстноеМенюОткрытьВерсиюДоКонфликта</name>
             <id>162</id>
+            <title>
+              <key>ru</key>
+              <value>Показать версию, созданную в этой информационной базе</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -5113,6 +5288,10 @@
           <items xsi:type="form:Button">
             <name>КоллизииКонтекстноеМенюОткрытьВерсиюКонфликта</name>
             <id>338</id>
+            <title>
+              <key>ru</key>
+              <value>Показать версию, полученную из другой информационной базы</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -5143,6 +5322,10 @@
           <items xsi:type="form:Button">
             <name>КоллизииКонтекстноеМенюИзменить</name>
             <id>277</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -5176,6 +5359,10 @@
             <items xsi:type="form:Button">
               <name>КоллизииКонтекстноеМенюНеИгнорироватьКонфликт</name>
               <id>317</id>
+              <title>
+                <key>ru</key>
+                <value>Снять признак &quot;Рассмотрено&quot;</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -5296,6 +5483,7 @@
           </period>
           <topLevelParent xsi:type="core:UndefinedValue"/>
           <showRoot>true</showRoot>
+          <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -5614,6 +5802,10 @@
           <items xsi:type="form:Button">
             <name>НепринятыеПоДатеСравнитьСДаннымиВБазе</name>
             <id>144</id>
+            <title>
+              <key>ru</key>
+              <value>Показать отличия</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -5644,6 +5836,10 @@
           <items xsi:type="form:Button">
             <name>НепринятыеПоДатеПринятьВерсию</name>
             <id>320</id>
+            <title>
+              <key>ru</key>
+              <value>Принять версию</value>
+            </title>
             <visible>true</visible>
             <userVisible>
               <common>true</common>
@@ -5673,6 +5869,10 @@
           <items xsi:type="form:Button">
             <name>НепринятыеПоДатеИзменить</name>
             <id>227</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -5704,6 +5904,10 @@
           <items xsi:type="form:Button">
             <name>НепринятыеПоДатеОткрытьВерсию</name>
             <id>143</id>
+            <title>
+              <key>ru</key>
+              <value>Показать непринятую версию</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -5738,6 +5942,10 @@
             <items xsi:type="form:Button">
               <name>НепринятыеПоДатеИгнорироватьНепринятый</name>
               <id>311</id>
+              <title>
+                <key>ru</key>
+                <value>Игнорировать</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -5768,6 +5976,10 @@
             <items xsi:type="form:Button">
               <name>НепринятыеПоДатеНеИгнорироватьНепринятый</name>
               <id>313</id>
+              <title>
+                <key>ru</key>
+                <value>Не игнорировать</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -5799,6 +6011,10 @@
             <items xsi:type="form:Button">
               <name>НепринятыеПоДатеПоказыватьПроигнорированныеНепринятые</name>
               <id>343</id>
+              <title>
+                <key>ru</key>
+                <value>Показывать проигнорированные</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -5859,6 +6075,10 @@
             <items xsi:type="form:Button">
               <name>НепринятыеПоДатеОбновить</name>
               <id>359</id>
+              <title>
+                <key>ru</key>
+                <value>Обновить</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -6245,6 +6465,10 @@
           <items xsi:type="form:Button">
             <name>НепринятыеПоДатеКонтекстноеМенюСравнитьСДаннымиВБазе</name>
             <id>150</id>
+            <title>
+              <key>ru</key>
+              <value>Показать отличия</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -6275,6 +6499,10 @@
           <items xsi:type="form:Button">
             <name>НепринятыеПоДатеКонтекстноеМенюПринятьВерсию</name>
             <id>323</id>
+            <title>
+              <key>ru</key>
+              <value>Принять версию</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -6305,6 +6533,10 @@
           <items xsi:type="form:Button">
             <name>НепринятыеПоДатеКонтекстноеМенюИзменить</name>
             <id>279</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -6335,6 +6567,10 @@
           <items xsi:type="form:Button">
             <name>НепринятыеПоДатеКонтекстноеМенюОткрытьВерсиюНепринятыеВЭтойПрограмме</name>
             <id>339</id>
+            <title>
+              <key>ru</key>
+              <value>Показать версию в этой программе</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -6365,6 +6601,10 @@
           <items xsi:type="form:Button">
             <name>НепринятыеПоДатеКонтекстноеМенюОткрытьВерсию</name>
             <id>151</id>
+            <title>
+              <key>ru</key>
+              <value>Показать непринятую версию</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -6398,6 +6638,10 @@
             <items xsi:type="form:Button">
               <name>НепринятыеПоДатеКонтекстноеМенюИгнорироватьНепринятый</name>
               <id>319</id>
+              <title>
+                <key>ru</key>
+                <value>Игнорировать</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -6428,6 +6672,10 @@
             <items xsi:type="form:Button">
               <name>НепринятыеПоДатеКонтекстноеМенюНеИгнорироватьНепринятый</name>
               <id>318</id>
+              <title>
+                <key>ru</key>
+                <value>Не игнорировать</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -6539,9 +6787,6 @@
         <horizontalStretch>true</horizontalStretch>
         <verticalStretch>true</verticalStretch>
         <enableStartDrag>true</enableStartDrag>
-        <rowPictureDataPath xsi:type="form:DataPath">
-          <segments>НепринятыеПоДате.DefaultPicture</segments>
-        </rowPictureDataPath>
         <currentRowUse>SelectionPresentation</currentRowUse>
         <extInfo xsi:type="form:DynamicListTableExtInfo">
           <autoRefreshPeriod>60</autoRefreshPeriod>
@@ -6551,6 +6796,7 @@
           </period>
           <topLevelParent xsi:type="core:UndefinedValue"/>
           <showRoot>true</showRoot>
+          <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -7161,6 +7407,7 @@
           </period>
           <topLevelParent xsi:type="core:UndefinedValue"/>
           <showRoot>true</showRoot>
+          <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -7771,6 +8018,7 @@
           </period>
           <topLevelParent xsi:type="core:UndefinedValue"/>
           <showRoot>true</showRoot>
+          <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -8113,6 +8361,10 @@
       <items xsi:type="form:FormField">
         <name>ПричинаКонфликта</name>
         <id>353</id>
+        <title>
+          <key>ru</key>
+          <value>Результат разрешения конфликта</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -8516,6 +8768,7 @@
     <name>ПриЗакрытии</name>
   </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -8742,9 +8995,6 @@
       <segments>Коллизии.Дата</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Коллизии.ДругаяВерсияПринята</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Коллизии.НомерДругойВерсии</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
@@ -8788,9 +9038,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>НепринятыеПоДате.ДругаяВерсияПринята</segments>
-    </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НепринятыеПоДате.АвторДругойВерсии</segments>
     </notDefaultUseAlwaysAttributes>
@@ -9074,9 +9321,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>ОшибкиОбъектаXDTO.ТипСтрокой</segments>
-    </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>ОшибкиОбъектаXDTO.ДатаВозникновения</segments>
     </notDefaultUseAlwaysAttributes>

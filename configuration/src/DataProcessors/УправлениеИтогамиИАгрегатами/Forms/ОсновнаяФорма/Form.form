@@ -19,6 +19,10 @@
           <items xsi:type="form:Button">
             <name>УстановитьПериодРассчитанныхИтогов</name>
             <id>219</id>
+            <title>
+              <key>ru</key>
+              <value>Установить период рассчитанных итогов</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -26,7 +30,7 @@
             </userVisible>
             <skipOnInput>false</skipOnInput>
             <extendedTooltip>
-              <name>УстановитьПериодРассчитанныхИтоговExtendedTooltip</name>
+              <name>УстановитьПериодРассчитанныхИтоговРасширеннаяПодсказка</name>
               <id>334</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -66,7 +70,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ОписаниеУстановкиПериодаExtendedTooltip</name>
+              <name>ОписаниеУстановкиПериодаРасширеннаяПодсказка</name>
               <id>335</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -141,6 +145,10 @@
           <items xsi:type="form:Button">
             <name>ВключитьИспользованиеИтогов</name>
             <id>220</id>
+            <title>
+              <key>ru</key>
+              <value>Включить использование итогов</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -148,7 +156,7 @@
             </userVisible>
             <skipOnInput>false</skipOnInput>
             <extendedTooltip>
-              <name>ВключитьИспользованиеИтоговExtendedTooltip</name>
+              <name>ВключитьИспользованиеИтоговРасширеннаяПодсказка</name>
               <id>337</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -186,7 +194,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПростыеИтогиОписаниеExtendedTooltip</name>
+              <name>ПростыеИтогиОписаниеРасширеннаяПодсказка</name>
               <id>338</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -232,7 +240,7 @@
             <value>Включение итогов</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаВключениеИтоговExtendedTooltip</name>
+            <name>ГруппаВключениеИтоговРасширеннаяПодсказка</name>
             <id>336</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -265,7 +273,7 @@
           <value>Итоги</value>
         </title>
         <extendedTooltip>
-          <name>БыстрыйДоступИтогиExtendedTooltip</name>
+          <name>БыстрыйДоступИтогиРасширеннаяПодсказка</name>
           <id>332</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -299,6 +307,10 @@
           <items xsi:type="form:Button">
             <name>ПерестроитьИЗаполнитьАгрегаты</name>
             <id>222</id>
+            <title>
+              <key>ru</key>
+              <value>Перестроить и заполнить</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -306,7 +318,7 @@
             </userVisible>
             <skipOnInput>false</skipOnInput>
             <extendedTooltip>
-              <name>ПерестроитьИЗаполнитьАгрегатыExtendedTooltip</name>
+              <name>ПерестроитьИЗаполнитьАгрегатыРасширеннаяПодсказка</name>
               <id>341</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -344,7 +356,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПростоеПостроениеИЗаполнениеОписаниеExtendedTooltip</name>
+              <name>ПростоеПостроениеИЗаполнениеОписаниеРасширеннаяПодсказка</name>
               <id>342</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -390,7 +402,7 @@
             <value>Перестроение и заполнение агрегатов</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаПерестроениеИЗаполнениеАгрегатовExtendedTooltip</name>
+            <name>ГруппаПерестроениеИЗаполнениеАгрегатовРасширеннаяПодсказка</name>
             <id>340</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -418,6 +430,10 @@
           <items xsi:type="form:Button">
             <name>ПолучитьОптимальныеАгрегаты</name>
             <id>223</id>
+            <title>
+              <key>ru</key>
+              <value>Получить оптимальные агрегаты</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -425,7 +441,7 @@
             </userVisible>
             <skipOnInput>false</skipOnInput>
             <extendedTooltip>
-              <name>ПолучитьОптимальныеАгрегатыExtendedTooltip</name>
+              <name>ПолучитьОптимальныеАгрегатыРасширеннаяПодсказка</name>
               <id>344</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -463,7 +479,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПростоеПолучениеОптимальныхАгрегатовExtendedTooltip</name>
+              <name>ПростоеПолучениеОптимальныхАгрегатовРасширеннаяПодсказка</name>
               <id>345</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -509,7 +525,7 @@
             <value>Получение оптимальных агрегатов</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаПолучениеОптимальныхАгрегатовExtendedTooltip</name>
+            <name>ГруппаПолучениеОптимальныхАгрегатовРасширеннаяПодсказка</name>
             <id>343</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -576,7 +592,7 @@
         <value>Типовые операции</value>
       </title>
       <extendedTooltip>
-        <name>БыстрыйДоступExtendedTooltip</name>
+        <name>БыстрыйДоступРасширеннаяПодсказка</name>
         <id>331</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -634,6 +650,10 @@
             <items xsi:type="form:FormField">
               <name>ИтогиИспользоватьИтоги</name>
               <id>14</id>
+              <title>
+                <key>ru</key>
+                <value>Итоги</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -647,7 +667,7 @@
                 <value>Признак использования итогов данным регистром.</value>
               </toolTip>
               <extendedTooltip>
-                <name>ИтогиИспользоватьИтогиExtendedTooltip</name>
+                <name>ИтогиИспользоватьИтогиРасширеннаяПодсказка</name>
                 <id>373</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -684,6 +704,10 @@
               <items xsi:type="form:FormField">
                 <name>ИтогиНаименование</name>
                 <id>12</id>
+                <title>
+                  <key>ru</key>
+                  <value>Регистр и режим использования</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -693,7 +717,7 @@
                   <segments>СписокИтогов.Наименование</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ИтогиНаименованиеExtendedTooltip</name>
+                  <name>ИтогиНаименованиеРасширеннаяПодсказка</name>
                   <id>372</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -734,6 +758,10 @@
               <items xsi:type="form:FormField">
                 <name>ИтогиАгрегатыИтоги</name>
                 <id>71</id>
+                <title>
+                  <key>ru</key>
+                  <value>Агрегаты/Итоги</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -747,7 +775,7 @@
                   <value>Какой режим использует регистр: итогов или агрегатов</value>
                 </toolTip>
                 <extendedTooltip>
-                  <name>ИтогиАгрегатыИтогиExtendedTooltip</name>
+                  <name>ИтогиАгрегатыИтогиРасширеннаяПодсказка</name>
                   <id>377</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -821,6 +849,10 @@
             <items xsi:type="form:FormField">
               <name>ИтогиПериодИтогов</name>
               <id>18</id>
+              <title>
+                <key>ru</key>
+                <value>Период</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -834,7 +866,7 @@
                 <value>Текущая дата актуальности итогов</value>
               </toolTip>
               <extendedTooltip>
-                <name>ИтогиПериодИтоговExtendedTooltip</name>
+                <name>ИтогиПериодИтоговРасширеннаяПодсказка</name>
                 <id>375</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -876,6 +908,10 @@
             <items xsi:type="form:FormField">
               <name>ИтогиИспользоватьТекущиеИтоги</name>
               <id>16</id>
+              <title>
+                <key>ru</key>
+                <value>Текущие</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -889,7 +925,7 @@
                 <value>Признак использования текущих итогов данным регистром.</value>
               </toolTip>
               <extendedTooltip>
-                <name>ИтогиИспользоватьТекущиеИтогиExtendedTooltip</name>
+                <name>ИтогиИспользоватьТекущиеИтогиРасширеннаяПодсказка</name>
                 <id>374</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -923,6 +959,10 @@
             <items xsi:type="form:FormField">
               <name>ИтогиРазделениеИтогов</name>
               <id>185</id>
+              <title>
+                <key>ru</key>
+                <value>Разделение</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -936,7 +976,7 @@
                 <value>Возможность разделения итогов</value>
               </toolTip>
               <extendedTooltip>
-                <name>ИтогиРазделениеИтоговExtendedTooltip</name>
+                <name>ИтогиРазделениеИтоговРасширеннаяПодсказка</name>
                 <id>376</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -974,6 +1014,10 @@
               <items xsi:type="form:Button">
                 <name>ОбновитьСостояниеИтогов</name>
                 <id>42</id>
+                <title>
+                  <key>ru</key>
+                  <value>Обновить</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -981,7 +1025,7 @@
                 </userVisible>
                 <skipOnInput>false</skipOnInput>
                 <extendedTooltip>
-                  <name>ОбновитьСостояниеИтоговExtendedTooltip</name>
+                  <name>ОбновитьСостояниеИтоговРасширеннаяПодсказка</name>
                   <id>353</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1007,6 +1051,10 @@
                 <items xsi:type="form:Button">
                   <name>ИтогиВключитьИспользованиеИтогов</name>
                   <id>204</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Включить использование итогов</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1014,7 +1062,7 @@
                   </userVisible>
                   <skipOnInput>false</skipOnInput>
                   <extendedTooltip>
-                    <name>ИтогиВключитьИспользованиеИтоговExtendedTooltip</name>
+                    <name>ИтогиВключитьИспользованиеИтоговРасширеннаяПодсказка</name>
                     <id>355</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1038,6 +1086,10 @@
                 <items xsi:type="form:Button">
                   <name>ИтогиВыключитьИспользованиеИтогов</name>
                   <id>205</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Выключить использование итогов</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1045,7 +1097,7 @@
                   </userVisible>
                   <skipOnInput>false</skipOnInput>
                   <extendedTooltip>
-                    <name>ИтогиВыключитьИспользованиеИтоговExtendedTooltip</name>
+                    <name>ИтогиВыключитьИспользованиеИтоговРасширеннаяПодсказка</name>
                     <id>356</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1080,7 +1132,7 @@
                   <value>Включение/выключение использования итогов</value>
                 </toolTip>
                 <extendedTooltip>
-                  <name>ГруппаИтогиExtendedTooltip</name>
+                  <name>ГруппаИтогиРасширеннаяПодсказка</name>
                   <id>354</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1105,6 +1157,10 @@
                 <items xsi:type="form:Button">
                   <name>ВключитьИспользованиеТекущихИтогов</name>
                   <id>206</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Включить использование текущих итогов</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1112,7 +1168,7 @@
                   </userVisible>
                   <skipOnInput>false</skipOnInput>
                   <extendedTooltip>
-                    <name>ВключитьИспользованиеТекущихИтоговExtendedTooltip</name>
+                    <name>ВключитьИспользованиеТекущихИтоговРасширеннаяПодсказка</name>
                     <id>358</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1136,6 +1192,10 @@
                 <items xsi:type="form:Button">
                   <name>ВыключитьИспользованиеТекущихИтогов</name>
                   <id>207</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Выключить использование текущих итогов</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1143,7 +1203,7 @@
                   </userVisible>
                   <skipOnInput>false</skipOnInput>
                   <extendedTooltip>
-                    <name>ВыключитьИспользованиеТекущихИтоговExtendedTooltip</name>
+                    <name>ВыключитьИспользованиеТекущихИтоговРасширеннаяПодсказка</name>
                     <id>359</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1178,7 +1238,7 @@
                   <value>Включение/выключение использования текущих итогов</value>
                 </toolTip>
                 <extendedTooltip>
-                  <name>ГруппаТекущиеИтогиExtendedTooltip</name>
+                  <name>ГруппаТекущиеИтогиРасширеннаяПодсказка</name>
                   <id>357</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1203,6 +1263,10 @@
                 <items xsi:type="form:Button">
                   <name>ВключитьРазделениеИтогов</name>
                   <id>295</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Включить разделение итогов</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1210,7 +1274,7 @@
                   </userVisible>
                   <skipOnInput>false</skipOnInput>
                   <extendedTooltip>
-                    <name>ВключитьРазделениеИтоговExtendedTooltip</name>
+                    <name>ВключитьРазделениеИтоговРасширеннаяПодсказка</name>
                     <id>361</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1234,6 +1298,10 @@
                 <items xsi:type="form:Button">
                   <name>ВыключитьРазделениеИтогов</name>
                   <id>296</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Выключить разделение итогов</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1241,7 +1309,7 @@
                   </userVisible>
                   <skipOnInput>false</skipOnInput>
                   <extendedTooltip>
-                    <name>ВыключитьРазделениеИтоговExtendedTooltip</name>
+                    <name>ВыключитьРазделениеИтоговРасширеннаяПодсказка</name>
                     <id>362</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1276,7 +1344,7 @@
                   <value>Включение/выключение разделения итогов</value>
                 </toolTip>
                 <extendedTooltip>
-                  <name>ГруппаРазделениеИтоговExtendedTooltip</name>
+                  <name>ГруппаРазделениеИтоговРасширеннаяПодсказка</name>
                   <id>360</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1298,6 +1366,10 @@
               <items xsi:type="form:Button">
                 <name>УстановитьПериодИтогов</name>
                 <id>45</id>
+                <title>
+                  <key>ru</key>
+                  <value>Установить период итогов...</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1305,7 +1377,7 @@
                 </userVisible>
                 <skipOnInput>false</skipOnInput>
                 <extendedTooltip>
-                  <name>УстановитьПериодИтоговExtendedTooltip</name>
+                  <name>УстановитьПериодИтоговРасширеннаяПодсказка</name>
                   <id>363</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1332,6 +1404,10 @@
                 <items xsi:type="form:Button">
                   <name>ПересчитатьИтоги</name>
                   <id>300</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Пересчитать итоги</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1339,7 +1415,7 @@
                   </userVisible>
                   <skipOnInput>false</skipOnInput>
                   <extendedTooltip>
-                    <name>ПересчитатьИтогиExtendedTooltip</name>
+                    <name>ПересчитатьИтогиРасширеннаяПодсказка</name>
                     <id>365</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1363,6 +1439,10 @@
                 <items xsi:type="form:Button">
                   <name>ПересчитатьТекущиеИтоги</name>
                   <id>301</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Пересчитать текущие итоги</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1370,7 +1450,7 @@
                   </userVisible>
                   <skipOnInput>false</skipOnInput>
                   <extendedTooltip>
-                    <name>ПересчитатьТекущиеИтогиExtendedTooltip</name>
+                    <name>ПересчитатьТекущиеИтогиРасширеннаяПодсказка</name>
                     <id>366</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1394,6 +1474,10 @@
                 <items xsi:type="form:Button">
                   <name>ПересчитатьИтогиЗаПериод</name>
                   <id>302</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Пересчитать итоги за период...</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1401,7 +1485,7 @@
                   </userVisible>
                   <skipOnInput>false</skipOnInput>
                   <extendedTooltip>
-                    <name>ПересчитатьИтогиЗаПериодExtendedTooltip</name>
+                    <name>ПересчитатьИтогиЗаПериодРасширеннаяПодсказка</name>
                     <id>367</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1436,7 +1520,7 @@
                   <value>Пересчет итогов</value>
                 </toolTip>
                 <extendedTooltip>
-                  <name>ГруппаПересчетExtendedTooltip</name>
+                  <name>ГруппаПересчетРасширеннаяПодсказка</name>
                   <id>364</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1465,7 +1549,7 @@
                 </userVisible>
                 <skipOnInput>false</skipOnInput>
                 <extendedTooltip>
-                  <name>НайтиExtendedTooltip</name>
+                  <name>НайтиРасширеннаяПодсказка</name>
                   <id>368</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1496,7 +1580,7 @@
                 </userVisible>
                 <skipOnInput>false</skipOnInput>
                 <extendedTooltip>
-                  <name>ОтменитьПоискExtendedTooltip</name>
+                  <name>ОтменитьПоискРасширеннаяПодсказка</name>
                   <id>369</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1527,7 +1611,7 @@
                 </userVisible>
                 <skipOnInput>false</skipOnInput>
                 <extendedTooltip>
-                  <name>ВыделитьВсеExtendedTooltip</name>
+                  <name>ВыделитьВсеРасширеннаяПодсказка</name>
                   <id>370</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1681,7 +1765,7 @@
               </extInfo>
             </searchControlAddition>
             <extendedTooltip>
-              <name>СписокИтоговExtendedTooltip</name>
+              <name>СписокИтоговРасширеннаяПодсказка</name>
               <id>371</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1701,6 +1785,10 @@
               <items xsi:type="form:Button">
                 <name>КонтекстноеМенюИтогиУстановитьПериодИтогов</name>
                 <id>307</id>
+                <title>
+                  <key>ru</key>
+                  <value>Установить период итогов...</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1708,7 +1796,7 @@
                 </userVisible>
                 <skipOnInput>false</skipOnInput>
                 <extendedTooltip>
-                  <name>КонтекстноеМенюИтогиУстановитьПериодИтоговExtendedTooltip</name>
+                  <name>КонтекстноеМенюИтогиУстановитьПериодИтоговРасширеннаяПодсказка</name>
                   <id>349</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1732,6 +1820,10 @@
               <items xsi:type="form:Button">
                 <name>КонтекстноеМенюИтогиПересчитатьИтоги</name>
                 <id>308</id>
+                <title>
+                  <key>ru</key>
+                  <value>Пересчитать итоги</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1739,7 +1831,7 @@
                 </userVisible>
                 <skipOnInput>false</skipOnInput>
                 <extendedTooltip>
-                  <name>КонтекстноеМенюИтогиПересчитатьИтогиExtendedTooltip</name>
+                  <name>КонтекстноеМенюИтогиПересчитатьИтогиРасширеннаяПодсказка</name>
                   <id>350</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1763,6 +1855,10 @@
               <items xsi:type="form:Button">
                 <name>КонтекстноеМенюИтогиПересчитатьТекущиеИтоги</name>
                 <id>309</id>
+                <title>
+                  <key>ru</key>
+                  <value>Пересчитать текущие итоги</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1770,7 +1866,7 @@
                 </userVisible>
                 <skipOnInput>false</skipOnInput>
                 <extendedTooltip>
-                  <name>КонтекстноеМенюИтогиПересчитатьТекущиеИтогиExtendedTooltip</name>
+                  <name>КонтекстноеМенюИтогиПересчитатьТекущиеИтогиРасширеннаяПодсказка</name>
                   <id>351</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1801,7 +1897,7 @@
                 </userVisible>
                 <skipOnInput>false</skipOnInput>
                 <extendedTooltip>
-                  <name>КонтекстноеМенюИтогиВыделитьВсеExtendedTooltip</name>
+                  <name>КонтекстноеМенюИтогиВыделитьВсеРасширеннаяПодсказка</name>
                   <id>352</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1853,6 +1949,10 @@
           <items xsi:type="form:FormField">
             <name>ПрерыватьПриОшибке</name>
             <id>264</id>
+            <title>
+              <key>ru</key>
+              <value>Прерывать обработку после ошибки с одним регистром</value>
+            </title>
             <enabled>true</enabled>
             <userVisible/>
             <dataPath xsi:type="form:DataPath">
@@ -1860,7 +1960,7 @@
             </dataPath>
             <titleLocation>Right</titleLocation>
             <extendedTooltip>
-              <name>ПрерыватьПриОшибкеExtendedTooltip</name>
+              <name>ПрерыватьПриОшибкеРасширеннаяПодсказка</name>
               <id>378</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1905,7 +2005,7 @@
             <value>Управление итогами</value>
           </toolTip>
           <extendedTooltip>
-            <name>ГруппаИтоговExtendedTooltip</name>
+            <name>ГруппаИтоговРасширеннаяПодсказка</name>
             <id>348</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1948,6 +2048,10 @@
             <items xsi:type="form:FormField">
               <name>АгрегатыПоРегистрамИспользованиеАгрегатов</name>
               <id>63</id>
+              <title>
+                <key>ru</key>
+                <value>Использование</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2003,6 +2107,10 @@
               <items xsi:type="form:FormField">
                 <name>АгрегатыПоРегистрамНаименование</name>
                 <id>59</id>
+                <title>
+                  <key>ru</key>
+                  <value>Регистр</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2053,6 +2161,10 @@
               <items xsi:type="form:FormField">
                 <name>АгрегатыПоРегистрамРежимАгрегатов</name>
                 <id>61</id>
+                <title>
+                  <key>ru</key>
+                  <value>Агрегаты/Итоги</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2146,6 +2258,10 @@
               <items xsi:type="form:FormField">
                 <name>АгрегатыПоРегистрамДатаПостроения</name>
                 <id>69</id>
+                <title>
+                  <key>ru</key>
+                  <value>Дата построения</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2197,6 +2313,10 @@
               <items xsi:type="form:FormField">
                 <name>АгрегатыПоРегистрамЭффект</name>
                 <id>91</id>
+                <title>
+                  <key>ru</key>
+                  <value>Эффект</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2284,6 +2404,10 @@
               <items xsi:type="form:FormField">
                 <name>АгрегатыПоРегистрамРазмер</name>
                 <id>89</id>
+                <title>
+                  <key>ru</key>
+                  <value>Размер</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2338,6 +2462,10 @@
               <items xsi:type="form:FormField">
                 <name>АгрегатыПоРегистрамОграничениеРазмера</name>
                 <id>107</id>
+                <title>
+                  <key>ru</key>
+                  <value>Ограничение размера</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2422,6 +2550,10 @@
               <items xsi:type="form:Button">
                 <name>АгрегатыКнопкаОбновитьИнформациюОбАгрегатах</name>
                 <id>109</id>
+                <title>
+                  <key>ru</key>
+                  <value>Обновить</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2456,6 +2588,10 @@
                 <items xsi:type="form:Button">
                   <name>АгрегатыКнопкаВключитьРежимАгрегатов</name>
                   <id>193</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Включить режим агрегатов</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2487,6 +2623,10 @@
                 <items xsi:type="form:Button">
                   <name>АгрегатыКнопкаВключитьРежимИтогов</name>
                   <id>195</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Включить режим итогов</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2529,7 +2669,7 @@
                   <value>Изменение режима использования регистра</value>
                 </toolTip>
                 <extendedTooltip>
-                  <name>ГруппаРежимExtendedTooltip</name>
+                  <name>ГруппаРежимРасширеннаяПодсказка</name>
                   <id>385</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2554,6 +2694,10 @@
                 <items xsi:type="form:Button">
                   <name>АгрегатыКнопкаВключитьИспользованиеАгрегатов</name>
                   <id>194</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Включить использование агрегатов</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2585,6 +2729,10 @@
                 <items xsi:type="form:Button">
                   <name>АгрегатыКнопкаОтключитьИспользованиеАгрегатов</name>
                   <id>196</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Выключить использование агрегатов</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2627,7 +2775,7 @@
                   <value>Изменение режима использования агрегатов</value>
                 </toolTip>
                 <extendedTooltip>
-                  <name>ГруппаИспользованиеExtendedTooltip</name>
+                  <name>ГруппаИспользованиеРасширеннаяПодсказка</name>
                   <id>388</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2649,6 +2797,10 @@
               <items xsi:type="form:Button">
                 <name>АгрегатыКнопкаПерестроить</name>
                 <id>198</id>
+                <title>
+                  <key>ru</key>
+                  <value>Перестроить ...</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2680,6 +2832,10 @@
               <items xsi:type="form:Button">
                 <name>АгрегатыКнопкаЗаполнитьАгрегатыПоРегистрам</name>
                 <id>200</id>
+                <title>
+                  <key>ru</key>
+                  <value>Обновить</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2711,6 +2867,10 @@
               <items xsi:type="form:Button">
                 <name>АгрегатыКнопкаОчиститьАгрегатыПоРегистрам</name>
                 <id>199</id>
+                <title>
+                  <key>ru</key>
+                  <value>Очистить</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2742,6 +2902,10 @@
               <items xsi:type="form:Button">
                 <name>АгрегатыКнопкаОптимальные</name>
                 <id>201</id>
+                <title>
+                  <key>ru</key>
+                  <value>Оптимальные ...</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2930,7 +3094,7 @@
               </extInfo>
             </searchControlAddition>
             <extendedTooltip>
-              <name>АгрегатыПоРегистрамExtendedTooltip</name>
+              <name>АгрегатыПоРегистрамРасширеннаяПодсказка</name>
               <id>396</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2950,6 +3114,10 @@
               <items xsi:type="form:Button">
                 <name>МенюАгрегатыВключитьРежимАгрегатов</name>
                 <id>313</id>
+                <title>
+                  <key>ru</key>
+                  <value>Включить режим агрегатов</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2981,6 +3149,10 @@
               <items xsi:type="form:Button">
                 <name>МенюАгрегатыПерестроитьАгрегаты</name>
                 <id>314</id>
+                <title>
+                  <key>ru</key>
+                  <value>Перестроить ...</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -3012,6 +3184,10 @@
               <items xsi:type="form:Button">
                 <name>МенюАгрегатыАгрегатыОптимальные</name>
                 <id>315</id>
+                <title>
+                  <key>ru</key>
+                  <value>Оптимальные ...</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -3139,6 +3315,10 @@
               <items xsi:type="form:FormField">
                 <name>СписокАгрегатовИспользование</name>
                 <id>97</id>
+                <title>
+                  <key>ru</key>
+                  <value>Использование</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -3181,6 +3361,10 @@
               <items xsi:type="form:FormField">
                 <name>СписокАгрегатовПериодичность</name>
                 <id>322</id>
+                <title>
+                  <key>ru</key>
+                  <value>Периодичность</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -3261,6 +3445,10 @@
             <items xsi:type="form:FormField">
               <name>СписокАгрегатовИзмерения</name>
               <id>95</id>
+              <title>
+                <key>ru</key>
+                <value>Измерения</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3311,6 +3499,10 @@
             <items xsi:type="form:FormField">
               <name>СписокАгрегатовНачалоПериода</name>
               <id>101</id>
+              <title>
+                <key>ru</key>
+                <value>Начало периода</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3361,6 +3553,10 @@
             <items xsi:type="form:FormField">
               <name>СписокАгрегатовКонецПериода</name>
               <id>99</id>
+              <title>
+                <key>ru</key>
+                <value>Конец периода</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3411,6 +3607,10 @@
             <items xsi:type="form:FormField">
               <name>СписокАгрегатовРазмер</name>
               <id>105</id>
+              <title>
+                <key>ru</key>
+                <value>Размер</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3586,7 +3786,7 @@
               </extInfo>
             </searchControlAddition>
             <extendedTooltip>
-              <name>СписокАгрегатовExtendedTooltip</name>
+              <name>СписокАгрегатовРасширеннаяПодсказка</name>
               <id>404</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -3644,7 +3844,7 @@
             <value>Управление агрегатами</value>
           </toolTip>
           <extendedTooltip>
-            <name>ГруппаАгрегатыExtendedTooltip</name>
+            <name>ГруппаАгрегатыРасширеннаяПодсказка</name>
             <id>379</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -3674,7 +3874,7 @@
           <value>Расширенные инструменты</value>
         </title>
         <extendedTooltip>
-          <name>РасширенныеИнструментыExtendedTooltip</name>
+          <name>РасширенныеИнструментыРасширеннаяПодсказка</name>
           <id>347</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3704,7 +3904,7 @@
         <value>Расширенная</value>
       </title>
       <extendedTooltip>
-        <name>РасширенныеВозможностиExtendedTooltip</name>
+        <name>РасширенныеВозможностиРасширеннаяПодсказка</name>
         <id>346</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -3734,7 +3934,7 @@
       <value>Операции</value>
     </title>
     <extendedTooltip>
-      <name>ОперацииExtendedTooltip</name>
+      <name>ОперацииРасширеннаяПодсказка</name>
       <id>330</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -3760,6 +3960,10 @@
     <items xsi:type="form:FormField">
       <name>ТекстГиперссылки</name>
       <id>326</id>
+      <title>
+        <key>ru</key>
+        <value>Текст гиперссылки</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -3820,7 +4024,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>СправкаExtendedTooltip</name>
+        <name>СправкаРасширеннаяПодсказка</name>
         <id>413</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -3852,7 +4056,7 @@
       <value>Подвал</value>
     </title>
     <extendedTooltip>
-      <name>ПодвалExtendedTooltip</name>
+      <name>ПодвалРасширеннаяПодсказка</name>
       <id>411</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -3900,6 +4104,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

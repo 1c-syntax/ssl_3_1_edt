@@ -1321,82 +1321,18 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
+          <readOnly>true</readOnly>
           <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
-            <handlers>
-              <event>StartChoice</event>
-              <name>ВладелецАдресРегистрацииНачалоВыбора</name>
-            </handlers>
-            <handlers>
-              <event>Clearing</event>
-              <name>ВладелецАдресРегистрацииОчистка</name>
-            </handlers>
-            <handlers>
-              <event>ChoiceProcessing</event>
-              <name>ВладелецАдресРегистрацииОбработкаВыбора</name>
-            </handlers>
             <width>65</width>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
-            <choiceButton>true</choiceButton>
-            <autoMarkIncomplete>true</autoMarkIncomplete>
+            <autoMarkIncomplete>false</autoMarkIncomplete>
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
-          </extInfo>
-        </items>
-        <items xsi:type="form:Decoration">
-          <name>ВладелецАдресРегистрацииПредупреждение</name>
-          <id>74</id>
-          <title>
-            <key>ru</key>
-            <value>Адрес регистрации (предупреждение)</value>
-          </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>ВладелецАдресРегистрацииПредупреждениеРасширеннаяПодсказка</name>
-            <id>76</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>ВладелецАдресРегистрацииПредупреждениеКонтекстноеМеню</name>
-            <id>75</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <autoMaxWidth>true</autoMaxWidth>
-          <height>1</height>
-          <autoMaxHeight>true</autoMaxHeight>
-          <skipOnInput>true</skipOnInput>
-          <extInfo xsi:type="form:PictureDecorationExtInfo">
-            <handlers>
-              <event>Click</event>
-              <name>АдресПредупреждениеНажатие</name>
-            </handlers>
-            <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Предупреждение</picture>
-            </picture>
-            <hyperlink>true</hyperlink>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -1671,6 +1607,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОК</name>
       <id>12</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1702,6 +1642,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОтмена</name>
       <id>14</id>
+      <title>
+        <key>ru</key>
+        <value>Отмена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1753,6 +1697,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -1771,7 +1716,7 @@
     <valueType>
       <types>String</types>
       <stringQualifiers>
-        <length>64</length>
+        <length>255</length>
       </stringQualifiers>
     </valueType>
     <view>
@@ -1791,7 +1736,7 @@
     <valueType>
       <types>String</types>
       <stringQualifiers>
-        <length>64</length>
+        <length>255</length>
       </stringQualifiers>
     </valueType>
     <view>
@@ -1811,7 +1756,7 @@
     <valueType>
       <types>String</types>
       <stringQualifiers>
-        <length>64</length>
+        <length>255</length>
       </stringQualifiers>
     </valueType>
     <view>
@@ -1957,7 +1902,7 @@
     <valueType>
       <types>String</types>
       <stringQualifiers>
-        <length>64</length>
+        <length>255</length>
       </stringQualifiers>
     </valueType>
     <view>
@@ -1977,7 +1922,7 @@
     <valueType>
       <types>String</types>
       <stringQualifiers>
-        <length>64</length>
+        <length>255</length>
       </stringQualifiers>
     </valueType>
     <view>
@@ -2097,7 +2042,7 @@
     <valueType>
       <types>String</types>
       <stringQualifiers>
-        <length>128</length>
+        <length>255</length>
       </stringQualifiers>
     </valueType>
     <view>

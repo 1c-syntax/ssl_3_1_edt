@@ -31,7 +31,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>7</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -237,7 +237,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>6</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -293,6 +293,7 @@
       <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
       <allowRootChoice>true</allowRootChoice>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -364,6 +365,7 @@
   </handlers>
   <excludedCommands>Create</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

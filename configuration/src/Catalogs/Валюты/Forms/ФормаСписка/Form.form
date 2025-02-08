@@ -45,6 +45,10 @@
       <items xsi:type="form:Button">
         <name>ФормаПодборИзКлассификатора</name>
         <id>44</id>
+        <title>
+          <key>ru</key>
+          <value>По классификатору...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -172,13 +176,17 @@
       <items xsi:type="form:Button">
         <name>ФормаЗагрузитьКурсыВалют</name>
         <id>43</id>
+        <title>
+          <key>ru</key>
+          <value>Загрузить курсы валют...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаЗагрузитьКурсыВалютExtendedTooltip</name>
+          <name>ФормаЗагрузитьКурсыВалютРасширеннаяПодсказка</name>
           <id>50</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -255,6 +263,83 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
+    <items xsi:type="form:Addition">
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>СтрокаПоиска</name>
+      <id>89</id>
+      <extendedTooltip>
+        <name>СтрокаПоискаРасширеннаяПодсказка</name>
+        <id>91</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СтрокаПоискаКонтекстноеМеню</name>
+        <id>90</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <source>ВалютыСтрокаПоиска</source>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Addition">
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>УправлениеПоиском</name>
+      <id>92</id>
+      <extendedTooltip>
+        <name>УправлениеПоискомРасширеннаяПодсказка</name>
+        <id>94</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>УправлениеПоискомКонтекстноеМеню</name>
+        <id>93</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>SearchControlAddition</type>
+      <source>ВалютыУправлениеПоиском</source>
+      <extInfo xsi:type="form:SearchControlAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -314,7 +399,7 @@
         <segments>Список.НаименованиеПолное</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НаименованиеПолноеExtendedTooltip</name>
+        <name>НаименованиеПолноеРасширеннаяПодсказка</name>
         <id>55</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -368,7 +453,7 @@
         <segments>Список.Код</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КодExtendedTooltip</name>
+        <name>КодРасширеннаяПодсказка</name>
         <id>53</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -422,7 +507,7 @@
         <segments>Список.Наименование</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>54</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -477,7 +562,7 @@
         <segments>Список.Курс</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КурсExtendedTooltip</name>
+        <name>КурсРасширеннаяПодсказка</name>
         <id>56</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -741,7 +826,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ВалютыExtendedTooltip</name>
+      <name>ВалютыРасширеннаяПодсказка</name>
       <id>52</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -799,6 +884,7 @@
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
       <userSettingsGroup>ГруппаПользовательскихНастроек</userSettingsGroup>
     </extInfo>
   </items>
@@ -824,6 +910,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

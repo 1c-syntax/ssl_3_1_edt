@@ -16,7 +16,7 @@
       <segments>Запись.ВидТранспортаСообщенийОбменаПоУмолчанию</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ВидТранспортаСообщенийОбменаПоУмолчаниюExtendedTooltip</name>
+      <name>ВидТранспортаСообщенийОбменаПоУмолчаниюРасширеннаяПодсказка</name>
       <id>104</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -75,7 +75,7 @@
           <segments>Запись.FILEКаталогОбменаИнформацией</segments>
         </dataPath>
         <extendedTooltip>
-          <name>FILEКаталогОбменаИнформациейExtendedTooltip</name>
+          <name>FILEКаталогОбменаИнформациейРасширеннаяПодсказка</name>
           <id>107</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -126,6 +126,10 @@
       <items xsi:type="form:Button">
         <name>ПроверитьПодключениеFILE</name>
         <id>42</id>
+        <title>
+          <key>ru</key>
+          <value>Проверить подключение</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -133,7 +137,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ПроверитьПодключениеFILEExtendedTooltip</name>
+          <name>ПроверитьПодключениеFILEРасширеннаяПодсказка</name>
           <id>108</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -171,7 +175,7 @@
           </dataPath>
           <titleLocation>Right</titleLocation>
           <extendedTooltip>
-            <name>FILEСжиматьФайлИсходящегоСообщенияExtendedTooltip</name>
+            <name>FILEСжиматьФайлИсходящегоСообщенияРасширеннаяПодсказка</name>
             <id>110</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -205,6 +209,10 @@
         <items xsi:type="form:FormField">
           <name>ПарольАрхиваСообщенияОбмена1</name>
           <id>101</id>
+          <title>
+            <key>ru</key>
+            <value>Пароль архива сообщения обмена</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -218,7 +226,7 @@
             <name>ПарольАрхиваСообщенияОбмена1ПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ПарольАрхиваСообщенияОбмена1ExtendedTooltip</name>
+            <name>ПарольАрхиваСообщенияОбмена1РасширеннаяПодсказка</name>
             <id>111</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -264,8 +272,12 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа</value>
+        </title>
         <extendedTooltip>
-          <name>Группа1ExtendedTooltip</name>
+          <name>Группа1РасширеннаяПодсказка</name>
           <id>109</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -299,7 +311,7 @@
         <value>Обмен через сетевой каталог</value>
       </title>
       <extendedTooltip>
-        <name>НастройкиТранспортаFILEExtendedTooltip</name>
+        <name>НастройкиТранспортаFILEРасширеннаяПодсказка</name>
         <id>106</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -337,7 +349,7 @@
             <segments>Запись.FTPСоединениеПуть</segments>
           </dataPath>
           <extendedTooltip>
-            <name>FTPСоединениеПутьExtendedTooltip</name>
+            <name>FTPСоединениеПутьРасширеннаяПодсказка</name>
             <id>114</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -387,7 +399,7 @@
             <segments>Запись.FTPСоединениеПорт</segments>
           </dataPath>
           <extendedTooltip>
-            <name>FTPСоединениеПортExtendedTooltip</name>
+            <name>FTPСоединениеПортРасширеннаяПодсказка</name>
             <id>115</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -439,7 +451,7 @@
           <value>Сервер порт</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаСерверПортExtendedTooltip</name>
+          <name>ГруппаСерверПортРасширеннаяПодсказка</name>
           <id>113</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -476,7 +488,7 @@
             <segments>Запись.FTPСоединениеПользователь</segments>
           </dataPath>
           <extendedTooltip>
-            <name>FTPСоединениеПользовательExtendedTooltip</name>
+            <name>FTPСоединениеПользовательРасширеннаяПодсказка</name>
             <id>117</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -517,6 +529,10 @@
         <items xsi:type="form:FormField">
           <name>FTPСоединениеПароль</name>
           <id>22</id>
+          <title>
+            <key>ru</key>
+            <value>Пароль</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -530,7 +546,7 @@
             <name>FTPСоединениеПарольПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>FTPСоединениеПарольExtendedTooltip</name>
+            <name>FTPСоединениеПарольРасширеннаяПодсказка</name>
             <id>118</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -579,7 +595,7 @@
           <value>Пользователь пароль</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаПользовательПарольExtendedTooltip</name>
+          <name>ГруппаПользовательПарольРасширеннаяПодсказка</name>
           <id>116</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -616,7 +632,7 @@
             <segments>Запись.FTPСоединениеМаксимальныйДопустимыйРазмерСообщения</segments>
           </dataPath>
           <extendedTooltip>
-            <name>FTPСоединениеМаксимальныйДопустимыйРазмерСообщенияExtendedTooltip</name>
+            <name>FTPСоединениеМаксимальныйДопустимыйРазмерСообщенияРасширеннаяПодсказка</name>
             <id>119</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -704,6 +720,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа</value>
+        </title>
         <extendedTooltip>
           <name>Группа2РасширеннаяПодсказка</name>
           <id>126</id>
@@ -740,7 +760,7 @@
         </dataPath>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
-          <name>FTPСоединениеПассивноеСоединениеExtendedTooltip</name>
+          <name>FTPСоединениеПассивноеСоединениеРасширеннаяПодсказка</name>
           <id>120</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -774,6 +794,10 @@
       <items xsi:type="form:Button">
         <name>ПроверитьПодключениеFTP</name>
         <id>41</id>
+        <title>
+          <key>ru</key>
+          <value>Проверить подключение</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -781,7 +805,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ПроверитьПодключениеFTPExtendedTooltip</name>
+          <name>ПроверитьПодключениеFTPРасширеннаяПодсказка</name>
           <id>121</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -819,7 +843,7 @@
           </dataPath>
           <titleLocation>Right</titleLocation>
           <extendedTooltip>
-            <name>FTPСжиматьФайлИсходящегоСообщенияExtendedTooltip</name>
+            <name>FTPСжиматьФайлИсходящегоСообщенияРасширеннаяПодсказка</name>
             <id>123</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -853,6 +877,10 @@
         <items xsi:type="form:FormField">
           <name>ПарольАрхиваСообщенияОбмена</name>
           <id>34</id>
+          <title>
+            <key>ru</key>
+            <value>Пароль архива сообщения обмена</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -866,7 +894,7 @@
             <name>ПарольАрхиваСообщенияОбменаПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ПарольАрхиваСообщенияОбменаExtendedTooltip</name>
+            <name>ПарольАрхиваСообщенияОбменаРасширеннаяПодсказка</name>
             <id>124</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -912,8 +940,12 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа</value>
+        </title>
         <extendedTooltip>
-          <name>Группа3ExtendedTooltip</name>
+          <name>Группа3РасширеннаяПодсказка</name>
           <id>122</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -951,7 +983,7 @@
         <value>Настройки транспорта FILE</value>
       </toolTip>
       <extendedTooltip>
-        <name>НастройкиТранспортаFTPExtendedTooltip</name>
+        <name>НастройкиТранспортаFTPРасширеннаяПодсказка</name>
         <id>112</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -981,7 +1013,7 @@
       <value>Страницы видов транспорта</value>
     </title>
     <extendedTooltip>
-      <name>СтраницыВидовТранспортаExtendedTooltip</name>
+      <name>СтраницыВидовТранспортаРасширеннаяПодсказка</name>
       <id>105</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1019,6 +1051,7 @@
   <excludedCommands>Copy</excludedCommands>
   <excludedCommands>Delete</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

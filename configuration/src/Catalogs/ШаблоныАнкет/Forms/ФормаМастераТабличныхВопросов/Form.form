@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>Формулировка</name>
     <id>141</id>
+    <title>
+      <key>ru</key>
+      <value>Формулировка</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -20,7 +24,7 @@
       <name>ФормулировкаПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>ФормулировкаExtendedTooltip</name>
+      <name>ФормулировкаРасширеннаяПодсказка</name>
       <id>147</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -76,6 +80,10 @@
         <items xsi:type="form:FormField">
           <name>ТипТабличногоВопроса</name>
           <id>3</id>
+          <title>
+            <key>ru</key>
+            <value>Тип табличного вопроса</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -90,7 +98,7 @@
             <name>ТипТабличногоВопросаПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ТипТабличногоВопросаExtendedTooltip</name>
+            <name>ТипТабличногоВопросаРасширеннаяПодсказка</name>
             <id>151</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -143,7 +151,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>КартинкаСоставнойExtendedTooltip</name>
+                <name>КартинкаСоставнойРасширеннаяПодсказка</name>
                 <id>154</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -186,7 +194,7 @@
               <value>Страница картинка составной</value>
             </title>
             <extendedTooltip>
-              <name>СтраницаКартинкаСоставнойExtendedTooltip</name>
+              <name>СтраницаКартинкаСоставнойРасширеннаяПодсказка</name>
               <id>153</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -224,7 +232,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>КартинкаОтветыВСтрокахExtendedTooltip</name>
+                <name>КартинкаОтветыВСтрокахРасширеннаяПодсказка</name>
                 <id>156</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -269,7 +277,7 @@
               <value>Страница картинка ответы в строках</value>
             </title>
             <extendedTooltip>
-              <name>СтраницаКартинкаОтветыВСтрокахExtendedTooltip</name>
+              <name>СтраницаКартинкаОтветыВСтрокахРасширеннаяПодсказка</name>
               <id>155</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -305,7 +313,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>КартинкаОтветыВКолонкахExtendedTooltip</name>
+                <name>КартинкаОтветыВКолонкахРасширеннаяПодсказка</name>
                 <id>158</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -350,7 +358,7 @@
               <value>Страница картинка ответы в колонках</value>
             </title>
             <extendedTooltip>
-              <name>СтраницаКартинкаОтветыВКолонкахExtendedTooltip</name>
+              <name>СтраницаКартинкаОтветыВКолонкахРасширеннаяПодсказка</name>
               <id>157</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -386,7 +394,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>КартинкаОтветыВСтрокахИКолонкахExtendedTooltip</name>
+                <name>КартинкаОтветыВСтрокахИКолонкахРасширеннаяПодсказка</name>
                 <id>160</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -431,7 +439,7 @@
               <value>Страница картинка ответы в строках и колонках</value>
             </title>
             <extendedTooltip>
-              <name>СтраницаКартинкаОтветыВСтрокахИКолонкахExtendedTooltip</name>
+              <name>СтраницаКартинкаОтветыВСтрокахИКолонкахРасширеннаяПодсказка</name>
               <id>159</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -467,7 +475,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>КартинкаПустаяExtendedTooltip</name>
+                <name>КартинкаПустаяРасширеннаяПодсказка</name>
                 <id>162</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -506,7 +514,7 @@
               <value>Страница картинка пустая</value>
             </title>
             <extendedTooltip>
-              <name>СтраницаКартинкаПустаяExtendedTooltip</name>
+              <name>СтраницаКартинкаПустаяРасширеннаяПодсказка</name>
               <id>161</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -536,7 +544,7 @@
             <value>Страницы тип табличного вопроса картинки</value>
           </title>
           <extendedTooltip>
-            <name>СтраницыТипТабличногоВопросаКартинкиExtendedTooltip</name>
+            <name>СтраницыТипТабличногоВопросаКартинкиРасширеннаяПодсказка</name>
             <id>152</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -565,7 +573,7 @@
           <value>Страница тип табличного вопроса</value>
         </title>
         <extendedTooltip>
-          <name>СтраницаТипТабличногоВопросаExtendedTooltip</name>
+          <name>СтраницаТипТабличногоВопросаРасширеннаяПодсказка</name>
           <id>150</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -597,6 +605,10 @@
             <items xsi:type="form:FormField">
               <name>ВопросКолонкаОтветыСтрокахИКолонках</name>
               <id>14</id>
+              <title>
+                <key>ru</key>
+                <value>Представление вопроса для колонок</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -607,7 +619,7 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
-                <name>ВопросКолонкаОтветыСтрокахИКолонкахExtendedTooltip</name>
+                <name>ВопросКолонкаОтветыСтрокахИКолонкахРасширеннаяПодсказка</name>
                 <id>166</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -661,6 +673,10 @@
               <items xsi:type="form:FormField">
                 <name>ОтветыКолонкиОтветыВСтрокахИКолонкахОтвет</name>
                 <id>117</id>
+                <title>
+                  <key>ru</key>
+                  <value>Ответ</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -670,7 +686,7 @@
                   <segments>Ответы.Ответ</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ОтветыКолонкиОтветыВСтрокахИКолонкахОтветExtendedTooltip</name>
+                  <name>ОтветыКолонкиОтветыВСтрокахИКолонкахОтветРасширеннаяПодсказка</name>
                   <id>169</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -723,6 +739,10 @@
                 <items xsi:type="form:Button">
                   <name>ЗаполнитьКолонкиВариантыОтветовОтветыСтрокахИКолонках</name>
                   <id>145</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Заполнить вариантами ответов</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -730,7 +750,7 @@
                   </userVisible>
                   <skipOnInput>false</skipOnInput>
                   <extendedTooltip>
-                    <name>ЗаполнитьКолонкиВариантыОтветовОтветыСтрокахИКолонкахExtendedTooltip</name>
+                    <name>ЗаполнитьКолонкиВариантыОтветовОтветыСтрокахИКолонкахРасширеннаяПодсказка</name>
                     <id>167</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -885,7 +905,7 @@
                 </extInfo>
               </searchControlAddition>
               <extendedTooltip>
-                <name>ОтветыКолонкиОтветыВСтрокахИКолонкахExtendedTooltip</name>
+                <name>ОтветыКолонкиОтветыВСтрокахИКолонкахРасширеннаяПодсказка</name>
                 <id>168</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -937,7 +957,7 @@
               <value>Состав колонок ответы в строках и колонках</value>
             </title>
             <extendedTooltip>
-              <name>ГруппаСоставКолонокОтветыВСтрокахИКолонкахExtendedTooltip</name>
+              <name>ГруппаСоставКолонокОтветыВСтрокахИКолонкахРасширеннаяПодсказка</name>
               <id>165</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -980,7 +1000,7 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
-                <name>ВопросСтрокаОтветыВСтрокахИКолонкахExtendedTooltip</name>
+                <name>ВопросСтрокаОтветыВСтрокахИКолонкахРасширеннаяПодсказка</name>
                 <id>171</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1034,6 +1054,10 @@
               <items xsi:type="form:FormField">
                 <name>ОтветыСтрокиОтветыВСтрокахИКолонкахОтвет</name>
                 <id>121</id>
+                <title>
+                  <key>ru</key>
+                  <value>Ответ</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1043,7 +1067,7 @@
                   <segments>Ответы.Ответ</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ОтветыСтрокиОтветыВСтрокахИКолонкахОтветExtendedTooltip</name>
+                  <name>ОтветыСтрокиОтветыВСтрокахИКолонкахОтветРасширеннаяПодсказка</name>
                   <id>174</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1096,6 +1120,10 @@
                 <items xsi:type="form:Button">
                   <name>ЗаполнитьСтрокиВариантыОтветовОтветыСтрокиИКолонки</name>
                   <id>146</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Заполнить вариантами ответов</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1103,7 +1131,7 @@
                   </userVisible>
                   <skipOnInput>false</skipOnInput>
                   <extendedTooltip>
-                    <name>ЗаполнитьСтрокиВариантыОтветовОтветыСтрокиИКолонкиExtendedTooltip</name>
+                    <name>ЗаполнитьСтрокиВариантыОтветовОтветыСтрокиИКолонкиРасширеннаяПодсказка</name>
                     <id>172</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1258,7 +1286,7 @@
                 </extInfo>
               </searchControlAddition>
               <extendedTooltip>
-                <name>ОтветыСтрокиОтветыВСтрокахИКолонкахExtendedTooltip</name>
+                <name>ОтветыСтрокиОтветыВСтрокахИКолонкахРасширеннаяПодсказка</name>
                 <id>173</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1310,7 +1338,7 @@
               <value>Состав строк ответы в строках и колонках</value>
             </title>
             <extendedTooltip>
-              <name>ГруппаСоставСтрокОтветыВСтрокахИКолонкахExtendedTooltip</name>
+              <name>ГруппаСоставСтрокОтветыВСтрокахИКолонкахРасширеннаяПодсказка</name>
               <id>170</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1343,7 +1371,7 @@
             <value>Общая ответы в строках и колонках</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаОбщаяОтветыВСтрокахИКолонкахExtendedTooltip</name>
+            <name>ГруппаОбщаяОтветыВСтрокахИКолонкахРасширеннаяПодсказка</name>
             <id>164</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1376,7 +1404,7 @@
           <value>Страница предопределенные ответы в строках и колонках</value>
         </title>
         <extendedTooltip>
-          <name>СтраницаПредопределенныеОтветыВСтрокахИКолонкахExtendedTooltip</name>
+          <name>СтраницаПредопределенныеОтветыВСтрокахИКолонкахРасширеннаяПодсказка</name>
           <id>163</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1439,7 +1467,7 @@
                 <name>ВопросыПриИзменении</name>
               </handlers>
               <extendedTooltip>
-                <name>ВопросыВопросExtendedTooltip</name>
+                <name>ВопросыВопросРасширеннаяПодсказка</name>
                 <id>178</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1616,7 +1644,7 @@
               </extInfo>
             </searchControlAddition>
             <extendedTooltip>
-              <name>ВопросыExtendedTooltip</name>
+              <name>ВопросыРасширеннаяПодсказка</name>
               <id>177</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1671,7 +1699,7 @@
             <value>Вопросы</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаВопросыExtendedTooltip</name>
+            <name>ГруппаВопросыРасширеннаяПодсказка</name>
             <id>176</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1704,7 +1732,7 @@
           <value>Страница вопросы</value>
         </title>
         <extendedTooltip>
-          <name>СтраницаВопросыExtendedTooltip</name>
+          <name>СтраницаВопросыРасширеннаяПодсказка</name>
           <id>175</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1733,6 +1761,10 @@
           <items xsi:type="form:FormField">
             <name>ВопросКолонкаОтветыВКолонках</name>
             <id>40</id>
+            <title>
+              <key>ru</key>
+              <value>Представление вопроса для колонок</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1743,7 +1775,7 @@
             </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
-              <name>ВопросКолонкаОтветыВКолонкахExtendedTooltip</name>
+              <name>ВопросКолонкаОтветыВКолонкахРасширеннаяПодсказка</name>
               <id>181</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1797,6 +1829,10 @@
             <items xsi:type="form:FormField">
               <name>ОтветыКолонкиОтветыВКолонкахОтвет</name>
               <id>113</id>
+              <title>
+                <key>ru</key>
+                <value>Ответ</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1806,7 +1842,7 @@
                 <segments>Ответы.Ответ</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ОтветыКолонкиОтветыВКолонкахОтветExtendedTooltip</name>
+                <name>ОтветыКолонкиОтветыВКолонкахОтветРасширеннаяПодсказка</name>
                 <id>184</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1859,6 +1895,10 @@
               <items xsi:type="form:Button">
                 <name>ЗаполнитьВариантыОтветовОтветыКолонки</name>
                 <id>144</id>
+                <title>
+                  <key>ru</key>
+                  <value>Заполнить вариантами ответов</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1866,7 +1906,7 @@
                 </userVisible>
                 <skipOnInput>false</skipOnInput>
                 <extendedTooltip>
-                  <name>ЗаполнитьВариантыОтветовОтветыКолонкиExtendedTooltip</name>
+                  <name>ЗаполнитьВариантыОтветовОтветыКолонкиРасширеннаяПодсказка</name>
                   <id>182</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2021,7 +2061,7 @@
               </extInfo>
             </searchControlAddition>
             <extendedTooltip>
-              <name>ОтветыКолонкиОтветыВКолонкахExtendedTooltip</name>
+              <name>ОтветыКолонкиОтветыВКолонкахРасширеннаяПодсказка</name>
               <id>183</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2066,6 +2106,10 @@
           <items xsi:type="form:FormField">
             <name>ВопросДляКолонок</name>
             <id>125</id>
+            <title>
+              <key>ru</key>
+              <value>Вопрос для колонок</value>
+            </title>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
@@ -2074,7 +2118,7 @@
               <segments>ВопросДляКолонок</segments>
             </dataPath>
             <extendedTooltip>
-              <name>ВопросДляКолонокExtendedTooltip</name>
+              <name>ВопросДляКолонокРасширеннаяПодсказка</name>
               <id>185</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2122,7 +2166,7 @@
             <value>Состав колонок ответы в колонках</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаСоставКолонокОтветыВКолонкахExtendedTooltip</name>
+            <name>ГруппаСоставКолонокОтветыВКолонкахРасширеннаяПодсказка</name>
             <id>180</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2155,7 +2199,7 @@
           <value>Страница предопределенные ответы в колонках</value>
         </title>
         <extendedTooltip>
-          <name>СтраницаПредопределенныеОтветыВКолонкахExtendedTooltip</name>
+          <name>СтраницаПредопределенныеОтветыВКолонкахРасширеннаяПодсказка</name>
           <id>179</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2184,6 +2228,10 @@
           <items xsi:type="form:FormField">
             <name>ВопросСтрокаОтветыВСтроках</name>
             <id>59</id>
+            <title>
+              <key>ru</key>
+              <value>Представление вопроса для строк</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2194,7 +2242,7 @@
             </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
-              <name>ВопросСтрокаОтветыВСтрокахExtendedTooltip</name>
+              <name>ВопросСтрокаОтветыВСтрокахРасширеннаяПодсказка</name>
               <id>188</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2248,6 +2296,10 @@
             <items xsi:type="form:FormField">
               <name>ОтветыСтрокиОтветыВСтрокахОтвет</name>
               <id>107</id>
+              <title>
+                <key>ru</key>
+                <value>Ответ</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2257,7 +2309,7 @@
                 <segments>Ответы.Ответ</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ОтветыСтрокиОтветыВСтрокахОтветExtendedTooltip</name>
+                <name>ОтветыСтрокиОтветыВСтрокахОтветРасширеннаяПодсказка</name>
                 <id>191</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -2314,6 +2366,10 @@
               <items xsi:type="form:Button">
                 <name>ЗаполнитьВариантыОтветовОтветыСтроки</name>
                 <id>143</id>
+                <title>
+                  <key>ru</key>
+                  <value>Заполнить вариантами ответов</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2321,7 +2377,7 @@
                 </userVisible>
                 <skipOnInput>false</skipOnInput>
                 <extendedTooltip>
-                  <name>ЗаполнитьВариантыОтветовОтветыСтрокиExtendedTooltip</name>
+                  <name>ЗаполнитьВариантыОтветовОтветыСтрокиРасширеннаяПодсказка</name>
                   <id>189</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2476,7 +2532,7 @@
               </extInfo>
             </searchControlAddition>
             <extendedTooltip>
-              <name>ОтветыСтрокиОтветыВСтрокахExtendedTooltip</name>
+              <name>ОтветыСтрокиОтветыВСтрокахРасширеннаяПодсказка</name>
               <id>190</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2523,6 +2579,10 @@
           <items xsi:type="form:FormField">
             <name>ВопросДляСтрок</name>
             <id>123</id>
+            <title>
+              <key>ru</key>
+              <value>Вопрос для строк</value>
+            </title>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
@@ -2531,7 +2591,7 @@
               <segments>ВопросДляСтрок</segments>
             </dataPath>
             <extendedTooltip>
-              <name>ВопросДляСтрокExtendedTooltip</name>
+              <name>ВопросДляСтрокРасширеннаяПодсказка</name>
               <id>192</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2579,7 +2639,7 @@
             <value>Состав строк ответы в строках</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаСоставСтрокОтветыВСтрокахExtendedTooltip</name>
+            <name>ГруппаСоставСтрокОтветыВСтрокахРасширеннаяПодсказка</name>
             <id>187</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2612,7 +2672,7 @@
           <value>Состав строк:</value>
         </title>
         <extendedTooltip>
-          <name>СтраницаПредопределенныеОтветыВСтрокахExtendedTooltip</name>
+          <name>СтраницаПредопределенныеОтветыВСтрокахРасширеннаяПодсказка</name>
           <id>186</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2781,7 +2841,7 @@
             </extInfo>
           </searchControlAddition>
           <extendedTooltip>
-            <name>РезультирующаяТаблицаExtendedTooltip</name>
+            <name>РезультирующаяТаблицаРасширеннаяПодсказка</name>
             <id>194</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2838,7 +2898,7 @@
           <value>Страница результирующая таблица</value>
         </title>
         <extendedTooltip>
-          <name>СтраницаРезультирующаяТаблицаExtendedTooltip</name>
+          <name>СтраницаРезультирующаяТаблицаРасширеннаяПодсказка</name>
           <id>193</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2868,7 +2928,7 @@
         <value>Страницы</value>
       </title>
       <extendedTooltip>
-        <name>СтраницыExtendedTooltip</name>
+        <name>СтраницыРасширеннаяПодсказка</name>
         <id>149</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2928,6 +2988,10 @@
     <items xsi:type="form:FormField">
       <name>СпособОтображенияПодсказки</name>
       <id>266</id>
+      <title>
+        <key>ru</key>
+        <value>Способ отображения подсказки</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -2979,6 +3043,10 @@
     <items xsi:type="form:FormField">
       <name>Подсказка</name>
       <id>269</id>
+      <title>
+        <key>ru</key>
+        <value>Подсказка</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -3064,6 +3132,10 @@
   <items xsi:type="form:FormField">
     <name>ИнформацияПодвал</name>
     <id>130</id>
+    <title>
+      <key>ru</key>
+      <value>Информация подвал</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -3074,7 +3146,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>ИнформацияПодвалExtendedTooltip</name>
+      <name>ИнформацияПодвалРасширеннаяПодсказка</name>
       <id>195</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -3125,7 +3197,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>КнопкаНазадExtendedTooltip</name>
+        <name>КнопкаНазадРасширеннаяПодсказка</name>
         <id>199</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -3167,7 +3239,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>КнопкаВпередExtendedTooltip</name>
+          <name>КнопкаВпередРасширеннаяПодсказка</name>
           <id>200</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3300,7 +3372,7 @@
     </title>
     <verticalStretch>false</verticalStretch>
     <extendedTooltip>
-      <name>ГруппаКнопкиExtendedTooltip</name>
+      <name>ГруппаКнопкиРасширеннаяПодсказка</name>
       <id>196</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -3358,6 +3430,7 @@
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

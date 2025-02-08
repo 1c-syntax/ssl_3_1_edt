@@ -328,7 +328,7 @@
 	<line width="1" gap="false">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">None</v8ui:style>
 	</line>
-	<line width="3" gap="false">
+	<line width="1" gap="false">
 		<v8ui:style xsi:type="v8ui:SpreadsheetDocumentCellLineType">Solid</v8ui:style>
 	</line>
 	<font faceName="Arial" height="6" bold="false" italic="false" underline="false" strikeout="false" kind="Absolute" scale="100"/>
@@ -382,6 +382,8 @@
 		<width>72</width>
 	</format>
 	<format>
+		<leftBorder>1</leftBorder>
+		<topBorder>1</topBorder>
 		<width>72</width>
 		<protection>true</protection>
 	</format>

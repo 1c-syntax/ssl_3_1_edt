@@ -51,7 +51,7 @@
           <skipOnInput>false</skipOnInput>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Вопрос32</picture>
+              <picture>StdPicture.DialogQuestion</picture>
             </picture>
           </extInfo>
         </items>
@@ -143,6 +143,10 @@
       <items xsi:type="form:Button">
         <name>ПодключитьИнтернетПоддержку</name>
         <id>22</id>
+        <title>
+          <key>ru</key>
+          <value>Подключить Интернет-поддержку</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -325,132 +329,6 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
-      <name>Ошибка</name>
-      <id>42</id>
-      <items xsi:type="form:Decoration">
-        <name>Ошибка32</name>
-        <id>47</id>
-        <title>
-          <key>ru</key>
-          <value>Ошибка32</value>
-        </title>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>Ошибка32РасширеннаяПодсказка</name>
-          <id>49</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>Ошибка32КонтекстноеМеню</name>
-          <id>48</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:PictureDecorationExtInfo">
-          <picture xsi:type="core:PictureRef">
-            <picture>CommonPicture.Ошибка32</picture>
-          </picture>
-        </extInfo>
-      </items>
-      <items xsi:type="form:FormField">
-        <name>КраткоеПредставлениеОшибки</name>
-        <id>44</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>КраткоеПредставлениеОшибки</segments>
-        </dataPath>
-        <titleLocation>None</titleLocation>
-        <extendedTooltip>
-          <name>КраткоеПредставлениеОшибкиРасширеннаяПодсказка</name>
-          <id>46</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>КраткоеПредставлениеОшибкиКонтекстноеМеню</name>
-          <id>45</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>LabelField</type>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:LabelFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
-          <height>2</height>
-          <autoMaxHeight>true</autoMaxHeight>
-        </extInfo>
-      </items>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <title>
-        <key>ru</key>
-        <value>Ошибка</value>
-      </title>
-      <extendedTooltip>
-        <name>ОшибкаРасширеннаяПодсказка</name>
-        <id>43</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <type>Page</type>
-      <extInfo xsi:type="form:PageGroupExtInfo">
-        <group>AlwaysHorizontal</group>
-        <showTitle>true</showTitle>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormGroup">
       <name>Выполнено</name>
       <id>50</id>
       <items xsi:type="form:Decoration">
@@ -501,6 +379,10 @@
       <items xsi:type="form:FormField">
         <name>РезультатВыполнения</name>
         <id>58</id>
+        <title>
+          <key>ru</key>
+          <value>Результат выполнения</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -612,6 +494,10 @@
     <items xsi:type="form:Button">
       <name>Загрузить</name>
       <id>28</id>
+      <title>
+        <key>ru</key>
+        <value>Загрузить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -719,6 +605,7 @@
   </handlers>
   <excludedCommands>Help</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -744,24 +631,6 @@
     <id>3</id>
     <valueType>
       <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>КраткоеПредставлениеОшибки</name>
-    <title>
-      <key>ru</key>
-      <value>Краткое представление ошибки</value>
-    </title>
-    <id>4</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
     </valueType>
     <view>
       <common>true</common>

@@ -39,6 +39,10 @@
   <items xsi:type="form:FormField">
     <name>Свойство</name>
     <id>6</id>
+    <title>
+      <key>ru</key>
+      <value>Свойство</value>
+    </title>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -51,7 +55,7 @@
       <name>СвойствоПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>СвойствоExtendedTooltip</name>
+      <name>СвойствоРасширеннаяПодсказка</name>
       <id>30</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -124,7 +128,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>32</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -220,7 +224,7 @@
         <segments>Список.Owner</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ВладелецExtendedTooltip</name>
+        <name>ВладелецРасширеннаяПодсказка</name>
         <id>33</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -431,7 +435,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>31</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -487,6 +491,7 @@
         <endDate>0001-01-01T00:00:00</endDate>
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
       <userSettingsGroup>ГруппаПользовательскихНастроек</userSettingsGroup>
     </extInfo>
   </items>
@@ -506,7 +511,7 @@
         </userVisible>
         <defaultItem>true</defaultItem>
         <extendedTooltip>
-          <name>ФормаВыбратьExtendedTooltip</name>
+          <name>ФормаВыбратьРасширеннаяПодсказка</name>
           <id>24</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -537,7 +542,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаСоздатьExtendedTooltip</name>
+          <name>ФормаСоздатьРасширеннаяПодсказка</name>
           <id>25</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -567,7 +572,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаСкопироватьExtendedTooltip</name>
+          <name>ФормаСкопироватьРасширеннаяПодсказка</name>
           <id>26</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -597,7 +602,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаИзменитьExtendedTooltip</name>
+          <name>ФормаИзменитьРасширеннаяПодсказка</name>
           <id>27</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -684,7 +689,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСправкаExtendedTooltip</name>
+        <name>ФормаСправкаРасширеннаяПодсказка</name>
         <id>29</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -705,6 +710,87 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
+    <items xsi:type="form:Addition">
+      <title>
+        <key>ru</key>
+        <value>Список поиск</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>СписокПоиск</name>
+      <id>55</id>
+      <extendedTooltip>
+        <name>СписокПоискРасширеннаяПодсказка</name>
+        <id>57</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СписокПоискКонтекстноеМеню</name>
+        <id>56</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <source>СписокСтрокаПоиска</source>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Addition">
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>СписокПоискУправление</name>
+      <id>58</id>
+      <extendedTooltip>
+        <name>СписокПоискУправлениеРасширеннаяПодсказка</name>
+        <id>60</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СписокПоискУправлениеКонтекстноеМеню</name>
+        <id>59</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>SearchControlAddition</type>
+      <source>СписокУправлениеПоиском</source>
+      <extInfo xsi:type="form:SearchControlAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -720,6 +806,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -741,9 +828,6 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.ПолноеНаименование</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Список.Parent</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
@@ -752,23 +836,16 @@
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
       <queryText>ВЫБРАТЬ
-	Значения.Ссылка,
-	Значения.ВерсияДанных,
-	Значения.ПометкаУдаления,
-	Значения.Предопределенный,
-	Значения.Владелец,
-	Значения.Родитель,
-	ВЫБОР
-		КОГДА &amp;ЭтоОсновнойЯзык
-		ТОГДА Значения.Наименование
-		ИНАЧЕ ВЫРАЗИТЬ(ЕСТЬNULL(ЗначенияПредставления.Наименование, Значения.Наименование) КАК СТРОКА(150))
-	КОНЕЦ КАК Наименование,
-	Значения.Вес
+	ЗначенияПереопределяемый.Ссылка,
+	ЗначенияПереопределяемый.ВерсияДанных,
+	ЗначенияПереопределяемый.ПометкаУдаления,
+	ЗначенияПереопределяемый.Предопределенный,
+	ЗначенияПереопределяемый.Владелец,
+	ЗначенияПереопределяемый.Родитель,
+	ЗначенияПереопределяемый.Наименование КАК Наименование,
+	ЗначенияПереопределяемый.Вес
 ИЗ
-	Справочник.ЗначенияСвойствОбъектовИерархия КАК Значения
-	ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ЗначенияСвойствОбъектовИерархия.Представления КАК ЗначенияПредставления
-		ПО (ЗначенияПредставления.Ссылка = Значения.Ссылка)
-		И ЗначенияПредставления.КодЯзыка = &amp;КодЯзыка</queryText>
+	Справочник.ЗначенияСвойствОбъектовИерархия КАК ЗначенияПереопределяемый</queryText>
       <mainTable>Catalog.ЗначенияСвойствОбъектовИерархия</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
   <title>
     <key>ru</key>
     <value>Настройки учетных записей электронной почты</value>
@@ -117,7 +117,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Список.УчетнаяЗаписьЭлектроннойПочты.ВладелецУчетнойЗаписи</segments>
+        <segments>Список.ВладелецУчетнойЗаписи</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
@@ -476,9 +476,7 @@
     <rowPictureDataPath xsi:type="form:DataPath">
       <segments>Список.DefaultPicture</segments>
     </rowPictureDataPath>
-    <searchStringLocation>None</searchStringLocation>
     <viewStatusLocation>None</viewStatusLocation>
-    <searchControlLocation>None</searchControlLocation>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
       <autoRefreshPeriod>60</autoRefreshPeriod>
       <period>
@@ -487,6 +485,7 @@
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
       <userSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</userSettingsGroup>
     </extInfo>
   </items>
@@ -503,6 +502,7 @@
   </autoCommandBar>
   <excludedCommands>Copy</excludedCommands>
   <excludedCommands>Create</excludedCommands>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -523,9 +523,6 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.ПерсональнаяУчетнаяЗапись</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Список.ВПредставлениеВключатьИмяПользователя</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
@@ -535,16 +532,7 @@
       <segments>Список.ВключатьПодписьПриОтветеПересылке</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.НеИспользоватьВоВстроенномПочтовомКлиенте</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Список.ОбработкаПисемВыполняетсяВДругомПочтовомКлиенте</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.ОтветственныйЗаВедениеПапок</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.ОтветственныйЗаОбработкуПисем</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Список.ПомещатьПисьмоВПапкуПисьмаОснования</segments>
@@ -553,21 +541,64 @@
       <segments>Список.УдалятьПисьмаПослеОтправки</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.УчетнаяЗаписьЭлектроннойПочты</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Список.ФорматПодписиДляНовыхСообщений</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Список.ФорматПодписиПриОтветеПересылке</segments>
     </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.ВладелецУчетнойЗаписи</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.НеИспользоватьВоВстроенномПочтовомКлиенте</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.ОтветственныйЗаВедениеПапок</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.ОтветственныйЗаОбработкуПисем</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.УчетнаяЗаписьЭлектроннойПочты</segments>
+    </notDefaultUseAlwaysAttributes>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
+      <queryText>ВЫБРАТЬ 
+	НастройкиУчетныхЗаписейЭлектроннойПочты.УчетнаяЗаписьЭлектроннойПочты,
+	НастройкиУчетныхЗаписейЭлектроннойПочты.ОтветственныйЗаОбработкуПисем,
+	НастройкиУчетныхЗаписейЭлектроннойПочты.ОтветственныйЗаВедениеПапок,
+	НастройкиУчетныхЗаписейЭлектроннойПочты.НеИспользоватьВоВстроенномПочтовомКлиенте,
+	УчетныеЗаписиЭлектроннойПочты.ВладелецУчетнойЗаписи
+ИЗ
+	РегистрСведений.НастройкиУчетныхЗаписейЭлектроннойПочты КАК НастройкиУчетныхЗаписейЭлектроннойПочты
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.УчетныеЗаписиЭлектроннойПочты КАК УчетныеЗаписиЭлектроннойПочты
+		ПО НастройкиУчетныхЗаписейЭлектроннойПочты.УчетнаяЗаписьЭлектроннойПочты = УчетныеЗаписиЭлектроннойПочты.Ссылка</queryText>
       <mainTable>InformationRegister.НастройкиУчетныхЗаписейЭлектроннойПочты</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
+      <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>УчетнаяЗаписьЭлектроннойПочты</dataPath>
+        <field>УчетнаяЗаписьЭлектроннойПочты</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ОтветственныйЗаОбработкуПисем</dataPath>
+        <field>ОтветственныйЗаОбработкуПисем</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ОтветственныйЗаВедениеПапок</dataPath>
+        <field>ОтветственныйЗаВедениеПапок</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>НеИспользоватьВоВстроенномПочтовомКлиенте</dataPath>
+        <field>НеИспользоватьВоВстроенномПочтовомКлиенте</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВладелецУчетнойЗаписи</dataPath>
+        <field>ВладелецУчетнойЗаписи</field>
+      </fields>
     </extInfo>
   </attributes>
   <commandInterface>

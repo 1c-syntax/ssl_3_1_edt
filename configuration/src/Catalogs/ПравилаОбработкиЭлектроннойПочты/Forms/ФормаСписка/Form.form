@@ -73,7 +73,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>19</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -119,7 +119,7 @@
         <segments>Список.ПомещатьВПапку</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПомещатьВПапкуExtendedTooltip</name>
+        <name>ПомещатьВПапкуРасширеннаяПодсказка</name>
         <id>20</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -325,7 +325,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>18</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -380,6 +380,7 @@
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
       <userSettingsGroup>ГруппаПользовательскихНастроек</userSettingsGroup>
     </extInfo>
   </items>
@@ -396,7 +397,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>ПредставлениеОтбораExtendedTooltip</name>
+      <name>ПредставлениеОтбораРасширеннаяПодсказка</name>
       <id>21</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -470,13 +471,17 @@
     <items xsi:type="form:Button">
       <name>ФормаПрименитьПравила</name>
       <id>8</id>
+      <title>
+        <key>ru</key>
+        <value>Применить правила</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаПрименитьПравилаExtendedTooltip</name>
+        <name>ФормаПрименитьПравилаРасширеннаяПодсказка</name>
         <id>17</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -509,6 +514,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

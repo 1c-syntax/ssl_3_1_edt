@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>Текст</name>
     <id>2</id>
+    <title>
+      <key>ru</key>
+      <value>Текст</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -17,7 +21,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>ТекстExtendedTooltip</name>
+      <name>ТекстРасширеннаяПодсказка</name>
       <id>5</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -65,6 +69,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОткрытьПапкуСФайлами</name>
       <id>6</id>
+      <title>
+        <key>ru</key>
+        <value>Открыть папку с файлами</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -101,7 +109,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗакрытьExtendedTooltip</name>
+        <name>ФормаЗакрытьРасширеннаяПодсказка</name>
         <id>4</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -134,6 +142,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

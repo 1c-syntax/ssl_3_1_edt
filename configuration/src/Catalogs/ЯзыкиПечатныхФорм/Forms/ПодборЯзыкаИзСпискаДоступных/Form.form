@@ -10,6 +10,10 @@
     <items xsi:type="form:Button">
       <name>СписокВыбрать</name>
       <id>22</id>
+      <title>
+        <key>ru</key>
+        <value>Выбрать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -39,25 +43,21 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
-    <items xsi:type="form:FormField">
-      <name>Поиск</name>
-      <id>24</id>
+    <items xsi:type="form:Addition">
+      <title>
+        <key>ru</key>
+        <value>Поиск</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>СтрокаПоиска</segments>
-      </dataPath>
-      <titleLocation>None</titleLocation>
-      <handlers>
-        <event>OnChange</event>
-        <name>ПоискПриИзменении</name>
-      </handlers>
+      <name>СтрокаПоиска</name>
+      <id>43</id>
       <extendedTooltip>
-        <name>ПоискРасширеннаяПодсказка</name>
-        <id>26</id>
+        <name>СтрокаПоискаРасширеннаяПодсказка</name>
+        <id>45</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -71,8 +71,8 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ПоискКонтекстноеМеню</name>
-        <id>25</id>
+        <name>СтрокаПоискаКонтекстноеМеню</name>
+        <id>44</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -80,31 +80,9 @@
         </userVisible>
         <autoFill>true</autoFill>
       </contextMenu>
-      <type>InputField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <handlers>
-          <event>AutoComplete</event>
-          <name>ПоискАвтоПодбор</name>
-        </handlers>
-        <handlers>
-          <event>Clearing</event>
-          <name>ПоискОчистка</name>
-        </handlers>
+      <source>СписокСтрокаПоиска</source>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <clearButton>true</clearButton>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-        <inputHint>
-          <key>ru</key>
-          <value>Найти...</value>
-        </inputHint>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -232,6 +210,10 @@
       <name>СписокНаименование</name>
       <id>17</id>
       <displayImportance>VeryHigh</displayImportance>
+      <title>
+        <key>ru</key>
+        <value>Язык</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -533,6 +515,7 @@
   </handlers>
   <width>50</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -625,24 +608,6 @@
         <common>true</common>
       </edit>
     </columns>
-  </attributes>
-  <attributes>
-    <name>СтрокаПоиска</name>
-    <title>
-      <key>ru</key>
-      <value>Строка поиска</value>
-    </title>
-    <id>2</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
   </attributes>
   <attributes>
     <name>Сворачивать</name>

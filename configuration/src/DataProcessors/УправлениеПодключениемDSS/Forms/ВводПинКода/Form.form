@@ -91,6 +91,10 @@
       <items xsi:type="form:FormField">
         <name>СертификатПредставление</name>
         <id>35</id>
+        <title>
+          <key>ru</key>
+          <value>Сертификат</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -146,6 +150,10 @@
       <items xsi:type="form:FormField">
         <name>Пароль</name>
         <id>5</id>
+        <title>
+          <key>ru</key>
+          <value>Пин-код</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -202,6 +210,10 @@
       <items xsi:type="form:FormField">
         <name>Сохранить</name>
         <id>8</id>
+        <title>
+          <key>ru</key>
+          <value>Сохранить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -316,6 +328,10 @@
     <items xsi:type="form:Button">
       <name>СменитьПинКод</name>
       <id>41</id>
+      <title>
+        <key>ru</key>
+        <value>Сменить пин код</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -350,6 +366,10 @@
       <items xsi:type="form:Button">
         <name>ОК</name>
         <id>13</id>
+        <title>
+          <key>ru</key>
+          <value>ОК</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -381,6 +401,10 @@
       <items xsi:type="form:Button">
         <name>Отмена</name>
         <id>15</id>
+        <title>
+          <key>ru</key>
+          <value>Отмена</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -495,6 +519,7 @@
   </handlers>
   <width>47</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

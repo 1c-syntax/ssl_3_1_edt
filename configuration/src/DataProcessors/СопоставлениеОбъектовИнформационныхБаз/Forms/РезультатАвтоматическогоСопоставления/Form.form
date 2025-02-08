@@ -12,6 +12,10 @@
         <items xsi:type="form:Button">
           <name>УстановитьПометки</name>
           <id>70</id>
+          <title>
+            <key>ru</key>
+            <value>Установить пометки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -43,6 +47,10 @@
         <items xsi:type="form:Button">
           <name>СнятьПометки</name>
           <id>68</id>
+          <title>
+            <key>ru</key>
+            <value>Снять пометки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1030,6 +1038,10 @@
         <items xsi:type="form:Button">
           <name>Применить</name>
           <id>14</id>
+          <title>
+            <key>ru</key>
+            <value>Применить</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1062,6 +1074,10 @@
         <items xsi:type="form:Button">
           <name>Отмена</name>
           <id>30</id>
+          <title>
+            <key>ru</key>
+            <value>Отмена</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1713,6 +1729,10 @@
         <items xsi:type="form:Button">
           <name>Закрыть1</name>
           <id>150</id>
+          <title>
+            <key>ru</key>
+            <value>Закрыть</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2093,6 +2113,10 @@
         <items xsi:type="form:Button">
           <name>Закрыть</name>
           <id>149</id>
+          <title>
+            <key>ru</key>
+            <value>Закрыть</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2239,6 +2263,8 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
+  <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

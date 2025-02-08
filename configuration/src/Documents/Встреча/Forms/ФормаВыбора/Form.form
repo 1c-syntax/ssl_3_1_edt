@@ -65,7 +65,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>ДатаExtendedTooltip</name>
+        <name>ДатаРасширеннаяПодсказка</name>
         <id>17</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -111,7 +111,7 @@
         <segments>Список.Number</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НомерExtendedTooltip</name>
+        <name>НомерРасширеннаяПодсказка</name>
         <id>18</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -157,7 +157,7 @@
         <segments>Список.Описание</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ОписаниеExtendedTooltip</name>
+        <name>ОписаниеРасширеннаяПодсказка</name>
         <id>19</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -204,7 +204,7 @@
         <segments>Список.Предмет</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПредметExtendedTooltip</name>
+        <name>ПредметРасширеннаяПодсказка</name>
         <id>20</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -250,7 +250,7 @@
         <segments>Список.СписокУчастников</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СписокУчастниковExtendedTooltip</name>
+        <name>СписокУчастниковРасширеннаяПодсказка</name>
         <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -456,7 +456,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>16</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -512,6 +512,7 @@
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -526,6 +527,7 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

@@ -10,13 +10,17 @@
     <items xsi:type="form:Button">
       <name>Выбрать</name>
       <id>9</id>
+      <title>
+        <key>ru</key>
+        <value>Выбрать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ВыбратьExtendedTooltip</name>
+        <name>ВыбратьРасширеннаяПодсказка</name>
         <id>52</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -38,17 +42,89 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
-    <items xsi:type="form:Button">
-      <name>ПометитьВсе</name>
-      <id>27</id>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаКомандФлажки</name>
+      <id>107</id>
+      <items xsi:type="form:Button">
+        <name>ПометитьВсе</name>
+        <id>27</id>
+        <title>
+          <key>ru</key>
+          <value>Пометить всех</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ПометитьВсеРасширеннаяПодсказка</name>
+          <id>53</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.ПометитьВсе</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>СнятьПометкуСоВсех</name>
+        <id>28</id>
+        <title>
+          <key>ru</key>
+          <value>Снять пометку со всех</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>СнятьПометкуСоВсехРасширеннаяПодсказка</name>
+          <id>54</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.СнятьПометкуСоВсех</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Команд флажки</value>
+      </title>
       <extendedTooltip>
-        <name>ПометитьВсеExtendedTooltip</name>
-        <id>53</id>
+        <name>ГруппаКомандФлажкиРасширеннаяПодсказка</name>
+        <id>108</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -61,53 +137,24 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.ПометитьВсе</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-    </items>
-    <items xsi:type="form:Button">
-      <name>СнятьПометкуСоВсех</name>
-      <id>28</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>СнятьПометкуСоВсехExtendedTooltip</name>
-        <id>54</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <commandName>Form.Command.СнятьПометкуСоВсех</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
+      <extInfo xsi:type="form:ButtonGroupExtInfo">
+        <representation>Compact</representation>
+      </extInfo>
     </items>
     <items xsi:type="form:Button">
       <name>ПометитьВыбранные</name>
       <id>21</id>
+      <title>
+        <key>ru</key>
+        <value>Пометить выбранные</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ПометитьВыбранныеExtendedTooltip</name>
+        <name>ПометитьВыбранныеРасширеннаяПодсказка</name>
         <id>55</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -132,13 +179,17 @@
     <items xsi:type="form:Button">
       <name>СнятьПометкуВыбранных</name>
       <id>22</id>
+      <title>
+        <key>ru</key>
+        <value>Снять пометку выбранных</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СнятьПометкуВыбранныхExtendedTooltip</name>
+        <name>СнятьПометкуВыбранныхРасширеннаяПодсказка</name>
         <id>56</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -163,13 +214,17 @@
     <items xsi:type="form:Button">
       <name>ФормаАктивныеПользователи</name>
       <id>49</id>
+      <title>
+        <key>ru</key>
+        <value>Активные пользователи...</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаАктивныеПользователиExtendedTooltip</name>
+        <name>ФормаАктивныеПользователиРасширеннаяПодсказка</name>
         <id>57</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -190,6 +245,48 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
+    <items xsi:type="form:Addition">
+      <title>
+        <key>ru</key>
+        <value>Поиск</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>СтрокаПоиск</name>
+      <id>104</id>
+      <extendedTooltip>
+        <name>СтрокаПоискРасширеннаяПодсказка</name>
+        <id>106</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СтрокаПоискКонтекстноеМеню</name>
+        <id>105</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <source>СписокПользователейSearchString</source>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -200,7 +297,7 @@
       <value>Командная панель</value>
     </title>
     <extendedTooltip>
-      <name>КоманднаяПанельExtendedTooltip</name>
+      <name>КоманднаяПанельРасширеннаяПодсказка</name>
       <id>51</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -233,7 +330,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>НадписьExtendedTooltip</name>
+      <name>НадписьРасширеннаяПодсказка</name>
       <id>58</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -300,6 +397,10 @@
         <items xsi:type="form:FormField">
           <name>ГруппыПользователейГруппа</name>
           <id>15</id>
+          <title>
+            <key>ru</key>
+            <value>Группа</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -310,7 +411,7 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
-            <name>ГруппыПользователейГруппаExtendedTooltip</name>
+            <name>ГруппыПользователейГруппаРасширеннаяПодсказка</name>
             <id>65</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -351,6 +452,10 @@
         <items xsi:type="form:FormField">
           <name>ГруппыПользователейКартинка</name>
           <id>18</id>
+          <title>
+            <key>ru</key>
+            <value>Картинка</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -360,7 +465,7 @@
             <segments>ГруппыПользователей.Картинка</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ГруппыПользователейКартинкаExtendedTooltip</name>
+            <name>ГруппыПользователейКартинкаРасширеннаяПодсказка</name>
             <id>66</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -406,7 +511,7 @@
           <value>И картинка</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаИКартинкаExtendedTooltip</name>
+          <name>ГруппаИКартинкаРасширеннаяПодсказка</name>
           <id>64</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -561,7 +666,7 @@
         </extInfo>
       </searchControlAddition>
       <extendedTooltip>
-        <name>ГруппыПользователейExtendedTooltip</name>
+        <name>ГруппыПользователейРасширеннаяПодсказка</name>
         <id>63</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -581,13 +686,17 @@
         <items xsi:type="form:Button">
           <name>ГруппыПользователейКонтекстноеМенюИзменить</name>
           <id>42</id>
+          <title>
+            <key>ru</key>
+            <value>Изменить</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ГруппыПользователейКонтекстноеМенюИзменитьExtendedTooltip</name>
+            <name>ГруппыПользователейКонтекстноеМенюИзменитьРасширеннаяПодсказка</name>
             <id>60</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -617,7 +726,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ГруппыПользователейКонтекстноеМенюКопироватьВБуферОбменаExtendedTooltip</name>
+            <name>ГруппыПользователейКонтекстноеМенюКопироватьВБуферОбменаРасширеннаяПодсказка</name>
             <id>61</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -647,7 +756,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ГруппыПользователейКонтекстноеМенюВыделитьВсеExtendedTooltip</name>
+            <name>ГруппыПользователейКонтекстноеМенюВыделитьВсеРасширеннаяПодсказка</name>
             <id>62</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -729,6 +838,10 @@
         <items xsi:type="form:FormField">
           <name>ПользователиФлажок</name>
           <id>6</id>
+          <title>
+            <key>ru</key>
+            <value>Пометка</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -743,7 +856,7 @@
             <name>ПользователиФлажокПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ПользователиФлажокExtendedTooltip</name>
+            <name>ПользователиФлажокРасширеннаяПодсказка</name>
             <id>72</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -777,6 +890,10 @@
         <items xsi:type="form:FormField">
           <name>Пользователи</name>
           <id>4</id>
+          <title>
+            <key>ru</key>
+            <value>Пользователь</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -787,7 +904,7 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
-            <name>ПользователиExtendedTooltip</name>
+            <name>ПользователиРасширеннаяПодсказка</name>
             <id>73</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -825,6 +942,10 @@
         <items xsi:type="form:FormField">
           <name>СписокПользователейПодразделение</name>
           <id>95</id>
+          <title>
+            <key>ru</key>
+            <value>Подразделение</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible/>
@@ -874,6 +995,10 @@
         <items xsi:type="form:FormField">
           <name>СписокПользователейФизическоеЛицо</name>
           <id>98</id>
+          <title>
+            <key>ru</key>
+            <value>Физическое лицо</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible/>
@@ -930,7 +1055,7 @@
           <value>Пользователи</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаПользователиExtendedTooltip</name>
+          <name>ГруппаПользователиРасширеннаяПодсказка</name>
           <id>71</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1083,7 +1208,7 @@
         </extInfo>
       </searchControlAddition>
       <extendedTooltip>
-        <name>СписокПользователейExtendedTooltip</name>
+        <name>СписокПользователейРасширеннаяПодсказка</name>
         <id>70</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1103,13 +1228,17 @@
         <items xsi:type="form:Button">
           <name>СписокПользователейКонтекстноеМенюИзменить</name>
           <id>43</id>
+          <title>
+            <key>ru</key>
+            <value>Изменить</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокПользователейКонтекстноеМенюИзменитьExtendedTooltip</name>
+            <name>СписокПользователейКонтекстноеМенюИзменитьРасширеннаяПодсказка</name>
             <id>67</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1139,7 +1268,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокПользователейКонтекстноеМенюКопироватьВБуферОбменаExtendedTooltip</name>
+            <name>СписокПользователейКонтекстноеМенюКопироватьВБуферОбменаРасширеннаяПодсказка</name>
             <id>68</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1169,7 +1298,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокПользователейКонтекстноеМенюВыделитьВсеExtendedTooltip</name>
+            <name>СписокПользователейКонтекстноеМенюВыделитьВсеРасширеннаяПодсказка</name>
             <id>69</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1221,7 +1350,7 @@
       <value>Выбор пользователей</value>
     </title>
     <extendedTooltip>
-      <name>ВыборПользователяExtendedTooltip</name>
+      <name>ВыборПользователяРасширеннаяПодсказка</name>
       <id>59</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1275,7 +1404,7 @@
           <name>ПоказыватьПользователейДочернихГруппПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ПоказыватьПользователейДочернихГруппExtendedTooltip</name>
+          <name>ПоказыватьПользователейДочернихГруппРасширеннаяПодсказка</name>
           <id>76</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1316,7 +1445,7 @@
         <value>Установить свойство</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаУстановитьСвойствоExtendedTooltip</name>
+        <name>ГруппаУстановитьСвойствоРасширеннаяПодсказка</name>
         <id>75</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1346,7 +1475,7 @@
       <value>Показывать пользователей дочерних групп</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаПоказыватьПользователейДочернихГруппExtendedTooltip</name>
+      <name>ГруппаПоказыватьПользователейДочернихГруппРасширеннаяПодсказка</name>
       <id>74</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1406,6 +1535,7 @@
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -1981,7 +2111,7 @@
     <id>7</id>
     <toolTip>
       <key>ru</key>
-      <value>Открыть список пользователей, работающих в программе</value>
+      <value>Открыть список пользователей, работающих в приложении</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -2013,6 +2143,10 @@
       <types>String</types>
       <stringQualifiers/>
     </valueType>
+  </parameters>
+  <parameters>
+    <name>ВыбранныеПользователи</name>
+    <valueType/>
   </parameters>
   <commandInterface>
     <navigationPanel/>

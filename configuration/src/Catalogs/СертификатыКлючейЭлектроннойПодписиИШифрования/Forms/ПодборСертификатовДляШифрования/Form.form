@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
   <title>
     <key>ru</key>
     <value>Подбор сертификатов для шифрования данных</value>
@@ -47,6 +47,10 @@
     <items xsi:type="form:FormField">
       <name>ГруппаПользователейИспользование</name>
       <id>77</id>
+      <title>
+        <key>ru</key>
+        <value>Группа пользователей</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -95,6 +99,10 @@
     <items xsi:type="form:FormField">
       <name>ГруппаПользователей</name>
       <id>74</id>
+      <title>
+        <key>ru</key>
+        <value>Группа пользователей</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -147,6 +155,58 @@
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
       </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ПоказыватьПросроченные</name>
+      <id>99</id>
+      <title>
+        <key>ru</key>
+        <value>Показывать просроченные</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ПоказыватьПросроченные</segments>
+      </dataPath>
+      <titleLocation>Right</titleLocation>
+      <handlers>
+        <event>OnChange</event>
+        <name>ПоказыватьПросроченныеПриИзменении</name>
+      </handlers>
+      <extendedTooltip>
+        <name>ПоказыватьПросроченныеРасширеннаяПодсказка</name>
+        <id>101</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПоказыватьПросроченныеКонтекстноеМеню</name>
+        <id>100</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -249,6 +309,10 @@
       <items xsi:type="form:Button">
         <name>ФормаДобавить</name>
         <id>48</id>
+        <title>
+          <key>ru</key>
+          <value>Добавить из установленных на компьютере</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -279,6 +343,10 @@
       <items xsi:type="form:Button">
         <name>ФормаДобавитьИзФайла</name>
         <id>50</id>
+        <title>
+          <key>ru</key>
+          <value>Добавить из файла ...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1039,6 +1107,10 @@
       <event>BeforeAddRow</event>
       <name>СписокПередНачаломДобавления</name>
     </handlers>
+    <handlers>
+      <event>OnActivateRow</event>
+      <name>СписокПриАктивизацииСтроки</name>
+    </handlers>
     <searchStringAddition>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1238,6 +1310,10 @@
         <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюДобавить</name>
           <id>88</id>
+          <title>
+            <key>ru</key>
+            <value>Добавить из установленных на компьютере</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1268,6 +1344,10 @@
         <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюДобавитьИзФайла</name>
           <id>90</id>
+          <title>
+            <key>ru</key>
+            <value>Добавить из файла ...</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1387,8 +1467,11 @@
     <verticalStretch>true</verticalStretch>
     <enableStartDrag>true</enableStartDrag>
     <rowPictureDataPath xsi:type="form:DataPath">
-      <segments>Список.DefaultPicture</segments>
+      <segments>Список.ТипРазмещения</segments>
     </rowPictureDataPath>
+    <rowsPicture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ТипыСертификатов</picture>
+    </rowsPicture>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
       <autoRefreshPeriod>60</autoRefreshPeriod>
       <period>
@@ -1397,6 +1480,7 @@
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
       <userSettingsGroup>СписокКомпоновщикНастроекПользовательскиеНастройки</userSettingsGroup>
     </extInfo>
   </items>
@@ -1421,6 +1505,7 @@
   <excludedCommands>Copy</excludedCommands>
   <excludedCommands>Delete</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -1463,18 +1548,18 @@
 	СертификатыПереопределяемый.ДанныеСертификата КАК ДанныеСертификата,
 	СертификатыПереопределяемый.Программа КАК Программа,
 	СертификатыПереопределяемый.Отозван КАК Отозван,
-	СертификатыПереопределяемый.УсиленнаяЗащитаЗакрытогоКлюча КАК УсиленнаяЗащитаЗакрытогоКлюча,
+	СертификатыПереопределяемый.ВводитьПарольВПрограммеЭлектроннойПодписи КАК ВводитьПарольВПрограммеЭлектроннойПодписи,
 	СертификатыПереопределяемый.Организация КАК Организация,
 	СертификатыПереопределяемый.Пользователь КАК Пользователь,
-	СертификатыПереопределяемый.ПользовательОповещенОСрокеДействия КАК ПользовательОповещенОСрокеДействия,
+	СертификатыПереопределяемый.УдалитьПользовательОповещенОСрокеДействия КАК УдалитьПользовательОповещенОСрокеДействия,
 	СертификатыПереопределяемый.Предопределенный КАК Предопределенный,
 	СертификатыПереопределяемый.ИмяПредопределенныхДанных КАК ИмяПредопределенныхДанных,
 	ВЫБОР
-		КОГДА ПрограммыЭлектроннойПодписиИШифрованияПереопределяемый.ЭтоПрограммаОблачногоСервиса
+		КОГДА ПрограммыЭлектроннойПодписиИШифрованияПереопределяемый.ЭтоВстроенныйКриптопровайдер
 			ТОГДА 4
 		КОГДА СертификатыПереопределяемый.Программа = НЕОПРЕДЕЛЕНО
-				ИЛИ СертификатыПереопределяемый.Программа = ЗНАЧЕНИЕ(Справочник.ПрограммыЭлектроннойПодписиИШифрования.ПустаяСсылка)
-				ИЛИ НЕ ПрограммыЭлектроннойПодписиИШифрованияПереопределяемый.Ссылка ЕСТЬ NULL
+		ИЛИ СертификатыПереопределяемый.Программа = ЗНАЧЕНИЕ(Справочник.ПрограммыЭлектроннойПодписиИШифрования.ПустаяСсылка)
+		ИЛИ НЕ ПрограммыЭлектроннойПодписиИШифрованияПереопределяемый.Ссылка ЕСТЬ NULL
 			ТОГДА 1
 		ИНАЧЕ 3
 	КОНЕЦ + ВЫБОР
@@ -1484,24 +1569,199 @@
 	КОНЕЦ КАК ТипРазмещения
 ИЗ
 	Справочник.СертификатыКлючейЭлектроннойПодписиИШифрования КАК СертификатыПереопределяемый
-		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ПрограммыЭлектроннойПодписиИШифрования КАК ПрограммыЭлектроннойПодписиИШифрованияПереопределяемый
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.ПрограммыЭлектроннойПодписиИШифрования КАК
+			ПрограммыЭлектроннойПодписиИШифрованияПереопределяемый
 		ПО СертификатыПереопределяемый.Программа = ПрограммыЭлектроннойПодписиИШифрованияПереопределяемый.Ссылка
 ГДЕ
-	&amp;ДополнительноеУсловие
+	НЕ СертификатыПереопределяемый.Отозван И НЕ СертификатыПереопределяемый.ПометкаУдаления
+	И &amp;ДополнительноеУсловие
+	
 {ГДЕ
 	(ИСТИНА В
-			(ВЫБРАТЬ ПЕРВЫЕ 1
-				ИСТИНА
-			ИЗ
-				РегистрСведений.СоставыГруппПользователей КАК СоставыГруппПользователейПереопределяемый
-			ГДЕ
-				СоставыГруппПользователейПереопределяемый.Пользователь = СертификатыПереопределяемый.Пользователь
-				И СоставыГруппПользователейПереопределяемый.ГруппаПользователей В (&amp;ГруппаПользователей)))}</queryText>
+		(ВЫБРАТЬ ПЕРВЫЕ 1
+			ИСТИНА
+		ИЗ
+			РегистрСведений.СоставыГруппПользователей КАК СоставыГруппПользователейПереопределяемый
+		ГДЕ
+			СоставыГруппПользователейПереопределяемый.Пользователь = СертификатыПереопределяемый.Пользователь
+			И СоставыГруппПользователейПереопределяемый.ГруппаПользователей В (&amp;ГруппаПользователей))),
+	СертификатыПереопределяемый.ДействителенДо > &amp;ТекущаяДата}</queryText>
       <mainTable>Catalog.СертификатыКлючейЭлектроннойПодписиИШифрования</mainTable>
       <autoFillAvailableFields>true</autoFillAvailableFields>
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ссылка</dataPath>
+        <field>Ссылка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Наименование</dataPath>
+        <field>Наименование</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>КомуВыдан</dataPath>
+        <field>КомуВыдан</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Фирма</dataPath>
+        <field>Фирма</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Фамилия</dataPath>
+        <field>Фамилия</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Имя</dataPath>
+        <field>Имя</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Отчество</dataPath>
+        <field>Отчество</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Должность</dataPath>
+        <field>Должность</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>КемВыдан</dataPath>
+        <field>КемВыдан</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДействителенДо</dataPath>
+        <field>ДействителенДо</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Подписание</dataPath>
+        <field>Подписание</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Шифрование</dataPath>
+        <field>Шифрование</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Отпечаток</dataPath>
+        <field>Отпечаток</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДанныеСертификата</dataPath>
+        <field>ДанныеСертификата</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Программа</dataPath>
+        <field>Программа</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Отозван</dataPath>
+        <field>Отозван</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВводитьПарольВПрограммеЭлектроннойПодписи</dataPath>
+        <field>ВводитьПарольВПрограммеЭлектроннойПодписи</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Организация</dataPath>
+        <field>Организация</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Пользователь</dataPath>
+        <field>Пользователь</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>УдалитьПользовательОповещенОСрокеДействия</dataPath>
+        <field>УдалитьПользовательОповещенОСрокеДействия</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Предопределенный</dataPath>
+        <field>Предопределенный</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИмяПредопределенныхДанных</dataPath>
+        <field>ИмяПредопределенныхДанных</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ТипРазмещения</dataPath>
+        <field>ТипРазмещения</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Тип размещения</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ФизическоеЛицо</dataPath>
+        <field>ФизическоеЛицо</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Добавил</dataPath>
+        <field>Добавил</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаПолученияСертификата</dataPath>
+        <field>ДатаПолученияСертификата</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>УдалитьСостояниеЗаявления</dataPath>
+        <field>УдалитьСостояниеЗаявления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>УдалитьСодержаниеЗаявления</dataPath>
+        <field>УдалитьСодержаниеЗаявления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Пользователи</dataPath>
+        <field>Пользователи</field>
+      </fields>
+      <parameters>
+        <name>ГруппаПользователей</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Группа пользователей</value>
+            </content>
+          </localValue>
+        </title>
+        <useRestriction>true</useRestriction>
+        <valueListAllowed>true</valueListAllowed>
+      </parameters>
+      <parameters>
+        <name>ДополнительноеУсловие</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Дополнительное условие</value>
+            </content>
+          </localValue>
+        </title>
+        <values xsi:type="core:UndefinedValue"/>
+        <useRestriction>true</useRestriction>
+      </parameters>
+      <parameters>
+        <name>ТекущаяДата</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Текущая дата</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>Date</types>
+          <dateQualifiers/>
+        </valueType>
+        <values xsi:type="core:UndefinedValue"/>
+        <useRestriction>true</useRestriction>
+      </parameters>
     </extInfo>
   </attributes>
   <attributes>
@@ -1553,6 +1813,23 @@
     <name>Организация</name>
     <id>5</id>
     <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПоказыватьПросроченные</name>
+    <title>
+      <key>ru</key>
+      <value>Показывать просроченные</value>
+    </title>
+    <id>7</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
     <view>
       <common>true</common>
     </view>

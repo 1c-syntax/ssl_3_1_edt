@@ -12,6 +12,10 @@
         <items xsi:type="form:Button">
           <name>Печать</name>
           <id>7</id>
+          <title>
+            <key>ru</key>
+            <value>Печать</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -105,6 +109,10 @@
       <items xsi:type="form:FormField">
         <name>ТабДок</name>
         <id>11</id>
+        <title>
+          <key>ru</key>
+          <value>Таб док</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -577,6 +585,10 @@
     <items xsi:type="form:FormField">
       <name>РежимПодтверждения</name>
       <id>28</id>
+      <title>
+        <key>ru</key>
+        <value>Подтверждение</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -741,6 +753,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <group>Vertical</group>
   <enabled>true</enabled>
   <verticalScroll>UseIfNecessary</verticalScroll>

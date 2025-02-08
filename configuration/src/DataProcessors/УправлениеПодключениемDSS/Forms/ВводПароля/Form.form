@@ -53,6 +53,10 @@
       <items xsi:type="form:FormField">
         <name>Логин</name>
         <id>41</id>
+        <title>
+          <key>ru</key>
+          <value>Логин</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -103,6 +107,10 @@
       <items xsi:type="form:FormField">
         <name>Сервер</name>
         <id>35</id>
+        <title>
+          <key>ru</key>
+          <value>Сервер</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -153,6 +161,10 @@
       <items xsi:type="form:FormField">
         <name>ПредставлениеСертификата</name>
         <id>50</id>
+        <title>
+          <key>ru</key>
+          <value>Сертификат</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -209,6 +221,10 @@
       <items xsi:type="form:FormField">
         <name>Пароль</name>
         <id>5</id>
+        <title>
+          <key>ru</key>
+          <value>Пароль</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -265,6 +281,10 @@
       <items xsi:type="form:FormField">
         <name>Сохранить</name>
         <id>8</id>
+        <title>
+          <key>ru</key>
+          <value>Сохранить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -379,6 +399,10 @@
     <items xsi:type="form:Button">
       <name>ОК</name>
       <id>13</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -410,6 +434,10 @@
     <items xsi:type="form:Button">
       <name>Отмена</name>
       <id>15</id>
+      <title>
+        <key>ru</key>
+        <value>Отмена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -490,6 +518,7 @@
   </handlers>
   <width>50</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -808,7 +837,8 @@
   <parameters>
     <name>ВозможноСохранять</name>
     <valueType>
-      <types>Boolean</types>
+      <types>String</types>
+      <stringQualifiers/>
     </valueType>
   </parameters>
   <parameters>

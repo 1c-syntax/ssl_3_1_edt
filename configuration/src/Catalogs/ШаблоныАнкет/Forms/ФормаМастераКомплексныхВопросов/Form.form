@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>Формулировка</name>
     <id>141</id>
+    <title>
+      <key>ru</key>
+      <value>Формулировка</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -17,7 +21,7 @@
     </dataPath>
     <titleLocation>Top</titleLocation>
     <extendedTooltip>
-      <name>ФормулировкаExtendedTooltip</name>
+      <name>ФормулировкаРасширеннаяПодсказка</name>
       <id>147</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -98,7 +102,7 @@
           <segments>Вопросы.ЭлементарныйВопрос</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ВопросыВопросExtendedTooltip</name>
+          <name>ВопросыВопросРасширеннаяПодсказка</name>
           <id>178</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -271,7 +275,7 @@
         </extInfo>
       </searchControlAddition>
       <extendedTooltip>
-        <name>ВопросыExtendedTooltip</name>
+        <name>ВопросыРасширеннаяПодсказка</name>
         <id>177</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -314,7 +318,6 @@
       <verticalStretch>true</verticalStretch>
       <enableStartDrag>true</enableStartDrag>
       <enableDrag>true</enableDrag>
-      <searchStringLocation>None</searchStringLocation>
       <viewStatusLocation>None</viewStatusLocation>
       <searchControlLocation>None</searchControlLocation>
       <rowFilter xsi:type="core:UndefinedValue"/>
@@ -329,7 +332,7 @@
       <value>Подбор вопросов. Укажите хотя бы один вопрос:</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаВопросыExtendedTooltip</name>
+      <name>ГруппаВопросыРасширеннаяПодсказка</name>
       <id>176</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -360,6 +363,10 @@
     <items xsi:type="form:FormField">
       <name>СпособОтображенияПодсказки</name>
       <id>243</id>
+      <title>
+        <key>ru</key>
+        <value>Способ отображения подсказки</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -411,6 +418,10 @@
     <items xsi:type="form:FormField">
       <name>Подсказка</name>
       <id>246</id>
+      <title>
+        <key>ru</key>
+        <value>Подсказка</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -499,6 +510,10 @@
     <items xsi:type="form:Button">
       <name>КнопкаОК</name>
       <id>237</id>
+      <title>
+        <key>ru</key>
+        <value>Готово</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -587,6 +602,7 @@
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

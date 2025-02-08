@@ -48,7 +48,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Предупреждение32</picture>
+          <picture>StdPicture.DialogExclamation</picture>
         </picture>
       </extInfo>
     </items>
@@ -57,7 +57,7 @@
       <id>7</id>
       <title>
         <key>ru</key>
-        <value>Обнаружены аварийные завершения работы программ. Вы можете отправить отчет о возникающих ошибках в Фирму &quot;1С&quot;. Полученная информация поможет нам повысить качество выпускаемых продуктов. Никакие конфиденциальные данные не будут переданы третьим лицам.</value>
+        <value>Обнаружены аварийные завершения работы приложения. Вы можете отправить отчет о возникающих ошибках в Фирму &quot;1С&quot;. Полученная информация поможет нам повысить качество выпускаемых продуктов. Никакие конфиденциальные данные не будут переданы третьим лицам.</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -485,6 +485,7 @@
     <horizontalAlign>Right</horizontalAlign>
   </autoCommandBar>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

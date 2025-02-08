@@ -151,6 +151,10 @@
           <items xsi:type="form:Button">
             <name>ПараметрыПодключения</name>
             <id>63</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить параметры подключения для синхронизации данных</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -255,6 +259,10 @@
           <items xsi:type="form:FormField">
             <name>Пароль</name>
             <id>65</id>
+            <title>
+              <key>ru</key>
+              <value>Пароль</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -306,6 +314,10 @@
           <items xsi:type="form:Button">
             <name>ЗабылиПароль</name>
             <id>68</id>
+            <title>
+              <key>ru</key>
+              <value>Забыли пароль?</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -398,7 +410,8 @@
         <id>41</id>
         <title>
           <key>ru</key>
-          <value>Нажмите &lt;b>П&lt;/>&lt;b>родолжить,&lt;/> чтобы повторить попытку обновления программы.</value>
+          <value>Нажмите &lt;b>Продолжить&lt;/>, чтобы повторить попытку обновления программы.
+</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -667,6 +680,10 @@
       <items xsi:type="form:Button">
         <name>ФормаСинхронизироватьИПродолжить</name>
         <id>1</id>
+        <title>
+          <key>ru</key>
+          <value>Синхронизировать и продолжить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -732,6 +749,10 @@
       <items xsi:type="form:Button">
         <name>ФормаЗавершитьРаботу</name>
         <id>5</id>
+        <title>
+          <key>ru</key>
+          <value>Завершить работу</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -892,6 +913,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockWholeInterface</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

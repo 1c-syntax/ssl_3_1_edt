@@ -33,7 +33,7 @@
             <name>КоличествоПоказываемыхСобытийПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>КоличествоПоказываемыхСобытийExtendedTooltip</name>
+            <name>КоличествоПоказываемыхСобытийРасширеннаяПодсказка</name>
             <id>141</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -132,7 +132,7 @@
             <segments>ПредставлениеОтбора</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ПредставлениеОтбораExtendedTooltip</name>
+            <name>ПредставлениеОтбораРасширеннаяПодсказка</name>
             <id>142</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -177,7 +177,7 @@
           <value>Отбора</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаОтбораExtendedTooltip</name>
+          <name>ГруппаОтбораРасширеннаяПодсказка</name>
           <id>140</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -209,13 +209,17 @@
           <items xsi:type="form:Button">
             <name>УстановитьИнтервалДатДляПросмотра</name>
             <id>108</id>
+            <title>
+              <key>ru</key>
+              <value>Установить интервал дат для просмотра</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>УстановитьИнтервалДатДляПросмотраExtendedTooltip</name>
+              <name>УстановитьИнтервалДатДляПросмотраРасширеннаяПодсказка</name>
               <id>145</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -237,48 +241,12 @@
             <representationInContextMenu>Auto</representationInContextMenu>
           </items>
           <items xsi:type="form:Button">
-            <name>УстановитьОтбор</name>
-            <id>42</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <skipOnInput>false</skipOnInput>
-            <extendedTooltip>
-              <name>УстановитьОтборExtendedTooltip</name>
-              <id>146</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <commandName>0</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <textColor xsi:type="core:ColorRef">
-              <color>Style.ButtonTextColor</color>
-            </textColor>
-            <backColor xsi:type="core:ColorRef">
-              <color>Style.ButtonBackColor</color>
-            </backColor>
-            <borderColor xsi:type="core:ColorRef">
-              <color>Style.BorderColor</color>
-            </borderColor>
-            <representationInContextMenu>Auto</representationInContextMenu>
-          </items>
-          <items xsi:type="form:Button">
             <name>УстановитьОтборПоЗначениюВТекущейКолонке</name>
             <id>43</id>
+            <title>
+              <key>ru</key>
+              <value>Установить отбор по значению в текущей колонке</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -286,7 +254,7 @@
             </userVisible>
             <skipOnInput>false</skipOnInput>
             <extendedTooltip>
-              <name>УстановитьОтборПоЗначениюВТекущейКолонкеExtendedTooltip</name>
+              <name>УстановитьОтборПоЗначениюВТекущейКолонкеРасширеннаяПодсказка</name>
               <id>147</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -319,6 +287,10 @@
           <items xsi:type="form:Button">
             <name>ОтключитьОтбор</name>
             <id>44</id>
+            <title>
+              <key>ru</key>
+              <value>Отключить отбор</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -326,7 +298,7 @@
             </userVisible>
             <skipOnInput>false</skipOnInput>
             <extendedTooltip>
-              <name>ОтключитьОтборExtendedTooltip</name>
+              <name>ОтключитьОтборРасширеннаяПодсказка</name>
               <id>148</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -366,7 +338,7 @@
             <value>Команды отбора</value>
           </title>
           <extendedTooltip>
-            <name>КомандыОтбораExtendedTooltip</name>
+            <name>КомандыОтбораРасширеннаяПодсказка</name>
             <id>144</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -392,7 +364,7 @@
           </userVisible>
           <skipOnInput>false</skipOnInput>
           <extendedTooltip>
-            <name>ИзменитьФормуExtendedTooltip</name>
+            <name>ИзменитьФормуРасширеннаяПодсказка</name>
             <id>149</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -417,6 +389,10 @@
         <items xsi:type="form:Button">
           <name>ПросмотрТекущегоСобытияВОтдельномОкне</name>
           <id>38</id>
+          <title>
+            <key>ru</key>
+            <value>Просмотр текущего события</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -424,7 +400,7 @@
           </userVisible>
           <skipOnInput>false</skipOnInput>
           <extendedTooltip>
-            <name>ПросмотрТекущегоСобытияВОтдельномОкнеExtendedTooltip</name>
+            <name>ПросмотрТекущегоСобытияВОтдельномОкнеРасширеннаяПодсказка</name>
             <id>150</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -464,7 +440,7 @@
           </userVisible>
           <skipOnInput>false</skipOnInput>
           <extendedTooltip>
-            <name>ВывестиСписокExtendedTooltip</name>
+            <name>ВывестиСписокРасширеннаяПодсказка</name>
             <id>151</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -500,6 +476,10 @@
           <items xsi:type="form:Button">
             <name>ОбновитьТекущийСписок</name>
             <id>46</id>
+            <title>
+              <key>ru</key>
+              <value>Обновить текущий список</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -507,7 +487,7 @@
             </userVisible>
             <skipOnInput>false</skipOnInput>
             <extendedTooltip>
-              <name>ОбновитьТекущийСписокExtendedTooltip</name>
+              <name>ОбновитьТекущийСписокРасширеннаяПодсказка</name>
               <id>153</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -547,7 +527,7 @@
             <value>Команда обновить</value>
           </title>
           <extendedTooltip>
-            <name>КомандаОбновитьExtendedTooltip</name>
+            <name>КомандаОбновитьРасширеннаяПодсказка</name>
             <id>152</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -575,7 +555,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ФормаНайтиExtendedTooltip</name>
+              <name>ФормаНайтиРасширеннаяПодсказка</name>
               <id>155</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -605,7 +585,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ФормаОтменитьПоискExtendedTooltip</name>
+              <name>ФормаОтменитьПоискРасширеннаяПодсказка</name>
               <id>156</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -636,7 +616,7 @@
             <value>Команды поиска</value>
           </title>
           <extendedTooltip>
-            <name>КомандыПоискаExtendedTooltip</name>
+            <name>КомандыПоискаРасширеннаяПодсказка</name>
             <id>154</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -661,7 +641,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СправкаExtendedTooltip</name>
+            <name>СправкаРасширеннаяПодсказка</name>
             <id>157</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -682,6 +662,48 @@
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
+        <items xsi:type="form:Addition">
+          <title>
+            <key>ru</key>
+            <value>Поиск</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <name>СтрокаПоиск</name>
+          <id>198</id>
+          <extendedTooltip>
+            <name>СтрокаПоискРасширеннаяПодсказка</name>
+            <id>200</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СтрокаПоискКонтекстноеМеню</name>
+            <id>199</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <source>ЖурналСтрокаПоиска</source>
+          <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+          </extInfo>
+        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -692,7 +714,7 @@
           <value>Командная панель</value>
         </title>
         <extendedTooltip>
-          <name>КоманднаяПанельExtendedTooltip</name>
+          <name>КоманднаяПанельРасширеннаяПодсказка</name>
           <id>143</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -757,7 +779,7 @@
                 <segments>Журнал.Дата</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ДатаExtendedTooltip</name>
+                <name>ДатаРасширеннаяПодсказка</name>
                 <id>165</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -781,20 +803,14 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <type>InputField</type>
+              <type>LabelField</type>
               <editMode>Enter</editMode>
               <showInHeader>true</showInHeader>
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
-              <extInfo xsi:type="form:InputFieldExtInfo">
+              <extInfo xsi:type="form:LabelFieldExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
-                <chooseType>true</chooseType>
-                <typeDomainEnabled>true</typeDomainEnabled>
-                <textEdit>true</textEdit>
-                <borderColor xsi:type="core:ColorRef">
-                  <color>Style.BorderColor</color>
-                </borderColor>
               </extInfo>
             </items>
             <items xsi:type="form:FormGroup">
@@ -816,7 +832,7 @@
                   <segments>Журнал.ПредставлениеСобытия</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ПредставлениеСобытияExtendedTooltip</name>
+                  <name>ПредставлениеСобытияРасширеннаяПодсказка</name>
                   <id>167</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -840,20 +856,14 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <type>InputField</type>
+                <type>LabelField</type>
                 <editMode>Enter</editMode>
                 <showInHeader>true</showInHeader>
                 <headerHorizontalAlign>Left</headerHorizontalAlign>
                 <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:InputFieldExtInfo">
+                <extInfo xsi:type="form:LabelFieldExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
-                  <chooseType>true</chooseType>
-                  <typeDomainEnabled>true</typeDomainEnabled>
-                  <textEdit>true</textEdit>
-                  <borderColor xsi:type="core:ColorRef">
-                    <color>Style.BorderColor</color>
-                  </borderColor>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
@@ -871,7 +881,7 @@
                   <segments>Журнал.Комментарий</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>КомментарийExtendedTooltip</name>
+                  <name>КомментарийРасширеннаяПодсказка</name>
                   <id>168</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -895,20 +905,14 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <type>InputField</type>
+                <type>LabelField</type>
                 <editMode>Enter</editMode>
                 <showInHeader>true</showInHeader>
                 <headerHorizontalAlign>Left</headerHorizontalAlign>
                 <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:InputFieldExtInfo">
+                <extInfo xsi:type="form:LabelFieldExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
-                  <chooseType>true</chooseType>
-                  <typeDomainEnabled>true</typeDomainEnabled>
-                  <textEdit>true</textEdit>
-                  <borderColor xsi:type="core:ColorRef">
-                    <color>Style.BorderColor</color>
-                  </borderColor>
                 </extInfo>
               </items>
               <visible>true</visible>
@@ -921,7 +925,7 @@
                 <value>Событие</value>
               </title>
               <extendedTooltip>
-                <name>ГруппаСобытиеExtendedTooltip</name>
+                <name>ГруппаСобытиеРасширеннаяПодсказка</name>
                 <id>166</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -960,7 +964,7 @@
                   <segments>Журнал.ИмяПользователя</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ИмяПользователяExtendedTooltip</name>
+                  <name>ИмяПользователяРасширеннаяПодсказка</name>
                   <id>170</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -984,20 +988,14 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <type>InputField</type>
+                <type>LabelField</type>
                 <editMode>Enter</editMode>
                 <showInHeader>true</showInHeader>
                 <headerHorizontalAlign>Left</headerHorizontalAlign>
                 <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:InputFieldExtInfo">
+                <extInfo xsi:type="form:LabelFieldExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
-                  <chooseType>true</chooseType>
-                  <typeDomainEnabled>true</typeDomainEnabled>
-                  <textEdit>true</textEdit>
-                  <borderColor xsi:type="core:ColorRef">
-                    <color>Style.BorderColor</color>
-                  </borderColor>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
@@ -1015,7 +1013,7 @@
                   <segments>Журнал.Компьютер</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>КомпьютерExtendedTooltip</name>
+                  <name>КомпьютерРасширеннаяПодсказка</name>
                   <id>171</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1039,20 +1037,14 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <type>InputField</type>
+                <type>LabelField</type>
                 <editMode>Enter</editMode>
                 <showInHeader>true</showInHeader>
                 <headerHorizontalAlign>Left</headerHorizontalAlign>
                 <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:InputFieldExtInfo">
+                <extInfo xsi:type="form:LabelFieldExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
-                  <chooseType>true</chooseType>
-                  <typeDomainEnabled>true</typeDomainEnabled>
-                  <textEdit>true</textEdit>
-                  <borderColor xsi:type="core:ColorRef">
-                    <color>Style.BorderColor</color>
-                  </borderColor>
                 </extInfo>
               </items>
               <items xsi:type="form:FormGroup">
@@ -1074,7 +1066,7 @@
                     <segments>Журнал.ПредставлениеПриложения</segments>
                   </dataPath>
                   <extendedTooltip>
-                    <name>ПредставлениеПриложенияExtendedTooltip</name>
+                    <name>ПредставлениеПриложенияРасширеннаяПодсказка</name>
                     <id>173</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1098,25 +1090,23 @@
                     </userVisible>
                     <autoFill>true</autoFill>
                   </contextMenu>
-                  <type>InputField</type>
+                  <type>LabelField</type>
                   <editMode>Enter</editMode>
                   <showInHeader>true</showInHeader>
                   <headerHorizontalAlign>Left</headerHorizontalAlign>
                   <showInFooter>true</showInFooter>
-                  <extInfo xsi:type="form:InputFieldExtInfo">
+                  <extInfo xsi:type="form:LabelFieldExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
-                    <chooseType>true</chooseType>
-                    <typeDomainEnabled>true</typeDomainEnabled>
-                    <textEdit>true</textEdit>
-                    <borderColor xsi:type="core:ColorRef">
-                      <color>Style.BorderColor</color>
-                    </borderColor>
                   </extInfo>
                 </items>
                 <items xsi:type="form:FormField">
                   <name>Сеанс</name>
                   <id>80</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Сеанс</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1126,7 +1116,7 @@
                     <segments>Журнал.Сеанс</segments>
                   </dataPath>
                   <extendedTooltip>
-                    <name>СеансExtendedTooltip</name>
+                    <name>СеансРасширеннаяПодсказка</name>
                     <id>174</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1150,20 +1140,14 @@
                     </userVisible>
                     <autoFill>true</autoFill>
                   </contextMenu>
-                  <type>InputField</type>
+                  <type>LabelField</type>
                   <editMode>Enter</editMode>
                   <showInHeader>true</showInHeader>
                   <headerHorizontalAlign>Left</headerHorizontalAlign>
                   <showInFooter>true</showInFooter>
-                  <extInfo xsi:type="form:InputFieldExtInfo">
+                  <extInfo xsi:type="form:LabelFieldExtInfo">
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
-                    <chooseType>true</chooseType>
-                    <typeDomainEnabled>true</typeDomainEnabled>
-                    <textEdit>true</textEdit>
-                    <borderColor xsi:type="core:ColorRef">
-                      <color>Style.BorderColor</color>
-                    </borderColor>
                   </extInfo>
                 </items>
                 <enabled>true</enabled>
@@ -1175,7 +1159,7 @@
                   <value>Приложение</value>
                 </title>
                 <extendedTooltip>
-                  <name>ГруппаПриложениеExtendedTooltip</name>
+                  <name>ГруппаПриложениеРасширеннаяПодсказка</name>
                   <id>172</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1204,7 +1188,7 @@
                 <value>Пользователь компьютер приложение</value>
               </title>
               <extendedTooltip>
-                <name>ГруппаПользовательКомпьютерПриложениеExtendedTooltip</name>
+                <name>ГруппаПользовательКомпьютерПриложениеРасширеннаяПодсказка</name>
                 <id>169</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1230,6 +1214,10 @@
               <items xsi:type="form:FormField">
                 <name>РабочийСервер</name>
                 <id>85</id>
+                <title>
+                  <key>ru</key>
+                  <value>Рабочий сервер</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1239,7 +1227,7 @@
                   <segments>Журнал.РабочийСервер</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>РабочийСерверExtendedTooltip</name>
+                  <name>РабочийСерверРасширеннаяПодсказка</name>
                   <id>176</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1263,25 +1251,23 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <type>InputField</type>
+                <type>LabelField</type>
                 <editMode>Enter</editMode>
                 <showInHeader>true</showInHeader>
                 <headerHorizontalAlign>Left</headerHorizontalAlign>
                 <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:InputFieldExtInfo">
+                <extInfo xsi:type="form:LabelFieldExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
-                  <chooseType>true</chooseType>
-                  <typeDomainEnabled>true</typeDomainEnabled>
-                  <textEdit>true</textEdit>
-                  <borderColor xsi:type="core:ColorRef">
-                    <color>Style.BorderColor</color>
-                  </borderColor>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
                 <name>ОсновнойIPПорт</name>
                 <id>89</id>
+                <title>
+                  <key>ru</key>
+                  <value>Основной IP порт</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1291,7 +1277,7 @@
                   <segments>Журнал.ОсновнойIPПорт</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ОсновнойIPПортExtendedTooltip</name>
+                  <name>ОсновнойIPПортРасширеннаяПодсказка</name>
                   <id>177</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1315,25 +1301,23 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <type>InputField</type>
+                <type>LabelField</type>
                 <editMode>Enter</editMode>
                 <showInHeader>true</showInHeader>
                 <headerHorizontalAlign>Left</headerHorizontalAlign>
                 <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:InputFieldExtInfo">
+                <extInfo xsi:type="form:LabelFieldExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
-                  <chooseType>true</chooseType>
-                  <typeDomainEnabled>true</typeDomainEnabled>
-                  <textEdit>true</textEdit>
-                  <borderColor xsi:type="core:ColorRef">
-                    <color>Style.BorderColor</color>
-                  </borderColor>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
                 <name>ВспомогательныйIPПорт</name>
                 <id>91</id>
+                <title>
+                  <key>ru</key>
+                  <value>Вспомогательный IP порт</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1347,7 +1331,7 @@
                   <value>Вспомогательный IP порт</value>
                 </toolTip>
                 <extendedTooltip>
-                  <name>ВспомогательныйIPПортExtendedTooltip</name>
+                  <name>ВспомогательныйIPПортРасширеннаяПодсказка</name>
                   <id>178</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1371,20 +1355,14 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <type>InputField</type>
+                <type>LabelField</type>
                 <editMode>Enter</editMode>
                 <showInHeader>true</showInHeader>
                 <headerHorizontalAlign>Left</headerHorizontalAlign>
                 <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:InputFieldExtInfo">
+                <extInfo xsi:type="form:LabelFieldExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
-                  <chooseType>true</chooseType>
-                  <typeDomainEnabled>true</typeDomainEnabled>
-                  <textEdit>true</textEdit>
-                  <borderColor xsi:type="core:ColorRef">
-                    <color>Style.BorderColor</color>
-                  </borderColor>
                 </extInfo>
               </items>
               <enabled>true</enabled>
@@ -1394,7 +1372,7 @@
                 <value>Сервер</value>
               </title>
               <extendedTooltip>
-                <name>ГруппаСерверExtendedTooltip</name>
+                <name>ГруппаСерверРасширеннаяПодсказка</name>
                 <id>175</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1433,7 +1411,7 @@
                   <segments>Журнал.СтатусТранзакции</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>СтатусТранзакцииExtendedTooltip</name>
+                  <name>СтатусТранзакцииРасширеннаяПодсказка</name>
                   <id>180</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1457,25 +1435,23 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <type>InputField</type>
+                <type>LabelField</type>
                 <editMode>Enter</editMode>
                 <showInHeader>true</showInHeader>
                 <headerHorizontalAlign>Left</headerHorizontalAlign>
                 <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:InputFieldExtInfo">
+                <extInfo xsi:type="form:LabelFieldExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
-                  <chooseType>true</chooseType>
-                  <typeDomainEnabled>true</typeDomainEnabled>
-                  <textEdit>true</textEdit>
-                  <borderColor xsi:type="core:ColorRef">
-                    <color>Style.BorderColor</color>
-                  </borderColor>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
                 <name>Транзакция</name>
                 <id>71</id>
+                <title>
+                  <key>ru</key>
+                  <value>Транзакция</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1485,7 +1461,7 @@
                   <segments>Журнал.Транзакция</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ТранзакцияExtendedTooltip</name>
+                  <name>ТранзакцияРасширеннаяПодсказка</name>
                   <id>181</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1509,20 +1485,14 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <type>InputField</type>
+                <type>LabelField</type>
                 <editMode>Enter</editMode>
                 <showInHeader>true</showInHeader>
                 <headerHorizontalAlign>Left</headerHorizontalAlign>
                 <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:InputFieldExtInfo">
+                <extInfo xsi:type="form:LabelFieldExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
-                  <chooseType>true</chooseType>
-                  <typeDomainEnabled>true</typeDomainEnabled>
-                  <textEdit>true</textEdit>
-                  <borderColor xsi:type="core:ColorRef">
-                    <color>Style.BorderColor</color>
-                  </borderColor>
                 </extInfo>
               </items>
               <enabled>true</enabled>
@@ -1534,7 +1504,7 @@
                 <value>Транзакция</value>
               </title>
               <extendedTooltip>
-                <name>ГруппаТранзакцияExtendedTooltip</name>
+                <name>ГруппаТранзакцияРасширеннаяПодсказка</name>
                 <id>179</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1573,7 +1543,7 @@
                   <segments>Журнал.ПредставлениеМетаданных</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ПредставлениеМетаданныхExtendedTooltip</name>
+                  <name>ПредставлениеМетаданныхРасширеннаяПодсказка</name>
                   <id>183</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1597,25 +1567,23 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <type>InputField</type>
+                <type>LabelField</type>
                 <editMode>Enter</editMode>
                 <showInHeader>true</showInHeader>
                 <headerHorizontalAlign>Left</headerHorizontalAlign>
                 <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:InputFieldExtInfo">
+                <extInfo xsi:type="form:LabelFieldExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
-                  <chooseType>true</chooseType>
-                  <typeDomainEnabled>true</typeDomainEnabled>
-                  <textEdit>true</textEdit>
-                  <borderColor xsi:type="core:ColorRef">
-                    <color>Style.BorderColor</color>
-                  </borderColor>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
                 <name>Данные</name>
                 <id>76</id>
+                <title>
+                  <key>ru</key>
+                  <value>Данные</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1625,7 +1593,7 @@
                   <segments>Журнал.Данные</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ДанныеExtendedTooltip</name>
+                  <name>ДанныеРасширеннаяПодсказка</name>
                   <id>184</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1649,25 +1617,24 @@
                   </userVisible>
                   <autoFill>true</autoFill>
                 </contextMenu>
-                <type>InputField</type>
+                <type>LabelField</type>
+                <horizontalAlign>Left</horizontalAlign>
                 <editMode>Enter</editMode>
                 <showInHeader>true</showInHeader>
                 <headerHorizontalAlign>Left</headerHorizontalAlign>
                 <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:InputFieldExtInfo">
+                <extInfo xsi:type="form:LabelFieldExtInfo">
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
-                  <chooseType>true</chooseType>
-                  <typeDomainEnabled>true</typeDomainEnabled>
-                  <textEdit>true</textEdit>
-                  <borderColor xsi:type="core:ColorRef">
-                    <color>Style.BorderColor</color>
-                  </borderColor>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
                 <name>ПредставлениеДанных</name>
                 <id>78</id>
+                <title>
+                  <key>ru</key>
+                  <value>Представление данных</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1677,7 +1644,7 @@
                   <segments>Журнал.ПредставлениеДанных</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ПредставлениеДанныхExtendedTooltip</name>
+                  <name>ПредставлениеДанныхРасширеннаяПодсказка</name>
                   <id>185</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -1720,7 +1687,7 @@
                 <value>Данные</value>
               </title>
               <extendedTooltip>
-                <name>ГруппаДанныеExtendedTooltip</name>
+                <name>ГруппаДанныеРасширеннаяПодсказка</name>
                 <id>182</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1743,6 +1710,10 @@
             <items xsi:type="form:FormField">
               <name>СведенияОСобытии</name>
               <id>130</id>
+              <title>
+                <key>ru</key>
+                <value>Сведения о событии</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1752,7 +1723,7 @@
                 <segments>Журнал.СведенияОСобытии</segments>
               </dataPath>
               <extendedTooltip>
-                <name>СведенияОСобытииExtendedTooltip</name>
+                <name>СведенияОСобытииРасширеннаяПодсказка</name>
                 <id>186</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1776,18 +1747,14 @@
                 </userVisible>
                 <autoFill>true</autoFill>
               </contextMenu>
-              <type>InputField</type>
+              <type>LabelField</type>
               <editMode>EnterOnInput</editMode>
               <showInHeader>true</showInHeader>
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
-              <extInfo xsi:type="form:InputFieldExtInfo">
+              <extInfo xsi:type="form:LabelFieldExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
-                <wrap>true</wrap>
-                <chooseType>true</chooseType>
-                <typeDomainEnabled>true</typeDomainEnabled>
-                <textEdit>true</textEdit>
               </extInfo>
             </items>
             <autoCommandBar>
@@ -1921,7 +1888,7 @@
               </extInfo>
             </searchControlAddition>
             <extendedTooltip>
-              <name>ЖурналExtendedTooltip</name>
+              <name>ЖурналРасширеннаяПодсказка</name>
               <id>164</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1944,6 +1911,10 @@
                 <items xsi:type="form:Button">
                   <name>УстановитьОтборПоЗначениюВТекущейКолонкеКонтекст</name>
                   <id>98</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Установить отбор по значению в текущей колонке</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1951,7 +1922,7 @@
                   </userVisible>
                   <skipOnInput>false</skipOnInput>
                   <extendedTooltip>
-                    <name>УстановитьОтборПоЗначениюВТекущейКолонкеКонтекстExtendedTooltip</name>
+                    <name>УстановитьОтборПоЗначениюВТекущейКолонкеКонтекстРасширеннаяПодсказка</name>
                     <id>161</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1984,13 +1955,17 @@
                 <items xsi:type="form:Button">
                   <name>ЖурналКонтекстноеМенюОтключитьОтбор</name>
                   <id>113</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Отключить отбор</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ЖурналКонтекстноеМенюОтключитьОтборExtendedTooltip</name>
+                    <name>ЖурналКонтекстноеМенюОтключитьОтборРасширеннаяПодсказка</name>
                     <id>162</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -2021,7 +1996,7 @@
                   <value>Отбор группа контекст</value>
                 </title>
                 <extendedTooltip>
-                  <name>ОтборГруппаКонтекстExtendedTooltip</name>
+                  <name>ОтборГруппаКонтекстРасширеннаяПодсказка</name>
                   <id>160</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2040,6 +2015,10 @@
               <items xsi:type="form:Button">
                 <name>ПросмотрТекущегоСобытияВОтдельномОкнеКонтекст</name>
                 <id>96</id>
+                <title>
+                  <key>ru</key>
+                  <value>Просмотр текущего события</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2047,7 +2026,7 @@
                 </userVisible>
                 <skipOnInput>false</skipOnInput>
                 <extendedTooltip>
-                  <name>ПросмотрТекущегоСобытияВОтдельномОкнеКонтекстExtendedTooltip</name>
+                  <name>ПросмотрТекущегоСобытияВОтдельномОкнеКонтекстРасширеннаяПодсказка</name>
                   <id>163</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -2122,7 +2101,7 @@
             <value>Журнал регистрации</value>
           </title>
           <extendedTooltip>
-            <name>ЖурналРегистрацииExtendedTooltip</name>
+            <name>ЖурналРегистрацииРасширеннаяПодсказка</name>
             <id>159</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2148,6 +2127,10 @@
           <items xsi:type="form:FormField">
             <name>ПолеИндикаторДлительныхОпераций</name>
             <id>135</id>
+            <title>
+              <key>ru</key>
+              <value>Поле индикатор длительных операций</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2158,7 +2141,7 @@
             </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
-              <name>ПолеИндикаторДлительныхОперацийExtendedTooltip</name>
+              <name>ПолеИндикаторДлительныхОперацийРасширеннаяПодсказка</name>
               <id>188</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2214,7 +2197,7 @@
             <value>Индикатор длительных операций</value>
           </title>
           <extendedTooltip>
-            <name>ИндикаторДлительныхОперацийExtendedTooltip</name>
+            <name>ИндикаторДлительныхОперацийРасширеннаяПодсказка</name>
             <id>187</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2244,7 +2227,7 @@
           <value>Страницы</value>
         </title>
         <extendedTooltip>
-          <name>СтраницыExtendedTooltip</name>
+          <name>СтраницыРасширеннаяПодсказка</name>
           <id>158</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2273,7 +2256,7 @@
         <value>Журнал</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаЖурналExtendedTooltip</name>
+        <name>ГруппаЖурналРасширеннаяПодсказка</name>
         <id>139</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2306,7 +2289,7 @@
       <value>Просмотр зарегистрированных событий</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаПросмотрЗарегистрированныхСобытийExtendedTooltip</name>
+      <name>ГруппаПросмотрЗарегистрированныхСобытийРасширеннаяПодсказка</name>
       <id>138</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -2360,6 +2343,7 @@
   <excludedCommands>Retry</excludedCommands>
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -2420,7 +2404,7 @@
       <name>ВспомогательныйIPПорт</name>
       <title>
         <key>ru</key>
-        <value>Вспомог. IP порт</value>
+        <value>Вспомогательный IP порт</value>
       </title>
       <id>1</id>
       <valueType>
@@ -2447,7 +2431,11 @@
         <types>Boolean</types>
         <types>String</types>
         <types>Date</types>
+        <types>Number</types>
         <types>AnyRef</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
         <stringQualifiers/>
         <dateQualifiers/>
       </valueType>
@@ -2548,8 +2536,7 @@
       <name>Метаданные</name>
       <id>8</id>
       <valueType>
-        <types>String</types>
-        <stringQualifiers/>
+        <types>ValueList</types>
       </valueType>
       <view>
         <common>true</common>
@@ -2618,7 +2605,6 @@
       </title>
       <id>12</id>
       <valueType>
-        <types>ValueList</types>
         <types>String</types>
         <stringQualifiers/>
       </valueType>
@@ -2800,7 +2786,7 @@
       </edit>
     </columns>
     <columns>
-      <name>АдресДанных</name>
+      <name>ДанныеСтрокой</name>
       <id>23</id>
       <valueType>
         <types>String</types>
@@ -2820,6 +2806,20 @@
         <value>Сведения о событии</value>
       </title>
       <id>24</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>КлючСобытия</name>
+      <id>25</id>
       <valueType>
         <types>String</types>
         <stringQualifiers/>
@@ -2936,17 +2936,6 @@
   <attributes>
     <name>ПараметрыОбработчикаОжидания</name>
     <id>12</id>
-    <valueType/>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ХранилищеДанных</name>
-    <id>11</id>
     <valueType/>
     <view>
       <common>true</common>

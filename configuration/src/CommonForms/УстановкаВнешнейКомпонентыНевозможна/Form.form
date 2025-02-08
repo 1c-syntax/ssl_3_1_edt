@@ -45,7 +45,7 @@
       <skipOnInput>false</skipOnInput>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Предупреждение32</picture>
+          <picture>StdPicture.DialogExclamation</picture>
         </picture>
       </extInfo>
     </items>
@@ -148,6 +148,40 @@
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <items xsi:type="form:Button">
+      <name>ФормаПродолжитьПопыткуУстановки</name>
+      <id>102</id>
+      <title>
+        <key>ru</key>
+        <value>Продолжить попытку установки</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаПродолжитьПопыткуУстановкиРасширеннаяПодсказка</name>
+        <id>103</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ПродолжитьПопыткуУстановки</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Button">
       <name>Закрыть</name>
       <id>100</id>
       <title>
@@ -193,7 +227,12 @@
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
   </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
+  </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -201,6 +240,23 @@
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
+  <formCommands>
+    <name>ПродолжитьПопыткуУстановки</name>
+    <title>
+      <key>ru</key>
+      <value>Продолжить попытку установки</value>
+    </title>
+    <id>1</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПродолжитьПопыткуУстановки</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <parameters>
     <name>ТекстПояснения</name>
     <valueType>
@@ -213,6 +269,12 @@
     <name>ПоддерживаемыеКлиенты</name>
     <valueType/>
     <keyParameter>true</keyParameter>
+  </parameters>
+  <parameters>
+    <name>ПослеОшибкиПодключения</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
   </parameters>
   <commandInterface>
     <navigationPanel/>

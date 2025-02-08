@@ -14,6 +14,7 @@
     <key>ru</key>
     <value>Неудаленные объекты</value>
   </synonym>
+  <defaultListForm>InformationRegister.НеудаленныеОбъекты.Form.ФормаСписка</defaultListForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
@@ -90,7 +91,14 @@
       <value>Объект</value>
     </synonym>
     <type>
-      <types>AnyRef</types>
+      <types>ExchangePlanRef</types>
+      <types>BusinessProcessRef</types>
+      <types>DocumentRef</types>
+      <types>ChartOfCalculationTypesRef</types>
+      <types>TaskRef</types>
+      <types>ChartOfCharacteristicTypesRef</types>
+      <types>ChartOfAccountsRef</types>
+      <types>CatalogRef</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -100,4 +108,13 @@
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="093a2243-329b-49b2-b6cd-80a1f7e4634a">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>

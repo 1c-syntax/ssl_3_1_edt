@@ -378,6 +378,52 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="52fd1e04-44b6-4405-a2de-ec5c0cf66b64">
+    <name>ОписаниеЯзык1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание (дополнительный язык)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выводится в панели отчетов как подсказка.</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9a647b38-73da-4491-997b-773059cfd1c9">
+    <name>ОписаниеЯзык2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание (дополнительный язык 2)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выводится в панели отчетов как подсказка.</value>
+    </toolTip>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="50a1e3bf-8624-4474-854e-21b89aaf97ed">
     <name>Отчет</name>
     <synonym>
@@ -513,6 +559,25 @@
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7b074b91-3c8e-48b3-8858-b6ea1c531f66">
+    <name>Назначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Назначение</value>
+    </synonym>
+    <type>
+      <types>EnumRef.НазначенияВариантовОтчетов</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.НазначенияВариантовОтчетов.EnumValue.ДляКомпьютеровИПланшетов</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
   <tabularSections uuid="3df19dbf-efe7-4e31-99ad-fafb59ec1329">

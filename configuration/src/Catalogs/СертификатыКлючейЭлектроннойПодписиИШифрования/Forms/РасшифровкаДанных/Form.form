@@ -104,6 +104,10 @@
       <items xsi:type="form:FormField">
         <name>Сертификат</name>
         <id>313</id>
+        <title>
+          <key>ru</key>
+          <value>Сертификат</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -188,6 +192,10 @@
         <items xsi:type="form:FormField">
           <name>Пароль</name>
           <id>316</id>
+          <title>
+            <key>ru</key>
+            <value>Пароль</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -231,13 +239,22 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
+            <handlers>
+              <event>StartChoice</event>
+              <name>ПарольНачалоВыбора</name>
+            </handlers>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <horizontalStretch>false</horizontalStretch>
             <passwordMode>true</passwordMode>
+            <choiceButton>true</choiceButton>
+            <choiceButtonPicture xsi:type="core:PictureRef">
+              <picture>CommonPicture.ВводимыеСимволыВидны</picture>
+            </choiceButtonPicture>
             <chooseType>true</chooseType>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
+            <editTextUpdate>OnValueChange</editTextUpdate>
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
@@ -258,7 +275,7 @@
           <titleLocation>Right</titleLocation>
           <toolTip>
             <key>ru</key>
-            <value>Запомнить пароль сертификата до закрытия программы. При снятии флажка пароль стирается из памяти, если запоминался ранее.</value>
+            <value>Запомнить пароль сертификата до закрытия приложения. При снятии флажка пароль стирается из памяти, если запоминался ранее.</value>
           </toolTip>
           <toolTipRepresentation>Button</toolTipRepresentation>
           <handlers>
@@ -348,11 +365,6 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <toolTip>
-              <key>ru</key>
-              <value>Пароль запрашивает программа электронной подписи, а не программа 1С:Предприятие,
-так как для выбранного сертификата указана усиленная защита закрытого ключа.</value>
-            </toolTip>
             <toolTipRepresentation>Button</toolTipRepresentation>
             <extendedTooltip>
               <name>ПояснениеУсиленногоПароляРасширеннаяПодсказка</name>
@@ -680,6 +692,10 @@
       <items xsi:type="form:Button">
         <name>ФормаРасшифровать</name>
         <id>465</id>
+        <title>
+          <key>ru</key>
+          <value>Расшифровать</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -865,6 +881,7 @@
   </handlers>
   <width>56</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -1101,7 +1118,7 @@
     </edit>
   </attributes>
   <attributes>
-    <name>СертификатУсиленнаяЗащитаЗакрытогоКлюча</name>
+    <name>СертификатВводитьПарольВПрограммеЭлектроннойПодписи</name>
     <id>18</id>
     <valueType>
       <types>Boolean</types>

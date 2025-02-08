@@ -111,10 +111,10 @@
               </extInfo>
             </items>
             <items xsi:type="form:FormGroup">
-              <name>Группа1</name>
+              <name>ГруппаВыборВариантаАвтоматическогоРезервногоКопирования</name>
               <id>424</id>
               <items xsi:type="form:FormGroup">
-                <name>Группа3</name>
+                <name>ГруппаВариантПоРасписанию</name>
                 <id>432</id>
                 <items xsi:type="form:FormField">
                   <name>ВариантПоРасписанию</name>
@@ -188,7 +188,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>ИзменитьРасписаниеExtendedTooltip</name>
+                    <name>ИзменитьРасписаниеРасширеннаяПодсказка</name>
                     <id>289</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -215,8 +215,12 @@
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <title>
+                  <key>ru</key>
+                  <value>Вариант по расписанию</value>
+                </title>
                 <extendedTooltip>
-                  <name>Группа3РасширеннаяПодсказка</name>
+                  <name>ГруппаВариантПоРасписаниюРасширеннаяПодсказка</name>
                   <id>433</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -244,9 +248,7 @@
                 <id>426</id>
                 <title>
                   <key>ru</key>
-                  <value>При составлении расписания необходимо учитывать, что если к моменту запуска резервного
-копирования программа не будет работать, то резервное копирование не выполнится. При выполнении
-резервного копирования работа всех пользователей в программе будет завершена.</value>
+                  <value>Необходимо учитывать, что если к моменту запуска резервного копирования по расписанию приложение не запущено, то резервное копирование не выполнится. </value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -279,13 +281,14 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>Label</type>
+                <maxWidth>60</maxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <textColor xsi:type="core:ColorRef">
                   <color>Style.ПоясняющийТекст</color>
                 </textColor>
                 <extInfo xsi:type="form:LabelDecorationExtInfo">
                   <horizontalAlign>Left</horizontalAlign>
-                  <titleHeight>3</titleHeight>
+                  <titleHeight>1</titleHeight>
                 </extInfo>
               </items>
               <items xsi:type="form:FormField">
@@ -352,7 +355,7 @@
                 <id>429</id>
                 <title>
                   <key>ru</key>
-                  <value>При каждом выходе из программы администратору предлагается выполнить резервное копирование. При выполнении резервного копирования работа всех пользователей в программе будет завершена.</value>
+                  <value>Каждый раз при закрытии приложения администратору предлагается выполнить резервное копирование.</value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -385,13 +388,14 @@
                   <autoFill>true</autoFill>
                 </contextMenu>
                 <type>Label</type>
+                <maxWidth>60</maxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <textColor xsi:type="core:ColorRef">
                   <color>Style.ПоясняющийТекст</color>
                 </textColor>
                 <extInfo xsi:type="form:LabelDecorationExtInfo">
                   <horizontalAlign>Left</horizontalAlign>
-                  <titleHeight>2</titleHeight>
+                  <titleHeight>1</titleHeight>
                 </extInfo>
               </items>
               <visible>true</visible>
@@ -399,8 +403,12 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Выбор варианта автоматического резервного копирования</value>
+              </title>
               <extendedTooltip>
-                <name>Группа1РасширеннаяПодсказка</name>
+                <name>ГруппаВыборВариантаАвтоматическогоРезервногоКопированияРасширеннаяПодсказка</name>
                 <id>425</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -616,7 +624,7 @@
             <id>55</id>
             <title>
               <key>ru</key>
-              <value>Папка для сохранения резервных копий</value>
+              <value>Каталог для сохранения резервных копий</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -633,7 +641,7 @@
               <id>292</id>
               <title>
                 <key>ru</key>
-                <value>Рекомендуется выполнять резервное копирование на другой компьютер или внешний носитель.</value>
+                <value>Рекомендуется выполнять резервное копирование на другой компьютер или внешний носитель.  При резервном копировании работа всех пользователей в приложении будет завершена.</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -716,6 +724,10 @@
           <items xsi:type="form:FormField">
             <name>АдминистраторИБ1</name>
             <id>255</id>
+            <title>
+              <key>ru</key>
+              <value>Имя администратора</value>
+            </title>
             <visible>true</visible>
             <userVisible>
               <common>true</common>
@@ -724,7 +736,7 @@
               <segments>АдминистраторИБ</segments>
             </dataPath>
             <extendedTooltip>
-              <name>АдминистраторИБ1ExtendedTooltip</name>
+              <name>АдминистраторИБ1РасширеннаяПодсказка</name>
               <id>295</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -764,11 +776,15 @@
             </extInfo>
           </items>
           <items xsi:type="form:FormGroup">
-            <name>Группа2</name>
+            <name>ГруппаПароль</name>
             <id>396</id>
             <items xsi:type="form:FormField">
               <name>ПарольАдминистратораИБ1</name>
               <id>257</id>
+              <title>
+                <key>ru</key>
+                <value>Пароль</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -778,7 +794,7 @@
                 <segments>ПарольАдминистратораИБ</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ПарольАдминистратораИБ1ExtendedTooltip</name>
+                <name>ПарольАдминистратораИБ1РасширеннаяПодсказка</name>
                 <id>296</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -823,8 +839,12 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Пароль</value>
+            </title>
             <extendedTooltip>
-              <name>Группа2РасширеннаяПодсказка</name>
+              <name>ГруппаПарольРасширеннаяПодсказка</name>
               <id>397</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -857,7 +877,7 @@
             <value>Авторизации</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаАвторизацииExtendedTooltip</name>
+            <name>ГруппаАвторизацииРасширеннаяПодсказка</name>
             <id>294</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -926,7 +946,7 @@
             </extInfo>
           </items>
           <items xsi:type="form:FormGroup">
-            <name>Группа5</name>
+            <name>ГруппаТипОграниченияКаталогаСРезервнымиКопиями</name>
             <id>416</id>
             <items xsi:type="form:FormField">
               <name>ТипОграниченияКаталогаСРезервнымиКопиями</name>
@@ -945,7 +965,7 @@
                 <name>ТипОграниченияКаталогаСРезервнымиКопиямиПриИзменении</name>
               </handlers>
               <extendedTooltip>
-                <name>ТипОграниченияКаталогаСРезервнымиКопиямиExtendedTooltip</name>
+                <name>ТипОграниченияКаталогаСРезервнымиКопиямиРасширеннаяПодсказка</name>
                 <id>300</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -989,7 +1009,7 @@
               </extInfo>
             </items>
             <items xsi:type="form:FormGroup">
-              <name>Группа6</name>
+              <name>ГруппаОграниченияКаталогаСРезервнымиКопиями</name>
               <id>448</id>
               <items xsi:type="form:FormField">
                 <name>ТипОграниченияКаталогаСРезервнымиКопиями1</name>
@@ -1127,7 +1147,7 @@
                   </dataPath>
                   <titleLocation>None</titleLocation>
                   <extendedTooltip>
-                    <name>ЕдиницаИзмеренияПериодаХраненияРезервныхКопийExtendedTooltip</name>
+                    <name>ЕдиницаИзмеренияПериодаХраненияРезервныхКопийРасширеннаяПодсказка</name>
                     <id>304</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1164,6 +1184,7 @@
                     <width>7</width>
                     <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
+                    <horizontalStretch>false</horizontalStretch>
                     <wrap>true</wrap>
                     <extendedEdit>false</extendedEdit>
                     <listChoiceMode>true</listChoiceMode>
@@ -1245,8 +1266,12 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Ограничения каталога с резервными копиями</value>
+              </title>
               <extendedTooltip>
-                <name>Группа6РасширеннаяПодсказка</name>
+                <name>ГруппаОграниченияКаталогаСРезервнымиКопиямиРасширеннаяПодсказка</name>
                 <id>449</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1269,7 +1294,7 @@
               </extInfo>
             </items>
             <items xsi:type="form:FormGroup">
-              <name>Группа7</name>
+              <name>ГруппаЕщеОграниченияКаталогаСРезервнымиКопиями</name>
               <id>450</id>
               <items xsi:type="form:FormField">
                 <name>ТипОграниченияКаталогаСРезервнымиКопиями2</name>
@@ -1475,8 +1500,12 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Ограничения каталога с резервными копиями</value>
+              </title>
               <extendedTooltip>
-                <name>Группа7РасширеннаяПодсказка</name>
+                <name>ГруппаЕщеОграниченияКаталогаСРезервнымиКопиямиРасширеннаяПодсказка</name>
                 <id>451</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1503,8 +1532,12 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Ограничение каталога с резервными копиями</value>
+            </title>
             <extendedTooltip>
-              <name>Группа5РасширеннаяПодсказка</name>
+              <name>ГруппаТипОграниченияКаталогаСРезервнымиКопиямиРасширеннаяПодсказка</name>
               <id>417</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1604,7 +1637,7 @@
         <value>Страница настройки параметров резервного копирования</value>
       </title>
       <extendedTooltip>
-        <name>СтраницаНастройкиПараметровРезервногоКопированияExtendedTooltip</name>
+        <name>СтраницаНастройкиПараметровРезервногоКопированияРасширеннаяПодсказка</name>
         <id>283</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1639,7 +1672,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>Картинка12ExtendedTooltip</name>
+            <name>Картинка12РасширеннаяПодсказка</name>
             <id>333</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1668,7 +1701,7 @@
           <skipOnInput>false</skipOnInput>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Предупреждение32</picture>
+              <picture>StdPicture.DialogExclamation</picture>
             </picture>
           </extInfo>
         </items>
@@ -1850,7 +1883,7 @@
             <value>Ошибки</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаОшибкиExtendedTooltip</name>
+            <name>ГруппаОшибкиРасширеннаяПодсказка</name>
             <id>334</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1883,7 +1916,7 @@
           <value>Горизонтальная группа ошибка подключения</value>
         </title>
         <extendedTooltip>
-          <name>ГоризонтальнаяГруппаОшибкаПодключенияExtendedTooltip</name>
+          <name>ГоризонтальнаяГруппаОшибкаПодключенияРасширеннаяПодсказка</name>
           <id>332</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1924,7 +1957,7 @@
             <segments>АдминистраторИБ</segments>
           </dataPath>
           <extendedTooltip>
-            <name>АдминистраторИБExtendedTooltip</name>
+            <name>АдминистраторИБРасширеннаяПодсказка</name>
             <id>338</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1979,7 +2012,7 @@
             <segments>ПарольАдминистратораИБ</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ПарольАдминистратораИБExtendedTooltip</name>
+            <name>ПарольАдминистратораИБРасширеннаяПодсказка</name>
             <id>339</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2029,7 +2062,7 @@
           <value>Если задан неправильный пароль администратора, введите его еще раз</value>
         </title>
         <extendedTooltip>
-          <name>АвторизацияАдминистратораИнформационнойБазыExtendedTooltip</name>
+          <name>АвторизацияАдминистратораИнформационнойБазыРасширеннаяПодсказка</name>
           <id>337</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2064,7 +2097,7 @@
         <value>Дополнительные настройки</value>
       </title>
       <extendedTooltip>
-        <name>ДополнительныеНастройкиExtendedTooltip</name>
+        <name>ДополнительныеНастройкиРасширеннаяПодсказка</name>
         <id>330</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2094,7 +2127,7 @@
       <value>Страницы помощника</value>
     </title>
     <extendedTooltip>
-      <name>СтраницыПомощникаExtendedTooltip</name>
+      <name>СтраницыПомощникаРасширеннаяПодсказка</name>
       <id>268</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -2129,7 +2162,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ДалееExtendedTooltip</name>
+        <name>ДалееРасширеннаяПодсказка</name>
         <id>266</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2265,6 +2298,7 @@
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

@@ -22,7 +22,7 @@
           <name>ТипПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ТипExtendedTooltip</name>
+          <name>ТипРасширеннаяПодсказка</name>
           <id>86</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -118,7 +118,7 @@
         <name>НаименованиеПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>87</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -167,7 +167,7 @@
         <segments>Объект.Parent</segments>
       </dataPath>
       <extendedTooltip>
-        <name>РодительExtendedTooltip</name>
+        <name>РодительРасширеннаяПодсказка</name>
         <id>89</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -247,6 +247,51 @@
       <name>ГруппаТипОбщиеДляВсех</name>
       <id>64</id>
       <items xsi:type="form:FormField">
+        <name>ОтображатьВсегда</name>
+        <id>189</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.ОтображатьВсегда</segments>
+        </dataPath>
+        <titleLocation>Right</titleLocation>
+        <toolTipRepresentation>Button</toolTipRepresentation>
+        <extendedTooltip>
+          <name>ОтображатьВсегдаРасширеннаяПодсказка</name>
+          <id>191</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ОтображатьВсегдаКонтекстноеМеню</name>
+          <id>190</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>CheckBoxField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+      </items>
+      <items xsi:type="form:FormField">
         <name>ОбязательноеЗаполнение</name>
         <id>18</id>
         <visible>true</visible>
@@ -258,8 +303,12 @@
           <segments>Объект.ОбязательноеЗаполнение</segments>
         </dataPath>
         <titleLocation>Right</titleLocation>
+        <handlers>
+          <event>OnChange</event>
+          <name>ОбязательноеЗаполнениеПриИзменении</name>
+        </handlers>
         <extendedTooltip>
-          <name>ОбязательноеЗаполнениеExtendedTooltip</name>
+          <name>ОбязательноеЗаполнениеРасширеннаяПодсказка</name>
           <id>92</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -433,7 +482,7 @@
           <titleLocation>Right</titleLocation>
           <toolTip>
             <key>ru</key>
-            <value>Поле контактной информации хранит не только текущее значение, но и его историю изменений на указанную дату. Для просмотра истории необходимо в контекстном меню элемента контактной информации выбрать пункт «История изменений».</value>
+            <value>Поле контактной информации хранит не только текущее значение, но и его историю изменений на указанную дату. Для просмотра истории выберите в контекстном меню пункт &quot;История изменений&quot;.</value>
           </toolTip>
           <toolTipRepresentation>Button</toolTipRepresentation>
           <handlers>
@@ -526,7 +575,7 @@
           <name>РазрешитьВводНесколькихЗначенийПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>РазрешитьВводНесколькихЗначенийExtendedTooltip</name>
+          <name>РазрешитьВводНесколькихЗначенийРасширеннаяПодсказка</name>
           <id>94</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -567,7 +616,7 @@
         <value>Тип общие для всех</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаТипОбщиеДляВсехExtendedTooltip</name>
+        <name>ГруппаТипОбщиеДляВсехРасширеннаяПодсказка</name>
         <id>91</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -613,7 +662,7 @@
             </dataPath>
             <titleLocation>Right</titleLocation>
             <extendedTooltip>
-              <name>ВключатьСтрануВПредставлениеExtendedTooltip</name>
+              <name>ВключатьСтрануВПредставлениеРасширеннаяПодсказка</name>
               <id>107</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -695,6 +744,10 @@
           <items xsi:type="form:Button">
             <name>ДополнительныеНастройкиАдреса</name>
             <id>153</id>
+            <title>
+              <key>ru</key>
+              <value>Дополнительные настройки адреса</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -733,7 +786,7 @@
             <value>Адрес</value>
           </title>
           <extendedTooltip>
-            <name>АдресExtendedTooltip</name>
+            <name>АдресРасширеннаяПодсказка</name>
             <id>100</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -773,7 +826,7 @@
             </dataPath>
             <titleLocation>Right</titleLocation>
             <extendedTooltip>
-              <name>ПроверятьКорректностьExtendedTooltip</name>
+              <name>ПроверятьКорректностьРасширеннаяПодсказка</name>
               <id>109</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -814,7 +867,7 @@
             <value>Адрес электронной почты</value>
           </title>
           <extendedTooltip>
-            <name>АдресЭлектроннойПочтыExtendedTooltip</name>
+            <name>АдресЭлектроннойПочтыРасширеннаяПодсказка</name>
             <id>108</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -838,7 +891,7 @@
           <name>Телефон</name>
           <id>132</id>
           <items xsi:type="form:FormField">
-            <name>ТелефонCДобавочнымНомером</name>
+            <name>ТелефонСДобавочнымНомером</name>
             <id>134</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -846,11 +899,15 @@
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:DataPath">
-              <segments>Объект.ТелефонCДобавочнымНомером</segments>
+              <segments>Объект.ТелефонСДобавочнымНомером</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>ТелефонСДобавочнымНомеромПриИзменении</name>
+            </handlers>
             <extendedTooltip>
-              <name>ТелефонCДобавочнымНомеромРасширеннаяПодсказка</name>
+              <name>ТелефонСДобавочнымНомеромРасширеннаяПодсказка</name>
               <id>136</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -865,7 +922,7 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>ТелефонCДобавочнымНомеромКонтекстноеМеню</name>
+              <name>ТелефонСДобавочнымНомеромКонтекстноеМеню</name>
               <id>135</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -945,6 +1002,10 @@
               <segments>Объект.ВводитьНомерПоМаске</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
+            <handlers>
+              <event>OnChange</event>
+              <name>МаскаПриВводеНомераТелефонаПриИзменении</name>
+            </handlers>
             <extendedTooltip>
               <name>МаскаПриВводеНомераТелефонаРасширеннаяПодсказка</name>
               <id>180</id>
@@ -1043,12 +1104,10 @@
 &lt;font Arial>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>! - любой введенный символ преобразуется в верхний регистр;&lt;/>&lt;/>&lt;/>&lt;/>
 &lt;font Arial>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>9 - допустимо ввести произвольный символ цифры;&lt;/>&lt;/>&lt;/>&lt;/>
 &lt;font Arial>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333># - допустимо ввести произвольный символ цифры или - (знак минус) или + (знак плюс) или пробел;&lt;/>&lt;/>&lt;/>&lt;/>
-&lt;font Arial>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>N - допустимо ввести любые алфавитно-цифровые символы (буквы или цифры);&lt;/>&lt;/>&lt;/>&lt;/>
-&lt;font Arial>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>U - допустимо ввести любые алфавитно-цифровые символы (буквы или цифры) и любой введенный символ преобразуется в верхний регистр;&lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Arial>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>N - допустимо ввести любой алфавитно-цифровой символ (буква или цифра);&lt;/>&lt;/>&lt;/>&lt;/>
+&lt;font Arial>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>U - допустимо ввести любой алфавитно-цифровой символ (буква или цифра) и любой введенный символ преобразуется в верхний регистр;&lt;/>&lt;/>&lt;/>&lt;/>
 &lt;font Arial>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>X (латинского алфавита) - допустимо ввести произвольный символ;&lt;/>&lt;/>&lt;/>&lt;/>
-&lt;font Arial>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>^ - недопустимо вводить этот символ интерактивно пользователем, он может устанавливаться только из языка;&lt;/>&lt;/>&lt;/>&lt;/>
-&lt;font Arial>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>@ – допустимо ввести любые алфавитно-цифровые символы (буквы или цифры) в верхнем регистре или пробел.&lt;/>&lt;/>&lt;/>&lt;/>
-&lt;font Arial>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>&lt;/>&lt;/>&lt;/>&lt;/></value>
+&lt;font Arial>&lt;fontsize 8>&lt;bgcolor #ffffff>&lt;color #333333>@ – допустимо ввести любой алфавитно-цифровой символ (буква или цифра) в верхнем регистре или пробел.&lt;/>&lt;/>&lt;/>&lt;/></value>
                 </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1317,7 +1376,7 @@
             <value>Другое</value>
           </title>
           <extendedTooltip>
-            <name>ДругоеExtendedTooltip</name>
+            <name>ДругоеРасширеннаяПодсказка</name>
             <id>110</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1420,7 +1479,7 @@
           <value>Проверки</value>
         </title>
         <extendedTooltip>
-          <name>ПроверкиExtendedTooltip</name>
+          <name>ПроверкиРасширеннаяПодсказка</name>
           <id>99</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1449,7 +1508,7 @@
         <value>Наименование настройки по типам</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаНаименованиеНастройкиПоТипамExtendedTooltip</name>
+        <name>ГруппаНаименованиеНастройкиПоТипамРасширеннаяПодсказка</name>
         <id>97</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1483,7 +1542,7 @@
       <value>Тип контактной информации</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаТипКонтактнойИнформацииExtendedTooltip</name>
+      <name>ГруппаТипКонтактнойИнформацииРасширеннаяПодсказка</name>
       <id>90</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1520,6 +1579,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>Объект.ИдентификаторДляФормул</segments>
       </dataPath>
+      <titleHeight>2</titleHeight>
       <extendedTooltip>
         <name>ИдентификаторДляФормулРасширеннаяПодсказка</name>
         <id>175</id>
@@ -1562,6 +1622,10 @@
     <items xsi:type="form:Button">
       <name>ЗаполнитьИдентификаторДляФормул</name>
       <id>176</id>
+      <title>
+        <key>ru</key>
+        <value>Заполнить идентификатор для формул</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1651,6 +1715,7 @@
     <name>ОбработкаПроверкиЗаполненияНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -1694,6 +1759,19 @@
   <attributes>
     <name>ДоступныДополнительныеНастройкиАдреса</name>
     <id>3</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ХранитИсториюИзменений</name>
+    <id>4</id>
     <valueType>
       <types>Boolean</types>
     </valueType>

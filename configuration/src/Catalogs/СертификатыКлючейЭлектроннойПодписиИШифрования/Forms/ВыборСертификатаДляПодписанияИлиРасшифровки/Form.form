@@ -315,7 +315,7 @@
             <id>860</id>
             <title>
               <key>ru</key>
-              <value>Требуется аутентификация облачной подписи значок</value>
+              <value>Требуется аутентификация DSS значок</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -361,7 +361,7 @@
             <id>863</id>
             <title>
               <key>ru</key>
-              <value>Чтобы отобразить сертификаты необходимо авторизоваться на сервере облачной подписи</value>
+              <value>Чтобы отобразить сертификаты необходимо авторизоваться на сервере DSS</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -465,6 +465,10 @@
           <items xsi:type="form:FormField">
             <name>СертификатыПредставление</name>
             <id>221</id>
+            <title>
+              <key>ru</key>
+              <value>Представление</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -516,6 +520,10 @@
           <items xsi:type="form:FormField">
             <name>СертификатыКемВыдан</name>
             <id>224</id>
+            <title>
+              <key>ru</key>
+              <value>Кем выдан</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -567,17 +575,21 @@
           <autoCommandBar>
             <name>СертификатыКоманднаяПанель</name>
             <id>219</id>
-            <items xsi:type="form:Button">
-              <name>Найти</name>
-              <id>810</id>
+            <items xsi:type="form:Addition">
+              <title>
+                <key>ru</key>
+                <value>Поиск</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <name>СтрокаПоиск</name>
+              <id>873</id>
               <extendedTooltip>
-                <name>НайтиРасширеннаяПодсказка</name>
-                <id>811</id>
+                <name>СтрокаПоискРасширеннаяПодсказка</name>
+                <id>875</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -590,46 +602,28 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <commandName>Form.Item.Сертификаты.StandardCommand.Find</commandName>
-              <representation>Auto</representation>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <placementArea>UserCmds</placementArea>
-              <representationInContextMenu>Auto</representationInContextMenu>
-            </items>
-            <items xsi:type="form:Button">
-              <name>ОтменитьПоиск</name>
-              <id>812</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <extendedTooltip>
-                <name>ОтменитьПоискРасширеннаяПодсказка</name>
-                <id>813</id>
+              <contextMenu>
+                <name>СтрокаПоискКонтекстноеМеню</name>
+                <id>874</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
-                <type>Label</type>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <source>СертификатыСтрокаПоиска</source>
+              <extInfo xsi:type="form:SearchStringAdditionExtInfo">
                 <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <commandName>Form.Item.Сертификаты.StandardCommand.CancelSearch</commandName>
-              <representation>Auto</representation>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <placementArea>UserCmds</placementArea>
-              <representationInContextMenu>Auto</representationInContextMenu>
+              </extInfo>
             </items>
             <items xsi:type="form:Button">
               <name>Обновить</name>
               <id>847</id>
+              <title>
+                <key>ru</key>
+                <value>Обновить</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -661,6 +655,10 @@
             <items xsi:type="form:Button">
               <name>ПоказатьДанныеТекущегоСертификата</name>
               <id>845</id>
+              <title>
+                <key>ru</key>
+                <value>Показать данные сертификата</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -871,6 +869,10 @@
             <items xsi:type="form:Button">
               <name>СертификатыКонтекстноеМенюОбновить</name>
               <id>737</id>
+              <title>
+                <key>ru</key>
+                <value>Обновить</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -901,6 +903,10 @@
             <items xsi:type="form:Button">
               <name>СертификатыКонтекстноеМенюПоказатьДанныеТекущегоСертификата</name>
               <id>746</id>
+              <title>
+                <key>ru</key>
+                <value>Показать данные сертификата</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -986,13 +992,20 @@
           <enableStartDrag>true</enableStartDrag>
           <enableDrag>true</enableDrag>
           <rowPictureDataPath xsi:type="form:DataPath">
-            <segments>Сертификаты.ТипРазмещения</segments>
+            <segments>Сертификаты.СостояниеСертификата</segments>
           </rowPictureDataPath>
+          <rowsPicture xsi:type="core:PictureRef">
+            <picture>CommonPicture.СостоянияСертификатов</picture>
+          </rowsPicture>
           <rowFilter xsi:type="core:UndefinedValue"/>
         </items>
         <items xsi:type="form:FormField">
           <name>ПоказыватьВсе</name>
           <id>805</id>
+          <title>
+            <key>ru</key>
+            <value>Показывать все сертификаты</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1047,7 +1060,7 @@
           <id>748</id>
           <title>
             <key>ru</key>
-            <value>Инструкции по работе с программами электронной подписи и шифрования</value>
+            <value>Инструкции по работе с приложениями электронной подписи и шифрования</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1131,6 +1144,10 @@
         <items xsi:type="form:Button">
           <name>Далее</name>
           <id>370</id>
+          <title>
+            <key>ru</key>
+            <value>Далее ></value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1221,6 +1238,102 @@
           <horizontalAlign>Right</horizontalAlign>
         </extInfo>
       </items>
+      <items xsi:type="form:FormGroup">
+        <name>КомандыВыборОтмена</name>
+        <id>876</id>
+        <items xsi:type="form:Button">
+          <name>ВыбратьСсылку</name>
+          <id>880</id>
+          <title>
+            <key>ru</key>
+            <value>Выбрать</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ВыбратьСсылкуРасширеннаяПодсказка</name>
+            <id>881</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.ВыбратьСсылку</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <items xsi:type="form:Button">
+          <name>Отмена</name>
+          <id>878</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОтменаРасширеннаяПодсказка</name>
+            <id>879</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.StandardCommand.Cancel</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Команды выбор отмена</value>
+        </title>
+        <extendedTooltip>
+          <name>КомандыВыборОтменаРасширеннаяПодсказка</name>
+          <id>877</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>CommandBar</type>
+        <extInfo xsi:type="form:CommandBarExtInfo">
+          <horizontalAlign>Right</horizontalAlign>
+        </extInfo>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1280,6 +1393,10 @@
             <items xsi:type="form:FormField">
               <name>СертификатОписаниеДанныхСвойство</name>
               <id>755</id>
+              <title>
+                <key>ru</key>
+                <value>Свойство</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1333,6 +1450,10 @@
             <items xsi:type="form:FormField">
               <name>СертификатОписаниеДанныхЗначение</name>
               <id>758</id>
+              <title>
+                <key>ru</key>
+                <value>Значение</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1537,8 +1658,8 @@
             <changeRowOrder>true</changeRowOrder>
             <width>51</width>
             <maxWidth>51</maxWidth>
-            <height>4</height>
             <autoMaxHeight>true</autoMaxHeight>
+            <heightControlVariant>ByContent</heightControlVariant>
             <autoMaxRowsCount>true</autoMaxRowsCount>
             <selectionMode>MultiRow</selectionMode>
             <rowSelectionMode>Row</rowSelectionMode>
@@ -1556,6 +1677,10 @@
           <items xsi:type="form:Button">
             <name>ПоказатьДанныеСертификата</name>
             <id>744</id>
+            <title>
+              <key>ru</key>
+              <value>Все свойства сертификата</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1577,9 +1702,9 @@
                 <horizontalAlign>Left</horizontalAlign>
               </extInfo>
             </extendedTooltip>
-            <type>UsualButton</type>
+            <type>Hyperlink</type>
             <commandName>Form.Command.ПоказатьДанныеСертификата</commandName>
-            <representation>Picture</representation>
+            <representation>PictureAndText</representation>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
@@ -1611,7 +1736,7 @@
           </extendedTooltip>
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
-            <group>HorizontalIfPossible</group>
+            <group>Vertical</group>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <throughAlign>Auto</throughAlign>
@@ -1621,6 +1746,10 @@
         <items xsi:type="form:FormField">
           <name>СертификатНаименование</name>
           <id>247</id>
+          <title>
+            <key>ru</key>
+            <value>Представление</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1687,6 +1816,10 @@
         <items xsi:type="form:FormField">
           <name>СертификатПользователь</name>
           <id>779</id>
+          <title>
+            <key>ru</key>
+            <value>Пользователь</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1741,6 +1874,10 @@
         <items xsi:type="form:FormField">
           <name>СертификатОрганизация</name>
           <id>253</id>
+          <title>
+            <key>ru</key>
+            <value>Организация</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1794,34 +1931,158 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
-          <name>ГруппаУсиленнаяЗащитаЗакрытогоКлюча</name>
-          <id>856</id>
+          <name>ГруппаФизическоеЛицо</name>
+          <id>866</id>
           <items xsi:type="form:FormField">
-            <name>СертификатУсиленнаяЗащитаЗакрытогоКлюча</name>
-            <id>528</id>
+            <name>СертификатФизическоеЛицо</name>
+            <id>868</id>
+            <title>
+              <key>ru</key>
+              <value>Физическое лицо</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <dataPath xsi:type="form:DataPath">
-              <segments>СертификатУсиленнаяЗащитаЗакрытогоКлюча</segments>
+              <segments>СертификатФизическоеЛицо</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>СертификатФизическоеЛицоРасширеннаяПодсказка</name>
+              <id>870</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>СертификатФизическоеЛицоКонтекстноеМеню</name>
+              <id>869</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <chooseType>true</chooseType>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:Button">
+            <name>ПодобратьФизическоеЛицо</name>
+            <id>871</id>
+            <title>
+              <key>ru</key>
+              <value>Подобрать физическое лицо</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ПодобратьФизическоеЛицоРасширеннаяПодсказка</name>
+              <id>872</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualButton</type>
+            <commandName>Form.Command.ПодобратьФизическоеЛицо</commandName>
+            <representation>Picture</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Физическое лицо</value>
+          </title>
+          <width>30</width>
+          <extendedTooltip>
+            <name>ГруппаФизическоеЛицоРасширеннаяПодсказка</name>
+            <id>867</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>AlwaysHorizontal</group>
+            <behavior>Auto</behavior>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаВводитьПарольВПрограммеЭлектроннойПодписи</name>
+          <id>856</id>
+          <items xsi:type="form:FormField">
+            <name>СертификатВводитьПарольВПрограммеЭлектроннойПодписи</name>
+            <id>528</id>
+            <title>
+              <key>ru</key>
+              <value>Вводить пароль в приложении электронной подписи</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>СертификатВводитьПарольВПрограммеЭлектроннойПодписи</segments>
             </dataPath>
             <titleLocation>Right</titleLocation>
-            <toolTip>
-              <key>ru</key>
-              <value>Уточняет, что пароль к закрытому ключу сертификата будет вводиться в отдельном окне
-программой электронной подписи и шифрования, а не программой 1С:Предприятие.
-
-Только для сертификатов, которые выпущены с усиленной защитой закрытого ключа.</value>
-            </toolTip>
             <toolTipRepresentation>Button</toolTipRepresentation>
             <handlers>
               <event>OnChange</event>
-              <name>СертификатУсиленнаяЗащитаЗакрытогоКлючаПриИзменении</name>
+              <name>СертификатВводитьПарольВПрограммеЭлектроннойПодписиПриИзменении</name>
             </handlers>
             <extendedTooltip>
-              <name>СертификатУсиленнаяЗащитаЗакрытогоКлючаРасширеннаяПодсказка</name>
+              <name>СертификатВводитьПарольВПрограммеЭлектроннойПодписиРасширеннаяПодсказка</name>
               <id>530</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1836,7 +2097,7 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>СертификатУсиленнаяЗащитаЗакрытогоКлючаКонтекстноеМеню</name>
+              <name>СертификатВводитьПарольВПрограммеЭлектроннойПодписиКонтекстноеМеню</name>
               <id>529</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1858,6 +2119,10 @@
             <items xsi:type="form:FormField">
               <name>Пароль</name>
               <id>355</id>
+              <title>
+                <key>ru</key>
+                <value>Пароль</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1906,13 +2171,22 @@
               <headerHorizontalAlign>Left</headerHorizontalAlign>
               <showInFooter>true</showInFooter>
               <extInfo xsi:type="form:InputFieldExtInfo">
+                <handlers>
+                  <event>StartChoice</event>
+                  <name>ПарольНачалоВыбора</name>
+                </handlers>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
                 <horizontalStretch>false</horizontalStretch>
                 <passwordMode>true</passwordMode>
+                <choiceButton>true</choiceButton>
+                <choiceButtonPicture xsi:type="core:PictureRef">
+                  <picture>CommonPicture.ВводимыеСимволыВидны</picture>
+                </choiceButtonPicture>
                 <chooseType>true</chooseType>
                 <typeDomainEnabled>true</typeDomainEnabled>
                 <textEdit>true</textEdit>
+                <editTextUpdate>OnValueChange</editTextUpdate>
               </extInfo>
             </items>
             <items xsi:type="form:FormField">
@@ -1933,7 +2207,7 @@
               <titleLocation>Right</titleLocation>
               <toolTip>
                 <key>ru</key>
-                <value>Запомнить пароль сертификата до закрытия программы. При снятии флажка пароль стирается из памяти, если запоминался ранее.</value>
+                <value>Запомнить пароль сертификата до закрытия приложения. При снятии флажка пароль стирается из памяти, если запоминался ранее.</value>
               </toolTip>
               <toolTipRepresentation>Button</toolTipRepresentation>
               <handlers>
@@ -1979,7 +2253,7 @@
             </userVisible>
             <title>
               <key>ru</key>
-              <value>Горизонтальная группа 2</value>
+              <value>Горизонтальная группа</value>
             </title>
             <extendedTooltip>
               <name>ГоризонтальнаяГруппа2РасширеннаяПодсказка</name>
@@ -2030,11 +2304,6 @@
                     <userVisible>
                       <common>true</common>
                     </userVisible>
-                    <toolTip>
-                      <key>ru</key>
-                      <value>Пароль запрашивает программа электронной подписи, а не программа 1С:Предприятие,
-так как для выбранного сертификата указана усиленная защита закрытого ключа.</value>
-                    </toolTip>
                     <toolTipRepresentation>Button</toolTipRepresentation>
                     <extendedTooltip>
                       <name>ПояснениеУсиленногоПароляРасширеннаяПодсказка</name>
@@ -2221,7 +2490,7 @@
               </userVisible>
               <title>
                 <key>ru</key>
-                <value>Вертикальная группа 2</value>
+                <value>Вертикальная группа</value>
               </title>
               <extendedTooltip>
                 <name>ВертикальнаяГруппа2РасширеннаяПодсказка</name>
@@ -2254,7 +2523,7 @@
             </userVisible>
             <title>
               <key>ru</key>
-              <value>Вертикальная группа 3</value>
+              <value>Вертикальная группа</value>
             </title>
             <extendedTooltip>
               <name>ВертикальнаяГруппа3РасширеннаяПодсказка</name>
@@ -2288,10 +2557,10 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Усиленная защита закрытого ключа</value>
+            <value>Вводить пароль в приложении электронной подписи</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаУсиленнаяЗащитаЗакрытогоКлючаРасширеннаяПодсказка</name>
+            <name>ГруппаВводитьПарольВПрограммеЭлектроннойПодписиРасширеннаяПодсказка</name>
             <id>857</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2357,6 +2626,10 @@
         <items xsi:type="form:Button">
           <name>Назад</name>
           <id>537</id>
+          <title>
+            <key>ru</key>
+            <value>&lt; Назад</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2570,6 +2843,7 @@
     <name>ОбработкаПроверкиЗаполненияНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -2711,6 +2985,35 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>СостояниеСертификата</name>
+      <id>31</id>
+      <valueType>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>1</precision>
+        </numberQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ЕстьВСправочнике</name>
+      <id>35</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>СертификатНаименование</name>
@@ -2767,10 +3070,10 @@
     </edit>
   </attributes>
   <attributes>
-    <name>СертификатУсиленнаяЗащитаЗакрытогоКлюча</name>
+    <name>СертификатВводитьПарольВПрограммеЭлектроннойПодписи</name>
     <title>
       <key>ru</key>
-      <value>Усиленная защита закрытого ключа</value>
+      <value>Вводить пароль в приложении электронной подписи</value>
     </title>
     <id>16</id>
     <valueType>
@@ -3152,6 +3455,62 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ЕстьПравоНаДобавлениеВСправочник</name>
+    <id>34</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ЭтоПолноправныйПользователь</name>
+    <id>36</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>СертификатФизическоеЛицо</name>
+    <title>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </title>
+    <id>37</id>
+    <valueType>
+      <types>DefinedType.ФизическоеЛицо</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>РежимВыбораСсылки</name>
+    <id>31</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>Далее</name>
     <title>
@@ -3284,6 +3643,51 @@
     </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <formCommands>
+    <name>ПодобратьФизическоеЛицо</name>
+    <title>
+      <key>ru</key>
+      <value>Подобрать физическое лицо</value>
+    </title>
+    <id>8</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Подобрать физическое лицо по наименованию из поля сертификата &quot;Кому выдан&quot;</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.MoveLeft</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПодобратьФизическоеЛицо</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ВыбратьСсылку</name>
+    <title>
+      <key>ru</key>
+      <value>Выбрать</value>
+    </title>
+    <id>2</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбрать ссылку</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ВыбратьСсылку</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <parameters>
     <name>ДляШифрованияИРасшифровки</name>
     <valueType/>
@@ -3334,6 +3738,18 @@
   <parameters>
     <name>ОтборПоОрганизации</name>
     <valueType/>
+  </parameters>
+  <parameters>
+    <name>РежимВыбораСсылки</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>Организация</name>
+    <valueType>
+      <types>CatalogRef</types>
+    </valueType>
   </parameters>
   <commandInterface>
     <navigationPanel/>

@@ -41,7 +41,7 @@
         <segments>Респонденты.Description</segments>
       </dataPath>
       <extendedTooltip>
-        <name>РеспондентыНаименованиеExtendedTooltip</name>
+        <name>РеспондентыНаименованиеРасширеннаяПодсказка</name>
         <id>52</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -255,7 +255,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>РеспондентыExtendedTooltip</name>
+      <name>РеспондентыРасширеннаяПодсказка</name>
       <id>51</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -308,6 +308,7 @@
         <endDate>0001-01-01T00:00:00</endDate>
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>
@@ -322,8 +323,12 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Списки</value>
+      </title>
       <extendedTooltip>
-        <name>ГруппаСпискиExtendedTooltip</name>
+        <name>ГруппаСпискиРасширеннаяПодсказка</name>
         <id>34</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -354,6 +359,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

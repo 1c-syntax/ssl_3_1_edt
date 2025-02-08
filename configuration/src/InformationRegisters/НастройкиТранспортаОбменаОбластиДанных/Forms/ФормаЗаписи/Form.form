@@ -53,13 +53,17 @@
   <items xsi:type="form:Button">
     <name>ОткрытьОбщиеНастройкиТранспорта</name>
     <id>48</id>
+    <title>
+      <key>ru</key>
+      <value>Общие настройки транспорта</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>ОткрытьОбщиеНастройкиТранспортаExtendedTooltip</name>
+      <name>ОткрытьОбщиеНастройкиТранспортаРасширеннаяПодсказка</name>
       <id>54</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -95,6 +99,7 @@
   <excludedCommands>Copy</excludedCommands>
   <excludedCommands>Delete</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

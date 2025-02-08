@@ -10,6 +10,10 @@
     <items xsi:type="form:FormField">
       <name>Пользователь</name>
       <id>20</id>
+      <title>
+        <key>ru</key>
+        <value>Пользователь приложения</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -71,6 +75,10 @@
       <items xsi:type="form:FormField">
         <name>WSПароль</name>
         <id>7</id>
+        <title>
+          <key>ru</key>
+          <value>Пароль</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -132,6 +140,10 @@
       <items xsi:type="form:Button">
         <name>ЗабылиПароль</name>
         <id>12</id>
+        <title>
+          <key>ru</key>
+          <value>Забыли пароль?</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -361,6 +373,10 @@
   <items xsi:type="form:Button">
     <name>ПараметрыДоступаВИнтернет</name>
     <id>13</id>
+    <title>
+      <key>ru</key>
+      <value>Параметры доступа в Интернет</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -483,6 +499,7 @@
   <excludedCommands>Write</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

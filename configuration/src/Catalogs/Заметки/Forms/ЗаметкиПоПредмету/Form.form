@@ -43,6 +43,41 @@
   <items xsi:type="form:FormGroup">
     <name>КоманднаяПанель</name>
     <id>41</id>
+    <items xsi:type="form:FormGroup">
+      <name>ПодменюОрганайзер</name>
+      <id>60</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Органайзер</value>
+      </title>
+      <extendedTooltip>
+        <name>ПодменюОрганайзерРасширеннаяПодсказка</name>
+        <id>61</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Popup</type>
+      <extInfo xsi:type="form:PopupGroupExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.Органайзер</picture>
+        </picture>
+        <representation>Picture</representation>
+      </extInfo>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -157,7 +192,7 @@
         <segments>Список.Автор</segments>
       </dataPath>
       <extendedTooltip>
-        <name>АвторExtendedTooltip</name>
+        <name>АвторРасширеннаяПодсказка</name>
         <id>37</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -250,6 +285,10 @@
     <handlers>
       <event>BeforeAddRow</event>
       <name>СписокПередНачаломДобавления</name>
+    </handlers>
+    <handlers>
+      <event>OnActivateRow</event>
+      <name>СписокПриАктивизацииСтроки</name>
     </handlers>
     <searchStringAddition>
       <visible>true</visible>
@@ -368,7 +407,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>34</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -426,6 +465,7 @@
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
       <userSettingsGroup>ГруппаПользовательскихНастроек</userSettingsGroup>
     </extInfo>
   </items>
@@ -435,6 +475,10 @@
     <items xsi:type="form:FormField">
       <name>ПоказыватьЗаметкиДругихПользователей</name>
       <id>23</id>
+      <title>
+        <key>ru</key>
+        <value>Показывать заметки других пользователей</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -449,7 +493,7 @@
         <name>ПоказыватьЗаметкиДругихПользователейПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ПоказыватьЗаметкиДругихПользователейExtendedTooltip</name>
+        <name>ПоказыватьЗаметкиДругихПользователейРасширеннаяПодсказка</name>
         <id>39</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -483,6 +527,10 @@
     <items xsi:type="form:FormField">
       <name>ПоказыватьУдаленные</name>
       <id>28</id>
+      <title>
+        <key>ru</key>
+        <value>Показывать удаленные</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -497,7 +545,7 @@
         <name>ПоказыватьУдаленныеПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ПоказыватьУдаленныеExtendedTooltip</name>
+        <name>ПоказыватьУдаленныеРасширеннаяПодсказка</name>
         <id>40</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -538,7 +586,7 @@
       <value>Фильтры</value>
     </title>
     <extendedTooltip>
-      <name>ФильтрыExtendedTooltip</name>
+      <name>ФильтрыРасширеннаяПодсказка</name>
       <id>38</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -587,6 +635,7 @@
   <excludedCommands>MoveItem</excludedCommands>
   <excludedCommands>Tree</excludedCommands>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -701,6 +750,10 @@
       <segments>ПоказыватьУдаленные</segments>
     </settingsSavedData>
   </attributes>
+  <parameters>
+    <name>Предмет</name>
+    <valueType/>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

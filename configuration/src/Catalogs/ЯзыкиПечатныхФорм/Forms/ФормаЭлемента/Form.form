@@ -3,6 +3,10 @@
   <items xsi:type="form:FormField">
     <name>Язык</name>
     <id>4</id>
+    <title>
+      <key>ru</key>
+      <value>Язык</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -95,6 +99,7 @@
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
+    <readOnly>true</readOnly>
     <warningOnEditRepresentation>Show</warningOnEditRepresentation>
     <warningOnEdit>
       <key>ru</key>
@@ -130,6 +135,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

@@ -35,6 +35,7 @@
 					<v8:content>Статус проверки</v8:content>
 				</v8:item>
 			</title>
+			<presentationExpression>РаботаСФайламиВТомахСлужебный.ПредставлениеСтатусаПроверки(СтатусПроверки)</presentationExpression>
 			<valueType>
 				<v8:Type>xs:string</v8:Type>
 				<v8:StringQualifiers>
@@ -166,6 +167,14 @@
 					</dcsat:item>
 					<dcsat:appearance>
 						<dcscor:item>
+							<dcscor:parameter>МинимальнаяШирина</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">37.375</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
+							<dcscor:parameter>МаксимальнаяШирина</dcscor:parameter>
+							<dcscor:value xsi:type="xs:decimal">37.375</dcscor:value>
+						</dcscor:item>
+						<dcscor:item>
 							<dcscor:parameter>Расшифровка</dcscor:parameter>
 							<dcscor:value xsi:type="dcscor:Parameter">Расшифровка</dcscor:value>
 						</dcscor:item>
@@ -279,7 +288,7 @@
 							<dcsset:item xsi:type="dcsset:FilterItemComparison">
 								<dcsset:left xsi:type="dcscor:Field">СтатусПроверки</dcsset:left>
 								<dcsset:comparisonType>Contains</dcsset:comparisonType>
-								<dcsset:right xsi:type="xs:string">Целостные данные</dcsset:right>
+								<dcsset:right xsi:type="xs:string">ОК</dcsset:right>
 							</dcsset:item>
 						</dcsset:filter>
 						<dcsset:appearance>
@@ -295,7 +304,7 @@
 							<dcsset:item xsi:type="dcsset:FilterItemComparison">
 								<dcsset:left xsi:type="dcscor:Field">СтатусПроверки</dcsset:left>
 								<dcsset:comparisonType>Contains</dcsset:comparisonType>
-								<dcsset:right xsi:type="xs:string">Лишние файлы (есть на диске, но сведения о них отсутствуют)</dcsset:right>
+								<dcsset:right xsi:type="xs:string">ЛишнийФайлВТоме</dcsset:right>
 							</dcsset:item>
 						</dcsset:filter>
 						<dcsset:appearance>
@@ -311,7 +320,7 @@
 							<dcsset:item xsi:type="dcsset:FilterItemComparison">
 								<dcsset:left xsi:type="dcscor:Field">СтатусПроверки</dcsset:left>
 								<dcsset:comparisonType>Contains</dcsset:comparisonType>
-								<dcsset:right xsi:type="xs:string">Отсутствуют данные в томе на диске</dcsset:right>
+								<dcsset:right xsi:type="xs:string">НетФайлаВТоме</dcsset:right>
 							</dcsset:item>
 						</dcsset:filter>
 						<dcsset:appearance>
@@ -335,7 +344,7 @@
 					<dcsset:item xsi:type="dcsset:FilterItemComparison">
 						<dcsset:left xsi:type="dcscor:Field">СтатусПроверки</dcsset:left>
 						<dcsset:comparisonType>Contains</dcsset:comparisonType>
-						<dcsset:right xsi:type="xs:string">Отсутствуют данные в томе на диске</dcsset:right>
+						<dcsset:right xsi:type="xs:string">НетФайлаВТоме</dcsset:right>
 					</dcsset:item>
 				</dcsset:filter>
 				<dcsset:order>
@@ -369,6 +378,7 @@
 				</dcsset:selection>
 				<dcsset:outputParameters>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
 						<dcscor:parameter>МакетОформления</dcscor:parameter>
 						<dcscor:value xsi:type="xs:string">Основной</dcscor:value>
 					</dcscor:item>
@@ -377,7 +387,7 @@
 						<dcscor:value xsi:type="v8:LocalStringType">
 							<v8:item>
 								<v8:lang>ru</v8:lang>
-								<v8:content>Отсутствуют данные в томе на диске</v8:content>
+								<v8:content>Отсутствуют данные в томе</v8:content>
 							</v8:item>
 						</dcscor:value>
 					</dcscor:item>
@@ -393,7 +403,7 @@
 					<dcsset:item xsi:type="dcsset:FilterItemComparison">
 						<dcsset:left xsi:type="dcscor:Field">СтатусПроверки</dcsset:left>
 						<dcsset:comparisonType>Contains</dcsset:comparisonType>
-						<dcsset:right xsi:type="xs:string">Лишние файлы</dcsset:right>
+						<dcsset:right xsi:type="xs:string">ЛишнийФайлВТоме</dcsset:right>
 					</dcsset:item>
 				</dcsset:filter>
 				<dcsset:order>
@@ -415,6 +425,7 @@
 				</dcsset:selection>
 				<dcsset:outputParameters>
 					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
 						<dcscor:parameter>МакетОформления</dcscor:parameter>
 						<dcscor:value xsi:type="xs:string">Основной</dcscor:value>
 					</dcscor:item>
@@ -423,7 +434,70 @@
 						<dcscor:value xsi:type="v8:LocalStringType">
 							<v8:item>
 								<v8:lang>ru</v8:lang>
-								<v8:content>Лишние файлы (есть на диске, но сведения о них отсутствуют)</v8:content>
+								<v8:content>Удаленные файлы (есть в томе, но сведения о них отсутствуют)</v8:content>
+							</v8:item>
+						</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ВыводитьОтбор</dcscor:parameter>
+						<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">DontOutput</dcscor:value>
+					</dcscor:item>
+				</dcsset:outputParameters>
+			</dcsset:item>
+			<dcsset:item xsi:type="dcsset:StructureItemGroup">
+				<dcsset:name>ВозможноИсправление</dcsset:name>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">СтатусПроверки</dcsset:left>
+						<dcsset:comparisonType>Contains</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:string">ВозможноИсправление</dcsset:right>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:order>
+					<dcsset:item xsi:type="dcsset:OrderItemAuto"/>
+				</dcsset:order>
+				<dcsset:selection>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>СсылкаНаФайл</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Наименование</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ПолноеИмя</dcsset:field>
+						<dcsset:lwsTitle>
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Полный путь</v8:content>
+							</v8:item>
+						</dcsset:lwsTitle>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>Отредактировал</dcsset:field>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:SelectedItemField">
+						<dcsset:field>ДатаРедактирования</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:outputParameters>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:use>false</dcscor:use>
+						<dcscor:parameter>МакетОформления</dcscor:parameter>
+						<dcscor:value xsi:type="xs:string">Основной</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>ВыводитьЗаголовок</dcscor:parameter>
+						<dcscor:value xsi:type="dcsset:DataCompositionTextOutputType">Auto</dcscor:value>
+					</dcscor:item>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Заголовок</dcscor:parameter>
+						<dcscor:value xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>Поврежденные сведения о файлах</v8:content>
 							</v8:item>
 						</dcscor:value>
 					</dcscor:item>

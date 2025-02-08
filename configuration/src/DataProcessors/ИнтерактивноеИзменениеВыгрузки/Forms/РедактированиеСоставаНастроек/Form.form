@@ -334,6 +334,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСохранить</name>
       <id>13</id>
+      <title>
+        <key>ru</key>
+        <value>Сохранить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -438,6 +442,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

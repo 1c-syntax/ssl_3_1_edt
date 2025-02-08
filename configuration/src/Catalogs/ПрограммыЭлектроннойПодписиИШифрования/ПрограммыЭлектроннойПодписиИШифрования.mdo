@@ -10,7 +10,7 @@
   <name>ПрограммыЭлектроннойПодписиИШифрования</name>
   <synonym>
     <key>ru</key>
-    <value>Программы электронной подписи и шифрования</value>
+    <value>Приложения электронной подписи и шифрования</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ПрограммыЭлектроннойПодписиИШифрования.StandardAttribute.Description</inputByString>
@@ -84,7 +84,7 @@
     </synonym>
     <toolTip>
       <key>ru</key>
-      <value>Представление программы, которое используется для удобства.</value>
+      <value>Представление приложения, которое используется для удобства.</value>
     </toolTip>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -110,7 +110,7 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Программа электронной подписи и шифрования</value>
+    <value>Приложение электронной подписи и шифрования</value>
   </objectPresentation>
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
@@ -127,7 +127,7 @@
     <name>ИмяПрограммы</name>
     <synonym>
       <key>ru</key>
-      <value>Имя программы</value>
+      <value>Приложение</value>
     </synonym>
     <type>
       <types>String</types>
@@ -137,7 +137,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Уникальное имя программы, присвоенное ее разработчиком.</value>
+      <value>Уникальное имя приложения, присвоенное его разработчиком.</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -151,7 +151,7 @@
     <name>ТипПрограммы</name>
     <synonym>
       <key>ru</key>
-      <value>Тип программы</value>
+      <value>Тип приложения</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -162,8 +162,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Специальное число, которое описывает тип программы и
-дополняет имя программы.</value>
+      <value>Специальное число, которое дополняет имя приложения.</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -246,10 +245,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="6c1d8f6c-db33-46dc-8824-aceacb4bf9c1">
-    <name>ЭтоПрограммаОблачногоСервиса</name>
+    <name>ЭтоВстроенныйКриптопровайдер</name>
     <synonym>
       <key>ru</key>
-      <value>Это программа облачного сервиса</value>
+      <value>Это встроенный криптопровайдер</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -257,6 +256,23 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="67e8b7dc-e0d7-44a9-81d0-6b31bb318145">
+    <name>РежимИспользования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим использования</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РежимыИспользованияПрограммыЭлектроннойПодписи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Enum.РежимыИспользованияПрограммыЭлектроннойПодписи.EnumValue.Настроена</value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -287,16 +303,34 @@
     <name>ОшибкаОбращенияКПрограмме</name>
     <synonym>
       <key>ru</key>
-      <value>Ошибка обращения к программе</value>
+      <value>Ошибка обращения к приложению</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <forms uuid="dd07b255-25af-466e-a224-c561a8ca567b">
-    <name>ПрограммаВОблачномСервисе</name>
+    <name>ВстроенныйКриптопровайдер</name>
     <synonym>
       <key>ru</key>
-      <value>Программа в облачном сервисе</value>
+      <value>Встроенный криптопровайдер</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="80641554-046e-4c4a-8544-a35b4c554dad">
+    <name>ПриложениеОпределенноеАвтоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приложение, определенное автоматически</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4d9df55f-724d-4792-96a7-885df898e7cc">
+    <name>Токен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

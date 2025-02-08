@@ -196,7 +196,10 @@
       <value>Причина отключения</value>
     </synonym>
     <type>
-      <types>EnumRef.ПричиныОтключенияДополнительныхОтчетовИОбработокВМоделиСервиса</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
     </type>
     <toolTip>
       <key>ru</key>

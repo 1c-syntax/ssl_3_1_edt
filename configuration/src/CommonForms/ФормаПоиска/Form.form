@@ -55,6 +55,10 @@
     <items xsi:type="form:FormField">
       <name>СостояниеПоискаПредставление</name>
       <id>80</id>
+      <title>
+        <key>ru</key>
+        <value>Состояние поиска представление</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -144,6 +148,10 @@
     <items xsi:type="form:FormField">
       <name>СтрокаПоиска</name>
       <id>3</id>
+      <title>
+        <key>ru</key>
+        <value>Строка поиска</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -158,7 +166,7 @@
         <value>Введите искомый текст или часть фразы</value>
       </toolTip>
       <extendedTooltip>
-        <name>СтрокаПоискаExtendedTooltip</name>
+        <name>СтрокаПоискаРасширеннаяПодсказка</name>
         <id>53</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -215,6 +223,10 @@
     <items xsi:type="form:Button">
       <name>Найти</name>
       <id>4</id>
+      <title>
+        <key>ru</key>
+        <value>Найти</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -222,7 +234,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>НайтиExtendedTooltip</name>
+        <name>НайтиРасширеннаяПодсказка</name>
         <id>54</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -262,7 +274,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СправкаExtendedTooltip</name>
+        <name>СправкаРасширеннаяПодсказка</name>
         <id>55</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -425,6 +437,10 @@
       <items xsi:type="form:Button">
         <name>Предыдущие</name>
         <id>8</id>
+        <title>
+          <key>ru</key>
+          <value>Предыдущие</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -462,6 +478,10 @@
       <items xsi:type="form:Button">
         <name>Следующие</name>
         <id>9</id>
+        <title>
+          <key>ru</key>
+          <value>Следующие</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -507,7 +527,7 @@
       </title>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
-        <name>ГруппаНавигацияExtendedTooltip</name>
+        <name>ГруппаНавигацияРасширеннаяПодсказка</name>
         <id>57</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -588,7 +608,7 @@
     </title>
     <horizontalStretch>true</horizontalStretch>
     <extendedTooltip>
-      <name>ГруппаИнформацияОНайденномExtendedTooltip</name>
+      <name>ГруппаИнформацияОНайденномРасширеннаяПодсказка</name>
       <id>56</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -615,6 +635,10 @@
     <name>РезультатыПоиска</name>
     <id>39</id>
     <displayImportance>VeryHigh</displayImportance>
+    <title>
+      <key>ru</key>
+      <value>Результаты поиска представление</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -687,6 +711,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

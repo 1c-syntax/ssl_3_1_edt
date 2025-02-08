@@ -59,7 +59,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ПринятьКИсполнениюExtendedTooltip</name>
+          <name>ПринятьКИсполнениюРасширеннаяПодсказка</name>
           <id>123</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -83,13 +83,17 @@
       <items xsi:type="form:Button">
         <name>ОтменитьПринятиеКИсполнению</name>
         <id>124</id>
+        <title>
+          <key>ru</key>
+          <value>Обновить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ОтменитьПринятиеКИсполнениюExtendedTooltip</name>
+          <name>ОтменитьПринятиеКИсполнениюРасширеннаяПодсказка</name>
           <id>125</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -123,7 +127,7 @@
           <segments>Items.Список.CurrentData.ОсновнойОбъектАдресации</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ЗадачаЗадачаИсполнителяВыполненоExtendedTooltip</name>
+          <name>ЗадачаЗадачаИсполнителяВыполненоРасширеннаяПодсказка</name>
           <id>127</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -157,7 +161,7 @@
           <segments>Items.Список.CurrentData.ОсновнойОбъектАдресации</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ЗадачаЗадачаИсполнителяПеренаправитьExtendedTooltip</name>
+          <name>ЗадачаЗадачаИсполнителяПеренаправитьРасширеннаяПодсказка</name>
           <id>129</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -214,7 +218,7 @@
       <value>Командная панель списка</value>
     </title>
     <extendedTooltip>
-      <name>КоманднаяПанельСпискаExtendedTooltip</name>
+      <name>КоманднаяПанельСпискаРасширеннаяПодсказка</name>
       <id>65</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -277,7 +281,7 @@
           <value>Важность</value>
         </toolTip>
         <extendedTooltip>
-          <name>ВажностьКартинкаExtendedTooltip</name>
+          <name>ВажностьКартинкаРасширеннаяПодсказка</name>
           <id>67</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -340,7 +344,7 @@
           <value>Остановленные</value>
         </toolTip>
         <extendedTooltip>
-          <name>ОстановленаExtendedTooltip</name>
+          <name>ОстановленаРасширеннаяПодсказка</name>
           <id>69</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -434,7 +438,7 @@
             <segments>Список.Description</segments>
           </dataPath>
           <extendedTooltip>
-            <name>НаименованиеExtendedTooltip</name>
+            <name>НаименованиеРасширеннаяПодсказка</name>
             <id>71</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -569,7 +573,7 @@
           </dataPath>
           <defaultItem>true</defaultItem>
           <extendedTooltip>
-            <name>НомерExtendedTooltip</name>
+            <name>НомерРасширеннаяПодсказка</name>
             <id>70</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -731,7 +735,7 @@
             <segments>Список.Исполнитель</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ИсполнительExtendedTooltip</name>
+            <name>ИсполнительРасширеннаяПодсказка</name>
             <id>73</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -782,7 +786,7 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
-            <name>РольИсполнителяExtendedTooltip</name>
+            <name>РольИсполнителяРасширеннаяПодсказка</name>
             <id>74</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -830,7 +834,7 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
-            <name>ОсновнойОбъектАдресацииExtendedTooltip</name>
+            <name>ОсновнойОбъектАдресацииРасширеннаяПодсказка</name>
             <id>75</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -878,7 +882,7 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
-            <name>ДополнительныйОбъектАдресацииExtendedTooltip</name>
+            <name>ДополнительныйОбъектАдресацииРасширеннаяПодсказка</name>
             <id>76</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -924,7 +928,7 @@
         </title>
         <width>35</width>
         <extendedTooltip>
-          <name>ГруппаИсполнительExtendedTooltip</name>
+          <name>ГруппаИсполнительРасширеннаяПодсказка</name>
           <id>72</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -959,7 +963,7 @@
             <segments>Список.СрокИсполнения</segments>
           </dataPath>
           <extendedTooltip>
-            <name>СрокИсполненияExtendedTooltip</name>
+            <name>СрокИсполненияРасширеннаяПодсказка</name>
             <id>77</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1012,7 +1016,7 @@
             <value>Выполненные</value>
           </toolTip>
           <extendedTooltip>
-            <name>ЗадачаВыполненаExtendedTooltip</name>
+            <name>ЗадачаВыполненаРасширеннаяПодсказка</name>
             <id>68</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1207,6 +1211,10 @@
       <horizontalAlign>Left</horizontalAlign>
       <autoFill>true</autoFill>
     </autoCommandBar>
+    <handlers>
+      <event>OnActivateRow</event>
+      <name>СписокПриАктивизацииСтроки</name>
+    </handlers>
     <searchStringAddition>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1324,7 +1332,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>66</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1375,12 +1383,17 @@
         <endDate>0001-01-01T00:00:00</endDate>
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
       <userSettingsGroup>ГруппаПользовательскихНастроек</userSettingsGroup>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
     <name>ПоказыватьВыполненные</name>
     <id>21</id>
+    <title>
+      <key>ru</key>
+      <value>Показывать выполненные задачи</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -1395,7 +1408,7 @@
       <name>ПоказыватьВыполненныеПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>ПоказыватьВыполненныеExtendedTooltip</name>
+      <name>ПоказыватьВыполненныеРасширеннаяПодсказка</name>
       <id>78</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1456,6 +1469,10 @@
     <items xsi:type="form:FormField">
       <name>ДеревоЗадачВажность</name>
       <id>28</id>
+      <title>
+        <key>ru</key>
+        <value>Важность</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1470,7 +1487,7 @@
         <value>Важность</value>
       </toolTip>
       <extendedTooltip>
-        <name>ДеревоЗадачВажностьExtendedTooltip</name>
+        <name>ДеревоЗадачВажностьРасширеннаяПодсказка</name>
         <id>88</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1515,6 +1532,10 @@
     <items xsi:type="form:FormField">
       <name>Выполнена</name>
       <id>30</id>
+      <title>
+        <key>ru</key>
+        <value>Выполнена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible/>
@@ -1527,7 +1548,7 @@
         <value>Выполненные</value>
       </toolTip>
       <extendedTooltip>
-        <name>ВыполненаExtendedTooltip</name>
+        <name>ВыполненаРасширеннаяПодсказка</name>
         <id>89</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1564,6 +1585,10 @@
     <items xsi:type="form:FormField">
       <name>ДеревоЗадачОстановлен</name>
       <id>32</id>
+      <title>
+        <key>ru</key>
+        <value>Остановлен</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1578,7 +1603,7 @@
         <value>Остановленные</value>
       </toolTip>
       <extendedTooltip>
-        <name>ДеревоЗадачОстановленExtendedTooltip</name>
+        <name>ДеревоЗадачОстановленРасширеннаяПодсказка</name>
         <id>90</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1626,6 +1651,10 @@
       <items xsi:type="form:FormField">
         <name>ДеревоЗадачТип</name>
         <id>35</id>
+        <title>
+          <key>ru</key>
+          <value>Тип</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1636,7 +1665,7 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>ДеревоЗадачТипExtendedTooltip</name>
+          <name>ДеревоЗадачТипРасширеннаяПодсказка</name>
           <id>92</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1694,7 +1723,7 @@
           <value>Наименование задачи или бизнес-процесса</value>
         </toolTip>
         <extendedTooltip>
-          <name>ДеревоЗадачНаименованиеExtendedTooltip</name>
+          <name>ДеревоЗадачНаименованиеРасширеннаяПодсказка</name>
           <id>93</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1743,7 +1772,7 @@
         <value>Тип и наименование</value>
       </title>
       <extendedTooltip>
-        <name>ТипИНаименованиеExtendedTooltip</name>
+        <name>ТипИНаименованиеРасширеннаяПодсказка</name>
         <id>91</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1766,6 +1795,10 @@
     <items xsi:type="form:FormField">
       <name>ДеревоЗадачИсполнитель</name>
       <id>39</id>
+      <title>
+        <key>ru</key>
+        <value>Исполнитель</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1775,7 +1808,7 @@
         <segments>ДеревоЗадач.Исполнитель</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДеревоЗадачИсполнительExtendedTooltip</name>
+        <name>ДеревоЗадачИсполнительРасширеннаяПодсказка</name>
         <id>94</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1830,7 +1863,7 @@
         <segments>ДеревоЗадач.СрокИсполнения</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СрокИсполнения1ExtendedTooltip</name>
+        <name>СрокИсполнения1РасширеннаяПодсказка</name>
         <id>95</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1875,13 +1908,17 @@
       <items xsi:type="form:Button">
         <name>ДеревоЗадачИзменить</name>
         <id>47</id>
+        <title>
+          <key>ru</key>
+          <value>Изменить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ДеревоЗадачИзменитьExtendedTooltip</name>
+          <name>ДеревоЗадачИзменитьРасширеннаяПодсказка</name>
           <id>83</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1905,13 +1942,17 @@
       <items xsi:type="form:Button">
         <name>ДеревоЗадачОбновить</name>
         <id>48</id>
+        <title>
+          <key>ru</key>
+          <value>Обновить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ДеревоЗадачОбновитьExtendedTooltip</name>
+          <name>ДеревоЗадачОбновитьРасширеннаяПодсказка</name>
           <id>84</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1942,7 +1983,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СправкаExtendedTooltip</name>
+          <name>СправкаРасширеннаяПодсказка</name>
           <id>85</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1972,7 +2013,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ДеревоЗадачВывестиСписокExtendedTooltip</name>
+          <name>ДеревоЗадачВывестиСписокРасширеннаяПодсказка</name>
           <id>86</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1993,6 +2034,35 @@
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
+      <items xsi:type="form:FormGroup">
+        <name>КомандыФормы</name>
+        <id>150</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Команды формы</value>
+        </title>
+        <extendedTooltip>
+          <name>КомандыФормыРасширеннаяПодсказка</name>
+          <id>151</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <extInfo xsi:type="form:ButtonGroupExtInfo"/>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -2003,6 +2073,10 @@
     <handlers>
       <event>Selection</event>
       <name>ДеревоЗадачВыбор</name>
+    </handlers>
+    <handlers>
+      <event>OnActivateRow</event>
+      <name>ДеревоЗадачПриАктивизацииСтроки</name>
     </handlers>
     <searchStringAddition>
       <visible>true</visible>
@@ -2121,7 +2195,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ДеревоЗадачExtendedTooltip</name>
+      <name>ДеревоЗадачРасширеннаяПодсказка</name>
       <id>87</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -2141,14 +2215,52 @@
       <items xsi:type="form:Button">
         <name>ДеревоЗадачКонтекстноеМенюИзменить</name>
         <id>43</id>
+        <title>
+          <key>ru</key>
+          <value>Изменить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ДеревоЗадачКонтекстноеМенюИзменитьExtendedTooltip</name>
+          <name>ДеревоЗадачКонтекстноеМенюИзменитьРасширеннаяПодсказка</name>
           <id>79</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.Изменить</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>ДеревоЗадачКонтекстноеМенюОбновить</name>
+        <id>44</id>
+        <title>
+          <key>ru</key>
+          <value>Обновить</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ДеревоЗадачКонтекстноеМенюОбновитьРасширеннаяПодсказка</name>
+          <id>80</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2169,36 +2281,6 @@
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
-        <name>ДеревоЗадачКонтекстноеМенюОбновить</name>
-        <id>44</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>ДеревоЗадачКонтекстноеМенюОбновитьExtendedTooltip</name>
-          <id>80</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <commandName>0</commandName>
-        <representation>Auto</representation>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <placementArea>UserCmds</placementArea>
-        <representationInContextMenu>Auto</representationInContextMenu>
-      </items>
-      <items xsi:type="form:Button">
         <name>ДеревоЗадачКонтекстноеМенюКопироватьВБуферОбмена</name>
         <id>45</id>
         <visible>true</visible>
@@ -2207,7 +2289,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ДеревоЗадачКонтекстноеМенюКопироватьВБуферОбменаExtendedTooltip</name>
+          <name>ДеревоЗадачКонтекстноеМенюКопироватьВБуферОбменаРасширеннаяПодсказка</name>
           <id>81</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2237,7 +2319,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ДеревоЗадачКонтекстноеМенюВывестиСписокExtendedTooltip</name>
+          <name>ДеревоЗадачКонтекстноеМенюВывестиСписокРасширеннаяПодсказка</name>
           <id>82</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2315,6 +2397,7 @@
     <name>ПриЗагрузкеДанныхИзНастроекНаСервере</name>
   </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

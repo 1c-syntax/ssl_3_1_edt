@@ -12,6 +12,10 @@
         <items xsi:type="form:FormField">
           <name>ОсталосьСимволов</name>
           <id>82</id>
+          <title>
+            <key>ru</key>
+            <value>Осталось символов</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -22,7 +26,7 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
-            <name>ОсталосьСимволовExtendedTooltip</name>
+            <name>ОсталосьСимволовРасширеннаяПодсказка</name>
             <id>130</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -88,7 +92,7 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
-            <name>ТекстСообщенияExtendedTooltip</name>
+            <name>ТекстСообщенияРасширеннаяПодсказка</name>
             <id>131</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -151,7 +155,7 @@
             <name>ОтправлятьВТранслитеПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ОтправлятьВТранслитеExtendedTooltip</name>
+            <name>ОтправлятьВТранслитеРасширеннаяПодсказка</name>
             <id>125</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -332,7 +336,7 @@
                 <segments>Объект.Адресаты.КакСвязаться</segments>
               </dataPath>
               <extendedTooltip>
-                <name>АдресатыКакСвязатьсяExtendedTooltip</name>
+                <name>АдресатыКакСвязатьсяРасширеннаяПодсказка</name>
                 <id>146</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -391,7 +395,7 @@
                 <segments>Объект.Адресаты.СостояниеСообщения</segments>
               </dataPath>
               <extendedTooltip>
-                <name>АдресатыСостояниеСообщенияExtendedTooltip</name>
+                <name>АдресатыСостояниеСообщенияРасширеннаяПодсказка</name>
                 <id>148</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -437,13 +441,17 @@
               <items xsi:type="form:Button">
                 <name>СоздатьКонтакт</name>
                 <id>54</id>
+                <title>
+                  <key>ru</key>
+                  <value>Создать контакт</value>
+                </title>
                 <visible>true</visible>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
                 <skipOnInput>false</skipOnInput>
                 <extendedTooltip>
-                  <name>СоздатьКонтактExtendedTooltip</name>
+                  <name>СоздатьКонтактРасширеннаяПодсказка</name>
                   <id>142</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -477,7 +485,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>АдресатыПроверитьСтатусыДоставкиExtendedTooltip</name>
+                  <name>АдресатыПроверитьСтатусыДоставкиРасширеннаяПодсказка</name>
                   <id>143</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -635,7 +643,7 @@
               </extInfo>
             </searchControlAddition>
             <extendedTooltip>
-              <name>АдресатыExtendedTooltip</name>
+              <name>АдресатыРасширеннаяПодсказка</name>
               <id>144</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -700,7 +708,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ДекорацияКонтактыНеЗаполненыExtendedTooltip</name>
+                  <name>ДекорацияКонтактыНеЗаполненыРасширеннаяПодсказка</name>
                   <id>138</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -743,7 +751,7 @@
                 <value>Страница контакты не заполнены</value>
               </title>
               <extendedTooltip>
-                <name>СтраницаКонтактыНеЗаполненыExtendedTooltip</name>
+                <name>СтраницаКонтактыНеЗаполненыРасширеннаяПодсказка</name>
                 <id>137</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -779,7 +787,7 @@
                   <common>true</common>
                 </userVisible>
                 <extendedTooltip>
-                  <name>ДекорацияКонтактыЗаполненыExtendedTooltip</name>
+                  <name>ДекорацияКонтактыЗаполненыРасширеннаяПодсказка</name>
                   <id>140</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -823,7 +831,7 @@
                 <value>Страница контакты заполнены</value>
               </title>
               <extendedTooltip>
-                <name>СтраницаКонтактыЗаполненыExtendedTooltip</name>
+                <name>СтраницаКонтактыЗаполненыРасширеннаяПодсказка</name>
                 <id>139</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -853,7 +861,7 @@
               <value>Страницы указаны контакты</value>
             </title>
             <extendedTooltip>
-              <name>СтраницыУказаныКонтактыExtendedTooltip</name>
+              <name>СтраницыУказаныКонтактыРасширеннаяПодсказка</name>
               <id>136</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -882,7 +890,7 @@
             <value>Участники встречи</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаАдресатыExtendedTooltip</name>
+            <name>ГруппаАдресатыРасширеннаяПодсказка</name>
             <id>141</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -915,7 +923,7 @@
           <value>Адресаты</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаАдресатыКонтактыExtendedTooltip</name>
+          <name>ГруппаАдресатыКонтактыРасширеннаяПодсказка</name>
           <id>132</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -951,7 +959,7 @@
           <value>Дополнительно</value>
         </title>
         <extendedTooltip>
-          <name>СтраницаДополнительныеРеквизитыExtendedTooltip</name>
+          <name>СтраницаДополнительныеРеквизитыРасширеннаяПодсказка</name>
           <id>152</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -987,7 +995,7 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
-            <name>КомментарииExtendedTooltip</name>
+            <name>КомментарииРасширеннаяПодсказка</name>
             <id>149</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1039,7 +1047,7 @@
           <value>Комментарий</value>
         </title>
         <extendedTooltip>
-          <name>СтраницаКомментарийExtendedTooltip</name>
+          <name>СтраницаКомментарийРасширеннаяПодсказка</name>
           <id>153</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1069,7 +1077,7 @@
         <value>Страницы контакты доп реквизиты комментарий</value>
       </title>
       <extendedTooltip>
-        <name>СтраницыКонтактыДопРеквизитыКомментарийExtendedTooltip</name>
+        <name>СтраницыКонтактыДопРеквизитыКомментарийРасширеннаяПодсказка</name>
         <id>151</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1132,6 +1140,10 @@
     <items xsi:type="form:FormField">
       <name>Предмет</name>
       <id>8</id>
+      <title>
+        <key>ru</key>
+        <value>Предмет</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1142,7 +1154,7 @@
       </dataPath>
       <titleLocation>Top</titleLocation>
       <extendedTooltip>
-        <name>ПредметExtendedTooltip</name>
+        <name>ПредметРасширеннаяПодсказка</name>
         <id>119</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1201,7 +1213,7 @@
       </dataPath>
       <titleLocation>Top</titleLocation>
       <extendedTooltip>
-        <name>ОтветственныйExtendedTooltip</name>
+        <name>ОтветственныйРасширеннаяПодсказка</name>
         <id>120</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1260,7 +1272,7 @@
         <name>НаКонтролеПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>НаКонтролеExtendedTooltip</name>
+        <name>НаКонтролеРасширеннаяПодсказка</name>
         <id>123</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1294,6 +1306,10 @@
     <items xsi:type="form:FormField">
       <name>РассмотретьПосле</name>
       <id>26</id>
+      <title>
+        <key>ru</key>
+        <value>Рассмотреть после</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1304,7 +1320,7 @@
       </dataPath>
       <titleLocation>Top</titleLocation>
       <extendedTooltip>
-        <name>РассмотретьПослеExtendedTooltip</name>
+        <name>РассмотретьПослеРасширеннаяПодсказка</name>
         <id>124</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1576,7 +1592,7 @@
         </dataPath>
         <titleLocation>Left</titleLocation>
         <extendedTooltip>
-          <name>ДатаExtendedTooltip</name>
+          <name>ДатаРасширеннаяПодсказка</name>
           <id>157</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1631,7 +1647,7 @@
         </dataPath>
         <titleLocation>Left</titleLocation>
         <extendedTooltip>
-          <name>АвторExtendedTooltip</name>
+          <name>АвторРасширеннаяПодсказка</name>
           <id>158</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1755,7 +1771,7 @@
         <value>Автор, дата регистрации</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаАвторДатаРегистрацииExtendedTooltip</name>
+        <name>ГруппаАвторДатаРегистрацииРасширеннаяПодсказка</name>
         <id>154</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1788,7 +1804,7 @@
       <value>Адресаты подвал</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаАдресатыПодвалExtendedTooltip</name>
+      <name>ГруппаАдресатыПодвалРасширеннаяПодсказка</name>
       <id>150</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1818,6 +1834,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОтправить</name>
       <id>84</id>
+      <title>
+        <key>ru</key>
+        <value>Отправить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1825,7 +1845,7 @@
       </userVisible>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>ФормаОтправитьExtendedTooltip</name>
+        <name>ФормаОтправитьРасширеннаяПодсказка</name>
         <id>111</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1856,7 +1876,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗаписатьИЗакрытьExtendedTooltip</name>
+        <name>ФормаЗаписатьИЗакрытьРасширеннаяПодсказка</name>
         <id>112</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1889,7 +1909,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗаписатьExtendedTooltip</name>
+        <name>ФормаЗаписатьРасширеннаяПодсказка</name>
         <id>113</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1926,7 +1946,7 @@
         <value>Глобальные команды</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаГлобальныеКомандыExtendedTooltip</name>
+        <name>ГруппаГлобальныеКомандыРасширеннаяПодсказка</name>
         <id>116</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2147,6 +2167,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСформироватьПоШаблону</name>
       <id>199</id>
+      <title>
+        <key>ru</key>
+        <value>Сформировать по шаблону</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -2183,7 +2207,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСправкаExtendedTooltip</name>
+        <name>ФормаСправкаРасширеннаяПодсказка</name>
         <id>110</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2231,6 +2255,7 @@
     <event>FillCheckProcessingAtServer</event>
     <name>ОбработкаПроверкиЗаполненияНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>HorizontalIfPossible</group>
@@ -2462,6 +2487,17 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ПараметрыСвойств</name>
+    <id>15</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>СоздатьКонтакт</name>
     <title>
@@ -2564,18 +2600,6 @@
   </parameters>
   <commandInterface>
     <navigationPanel>
-      <cmiFragmentRecord>
-        <command>3:617de19c-bf01-4900-832a-c169e9faeb79</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>3:fb5b79a2-caec-4c6e-a112-27e78a184d5e</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>3:ee6e5e56-5848-46b6-89bf-b9345a57d94c</command>
-        <userVisible/>
-      </cmiFragmentRecord>
       <cmiFragmentRecord>
         <command>CommonCommand.ПрисоединенныеФайлы</command>
         <group>FormNavigationPanelGoTo</group>

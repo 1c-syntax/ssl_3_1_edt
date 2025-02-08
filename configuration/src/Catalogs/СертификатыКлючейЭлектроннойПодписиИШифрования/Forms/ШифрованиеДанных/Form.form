@@ -290,6 +290,10 @@
           <items xsi:type="form:FormField">
             <name>СертификатыШифрованияСертификат</name>
             <id>491</id>
+            <title>
+              <key>ru</key>
+              <value>Сертификат</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -347,6 +351,10 @@
             <items xsi:type="form:Button">
               <name>СертификатыШифрованияПодобрать</name>
               <id>481</id>
+              <title>
+                <key>ru</key>
+                <value>Подобрать</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -466,6 +474,48 @@
               </extendedTooltip>
               <extInfo xsi:type="form:ButtonGroupExtInfo">
                 <commandSource>Item.СертификатыШифрования</commandSource>
+              </extInfo>
+            </items>
+            <items xsi:type="form:Addition">
+              <title>
+                <key>ru</key>
+                <value>Поиск</value>
+              </title>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <name>СтрокаПоиск</name>
+              <id>540</id>
+              <extendedTooltip>
+                <name>СтрокаПоискРасширеннаяПодсказка</name>
+                <id>542</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>СтрокаПоискКонтекстноеМеню</name>
+                <id>541</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <source>СертификатыШифрованияСтрокаПоиска</source>
+              <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+                <autoMaxWidth>true</autoMaxWidth>
               </extInfo>
             </items>
             <visible>true</visible>
@@ -616,6 +666,10 @@
             <items xsi:type="form:Button">
               <name>СертификатыШифрованияКонтекстноеМенюОткрытьСертификат</name>
               <id>479</id>
+              <title>
+                <key>ru</key>
+                <value>Открыть сертификат</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -772,6 +826,10 @@
           <items xsi:type="form:FormField">
             <name>НаборСертификатовПредставление</name>
             <id>519</id>
+            <title>
+              <key>ru</key>
+              <value>Представление</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -968,6 +1026,10 @@
             <items xsi:type="form:Button">
               <name>НаборСертификатовКонтекстноеМенюОткрытьСертификат</name>
               <id>524</id>
+              <title>
+                <key>ru</key>
+                <value>Открыть сертификат</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1163,6 +1225,10 @@
       <items xsi:type="form:Button">
         <name>ФормаЗашифровать</name>
         <id>532</id>
+        <title>
+          <key>ru</key>
+          <value>Зашифровать</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1349,6 +1415,7 @@
   </handlers>
   <width>55</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -1546,7 +1613,7 @@
     </columns>
   </attributes>
   <attributes>
-    <name>СертификатУсиленнаяЗащитаЗакрытогоКлюча</name>
+    <name>СертификатВводитьПарольВПрограммеЭлектроннойПодписи</name>
     <id>8</id>
     <valueType>
       <types>Boolean</types>
@@ -1701,19 +1768,6 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ПерваяПрограммаНаСервере</name>
-    <id>19</id>
-    <valueType>
-      <types>DefinedType.ПрограммаЭлектроннойПодписи</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>ВыполнятьВМоделиСервиса</name>
     <id>21</id>
     <valueType>
@@ -1733,6 +1787,28 @@
       <types>String</types>
       <stringQualifiers/>
     </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПрограммаАвто</name>
+    <id>23</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПрограммаАвтоНаСервере</name>
+    <id>24</id>
+    <valueType/>
     <view>
       <common>true</common>
     </view>

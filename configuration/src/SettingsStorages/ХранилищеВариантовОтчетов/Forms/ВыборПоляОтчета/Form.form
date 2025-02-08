@@ -46,6 +46,10 @@
     <items xsi:type="form:Button">
       <name>Выбрать</name>
       <id>26</id>
+      <title>
+        <key>ru</key>
+        <value>Выбрать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -77,6 +81,10 @@
     <items xsi:type="form:Button">
       <name>ДобавитьФормулу</name>
       <id>96</id>
+      <title>
+        <key>ru</key>
+        <value>Добавить формулу</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -107,6 +115,10 @@
     <items xsi:type="form:Button">
       <name>ИзменитьФормулу</name>
       <id>98</id>
+      <title>
+        <key>ru</key>
+        <value>Изменить формулу</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -137,6 +149,10 @@
     <items xsi:type="form:Button">
       <name>УдалитьФормулу</name>
       <id>100</id>
+      <title>
+        <key>ru</key>
+        <value>Удалить формулу</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -176,6 +192,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <group>Vertical</group>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
@@ -340,6 +357,23 @@
     <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>КомпоновщикНастроек</name>
+    <valueType>
+      <types>DataCompositionSettingsComposer</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>Режим</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>НастройкиОтчета</name>
+    <valueType/>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

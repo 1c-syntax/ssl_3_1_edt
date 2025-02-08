@@ -39,6 +39,10 @@
       <items xsi:type="form:FormField">
         <name>Картинка</name>
         <id>21</id>
+        <title>
+          <key>ru</key>
+          <value>Код картинки</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -49,7 +53,7 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>КартинкаExtendedTooltip</name>
+          <name>КартинкаРасширеннаяПодсказка</name>
           <id>51</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -94,6 +98,10 @@
       <items xsi:type="form:FormField">
         <name>НаименованиеОбъекта</name>
         <id>14</id>
+        <title>
+          <key>ru</key>
+          <value>Объект</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -103,7 +111,7 @@
           <segments>ДеревоОбъектовМетаданных.СинонимНаименованияОбъекта</segments>
         </dataPath>
         <extendedTooltip>
-          <name>НаименованиеОбъектаExtendedTooltip</name>
+          <name>НаименованиеОбъектаРасширеннаяПодсказка</name>
           <id>52</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -154,7 +162,7 @@
         <value>Картинка наименование</value>
       </title>
       <extendedTooltip>
-        <name>КартинкаНаименованиеExtendedTooltip</name>
+        <name>КартинкаНаименованиеРасширеннаяПодсказка</name>
         <id>50</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -177,6 +185,10 @@
     <items xsi:type="form:FormField">
       <name>ВариантВерсионирования</name>
       <id>16</id>
+      <title>
+        <key>ru</key>
+        <value>Когда сохранять версии</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -190,7 +202,7 @@
         <name>НастройкаПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ВариантВерсионированияExtendedTooltip</name>
+        <name>ВариантВерсионированияРасширеннаяПодсказка</name>
         <id>53</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -233,6 +245,10 @@
     <items xsi:type="form:FormField">
       <name>СрокХраненияВерсий</name>
       <id>54</id>
+      <title>
+        <key>ru</key>
+        <value>Срок хранения версий</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -417,7 +433,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ДеревоОбъектовМетаданныхExtendedTooltip</name>
+      <name>ДеревоОбъектовМетаданныхРасширеннаяПодсказка</name>
       <id>49</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -443,6 +459,10 @@
           <items xsi:type="form:Button">
             <name>КМ_УстановитьНастройкиПоУмолчанию</name>
             <id>31</id>
+            <title>
+              <key>ru</key>
+              <value>По умолчанию</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -450,7 +470,7 @@
             </userVisible>
             <skipOnInput>false</skipOnInput>
             <extendedTooltip>
-              <name>КМ_УстановитьНастройкиПоУмолчаниюExtendedTooltip</name>
+              <name>КМ_УстановитьНастройкиПоУмолчаниюРасширеннаяПодсказка</name>
               <id>48</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -481,7 +501,7 @@
             <value>Дерево объектов метаданных контекстное меню группа кнопок</value>
           </title>
           <extendedTooltip>
-            <name>ДеревоОбъектовМетаданныхКонтекстноеМенюГруппаКнопокExtendedTooltip</name>
+            <name>ДеревоОбъектовМетаданныхКонтекстноеМенюГруппаКнопокРасширеннаяПодсказка</name>
             <id>47</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -500,6 +520,10 @@
         <items xsi:type="form:Button">
           <name>КМ_УстановитьВариантВерсионированияНеВерсионировать</name>
           <id>28</id>
+          <title>
+            <key>ru</key>
+            <value>Никогда</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -507,7 +531,7 @@
           </userVisible>
           <skipOnInput>false</skipOnInput>
           <extendedTooltip>
-            <name>КМ_УстановитьВариантВерсионированияНеВерсионироватьExtendedTooltip</name>
+            <name>КМ_УстановитьВариантВерсионированияНеВерсионироватьРасширеннаяПодсказка</name>
             <id>46</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -531,6 +555,10 @@
         <items xsi:type="form:Button">
           <name>КМ_УстановитьВариантВерсионированияВсегда</name>
           <id>29</id>
+          <title>
+            <key>ru</key>
+            <value>При записи</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -538,7 +566,7 @@
           </userVisible>
           <skipOnInput>false</skipOnInput>
           <extendedTooltip>
-            <name>КМ_УстановитьВариантВерсионированияВсегдаExtendedTooltip</name>
+            <name>КМ_УстановитьВариантВерсионированияВсегдаРасширеннаяПодсказка</name>
             <id>45</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -562,6 +590,10 @@
         <items xsi:type="form:Button">
           <name>КМ_УстановитьВариантВерсионированияПриПроведении</name>
           <id>30</id>
+          <title>
+            <key>ru</key>
+            <value>При проведении (для документов)</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -569,7 +601,7 @@
           </userVisible>
           <skipOnInput>false</skipOnInput>
           <extendedTooltip>
-            <name>КМ_УстановитьВариантВерсионированияПриПроведенииExtendedTooltip</name>
+            <name>КМ_УстановитьВариантВерсионированияПриПроведенииРасширеннаяПодсказка</name>
             <id>44</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -593,6 +625,10 @@
         <items xsi:type="form:Button">
           <name>ДеревоОбъектовМетаданныхКонтекстноеМенюВерсионироватьПриСтарте</name>
           <id>130</id>
+          <title>
+            <key>ru</key>
+            <value>При старте (для бизнес-процессов)</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -655,6 +691,10 @@
         <items xsi:type="form:Button">
           <name>СрокХраненияВерсийКонтекстноеМенюЗаПоследнююНеделю</name>
           <id>99</id>
+          <title>
+            <key>ru</key>
+            <value>За последнюю неделю</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -685,6 +725,10 @@
         <items xsi:type="form:Button">
           <name>СрокХраненияВерсийКонтекстноеМенюЗаПоследнийМесяц</name>
           <id>101</id>
+          <title>
+            <key>ru</key>
+            <value>За последний месяц</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -715,6 +759,10 @@
         <items xsi:type="form:Button">
           <name>СрокХраненияВерсийКонтекстноеМенюЗаПоследниеТриМесяца</name>
           <id>103</id>
+          <title>
+            <key>ru</key>
+            <value>За последние три месяца</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -745,6 +793,10 @@
         <items xsi:type="form:Button">
           <name>СрокХраненияВерсийКонтекстноеМенюЗаПоследниеШестьМесяцев</name>
           <id>105</id>
+          <title>
+            <key>ru</key>
+            <value>За последние шесть месяцев</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -775,6 +827,10 @@
         <items xsi:type="form:Button">
           <name>СрокХраненияВерсийКонтекстноеМенюЗаПоследнийГод</name>
           <id>107</id>
+          <title>
+            <key>ru</key>
+            <value>За последний год</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -805,6 +861,10 @@
         <items xsi:type="form:Button">
           <name>СрокХраненияВерсийКонтекстноеМенюБессрочно</name>
           <id>109</id>
+          <title>
+            <key>ru</key>
+            <value>Бессрочно</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -891,6 +951,10 @@
   <items xsi:type="form:Button">
     <name>КоличествоИОбъемХранимыхВерсийОбъектов</name>
     <id>119</id>
+    <title>
+      <key>ru</key>
+      <value>Количество и объем хранимых версий объектов</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -968,6 +1032,10 @@
     <items xsi:type="form:Button">
       <name>Очистить</name>
       <id>62</id>
+      <title>
+        <key>ru</key>
+        <value>Очистить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1040,6 +1108,10 @@
       <items xsi:type="form:FormField">
         <name>АвтоматическиУдалятьУстаревшиеВерсии</name>
         <id>66</id>
+        <title>
+          <key>ru</key>
+          <value>Автоматически удалять устаревшие версии</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1088,6 +1160,10 @@
       <items xsi:type="form:Button">
         <name>НастроитьРасписание</name>
         <id>81</id>
+        <title>
+          <key>ru</key>
+          <value>Настроить расписание</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1238,6 +1314,10 @@
       <items xsi:type="form:Button">
         <name>УстановитьВариантВерсионированияНеВерсионировать</name>
         <id>27</id>
+        <title>
+          <key>ru</key>
+          <value>Никогда</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1245,7 +1325,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>УстановитьВариантВерсионированияНеВерсионироватьExtendedTooltip</name>
+          <name>УстановитьВариантВерсионированияНеВерсионироватьРасширеннаяПодсказка</name>
           <id>37</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1269,6 +1349,10 @@
       <items xsi:type="form:Button">
         <name>УстановитьВариантВерсионированияВсегда</name>
         <id>26</id>
+        <title>
+          <key>ru</key>
+          <value>При записи</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1276,7 +1360,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>УстановитьВариантВерсионированияВсегдаExtendedTooltip</name>
+          <name>УстановитьВариантВерсионированияВсегдаРасширеннаяПодсказка</name>
           <id>38</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1300,6 +1384,10 @@
       <items xsi:type="form:Button">
         <name>УстановитьВариантВерсионированияПриПроведении</name>
         <id>25</id>
+        <title>
+          <key>ru</key>
+          <value>При проведении (для документов)</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1307,7 +1395,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>УстановитьВариантВерсионированияПриПроведенииExtendedTooltip</name>
+          <name>УстановитьВариантВерсионированияПриПроведенииРасширеннаяПодсказка</name>
           <id>39</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1331,6 +1419,10 @@
       <items xsi:type="form:Button">
         <name>ФормаВерсионироватьПриСтарте</name>
         <id>97</id>
+        <title>
+          <key>ru</key>
+          <value>При старте (для бизнес-процессов)</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1364,6 +1456,10 @@
         <items xsi:type="form:Button">
           <name>УстановитьНастройкиПоУмолчанию</name>
           <id>23</id>
+          <title>
+            <key>ru</key>
+            <value>По умолчанию</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1371,7 +1467,7 @@
           </userVisible>
           <skipOnInput>false</skipOnInput>
           <extendedTooltip>
-            <name>УстановитьНастройкиПоУмолчаниюExtendedTooltip</name>
+            <name>УстановитьНастройкиПоУмолчаниюРасширеннаяПодсказка</name>
             <id>41</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1402,7 +1498,7 @@
           <value>Командная панель группа кнопок</value>
         </title>
         <extendedTooltip>
-          <name>КоманднаяПанельГруппаКнопокExtendedTooltip</name>
+          <name>КоманднаяПанельГруппаКнопокРасширеннаяПодсказка</name>
           <id>40</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1432,7 +1528,7 @@
         <value>Установить вариант версионирования для выделенных объектов</value>
       </toolTip>
       <extendedTooltip>
-        <name>ВариантВерсионированияГруппаExtendedTooltip</name>
+        <name>ВариантВерсионированияГруппаРасширеннаяПодсказка</name>
         <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1457,6 +1553,10 @@
       <items xsi:type="form:Button">
         <name>ФормаЗаПоследнююНеделю</name>
         <id>85</id>
+        <title>
+          <key>ru</key>
+          <value>За последнюю неделю</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1487,6 +1587,10 @@
       <items xsi:type="form:Button">
         <name>ФормаЗаПоследнийМесяц</name>
         <id>87</id>
+        <title>
+          <key>ru</key>
+          <value>За последний месяц</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1517,6 +1621,10 @@
       <items xsi:type="form:Button">
         <name>ФормаЗаПоследниеТриМесяца</name>
         <id>89</id>
+        <title>
+          <key>ru</key>
+          <value>За последние три месяца</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1547,6 +1655,10 @@
       <items xsi:type="form:Button">
         <name>ФормаЗаПоследниеШестьМесяцев</name>
         <id>91</id>
+        <title>
+          <key>ru</key>
+          <value>За последние шесть месяцев</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1577,6 +1689,10 @@
       <items xsi:type="form:Button">
         <name>ФормаЗаПоследнийГод</name>
         <id>93</id>
+        <title>
+          <key>ru</key>
+          <value>За последний год</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1607,6 +1723,10 @@
       <items xsi:type="form:Button">
         <name>ФормаБессрочно</name>
         <id>95</id>
+        <title>
+          <key>ru</key>
+          <value>Бессрочно</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1676,7 +1796,7 @@
         <value>Команды списка</value>
       </title>
       <extendedTooltip>
-        <name>КомандыСпискаExtendedTooltip</name>
+        <name>КомандыСпискаРасширеннаяПодсказка</name>
         <id>42</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1697,13 +1817,17 @@
     <items xsi:type="form:Button">
       <name>ДеревоОбъектовМетаданныхОбновить</name>
       <id>35</id>
+      <title>
+        <key>ru</key>
+        <value>Обновить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ДеревоОбъектовМетаданныхОбновитьExtendedTooltip</name>
+        <name>ДеревоОбъектовМетаданныхОбновитьРасширеннаяПодсказка</name>
         <id>43</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1725,6 +1849,48 @@
       <representationInContextMenu>Auto</representationInContextMenu>
       <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
+    <items xsi:type="form:Addition">
+      <title>
+        <key>ru</key>
+        <value>Поиск</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>СтрокаПоиска</name>
+      <id>132</id>
+      <extendedTooltip>
+        <name>СтрокаПоискаРасширеннаяПодсказка</name>
+        <id>134</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СтрокаПоискаКонтекстноеМеню</name>
+        <id>133</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <source>ДеревоОбъектовМетаданныхСтрокаПоиска</source>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -1741,6 +1907,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

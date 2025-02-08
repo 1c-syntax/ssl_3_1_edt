@@ -16,6 +16,10 @@
         <items xsi:type="form:FormField">
           <name>НомераПолучателей</name>
           <id>130</id>
+          <title>
+            <key>ru</key>
+            <value>Номера получателей</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -105,6 +109,10 @@
         <items xsi:type="form:FormField">
           <name>ТекстСообщения</name>
           <id>3</id>
+          <title>
+            <key>ru</key>
+            <value>Текст сообщения</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -165,6 +173,10 @@
           <items xsi:type="form:FormField">
             <name>ОтправлятьВТранслите</name>
             <id>21</id>
+            <title>
+              <key>ru</key>
+              <value>Отправлять в транслите</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -175,7 +187,7 @@
             </dataPath>
             <titleLocation>Right</titleLocation>
             <extendedTooltip>
-              <name>ОтправлятьВТранслитеExtendedTooltip</name>
+              <name>ОтправлятьВТранслитеРасширеннаяПодсказка</name>
               <id>28</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -209,6 +221,10 @@
           <items xsi:type="form:FormField">
             <name>ДлинаСообщенияСимволов</name>
             <id>38</id>
+            <title>
+              <key>ru</key>
+              <value>Длина сообщения, символов</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -343,6 +359,10 @@
           <items xsi:type="form:FormField">
             <name>ИмяОтправителя</name>
             <id>13</id>
+            <title>
+              <key>ru</key>
+              <value>Имя отправителя</value>
+            </title>
             <visible>true</visible>
             <userVisible>
               <common>true</common>
@@ -352,7 +372,7 @@
             </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
-              <name>ИмяОтправителяExtendedTooltip</name>
+              <name>ИмяОтправителяРасширеннаяПодсказка</name>
               <id>29</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -467,7 +487,7 @@
         <value>Параметры отправки</value>
       </title>
       <extendedTooltip>
-        <name>ПараметрыОтправкиExtendedTooltip</name>
+        <name>ПараметрыОтправкиРасширеннаяПодсказка</name>
         <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -538,6 +558,10 @@
         <items xsi:type="form:FormField">
           <name>СтатусОтправки</name>
           <id>71</id>
+          <title>
+            <key>ru</key>
+            <value>Статус отправки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -977,7 +1001,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <extInfo xsi:type="form:PictureDecorationExtInfo">
           <picture xsi:type="core:PictureRef">
-            <picture>CommonPicture.Предупреждение32</picture>
+            <picture>StdPicture.DialogExclamation</picture>
           </picture>
         </extInfo>
       </items>
@@ -1035,10 +1059,6 @@
         <key>ru</key>
         <value>Страница сообщение не отправлено</value>
       </title>
-      <toolTip>
-        <key>ru</key>
-        <value>Страница сообщение отправлено</value>
-      </toolTip>
       <extendedTooltip>
         <name>СтраницаСообщениеНеОтправленоРасширеннаяПодсказка</name>
         <id>102</id>
@@ -1135,7 +1155,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОтправитьExtendedTooltip</name>
+        <name>ОтправитьРасширеннаяПодсказка</name>
         <id>23</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1265,6 +1285,7 @@
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

@@ -62,7 +62,7 @@
       <segments>Запись.Пользователь</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ПользовательExtendedTooltip</name>
+      <name>ПользовательРасширеннаяПодсказка</name>
       <id>37</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -112,7 +112,7 @@
       <segments>Запись.Право</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ПравоExtendedTooltip</name>
+      <name>ПравоРасширеннаяПодсказка</name>
       <id>38</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -251,7 +251,7 @@
       <value>Свойства права</value>
     </title>
     <extendedTooltip>
-      <name>СвойстваПраваExtendedTooltip</name>
+      <name>СвойстваПраваРасширеннаяПодсказка</name>
       <id>39</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -339,7 +339,7 @@
         <segments>Запись.Таблица</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТаблицаExtendedTooltip</name>
+        <name>ТаблицаРасширеннаяПодсказка</name>
         <id>43</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -382,7 +382,7 @@
       <name>ГоризонтальнаяГруппа</name>
       <id>34</id>
       <items xsi:type="form:FormGroup">
-        <name>ВертикальнаяГруппа3</name>
+        <name>ПерваяКолонка</name>
         <id>54</id>
         <items xsi:type="form:FormField">
           <name>УровеньРазрешенияПрава</name>
@@ -491,10 +491,10 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Вертикальная группа 3</value>
+          <value>Первая колонка</value>
         </title>
         <extendedTooltip>
-          <name>ВертикальнаяГруппа3РасширеннаяПодсказка</name>
+          <name>ПерваяКолонкаРасширеннаяПодсказка</name>
           <id>55</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -518,7 +518,7 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
-        <name>ВертикальнаяГруппа1</name>
+        <name>ВтораяКолонка</name>
         <id>32</id>
         <items xsi:type="form:FormField">
           <name>УровеньРазрешенияЧтения</name>
@@ -627,10 +627,10 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Вертикальная группа 1</value>
+          <value>Вторая колонка</value>
         </title>
         <extendedTooltip>
-          <name>ВертикальнаяГруппа1ExtendedTooltip</name>
+          <name>ВтораяКолонкаРасширеннаяПодсказка</name>
           <id>45</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -654,7 +654,7 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
-        <name>ВертикальнаяГруппа2</name>
+        <name>ТретьяКолонка</name>
         <id>33</id>
         <items xsi:type="form:FormField">
           <name>УровеньРазрешенияИзменения</name>
@@ -763,10 +763,10 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Вертикальная группа 2</value>
+          <value>Третья колонка</value>
         </title>
         <extendedTooltip>
-          <name>ВертикальнаяГруппа2ExtendedTooltip</name>
+          <name>ТретьяКолонкаРасширеннаяПодсказка</name>
           <id>50</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -799,7 +799,7 @@
         <value>Горизонтальная группа</value>
       </title>
       <extendedTooltip>
-        <name>ГоризонтальнаяГруппаExtendedTooltip</name>
+        <name>ГоризонтальнаяГруппаРасширеннаяПодсказка</name>
         <id>44</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -832,7 +832,7 @@
       <value>Вспомогательные данные</value>
     </title>
     <extendedTooltip>
-      <name>ВспомогательныеДанныеExtendedTooltip</name>
+      <name>ВспомогательныеДанныеРасширеннаяПодсказка</name>
       <id>42</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -863,13 +863,17 @@
     <items xsi:type="form:Button">
       <name>ФормаВключитьВозможностьРедактирования</name>
       <id>29</id>
+      <title>
+        <key>ru</key>
+        <value>Включить возможность редактирования</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаВключитьВозможностьРедактированияExtendedTooltip</name>
+        <name>ФормаВключитьВозможностьРедактированияРасширеннаяПодсказка</name>
         <id>35</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -905,6 +909,7 @@
   </handlers>
   <excludedCommands>Copy</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

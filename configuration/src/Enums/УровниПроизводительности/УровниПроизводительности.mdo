@@ -29,38 +29,38 @@
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <enumValues uuid="5101c142-b25c-4bef-80e7-7407f2c15c90">
-    <name>Идеально</name>
-    <synonym>
-      <key>ru</key>
-      <value>Идеально (apdex = 1)</value>
-    </synonym>
-  </enumValues>
-  <enumValues uuid="6d7872f1-fd54-41c4-8253-5f2b125f31ae">
     <name>Отлично</name>
     <synonym>
       <key>ru</key>
-      <value>Отлично (apdex >= 0.94)</value>
+      <value>Отлично (>=0.95)</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="0c218200-27a8-4f71-9b09-3632dd453644">
+  <enumValues uuid="6d7872f1-fd54-41c4-8253-5f2b125f31ae">
     <name>Хорошо</name>
     <synonym>
       <key>ru</key>
       <value>Хорошо (apdex >= 0.85)</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="2d8a74e5-eb29-448b-b4c0-1f41fa171b5e">
-    <name>Удовлетворительно</name>
-    <synonym>
-      <key>ru</key>
-      <value>Удовлетворительно (apdex >= 0.70)</value>
-    </synonym>
-  </enumValues>
-  <enumValues uuid="b5d30250-18ab-4af1-b99a-ff5dba334d1f">
+  <enumValues uuid="0c218200-27a8-4f71-9b09-3632dd453644">
     <name>Плохо</name>
     <synonym>
       <key>ru</key>
-      <value>Плохо (apdex >= 0.50)</value>
+      <value>Плохо (apdex >= 0.70)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2d8a74e5-eb29-448b-b4c0-1f41fa171b5e">
+    <name>ОченьПлохо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очень плохо (apdex >= 0.50)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b5d30250-18ab-4af1-b99a-ff5dba334d1f">
+    <name>Неприемлемо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неприемлемо (apdex &lt; 0.50)</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

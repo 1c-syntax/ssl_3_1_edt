@@ -108,6 +108,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа</value>
+        </title>
         <extendedTooltip>
           <name>Группа7ExtendedTooltip</name>
           <id>33</id>
@@ -264,6 +268,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа</value>
+        </title>
         <extendedTooltip>
           <name>Группа8ExtendedTooltip</name>
           <id>37</id>
@@ -416,6 +424,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа</value>
+        </title>
         <extendedTooltip>
           <name>Группа9ExtendedTooltip</name>
           <id>41</id>
@@ -513,6 +525,10 @@
         <items xsi:type="form:Button">
           <name>ПрекратитьСинхронизациюДанных</name>
           <id>29</id>
+          <title>
+            <key>ru</key>
+            <value>Прекратить синхронизацию данных</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -544,6 +560,10 @@
         <items xsi:type="form:Button">
           <name>Отменить</name>
           <id>30</id>
+          <title>
+            <key>ru</key>
+            <value>Отменить</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -576,6 +596,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа</value>
+        </title>
         <extendedTooltip>
           <name>Группа5ExtendedTooltip</name>
           <id>46</id>
@@ -635,6 +659,10 @@
         <items xsi:type="form:Button">
           <name>Закрыть</name>
           <id>23</id>
+          <title>
+            <key>ru</key>
+            <value>Закрыть</value>
+          </title>
           <visible>true</visible>
           <userVisible>
             <common>true</common>
@@ -665,6 +693,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа</value>
+        </title>
         <enableContentChange>true</enableContentChange>
         <extendedTooltip>
           <name>Группа6ExtendedTooltip</name>
@@ -726,6 +758,10 @@
         <items xsi:type="form:Button">
           <name>Закрыть1</name>
           <id>26</id>
+          <title>
+            <key>ru</key>
+            <value>Закрыть</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -758,6 +794,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа</value>
+        </title>
         <enableContentChange>true</enableContentChange>
         <extendedTooltip>
           <name>Группа14ExtendedTooltip</name>
@@ -860,6 +900,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

@@ -106,6 +106,10 @@
           <items xsi:type="form:FormField">
             <name>РежимВыгрузкиДанных</name>
             <id>233</id>
+            <title>
+              <key>ru</key>
+              <value>Состав выгружаемых данных</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -362,6 +366,10 @@
           <items xsi:type="form:FormField">
             <name>СообщениеОбОшибке3</name>
             <id>258</id>
+            <title>
+              <key>ru</key>
+              <value>Сообщение об ошибке</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -415,6 +423,10 @@
           <items xsi:type="form:Button">
             <name>НастройкиПодключения</name>
             <id>261</id>
+            <title>
+              <key>ru</key>
+              <value>Настройки подключения</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -592,7 +604,7 @@
             <id>103</id>
             <title>
               <key>ru</key>
-              <value>Введите пароль для доступа к &quot;%НаименованиеПриложения%&quot; через Интернет</value>
+              <value>Введите пароль для доступа к &quot;%1&quot; через Интернет</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -634,6 +646,10 @@
           <items xsi:type="form:FormField">
             <name>WSПароль</name>
             <id>144</id>
+            <title>
+              <key>ru</key>
+              <value>Пароль</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1149,7 +1165,7 @@
           <id>88</id>
           <title>
             <key>ru</key>
-            <value>Выполняется выгрузка данных для &quot;%НаименованиеПриложения%&quot;.
+            <value>Выполняется выгрузка данных для &quot;%1&quot;.
 Пожалуйста, подождите...</value>
           </title>
           <visible>true</visible>
@@ -1266,7 +1282,7 @@
             <id>128</id>
             <title>
               <key>ru</key>
-              <value>Выгрузка данных для &quot;%НаименованиеПриложения%&quot;</value>
+              <value>Выгрузка данных для &quot;%1&quot;</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1307,6 +1323,10 @@
           <items xsi:type="form:FormField">
             <name>ПроцентВыполненияВыгрузки</name>
             <id>131</id>
+            <title>
+              <key>ru</key>
+              <value>Процент выполнения</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1515,7 +1535,7 @@
                 <key>ru</key>
                 <value>Выгрузка успешно завершена.
 
-Теперь можно перейти в программу &quot;%НаименованиеПриложения%&quot; и выполнить сопоставление и загрузку полученных данных.</value>
+Теперь можно перейти в программу &quot;%1&quot; и выполнить сопоставление и загрузку полученных данных.</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1719,6 +1739,10 @@
               <items xsi:type="form:FormField">
                 <name>СообщениеОбОшибке</name>
                 <id>275</id>
+                <title>
+                  <key>ru</key>
+                  <value>Сообщение об ошибке</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1965,6 +1989,10 @@
               <items xsi:type="form:FormField">
                 <name>СообщениеОбОшибке1</name>
                 <id>212</id>
+                <title>
+                  <key>ru</key>
+                  <value>Сообщение об ошибке</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2210,6 +2238,10 @@
               <items xsi:type="form:FormField">
                 <name>СообщениеОбОшибке2</name>
                 <id>225</id>
+                <title>
+                  <key>ru</key>
+                  <value>Сообщение об ошибке</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2455,6 +2487,10 @@
         <items xsi:type="form:Button">
           <name>КомандаДалее</name>
           <id>117</id>
+          <title>
+            <key>ru</key>
+            <value>Далее ></value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2486,6 +2522,10 @@
         <items xsi:type="form:Button">
           <name>КомандаОтмена1</name>
           <id>119</id>
+          <title>
+            <key>ru</key>
+            <value>Отмена</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2581,6 +2621,10 @@
         <items xsi:type="form:Button">
           <name>КомандаНазад</name>
           <id>177</id>
+          <title>
+            <key>ru</key>
+            <value>&lt; Назад</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2643,6 +2687,10 @@
         <items xsi:type="form:Button">
           <name>КомандаДалее1</name>
           <id>173</id>
+          <title>
+            <key>ru</key>
+            <value>Далее ></value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2673,6 +2721,10 @@
         <items xsi:type="form:Button">
           <name>КомандаОтмена2</name>
           <id>175</id>
+          <title>
+            <key>ru</key>
+            <value>Отмена</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2768,6 +2820,10 @@
         <items xsi:type="form:Button">
           <name>КомандаОтмена</name>
           <id>15</id>
+          <title>
+            <key>ru</key>
+            <value>Отмена</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2863,6 +2919,10 @@
         <items xsi:type="form:Button">
           <name>КомандаГотово</name>
           <id>19</id>
+          <title>
+            <key>ru</key>
+            <value>Готово</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -3007,6 +3067,7 @@
     <event>OnClose</event>
     <name>ПриЗакрытии</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -3494,6 +3555,19 @@
     <id>6</id>
     <valueType>
       <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>КонечнаяТочка</name>
+    <id>18</id>
+    <valueType>
+      <types>DefinedType.КонечнаяТочкаОбменаСообщениями</types>
     </valueType>
     <view>
       <common>true</common>

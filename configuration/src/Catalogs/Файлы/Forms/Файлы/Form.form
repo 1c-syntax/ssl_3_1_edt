@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
   <title>
     <key>ru</key>
     <value>Файлы</value>
@@ -317,7 +317,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>ПапкиExtendedTooltip</name>
+          <name>ПапкиРасширеннаяПодсказка</name>
           <id>183</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -629,7 +629,7 @@
               <value>Стандартные команды</value>
             </title>
             <extendedTooltip>
-              <name>ПапкиКонтекстноеМенюСтандартныеExtendedTooltip</name>
+              <name>ПапкиКонтекстноеМенюСтандартныеРасширеннаяПодсказка</name>
               <id>177</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -654,6 +654,10 @@
             <items xsi:type="form:Button">
               <name>ПапкиКонтекстноеМенюИмпортПапки</name>
               <id>82</id>
+              <title>
+                <key>ru</key>
+                <value>Загрузить папку...</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -685,6 +689,10 @@
             <items xsi:type="form:Button">
               <name>ПапкиКонтекстноеМенюЭкспортПапки</name>
               <id>64</id>
+              <title>
+                <key>ru</key>
+                <value>Сохранить папку...</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -716,6 +724,10 @@
             <items xsi:type="form:Button">
               <name>ПапкиКонтекстноеМенюНастроитьСинхронизацию</name>
               <id>394</id>
+              <title>
+                <key>ru</key>
+                <value>Синхронизация с облаком ...</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -770,6 +782,39 @@
             <extInfo xsi:type="form:ButtonGroupExtInfo"/>
           </items>
           <items xsi:type="form:Button">
+            <name>ПапкиКонтекстноеМенюНастроитьПрава</name>
+            <id>448</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Items.Папки.CurrentData.Ref</segments>
+            </dataPath>
+            <extendedTooltip>
+              <name>ПапкиКонтекстноеМенюНастроитьПраваРасширеннаяПодсказка</name>
+              <id>449</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>CommonCommand.НастроитьПрава</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
             <name>ПапкиКонтекстноеМенюКопироватьВБуферОбмена</name>
             <id>141</id>
             <displayImportance>VeryLow</displayImportance>
@@ -779,7 +824,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПапкиКонтекстноеМенюКопироватьВБуферОбменаExtendedTooltip</name>
+              <name>ПапкиКонтекстноеМенюКопироватьВБуферОбменаРасширеннаяПодсказка</name>
               <id>178</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -835,7 +880,7 @@
         <borderColor xsi:type="core:ColorRef">
           <color>Style.BorderColor</color>
         </borderColor>
-        <searchStringLocation>None</searchStringLocation>
+        <searchStringLocation>Top</searchStringLocation>
         <viewStatusLocation>None</viewStatusLocation>
         <searchControlLocation>None</searchControlLocation>
         <currentRowUse>SelectionPresentation</currentRowUse>
@@ -847,6 +892,7 @@
           </period>
           <topLevelParent xsi:type="core:UndefinedValue"/>
           <showRoot>true</showRoot>
+          <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -1248,7 +1294,7 @@
                 <common>true</common>
               </userVisible>
               <dataPath xsi:type="form:DataPath">
-                <segments>Список.Description</segments>
+                <segments>Список.Наименование</segments>
               </dataPath>
               <defaultItem>true</defaultItem>
               <extendedTooltip>
@@ -1750,7 +1796,7 @@
             <enabled>true</enabled>
             <userVisible/>
             <dataPath xsi:type="form:DataPath">
-              <segments>Список.Ref</segments>
+              <segments>Список.Ссылка</segments>
             </dataPath>
             <extendedTooltip>
               <name>СписокСсылкаРасширеннаяПодсказка</name>
@@ -1946,7 +1992,7 @@
             </extInfo>
           </searchControlAddition>
           <extendedTooltip>
-            <name>СписокExtendedTooltip</name>
+            <name>СписокРасширеннаяПодсказка</name>
             <id>208</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1962,6 +2008,40 @@
           <contextMenu>
             <name>СписокКонтекстноеМеню</name>
             <id>4</id>
+            <items xsi:type="form:Button">
+              <name>СписокКонтекстноеМенюСравнить</name>
+              <id>446</id>
+              <title>
+                <key>ru</key>
+                <value>Сравнить файлы...</value>
+              </title>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>СписокКонтекстноеМенюСравнитьРасширеннаяПодсказка</name>
+                <id>447</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <commandName>Form.Command.Сравнить</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
             <items xsi:type="form:Button">
               <name>СписокКонтекстноеМенюСоздать</name>
               <id>96</id>
@@ -2037,6 +2117,10 @@
               <name>СписокКонтекстноеМенюПеренестиВПапку</name>
               <id>83</id>
               <displayImportance>VeryHigh</displayImportance>
+              <title>
+                <key>ru</key>
+                <value>Перенести в папку</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2072,6 +2156,10 @@
               <items xsi:type="form:Button">
                 <name>СписокКонтекстноеМенюОткрыть</name>
                 <id>65</id>
+                <title>
+                  <key>ru</key>
+                  <value>Просмотреть</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2103,6 +2191,10 @@
               <items xsi:type="form:Button">
                 <name>СписокКонтекстноеМенюЗанять</name>
                 <id>68</id>
+                <title>
+                  <key>ru</key>
+                  <value>Занять</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2134,6 +2226,10 @@
               <items xsi:type="form:Button">
                 <name>СписокКонтекстноеМенюРедактировать</name>
                 <id>66</id>
+                <title>
+                  <key>ru</key>
+                  <value>Редактировать</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2165,6 +2261,10 @@
               <items xsi:type="form:Button">
                 <name>СписокКонтекстноеМенюСохранитьИзменения</name>
                 <id>70</id>
+                <title>
+                  <key>ru</key>
+                  <value>Сохранить изменения</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible/>
@@ -2229,6 +2329,10 @@
               <items xsi:type="form:Button">
                 <name>СписокКонтекстноеМенюПечать</name>
                 <id>390</id>
+                <title>
+                  <key>ru</key>
+                  <value>Печать</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2259,6 +2363,10 @@
               <items xsi:type="form:Button">
                 <name>СписокКонтекстноеМенюОтправить</name>
                 <id>392</id>
+                <title>
+                  <key>ru</key>
+                  <value>Отправить</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2322,6 +2430,10 @@
                 <items xsi:type="form:Button">
                   <name>СписокКонтекстноеМенюПодписать</name>
                   <id>132</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Подписать...</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2352,6 +2464,10 @@
                 <items xsi:type="form:Button">
                   <name>СписокКонтекстноеМенюДобавитьПодписьИзФайла</name>
                   <id>134</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Добавить электронную подпись из файла...</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2382,6 +2498,10 @@
                 <items xsi:type="form:Button">
                   <name>СписокКонтекстноеМенюСохранитьВместеСПодписью</name>
                   <id>135</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Сохранить вместе с электронной подписью...</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2441,6 +2561,10 @@
                 <items xsi:type="form:Button">
                   <name>СписокКонтекстноеМенюЗашифровать</name>
                   <id>137</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Зашифровать...</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2471,6 +2595,10 @@
                 <items xsi:type="form:Button">
                   <name>СписокКонтекстноеМенюРасшифровать</name>
                   <id>138</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Расшифровать...</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2627,6 +2755,10 @@
               <items xsi:type="form:Button">
                 <name>СписокКонтекстноеМенюУдалить</name>
                 <id>444</id>
+                <title>
+                  <key>ru</key>
+                  <value>Удалить</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2657,6 +2789,10 @@
               <items xsi:type="form:Button">
                 <name>СписокКонтекстноеМенюСохранитьКак</name>
                 <id>72</id>
+                <title>
+                  <key>ru</key>
+                  <value>Сохранить как...</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2723,6 +2859,10 @@
               <items xsi:type="form:Button">
                 <name>СписокКонтекстноеМенюОбновитьИзФайлаНаДиске</name>
                 <id>91</id>
+                <title>
+                  <key>ru</key>
+                  <value>Обновить из файла на компьютере...</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2754,6 +2894,10 @@
               <items xsi:type="form:Button">
                 <name>СписокКонтекстноеМенюОткрытьКаталогФайла</name>
                 <id>71</id>
+                <title>
+                  <key>ru</key>
+                  <value>Открыть каталог файла</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2814,6 +2958,10 @@
               <items xsi:type="form:Button">
                 <name>СписокКонтекстноеМенюИмпортФайлов</name>
                 <id>345</id>
+                <title>
+                  <key>ru</key>
+                  <value>Загрузить файлы...</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2931,7 +3079,7 @@
           <borderColor xsi:type="core:ColorRef">
             <color>Style.BorderColor</color>
           </borderColor>
-          <searchStringLocation>None</searchStringLocation>
+          <searchStringLocation>Top</searchStringLocation>
           <viewStatusLocation>None</viewStatusLocation>
           <searchControlLocation>None</searchControlLocation>
           <extInfo xsi:type="form:DynamicListTableExtInfo">
@@ -2942,6 +3090,7 @@
             </period>
             <restoreCurrentRow>true</restoreCurrentRow>
             <topLevelParent xsi:type="core:UndefinedValue"/>
+            <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
             <userSettingsGroup>ГруппаПользовательскихНастроек</userSettingsGroup>
           </extInfo>
         </items>
@@ -2982,6 +3131,10 @@
       <items xsi:type="form:FormField">
         <name>АдресДанныхФайла</name>
         <id>385</id>
+        <title>
+          <key>ru</key>
+          <value>Адрес данных файла</value>
+        </title>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -3110,7 +3263,7 @@
         <id>87</id>
         <title>
           <key>ru</key>
-          <value>Файл с диска...</value>
+          <value>Файл с компьютера...</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -3143,6 +3296,10 @@
       <items xsi:type="form:Button">
         <name>ФормаСоздатьИзШаблона</name>
         <id>230</id>
+        <title>
+          <key>ru</key>
+          <value>По шаблону...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3173,6 +3330,10 @@
       <items xsi:type="form:Button">
         <name>ФормаСоздатьСоСканера</name>
         <id>232</id>
+        <title>
+          <key>ru</key>
+          <value>Со сканера...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3240,6 +3401,10 @@
         <name>ФормаИмпортФайлов</name>
         <id>347</id>
         <displayImportance>High</displayImportance>
+        <title>
+          <key>ru</key>
+          <value>Загрузить файлы...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3273,6 +3438,10 @@
         <name>ФормаИмпортПапки</name>
         <id>377</id>
         <displayImportance>High</displayImportance>
+        <title>
+          <key>ru</key>
+          <value>Загрузить папку...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3405,6 +3574,10 @@
       <name>ФормаПеренестиВПапку</name>
       <id>84</id>
       <displayImportance>Usual</displayImportance>
+      <title>
+        <key>ru</key>
+        <value>Перенести в папку</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -3441,6 +3614,10 @@
       <items xsi:type="form:Button">
         <name>ФормаОткрыть</name>
         <id>73</id>
+        <title>
+          <key>ru</key>
+          <value>Просмотреть</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3471,6 +3648,10 @@
       <items xsi:type="form:Button">
         <name>ФормаЗанять</name>
         <id>77</id>
+        <title>
+          <key>ru</key>
+          <value>Занять</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3503,6 +3684,10 @@
       <items xsi:type="form:Button">
         <name>ФормаРедактировать</name>
         <id>75</id>
+        <title>
+          <key>ru</key>
+          <value>Редактировать</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3533,6 +3718,10 @@
       <items xsi:type="form:Button">
         <name>ФормаСохранитьИзменения</name>
         <id>79</id>
+        <title>
+          <key>ru</key>
+          <value>Сохранить изменения</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible/>
@@ -3563,6 +3752,10 @@
       <items xsi:type="form:Button">
         <name>ФормаЗакончитьРедактирование</name>
         <id>76</id>
+        <title>
+          <key>ru</key>
+          <value>Закончить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3628,6 +3821,10 @@
       <items xsi:type="form:Button">
         <name>Отправить</name>
         <id>379</id>
+        <title>
+          <key>ru</key>
+          <value>Отправить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3724,13 +3921,17 @@
         <items xsi:type="form:Button">
           <name>ФормаПодписать</name>
           <id>120</id>
+          <title>
+            <key>ru</key>
+            <value>Подписать...</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ФормаПодписатьExtendedTooltip</name>
+            <name>ФормаПодписатьРасширеннаяПодсказка</name>
             <id>163</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -3754,6 +3955,10 @@
         <items xsi:type="form:Button">
           <name>ФормаДобавитьПодписьИзФайла</name>
           <id>127</id>
+          <title>
+            <key>ru</key>
+            <value>Добавить электронную подпись из файла...</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -3784,6 +3989,10 @@
         <items xsi:type="form:Button">
           <name>ФормаСохранитьВместеСПодписью</name>
           <id>128</id>
+          <title>
+            <key>ru</key>
+            <value>Сохранить вместе с электронной подписью...</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -3843,13 +4052,17 @@
         <items xsi:type="form:Button">
           <name>ФормаЗашифровать</name>
           <id>123</id>
+          <title>
+            <key>ru</key>
+            <value>Зашифровать...</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ФормаЗашифроватьExtendedTooltip</name>
+            <name>ФормаЗашифроватьРасширеннаяПодсказка</name>
             <id>167</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -3873,13 +4086,17 @@
         <items xsi:type="form:Button">
           <name>ФормаРасшифровать</name>
           <id>125</id>
+          <title>
+            <key>ru</key>
+            <value>Расшифровать...</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ФормаРасшифроватьExtendedTooltip</name>
+            <name>ФормаРасшифроватьРасширеннаяПодсказка</name>
             <id>168</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -4118,6 +4335,10 @@
       <items xsi:type="form:Button">
         <name>ФормаСохранитьКак</name>
         <id>81</id>
+        <title>
+          <key>ru</key>
+          <value>Сохранить как...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -4186,6 +4407,10 @@
       <items xsi:type="form:Button">
         <name>ФормаОбновитьИзФайлаНаДиске</name>
         <id>90</id>
+        <title>
+          <key>ru</key>
+          <value>Обновить из файла на компьютере...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -4218,6 +4443,10 @@
       <items xsi:type="form:Button">
         <name>ФормаОткрытьКаталогФайла</name>
         <id>80</id>
+        <title>
+          <key>ru</key>
+          <value>Открыть каталог файла</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -4250,6 +4479,10 @@
       <items xsi:type="form:Button">
         <name>Сравнить</name>
         <id>428</id>
+        <title>
+          <key>ru</key>
+          <value>Сравнить файлы...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -4314,6 +4547,10 @@
         <items xsi:type="form:Button">
           <name>ФормаУдалить</name>
           <id>440</id>
+          <title>
+            <key>ru</key>
+            <value>Удалить</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -4409,13 +4646,17 @@
       <items xsi:type="form:Button">
         <name>ФормаОбновитьСписок</name>
         <id>142</id>
+        <title>
+          <key>ru</key>
+          <value>Обновить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаОбновитьСписокExtendedTooltip</name>
+          <name>ФормаОбновитьСписокРасширеннаяПодсказка</name>
           <id>171</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -4440,6 +4681,10 @@
       <items xsi:type="form:Button">
         <name>ФормаИспользоватьИерархию</name>
         <id>99</id>
+        <title>
+          <key>ru</key>
+          <value>Использовать иерархию</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -4472,6 +4717,39 @@
         </picture>
         <representationInContextMenu>Auto</representationInContextMenu>
         <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+      </items>
+      <items xsi:type="form:Button">
+        <name>ФормаНастроитьПрава</name>
+        <id>450</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Items.Папки.CurrentData.Ref</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ФормаНастроитьПраваРасширеннаяПодсказка</name>
+          <id>451</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>CommonCommand.НастроитьПрава</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:FormGroup">
         <name>ФормаГруппаНастройкаСписка</name>
@@ -4747,6 +5025,10 @@
       <name>Предпросмотр</name>
       <id>388</id>
       <displayImportance>Low</displayImportance>
+      <title>
+        <key>ru</key>
+        <value>Предпросмотр</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -4778,6 +5060,10 @@
     <items xsi:type="form:Button">
       <name>ПоказыватьПомеченныеФайлы</name>
       <id>442</id>
+      <title>
+        <key>ru</key>
+        <value>Показывать помеченные файлы</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -4810,6 +5096,10 @@
       <name>ПоказыватьСлужебныеФайлы</name>
       <id>432</id>
       <displayImportance>VeryLow</displayImportance>
+      <title>
+        <key>ru</key>
+        <value>Показывать служебные файлы</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -4848,7 +5138,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСправкаExtendedTooltip</name>
+        <name>ФормаСправкаРасширеннаяПодсказка</name>
         <id>172</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -4904,6 +5194,7 @@
   <excludedCommands>Delete</excludedCommands>
   <excludedCommands>Refresh</excludedCommands>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>
@@ -4922,9 +5213,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Список.Ref</segments>
-    </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Список.Автор</segments>
     </notDefaultUseAlwaysAttributes>
@@ -4953,6 +5241,9 @@
       <segments>Список.Служебный</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.Ссылка</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Список.ФайлРедактируетТекущийПользователь</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
@@ -4966,7 +5257,6 @@
       <queryText>ВЫБРАТЬ
 	Файлы.Редактирует,
 	Файлы.ДатаСоздания,
-	Файлы.УдалитьТекущаяВерсияНомерВерсии,
 	ВЫРАЗИТЬ(Файлы.Размер / 1024 КАК ЧИСЛО(10, 0)) КАК ТекущаяВерсияРазмер,
 	Файлы.Автор,
 	Файлы.Расширение КАК Расширение,
@@ -5021,6 +5311,306 @@
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаЗаема</dataPath>
+        <field>ДатаЗаема</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаМодификацииУниверсальная</dataPath>
+        <field>ДатаМодификацииУниверсальная</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИндексКартинки</dataPath>
+        <field>ИндексКартинки</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Индекс картинки</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Описание</dataPath>
+        <field>Описание</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Описание</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ТекстХранилище</dataPath>
+        <field>ТекстХранилище</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ТекущаяВерсия</dataPath>
+        <field>ТекущаяВерсия</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>УдалитьТекущаяВерсияДатаМодификацииФайла</dataPath>
+        <field>УдалитьТекущаяВерсияДатаМодификацииФайла</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>УдалитьТекущаяВерсияДатаСоздания</dataPath>
+        <field>УдалитьТекущаяВерсияДатаСоздания</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>УдалитьТекущаяВерсияКод</dataPath>
+        <field>УдалитьТекущаяВерсияКод</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПутьКФайлу</dataPath>
+        <field>ПутьКФайлу</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Размер</dataPath>
+        <field>Размер</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Том</dataPath>
+        <field>Том</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ТипХраненияФайла</dataPath>
+        <field>ТипХраненияФайла</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>СтатусИзвлеченияТекста</dataPath>
+        <field>СтатусИзвлеченияТекста</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ФайлХранилище</dataPath>
+        <field>ФайлХранилище</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДополнительныеРеквизиты</dataPath>
+        <field>ДополнительныеРеквизиты</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>УдалитьСертификатыШифрования</dataPath>
+        <field>УдалитьСертификатыШифрования</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Предопределенный</dataPath>
+        <field>Предопределенный</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИмяПредопределенныхДанных</dataPath>
+        <field>ИмяПредопределенныхДанных</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Редактирует</dataPath>
+        <field>Редактирует</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаСоздания</dataPath>
+        <field>ДатаСоздания</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>УдалитьТекущаяВерсияНомерВерсии</dataPath>
+        <field>УдалитьТекущаяВерсияНомерВерсии</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ТекущаяВерсияРазмер</dataPath>
+        <field>ТекущаяВерсияРазмер</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Текущая версия размер</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Автор</dataPath>
+        <field>Автор</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Расширение</dataPath>
+        <field>Расширение</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Наименование</dataPath>
+        <field>Наименование</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ссылка</dataPath>
+        <field>Ссылка</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ХранитьВерсии</dataPath>
+        <field>ХранитьВерсии</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВладелецФайла</dataPath>
+        <field>ВладелецФайла</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Отредактировал</dataPath>
+        <field>Отредактировал</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Отредактировал</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ФайлРедактируетТекущийПользователь</dataPath>
+        <field>ФайлРедактируетТекущийПользователь</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Файл редактируется текущим пользователем</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ФайлРедактируется</dataPath>
+        <field>ФайлРедактируется</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Файл редактируется</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПодписанЭП</dataPath>
+        <field>ПодписанЭП</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Зашифрован</dataPath>
+        <field>Зашифрован</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>НомерКартинкиПодписанЗашифрован</dataPath>
+        <field>НомерКартинкиПодписанЗашифрован</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Номер картинки подписан зашифрован</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаИзменения</dataPath>
+        <field>ДатаИзменения</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Дата изменения</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Служебный</dataPath>
+        <field>Служебный</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Кодировка</dataPath>
+        <field>Кодировка</field>
+      </fields>
+      <parameters>
+        <name>ПустыеПользователи</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Пустые пользователи</value>
+            </content>
+          </localValue>
+        </title>
+        <useRestriction>true</useRestriction>
+        <valueListAllowed>true</valueListAllowed>
+      </parameters>
+      <parameters>
+        <name>СекундДоМестногоВремени</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Секунд до местного времени</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>Number</types>
+          <numberQualifiers/>
+        </valueType>
+        <values xsi:type="core:UndefinedValue"/>
+        <useRestriction>true</useRestriction>
+      </parameters>
+      <parameters>
+        <name>ИспользоватьИерархию</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Использовать иерархию</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>Boolean</types>
+        </valueType>
+        <values xsi:type="core:UndefinedValue"/>
+        <useRestriction>true</useRestriction>
+      </parameters>
+      <parameters>
+        <name>Владелец</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Владелец</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>89432067-978f-4e8e-a7dc-cb87badd9341</types>
+        </valueType>
+        <values xsi:type="core:UndefinedValue"/>
+        <useRestriction>true</useRestriction>
+      </parameters>
+      <parameters>
+        <name>ТекущийПользователь</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Текущий пользователь</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>CatalogRef.ВнешниеПользователи</types>
+          <types>CatalogRef.УчетныеЗаписиСинхронизацииФайлов</types>
+          <types>CatalogRef.Пользователи</types>
+        </valueType>
+        <values xsi:type="core:UndefinedValue"/>
+        <useRestriction>true</useRestriction>
+      </parameters>
     </extInfo>
   </attributes>
   <attributes>
@@ -5039,9 +5629,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Папки.ДатаСинхронизации</segments>
-    </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Папки.Description</segments>
     </notDefaultUseAlwaysAttributes>
@@ -5062,9 +5649,6 @@
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Папки.УчетнаяЗапись</segments>
-    </notDefaultUseAlwaysAttributes>
-    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
-      <segments>Папки.УчетнаяЗаписьDescription</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Папки.УчетнаяЗаписьСервис</segments>
@@ -5117,19 +5701,6 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ПапкаПриОткрытии</name>
-    <id>4</id>
-    <valueType>
-      <types>CatalogRef.ПапкиФайлов</types>
     </valueType>
     <view>
       <common>true</common>
@@ -5342,6 +5913,60 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>УправлениеПравами</name>
+    <id>4</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ДоступнаКомандаНастройкиПрав</name>
+    <id>20</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ВладелецФайла</name>
+    <id>21</id>
+    <valueType>
+      <types>DefinedType.ВладелецПрисоединенныхФайлов</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИмяСправочникаХранилищаФайлов</name>
+    <id>22</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ИмпортФайлов</name>
     <title>
@@ -5393,12 +6018,12 @@
     <name>ДобавитьФайл</name>
     <title>
       <key>ru</key>
-      <value>Из файла на диске ...</value>
+      <value>Из файла на компьютере ...</value>
     </title>
     <id>3</id>
     <toolTip>
       <key>ru</key>
-      <value>Создать файл из файла на диске</value>
+      <value>Загрузить файл из компьютера или другого устройства</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -5630,7 +6255,7 @@
     <id>13</id>
     <toolTip>
       <key>ru</key>
-      <value>Сохранить файл на диск или другое устройство</value>
+      <value>Сохранить файл на компьютер или другое устройство</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -5696,12 +6321,12 @@
     <name>ОбновитьИзФайлаНаДиске</name>
     <title>
       <key>ru</key>
-      <value>Обновить из файла на диске...</value>
+      <value>Обновить из файла на компьютере...</value>
     </title>
     <id>16</id>
     <toolTip>
       <key>ru</key>
-      <value>Обновить из файла на диске</value>
+      <value>Обновить из файла на компьютере или другого устройства</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -6114,14 +6739,19 @@
       <value>Список</value>
     </associatedTableElementId>
   </formCommands>
+  <parameters>
+    <name>Папка</name>
+    <valueType>
+      <types>CatalogRef.ПапкиФайлов</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ПараметрыОтправки</name>
+    <valueType/>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
-    <commandBar>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-    </commandBar>
+    <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:DynamicListFormExtInfo"/>
 </form:Form>

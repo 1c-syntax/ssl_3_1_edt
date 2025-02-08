@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>ОтносительныйРазмер</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Максимальный относительный размер, %</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -16,7 +20,7 @@
       <segments>ОтносительныйРазмер</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ОтносительныйРазмерExtendedTooltip</name>
+      <name>ОтносительныйРазмерРасширеннаяПодсказка</name>
       <id>9</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -57,6 +61,10 @@
   <items xsi:type="form:FormField">
     <name>МинимальныйЭффект</name>
     <id>3</id>
+    <title>
+      <key>ru</key>
+      <value>Минимальный эффект от перестроения, %</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -66,7 +74,7 @@
       <segments>МинимальныйЭффект</segments>
     </dataPath>
     <extendedTooltip>
-      <name>МинимальныйЭффектExtendedTooltip</name>
+      <name>МинимальныйЭффектРасширеннаяПодсказка</name>
       <id>10</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -111,6 +119,10 @@
     <items xsi:type="form:Button">
       <name>OK</name>
       <id>5</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -118,7 +130,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>OKExtendedTooltip</name>
+        <name>OKРасширеннаяПодсказка</name>
         <id>7</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -150,7 +162,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОтменаExtendedTooltip</name>
+        <name>ОтменаРасширеннаяПодсказка</name>
         <id>8</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -184,6 +196,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

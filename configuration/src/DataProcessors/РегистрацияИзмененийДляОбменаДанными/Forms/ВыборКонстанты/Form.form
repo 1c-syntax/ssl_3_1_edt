@@ -45,7 +45,7 @@
         <segments>СписокКонстант.Наименование</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СписокКонстантНаименованиеExtendedTooltip</name>
+        <name>СписокКонстантНаименованиеРасширеннаяПодсказка</name>
         <id>37</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -98,7 +98,7 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>СписокКонстантИндексКартинкиАвторегистрацияExtendedTooltip</name>
+        <name>СписокКонстантИндексКартинкиАвторегистрацияРасширеннаяПодсказка</name>
         <id>38</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -269,7 +269,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокКонстантExtendedTooltip</name>
+      <name>СписокКонстантРасширеннаяПодсказка</name>
       <id>36</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -299,7 +299,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СписокКонстантКонтекстноеМенюВыбратьКонстантуExtendedTooltip</name>
+          <name>СписокКонстантКонтекстноеМенюВыбратьКонстантуРасширеннаяПодсказка</name>
           <id>29</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -332,7 +332,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокКонстантКонтекстноеМенюНайтиExtendedTooltip</name>
+            <name>СписокКонстантКонтекстноеМенюНайтиРасширеннаяПодсказка</name>
             <id>31</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -362,7 +362,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокКонстантКонтекстноеМенюВыделитьВсеExtendedTooltip</name>
+            <name>СписокКонстантКонтекстноеМенюВыделитьВсеРасширеннаяПодсказка</name>
             <id>32</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -392,7 +392,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокКонстантКонтекстноеМенюОтменитьПоискExtendedTooltip</name>
+            <name>СписокКонстантКонтекстноеМенюОтменитьПоискРасширеннаяПодсказка</name>
             <id>33</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -422,7 +422,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокКонстантКонтекстноеМенюВывестиСписокExtendedTooltip</name>
+            <name>СписокКонстантКонтекстноеМенюВывестиСписокРасширеннаяПодсказка</name>
             <id>34</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -452,7 +452,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокКонстантКонтекстноеМенюКопироватьВБуферОбменаExtendedTooltip</name>
+            <name>СписокКонстантКонтекстноеМенюКопироватьВБуферОбменаРасширеннаяПодсказка</name>
             <id>35</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -483,7 +483,7 @@
           <value>Констант контекстное меню группа 1</value>
         </title>
         <extendedTooltip>
-          <name>СписокКонстантКонтекстноеМенюГруппа1ExtendedTooltip</name>
+          <name>СписокКонстантКонтекстноеМенюГруппа1РасширеннаяПодсказка</name>
           <id>30</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -545,7 +545,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>Декорация1ExtendedTooltip</name>
+        <name>Декорация1РасширеннаяПодсказка</name>
         <id>40</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -588,7 +588,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ДекорацияАвторегистрацияExtendedTooltip</name>
+        <name>ДекорацияАвторегистрацияРасширеннаяПодсказка</name>
         <id>41</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -628,7 +628,7 @@
     </title>
     <verticalStretch>false</verticalStretch>
     <extendedTooltip>
-      <name>Группа1ExtendedTooltip</name>
+      <name>Группа1РасширеннаяПодсказка</name>
       <id>39</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -657,13 +657,17 @@
     <items xsi:type="form:Button">
       <name>ФормаВыбратьКонстанту</name>
       <id>9</id>
+      <title>
+        <key>ru</key>
+        <value>Выбрать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаВыбратьКонстантуExtendedTooltip</name>
+        <name>ФормаВыбратьКонстантуРасширеннаяПодсказка</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -706,6 +710,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

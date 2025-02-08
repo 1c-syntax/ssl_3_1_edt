@@ -17,7 +17,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>НеразделенныйПользовательExtendedTooltip</name>
+      <name>НеразделенныйПользовательРасширеннаяПодсказка</name>
       <id>3</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -64,6 +64,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -78,49 +79,7 @@
     </valueType>
   </parameters>
   <commandInterface>
-    <navigationPanel>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>0:08efd7c8-3ac1-46c5-862c-2b4816b8081f</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-    </navigationPanel>
-    <commandBar>
-      <cmiFragmentRecord>
-        <command>2</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>2</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-    </commandBar>
+    <navigationPanel/>
+    <commandBar/>
   </commandInterface>
 </form:Form>

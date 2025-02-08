@@ -44,6 +44,10 @@
                 <items xsi:type="form:FormField">
                   <name>ДеревоОперандовКодКартинки</name>
                   <id>79</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Код картинки</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -92,6 +96,10 @@
                 <items xsi:type="form:FormField">
                   <name>ДеревоОперандовПредставление</name>
                   <id>76</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Представление</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -173,6 +181,10 @@
               <items xsi:type="form:FormField">
                 <name>ДеревоОперандовИдентификатор</name>
                 <id>73</id>
+                <title>
+                  <key>ru</key>
+                  <value>Идентификатор</value>
+                </title>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
@@ -508,6 +520,10 @@
               <items xsi:type="form:FormField">
                 <name>ОперандыИдентификатор</name>
                 <id>21</id>
+                <title>
+                  <key>ru</key>
+                  <value>Идентификатор</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -517,7 +533,7 @@
                   <segments>Операнды.Идентификатор</segments>
                 </dataPath>
                 <extendedTooltip>
-                  <name>ОперандыИдентификаторExtendedTooltip</name>
+                  <name>ОперандыИдентификаторРасширеннаяПодсказка</name>
                   <id>40</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -751,7 +767,7 @@
                 </extInfo>
               </searchControlAddition>
               <extendedTooltip>
-                <name>ОперандыExtendedTooltip</name>
+                <name>ОперандыРасширеннаяПодсказка</name>
                 <id>39</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -812,7 +828,7 @@
               <value>Страница числовых операндов</value>
             </title>
             <extendedTooltip>
-              <name>СтраницаЧисловыхОперандовExtendedTooltip</name>
+              <name>СтраницаЧисловыхОперандовРасширеннаяПодсказка</name>
               <id>38</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -987,7 +1003,7 @@
                 </extInfo>
               </searchControlAddition>
               <extendedTooltip>
-                <name>КомпоновщикНастроекExtendedTooltip</name>
+                <name>КомпоновщикНастроекРасширеннаяПодсказка</name>
                 <id>42</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1043,7 +1059,7 @@
               <value>Страница строковых операндов</value>
             </title>
             <extendedTooltip>
-              <name>СтраницаСтроковыхОперандовExtendedTooltip</name>
+              <name>СтраницаСтроковыхОперандовРасширеннаяПодсказка</name>
               <id>41</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1072,7 +1088,7 @@
             <value>Операнды страницы</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаОперандыСтраницыExtendedTooltip</name>
+            <name>ГруппаОперандыСтраницыРасширеннаяПодсказка</name>
             <id>37</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1101,7 +1117,7 @@
           <value>Операнды</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаОперандыExtendedTooltip</name>
+          <name>ГруппаОперандыРасширеннаяПодсказка</name>
           <id>36</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1149,6 +1165,10 @@
           <items xsi:type="form:FormField">
             <name>ОператорыОператор</name>
             <id>11</id>
+            <title>
+              <key>ru</key>
+              <value>Операторы</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1158,7 +1178,7 @@
               <segments>Операторы.Наименование</segments>
             </dataPath>
             <extendedTooltip>
-              <name>ОператорыОператорExtendedTooltip</name>
+              <name>ОператорыОператорРасширеннаяПодсказка</name>
               <id>45</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1337,7 +1357,7 @@
             </extInfo>
           </searchControlAddition>
           <extendedTooltip>
-            <name>ОператорыExtendedTooltip</name>
+            <name>ОператорыРасширеннаяПодсказка</name>
             <id>44</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1392,7 +1412,7 @@
           <value>Операторы и функции</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаОператорыExtendedTooltip</name>
+          <name>ГруппаОператорыРасширеннаяПодсказка</name>
           <id>43</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1427,7 +1447,7 @@
         <value>Основная</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаОсновнаяExtendedTooltip</name>
+        <name>ГруппаОсновнаяРасширеннаяПодсказка</name>
         <id>35</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1453,6 +1473,10 @@
     <items xsi:type="form:FormField">
       <name>Формула</name>
       <id>13</id>
+      <title>
+        <key>ru</key>
+        <value>Формула</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1463,7 +1487,7 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>ФормулаExtendedTooltip</name>
+        <name>ФормулаРасширеннаяПодсказка</name>
         <id>46</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1540,6 +1564,10 @@
     <items xsi:type="form:Button">
       <name>ОК</name>
       <id>20</id>
+      <title>
+        <key>ru</key>
+        <value>Сохранить и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1547,7 +1575,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОКExtendedTooltip</name>
+        <name>ОКРасширеннаяПодсказка</name>
         <id>32</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1572,6 +1600,10 @@
     <items xsi:type="form:Button">
       <name>Проверить</name>
       <id>17</id>
+      <title>
+        <key>ru</key>
+        <value>Проверить формулу</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1579,7 +1611,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ПроверитьExtendedTooltip</name>
+        <name>ПроверитьРасширеннаяПодсказка</name>
         <id>33</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1617,6 +1649,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -2113,6 +2146,30 @@
     </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>Формула</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>Операнды</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>ОперандыЗаголовок</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ИспользуетсяДеревоОперандов</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

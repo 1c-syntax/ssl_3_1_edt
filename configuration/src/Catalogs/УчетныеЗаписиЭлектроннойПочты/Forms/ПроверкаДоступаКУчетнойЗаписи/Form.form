@@ -2,11 +2,15 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
     <key>ru</key>
-    <value>Введите пароль учетной записи</value>
+    <value>Введите пароль почты</value>
   </title>
   <items xsi:type="form:FormField">
     <name>Пароль</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Пароль</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -62,6 +66,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОК</name>
       <id>4</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -145,6 +153,7 @@
   <excludedCommands>Yes</excludedCommands>
   <width>30</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

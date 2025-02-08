@@ -166,6 +166,10 @@
       <items xsi:type="form:FormField">
         <name>ИсточникЗагрузки</name>
         <id>180</id>
+        <title>
+          <key>ru</key>
+          <value>Источник загрузки</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -233,6 +237,10 @@
       <items xsi:type="form:FormField">
         <name>ПутьКФайлуЗагрузки</name>
         <id>186</id>
+        <title>
+          <key>ru</key>
+          <value>Путь к файлу загрузки</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -357,6 +365,10 @@
       <items xsi:type="form:FormField">
         <name>СтрокаПоддерживаемыеВерсииФормата</name>
         <id>239</id>
+        <title>
+          <key>ru</key>
+          <value>Строка поддерживаемые версии формата</value>
+        </title>
         <titleFont xsi:type="core:FontRef">
           <font>Style.LargeTextFont</font>
         </titleFont>
@@ -402,6 +414,146 @@
         <extInfo xsi:type="form:LabelFieldExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ВерсияФорматаГруппаЗагрузка</name>
+        <id>262</id>
+        <items xsi:type="form:FormField">
+          <name>ВерсияФорматаЗагрузка</name>
+          <id>264</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.ВерсияФормата</segments>
+          </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ВерсияФорматаЗагрузкаПриИзменении</name>
+          </handlers>
+          <extendedTooltip>
+            <name>ВерсияФорматаЗагрузкаРасширеннаяПодсказка</name>
+            <id>266</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ВерсияФорматаЗагрузкаКонтекстноеМеню</name>
+            <id>265</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <listChoiceMode>true</listChoiceMode>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>РасширениеФорматаЗагрузка</name>
+          <id>267</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Объект.РасширениеФормата</segments>
+          </dataPath>
+          <extendedTooltip>
+            <name>РасширениеФорматаЗагрузкаРасширеннаяПодсказка</name>
+            <id>269</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>РасширениеФорматаЗагрузкаКонтекстноеМеню</name>
+            <id>268</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <listChoiceMode>true</listChoiceMode>
+            <chooseType>true</chooseType>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible/>
+        <title>
+          <key>ru</key>
+          <value>Версия формата группа загрузка</value>
+        </title>
+        <extendedTooltip>
+          <name>ВерсияФорматаГруппаЗагрузкаРасширеннаяПодсказка</name>
+          <id>263</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
@@ -468,6 +620,10 @@
           <items xsi:type="form:Button">
             <name>ОткрытьXML</name>
             <id>153</id>
+            <title>
+              <key>ru</key>
+              <value>Открыть XML</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -597,6 +753,10 @@
       <items xsi:type="form:FormField">
         <name>МестоВыгрузки</name>
         <id>183</id>
+        <title>
+          <key>ru</key>
+          <value>Место выгрузки</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1113,6 +1273,10 @@
             <items xsi:type="form:Button">
               <name>СохранитьНастройки</name>
               <id>174</id>
+              <title>
+                <key>ru</key>
+                <value>Сохранить настройки</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1144,6 +1308,10 @@
             <items xsi:type="form:Button">
               <name>ВосстановитьНастройки</name>
               <id>176</id>
+              <title>
+                <key>ru</key>
+                <value>Восстановить настройки</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1741,6 +1909,10 @@
               <items xsi:type="form:Button">
                 <name>СохранитьXML</name>
                 <id>83</id>
+                <title>
+                  <key>ru</key>
+                  <value>Сохранить XML</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2118,6 +2290,10 @@
     <items xsi:type="form:Button">
       <name>ФормаВключитьРасширенныеВозможности</name>
       <id>230</id>
+      <title>
+        <key>ru</key>
+        <value>Режим разработчика</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -2150,6 +2326,10 @@
     <items xsi:type="form:Button">
       <name>ФормаВыполнитьОперацию</name>
       <id>234</id>
+      <title>
+        <key>ru</key>
+        <value>Выполнить операцию</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -2211,6 +2391,76 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
+    <items xsi:type="form:Button">
+      <name>ФормаИспользоватьВнутреннийКаталогСообщений</name>
+      <id>270</id>
+      <title>
+        <key>ru</key>
+        <value>Использовать внутренний каталог сообщений</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаИспользоватьВнутреннийКаталогСообщенийРасширеннаяПодсказка</name>
+        <id>271</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ИспользоватьВнутреннийКаталогСообщений</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ФормаЛогироватьВыгрузкуОбъектов</name>
+      <id>272</id>
+      <title>
+        <key>ru</key>
+        <value>Логировать выгрузку объектов</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаЛогироватьВыгрузкуОбъектовРасширеннаяПодсказка</name>
+        <id>273</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ЛогироватьВыгрузкуОбъектов</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -2231,6 +2481,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -2250,18 +2501,6 @@
     <edit>
       <common>true</common>
     </edit>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>1/0:28497538-35a5-4698-80cb-8935787c3903</segments>
-    </settingsSavedData>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>1/0:2df5390d-4ee8-4716-af67-3dbe7437f4f7</segments>
-    </settingsSavedData>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>1/0:5d07bae6-89d7-4869-99ad-19723153f72c</segments>
-    </settingsSavedData>
-    <settingsSavedData xsi:type="form:DataPath">
-      <segments>1/0:8ac1a99d-8ca3-4f14-9ddf-9f3aea74f062</segments>
-    </settingsSavedData>
     <settingsSavedData xsi:type="form:DataPath">
       <segments>Объект.ВерсияФормата</segments>
     </settingsSavedData>
@@ -2829,6 +3068,19 @@
       </edit>
     </columns>
   </attributes>
+  <attributes>
+    <name>ИспользоватьКаталогСообщенийОбменаДанными</name>
+    <id>20</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>СохранитьXML</name>
     <title>
@@ -2995,6 +3247,44 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ИспользоватьВнутреннийКаталогСообщений</name>
+    <title>
+      <key>ru</key>
+      <value>Использовать внутренний каталог сообщений</value>
+    </title>
+    <id>10</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ИспользоватьВнутреннийКаталогСообщений</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ЛогироватьВыгрузкуОбъектов</name>
+    <title>
+      <key>ru</key>
+      <value>Логировать выгрузку объектов</value>
+    </title>
+    <id>6</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Логировать выгрузку объектов</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ЛогироватьВыгрузкуОбъектов</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

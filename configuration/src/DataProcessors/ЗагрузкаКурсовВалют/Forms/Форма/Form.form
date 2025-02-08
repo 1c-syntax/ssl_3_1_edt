@@ -6,13 +6,17 @@
     <items xsi:type="form:Button">
       <name>ФормаЗагрузитьКурсыВалют</name>
       <id>32</id>
+      <title>
+        <key>ru</key>
+        <value>Загрузить и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗагрузитьКурсыВалютExtendedTooltip</name>
+        <name>ФормаЗагрузитьКурсыВалютРасширеннаяПодсказка</name>
         <id>48</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -48,7 +52,7 @@
         <value>Командная панель левая</value>
       </title>
       <extendedTooltip>
-        <name>КоманднаяПанельЛеваяExtendedTooltip</name>
+        <name>КоманднаяПанельЛеваяРасширеннаяПодсказка</name>
         <id>47</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -83,7 +87,7 @@
         <segments>Объект.НачалоПериодаЗагрузки</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НачалоПериодаExtendedTooltip</name>
+        <name>НачалоПериодаРасширеннаяПодсказка</name>
         <id>49</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -142,7 +146,7 @@
         <segments>Объект.ОкончаниеПериодаЗагрузки</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ОкончаниеПериодаExtendedTooltip</name>
+        <name>ОкончаниеПериодаРасширеннаяПодсказка</name>
         <id>50</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -190,13 +194,17 @@
       <items xsi:type="form:Button">
         <name>ФормаВыбратьВсеВалюты</name>
         <id>35</id>
+        <title>
+          <key>ru</key>
+          <value>Выбрать все валюты</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаВыбратьВсеВалютыExtendedTooltip</name>
+          <name>ФормаВыбратьВсеВалютыРасширеннаяПодсказка</name>
           <id>52</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -220,13 +228,17 @@
       <items xsi:type="form:Button">
         <name>ФормаСнятьВыбор</name>
         <id>36</id>
+        <title>
+          <key>ru</key>
+          <value>Снять выбор</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаСнятьВыборExtendedTooltip</name>
+          <name>ФормаСнятьВыборРасширеннаяПодсказка</name>
           <id>53</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -247,6 +259,48 @@
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
+      <items xsi:type="form:Addition">
+        <title>
+          <key>ru</key>
+          <value>Поиск</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <name>СтрокаПоиска</name>
+        <id>87</id>
+        <extendedTooltip>
+          <name>СтрокаПоискаРасширеннаяПодсказка</name>
+          <id>89</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>СтрокаПоискаКонтекстноеМеню</name>
+          <id>88</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <source>СписокВалютСтрокаПоиска</source>
+        <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+        </extInfo>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -257,7 +311,7 @@
         <value>Командная панель правая</value>
       </title>
       <extendedTooltip>
-        <name>КоманднаяПанельПраваяExtendedTooltip</name>
+        <name>КоманднаяПанельПраваяРасширеннаяПодсказка</name>
         <id>51</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -366,7 +420,7 @@
             <name>ЗагружатьПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ЗагружатьExtendedTooltip</name>
+            <name>ЗагружатьРасширеннаяПодсказка</name>
             <id>56</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -413,7 +467,7 @@
             <segments>Объект.СписокВалют.КодВалюты</segments>
           </dataPath>
           <extendedTooltip>
-            <name>КодВалютыExtendedTooltip</name>
+            <name>КодВалютыРасширеннаяПодсказка</name>
             <id>57</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -467,7 +521,7 @@
             <segments>Объект.СписокВалют.СимвольныйКод</segments>
           </dataPath>
           <extendedTooltip>
-            <name>СписокВалютСимвольныйКодExtendedTooltip</name>
+            <name>СписокВалютСимвольныйКодРасширеннаяПодсказка</name>
             <id>58</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -519,7 +573,7 @@
             <segments>Объект.СписокВалют.Представление</segments>
           </dataPath>
           <extendedTooltip>
-            <name>СписокВалютПредставлениеExtendedTooltip</name>
+            <name>СписокВалютПредставлениеРасширеннаяПодсказка</name>
             <id>59</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -572,7 +626,7 @@
             <segments>Объект.СписокВалют.ДатаКурса</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ДатаКурсаExtendedTooltip</name>
+            <name>ДатаКурсаРасширеннаяПодсказка</name>
             <id>60</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -622,7 +676,7 @@
             <segments>Объект.СписокВалют.Курс</segments>
           </dataPath>
           <extendedTooltip>
-            <name>КурсExtendedTooltip</name>
+            <name>КурсРасширеннаяПодсказка</name>
             <id>61</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -671,7 +725,7 @@
             <segments>Объект.СписокВалют.Кратность</segments>
           </dataPath>
           <extendedTooltip>
-            <name>КратностьExtendedTooltip</name>
+            <name>КратностьРасширеннаяПодсказка</name>
             <id>62</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -892,7 +946,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>СписокВалютExtendedTooltip</name>
+          <name>СписокВалютРасширеннаяПодсказка</name>
           <id>55</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -912,13 +966,17 @@
           <items xsi:type="form:Button">
             <name>СписокВалютКонтекстноеМенюОтключитьЗагрузкуИзИнтернета</name>
             <id>45</id>
+            <title>
+              <key>ru</key>
+              <value>Отключить загрузку курса этой валюты из сети Интернет</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>СписокВалютКонтекстноеМенюОтключитьЗагрузкуИзИнтернетаExtendedTooltip</name>
+              <name>СписокВалютКонтекстноеМенюОтключитьЗагрузкуИзИнтернетаРасширеннаяПодсказка</name>
               <id>54</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1168,6 +1226,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -1328,6 +1387,12 @@
     <representation>TextPicture</representation>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>ОткрытиеИзСписка</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

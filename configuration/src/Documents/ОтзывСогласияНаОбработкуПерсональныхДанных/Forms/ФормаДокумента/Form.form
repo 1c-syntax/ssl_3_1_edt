@@ -470,8 +470,73 @@
     <name>СубъектГруппа</name>
     <id>57</id>
     <items xsi:type="form:FormGroup">
-      <name>СубъектФИОГруппа</name>
+      <name>СубъектТипСубъектаГруппа</name>
       <id>73</id>
+      <items xsi:type="form:FormField">
+        <name>ТипСубъекта</name>
+        <id>98</id>
+        <title>
+          <key>ru</key>
+          <value>Тип субъекта</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТипСубъекта</segments>
+        </dataPath>
+        <titleLocation>None</titleLocation>
+        <handlers>
+          <event>OnChange</event>
+          <name>ТипСубъектаПриИзменении</name>
+        </handlers>
+        <extendedTooltip>
+          <name>ТипСубъектаРасширеннаяПодсказка</name>
+          <id>100</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ТипСубъектаКонтекстноеМеню</name>
+          <id>99</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <handlers>
+            <event>Clearing</event>
+            <name>ТипСубъектаОчистка</name>
+          </handlers>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>false</horizontalStretch>
+          <wrap>true</wrap>
+          <listChoiceMode>true</listChoiceMode>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
       <items xsi:type="form:FormField">
         <name>Субъект</name>
         <id>16</id>
@@ -483,6 +548,7 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Субъект</segments>
         </dataPath>
+        <titleLocation>None</titleLocation>
         <handlers>
           <event>OnChange</event>
           <name>СубъектПриИзменении</name>
@@ -520,9 +586,9 @@
         <extInfo xsi:type="form:InputFieldExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
-          <horizontalStretch>false</horizontalStretch>
           <wrap>true</wrap>
-          <chooseType>true</chooseType>
+          <choiceButton>true</choiceButton>
+          <choiceButtonRepresentation>ShowInInputField</choiceButtonRepresentation>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
         </extInfo>
@@ -534,10 +600,10 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Субъект и ФИО</value>
+        <value>Субъект и тип субъекта</value>
       </title>
       <extendedTooltip>
-        <name>СубъектФИОГруппаРасширеннаяПодсказка</name>
+        <name>СубъектТипСубъектаГруппаРасширеннаяПодсказка</name>
         <id>74</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -553,7 +619,7 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>HorizontalIfPossible</group>
+        <group>AlwaysHorizontal</group>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
@@ -639,7 +705,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Информация</picture>
+          <picture>StdPicture.Information</picture>
         </picture>
       </extInfo>
     </items>
@@ -1028,6 +1094,7 @@
     <event>FillCheckProcessingAtServer</event>
     <name>ОбработкаПроверкиЗаполненияНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -1054,6 +1121,29 @@
     <main>true</main>
     <savedData>true</savedData>
   </attributes>
+  <attributes>
+    <name>ТипСубъекта</name>
+    <title>
+      <key>ru</key>
+      <value>Тип субъекта</value>
+    </title>
+    <id>2</id>
+    <valueType>
+      <types>TypeDescription</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <parameters>
+    <name>Субъект</name>
+    <valueType>
+      <types>AnyRef</types>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

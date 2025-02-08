@@ -13,6 +13,10 @@
       <items xsi:type="form:FormField">
         <name>Создано</name>
         <id>9</id>
+        <title>
+          <key>ru</key>
+          <value>Создано</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -22,7 +26,7 @@
           <segments>Создано</segments>
         </dataPath>
         <extendedTooltip>
-          <name>СозданоExtendedTooltip</name>
+          <name>СозданоРасширеннаяПодсказка</name>
           <id>31</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -78,7 +82,7 @@
           <segments>ОтправленоПолучено</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ОтправленоПолученоExtendedTooltip</name>
+          <name>ОтправленоПолученоРасширеннаяПодсказка</name>
           <id>32</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -129,7 +133,7 @@
       </title>
       <readOnly>true</readOnly>
       <extendedTooltip>
-        <name>ГруппаДатыExtendedTooltip</name>
+        <name>ГруппаДатыРасширеннаяПодсказка</name>
         <id>30</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -158,6 +162,10 @@
       <items xsi:type="form:FormField">
         <name>ВнутреннийНомер</name>
         <id>6</id>
+        <title>
+          <key>ru</key>
+          <value>Внутренний номер</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -167,7 +175,7 @@
           <segments>ВнутреннийНомер</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ВнутреннийНомерExtendedTooltip</name>
+          <name>ВнутреннийНомерРасширеннаяПодсказка</name>
           <id>34</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -210,6 +218,10 @@
       <items xsi:type="form:FormField">
         <name>ВключатьТелоИсходногоПисьма</name>
         <id>23</id>
+        <title>
+          <key>ru</key>
+          <value>Включать тело исходного письма</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -220,7 +232,7 @@
         </dataPath>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
-          <name>ВключатьТелоИсходногоПисьмаExtendedTooltip</name>
+          <name>ВключатьТелоИсходногоПисьмаРасширеннаяПодсказка</name>
           <id>35</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -262,7 +274,7 @@
         <value>Включать внутренний номер</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаВключатьВнутреннийНомерExtendedTooltip</name>
+        <name>ГруппаВключатьВнутреннийНомерРасширеннаяПодсказка</name>
         <id>33</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -295,7 +307,7 @@
       <value>Даты номер</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаДатыНомерExtendedTooltip</name>
+      <name>ГруппаДатыНомерРасширеннаяПодсказка</name>
       <id>29</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -321,6 +333,10 @@
   <items xsi:type="form:FormField">
     <name>Папка</name>
     <id>26</id>
+    <title>
+      <key>ru</key>
+      <value>Папка</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -330,7 +346,7 @@
       <segments>Папка</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ПапкаExtendedTooltip</name>
+      <name>ПапкаРасширеннаяПодсказка</name>
       <id>36</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -380,6 +396,10 @@
     <items xsi:type="form:FormField">
       <name>УведомитьОДоставке</name>
       <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>Уведомить о доставке</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -390,7 +410,7 @@
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
-        <name>УведомитьОДоставкеExtendedTooltip</name>
+        <name>УведомитьОДоставкеРасширеннаяПодсказка</name>
         <id>38</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -425,6 +445,10 @@
     <items xsi:type="form:FormField">
       <name>УведомитьОПрочтении</name>
       <id>3</id>
+      <title>
+        <key>ru</key>
+        <value>Уведомить о прочтении</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -435,7 +459,7 @@
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
-        <name>УведомитьОПрочтенииExtendedTooltip</name>
+        <name>УведомитьОПрочтенииРасширеннаяПодсказка</name>
         <id>39</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -477,7 +501,7 @@
       <value>Параметры отслеживания</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаПараметрыОтслеживанияExtendedTooltip</name>
+      <name>ГруппаПараметрыОтслеживанияРасширеннаяПодсказка</name>
       <id>37</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -503,6 +527,10 @@
   <items xsi:type="form:FormField">
     <name>Заголовки</name>
     <id>17</id>
+    <title>
+      <key>ru</key>
+      <value>Заголовки Интернета</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -512,7 +540,7 @@
       <segments>ЗаголовкиИнтернета</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ЗаголовкиExtendedTooltip</name>
+      <name>ЗаголовкиРасширеннаяПодсказка</name>
       <id>40</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -558,6 +586,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОк</name>
       <id>20</id>
+      <title>
+        <key>ru</key>
+        <value>Закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -565,7 +597,7 @@
       </userVisible>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>ФормаОкExtendedTooltip</name>
+        <name>ФормаОкРасширеннаяПодсказка</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -604,6 +636,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

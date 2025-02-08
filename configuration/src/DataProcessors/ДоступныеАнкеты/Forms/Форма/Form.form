@@ -10,37 +10,6 @@
     <items xsi:type="form:FormGroup">
       <name>Анкеты</name>
       <id>15</id>
-      <items xsi:type="form:Button">
-        <name>Обновить</name>
-        <id>13</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>ОбновитьExtendedTooltip</name>
-          <id>23</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <type>UsualButton</type>
-        <commandName>Form.Command.Обновить</commandName>
-        <representation>PictureAndText</representation>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <placementArea>UserCmds</placementArea>
-        <representationInContextMenu>Auto</representationInContextMenu>
-      </items>
       <items xsi:type="form:Table">
         <name>ТаблицаАнкет</name>
         <id>3</id>
@@ -72,6 +41,10 @@
         <items xsi:type="form:FormField">
           <name>ДеревоАнкетПредставление</name>
           <id>10</id>
+          <title>
+            <key>ru</key>
+            <value>Представление</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -82,7 +55,7 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
-            <name>ДеревоАнкетПредставлениеExtendedTooltip</name>
+            <name>ДеревоАнкетПредставлениеРасширеннаяПодсказка</name>
             <id>25</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -120,16 +93,88 @@
             <textEdit>true</textEdit>
           </extInfo>
         </items>
-        <commandBarLocation>None</commandBarLocation>
+        <commandBarLocation>Top</commandBarLocation>
         <autoCommandBar>
           <name>ТаблицаАнкетКоманднаяПанель</name>
           <id>5</id>
+          <items xsi:type="form:Button">
+            <name>Обновить</name>
+            <id>13</id>
+            <title>
+              <key>ru</key>
+              <value>Обновить</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ОбновитьРасширеннаяПодсказка</name>
+              <id>23</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.Обновить</commandName>
+            <representation>PictureAndText</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>OnlyInContextMenu</representationInContextMenu>
+            <locationInCommandBar>InCommandBar</locationInCommandBar>
+          </items>
+          <items xsi:type="form:Button">
+            <name>АрхивАнкет</name>
+            <id>12</id>
+            <title>
+              <key>ru</key>
+              <value>Архив анкет</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <skipOnInput>false</skipOnInput>
+            <extendedTooltip>
+              <name>АрхивАнкетРасширеннаяПодсказка</name>
+              <id>26</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>CommandBarHyperlink</type>
+            <commandName>Form.Command.АрхивАнкет</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <horizontalAlign>Left</horizontalAlign>
+          <autoFill>true</autoFill>
         </autoCommandBar>
         <handlers>
           <event>BeforeRowChange</event>
@@ -252,7 +297,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>ТаблицаАнкетExtendedTooltip</name>
+          <name>ТаблицаАнкетРасширеннаяПодсказка</name>
           <id>24</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -283,12 +328,14 @@
         <autoMaxHeight>true</autoMaxHeight>
         <autoMaxRowsCount>true</autoMaxRowsCount>
         <selectionMode>MultiRow</selectionMode>
+        <rowSelectionMode>Row</rowSelectionMode>
         <headerHeight>1</headerHeight>
         <footerHeight>1</footerHeight>
         <horizontalScrollBar>AutoUse</horizontalScrollBar>
         <verticalScrollBar>AutoUse</verticalScrollBar>
         <horizontalLines>true</horizontalLines>
         <verticalLines>true</verticalLines>
+        <useAlternationRowColor>true</useAlternationRowColor>
         <autoInsertNewRow>true</autoInsertNewRow>
         <searchOnInput>Auto</searchOnInput>
         <initialListView>Auto</initialListView>
@@ -304,38 +351,6 @@
         </rowsPicture>
         <rowFilter xsi:type="core:UndefinedValue"/>
       </items>
-      <items xsi:type="form:Button">
-        <name>АрхивАнкет</name>
-        <id>12</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <skipOnInput>false</skipOnInput>
-        <extendedTooltip>
-          <name>АрхивАнкетExtendedTooltip</name>
-          <id>26</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <type>Hyperlink</type>
-        <commandName>Form.Command.АрхивАнкет</commandName>
-        <representation>Auto</representation>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <placementArea>UserCmds</placementArea>
-        <representationInContextMenu>Auto</representationInContextMenu>
-      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -346,7 +361,7 @@
         <value>Анкеты</value>
       </title>
       <extendedTooltip>
-        <name>АнкетыExtendedTooltip</name>
+        <name>АнкетыРасширеннаяПодсказка</name>
         <id>22</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -376,7 +391,7 @@
       <value>Страницы</value>
     </title>
     <extendedTooltip>
-      <name>СтраницыExtendedTooltip</name>
+      <name>СтраницыРасширеннаяПодсказка</name>
       <id>21</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -413,6 +428,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -559,6 +575,18 @@
     </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>РежимАнкетирования</name>
+    <valueType>
+      <types>EnumRef.РежимыАнкетирования</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>Респондент</name>
+    <valueType>
+      <types>AnyRef</types>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

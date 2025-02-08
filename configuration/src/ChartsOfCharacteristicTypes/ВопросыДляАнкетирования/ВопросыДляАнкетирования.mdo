@@ -422,6 +422,160 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="f0402893-724d-4ccd-87f6-d567839b3e70">
+    <name>ИспользоватьМинимальноеЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать минимальное значение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Использовать минимально возможное значение ответа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="64c84fff-dba1-4f17-bc89-1c69a6f54bea">
+    <name>ИспользоватьМаксимальноеЗначение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать максимальное значение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Использовать максимально возможное значение ответа</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="08077c47-4ffd-46f5-9ef5-528ac27bdc75">
+    <name>ПоказыватьПолосуРегулирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показывать полосу регулирования</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Возможность задавать значения для числовых вопросов с помощью полосы регулирования</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d5a2c4ea-21ce-4673-9aef-9a5eb80a4632">
+    <name>ШагПолосыРегулирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаг полосы регулирования</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>15</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Шаг полосы регулирования у числовых вопросов. Должен быть кратным разнице максимального и минимального значений.</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>0,01</value>
+    </minValue>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:NumberValue">
+      <value>1</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="27089712-b7d7-4a2f-9851-1826d8965f5b">
+    <name>ВыводитьПодсказкуУЧисловыхВопросов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить подсказку у числовых вопросов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="511727f3-b757-4e5b-b7d7-166917029787">
+    <producedTypes>
+      <objectType typeId="9ade7ea2-ff3d-4a8c-8a85-d12485c5bc1d" valueTypeId="25f3fa30-37bc-42de-ac61-54b83d36a730"/>
+      <rowType typeId="6925d89f-9eae-4cdc-b222-1ef9caa510a2" valueTypeId="d1584e05-7903-4c0f-96d3-f0e84e70b132"/>
+    </producedTypes>
+    <name>ДиапазонПодсказокЧисловогоВопроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон подсказок числового вопроса</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="a92b3f49-e28a-4f14-8320-7a96d9d08987">
+      <name>ЗначениеДо</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="1c34696a-0444-4d3c-8331-17a1b5013368">
+      <name>Подсказка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подсказка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>250</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
   <forms uuid="a0b74de9-06b5-416c-9dd0-2f9dc209fe91">
     <name>ФормаЭлемента</name>
     <synonym>

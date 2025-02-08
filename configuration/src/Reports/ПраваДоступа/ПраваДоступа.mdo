@@ -10,7 +10,10 @@
     <value>Права доступа</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
-  <defaultForm>Report.ПраваДоступа.Form.ФормаОтчета</defaultForm>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ПраваДоступа.Template.МакетПараметров</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
   <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
@@ -18,20 +21,19 @@
       <lang>ru</lang>
     </pages>
   </help>
-  <forms uuid="a5667633-9264-4dfa-9e26-c45e96e61ae3">
-    <name>ФормаОтчета</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма отчета</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <templates uuid="2eeea138-481c-4fde-9e8a-709d751cc469">
     <name>Макет</name>
     <synonym>
       <key>ru</key>
       <value>Макет</value>
     </synonym>
+  </templates>
+  <templates uuid="70a3df8f-c12a-4185-81c4-39a5114ef7a9">
+    <name>МакетПараметров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет параметров</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
   </templates>
 </mdclass:Report>

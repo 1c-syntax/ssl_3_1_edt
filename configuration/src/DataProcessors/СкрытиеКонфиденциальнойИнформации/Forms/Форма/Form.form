@@ -330,6 +330,10 @@
         <items xsi:type="form:Button">
           <name>ФормаВыполнитьСкрытие</name>
           <id>39</id>
+          <title>
+            <key>ru</key>
+            <value>Выполнить</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -361,6 +365,10 @@
         <items xsi:type="form:Button">
           <name>ФормаЗагрузитьНастройки</name>
           <id>41</id>
+          <title>
+            <key>ru</key>
+            <value>Загрузить настройки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -391,6 +399,10 @@
         <items xsi:type="form:Button">
           <name>ФормаСохранитьНастройки</name>
           <id>43</id>
+          <title>
+            <key>ru</key>
+            <value>Сохранить настройки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -421,6 +433,10 @@
         <items xsi:type="form:Button">
           <name>ОбрабатываемыеОбъектыОтметитьВсе</name>
           <id>47</id>
+          <title>
+            <key>ru</key>
+            <value>Отметить все</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -452,6 +468,10 @@
         <items xsi:type="form:Button">
           <name>ОбрабатываемыеОбъектыСнятьОтметку</name>
           <id>45</id>
+          <title>
+            <key>ru</key>
+            <value>Снять отметку</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -483,6 +503,10 @@
         <items xsi:type="form:Button">
           <name>ОбрабатываемыеОбъектыЗаполнитьПоСведениямОПерсональныхДанных</name>
           <id>49</id>
+          <title>
+            <key>ru</key>
+            <value>Заполнить по умолчанию</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -628,6 +652,10 @@
               <items xsi:type="form:FormField">
                 <name>ОбрабатываемыеОбъектыПометка</name>
                 <id>32</id>
+                <title>
+                  <key>ru</key>
+                  <value>Пометка</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -677,6 +705,10 @@
               <items xsi:type="form:FormField">
                 <name>ОбрабатываемыеОбъектыКартинка</name>
                 <id>20</id>
+                <title>
+                  <key>ru</key>
+                  <value>Картинка</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -725,6 +757,10 @@
               <items xsi:type="form:FormField">
                 <name>ОбрабатываемыеОбъектыПредставление</name>
                 <id>26</id>
+                <title>
+                  <key>ru</key>
+                  <value>Представление</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -805,6 +841,10 @@
               <items xsi:type="form:FormField">
                 <name>ОбрабатываемыеОбъектыПравилоОбработки</name>
                 <id>29</id>
+                <title>
+                  <key>ru</key>
+                  <value>Представление правила обработки</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2626,6 +2666,7 @@
     <name>ПриЗакрытии</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -2794,6 +2835,33 @@
       <id>9</id>
       <valueType>
         <types>ValueList</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>КатегорияДанных</name>
+      <id>20</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ПроверкаЗаполнения</name>
+      <id>22</id>
+      <valueType>
+        <types>FillChecking</types>
       </valueType>
       <view>
         <common>true</common>

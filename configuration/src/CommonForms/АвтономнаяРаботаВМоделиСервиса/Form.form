@@ -18,7 +18,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>Декорация2ExtendedTooltip</name>
+            <name>Декорация2РасширеннаяПодсказка</name>
             <id>119</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -69,7 +69,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>Декорация1ExtendedTooltip</name>
+              <name>Декорация1РасширеннаяПодсказка</name>
               <id>121</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -114,7 +114,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>Декорация4ExtendedTooltip</name>
+              <name>Декорация4РасширеннаяПодсказка</name>
               <id>122</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -147,13 +147,17 @@
           <items xsi:type="form:Button">
             <name>КакУстановитьИлиОбновитьВерсиюПлатформы1СПредприятие</name>
             <id>99</id>
+            <title>
+              <key>ru</key>
+              <value>Как установить или обновить версию платформы 1С:Предприятие</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>КакУстановитьИлиОбновитьВерсиюПлатформы1СПредприятиеExtendedTooltip</name>
+              <name>КакУстановитьИлиОбновитьВерсиюПлатформы1СПредприятиеРасширеннаяПодсказка</name>
               <id>123</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -179,8 +183,12 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Группа</value>
+          </title>
           <extendedTooltip>
-            <name>Группа4ExtendedTooltip</name>
+            <name>Группа4РасширеннаяПодсказка</name>
             <id>120</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -208,8 +216,12 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа</value>
+        </title>
         <extendedTooltip>
-          <name>Группа1ExtendedTooltip</name>
+          <name>Группа1РасширеннаяПодсказка</name>
           <id>118</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -237,13 +249,17 @@
         <items xsi:type="form:Button">
           <name>СоздатьАвтономноеРабочееМесто</name>
           <id>59</id>
+          <title>
+            <key>ru</key>
+            <value>Создать...</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СоздатьАвтономноеРабочееМестоExtendedTooltip</name>
+            <name>СоздатьАвтономноеРабочееМестоРасширеннаяПодсказка</name>
             <id>125</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -278,7 +294,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>Декорация3ExtendedTooltip</name>
+            <name>Декорация3РасширеннаяПодсказка</name>
             <id>126</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -313,8 +329,12 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа</value>
+        </title>
         <extendedTooltip>
-          <name>Группа8ExtendedTooltip</name>
+          <name>Группа8РасширеннаяПодсказка</name>
           <id>124</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -340,13 +360,17 @@
       <items xsi:type="form:Button">
         <name>КакНастроитьАвтономноеРабочееМесто</name>
         <id>110</id>
+        <title>
+          <key>ru</key>
+          <value>Как настроить автономное рабочее место</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>КакНастроитьАвтономноеРабочееМестоExtendedTooltip</name>
+          <name>КакНастроитьАвтономноеРабочееМестоРасширеннаяПодсказка</name>
           <id>127</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -378,7 +402,7 @@
         <value>Автономная работа не настроена</value>
       </title>
       <extendedTooltip>
-        <name>АвтономнаяРаботаНеНастроенаExtendedTooltip</name>
+        <name>АвтономнаяРаботаНеНастроенаРасширеннаяПодсказка</name>
         <id>117</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -420,7 +444,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>Декорация5ExtendedTooltip</name>
+              <name>Декорация5РасширеннаяПодсказка</name>
               <id>131</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -454,6 +478,10 @@
           <items xsi:type="form:FormField">
             <name>АвтономноеРабочееМесто</name>
             <id>67</id>
+            <title>
+              <key>ru</key>
+              <value>Автономное рабочее место</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -464,7 +492,7 @@
             </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
-              <name>АвтономноеРабочееМестоExtendedTooltip</name>
+              <name>АвтономноеРабочееМестоРасширеннаяПодсказка</name>
               <id>132</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -503,8 +531,12 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Группа</value>
+          </title>
           <extendedTooltip>
-            <name>Группа5ExtendedTooltip</name>
+            <name>Группа5РасширеннаяПодсказка</name>
             <id>130</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -542,7 +574,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ИнформацияОПоследнейСинхронизацииExtendedTooltip</name>
+              <name>ИнформацияОПоследнейСинхронизацииРасширеннаяПодсказка</name>
               <id>134</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -579,13 +611,17 @@
           <items xsi:type="form:Button">
             <name>ПерейтиККонфликтам</name>
             <id>114</id>
+            <title>
+              <key>ru</key>
+              <value>Предупреждений нет</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПерейтиККонфликтамExtendedTooltip</name>
+              <name>ПерейтиККонфликтамРасширеннаяПодсказка</name>
               <id>135</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -612,8 +648,12 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Группа</value>
+          </title>
           <extendedTooltip>
-            <name>Группа3ExtendedTooltip</name>
+            <name>Группа3РасширеннаяПодсказка</name>
             <id>133</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -644,13 +684,17 @@
             <items xsi:type="form:Button">
               <name>ИзменитьАвтономноеРабочееМесто</name>
               <id>15</id>
+              <title>
+                <key>ru</key>
+                <value>Настроить...</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>ИзменитьАвтономноеРабочееМестоExtendedTooltip</name>
+                <name>ИзменитьАвтономноеРабочееМестоРасширеннаяПодсказка</name>
                 <id>137</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -676,6 +720,10 @@
             <items xsi:type="form:Button">
               <name>СоставОтправляемыхДанных</name>
               <id>181</id>
+              <title>
+                <key>ru</key>
+                <value>Состав отправляемых данных</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -710,6 +758,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Группа</value>
+            </title>
             <extendedTooltip>
               <name>Группа10РасширеннаяПодсказка</name>
               <id>184</id>
@@ -746,7 +798,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ОписаниеОграниченийПередачиДанныхExtendedTooltip</name>
+              <name>ОписаниеОграниченийПередачиДанныхРасширеннаяПодсказка</name>
               <id>138</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -782,8 +834,12 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Группа</value>
+          </title>
           <extendedTooltip>
-            <name>Группа2ExtendedTooltip</name>
+            <name>Группа2РасширеннаяПодсказка</name>
             <id>136</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -811,13 +867,17 @@
           <items xsi:type="form:Button">
             <name>ПрекратитьСинхронизациюСАвтономнымРабочимМестом</name>
             <id>69</id>
+            <title>
+              <key>ru</key>
+              <value>Прекратить</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПрекратитьСинхронизациюСАвтономнымРабочимМестомExtendedTooltip</name>
+              <name>ПрекратитьСинхронизациюСАвтономнымРабочимМестомРасширеннаяПодсказка</name>
               <id>140</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -853,7 +913,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>Декорация8ExtendedTooltip</name>
+              <name>Декорация8РасширеннаяПодсказка</name>
               <id>141</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -889,8 +949,12 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Группа</value>
+          </title>
           <extendedTooltip>
-            <name>Группа6ExtendedTooltip</name>
+            <name>Группа6РасширеннаяПодсказка</name>
             <id>139</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -918,8 +982,12 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа</value>
+        </title>
         <extendedTooltip>
-          <name>Группа9ExtendedTooltip</name>
+          <name>Группа9РасширеннаяПодсказка</name>
           <id>129</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -949,13 +1017,17 @@
         <items xsi:type="form:Button">
           <name>СоздатьАвтономноеРабочееМесто1</name>
           <id>21</id>
+          <title>
+            <key>ru</key>
+            <value>Создать...</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СоздатьАвтономноеРабочееМесто1ExtendedTooltip</name>
+            <name>СоздатьАвтономноеРабочееМесто1РасширеннаяПодсказка</name>
             <id>143</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -990,7 +1062,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>Декорация7ExtendedTooltip</name>
+            <name>Декорация7РасширеннаяПодсказка</name>
             <id>144</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1025,8 +1097,12 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Группа</value>
+        </title>
         <extendedTooltip>
-          <name>Группа7ExtendedTooltip</name>
+          <name>Группа7РасширеннаяПодсказка</name>
           <id>142</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1052,13 +1128,17 @@
       <items xsi:type="form:Button">
         <name>КакНастроитьАвтономноеРабочееМесто1</name>
         <id>111</id>
+        <title>
+          <key>ru</key>
+          <value>Как настроить автономное рабочее место</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>КакНастроитьАвтономноеРабочееМесто1ExtendedTooltip</name>
+          <name>КакНастроитьАвтономноеРабочееМесто1РасширеннаяПодсказка</name>
           <id>145</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1090,7 +1170,7 @@
         <value>Одно автономное рабочее место</value>
       </title>
       <extendedTooltip>
-        <name>ОдноАвтономноеРабочееМестоExtendedTooltip</name>
+        <name>ОдноАвтономноеРабочееМестоРасширеннаяПодсказка</name>
         <id>128</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1116,13 +1196,17 @@
       <items xsi:type="form:Button">
         <name>ПерейтиККонфликтам1</name>
         <id>115</id>
+        <title>
+          <key>ru</key>
+          <value>Предупреждений нет</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ПерейтиККонфликтам1ExtendedTooltip</name>
+          <name>ПерейтиККонфликтам1РасширеннаяПодсказка</name>
           <id>147</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1172,6 +1256,10 @@
         <items xsi:type="form:FormField">
           <name>СписокАвтономныхРабочихМестАвтономноеРабочееМесто</name>
           <id>81</id>
+          <title>
+            <key>ru</key>
+            <value>Автономное рабочее место</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1181,7 +1269,7 @@
             <segments>СписокАвтономныхРабочихМест.АвтономноеРабочееМесто</segments>
           </dataPath>
           <extendedTooltip>
-            <name>СписокАвтономныхРабочихМестАвтономноеРабочееМестоExtendedTooltip</name>
+            <name>СписокАвтономныхРабочихМестАвтономноеРабочееМестоРасширеннаяПодсказка</name>
             <id>167</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1222,6 +1310,10 @@
         <items xsi:type="form:FormField">
           <name>СписокАвтономныхРабочихМестПредставлениеДатыСинхронизации</name>
           <id>96</id>
+          <title>
+            <key>ru</key>
+            <value>Последняя синхронизация</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1231,7 +1323,7 @@
             <segments>СписокАвтономныхРабочихМест.ПредставлениеДатыСинхронизации</segments>
           </dataPath>
           <extendedTooltip>
-            <name>СписокАвтономныхРабочихМестПредставлениеДатыСинхронизацииExtendedTooltip</name>
+            <name>СписокАвтономныхРабочихМестПредставлениеДатыСинхронизацииРасширеннаяПодсказка</name>
             <id>168</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1283,13 +1375,17 @@
           <items xsi:type="form:Button">
             <name>СписокАвтономныхРабочихМестСоздатьАвтономноеРабочееМесто</name>
             <id>85</id>
+            <title>
+              <key>ru</key>
+              <value>Создать...</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>СписокАвтономныхРабочихМестСоздатьАвтономноеРабочееМестоExtendedTooltip</name>
+              <name>СписокАвтономныхРабочихМестСоздатьАвтономноеРабочееМестоРасширеннаяПодсказка</name>
               <id>154</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1313,13 +1409,17 @@
           <items xsi:type="form:Button">
             <name>СписокАвтономныхРабочихМестИзменитьАвтономноеРабочееМестоВСписке</name>
             <id>98</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>СписокАвтономныхРабочихМестИзменитьАвтономноеРабочееМестоВСпискеExtendedTooltip</name>
+              <name>СписокАвтономныхРабочихМестИзменитьАвтономноеРабочееМестоВСпискеРасширеннаяПодсказка</name>
               <id>155</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1353,7 +1453,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>СписокАвтономныхРабочихМестПрекратитьСинхронизациюСАвтономнымРабочимМестомExtendedTooltip</name>
+              <name>СписокАвтономныхРабочихМестПрекратитьСинхронизациюСАвтономнымРабочимМестомРасширеннаяПодсказка</name>
               <id>156</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1381,6 +1481,10 @@
           <items xsi:type="form:Button">
             <name>СписокАвтономныхРабочихМестСоставОтправляемыхДанных</name>
             <id>170</id>
+            <title>
+              <key>ru</key>
+              <value>Состав отправляемых данных</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1415,13 +1519,17 @@
             <items xsi:type="form:Button">
               <name>СписокАвтономныхРабочихМестОбновить</name>
               <id>88</id>
+              <title>
+                <key>ru</key>
+                <value>Обновить</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>СписокАвтономныхРабочихМестОбновитьExtendedTooltip</name>
+                <name>СписокАвтономныхРабочихМестОбновитьРасширеннаяПодсказка</name>
                 <id>158</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1448,8 +1556,12 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Автономных рабочих мест группа 3</value>
+            </title>
             <extendedTooltip>
-              <name>СписокАвтономныхРабочихМестГруппа3ExtendedTooltip</name>
+              <name>СписокАвтономныхРабочихМестГруппа3РасширеннаяПодсказка</name>
               <id>157</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1477,7 +1589,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>СписокАвтономныхРабочихМестНайтиExtendedTooltip</name>
+                <name>СписокАвтономныхРабочихМестНайтиРасширеннаяПодсказка</name>
                 <id>160</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1508,7 +1620,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>СписокАвтономныхРабочихМестОтменитьПоискExtendedTooltip</name>
+                <name>СписокАвтономныхРабочихМестОтменитьПоискРасширеннаяПодсказка</name>
                 <id>161</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1535,8 +1647,12 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Автономных рабочих мест группа 1</value>
+            </title>
             <extendedTooltip>
-              <name>СписокАвтономныхРабочихМестГруппа1ExtendedTooltip</name>
+              <name>СписокАвтономныхРабочихМестГруппа1РасширеннаяПодсказка</name>
               <id>159</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1564,7 +1680,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>СписокАвтономныхРабочихМестКопироватьВБуферОбменаExtendedTooltip</name>
+                <name>СписокАвтономныхРабочихМестКопироватьВБуферОбменаРасширеннаяПодсказка</name>
                 <id>163</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1595,7 +1711,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>СписокАвтономныхРабочихМестВывестиСписокExtendedTooltip</name>
+                <name>СписокАвтономныхРабочихМестВывестиСписокРасширеннаяПодсказка</name>
                 <id>164</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1622,8 +1738,12 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Автономных рабочих мест группа 2</value>
+            </title>
             <extendedTooltip>
-              <name>СписокАвтономныхРабочихМестГруппа2ExtendedTooltip</name>
+              <name>СписокАвтономныхРабочихМестГруппа2РасширеннаяПодсказка</name>
               <id>162</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1648,7 +1768,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>СписокАвтономныхРабочихМестКнопка1ExtendedTooltip</name>
+              <name>СписокАвтономныхРабочихМестКнопка1РасширеннаяПодсказка</name>
               <id>165</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1797,7 +1917,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>СписокАвтономныхРабочихМестExtendedTooltip</name>
+          <name>СписокАвтономныхРабочихМестРасширеннаяПодсказка</name>
           <id>166</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1817,13 +1937,17 @@
           <items xsi:type="form:Button">
             <name>СписокАвтономныхРабочихМестСоздатьАвтономноеРабочееМесто1</name>
             <id>103</id>
+            <title>
+              <key>ru</key>
+              <value>Создать...</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>СписокАвтономныхРабочихМестСоздатьАвтономноеРабочееМесто1ExtendedTooltip</name>
+              <name>СписокАвтономныхРабочихМестСоздатьАвтономноеРабочееМесто1РасширеннаяПодсказка</name>
               <id>148</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1847,13 +1971,17 @@
           <items xsi:type="form:Button">
             <name>СписокАвтономныхРабочихМестИзменитьАвтономноеРабочееМестоВСписке1</name>
             <id>104</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>СписокАвтономныхРабочихМестИзменитьАвтономноеРабочееМестоВСписке1ExtendedTooltip</name>
+              <name>СписокАвтономныхРабочихМестИзменитьАвтономноеРабочееМестоВСписке1РасширеннаяПодсказка</name>
               <id>149</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1887,7 +2015,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>СписокАвтономныхРабочихМестПрекратитьСинхронизациюСАвтономнымРабочимМестом1ExtendedTooltip</name>
+              <name>СписокАвтономныхРабочихМестПрекратитьСинхронизациюСАвтономнымРабочимМестом1РасширеннаяПодсказка</name>
               <id>150</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1915,6 +2043,10 @@
           <items xsi:type="form:Button">
             <name>СписокАвтономныхРабочихМестКонтекстноеМенюСоставОтправляемыхДанных</name>
             <id>172</id>
+            <title>
+              <key>ru</key>
+              <value>Состав отправляемых данных</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1954,7 +2086,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>СписокАвтономныхРабочихМестКопироватьВБуферОбмена1ExtendedTooltip</name>
+                <name>СписокАвтономныхРабочихМестКопироватьВБуферОбмена1РасширеннаяПодсказка</name>
                 <id>152</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1985,7 +2117,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>СписокАвтономныхРабочихМестВывестиСписок1ExtendedTooltip</name>
+                <name>СписокАвтономныхРабочихМестВывестиСписок1РасширеннаяПодсказка</name>
                 <id>153</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -2012,8 +2144,12 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Автономных рабочих мест группа 4</value>
+            </title>
             <extendedTooltip>
-              <name>СписокАвтономныхРабочихМестГруппа4ExtendedTooltip</name>
+              <name>СписокАвтономныхРабочихМестГруппа4РасширеннаяПодсказка</name>
               <id>151</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2062,13 +2198,17 @@
       <items xsi:type="form:Button">
         <name>КакНастроитьАвтономноеРабочееМесто2</name>
         <id>112</id>
+        <title>
+          <key>ru</key>
+          <value>Как настроить автономное рабочее место</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>КакНастроитьАвтономноеРабочееМесто2ExtendedTooltip</name>
+          <name>КакНастроитьАвтономноеРабочееМесто2РасширеннаяПодсказка</name>
           <id>169</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -2100,7 +2240,7 @@
         <value>Несколько автономных рабочих мест</value>
       </title>
       <extendedTooltip>
-        <name>НесколькоАвтономныхРабочихМестExtendedTooltip</name>
+        <name>НесколькоАвтономныхРабочихМестРасширеннаяПодсказка</name>
         <id>146</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2131,7 +2271,7 @@
     </title>
     <enableContentChange>true</enableContentChange>
     <extendedTooltip>
-      <name>АвтономнаяРаботаExtendedTooltip</name>
+      <name>АвтономнаяРаботаРасширеннаяПодсказка</name>
       <id>116</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -2174,6 +2314,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

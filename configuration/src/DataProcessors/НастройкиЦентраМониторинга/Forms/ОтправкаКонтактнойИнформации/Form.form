@@ -9,7 +9,7 @@
     <id>10</id>
     <title>
       <key>ru</key>
-      <value>Если программа медленно работает, и Вы готовы предоставить фирме &quot;1С&quot; копию Вашей информационной базы (может быть обезличена) для расследования проблем производительности, пожалуйста, укажите свои контактные данные, чтобы сотрудники фирмы &quot;1С&quot; могли с Вами связаться.</value>
+      <value>Если приложение медленно работает, и Вы готовы предоставить фирме &quot;1С&quot; копию Вашей информационной базы (может быть обезличена) для расследования проблем производительности, пожалуйста, укажите свои контактные данные, чтобы сотрудники фирмы &quot;1С&quot; могли с Вами связаться.</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -116,6 +116,10 @@
   <items xsi:type="form:FormField">
     <name>Комментарий</name>
     <id>13</id>
+    <title>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -212,6 +216,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОтказаться</name>
       <id>16</id>
+      <title>
+        <key>ru</key>
+        <value>Отказаться</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -282,6 +290,7 @@
   </handlers>
   <width>60</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

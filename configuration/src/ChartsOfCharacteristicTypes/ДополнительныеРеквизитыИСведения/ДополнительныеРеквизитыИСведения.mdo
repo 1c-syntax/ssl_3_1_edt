@@ -300,6 +300,54 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="e97edb4a-468d-499d-924d-aa4e5ee16548">
+    <name>ЗаголовокФормыВыбораЗначенияЯзык1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок формы выбора значения язык (дополнительный язык)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется в заголовке формы выбора дополнительного значения свойства</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="24366a86-0dae-4a68-a180-d8ea7656a286">
+    <name>ЗаголовокФормыВыбораЗначенияЯзык2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок формы выбора значения язык (дополнительный язык 2)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется в заголовке формы выбора дополнительного значения свойства</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="cb65fbad-69a0-47d8-b4a9-da49274c3eb7">
     <name>ЗаголовокФормыЗначения</name>
     <synonym>
@@ -324,6 +372,110 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="3c03f78e-c904-47da-a0a1-db5d6b9f7254">
+    <name>ЗаголовокФормыЗначенияЯзык1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок формы значения язык (дополнительный язык)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется в заголовке формы дополнительного значения свойства</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3bf03ed7-6581-4a11-8fc8-748f46c8dad7">
+    <name>ЗаголовокФормыЗначенияЯзык2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заголовок формы значения язык (дополнительный язык 2)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется в заголовке формы дополнительного значения свойства</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0f28c616-162c-4dba-bd22-f7ea5d23ea5a">
+    <name>ЗаголовокЯзык1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование  (дополнительный язык)</value>
+    </synonym>
+    <comment>АПК:58</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>75</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Краткое представление свойства, которое
+выводится в формах редактирования его значения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="39bf2771-1d8b-44bb-8d8b-54d046589ebe">
+    <name>ЗаголовокЯзык2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование (дополнительный язык 2)</value>
+    </synonym>
+    <comment>АПК:58</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>75</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Краткое представление свойства, которое
+выводится в формах редактирования его значения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="872521e3-413c-45ac-a6ea-39fe1324bae8">
     <name>ЗаполнятьОбязательно</name>
     <synonym>
@@ -340,6 +492,26 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f237a21e-066a-48e6-a5c4-5dc2487c7a3b">
+    <name>ИдентификаторДляФормул</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор для формул</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -364,6 +536,7 @@
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
+    <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -413,11 +586,74 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="79ad09ba-875a-46bd-9cd9-9d084bf4f6ea">
+    <name>НаборСвойств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор свойств</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборыДополнительныхРеквизитовИСведений</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Набор свойств, в котором было изначально создано свойство. При включении свойства в несколько наборов значение не меняется.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="2902460a-ed86-41cf-8e8f-895adab9a72f">
     <name>Подсказка</name>
     <synonym>
       <key>ru</key>
       <value>Подсказка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Показывается пользователю при редактировании свойства в форме объекта</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d12c7296-36ab-41e0-83ef-143484958597">
+    <name>ПодсказкаЯзык1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подсказка язык (дополнительный язык)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Показывается пользователю при редактировании свойства в форме объекта</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2b6c3bcd-7d2a-4e95-8066-99374002689b">
+    <name>ПодсказкаЯзык2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подсказка язык (дополнительный язык 2)</value>
     </synonym>
     <type>
       <types>String</types>
@@ -476,42 +712,33 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="79ad09ba-875a-46bd-9cd9-9d084bf4f6ea">
-    <name>НаборСвойств</name>
+  <attributes uuid="73cc5b8b-4cba-4988-b2c6-d974dde9723d">
+    <name>ВидСвойств</name>
     <synonym>
       <key>ru</key>
-      <value>Набор свойств</value>
+      <value>Вид свойств</value>
     </synonym>
     <type>
-      <types>CatalogRef.НаборыДополнительныхРеквизитовИСведений</types>
+      <types>EnumRef.ВидыСвойств</types>
     </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Набор свойств, в котором было изначально создано свойство. При включении свойства в несколько наборов значение не меняется.</value>
-    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="f237a21e-066a-48e6-a5c4-5dc2487c7a3b">
-    <name>ИдентификаторДляФормул</name>
+  <attributes uuid="1b9bbdb1-b8c0-4459-8b5c-656055482f00">
+    <name>ЦветСвойств</name>
     <synonym>
       <key>ru</key>
-      <value>Идентификатор для формул</value>
+      <value>Цвет свойств</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>150</length>
-      </stringQualifiers>
+      <types>EnumRef.ЦветаСвойств</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

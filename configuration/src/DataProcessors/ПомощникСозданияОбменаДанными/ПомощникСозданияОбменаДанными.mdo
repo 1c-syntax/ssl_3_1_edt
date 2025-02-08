@@ -167,7 +167,7 @@
       <value>Учетная запись электронной почты</value>
     </synonym>
     <type>
-      <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+      <types>DefinedType.ОбменДаннымиУчетныеЗаписиЭлектроннойПочты</types>
     </type>
     <toolTip>
       <key>ru</key>
@@ -894,6 +894,46 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="24ce9257-6dcf-4ba6-839e-1e635c069e75">
+    <name>КонтурСинхронизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контур синхронизации</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ecb2048d-4c1d-4194-a728-604734683b3b">
+    <name>НомерОтправленного</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер отправленного</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b33e046c-b580-4c90-940d-71f38d9ceff2">
+    <name>НомерПринятого</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер принятого</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <forms uuid="c076b7fd-7e17-4811-82e7-047e2bf43bb0">
     <name>НоваяСинхронизацияДанных</name>
     <synonym>
@@ -944,6 +984,24 @@
     <synonym>
       <key>ru</key>
       <value>Новый код предопределенного узла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="35fe84b6-7d3c-4729-a75c-a5f3ef122124">
+    <name>ИзменениеПрефиксаУзлаИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение префикса узла ИБ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f7d5815e-511e-48c2-bc31-f9987423439b">
+    <name>ПереходНаИнтернетСоединение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переход на интернет соединение</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

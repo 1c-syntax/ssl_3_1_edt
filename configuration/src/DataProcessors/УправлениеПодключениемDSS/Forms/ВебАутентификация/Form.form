@@ -13,6 +13,10 @@
       <items xsi:type="form:FormField">
         <name>ВебАутентификация</name>
         <id>3</id>
+        <title>
+          <key>ru</key>
+          <value>Веб аутентификация</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -279,6 +283,7 @@
   </handlers>
   <height>35</height>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

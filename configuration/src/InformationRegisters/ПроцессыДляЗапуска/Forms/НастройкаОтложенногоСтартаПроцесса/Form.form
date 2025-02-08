@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>ОтложенныйСтартПроцесса</name>
     <id>18</id>
+    <title>
+      <key>ru</key>
+      <value>Отложенный старт задания</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -433,7 +437,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Информация</picture>
+              <picture>StdPicture.Information</picture>
             </picture>
           </extInfo>
         </items>
@@ -673,7 +677,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Информация</picture>
+              <picture>StdPicture.Information</picture>
             </picture>
           </extInfo>
         </items>
@@ -836,6 +840,10 @@
         <items xsi:type="form:Button">
           <name>Готово</name>
           <id>28</id>
+          <title>
+            <key>ru</key>
+            <value>Готово</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -868,6 +876,10 @@
         <items xsi:type="form:Button">
           <name>Отмена</name>
           <id>26</id>
+          <title>
+            <key>ru</key>
+            <value>Отмена</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1076,6 +1088,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

@@ -2,7 +2,7 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
     <key>ru</key>
-    <value>Выберите учетную запись облачной криптографии</value>
+    <value>Выберите учетную запись DSS</value>
   </title>
   <items xsi:type="form:Table">
     <name>Список</name>
@@ -71,9 +71,7 @@
       <id>63</id>
       <visible>true</visible>
       <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
+      <userVisible/>
       <dataPath xsi:type="form:DataPath">
         <segments>Список.Комментарий</segments>
       </dataPath>
@@ -211,6 +209,10 @@
       </userVisible>
       <horizontalAlign>Left</horizontalAlign>
     </autoCommandBar>
+    <handlers>
+      <event>ValueChoice</event>
+      <name>СписокВыборЗначения</name>
+    </handlers>
     <handlers>
       <event>Selection</event>
       <name>СписокУчетныхЗаписейВыбор</name>
@@ -390,6 +392,7 @@
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -416,6 +419,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

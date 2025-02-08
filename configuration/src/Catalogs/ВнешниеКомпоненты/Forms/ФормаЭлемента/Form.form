@@ -44,7 +44,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Информация</picture>
+          <picture>StdPicture.Information</picture>
         </picture>
       </extInfo>
     </items>
@@ -148,6 +148,10 @@
         <extendedTooltip>
           <name>ИдентификаторРасширеннаяПодсказка</name>
           <id>12</id>
+          <title>
+            <key>ru</key>
+            <value>Чтобы узнать внутренний идентификатор объекта и версию внешней компоненты, обратитесь к разработчику.</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -293,7 +297,7 @@
           <id>148</id>
           <title>
             <key>ru</key>
-            <value>Имя внешней компоненты для отображения пользователям.</value>
+            <value>Имя внешней компоненты для отображения в списке.</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -557,6 +561,10 @@
   <items xsi:type="form:Button">
     <name>ПоддерживаемыеКлиентскиеПриложения</name>
     <id>174</id>
+    <title>
+      <key>ru</key>
+      <value>Поддерживаемые клиентские приложения</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -704,6 +712,10 @@
       <items xsi:type="form:Button">
         <name>ФормаОбновитьИзФайла</name>
         <id>77</id>
+        <title>
+          <key>ru</key>
+          <value>Обновить из файла...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -734,6 +746,10 @@
       <items xsi:type="form:Button">
         <name>ОбновитьСПортала1СИТС</name>
         <id>83</id>
+        <title>
+          <key>ru</key>
+          <value>Обновить с Портала 1С:ИТС</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -764,6 +780,10 @@
       <items xsi:type="form:Button">
         <name>ФормаСохранитьКак</name>
         <id>87</id>
+        <title>
+          <key>ru</key>
+          <value>Сохранить как...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -902,6 +922,7 @@
   <excludedCommands>ShowInList</excludedCommands>
   <width>75</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -952,6 +973,17 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ЦелевыеПлатформы</name>
+    <id>4</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ОбновитьИзФайла</name>
     <title>
@@ -961,7 +993,7 @@
     <id>1</id>
     <toolTip>
       <key>ru</key>
-      <value>Обновить из файла на диске...</value>
+      <value>Обновить из файла на компьютере...</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -1044,6 +1076,11 @@
   </parameters>
   <parameters>
     <name>ПараметрыПоискаДополнительнойИнформации</name>
+    <valueType/>
+    <keyParameter>true</keyParameter>
+  </parameters>
+  <parameters>
+    <name>ПомещенныйФайл</name>
     <valueType/>
     <keyParameter>true</keyParameter>
   </parameters>

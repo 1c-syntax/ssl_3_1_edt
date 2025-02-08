@@ -23,7 +23,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>НадписьДатаПроведенияПоследнегоРезервногоКопированияExtendedTooltip</name>
+          <name>НадписьДатаПроведенияПоследнегоРезервногоКопированияРасширеннаяПодсказка</name>
           <id>293</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -74,7 +74,7 @@
         </dataPath>
         <titleLocation>Top</titleLocation>
         <extendedTooltip>
-          <name>ПутьККаталогуАрхивовExtendedTooltip</name>
+          <name>ПутьККаталогуАрхивовРасширеннаяПодсказка</name>
           <id>299</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -129,7 +129,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>НадписьРекомендацииПоВыборуПутиExtendedTooltip</name>
+          <name>НадписьРекомендацииПоВыборуПутиРасширеннаяПодсказка</name>
           <id>300</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -181,7 +181,7 @@
             <segments>АдминистраторИБ</segments>
           </dataPath>
           <extendedTooltip>
-            <name>АдминистраторИБExtendedTooltip</name>
+            <name>АдминистраторИБРасширеннаяПодсказка</name>
             <id>304</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -223,6 +223,10 @@
         <items xsi:type="form:FormField">
           <name>ПарольАдминистратораИБ</name>
           <id>266</id>
+          <title>
+            <key>ru</key>
+            <value>Пароль</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -232,7 +236,7 @@
             <segments>ПарольАдминистратораИБ</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ПарольАдминистратораИБExtendedTooltip</name>
+            <name>ПарольАдминистратораИБРасширеннаяПодсказка</name>
             <id>305</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -398,7 +402,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>КартинкаПредупреждениеExtendedTooltip</name>
+              <name>КартинкаПредупреждениеРасширеннаяПодсказка</name>
               <id>308</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -426,7 +430,7 @@
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:PictureDecorationExtInfo">
               <picture xsi:type="core:PictureRef">
-                <picture>CommonPicture.Предупреждение32</picture>
+                <picture>StdPicture.DialogExclamation</picture>
               </picture>
             </extInfo>
           </items>
@@ -438,7 +442,7 @@
               <id>38</id>
               <title>
                 <key>ru</key>
-                <value>В данный момент с программой работают другие пользователи.
+                <value>В данный момент с приложением работают другие пользователи.
 При проведении резервного копирования их работа будет завершена.</value>
               </title>
               <visible>true</visible>
@@ -447,7 +451,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>НадписьРаботыПользователейExtendedTooltip</name>
+                <name>НадписьРаботыПользователейРасширеннаяПодсказка</name>
                 <id>310</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -492,7 +496,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>НадписьСписокДействийExtendedTooltip</name>
+                <name>НадписьСписокДействийРасширеннаяПодсказка</name>
                 <id>311</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -539,7 +543,7 @@
               <value>Надписей</value>
             </title>
             <extendedTooltip>
-              <name>ГруппаНадписейExtendedTooltip</name>
+              <name>ГруппаНадписейРасширеннаяПодсказка</name>
               <id>309</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -604,7 +608,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>Картинка12ExtendedTooltip</name>
+              <name>Картинка12РасширеннаяПодсказка</name>
               <id>359</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -633,7 +637,7 @@
             <skipOnInput>false</skipOnInput>
             <extInfo xsi:type="form:PictureDecorationExtInfo">
               <picture xsi:type="core:PictureRef">
-                <picture>CommonPicture.Предупреждение32</picture>
+                <picture>StdPicture.DialogExclamation</picture>
               </picture>
             </extInfo>
           </items>
@@ -701,6 +705,10 @@
             <items xsi:type="form:Button">
               <name>ПерейтиВЖурналРегистрации</name>
               <id>403</id>
+              <title>
+                <key>ru</key>
+                <value>Техническая информация об ошибке</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -883,7 +891,7 @@
         <value>Страница выполнения резервного копирования</value>
       </title>
       <extendedTooltip>
-        <name>СтраницаВыполненияРезервногоКопированияExtendedTooltip</name>
+        <name>СтраницаВыполненияРезервногоКопированияРасширеннаяПодсказка</name>
         <id>291</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -921,7 +929,7 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>Декорация5ExtendedTooltip</name>
+              <name>Декорация5РасширеннаяПодсказка</name>
               <id>336</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -968,7 +976,7 @@
                   <title>
                     <key>ru</key>
                     <value>Производится отключение сеансов других пользователей,
-работающих в программе...</value>
+работающих в приложении...</value>
                   </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -976,7 +984,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>НадписьОтключениеПользователейExtendedTooltip</name>
+                    <name>НадписьОтключениеПользователейРасширеннаяПодсказка</name>
                     <id>340</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1024,7 +1032,7 @@
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>СписокПользователейExtendedTooltip</name>
+                      <name>СписокПользователейРасширеннаяПодсказка</name>
                       <id>338</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -1069,7 +1077,7 @@
                       <common>true</common>
                     </userVisible>
                     <extendedTooltip>
-                      <name>КоличествоАктивныхПользователейExtendedTooltip</name>
+                      <name>КоличествоАктивныхПользователейРасширеннаяПодсказка</name>
                       <id>339</id>
                       <visible>true</visible>
                       <enabled>true</enabled>
@@ -1180,7 +1188,7 @@
                     <common>true</common>
                   </userVisible>
                   <extendedTooltip>
-                    <name>НадписьВремяОжиданияРезервногоКопированияExtendedTooltip</name>
+                    <name>НадписьВремяОжиданияРезервногоКопированияРасширеннаяПодсказка</name>
                     <id>341</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
@@ -1275,7 +1283,7 @@
               <id>430</id>
               <title>
                 <key>ru</key>
-                <value>Имеются активные сеансы работы с программой,
+                <value>Имеются активные сеансы работы с приложением,
 которые не могут быть завершены принудительно:
 </value>
               </title>
@@ -1318,6 +1326,10 @@
             <items xsi:type="form:Button">
               <name>НеДожидатьсяЗавершенияСеансов</name>
               <id>440</id>
+              <title>
+                <key>ru</key>
+                <value>Не дожидаться завершения сеансов (режим отладки)</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1423,7 +1435,7 @@
 Пожалуйста, не выключайте компьютер.</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаАктивныхПользователейExtendedTooltip</name>
+          <name>ГруппаАктивныхПользователейРасширеннаяПодсказка</name>
           <id>334</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1458,7 +1470,7 @@
         <value>Страница информации и выполнения резервного копирования</value>
       </title>
       <extendedTooltip>
-        <name>СтраницаИнформацииИВыполненияРезервногоКопированияExtendedTooltip</name>
+        <name>СтраницаИнформацииИВыполненияРезервногоКопированияРасширеннаяПодсказка</name>
         <id>331</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1497,7 +1509,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>НадписьУспешногоКопированияExtendedTooltip</name>
+            <name>НадписьУспешногоКопированияРасширеннаяПодсказка</name>
             <id>344</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1610,7 +1622,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>НадписьИнформацияОВосстановленииExtendedTooltip</name>
+            <name>НадписьИнформацияОВосстановленииРасширеннаяПодсказка</name>
             <id>346</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1720,7 +1732,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Информация</picture>
+              <picture>StdPicture.Information</picture>
             </picture>
           </extInfo>
         </items>
@@ -1814,7 +1826,7 @@
         <value>Страница успешного выполнения копирования</value>
       </title>
       <extendedTooltip>
-        <name>СтраницаУспешногоВыполненияКопированияExtendedTooltip</name>
+        <name>СтраницаУспешногоВыполненияКопированияРасширеннаяПодсказка</name>
         <id>342</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1965,7 +1977,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Предупреждение32</picture>
+              <picture>StdPicture.DialogExclamation</picture>
             </picture>
           </extInfo>
         </items>
@@ -2020,6 +2032,10 @@
           <items xsi:type="form:Button">
             <name>ПерейтиВЖурналРегистрации1</name>
             <id>405</id>
+            <title>
+              <key>ru</key>
+              <value>Техническая информация об ошибке</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2124,7 +2140,7 @@
         <value>Страница ошибок при копировании</value>
       </title>
       <extendedTooltip>
-        <name>СтраницаОшибокПриКопированииExtendedTooltip</name>
+        <name>СтраницаОшибокПриКопированииРасширеннаяПодсказка</name>
         <id>347</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2154,7 +2170,7 @@
       <value>Страницы помощника</value>
     </title>
     <extendedTooltip>
-      <name>СтраницыПомощникаExtendedTooltip</name>
+      <name>СтраницыПомощникаРасширеннаяПодсказка</name>
       <id>290</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -2190,7 +2206,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ДалееExtendedTooltip</name>
+        <name>ДалееРасширеннаяПодсказка</name>
         <id>288</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2225,7 +2241,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОтменаExtendedTooltip</name>
+        <name>ОтменаРасширеннаяПодсказка</name>
         <id>289</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2304,6 +2320,7 @@
     <name>ПриЗакрытии</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -2413,6 +2430,19 @@
   <attributes>
     <name>ТребуетсяВводПароля</name>
     <id>7</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>АвтоматическоеВыполнение</name>
+    <id>4</id>
     <valueType>
       <types>Boolean</types>
     </valueType>

@@ -47,6 +47,10 @@
   <items xsi:type="form:FormField">
     <name>ТекстПредупреждения</name>
     <id>11</id>
+    <title>
+      <key>ru</key>
+      <value>Текст предупреждения</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -101,7 +105,7 @@
     <id>8</id>
     <title>
       <key>ru</key>
-      <value>Типичные проблемы при работе с программами электронной подписи и их решение</value>
+      <value>Типичные проблемы при работе с приложениями электронной подписи и их решение</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -202,6 +206,7 @@
   <excludedCommands>Yes</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <enterKeyBehavior>DefaultButton</enterKeyBehavior>
+  <saveWindowSettings>true</saveWindowSettings>
   <group>Vertical</group>
   <enabled>true</enabled>
   <showTitle>true</showTitle>

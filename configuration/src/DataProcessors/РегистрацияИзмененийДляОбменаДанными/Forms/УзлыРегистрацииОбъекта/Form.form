@@ -53,7 +53,7 @@
           <name>ДеревоУзловОбменаПометкаПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ДеревоУзловОбменаПометкаExtendedTooltip</name>
+          <name>ДеревоУзловОбменаПометкаРасширеннаяПодсказка</name>
           <id>75</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -102,7 +102,7 @@
           <segments>ДеревоУзловОбмена.Наименование</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ДеревоУзловОбменаНаименованиеExtendedTooltip</name>
+          <name>ДеревоУзловОбменаНаименованиеРасширеннаяПодсказка</name>
           <id>76</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -145,7 +145,7 @@
         <value>Описание узла</value>
       </title>
       <extendedTooltip>
-        <name>ДеревоУзловОбменаПометкаНаименованиеExtendedTooltip</name>
+        <name>ДеревоУзловОбменаПометкаНаименованиеРасширеннаяПодсказка</name>
         <id>74</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -181,7 +181,7 @@
         <segments>ДеревоУзловОбмена.Код</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДеревоУзловОбменаКодExtendedTooltip</name>
+        <name>ДеревоУзловОбменаКодРасширеннаяПодсказка</name>
         <id>77</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -233,7 +233,7 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>ДеревоУзловОбменаАвторегистрацияExtendedTooltip</name>
+          <name>ДеревоУзловОбменаАвторегистрацияРасширеннаяПодсказка</name>
           <id>79</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -286,7 +286,7 @@
           <segments>ДеревоУзловОбмена.НомерСообщения</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ДеревоУзловОбменаНомерСообщенияExtendedTooltip</name>
+          <name>ДеревоУзловОбменаНомерСообщенияРасширеннаяПодсказка</name>
           <id>80</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -334,7 +334,7 @@
         <value>Описание регистрации</value>
       </title>
       <extendedTooltip>
-        <name>ДеревоУзловОбменаГруппа1ExtendedTooltip</name>
+        <name>ДеревоУзловОбменаГруппа1РасширеннаяПодсказка</name>
         <id>78</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -486,7 +486,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ДеревоУзловОбменаExtendedTooltip</name>
+      <name>ДеревоУзловОбменаРасширеннаяПодсказка</name>
       <id>73</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -509,13 +509,17 @@
         <items xsi:type="form:Button">
           <name>ДеревоУзловОбменаКонтекстноеМенюПометитьВсеУзлы</name>
           <id>41</id>
+          <title>
+            <key>ru</key>
+            <value>Пометить все узлы</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ДеревоУзловОбменаКонтекстноеМенюПометитьВсеУзлыExtendedTooltip</name>
+            <name>ДеревоУзловОбменаКонтекстноеМенюПометитьВсеУзлыРасширеннаяПодсказка</name>
             <id>66</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -542,13 +546,17 @@
         <items xsi:type="form:Button">
           <name>ДеревоУзловОбменаКонтекстноеМенюСнятьПометкуВсемУзлам</name>
           <id>42</id>
+          <title>
+            <key>ru</key>
+            <value>Снять пометку у всех узлов</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ДеревоУзловОбменаКонтекстноеМенюСнятьПометкуВсемУзламExtendedTooltip</name>
+            <name>ДеревоУзловОбменаКонтекстноеМенюСнятьПометкуВсемУзламРасширеннаяПодсказка</name>
             <id>67</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -575,13 +583,17 @@
         <items xsi:type="form:Button">
           <name>ДеревоУзловОбменаКонтекстноеМенюИнвертироватьПометкуВсемУзлам</name>
           <id>43</id>
+          <title>
+            <key>ru</key>
+            <value>Изменить пометку всех узлов</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ДеревоУзловОбменаКонтекстноеМенюИнвертироватьПометкуВсемУзламExtendedTooltip</name>
+            <name>ДеревоУзловОбменаКонтекстноеМенюИнвертироватьПометкуВсемУзламРасширеннаяПодсказка</name>
             <id>68</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -613,7 +625,7 @@
           <value>Дерево узлов обмена контекстное меню группа 1</value>
         </title>
         <extendedTooltip>
-          <name>ДеревоУзловОбменаКонтекстноеМенюГруппа1ExtendedTooltip</name>
+          <name>ДеревоУзловОбменаКонтекстноеМенюГруппа1РасширеннаяПодсказка</name>
           <id>65</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -642,7 +654,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ДеревоУзловОбменаКонтекстноеМенюОткрытьФормуРедактированияОтУзлаExtendedTooltip</name>
+          <name>ДеревоУзловОбменаКонтекстноеМенюОткрытьФормуРедактированияОтУзлаРасширеннаяПодсказка</name>
           <id>69</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -675,7 +687,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ДеревоУзловОбменаКонтекстноеМенюВывестиСписокExtendedTooltip</name>
+            <name>ДеревоУзловОбменаКонтекстноеМенюВывестиСписокРасширеннаяПодсказка</name>
             <id>71</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -705,7 +717,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ДеревоУзловОбменаКонтекстноеМенюКопироватьВБуферОбменаExtendedTooltip</name>
+            <name>ДеревоУзловОбменаКонтекстноеМенюКопироватьВБуферОбменаРасширеннаяПодсказка</name>
             <id>72</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -736,7 +748,7 @@
           <value>Дерево узлов обмена контекстное меню группа 2</value>
         </title>
         <extendedTooltip>
-          <name>ДеревоУзловОбменаКонтекстноеМенюГруппа2ExtendedTooltip</name>
+          <name>ДеревоУзловОбменаКонтекстноеМенюГруппа2РасширеннаяПодсказка</name>
           <id>70</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -794,7 +806,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СкрытаяКартинкаИнформация32ExtendedTooltip</name>
+        <name>СкрытаяКартинкаИнформация32РасширеннаяПодсказка</name>
         <id>82</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -833,7 +845,7 @@
     </title>
     <enableContentChange>true</enableContentChange>
     <extendedTooltip>
-      <name>ГруппаСкрытыхДанныхExtendedTooltip</name>
+      <name>ГруппаСкрытыхДанныхРасширеннаяПодсказка</name>
       <id>81</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -863,13 +875,17 @@
     <items xsi:type="form:Button">
       <name>ДеревоУзловОбменаИзменитьРегистрацию</name>
       <id>33</id>
+      <title>
+        <key>ru</key>
+        <value>Изменить регистрацию</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ДеревоУзловОбменаИзменитьРегистрациюExtendedTooltip</name>
+        <name>ДеревоУзловОбменаИзменитьРегистрациюРасширеннаяПодсказка</name>
         <id>58</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -900,13 +916,17 @@
       <items xsi:type="form:Button">
         <name>ФормаУстановитьПометкуВсемУзлам</name>
         <id>36</id>
+        <title>
+          <key>ru</key>
+          <value>Пометить все узлы</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаУстановитьПометкуВсемУзламExtendedTooltip</name>
+          <name>ФормаУстановитьПометкуВсемУзламРасширеннаяПодсказка</name>
           <id>60</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -930,13 +950,17 @@
       <items xsi:type="form:Button">
         <name>ФормаСнятьПометкуВсемУзлам</name>
         <id>37</id>
+        <title>
+          <key>ru</key>
+          <value>Снять пометку у всех узлов</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаСнятьПометкуВсемУзламExtendedTooltip</name>
+          <name>ФормаСнятьПометкуВсемУзламРасширеннаяПодсказка</name>
           <id>61</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -967,7 +991,7 @@
         <value>Переключение пометок</value>
       </title>
       <extendedTooltip>
-        <name>Группа1ExtendedTooltip</name>
+        <name>Группа1РасширеннаяПодсказка</name>
         <id>59</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -999,7 +1023,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаПеречитатьДеревоУзловExtendedTooltip</name>
+          <name>ФормаПеречитатьДеревоУзловРасширеннаяПодсказка</name>
           <id>63</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1026,13 +1050,17 @@
       <items xsi:type="form:Button">
         <name>ФормаОткрытьФормуНастроек</name>
         <id>57</id>
+        <title>
+          <key>ru</key>
+          <value>Настройки</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаОткрытьФормуНастроекExtendedTooltip</name>
+          <name>ФормаОткрытьФормуНастроекРасширеннаяПодсказка</name>
           <id>64</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1063,7 +1091,7 @@
         <value>Дополнительно</value>
       </title>
       <extendedTooltip>
-        <name>Группа2ExtendedTooltip</name>
+        <name>Группа2РасширеннаяПодсказка</name>
         <id>62</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1095,6 +1123,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

@@ -2921,6 +2921,18 @@
 				<d3p1:multiStageLinkColor>#000000</d3p1:multiStageLinkColor>
 				<d3p1:valuesAxis/>
 				<d3p1:pointsAxis/>
+				<d3p1:valuesScale>
+					<d3p1:titleArea>
+						<d3p1:font kind="AutoFont"/>
+						<d3p1:textColor>auto</d3p1:textColor>
+						<d3p1:backColor>auto</d3p1:backColor>
+						<d3p1:border width="1">
+							<v8ui:style xsi:type="v8ui:ControlBorderType">WithoutBorder</v8ui:style>
+						</d3p1:border>
+						<d3p1:borderColor>auto</d3p1:borderColor>
+					</d3p1:titleArea>
+					<d3p1:gridLinesShowMode>Show</d3p1:gridLinesShowMode>
+				</d3p1:valuesScale>
 				<d3p1:legendPlacement>UseCoordinates</d3p1:legendPlacement>
 				<d3p1:plotAreaPlacement>UseCoordinates</d3p1:plotAreaPlacement>
 				<d3p1:titleAreaPlacement>UseCoordinates</d3p1:titleAreaPlacement>
@@ -3000,7 +3012,7 @@
 			<d3p1:fixedVariantInterval>1</d3p1:fixedVariantInterval>
 			<d3p1:autoFullInterval>true</d3p1:autoFullInterval>
 			<d3p1:fullIntervalBegin>2016-07-01T00:00:00</d3p1:fullIntervalBegin>
-			<d3p1:fullIntervalEnd>2016-07-10T19:59:59</d3p1:fullIntervalEnd>
+			<d3p1:fullIntervalEnd>2016-07-10T18:59:59</d3p1:fullIntervalEnd>
 			<d3p1:visualBegin>2016-07-01T00:00:00</d3p1:visualBegin>
 			<d3p1:intervalDrawType>Gradient</d3p1:intervalDrawType>
 			<d3p1:noneVariantChars>3</d3p1:noneVariantChars>
@@ -3020,6 +3032,10 @@
 			<d3p1:linksLine width="1" gap="false">
 				<v8ui:style xsi:type="v8ui:ChartLineType">Solid</v8ui:style>
 			</d3p1:linksLine>
+			<d3p1:showPointsText>Show</d3p1:showPointsText>
+			<d3p1:showData>Auto</d3p1:showData>
+			<d3p1:textPlacement>Auto</d3p1:textPlacement>
+			<d3p1:intervalTextRepresentation>Auto</d3p1:intervalTextRepresentation>
 		</object>
 	</drawing>
 	<templateMode>true</templateMode>
@@ -3077,8 +3093,8 @@
 			<type>Rows</type>
 			<beginRow>13</beginRow>
 			<endRow>21</endRow>
-			<beginColumn>0</beginColumn>
-			<endColumn>0</endColumn>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemDrawing">
@@ -3091,8 +3107,8 @@
 			<type>Rows</type>
 			<beginRow>4</beginRow>
 			<endRow>6</endRow>
-			<beginColumn>0</beginColumn>
-			<endColumn>0</endColumn>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -3101,8 +3117,8 @@
 			<type>Rows</type>
 			<beginRow>11</beginRow>
 			<endRow>12</endRow>
-			<beginColumn>0</beginColumn>
-			<endColumn>0</endColumn>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -3111,8 +3127,8 @@
 			<type>Rows</type>
 			<beginRow>10</beginRow>
 			<endRow>10</endRow>
-			<beginColumn>0</beginColumn>
-			<endColumn>0</endColumn>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -3141,8 +3157,8 @@
 			<type>Rows</type>
 			<beginRow>0</beginRow>
 			<endRow>1</endRow>
-			<beginColumn>0</beginColumn>
-			<endColumn>0</endColumn>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -3151,8 +3167,8 @@
 			<type>Rows</type>
 			<beginRow>8</beginRow>
 			<endRow>8</endRow>
-			<beginColumn>0</beginColumn>
-			<endColumn>0</endColumn>
+			<beginColumn>-1</beginColumn>
+			<endColumn>-1</endColumn>
 		</area>
 	</namedItem>
 	<line width="1" gap="false">

@@ -63,10 +63,14 @@
     <typesFilterValue xsi:type="core:StringValue">
       <value>Документ_ОтзывСогласияНаОбработкуПерсональныхДанных</value>
     </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
     <characteristicValues>Document.ОтзывСогласияНаОбработкуПерсональныхДанных.TabularSection.ДополнительныеРеквизиты</characteristicValues>
     <objectField>Document.ОтзывСогласияНаОбработкуПерсональныхДанных.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</objectField>
     <typeField>Document.ОтзывСогласияНаОбработкуПерсональныхДанных.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</typeField>
     <valueField>Document.ОтзывСогласияНаОбработкуПерсональныхДанных.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
   </characteristics>
   <characteristics>
     <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
@@ -75,10 +79,14 @@
     <typesFilterValue xsi:type="core:StringValue">
       <value>Документ_ОтзывСогласияНаОбработкуПерсональныхДанных</value>
     </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
     <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
     <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>
     <typeField>InformationRegister.ДополнительныеСведения.Dimension.Свойство</typeField>
     <valueField>InformationRegister.ДополнительныеСведения.Resource.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
   </characteristics>
   <basedOn>Document.СогласиеНаОбработкуПерсональныхДанных</basedOn>
   <createOnInput>Use</createOnInput>

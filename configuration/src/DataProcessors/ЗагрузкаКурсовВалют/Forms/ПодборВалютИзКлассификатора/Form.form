@@ -46,7 +46,7 @@
         <segments>Валюты.КодВалютыЦифровой</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КодВалютыExtendedTooltip</name>
+        <name>КодВалютыРасширеннаяПодсказка</name>
         <id>29</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -102,7 +102,7 @@
         <segments>Валюты.КодВалютыБуквенный</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КраткоеНаименованиеExtendedTooltip</name>
+        <name>КраткоеНаименованиеРасширеннаяПодсказка</name>
         <id>30</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -145,6 +145,10 @@
       <name>Наименование</name>
       <id>8</id>
       <displayImportance>VeryHigh</displayImportance>
+      <title>
+        <key>ru</key>
+        <value>Наименование валюты</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -154,7 +158,7 @@
         <segments>Валюты.Наименование</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>31</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -197,6 +201,10 @@
       <name>СтраныИТерритории</name>
       <id>10</id>
       <displayImportance>VeryLow</displayImportance>
+      <title>
+        <key>ru</key>
+        <value>Страны и территории</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -206,7 +214,7 @@
         <segments>Валюты.СтраныИТерритории</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СтраныИТерриторииExtendedTooltip</name>
+        <name>СтраныИТерриторииРасширеннаяПодсказка</name>
         <id>32</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -247,6 +255,10 @@
       <name>Загружается</name>
       <id>15</id>
       <displayImportance>VeryLow</displayImportance>
+      <title>
+        <key>ru</key>
+        <value>Загружается из Интернета</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -261,7 +273,7 @@
         <value>Курс валюты может быть загружен из Интернета</value>
       </toolTip>
       <extendedTooltip>
-        <name>ЗагружаетсяExtendedTooltip</name>
+        <name>ЗагружаетсяРасширеннаяПодсказка</name>
         <id>33</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -302,6 +314,10 @@
       <items xsi:type="form:Button">
         <name>Выбрать</name>
         <id>14</id>
+        <title>
+          <key>ru</key>
+          <value>Выбрать</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -309,7 +325,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ВыбратьExtendedTooltip</name>
+          <name>ВыбратьРасширеннаяПодсказка</name>
           <id>24</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -340,7 +356,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>НайтиExtendedTooltip</name>
+          <name>НайтиРасширеннаяПодсказка</name>
           <id>25</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -371,7 +387,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ОтменитьПоискExtendedTooltip</name>
+          <name>ОтменитьПоискРасширеннаяПодсказка</name>
           <id>26</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -401,7 +417,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаСправкаExtendedTooltip</name>
+          <name>ФормаСправкаРасширеннаяПодсказка</name>
           <id>27</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -428,6 +444,7 @@
         <common>true</common>
       </userVisible>
       <horizontalAlign>Left</horizontalAlign>
+      <autoFill>true</autoFill>
     </autoCommandBar>
     <handlers>
       <event>Selection</event>
@@ -550,7 +567,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокВалютExtendedTooltip</name>
+      <name>СписокВалютРасширеннаяПодсказка</name>
       <id>28</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -570,13 +587,17 @@
       <items xsi:type="form:Button">
         <name>СписокВалютКонтекстноеМенюВыбрать</name>
         <id>18</id>
+        <title>
+          <key>ru</key>
+          <value>Выбрать</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СписокВалютКонтекстноеМенюВыбратьExtendedTooltip</name>
+          <name>СписокВалютКонтекстноеМенюВыбратьРасширеннаяПодсказка</name>
           <id>21</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -606,7 +627,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СписокВалютКонтекстноеМенюНайтиExtendedTooltip</name>
+          <name>СписокВалютКонтекстноеМенюНайтиРасширеннаяПодсказка</name>
           <id>22</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -636,7 +657,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СписокВалютКонтекстноеМенюОтменитьПоискExtendedTooltip</name>
+          <name>СписокВалютКонтекстноеМенюОтменитьПоискРасширеннаяПодсказка</name>
           <id>23</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -705,6 +726,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

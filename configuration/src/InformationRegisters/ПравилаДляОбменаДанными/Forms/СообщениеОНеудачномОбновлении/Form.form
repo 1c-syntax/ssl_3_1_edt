@@ -104,6 +104,10 @@
       <items xsi:type="form:Button">
         <name>ПерейтиВЖурналРегистрации</name>
         <id>54</id>
+        <title>
+          <key>ru</key>
+          <value>Техническая информация об ошибке</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -250,6 +254,10 @@
     <items xsi:type="form:Button">
       <name>ЗагрузитьКомплектПравил</name>
       <id>65</id>
+      <title>
+        <key>ru</key>
+        <value>Загрузить новые правила</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -321,6 +329,10 @@
     <items xsi:type="form:Button">
       <name>Перезапустить</name>
       <id>17</id>
+      <title>
+        <key>ru</key>
+        <value>Перезапустить и продолжить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -352,6 +364,10 @@
     <items xsi:type="form:Button">
       <name>ЗавершитьРаботу</name>
       <id>15</id>
+      <title>
+        <key>ru</key>
+        <value>Завершить работу</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -423,6 +439,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

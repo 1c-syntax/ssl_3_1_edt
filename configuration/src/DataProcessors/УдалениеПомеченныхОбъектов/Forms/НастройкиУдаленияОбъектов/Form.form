@@ -6,7 +6,7 @@
     <displayImportance>Usual</displayImportance>
     <title>
       <key>ru</key>
-      <value>Настройки отображения объектов</value>
+      <value>Выводить реквизиты в списке помеченных на удаление</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -16,7 +16,6 @@
     <dataPath xsi:type="form:DataPath">
       <segments>НастройкиОтображенияОбъектов</segments>
     </dataPath>
-    <titleLocation>None</titleLocation>
     <items xsi:type="form:FormGroup">
       <name>НастройкиОтображенияОбъектовГруппа</name>
       <id>40</id>
@@ -36,7 +35,7 @@
           <segments>НастройкиОтображенияОбъектов.МестоПоискаРеквизитПредставление</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ПолеРасширеннаяПодсказка</name>
+          <name>НастройкиОтображенияОбъектовОтображаемыйРеквизитРасширеннаяПодсказка</name>
           <id>34</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -51,7 +50,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ПолеКонтекстноеМеню</name>
+          <name>НастройкиОтображенияОбъектовОтображаемыйРеквизитКонтекстноеМеню</name>
           <id>33</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -77,6 +76,10 @@
       <items xsi:type="form:FormField">
         <name>НастройкиОтображенияОбъектовКартинка</name>
         <id>37</id>
+        <title>
+          <key>ru</key>
+          <value>Картинка</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -87,7 +90,7 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>ПолеРасширеннаяПодсказка1</name>
+          <name>НастройкиОтображенияОбъектовКартинкаРасширеннаяПодсказка</name>
           <id>39</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -102,7 +105,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ПолеКонтекстноеМеню1</name>
+          <name>НастройкиОтображенияОбъектовКартинкаКонтекстноеМеню</name>
           <id>38</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -134,7 +137,7 @@
         <value>Настройки отображения объектов группа</value>
       </title>
       <extendedTooltip>
-        <name>НастройкиОтображенияОбъектовГруппа1РасширеннаяПодсказка</name>
+        <name>НастройкиОтображенияОбъектовГруппаРасширеннаяПодсказка</name>
         <id>41</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -155,7 +158,7 @@
       </extInfo>
     </items>
     <autoCommandBar>
-      <name>КоманднаяПанель</name>
+      <name>НастройкиОтображенияОбъектовКоманднаяПанель</name>
       <id>20</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -281,7 +284,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>РасширеннаяПодсказка</name>
+      <name>НастройкиОтображенияОбъектовРасширеннаяПодсказка</name>
       <id>22</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -296,11 +299,15 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>КонтекстноеМеню</name>
+      <name>НастройкиОтображенияОбъектовКонтекстноеМеню</name>
       <id>21</id>
       <items xsi:type="form:Button">
         <name>КонтекстноеМенюДобавитьНастройку</name>
         <id>75</id>
+        <title>
+          <key>ru</key>
+          <value>Добавить настройку...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -331,6 +338,10 @@
       <items xsi:type="form:Button">
         <name>КонтекстноеМенюДобавитьПолеНастройки</name>
         <id>77</id>
+        <title>
+          <key>ru</key>
+          <value>Добавить выводимый реквизит...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -421,6 +432,10 @@
     <items xsi:type="form:FormField">
       <name>ОбычноеУдаление</name>
       <id>63</id>
+      <title>
+        <key>ru</key>
+        <value>Обычное удаление</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -436,7 +451,7 @@
         <name>ОбычноеУдалениеПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ПолеРасширеннаяПодсказка5</name>
+        <name>ОбычноеУдалениеРасширеннаяПодсказка</name>
         <id>65</id>
         <title>
           <key>ru</key>
@@ -457,7 +472,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ПолеКонтекстноеМеню5</name>
+        <name>ОбычноеУдалениеКонтекстноеМеню</name>
         <id>64</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -486,6 +501,10 @@
     <items xsi:type="form:FormField">
       <name>БезопасноеУдаление</name>
       <id>60</id>
+      <title>
+        <key>ru</key>
+        <value>Безопасное удаление</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -501,7 +520,7 @@
         <name>БезопасноеУдалениеПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ПолеРасширеннаяПодсказка4</name>
+        <name>БезопасноеУдалениеРасширеннаяПодсказка</name>
         <id>62</id>
         <title>
           <key>ru</key>
@@ -523,7 +542,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ПолеКонтекстноеМеню4</name>
+        <name>БезопасноеУдалениеКонтекстноеМеню</name>
         <id>61</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -552,6 +571,10 @@
     <items xsi:type="form:FormField">
       <name>МонопольноеУдаление</name>
       <id>42</id>
+      <title>
+        <key>ru</key>
+        <value>Монопольное удаление</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -567,11 +590,11 @@
         <name>МонопольноеУдалениеПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ПолеРасширеннаяПодсказка2</name>
+        <name>МонопольноеУдалениеРасширеннаяПодсказка</name>
         <id>44</id>
         <title>
           <key>ru</key>
-          <value>Блокировать вход в программу.
+          <value>Блокировать вход в приложение.
 Подходит для срочного удаления больших объемов данных.</value>
         </title>
         <visible>true</visible>
@@ -587,7 +610,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ПолеКонтекстноеМеню2</name>
+        <name>МонопольноеУдалениеКонтекстноеМеню</name>
         <id>43</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -623,18 +646,8 @@
       <key>ru</key>
       <value>Способ удаления</value>
     </title>
-    <toolTip>
-      <key>ru</key>
-      <value>Стандартный - удалить с контролем ссылочной целостности.
-
-Упрощенный - не проверять помеченные на удаление места использования и удалить с контролем ссылочной целостности.
-В помеченных на удалениях местах использования ссылки на удаляемые объекты будут очищены.
-
-Ускоренный - удалить в монопольном режиме.</value>
-    </toolTip>
-    <toolTipRepresentation>Button</toolTipRepresentation>
     <extendedTooltip>
-      <name>Группа1РасширеннаяПодсказка1</name>
+      <name>ГруппаНастройкаРежимаУдаленияРасширеннаяПодсказка</name>
       <id>59</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -651,8 +664,8 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
-      <behavior>Collapsible</behavior>
       <controlRepresentation>Picture</controlRepresentation>
+      <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <showTitle>true</showTitle>
@@ -670,6 +683,10 @@
       <items xsi:type="form:FormField">
         <name>ИспользоватьРегламентноеУдаление</name>
         <id>51</id>
+        <title>
+          <key>ru</key>
+          <value>Автоматически удалять помеченные объекты по расписанию</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -684,7 +701,7 @@
           <name>ИспользоватьРегламентноеУдалениеПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ПолеРасширеннаяПодсказка3</name>
+          <name>ИспользоватьРегламентноеУдалениеРасширеннаяПодсказка</name>
           <id>53</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -699,7 +716,7 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>ПолеКонтекстноеМеню3</name>
+          <name>ИспользоватьРегламентноеУдалениеКонтекстноеМеню</name>
           <id>52</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -727,7 +744,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>НастройкиРегламентноеУдалениеПомеченныхРасширеннаяПодсказка</name>
+          <name>УдалениеПомеченныхНастроитьРасписаниеРасширеннаяПодсказка</name>
           <id>55</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -759,7 +776,7 @@
         <value>Настройки регламентного задания</value>
       </title>
       <extendedTooltip>
-        <name>Группа1РасширеннаяПодсказка2</name>
+        <name>ГруппаНастройкаРегламентногоЗаданияРасширеннаяПодсказка</name>
         <id>69</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -839,7 +856,7 @@
       <value>Автоматически удалять помеченные объекты по расписанию</value>
     </title>
     <extendedTooltip>
-      <name>Группа1РасширеннаяПодсказка</name>
+      <name>НастройкаРегламентногоУдаленияРасширеннаяПодсказка</name>
       <id>48</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -856,6 +873,7 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>Vertical</group>
+      <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>
@@ -868,6 +886,10 @@
     <items xsi:type="form:Button">
       <name>ФормаВыбрать</name>
       <id>49</id>
+      <title>
+        <key>ru</key>
+        <value>Применить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -899,6 +921,10 @@
     <items xsi:type="form:Button">
       <name>ФормаДобавитьНастройку</name>
       <id>56</id>
+      <title>
+        <key>ru</key>
+        <value>Добавить настройку...</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -929,6 +955,10 @@
     <items xsi:type="form:Button">
       <name>ФормаДобавитьПолеНастройки</name>
       <id>66</id>
+      <title>
+        <key>ru</key>
+        <value>Добавить выводимый реквизит...</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -956,16 +986,60 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
-    <items xsi:type="form:Button">
-      <name>УдаляемыеОбъекты</name>
-      <id>81</id>
+    <items xsi:type="form:FormGroup">
+      <name>ФормаГруппаУдаляемыеОбъекты</name>
+      <id>83</id>
+      <items xsi:type="form:Button">
+        <name>УдаляемыеОбъекты</name>
+        <id>81</id>
+        <title>
+          <key>ru</key>
+          <value>Заблокированные для использования объекты</value>
+        </title>
+        <visible>true</visible>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>УдаляемыеОбъектыРасширеннаяПодсказка</name>
+          <id>82</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.УдаляемыеОбъекты</commandName>
+        <representation>Picture</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>true</horizontalStretch>
+        <groupHorizontalAlign>Right</groupHorizontalAlign>
+        <placementArea>UserCmds</placementArea>
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.ДлительнаяОперация16</picture>
+        </picture>
+        <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+      </items>
       <visible>true</visible>
+      <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Удаляемые объекты</value>
+      </title>
       <extendedTooltip>
-        <name>УдаляемыеОбъектыРасширеннаяПодсказка</name>
-        <id>82</id>
+        <name>ФормаГруппаУдаляемыеОбъектыРасширеннаяПодсказка</name>
+        <id>84</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -978,18 +1052,45 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Command.УдаляемыеОбъекты</commandName>
-      <representation>Picture</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <horizontalStretch>true</horizontalStretch>
-      <groupHorizontalAlign>Right</groupHorizontalAlign>
-      <placementArea>UserCmds</placementArea>
-      <picture xsi:type="core:PictureRef">
-        <picture>CommonPicture.ДлительнаяОперация16</picture>
-      </picture>
-      <representationInContextMenu>Auto</representationInContextMenu>
-      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+      <extInfo xsi:type="form:ButtonGroupExtInfo"/>
+    </items>
+    <items xsi:type="form:Addition">
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>СтрокаПоиска</name>
+      <id>85</id>
+      <extendedTooltip>
+        <name>СтрокаПоискаРасширеннаяПодсказка</name>
+        <id>87</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СтрокаПоискаКонтекстноеМеню</name>
+        <id>86</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <source>Addition</source>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -1007,6 +1108,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -1222,9 +1324,13 @@
     <name>ДобавитьНастройку</name>
     <title>
       <key>ru</key>
-      <value>Добавить настройку</value>
+      <value>Добавить настройку...</value>
     </title>
     <id>3</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Добавить настройку для выводимых реквизитов</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -1242,9 +1348,13 @@
     <name>ДобавитьПолеНастройки</name>
     <title>
       <key>ru</key>
-      <value>Добавить поле настройки</value>
+      <value>Добавить выводимый реквизит...</value>
     </title>
     <id>4</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Добавить выводимый реквизит</value>
+    </toolTip>
     <use>
       <common>true</common>
     </use>
@@ -1279,6 +1389,13 @@
     </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>АдресНастроек</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

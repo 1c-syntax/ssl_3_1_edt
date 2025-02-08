@@ -47,6 +47,10 @@
     <items xsi:type="form:Button">
       <name>ПодробноеОписаниеСинхронизацииДанных</name>
       <id>6</id>
+      <title>
+        <key>ru</key>
+        <value>Подробное описание</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -496,6 +500,10 @@
       <items xsi:type="form:Button">
         <name>НастроитьПараметрыПодключения</name>
         <id>30</id>
+        <title>
+          <key>ru</key>
+          <value>Настроить параметры подключения</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -825,6 +833,10 @@
       <items xsi:type="form:Button">
         <name>ПолучитьПодтверждениеПодключения</name>
         <id>148</id>
+        <title>
+          <key>ru</key>
+          <value>Получить подтверждение подключения</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -835,7 +847,7 @@
           <id>149</id>
           <title>
             <key>ru</key>
-            <value>Система &quot;%НаименованиеКорреспондента%&quot; должна подтвердить запрос на настройку подключения из этой программы.</value>
+            <value>Система &quot;%1&quot; должна подтвердить запрос на настройку подключения из этой программы.</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1155,6 +1167,10 @@
       <items xsi:type="form:Button">
         <name>НастроитьПравилаОтправкиИПолучения</name>
         <id>51</id>
+        <title>
+          <key>ru</key>
+          <value>Настроить правила отправки и получения данных</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1484,6 +1500,10 @@
       <items xsi:type="form:Button">
         <name>СоздатьНачальныйОбразРИБ</name>
         <id>72</id>
+        <title>
+          <key>ru</key>
+          <value>Создать начальный образ подчиненного узла РИБ</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1814,6 +1834,10 @@
       <items xsi:type="form:Button">
         <name>ВыполнитьСопоставлениеИЗагрузкуДанных</name>
         <id>129</id>
+        <title>
+          <key>ru</key>
+          <value>Выполнить сопоставление и загрузку данных</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -2144,6 +2168,10 @@
       <items xsi:type="form:Button">
         <name>ВыполнитьНачальнуюВыгрузкуДанных</name>
         <id>93</id>
+        <title>
+          <key>ru</key>
+          <value>Выполнить начальную выгрузку данных</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -2275,6 +2303,7 @@
     <event>OnClose</event>
     <name>ПриЗакрытии</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -2417,6 +2446,102 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>Группа</name>
+      <id>2</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Панель</name>
+      <id>4</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СтраницаУспешно</name>
+      <id>5</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СтраницаТекущий</name>
+      <id>6</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СтраницаПустой</name>
+      <id>7</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Основное</name>
+      <id>8</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Используется</name>
+      <id>9</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>УзелОбмена</name>
@@ -2491,17 +2616,6 @@
     <valueType>
       <types>Boolean</types>
     </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ВсеЭтапыНастройки</name>
-    <id>19</id>
-    <valueType/>
     <view>
       <common>true</common>
     </view>
@@ -2706,7 +2820,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.Информация</picture>
+      <picture>StdPicture.Information</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>

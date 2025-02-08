@@ -108,10 +108,14 @@
     <typesFilterValue xsi:type="core:StringValue">
       <value>Справочник_ВнешниеПользователи</value>
     </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
     <characteristicValues>Catalog.ВнешниеПользователи.TabularSection.ДополнительныеРеквизиты</characteristicValues>
     <objectField>Catalog.ВнешниеПользователи.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</objectField>
     <typeField>Catalog.ВнешниеПользователи.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</typeField>
     <valueField>Catalog.ВнешниеПользователи.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
   </characteristics>
   <characteristics>
     <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
@@ -120,10 +124,14 @@
     <typesFilterValue xsi:type="core:StringValue">
       <value>Справочник_ВнешниеПользователи</value>
     </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
     <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
     <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>
     <typeField>InformationRegister.ДополнительныеСведения.Dimension.Свойство</typeField>
     <valueField>InformationRegister.ДополнительныеСведения.Resource.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
   </characteristics>
   <createOnInput>Use</createOnInput>
   <includeHelpInContents>true</includeHelpInContents>
@@ -160,9 +168,9 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Внешний пользователь больше не работает в программе, но сведения о нем сохранены.
+      <value>Внешний пользователь больше не работает в приложении, но сведения о нем сохранены.
 Недействительные внешние пользователи скрываются из всех списков
-при выборе или подборе в документах и других местах программы.</value>
+при выборе или подборе в документах и других местах приложения.</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -292,10 +300,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="3e090261-4aa2-4ece-9f77-62df83c890b3">
-    <name>СвойстваПользователяИБ</name>
+    <name>УдалитьСвойстваПользователяИБ</name>
     <synonym>
       <key>ru</key>
-      <value>Свойства пользователя ИБ</value>
+      <value>(не используется) Свойства пользователя ИБ</value>
     </synonym>
     <type>
       <types>ValueStorage</types>
@@ -431,7 +439,7 @@
     <representation>Picture</representation>
     <toolTip>
       <key>ru</key>
-      <value>Внешний пользователь (для входа в программу)</value>
+      <value>Внешний пользователь (для входа в приложение)</value>
     </toolTip>
     <picture xsi:type="core:PictureRef">
       <picture>CommonPicture.СостояниеПользователя08</picture>

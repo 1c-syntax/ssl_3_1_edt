@@ -71,6 +71,10 @@
       <items xsi:type="form:FormField">
         <name>ШаблоныПредставление</name>
         <id>55</id>
+        <title>
+          <key>ru</key>
+          <value>Представление</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -315,6 +319,10 @@
           <name>ПредпросмотрОбычныйТекст</name>
           <id>71</id>
           <displayImportance>VeryHigh</displayImportance>
+          <title>
+            <key>ru</key>
+            <value>Предпросмотр обычный текст</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -400,6 +408,10 @@
         <items xsi:type="form:FormField">
           <name>ПредпросмотрФорматированныйДокумент</name>
           <id>68</id>
+          <title>
+            <key>ru</key>
+            <value>Предпросмотр форматированный документ</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -792,6 +804,10 @@
           <items xsi:type="form:FormField">
             <name>ФорматВложений</name>
             <id>104</id>
+            <title>
+              <key>ru</key>
+              <value>Формат вложений</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -801,7 +817,7 @@
               <segments>ФорматВложений</segments>
             </dataPath>
             <extendedTooltip>
-              <name>ФорматВложенийExtendedTooltip</name>
+              <name>ФорматВложенийРасширеннаяПодсказка</name>
               <id>106</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -857,7 +873,7 @@
             </dataPath>
             <titleLocation>Right</titleLocation>
             <extendedTooltip>
-              <name>УпаковатьВАрхивExtendedTooltip</name>
+              <name>УпаковатьВАрхивРасширеннаяПодсказка</name>
               <id>109</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -891,6 +907,10 @@
           <items xsi:type="form:FormField">
             <name>ПереводитьИменаФайловВТранслит</name>
             <id>110</id>
+            <title>
+              <key>ru</key>
+              <value>Переводить имена файлов в транслит</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -940,6 +960,10 @@
           <items xsi:type="form:FormField">
             <name>ПодписьИПечать</name>
             <id>115</id>
+            <title>
+              <key>ru</key>
+              <value>Подпись и печать</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -967,6 +991,54 @@
             <contextMenu>
               <name>ПодписьИПечатьКонтекстноеМеню</name>
               <id>116</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>CheckBoxField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>Подписать</name>
+            <id>118</id>
+            <title>
+              <key>ru</key>
+              <value>Подписать</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Подписать</segments>
+            </dataPath>
+            <titleLocation>Right</titleLocation>
+            <extendedTooltip>
+              <name>ПодписатьРасширеннаяПодсказка</name>
+              <id>120</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ПодписатьКонтекстноеМеню</name>
+              <id>119</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1114,6 +1186,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСформировать</name>
       <id>24</id>
+      <title>
+        <key>ru</key>
+        <value>Сформировать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1145,6 +1221,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСформироватьИОтправить</name>
       <id>22</id>
+      <title>
+        <key>ru</key>
+        <value>Сформировать и отправить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1178,6 +1258,10 @@
       <items xsi:type="form:Button">
         <name>ФормаСоздать</name>
         <id>58</id>
+        <title>
+          <key>ru</key>
+          <value>Создать</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1204,7 +1288,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
-        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+        <locationInCommandBar>InCommandBar</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>ФормаСкопировать</name>
@@ -1290,7 +1374,9 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <extInfo xsi:type="form:ButtonGroupExtInfo"/>
+      <extInfo xsi:type="form:ButtonGroupExtInfo">
+        <representation>Compact</representation>
+      </extInfo>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -1314,6 +1400,7 @@
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -1738,6 +1825,40 @@
     <edit>
       <common>true</common>
     </edit>
+  </attributes>
+  <attributes>
+    <name>СформироватьИОтправить</name>
+    <id>22</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>Подписать</name>
+    <title>
+      <key>ru</key>
+      <value>Подписать</value>
+    </title>
+    <id>23</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <functionalOptions>FunctionalOption.ИспользоватьЭлектронныеПодписи</functionalOptions>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>Подписать</segments>
+    </settingsSavedData>
   </attributes>
   <formCommands>
     <name>СформироватьИОтправить</name>

@@ -57,17 +57,15 @@
       <value>Версия</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>36</length>
-      </stringQualifiers>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
   <resources uuid="3c6e831c-c934-46bb-8040-edd6de81ba1b">
     <name>ДатаВерсии</name>

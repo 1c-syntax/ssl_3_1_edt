@@ -10,13 +10,17 @@
     <items xsi:type="form:Button">
       <name>ФормаНазад</name>
       <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>Назад</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаНазадExtendedTooltip</name>
+        <name>ФормаНазадРасширеннаяПодсказка</name>
         <id>10</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -40,13 +44,17 @@
     <items xsi:type="form:Button">
       <name>ФормаВперед</name>
       <id>2</id>
+      <title>
+        <key>ru</key>
+        <value>Вперед</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаВпередExtendedTooltip</name>
+        <name>ФормаВпередРасширеннаяПодсказка</name>
         <id>11</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -73,6 +81,10 @@
       <items xsi:type="form:Button">
         <name>ГлавнаяСтраница</name>
         <id>17</id>
+        <title>
+          <key>ru</key>
+          <value>Главная страница</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -105,8 +117,12 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Без подменю</value>
+      </title>
       <extendedTooltip>
-        <name>БезПодменюExtendedTooltip</name>
+        <name>БезПодменюРасширеннаяПодсказка</name>
         <id>12</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -292,7 +308,7 @@
       <value>Верхняя панель</value>
     </title>
     <extendedTooltip>
-      <name>ВерхняяПанельExtendedTooltip</name>
+      <name>ВерхняяПанельРасширеннаяПодсказка</name>
       <id>9</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -314,6 +330,10 @@
   <items xsi:type="form:FormField">
     <name>ВебСодержимое</name>
     <id>3</id>
+    <title>
+      <key>ru</key>
+      <value>Веб содержимое</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -324,7 +344,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>ВебСодержимоеExtendedTooltip</name>
+      <name>ВебСодержимоеРасширеннаяПодсказка</name>
       <id>13</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -369,6 +389,10 @@
   <items xsi:type="form:FormField">
     <name>ПоказыватьПриНачалеРаботы</name>
     <id>5</id>
+    <title>
+      <key>ru</key>
+      <value>Показывать при начале работы</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -387,7 +411,7 @@
       <name>ПоказыватьПриНачалеРаботыПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>ПоказыватьПриНачалеРаботыExtendedTooltip</name>
+      <name>ПоказыватьПриНачалеРаботыРасширеннаяПодсказка</name>
       <id>14</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -446,6 +470,7 @@
   <excludedCommands>Retry</excludedCommands>
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

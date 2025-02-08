@@ -91,6 +91,21 @@
       <value></value>
     </fillValue>
   </attributes>
+  <attributes uuid="8ef2c1d3-173f-4db8-b2c7-5d5234709b8e">
+    <name>БезОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без ответа</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="8856015c-a695-4b1a-99ef-770263f9dc4a">
     <name>Анкета</name>
     <synonym>

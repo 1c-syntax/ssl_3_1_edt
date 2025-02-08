@@ -3,6 +3,10 @@
   <items xsi:type="form:FormField">
     <name>ТаблицаОтчета</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Таблица отчета</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -13,7 +17,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>ТаблицаОтчетаExtendedTooltip</name>
+      <name>ТаблицаОтчетаРасширеннаяПодсказка</name>
       <id>3</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -75,6 +79,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -252,6 +257,41 @@
       <common>true</common>
     </edit>
   </attributes>
+  <parameters>
+    <name>ВопросШаблонаАнкеты</name>
+    <valueType>
+      <types>CatalogRef.ВопросыШаблонаАнкеты</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>Опрос</name>
+    <valueType>
+      <types>DocumentRef.НазначениеОпросов</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ПолныйКод</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>НаименованиеОпроса</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ДатаОпроса</name>
+    <valueType>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

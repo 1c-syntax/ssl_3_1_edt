@@ -16,7 +16,7 @@
       <name>НаименованиеПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>НаименованиеExtendedTooltip</name>
+      <name>НаименованиеРасширеннаяПодсказка</name>
       <id>15</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -72,7 +72,7 @@
       <segments>Объект.ПомещатьВПапку</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ПомещатьВПапкуExtendedTooltip</name>
+      <name>ПомещатьВПапкуРасширеннаяПодсказка</name>
       <id>16</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -147,7 +147,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>КомпоновщикНастроекНастройкиОтборСвойстваЭлементаПользовательскойНастройкиExtendedTooltip</name>
+          <name>КомпоновщикНастроекНастройкиОтборСвойстваЭлементаПользовательскойНастройкиРасширеннаяПодсказка</name>
           <id>17</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -297,7 +297,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>КомпоновщикНастроекНастройкиОтборExtendedTooltip</name>
+      <name>КомпоновщикНастроекНастройкиОтборРасширеннаяПодсказка</name>
       <id>18</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -366,6 +366,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

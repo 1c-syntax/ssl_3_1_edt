@@ -66,6 +66,10 @@
     <items xsi:type="form:FormField">
       <name>УдостоверяющийЦентр</name>
       <id>59</id>
+      <title>
+        <key>ru</key>
+        <value>Удостоверяющий центр</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -121,6 +125,10 @@
     <items xsi:type="form:FormField">
       <name>ШаблонСертификата</name>
       <id>53</id>
+      <title>
+        <key>ru</key>
+        <value>Шаблон сертификата</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -771,6 +779,60 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormField">
+        <name>ИННЮЛ</name>
+        <id>74</id>
+        <title>
+          <key>ru</key>
+          <value>ИНН ЮЛ</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ИННЮЛ</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ИННЮЛРасширеннаяПодсказка</name>
+          <id>76</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ИННЮЛКонтекстноеМеню</name>
+          <id>75</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
         <name>ИНН</name>
         <id>42</id>
         <title>
@@ -1215,6 +1277,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСоздатьЗапрос</name>
       <id>62</id>
+      <title>
+        <key>ru</key>
+        <value>Создать запрос</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1262,6 +1328,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -1639,6 +1706,26 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ИННЮЛ</name>
+    <title>
+      <key>ru</key>
+      <value>ИНН ЮЛ</value>
+    </title>
+    <id>19</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>СоздатьЗапрос</name>
     <title>
@@ -1662,6 +1749,10 @@
   </formCommands>
   <parameters>
     <name>НастройкиПользователя</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>ПоляЗапроса</name>
     <valueType/>
   </parameters>
   <commandInterface>

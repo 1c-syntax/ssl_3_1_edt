@@ -149,7 +149,7 @@
       <name>ПровайдерSMSПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>ПровайдерSMSExtendedTooltip</name>
+      <name>ПровайдерSMSРасширеннаяПодсказка</name>
       <id>11</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -196,6 +196,10 @@
   <items xsi:type="form:FormField">
     <name>СпособАвторизации</name>
     <id>24</id>
+    <title>
+      <key>ru</key>
+      <value>Способ авторизации</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -388,6 +392,10 @@
   <items xsi:type="form:FormField">
     <name>ИмяОтправителя</name>
     <id>16</id>
+    <title>
+      <key>ru</key>
+      <value>Имя отправителя</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -537,6 +545,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

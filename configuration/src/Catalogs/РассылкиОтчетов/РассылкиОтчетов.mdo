@@ -70,12 +70,13 @@
     <name>Parent</name>
     <synonym>
       <key>ru</key>
-      <value>Группа</value>
+      <value>Входит в группу</value>
     </synonym>
     <toolTip>
       <key>ru</key>
       <value>Родитель рассылки отчетов или группы рассылок отчетов</value>
     </toolTip>
+    <fillFromFillingValue>true</fillFromFillingValue>
     <fillValue xsi:type="core:ReferenceValue">
       <value>Catalog.РассылкиОтчетов.EmptyRef</value>
     </fillValue>
@@ -281,10 +282,10 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillChecking>ShowError</fillChecking>
     <fillValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="ee8af8ee-e49a-4511-9a91-48814ab99d23">
@@ -407,7 +408,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Флажок доставки на FTP ресурс</value>
+      <value>Отчеты будут сохранены на FTP-сервере</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -426,7 +427,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Флажок доставки в папку программы</value>
+      <value>Публиковать отчеты в папку в приложении</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -445,7 +446,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Флажок доставки в сетевой каталог</value>
+      <value>Отчеты будут сохранены в выбранный сетевой каталог</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -464,7 +465,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Флажок доставки по электронной почте</value>
+      <value>Отправлять отчеты по электронной почте (или уведомления о рассылке)</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -504,12 +505,13 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Если флажок установлен, то рассылка отчетов доступна только автору и администратору программы.</value>
+      <value>Рассылка отчетов доступна только автору и администратору приложения</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:BooleanValue"/>
     <indexing>Index</indexing>
+    <use>ForFolderAndItem</use>
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="903af13a-1f73-4145-a3d0-971c3be5fbe6">
@@ -523,7 +525,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Папка программы для доставки отчетов</value>
+      <value>Папка приложения для доставки отчетов</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -829,7 +831,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Учетная запись отправителя</value>
+      <value>Почта отправителя</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -843,10 +845,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="ec44f92a-06bf-4a53-a7ba-fbe9846a68a6">
-    <name>ВключатьДатуВИмяФайла</name>
+    <name>УдалитьВключатьДатуВИмяФайла</name>
     <synonym>
       <key>ru</key>
-      <value>Включать дату в имя файла</value>
+      <value>(не используется) Включать дату в имя файла</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -855,6 +857,69 @@
       <key>ru</key>
       <value>Признак добавления к имени файла отчета даты рассылки</value>
     </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="94819f9d-8a93-4a44-b1db-af0f095c7c1d">
+    <name>ВажностьПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Важность письма</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1eb8721d-bbeb-4cca-9e4f-e8386949c93c">
+    <name>ВставлятьОтчетыВТекстПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вставлять отчеты в текст письма</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0012d153-685c-48ef-9623-8aeff3795aa6">
+    <name>ПрикреплятьОтчетыВоВложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прикреплять отчеты во вложения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8483a18c-ec6f-455c-9568-2019025a25d2">
+    <name>УстановитьПаролиЗашифровать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить пароли и зашифровать</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -932,6 +997,23 @@
         <key>ru</key>
         <value>Пользовательские настройки, с которыми будет сформирован отчет</value>
       </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ab6d8fdd-7788-474d-9645-53008d7fa603">
+      <name>ШаблонНаименования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Шаблон наименования</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
@@ -1145,6 +1227,59 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="9f81693c-4ddd-47ec-b111-d073e1510752">
+    <name>ПаролиШифрование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароли и шифрование</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8a2811be-64c5-44ba-a52c-482c125eb092">
+    <name>SMSРассылкаПаролей</name>
+    <synonym>
+      <key>ru</key>
+      <value>SMS-рассылка паролей</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5245bee4-ebb7-45d1-b40a-2a06900e55b1">
+    <name>ПредварительныйПросмотрПисьма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предварительный просмотр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="cc8cdc82-ee97-4426-b889-95d2286af37c">
+    <name>ПовторнаяРассылкаОтчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Повторная рассылка отчетов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="149104f3-a4c7-47e5-8057-b5bcc754a4f2">
+    <name>ПФ_MXL_ПаролиРассылкиОтчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароли рассылки отчетов</value>
+    </synonym>
+  </templates>
   <commands uuid="86ffe9a7-9b3e-49ab-bd88-20269fec56bc">
     <name>ВыполнитьСейчас</name>
     <synonym>

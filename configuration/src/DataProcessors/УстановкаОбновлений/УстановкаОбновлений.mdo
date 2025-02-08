@@ -95,7 +95,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Имя каталога резервной копии программы</value>
+      <value>Имя каталога резервной копии приложения</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -229,6 +229,7 @@
       <key>ru</key>
       <value>Макет файла обновления конфигурации</value>
     </synonym>
+    <comment>АПК:450 Для читабельности журнала обновления конфигурации.</comment>
     <templateType>TextDocument</templateType>
   </templates>
   <templates uuid="45d79e4d-8c2a-432b-abb8-fb9046abea40">

@@ -12,7 +12,7 @@
     <key>ru</key>
     <value>Тома хранения файлов</value>
   </synonym>
-  <comment>Каталоги на диске для хранения файлов</comment>
+  <comment>Сетевые каталоги для хранения файлов</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ТомаХраненияФайлов.StandardAttribute.Description</inputByString>
   <inputByString>Catalog.ТомаХраненияФайлов.StandardAttribute.Code</inputByString>
@@ -238,6 +238,22 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ec966ef2-b291-4937-a164-5c2b461871f8">
+    <name>ВремяПоследнейОчисткиФайлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время последней очистки файлов</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

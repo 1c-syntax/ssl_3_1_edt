@@ -397,7 +397,7 @@
         <id>10</id>
         <title>
           <key>ru</key>
-          <value>Соглашаясь отправлять информацию об ошибках, Вы даете согласие на сбор отчетов об аварийных завершениях работы программы (полных дампов%ДопИнфо) и их последующую отправку в фирму &quot;1С&quot;. Полученная информация поможет нам повысить качество выпускаемых продуктов. Никакие конфиденциальные данные не будут переданы третьим лицам.</value>
+          <value>Соглашаясь отправлять информацию об ошибках, Вы даете согласие на сбор отчетов об аварийных завершениях работы программы (полных дампов%1) и их последующую отправку в фирму &quot;1С&quot;. Полученная информация поможет нам повысить качество выпускаемых продуктов. Никакие конфиденциальные данные не будут переданы третьим лицам.</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -430,6 +430,10 @@
     <items xsi:type="form:FormField">
       <name>СпрашиватьПередОтправкой</name>
       <id>11</id>
+      <title>
+        <key>ru</key>
+        <value>Спрашивать администратора перед отправкой данных</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -515,6 +519,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписатьИЗакрыть</name>
       <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -546,6 +554,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписать</name>
       <id>3</id>
+      <title>
+        <key>ru</key>
+        <value>Записать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -576,6 +588,10 @@
     <items xsi:type="form:Button">
       <name>ФормаПолучитьИдентификатор</name>
       <id>14</id>
+      <title>
+        <key>ru</key>
+        <value>Получить идентификатор</value>
+      </title>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -623,6 +639,7 @@
   </handlers>
   <width>70</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -827,6 +844,19 @@
     </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>ИдентификаторЗадания</name>
+    <valueType>
+      <types>UUID</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>АдресРезультатаЗадания</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

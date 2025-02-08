@@ -17,11 +17,15 @@
     </dataPath>
     <titleLocation>Top</titleLocation>
     <items xsi:type="form:FormGroup">
-      <name>ПравилаПоискаГруппа1</name>
+      <name>ПравилаПоискаГруппаОсновное</name>
       <id>46</id>
       <items xsi:type="form:FormField">
         <name>ПравилаПоискаИспользовать</name>
         <id>30</id>
+        <title>
+          <key>ru</key>
+          <value>Использовать</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -70,6 +74,10 @@
       <items xsi:type="form:FormField">
         <name>ПравилаПоискаПредставлениеРеквизита</name>
         <id>24</id>
+        <title>
+          <key>ru</key>
+          <value>Поле</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -124,10 +132,10 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Правила поиска группа 1</value>
+        <value>Основное</value>
       </title>
       <extendedTooltip>
-        <name>ПравилаПоискаГруппа1РасширеннаяПодсказка</name>
+        <name>ПравилаПоискаГруппаОсновноеРасширеннаяПодсказка</name>
         <id>47</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -150,6 +158,10 @@
     <items xsi:type="form:FormField">
       <name>ПравилаПоискаВидСравнения</name>
       <id>27</id>
+      <title>
+        <key>ru</key>
+        <value>Правило</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -389,11 +401,16 @@
     <verticalStretch>true</verticalStretch>
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
+    <searchStringLocation>Top</searchStringLocation>
     <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <items xsi:type="form:FormField">
     <name>СкрыватьНезначимыеДубли</name>
     <id>48</id>
+    <title>
+      <key>ru</key>
+      <value>Скрывать дубли, помеченные на удаление и без мест использования</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -441,6 +458,10 @@
     <items xsi:type="form:FormField">
       <name>УчитыватьПрикладныеПравила</name>
       <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>Учитывать ограничения:</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -489,6 +510,10 @@
     <items xsi:type="form:FormField">
       <name>ОписаниеПрикладныхПравил</name>
       <id>7</id>
+      <title>
+        <key>ru</key>
+        <value>С учетом ограничений</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -586,6 +611,10 @@
       <items xsi:type="form:Button">
         <name>ЗавершитьРедактирование</name>
         <id>12</id>
+        <title>
+          <key>ru</key>
+          <value>ОК</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -747,6 +776,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -991,6 +1021,27 @@
     </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>ОбластьПоискаДублей</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ПредставлениеОбластиОтбора</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>АдресНастроек</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

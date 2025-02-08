@@ -84,6 +84,10 @@
       <items xsi:type="form:Button">
         <name>ОткрытьВерсию</name>
         <id>19</id>
+        <title>
+          <key>ru</key>
+          <value>Открыть версию</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -116,6 +120,10 @@
       <items xsi:type="form:Button">
         <name>Сравнить</name>
         <id>9</id>
+        <title>
+          <key>ru</key>
+          <value>Сравнить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -147,13 +155,17 @@
       <items xsi:type="form:Button">
         <name>ПерейтиНаВерсию</name>
         <id>34</id>
+        <title>
+          <key>ru</key>
+          <value>Перейти на версию</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ПерейтиНаВерсиюExtendedTooltip</name>
+          <name>ПерейтиНаВерсиюРасширеннаяПодсказка</name>
           <id>41</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -203,6 +215,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОбновить</name>
       <id>117</id>
+      <title>
+        <key>ru</key>
+        <value>Обновить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -230,6 +246,48 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
       <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+    </items>
+    <items xsi:type="form:Addition">
+      <title>
+        <key>ru</key>
+        <value>Поиск</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>СтрокаПоиска</name>
+      <id>121</id>
+      <extendedTooltip>
+        <name>СтрокаПоискаРасширеннаяПодсказка</name>
+        <id>123</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СтрокаПоискаКонтекстноеМеню</name>
+        <id>122</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <source>ДеревоВерсийСтрокаПоиска</source>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -300,6 +358,10 @@
         <items xsi:type="form:FormField">
           <name>ДеревоВерсийПредставлениеНомераВерсии</name>
           <id>105</id>
+          <title>
+            <key>ru</key>
+            <value>№</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -353,6 +415,10 @@
         <items xsi:type="form:FormField">
           <name>ДеревоВерсийАвторВерсии</name>
           <id>90</id>
+          <title>
+            <key>ru</key>
+            <value>Автор изменений</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -404,6 +470,10 @@
         <items xsi:type="form:FormField">
           <name>ДеревоВерсийДатаВерсии</name>
           <id>93</id>
+          <title>
+            <key>ru</key>
+            <value>Дата</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -511,6 +581,10 @@
         <items xsi:type="form:FormField">
           <name>ДеревоВерсийКомментарий</name>
           <id>96</id>
+          <title>
+            <key>ru</key>
+            <value>Комментарий</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -720,6 +794,10 @@
           <items xsi:type="form:Button">
             <name>ДеревоВерсийКонтекстноеМенюОткрытьВерсию</name>
             <id>108</id>
+            <title>
+              <key>ru</key>
+              <value>Открыть версию</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -750,6 +828,10 @@
           <items xsi:type="form:Button">
             <name>ДеревоВерсийКонтекстноеМенюСравнитьВерсии</name>
             <id>112</id>
+            <title>
+              <key>ru</key>
+              <value>Сравнить</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -780,6 +862,10 @@
           <items xsi:type="form:Button">
             <name>ДеревоВерсийКонтекстноеМенюПерейтиНаВерсию</name>
             <id>110</id>
+            <title>
+              <key>ru</key>
+              <value>Перейти на версию</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -844,7 +930,7 @@
         <value>Выбор версий для сравнения</value>
       </title>
       <extendedTooltip>
-        <name>ВыборВерсийДляСравненияExtendedTooltip</name>
+        <name>ВыборВерсийДляСравненияРасширеннаяПодсказка</name>
         <id>45</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -879,7 +965,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>КартинкаExtendedTooltip</name>
+          <name>КартинкаРасширеннаяПодсказка</name>
           <id>55</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -907,7 +993,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <extInfo xsi:type="form:PictureDecorationExtInfo">
           <picture xsi:type="core:PictureRef">
-            <picture>CommonPicture.Информация32</picture>
+            <picture>StdPicture.DialogInformation</picture>
           </picture>
         </extInfo>
       </items>
@@ -924,7 +1010,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>НетВерсийExtendedTooltip</name>
+          <name>НетВерсийРасширеннаяПодсказка</name>
           <id>56</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -965,7 +1051,7 @@
         <value>Версии для сравнения отсутствуют</value>
       </title>
       <extendedTooltip>
-        <name>ВерсииДляСравненияОтсутствуютExtendedTooltip</name>
+        <name>ВерсииДляСравненияОтсутствуютРасширеннаяПодсказка</name>
         <id>54</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -994,7 +1080,7 @@
       <value>Основная страница</value>
     </title>
     <extendedTooltip>
-      <name>ОсновнаяСтраницаExtendedTooltip</name>
+      <name>ОсновнаяСтраницаРасширеннаяПодсказка</name>
       <id>44</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1089,6 +1175,7 @@
   <excludedCommands>Retry</excludedCommands>
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

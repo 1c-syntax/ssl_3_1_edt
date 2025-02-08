@@ -50,7 +50,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Вопрос32</picture>
+          <picture>StdPicture.DialogQuestion</picture>
         </picture>
       </extInfo>
     </items>
@@ -69,7 +69,7 @@
             <title>
               <key>ru</key>
               <value>Будет разрешен доступ к %1 &quot;%2&quot; с помощью автоматического REST-сервиса.
-Для того, чтобы сторонняя программа смогла работать с этим объектом через автоматический REST-сервис требуется дополнительно разрешить доступ через автоматический REST-сервис к следующим объектам:</value>
+Для того чтобы сторонние приложения смогли работать с ним через автоматический REST-сервис, требуется дополнительно разрешить доступ к зависимым объектам.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -102,6 +102,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>Label</type>
+            <maxWidth>80</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
               <horizontalAlign>Left</horizontalAlign>
@@ -146,7 +147,7 @@
             <title>
               <key>ru</key>
               <value>Вы решили запретить доступ к %1 &quot;%2&quot; с помощью автоматического REST-сервиса.
-Этот объект обязательно должен быть разрешен для использования с помощью стандартного REST-сервиса для того, чтобы через автоматический REST-сервис сторонние программы могли взаимодействовать со следующими объектами:</value>
+Однако этот объект должен быть разрешен для того, чтобы сторонние приложения могли взаимодействовать с зависимыми объектами.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -179,6 +180,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>Label</type>
+            <maxWidth>80</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
               <horizontalAlign>Left</horizontalAlign>
@@ -244,6 +246,191 @@
           <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаСтраницыПодвал</name>
+        <id>70</id>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаСтраницаПодвалДобавление</name>
+          <id>72</id>
+          <items xsi:type="form:Decoration">
+            <name>ДекорацияТекстВопросаДобавление</name>
+            <id>48</id>
+            <title>
+              <key>ru</key>
+              <value>Разрешить доступ к зависимым объектам через автоматический REST-сервис?</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ДекорацияТекстВопросаДобавлениеРасширеннаяПодсказка</name>
+              <id>50</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДекорацияТекстВопросаДобавлениеКонтекстноеМеню</name>
+              <id>49</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>Label</type>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Страница подвал добавление</value>
+          </title>
+          <extendedTooltip>
+            <name>ГруппаСтраницаПодвалДобавлениеРасширеннаяПодсказка</name>
+            <id>73</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Page</type>
+          <extInfo xsi:type="form:PageGroupExtInfo">
+            <group>Vertical</group>
+            <showTitle>true</showTitle>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаСтраницаПодвалУдаление</name>
+          <id>74</id>
+          <items xsi:type="form:Decoration">
+            <name>ДекорацияТекстВопросаУдаление</name>
+            <id>76</id>
+            <title>
+              <key>ru</key>
+              <value>Запретить доступ к зависимым объектам через автоматический REST-сервис?</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ДекорацияТекстВопросаУдалениеРасширеннаяПодсказка</name>
+              <id>78</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДекорацияТекстВопросаУдалениеКонтекстноеМеню</name>
+              <id>77</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>Label</type>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Страница подвал удаление</value>
+          </title>
+          <extendedTooltip>
+            <name>ГруппаСтраницаПодвалУдалениеРасширеннаяПодсказка</name>
+            <id>75</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Page</type>
+          <extInfo xsi:type="form:PageGroupExtInfo">
+            <group>Vertical</group>
+            <showTitle>true</showTitle>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Страницы подвал</value>
+        </title>
+        <horizontalStretch>true</horizontalStretch>
+        <extendedTooltip>
+          <name>ГруппаСтраницыПодвалРасширеннаяПодсказка</name>
+          <id>71</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>Pages</type>
+        <extInfo xsi:type="form:PagesGroupExtInfo">
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
       <items xsi:type="form:Table">
         <name>ОбъектыМетаданных</name>
         <id>11</id>
@@ -268,7 +455,7 @@
             <id>36</id>
             <title>
               <key>ru</key>
-              <value>Объект</value>
+              <value>Зависимый объект</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -309,6 +496,7 @@
             <headerHorizontalAlign>Left</headerHorizontalAlign>
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:ImageFieldExtInfo">
+              <width>4</width>
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <horizontalStretch>true</horizontalStretch>
@@ -318,6 +506,10 @@
           <items xsi:type="form:FormField">
             <name>ОбъектыМетаданныхПредставление</name>
             <id>33</id>
+            <title>
+              <key>ru</key>
+              <value>Зависимый объект</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -542,6 +734,36 @@
         <contextMenu>
           <name>ОбъектыМетаданныхКонтекстноеМеню</name>
           <id>12</id>
+          <items xsi:type="form:Button">
+            <name>ОбъектыМетаданныхКонтекстноеМенюВывестиСписок</name>
+            <id>79</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ОбъектыМетаданныхКонтекстноеМенюВывестиСписокРасширеннаяПодсказка</name>
+              <id>80</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Item.ОбъектыМетаданных.StandardCommand.OutputList</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -559,8 +781,6 @@
         <footerHeight>1</footerHeight>
         <horizontalScrollBar>AutoUse</horizontalScrollBar>
         <verticalScrollBar>AutoUse</verticalScrollBar>
-        <horizontalLines>true</horizontalLines>
-        <verticalLines>true</verticalLines>
         <autoInsertNewRow>true</autoInsertNewRow>
         <searchOnInput>Auto</searchOnInput>
         <initialTreeView>ExpandAllLevels</initialTreeView>
@@ -568,191 +788,6 @@
         <verticalStretch>true</verticalStretch>
         <enableStartDrag>true</enableStartDrag>
         <enableDrag>true</enableDrag>
-      </items>
-      <items xsi:type="form:FormGroup">
-        <name>ГруппаСтраницыПодвал</name>
-        <id>70</id>
-        <items xsi:type="form:FormGroup">
-          <name>ГруппаСтраницаПодвалДобавление</name>
-          <id>72</id>
-          <items xsi:type="form:Decoration">
-            <name>ДекорацияТекстВопросаДобавление</name>
-            <id>48</id>
-            <title>
-              <key>ru</key>
-              <value>Разрешить доступ и к этим объектам через автоматический REST-сервис?</value>
-            </title>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>ДекорацияТекстВопросаДобавлениеРасширеннаяПодсказка</name>
-              <id>50</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>ДекорацияТекстВопросаДобавлениеКонтекстноеМеню</name>
-              <id>49</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>Label</type>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </items>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <title>
-            <key>ru</key>
-            <value>Страница подвал добавление</value>
-          </title>
-          <extendedTooltip>
-            <name>ГруппаСтраницаПодвалДобавлениеРасширеннаяПодсказка</name>
-            <id>73</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <type>Page</type>
-          <extInfo xsi:type="form:PageGroupExtInfo">
-            <group>Vertical</group>
-            <showTitle>true</showTitle>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormGroup">
-          <name>ГруппаСтраницаПодвалУдаление</name>
-          <id>74</id>
-          <items xsi:type="form:Decoration">
-            <name>ДекорацияТекстВопросаУдаление</name>
-            <id>76</id>
-            <title>
-              <key>ru</key>
-              <value>Запретить доступ к этим объектам через автоматический REST-сервис?</value>
-            </title>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>ДекорацияТекстВопросаУдалениеРасширеннаяПодсказка</name>
-              <id>78</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>ДекорацияТекстВопросаУдалениеКонтекстноеМеню</name>
-              <id>77</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>Label</type>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </items>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <title>
-            <key>ru</key>
-            <value>Страница подвал удаление</value>
-          </title>
-          <extendedTooltip>
-            <name>ГруппаСтраницаПодвалУдалениеРасширеннаяПодсказка</name>
-            <id>75</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <type>Page</type>
-          <extInfo xsi:type="form:PageGroupExtInfo">
-            <group>Vertical</group>
-            <showTitle>true</showTitle>
-          </extInfo>
-        </items>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <title>
-          <key>ru</key>
-          <value>Страницы подвал</value>
-        </title>
-        <horizontalStretch>true</horizontalStretch>
-        <extendedTooltip>
-          <name>ГруппаСтраницыПодвалРасширеннаяПодсказка</name>
-          <id>71</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <type>Pages</type>
-        <extInfo xsi:type="form:PagesGroupExtInfo">
-          <currentRowUse>Auto</currentRowUse>
-        </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
         <name>Кнопки</name>
@@ -782,6 +817,7 @@
           </extendedTooltip>
           <commandName>Form.StandardCommand.Yes</commandName>
           <representation>Auto</representation>
+          <defaultButton>true</defaultButton>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
@@ -926,6 +962,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -968,7 +1005,7 @@
       <name>Представление</name>
       <title>
         <key>ru</key>
-        <value>Представление</value>
+        <value>Зависимый объект</value>
       </title>
       <id>2</id>
       <valueType>

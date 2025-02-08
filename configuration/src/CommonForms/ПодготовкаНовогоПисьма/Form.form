@@ -30,6 +30,10 @@
     <items xsi:type="form:FormField">
       <name>ПолучателиВыбран</name>
       <id>52</id>
+      <title>
+        <key>ru</key>
+        <value>Выбран</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -40,7 +44,7 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>ПолучателиВыбранExtendedTooltip</name>
+        <name>ПолучателиВыбранРасширеннаяПодсказка</name>
         <id>74</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -83,6 +87,10 @@
         <items xsi:type="form:FormField">
           <name>ПолучателиПредставление</name>
           <id>48</id>
+          <title>
+            <key>ru</key>
+            <value>Получатель</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -92,7 +100,7 @@
             <segments>Получатели.Представление</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ПолучателиПредставлениеExtendedTooltip</name>
+            <name>ПолучателиПредставлениеРасширеннаяПодсказка</name>
             <id>77</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -133,6 +141,10 @@
         <items xsi:type="form:FormField">
           <name>ПолучателиПредставлениеАдреса</name>
           <id>56</id>
+          <title>
+            <key>ru</key>
+            <value>E-mail</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -142,7 +154,7 @@
             <segments>Получатели.ПредставлениеАдреса</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ПолучателиПредставлениеАдресаExtendedTooltip</name>
+            <name>ПолучателиПредставлениеАдресаРасширеннаяПодсказка</name>
             <id>78</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -190,7 +202,7 @@
           <value>Получатели группа представление</value>
         </title>
         <extendedTooltip>
-          <name>ПолучателиГруппаПредставлениеExtendedTooltip</name>
+          <name>ПолучателиГруппаПредставлениеРасширеннаяПодсказка</name>
           <id>76</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -215,6 +227,10 @@
         <items xsi:type="form:FormField">
           <name>ПолучателиПояснение</name>
           <id>58</id>
+          <title>
+            <key>ru</key>
+            <value>Пояснение</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -224,7 +240,7 @@
             <segments>Получатели.Пояснение</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ПолучателиПояснениеExtendedTooltip</name>
+            <name>ПолучателиПояснениеРасширеннаяПодсказка</name>
             <id>80</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -276,7 +292,7 @@
           <value>Получатели группа пояснение</value>
         </title>
         <extendedTooltip>
-          <name>ПолучателиГруппаПояснениеExtendedTooltip</name>
+          <name>ПолучателиГруппаПояснениеРасширеннаяПодсказка</name>
           <id>79</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -306,7 +322,7 @@
         <value>Получатели группа</value>
       </title>
       <extendedTooltip>
-        <name>ПолучателиГруппаExtendedTooltip</name>
+        <name>ПолучателиГруппаРасширеннаяПодсказка</name>
         <id>75</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -457,7 +473,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ПолучателиExtendedTooltip</name>
+      <name>ПолучателиРасширеннаяПодсказка</name>
       <id>73</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -480,13 +496,17 @@
         <items xsi:type="form:Button">
           <name>ПолучателиКонтекстноеМенюВыбратьВсех</name>
           <id>63</id>
+          <title>
+            <key>ru</key>
+            <value>Выбрать всех получателей</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ПолучателиКонтекстноеМенюВыбратьВсехExtendedTooltip</name>
+            <name>ПолучателиКонтекстноеМенюВыбратьВсехРасширеннаяПодсказка</name>
             <id>70</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -510,13 +530,17 @@
         <items xsi:type="form:Button">
           <name>ПолучателиКонтекстноеМенюОтменитьВыборДляВсех</name>
           <id>64</id>
+          <title>
+            <key>ru</key>
+            <value>Отменить выбор для всех</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ПолучателиКонтекстноеМенюОтменитьВыборДляВсехExtendedTooltip</name>
+            <name>ПолучателиКонтекстноеМенюОтменитьВыборДляВсехРасширеннаяПодсказка</name>
             <id>71</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -542,8 +566,12 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Получатели контекстное меню группа управление выбором</value>
+        </title>
         <extendedTooltip>
-          <name>ПолучателиКонтекстноеМенюГруппаУправлениеВыборомExtendedTooltip</name>
+          <name>ПолучателиКонтекстноеМенюГруппаУправлениеВыборомРасширеннаяПодсказка</name>
           <id>69</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -568,7 +596,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ПолучателиКонтекстноеМенюВывестиСписокExtendedTooltip</name>
+          <name>ПолучателиКонтекстноеМенюВывестиСписокРасширеннаяПодсказка</name>
           <id>72</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -599,6 +627,7 @@
     <autoMaxWidth>true</autoMaxWidth>
     <height>10</height>
     <autoMaxHeight>true</autoMaxHeight>
+    <heightControlVariant>InFormRows</heightControlVariant>
     <autoMaxRowsCount>true</autoMaxRowsCount>
     <selectionMode>MultiRow</selectionMode>
     <rowSelectionMode>Row</rowSelectionMode>
@@ -616,6 +645,7 @@
     <verticalStretch>true</verticalStretch>
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
+    <searchStringLocation>Top</searchStringLocation>
     <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <items xsi:type="form:FormGroup">
@@ -664,7 +694,7 @@
           <segments>ВыбранныеФорматыСохранения.Check</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ВыбранныеФорматыСохраненияПометкаExtendedTooltip</name>
+          <name>ВыбранныеФорматыСохраненияПометкаРасширеннаяПодсказка</name>
           <id>83</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -711,7 +741,7 @@
           <segments>ВыбранныеФорматыСохранения.Value</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ВыбранныеФорматыСохраненияЗначениеExtendedTooltip</name>
+          <name>ВыбранныеФорматыСохраненияЗначениеРасширеннаяПодсказка</name>
           <id>84</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -876,7 +906,7 @@
         </extInfo>
       </searchControlAddition>
       <extendedTooltip>
-        <name>ВыбранныеФорматыСохраненияExtendedTooltip</name>
+        <name>ВыбранныеФорматыСохраненияРасширеннаяПодсказка</name>
         <id>82</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -927,7 +957,7 @@
       <value>Прикрепить печатную форму к письму в формате</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаВыборФорматовExtendedTooltip</name>
+      <name>ГруппаВыборФорматовРасширеннаяПодсказка</name>
       <id>81</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -958,6 +988,10 @@
     <items xsi:type="form:FormField">
       <name>ФорматВложений</name>
       <id>54</id>
+      <title>
+        <key>ru</key>
+        <value>Формат вложений</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -967,7 +1001,7 @@
         <segments>ФорматВложений</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ФорматВложенийExtendedTooltip</name>
+        <name>ФорматВложенийРасширеннаяПодсказка</name>
         <id>86</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1023,7 +1057,7 @@
       </dataPath>
       <titleLocation>Right</titleLocation>
       <extendedTooltip>
-        <name>УпаковатьВАрхивExtendedTooltip</name>
+        <name>УпаковатьВАрхивРасширеннаяПодсказка</name>
         <id>87</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1057,6 +1091,10 @@
     <items xsi:type="form:FormField">
       <name>ПереводитьИменаФайловВТранслит</name>
       <id>106</id>
+      <title>
+        <key>ru</key>
+        <value>Транслитерировать имена файлов</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1103,6 +1141,54 @@
       <showInFooter>true</showInFooter>
       <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
     </items>
+    <items xsi:type="form:FormField">
+      <name>Подписать</name>
+      <id>109</id>
+      <title>
+        <key>ru</key>
+        <value>Подписать</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Подписать</segments>
+      </dataPath>
+      <titleLocation>Right</titleLocation>
+      <extendedTooltip>
+        <name>ПодписатьРасширеннаяПодсказка</name>
+        <id>111</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПодписатьКонтекстноеМеню</name>
+        <id>110</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -1113,7 +1199,7 @@
       <value>Дополнительные параметры</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаДополнительныеПараметрыExtendedTooltip</name>
+      <name>ГруппаДополнительныеПараметрыРасширеннаяПодсказка</name>
       <id>85</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1144,6 +1230,10 @@
     <items xsi:type="form:Button">
       <name>КнопкаПодготовить</name>
       <id>29</id>
+      <title>
+        <key>ru</key>
+        <value>Подготовить...</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1151,7 +1241,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>КнопкаПодготовитьExtendedTooltip</name>
+        <name>КнопкаПодготовитьРасширеннаяПодсказка</name>
         <id>67</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1182,7 +1272,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>КнопкаОтменаExtendedTooltip</name>
+        <name>КнопкаОтменаРасширеннаяПодсказка</name>
         <id>68</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1212,10 +1302,6 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
-    <event>ChoiceProcessing</event>
-    <name>ОбработкаВыбора</name>
-  </handlers>
-  <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
   </handlers>
@@ -1241,6 +1327,7 @@
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveDataInSettings>UseList</saveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -1459,6 +1546,27 @@
       <segments>ПереводитьИменаФайловВТранслит</segments>
     </settingsSavedData>
   </attributes>
+  <attributes>
+    <name>Подписать</name>
+    <title>
+      <key>ru</key>
+      <value>Подписать</value>
+    </title>
+    <id>8</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <functionalOptions>FunctionalOption.ИспользоватьЭлектронныеПодписи</functionalOptions>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>Подписать</segments>
+    </settingsSavedData>
+  </attributes>
   <formCommands>
     <name>Подготовить</name>
     <title>
@@ -1531,6 +1639,19 @@
   <parameters>
     <name>Получатели</name>
     <valueType/>
+  </parameters>
+  <parameters>
+    <name>ОграничениеФорматовСохранения</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ПропуститьВыборФорматаВложений</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
   </parameters>
   <commandInterface>
     <navigationPanel/>

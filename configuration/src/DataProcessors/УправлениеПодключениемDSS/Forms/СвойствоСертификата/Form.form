@@ -53,6 +53,10 @@
       <items xsi:type="form:FormField">
         <name>КомуВыдан</name>
         <id>20</id>
+        <title>
+          <key>ru</key>
+          <value>Кому выдан</value>
+        </title>
         <titleFont xsi:type="core:FontRef">
           <font>Style.ВыделенныйЗаголовокПодтвержденияШрифт</font>
         </titleFont>
@@ -112,6 +116,10 @@
         <items xsi:type="form:FormField">
           <name>КемВыдан</name>
           <id>23</id>
+          <title>
+            <key>ru</key>
+            <value>Кем выдан</value>
+          </title>
           <titleFont xsi:type="core:FontRef">
             <font>Style.ВыделенныйЗаголовокПодтвержденияШрифт</font>
           </titleFont>
@@ -171,6 +179,10 @@
           <items xsi:type="form:FormField">
             <name>ДействителенС</name>
             <id>102</id>
+            <title>
+              <key>ru</key>
+              <value>Действителен с</value>
+            </title>
             <titleFont xsi:type="core:FontRef">
               <font>Style.ВыделенныйЗаголовокПодтвержденияШрифт</font>
             </titleFont>
@@ -322,6 +334,10 @@
         <items xsi:type="form:FormField">
           <name>Отпечаток</name>
           <id>93</id>
+          <title>
+            <key>ru</key>
+            <value>Отпечаток</value>
+          </title>
           <titleFont xsi:type="core:FontRef">
             <font>Style.ВыделенныйЗаголовокПодтвержденияШрифт</font>
           </titleFont>
@@ -545,6 +561,10 @@
         <items xsi:type="form:Button">
           <name>СменитьПинКод</name>
           <id>79</id>
+          <title>
+            <key>ru</key>
+            <value>Изменить</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -659,6 +679,10 @@
         <items xsi:type="form:FormField">
           <name>ТаблицаСоставаПредставление</name>
           <id>60</id>
+          <title>
+            <key>ru</key>
+            <value>Поле</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -710,6 +734,10 @@
         <items xsi:type="form:FormField">
           <name>ТаблицаСоставаЗначение</name>
           <id>63</id>
+          <title>
+            <key>ru</key>
+            <value>Значение</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1116,6 +1144,10 @@
     <items xsi:type="form:Button">
       <name>Проверить</name>
       <id>73</id>
+      <title>
+        <key>ru</key>
+        <value>Проверить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1146,6 +1178,10 @@
     <items xsi:type="form:Button">
       <name>Скопировать</name>
       <id>75</id>
+      <title>
+        <key>ru</key>
+        <value>Выгрузить в файл</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1189,6 +1225,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

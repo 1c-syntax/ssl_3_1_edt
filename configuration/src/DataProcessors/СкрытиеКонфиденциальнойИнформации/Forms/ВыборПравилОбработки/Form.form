@@ -10,6 +10,10 @@
     <items xsi:type="form:FormField">
       <name>ПравилоСтрока</name>
       <id>5</id>
+      <title>
+        <key>ru</key>
+        <value>Правило строка</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -145,6 +149,10 @@
     <items xsi:type="form:FormField">
       <name>ПравилоЧисло</name>
       <id>14</id>
+      <title>
+        <key>ru</key>
+        <value>Правило число</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -264,6 +272,10 @@
     <items xsi:type="form:FormField">
       <name>ЗначениеЧисла</name>
       <id>17</id>
+      <title>
+        <key>ru</key>
+        <value>Значение числа</value>
+      </title>
       <visible>true</visible>
       <userVisible>
         <common>true</common>
@@ -352,6 +364,10 @@
     <items xsi:type="form:FormField">
       <name>ПравилоБулево</name>
       <id>22</id>
+      <title>
+        <key>ru</key>
+        <value>Правило булево</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -461,6 +477,10 @@
     <items xsi:type="form:FormField">
       <name>ПравилоДата</name>
       <id>32</id>
+      <title>
+        <key>ru</key>
+        <value>Правило дата</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -554,6 +574,10 @@
     <items xsi:type="form:FormField">
       <name>ЗначениеДата</name>
       <id>35</id>
+      <title>
+        <key>ru</key>
+        <value>Значение дата</value>
+      </title>
       <visible>true</visible>
       <userVisible>
         <common>true</common>
@@ -642,6 +666,10 @@
     <items xsi:type="form:FormField">
       <name>ПравилоХранилищеЗначений</name>
       <id>27</id>
+      <title>
+        <key>ru</key>
+        <value>Правило хранилище значений</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -751,6 +779,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОК</name>
       <id>8</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -782,6 +814,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОтмена</name>
       <id>10</id>
+      <title>
+        <key>ru</key>
+        <value>Отмена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -821,6 +857,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

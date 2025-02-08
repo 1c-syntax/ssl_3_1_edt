@@ -31,7 +31,7 @@
         <name>ФильтрПоЦветуПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ФильтрПоЦветуExtendedTooltip</name>
+        <name>ФильтрПоЦветуРасширеннаяПодсказка</name>
         <id>35</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -131,7 +131,7 @@
         <name>ФильтрПоПредметуПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ФильтрПоПредметуExtendedTooltip</name>
+        <name>ФильтрПоПредметуРасширеннаяПодсказка</name>
         <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -175,6 +175,10 @@
     <items xsi:type="form:FormField">
       <name>ПоказыватьУдаленные</name>
       <id>31</id>
+      <title>
+        <key>ru</key>
+        <value>Показывать удаленные</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -193,7 +197,7 @@
         <name>ПоказыватьУдаленныеПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ПоказыватьУдаленныеExtendedTooltip</name>
+        <name>ПоказыватьУдаленныеРасширеннаяПодсказка</name>
         <id>37</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -234,7 +238,7 @@
       <value>Фильтры</value>
     </title>
     <extendedTooltip>
-      <name>ФильтрыExtendedTooltip</name>
+      <name>ФильтрыРасширеннаяПодсказка</name>
       <id>34</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -296,6 +300,41 @@
   <items xsi:type="form:FormGroup">
     <name>КоманднаяПанель</name>
     <id>33</id>
+    <items xsi:type="form:FormGroup">
+      <name>ПодменюОрганайзер</name>
+      <id>57</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Органайзер</value>
+      </title>
+      <extendedTooltip>
+        <name>ПодменюОрганайзерРасширеннаяПодсказка</name>
+        <id>58</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Popup</type>
+      <extInfo xsi:type="form:PopupGroupExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.Органайзер</picture>
+        </picture>
+        <representation>Picture</representation>
+      </extInfo>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -306,7 +345,7 @@
       <value>Командная панель</value>
     </title>
     <extendedTooltip>
-      <name>КоманднаяПанельExtendedTooltip</name>
+      <name>КоманднаяПанельРасширеннаяПодсказка</name>
       <id>38</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -359,7 +398,7 @@
         <segments>Список.Description</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТемаExtendedTooltip</name>
+        <name>ТемаРасширеннаяПодсказка</name>
         <id>40</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -407,7 +446,7 @@
         <segments>Список.ПредставлениеПредмета</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПредметExtendedTooltip</name>
+        <name>ПредметРасширеннаяПодсказка</name>
         <id>41</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -454,7 +493,7 @@
         <segments>Список.ДатаИзменения</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДатаИзмененияExtendedTooltip</name>
+        <name>ДатаИзмененияРасширеннаяПодсказка</name>
         <id>42</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -547,6 +586,10 @@
       </userVisible>
       <horizontalAlign>Left</horizontalAlign>
     </autoCommandBar>
+    <handlers>
+      <event>OnActivateRow</event>
+      <name>СписокПриАктивизацииСтроки</name>
+    </handlers>
     <searchStringAddition>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -664,7 +707,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>39</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -723,6 +766,7 @@
         <endDate>0001-01-01T00:00:00</endDate>
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
       <userSettingsGroup>ГруппаПользовательскихНастроек</userSettingsGroup>
     </extInfo>
   </items>
@@ -749,6 +793,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

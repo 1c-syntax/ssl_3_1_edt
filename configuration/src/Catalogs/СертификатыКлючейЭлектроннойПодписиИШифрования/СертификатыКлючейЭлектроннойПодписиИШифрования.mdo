@@ -409,15 +409,15 @@
     <name>Программа</name>
     <synonym>
       <key>ru</key>
-      <value>Программа</value>
+      <value>Приложение</value>
     </synonym>
     <type>
       <types>DefinedType.ПрограммаЭлектроннойПодписи</types>
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Программа, требуемая для подписания и расшифровки документов
-(с помощью секретного ключа по которому выпущен этот сертификат).</value>
+      <value>Приложение для подписания и расшифровки документов
+(с помощью секретного ключа, по которому выпущен этот сертификат).</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -444,20 +444,20 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="57aed64d-da61-4c18-af21-dab3afdc5c03">
-    <name>УсиленнаяЗащитаЗакрытогоКлюча</name>
+    <name>ВводитьПарольВПрограммеЭлектроннойПодписи</name>
     <synonym>
       <key>ru</key>
-      <value>Усиленная защита закрытого ключа</value>
+      <value>Вводить пароль в приложении электронной подписи</value>
     </synonym>
     <type>
       <types>Boolean</types>
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Передавать пустой пароль к закрытому ключу сертификата из 1С:Предприятия,
-так как он будет вводиться в отдельном окне программой электронной подписи и шифрования.
+      <value>- Приложение электронной подписи запрашивает пароль и позволяет его сохранить.
+- Отключается запрос пароля в приложении 1С:Предприятие.
 
-Только для закрытых ключей сертификатов, для которых в ОС включена усиленная защита.</value>
+Обязательно для закрытых ключей сертификатов, для которых в операционной системе включена усиленная защита.</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -484,6 +484,25 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="e1132cbb-7045-47e2-bbc7-6e92e4dff131">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ФизическоеЛицо</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Физическое лицо, которому выдан сертификат</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="62a71ba7-3226-4d10-8cc9-ac9908a00ae7">
     <name>Пользователь</name>
     <synonym>
@@ -504,25 +523,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="6ce1d71d-7548-4ee7-be78-21ae23d5a08d">
-    <name>ПользовательОповещенОСрокеДействия</name>
-    <synonym>
-      <key>ru</key>
-      <value>Пользователь оповещен о сроке действия</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Пользователь оповещен о скором окончании
-срока действия своего сертификата.</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="f5ad6743-b19b-44c4-b3d1-2e39d74a4abd">
     <name>Добавил</name>
     <synonym>
@@ -541,11 +541,31 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="4b89b7fb-31d9-43c7-9f7e-b0c31fa3331d">
-    <name>СостояниеЗаявления</name>
+  <attributes uuid="85d7ea13-c521-44b8-9dce-5e57529a21db">
+    <name>ДатаПолученияСертификата</name>
     <synonym>
       <key>ru</key>
-      <value>Состояние заявления</value>
+      <value>Дата получения сертификата</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дата получения сертификата по заявлению на выпуск квалифицированного сертификата.  Если заявление отправлено,  равна 31.12.3999 23:59:59.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4b89b7fb-31d9-43c7-9f7e-b0c31fa3331d">
+    <name>УдалитьСостояниеЗаявления</name>
+    <synonym>
+      <key>ru</key>
+      <value>(Не используется) Состояние заявления</value>
     </synonym>
     <type>
       <types>EnumRef.СостоянияЗаявленияНаВыпускСертификата</types>
@@ -561,11 +581,30 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="19b29d30-e395-42f2-b700-7474bb2cdcb7">
-    <name>СодержаниеЗаявления</name>
+  <attributes uuid="6ce1d71d-7548-4ee7-be78-21ae23d5a08d">
+    <name>УдалитьПользовательОповещенОСрокеДействия</name>
     <synonym>
       <key>ru</key>
-      <value>Содержание заявления</value>
+      <value>(Не используется) Пользователь оповещен о сроке действия</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователь оповещен о скором окончании
+срока действия своего сертификата.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="19b29d30-e395-42f2-b700-7474bb2cdcb7">
+    <name>УдалитьСодержаниеЗаявления</name>
+    <synonym>
+      <key>ru</key>
+      <value>(не используется) Содержание заявления</value>
     </synonym>
     <type>
       <types>ValueStorage</types>
@@ -610,6 +649,7 @@
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
   </tabularSections>
@@ -656,6 +696,20 @@
       <key>ru</key>
       <value>Добавление сертификата для шифрования</value>
     </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="993d8672-af86-4179-a9ef-228303748bcd">
+    <name>ДобавлениеСертификатовДляШифрования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавление сертификатов для шифрования</value>
+    </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -688,6 +742,11 @@
       <key>ru</key>
       <value>Выбор сертификата для подписания или расшифровки</value>
     </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -774,11 +833,29 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <templates uuid="5189beb9-b939-4f97-aca0-c2f3492ac8b9">
-    <name>КомпонентаXMLDSIG</name>
+  <forms uuid="ae4825b1-dd4e-4d0e-8133-da6d1a441c36">
+    <name>РедактироватьИмяИОтчество</name>
     <synonym>
       <key>ru</key>
-      <value>Компонента XMLDSIG</value>
+      <value>Редактировать имя и отчество</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f7e6da22-c2b7-47c9-8062-e612a56ae61c">
+    <name>УстановкаСертификата</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установка сертификата</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5189beb9-b939-4f97-aca0-c2f3492ac8b9">
+    <name>КомпонентаExtraCryptoAPI_3_0_3_43</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компонента ExtraCryptoAPI</value>
     </synonym>
     <templateType>AddIn</templateType>
   </templates>

@@ -13,385 +13,6 @@
       <items xsi:type="form:FormGroup">
         <name>ГруппаКоманднаяПанельРегионов</name>
         <id>206</id>
-        <items xsi:type="form:FormGroup">
-          <name>ГруппаУстановитьСнятьФлажки</name>
-          <id>208</id>
-          <items xsi:type="form:FormGroup">
-            <name>КнопкиВыбора</name>
-            <id>239</id>
-            <items xsi:type="form:Button">
-              <name>СубъектыРФУстановитьФлажки</name>
-              <id>47</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <extendedTooltip>
-                <name>СубъектыРФУстановитьФлажкиРасширеннаяПодсказка</name>
-                <id>48</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <commandName>Form.Command.УстановитьФлажки</commandName>
-              <representation>Auto</representation>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <placementArea>UserCmds</placementArea>
-              <representationInContextMenu>Auto</representationInContextMenu>
-            </items>
-            <items xsi:type="form:Button">
-              <name>СубъектыРФСнятьФлажки</name>
-              <id>49</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <extendedTooltip>
-                <name>СубъектыРФСнятьФлажкиРасширеннаяПодсказка</name>
-                <id>50</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <commandName>Form.Command.СнятьФлажки</commandName>
-              <representation>Auto</representation>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <placementArea>UserCmds</placementArea>
-              <representationInContextMenu>Auto</representationInContextMenu>
-            </items>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <title>
-              <key>ru</key>
-              <value>Выбрать все</value>
-            </title>
-            <extendedTooltip>
-              <name>КнопкиВыбораРасширеннаяПодсказка</name>
-              <id>240</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <extInfo xsi:type="form:ButtonGroupExtInfo">
-              <representation>Compact</representation>
-            </extInfo>
-          </items>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <title>
-            <key>ru</key>
-            <value>Установить снять флажки</value>
-          </title>
-          <extendedTooltip>
-            <name>ГруппаУстановитьСнятьФлажкиРасширеннаяПодсказка</name>
-            <id>209</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <type>CommandBar</type>
-          <extInfo xsi:type="form:CommandBarExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormField">
-          <name>Поиск</name>
-          <id>203</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>Поиск</segments>
-          </dataPath>
-          <titleLocation>None</titleLocation>
-          <extendedTooltip>
-            <name>ПоискРасширеннаяПодсказка</name>
-            <id>205</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>ПоискКонтекстноеМеню</name>
-            <id>204</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>InputField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:InputFieldExtInfo">
-            <handlers>
-              <event>AutoComplete</event>
-              <name>ПоискАвтоПодбор</name>
-            </handlers>
-            <handlers>
-              <event>Clearing</event>
-              <name>ПоискОчистка</name>
-            </handlers>
-            <handlers>
-              <event>TextEditEnd</event>
-              <name>ПоискОкончаниеВводаТекста</name>
-            </handlers>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <wrap>true</wrap>
-            <clearButton>true</clearButton>
-            <chooseType>true</chooseType>
-            <typeDomainEnabled>true</typeDomainEnabled>
-            <textEdit>true</textEdit>
-            <inputHint>
-              <key>ru</key>
-              <value>Введите первые буквы названия региона</value>
-            </inputHint>
-          </extInfo>
-        </items>
-        <items xsi:type="form:FormGroup">
-          <name>ГруппаЕще</name>
-          <id>210</id>
-          <items xsi:type="form:Button">
-            <name>СубъектыРФУстановитьФлажки1</name>
-            <id>241</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>СубъектыРФУстановитьФлажки1РасширеннаяПодсказка</name>
-              <id>242</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <commandName>Form.Command.УстановитьФлажки</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <representationInContextMenu>Auto</representationInContextMenu>
-            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
-          </items>
-          <items xsi:type="form:Button">
-            <name>СубъектыРФСнятьФлажки1</name>
-            <id>243</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>СубъектыРФСнятьФлажки1РасширеннаяПодсказка</name>
-              <id>244</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <commandName>Form.Command.СнятьФлажки</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <representationInContextMenu>Auto</representationInContextMenu>
-            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
-          </items>
-          <items xsi:type="form:Button">
-            <name>СубъектыРФНайти</name>
-            <id>43</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>СубъектыРФНайтиРасширеннаяПодсказка</name>
-              <id>44</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <commandName>Form.Item.СубъектыРФ.StandardCommand.Find</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <representationInContextMenu>Auto</representationInContextMenu>
-            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
-          </items>
-          <items xsi:type="form:Button">
-            <name>СубъектыРФОтменитьПоиск</name>
-            <id>45</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>СубъектыРФОтменитьПоискРасширеннаяПодсказка</name>
-              <id>46</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <commandName>Form.Item.СубъектыРФ.StandardCommand.CancelSearch</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <representationInContextMenu>Auto</representationInContextMenu>
-            <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
-          </items>
-          <items xsi:type="form:Button">
-            <name>Справка</name>
-            <id>217</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <extendedTooltip>
-              <name>СправкаРасширеннаяПодсказка</name>
-              <id>218</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <commandName>Form.StandardCommand.Help</commandName>
-            <representation>Auto</representation>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <placementArea>UserCmds</placementArea>
-            <representationInContextMenu>Auto</representationInContextMenu>
-          </items>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <title>
-            <key>ru</key>
-            <value>Еще</value>
-          </title>
-          <horizontalStretch>false</horizontalStretch>
-          <groupHorizontalAlign>Right</groupHorizontalAlign>
-          <extendedTooltip>
-            <name>ГруппаЕщеРасширеннаяПодсказка</name>
-            <id>211</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <type>CommandBar</type>
-          <extInfo xsi:type="form:CommandBarExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -453,6 +74,10 @@
           <items xsi:type="form:FormField">
             <name>СубъектыРФЗагружать</name>
             <id>20</id>
+            <title>
+              <key>ru</key>
+              <value>Загружать</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -502,6 +127,10 @@
           <items xsi:type="form:FormField">
             <name>СубъектыРФКодСубъектаРФ</name>
             <id>227</id>
+            <title>
+              <key>ru</key>
+              <value>Код субъекта РФ</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -564,6 +193,10 @@
           <items xsi:type="form:FormField">
             <name>СубъектыРФПредставление</name>
             <id>224</id>
+            <title>
+              <key>ru</key>
+              <value>Субъект РФ</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -646,12 +279,141 @@
         <autoCommandBar>
           <name>СубъектыРФКоманднаяПанель</name>
           <id>3</id>
+          <items xsi:type="form:FormGroup">
+            <name>ГруппаУстановитьСнятьФлажки</name>
+            <id>208</id>
+            <items xsi:type="form:FormGroup">
+              <name>КнопкиВыбора</name>
+              <id>239</id>
+              <items xsi:type="form:Button">
+                <name>СубъектыРФУстановитьФлажки</name>
+                <id>47</id>
+                <title>
+                  <key>ru</key>
+                  <value>Установить флажки</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>СубъектыРФУстановитьФлажкиРасширеннаяПодсказка</name>
+                  <id>48</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Command.УстановитьФлажки</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <items xsi:type="form:Button">
+                <name>СубъектыРФСнятьФлажки</name>
+                <id>49</id>
+                <title>
+                  <key>ru</key>
+                  <value>Снять флажки</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <extendedTooltip>
+                  <name>СубъектыРФСнятьФлажкиРасширеннаяПодсказка</name>
+                  <id>50</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <commandName>Form.Command.СнятьФлажки</commandName>
+                <representation>Auto</representation>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <placementArea>UserCmds</placementArea>
+                <representationInContextMenu>Auto</representationInContextMenu>
+              </items>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Выбрать все</value>
+              </title>
+              <extendedTooltip>
+                <name>КнопкиВыбораРасширеннаяПодсказка</name>
+                <id>240</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <extInfo xsi:type="form:ButtonGroupExtInfo">
+                <representation>Compact</representation>
+              </extInfo>
+            </items>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Установить снять флажки</value>
+            </title>
+            <extendedTooltip>
+              <name>ГруппаУстановитьСнятьФлажкиРасширеннаяПодсказка</name>
+              <id>209</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <extInfo xsi:type="form:ButtonGroupExtInfo"/>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <horizontalAlign>Left</horizontalAlign>
+          <autoFill>true</autoFill>
         </autoCommandBar>
         <handlers>
           <event>Selection</event>
@@ -876,6 +638,10 @@
           <items xsi:type="form:FormField">
             <name>ВыбраноРегионовДляЗагрузки</name>
             <id>51</id>
+            <title>
+              <key>ru</key>
+              <value>Выбрано регионов</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1060,6 +826,10 @@
           <items xsi:type="form:Button">
             <name>АвторизацияНаСайтеПоддержкиПользователей</name>
             <id>144</id>
+            <title>
+              <key>ru</key>
+              <value>Подключить интернет-поддержку</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1096,6 +866,10 @@
           <items xsi:type="form:FormField">
             <name>ИнформацияОбОбновление</name>
             <id>159</id>
+            <title>
+              <key>ru</key>
+              <value>Информация об обновление</value>
+            </title>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
@@ -1226,7 +1000,7 @@
               <choiceList>
                 <presentation>
                   <key>ru</key>
-                  <value>Из папки на диске:</value>
+                  <value>Из папки на компьютере:</value>
                 </presentation>
                 <value xsi:type="core:StringValue">
                   <value>КАТАЛОГ</value>
@@ -1239,7 +1013,7 @@
             <id>28</id>
             <title>
               <key>ru</key>
-              <value>Загрузить из папки на диске</value>
+              <value>Загрузить из папки на компьютере</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1377,6 +1151,10 @@
           <items xsi:type="form:Button">
             <name>Загрузить</name>
             <id>10</id>
+            <title>
+              <key>ru</key>
+              <value>Загрузить адресные сведения</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1409,6 +1187,10 @@
           <items xsi:type="form:Button">
             <name>Отмена</name>
             <id>133</id>
+            <title>
+              <key>ru</key>
+              <value>Отмена</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1578,6 +1360,10 @@
         <items xsi:type="form:FormField">
           <name>ТекстОписанияЗагрузки</name>
           <id>73</id>
+          <title>
+            <key>ru</key>
+            <value>Текст описания загрузки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1658,12 +1444,72 @@
           <currentRowUse>Auto</currentRowUse>
         </extInfo>
       </items>
+      <items xsi:type="form:FormField">
+        <name>ПрогрессЗагрузки</name>
+        <id>245</id>
+        <title>
+          <key>ru</key>
+          <value>Прогресс загрузки</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ПрогрессЗагрузки</segments>
+        </dataPath>
+        <titleLocation>None</titleLocation>
+        <extendedTooltip>
+          <name>ПрогрессЗагрузкиРасширеннаяПодсказка</name>
+          <id>247</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ПрогрессЗагрузкиКонтекстноеМеню</name>
+          <id>246</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>ProgressBarField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:ProgressBarFieldExtInfo">
+          <width>32</width>
+          <autoMaxWidth>true</autoMaxWidth>
+          <height>1</height>
+          <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
+          <maxValue>100</maxValue>
+          <showPercent>true</showPercent>
+        </extInfo>
+      </items>
       <items xsi:type="form:FormGroup">
         <name>ОжиданиеЗагрузкиНиз</name>
         <id>179</id>
         <items xsi:type="form:FormField">
           <name>ТекстСостоянияЗагрузки</name>
           <id>88</id>
+          <title>
+            <key>ru</key>
+            <value>Текст состояния загрузки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1714,6 +1560,10 @@
           <items xsi:type="form:Button">
             <name>ПрерватьЗагрузку</name>
             <id>78</id>
+            <title>
+              <key>ru</key>
+              <value>Прервать</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1892,6 +1742,10 @@
           <items xsi:type="form:FormField">
             <name>ТекстОписанияЗагрузкиЗавершения</name>
             <id>98</id>
+            <title>
+              <key>ru</key>
+              <value>Текст описания загрузки</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1942,6 +1796,10 @@
           <items xsi:type="form:Button">
             <name>ПроверитьВсеАдреса</name>
             <id>237</id>
+            <title>
+              <key>ru</key>
+              <value>Проверить все адреса...</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2178,8 +2036,8 @@
           <key>ru</key>
           <value>
 Индекс %1%2  не найден в адресном классификаторе. Возможные причины:
-  - индекс относится к региону, по которому в программе отсутствуют адресные сведения;
-  - адресные сведения, загруженные в программу, устарели
+  - индекс относится к региону, по которому в приложении отсутствуют адресные сведения;
+  - адресные сведения, загруженные в приложение, устарели
   - индекс введен некорректно.
 </value>
         </title>
@@ -2228,6 +2086,10 @@
           <items xsi:type="form:Button">
             <name>ОбновитьКлассификатор</name>
             <id>172</id>
+            <title>
+              <key>ru</key>
+              <value>Обновить классификатор</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2259,6 +2121,10 @@
           <items xsi:type="form:Button">
             <name>ОтменаОбновитьКлассификатор</name>
             <id>177</id>
+            <title>
+              <key>ru</key>
+              <value>Отмена</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2442,6 +2308,7 @@
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveDataInSettings>UseList</saveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -2760,9 +2627,11 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ФоновоеЗадание</name>
+    <name>ИдентификаторЗадания</name>
     <id>15</id>
-    <valueType/>
+    <valueType>
+      <types>UUID</types>
+    </valueType>
     <view>
       <common>true</common>
     </view>
@@ -2789,11 +2658,41 @@
   </attributes>
   <attributes>
     <name>Поиск</name>
+    <id>17</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПрогрессЗагрузки</name>
     <title>
       <key>ru</key>
-      <value>Поиск</value>
+      <value>Прогресс загрузки</value>
     </title>
-    <id>17</id>
+    <id>18</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>КаталогВременныФайлов</name>
+    <id>19</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -2975,6 +2874,22 @@
     </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>НазваниеРегиона</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ПочтовыйИндекс</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers>
+        <length>6</length>
+      </stringQualifiers>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

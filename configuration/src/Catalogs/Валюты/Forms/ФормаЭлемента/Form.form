@@ -15,7 +15,7 @@
         <segments>Объект.НаименованиеПолное</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НаименованиеПолноеExtendedTooltip</name>
+        <name>НаименованиеПолноеРасширеннаяПодсказка</name>
         <id>72</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -76,7 +76,7 @@
           <name>КодПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>КодExtendedTooltip</name>
+          <name>КодРасширеннаяПодсказка</name>
           <id>75</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -130,7 +130,7 @@
           <segments>Объект.Description</segments>
         </dataPath>
         <extendedTooltip>
-          <name>НаименованиеExtendedTooltip</name>
+          <name>НаименованиеРасширеннаяПодсказка</name>
           <id>76</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -480,7 +480,7 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
-            <name>ОсновнаяВалютаExtendedTooltip</name>
+            <name>ОсновнаяВалютаРасширеннаяПодсказка</name>
             <id>81</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -548,7 +548,7 @@
               <value>Коэффициент, применяемый к курсу выбранной валюты для вычисления курса текущей валюты</value>
             </toolTip>
             <extendedTooltip>
-              <name>НаценкаExtendedTooltip</name>
+              <name>НаценкаРасширеннаяПодсказка</name>
               <id>82</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -819,6 +819,11 @@
           <segments>Объект.ФормулаРасчетаКурса</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
+        <toolTip>
+          <key>ru</key>
+          <value>Курсы других валют в формуле обозначаются в виде наименований, заключенных в квадратные скобки. Пример:
+(0.55 * [Доллар США] + 0.45 * [Евро]) / 2</value>
+        </toolTip>
         <toolTipRepresentation>Button</toolTipRepresentation>
         <extendedTooltip>
           <name>ФормулаРасчетаКурсаРасширеннаяПодсказка</name>
@@ -851,11 +856,16 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
+          <handlers>
+            <event>StartChoice</event>
+            <name>ФормулаРасчетаКурсаНачалоВыбора</name>
+          </handlers>
           <width>35</width>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>false</horizontalStretch>
           <wrap>true</wrap>
+          <choiceButton>true</choiceButton>
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
@@ -1026,6 +1036,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -1081,6 +1092,20 @@
       <itemValueType/>
     </extInfo>
   </attributes>
+  <attributes>
+    <name>ПредставлениеФормулы</name>
+    <id>15</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ПараметрыПрописиВалютыНаДругихЯзыках</name>
     <title>
@@ -1103,20 +1128,7 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
-    <navigationPanel>
-      <cmiFragmentRecord>
-        <command>0:ed6dca4d-2fba-438b-808b-da1bb875ddb7</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>0:57a9b6e8-2802-4064-a16b-7f933a2858a2</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>0:3c330050-888c-4cdf-b3fa-a9df29e63ad8</command>
-        <userVisible/>
-      </cmiFragmentRecord>
-    </navigationPanel>
+    <navigationPanel/>
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:CatalogFormExtInfo"/>

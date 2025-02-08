@@ -9,74 +9,6 @@
       <items xsi:type="form:FormGroup">
         <name>ГруппаСпособНастройкиПодключения</name>
         <id>738</id>
-        <items xsi:type="form:FormField">
-          <name>СпособНастройкиПодключения</name>
-          <id>740</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <dataPath xsi:type="form:DataPath">
-            <segments>СпособНастройкиПодключения</segments>
-          </dataPath>
-          <titleLocation>None</titleLocation>
-          <handlers>
-            <event>OnChange</event>
-            <name>СпособНастройкиПодключенияПриИзменении</name>
-          </handlers>
-          <extendedTooltip>
-            <name>СпособНастройкиПодключенияРасширеннаяПодсказка</name>
-            <id>742</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <contextMenu>
-            <name>СпособНастройкиПодключенияКонтекстноеМеню</name>
-            <id>741</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <autoFill>true</autoFill>
-          </contextMenu>
-          <type>RadioButtonField</type>
-          <editMode>Enter</editMode>
-          <showInHeader>true</showInHeader>
-          <headerHorizontalAlign>Left</headerHorizontalAlign>
-          <showInFooter>true</showInFooter>
-          <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
-            <radioButtonsType>Tumbler</radioButtonsType>
-            <choiceList>
-              <presentation>
-                <key>ru</key>
-                <value>Выбрать приложение из списка</value>
-              </presentation>
-              <value xsi:type="core:StringValue">
-                <value>ПриложениеИзСписка</value>
-              </value>
-            </choiceList>
-            <choiceList>
-              <presentation>
-                <key>ru</key>
-                <value>Настроить подключение вручную</value>
-              </presentation>
-              <value xsi:type="core:StringValue">
-                <value>НастроитьВручную</value>
-              </value>
-            </choiceList>
-          </extInfo>
-        </items>
         <items xsi:type="form:FormGroup">
           <name>ПанельСпособыНастройкиПодключения</name>
           <id>734</id>
@@ -95,6 +27,10 @@
                   <items xsi:type="form:Button">
                     <name>ПриложенияВСервисеОбновитьСписокДоступныхПриложений</name>
                     <id>133</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Обновить</value>
+                    </title>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -489,6 +425,10 @@
                 <items xsi:type="form:FormField">
                   <name>ПриложенияВСервисеНаименованиеПриложения</name>
                   <id>79</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Наименование</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -539,6 +479,10 @@
                 <items xsi:type="form:FormField">
                   <name>ПриложенияВСервисеПрефикс</name>
                   <id>82</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Префикс</value>
+                  </title>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
@@ -588,6 +532,10 @@
                 <items xsi:type="form:FormField">
                   <name>ПриложенияВСервисеОбластьДанных</name>
                   <id>584</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Область данных</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -647,6 +595,10 @@
                   <horizontalAlign>Left</horizontalAlign>
                   <autoFill>true</autoFill>
                 </autoCommandBar>
+                <handlers>
+                  <event>OnActivateRow</event>
+                  <name>ПриложенияВСервисеПриАктивизацииСтроки</name>
+                </handlers>
                 <searchStringAddition>
                   <visible>true</visible>
                   <enabled>true</enabled>
@@ -816,17 +768,225 @@
                 </rowsPicture>
                 <rowFilter xsi:type="core:UndefinedValue"/>
               </items>
-              <items xsi:type="form:Decoration">
-                <name>Декорация10</name>
-                <id>725</id>
-                <visible>true</visible>
+              <items xsi:type="form:FormGroup">
+                <name>ГруппаСпособыНастройкиПодключения</name>
+                <id>841</id>
+                <items xsi:type="form:FormField">
+                  <name>СпособНастройкиПодключенияИнтернет</name>
+                  <id>740</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Способ настройки подключения в сервисе</value>
+                  </title>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>СпособНастройкиПодключенияВСервисе</segments>
+                  </dataPath>
+                  <titleLocation>None</titleLocation>
+                  <toolTipRepresentation>Button</toolTipRepresentation>
+                  <handlers>
+                    <event>OnChange</event>
+                    <name>СпособНастройкиПодключенияПриИзменении</name>
+                  </handlers>
+                  <extendedTooltip>
+                    <name>СпособНастройкиПодключенияИнтернетРасширеннаяПодсказка</name>
+                    <id>742</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Обмен происходит через внутренние ресурсы сервиса. Есть возможность настроить расписание синхронизаций.
+Самый быстрый из предложенных вариантов.</value>
+                    </title>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <width>70</width>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <contextMenu>
+                    <name>СпособНастройкиПодключенияИнтернетКонтекстноеМеню</name>
+                    <id>741</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <autoFill>true</autoFill>
+                  </contextMenu>
+                  <type>RadioButtonField</type>
+                  <editMode>Enter</editMode>
+                  <showInHeader>true</showInHeader>
+                  <headerHorizontalAlign>Left</headerHorizontalAlign>
+                  <showInFooter>true</showInFooter>
+                  <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+                    <radioButtonsType>RadioButtons</radioButtonsType>
+                    <choiceList>
+                      <presentation>
+                        <key>ru</key>
+                        <value>Подключение через интернет (авто)</value>
+                      </presentation>
+                      <value xsi:type="core:StringValue">
+                        <value>ИнтернетАвто</value>
+                      </value>
+                    </choiceList>
+                  </extInfo>
+                </items>
+                <items xsi:type="form:FormField">
+                  <name>СпособНастройкиПодключенияМС</name>
+                  <id>843</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Способ настройки подключения в сервисе</value>
+                  </title>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>СпособНастройкиПодключенияВСервисе</segments>
+                  </dataPath>
+                  <titleLocation>None</titleLocation>
+                  <toolTipRepresentation>Button</toolTipRepresentation>
+                  <handlers>
+                    <event>OnChange</event>
+                    <name>СпособНастройкиПодключенияПриИзменении</name>
+                  </handlers>
+                  <extendedTooltip>
+                    <name>СпособНастройкиПодключенияМСРасширеннаяПодсказка</name>
+                    <id>845</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Обмен запускает управляющая программа (менеджер сервиса), расписание настраивается администратором сервиса и недоступно для редактирования.</value>
+                    </title>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <width>70</width>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <contextMenu>
+                    <name>СпособНастройкиПодключенияМСКонтекстноеМеню</name>
+                    <id>844</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <autoFill>true</autoFill>
+                  </contextMenu>
+                  <type>RadioButtonField</type>
+                  <editMode>Enter</editMode>
+                  <showInHeader>true</showInHeader>
+                  <headerHorizontalAlign>Left</headerHorizontalAlign>
+                  <showInFooter>true</showInFooter>
+                  <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+                    <radioButtonsType>RadioButtons</radioButtonsType>
+                    <choiceList>
+                      <presentation>
+                        <key>ru</key>
+                        <value>Подключение через управляющую программу (менеджер сервиса)</value>
+                      </presentation>
+                      <value xsi:type="core:StringValue">
+                        <value>МенеджерСервиса</value>
+                      </value>
+                    </choiceList>
+                  </extInfo>
+                </items>
+                <items xsi:type="form:FormField">
+                  <name>СпособНастройкиПодключенияВручную</name>
+                  <id>846</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Способ настройки подключения в сервисе</value>
+                  </title>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <dataPath xsi:type="form:DataPath">
+                    <segments>СпособНастройкиПодключенияВСервисе</segments>
+                  </dataPath>
+                  <titleLocation>None</titleLocation>
+                  <toolTipRepresentation>Button</toolTipRepresentation>
+                  <handlers>
+                    <event>OnChange</event>
+                    <name>СпособНастройкиПодключенияПриИзменении</name>
+                  </handlers>
+                  <extendedTooltip>
+                    <name>СпособНастройкиПодключенияВручнуюРасширеннаяПодсказка</name>
+                    <id>848</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Необходимо указать данные для авторизации в другой программе. Нет возможности настроить график синхронизации. Обмен происходит только в ручном режиме. Подходит для настройки обмена с программой, которая расположена вне сервиса.</value>
+                    </title>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <width>75</width>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <contextMenu>
+                    <name>СпособНастройкиПодключенияВручнуюКонтекстноеМеню</name>
+                    <id>847</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <autoFill>true</autoFill>
+                  </contextMenu>
+                  <type>RadioButtonField</type>
+                  <editMode>Enter</editMode>
+                  <showInHeader>true</showInHeader>
+                  <headerHorizontalAlign>Left</headerHorizontalAlign>
+                  <showInFooter>true</showInFooter>
+                  <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+                    <radioButtonsType>RadioButtons</radioButtonsType>
+                    <choiceList>
+                      <presentation>
+                        <key>ru</key>
+                        <value>Подключение через интернет (вручную)</value>
+                      </presentation>
+                      <value xsi:type="core:StringValue">
+                        <value>ИнтернетВручную</value>
+                      </value>
+                    </choiceList>
+                  </extInfo>
+                </items>
                 <enabled>true</enabled>
                 <userVisible>
                   <common>true</common>
                 </userVisible>
+                <title>
+                  <key>ru</key>
+                  <value>Способы подключения</value>
+                </title>
                 <extendedTooltip>
-                  <name>Декорация10РасширеннаяПодсказка</name>
-                  <id>727</id>
+                  <name>ГруппаСпособыНастройкиПодключенияРасширеннаяПодсказка</name>
+                  <id>842</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -839,20 +999,160 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <contextMenu>
-                  <name>Декорация10КонтекстноеМеню</name>
-                  <id>726</id>
+                <type>UsualGroup</type>
+                <extInfo xsi:type="form:UsualGroupExtInfo">
+                  <group>Vertical</group>
+                  <showLeftMargin>true</showLeftMargin>
+                  <united>true</united>
+                  <showTitle>true</showTitle>
+                  <throughAlign>Auto</throughAlign>
+                  <currentRowUse>Auto</currentRowUse>
+                </extInfo>
+              </items>
+              <items xsi:type="form:FormGroup">
+                <name>ГруппаБольшеНастроек</name>
+                <id>834</id>
+                <items xsi:type="form:Decoration">
+                  <name>Декорация10</name>
+                  <id>725</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
-                  <autoFill>true</autoFill>
-                </contextMenu>
-                <autoMaxWidth>true</autoMaxWidth>
-                <height>1</height>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+                  <extendedTooltip>
+                    <name>Декорация10РасширеннаяПодсказка</name>
+                    <id>727</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <contextMenu>
+                    <name>Декорация10КонтекстноеМеню</name>
+                    <id>726</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <autoFill>true</autoFill>
+                  </contextMenu>
+                  <height>1</height>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <horizontalStretch>true</horizontalStretch>
+                  <extInfo xsi:type="form:PictureDecorationExtInfo"/>
+                </items>
+                <items xsi:type="form:Button">
+                  <name>НастроитьВручную</name>
+                  <id>854</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Настроить вручную...</value>
+                  </title>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <extendedTooltip>
+                    <name>НастроитьВручнуюРасширеннаяПодсказка</name>
+                    <id>855</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <type>Hyperlink</type>
+                  <commandName>Form.Command.НастроитьВручную</commandName>
+                  <representation>Auto</representation>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <placementArea>UserCmds</placementArea>
+                  <representationInContextMenu>Auto</representationInContextMenu>
+                </items>
+                <items xsi:type="form:Button">
+                  <name>БольшеНастроек</name>
+                  <id>836</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Больше настроек...</value>
+                  </title>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <extendedTooltip>
+                    <name>БольшеНастроекРасширеннаяПодсказка</name>
+                    <id>837</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <type>Hyperlink</type>
+                  <commandName>Form.Command.БольшеНастроек</commandName>
+                  <representation>Auto</representation>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <placementArea>UserCmds</placementArea>
+                  <representationInContextMenu>Auto</representationInContextMenu>
+                </items>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <title>
+                  <key>ru</key>
+                  <value>Больше настроек</value>
+                </title>
+                <extendedTooltip>
+                  <name>ГруппаБольшеНастроекРасширеннаяПодсказка</name>
+                  <id>835</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <type>UsualGroup</type>
+                <extInfo xsi:type="form:UsualGroupExtInfo">
+                  <group>HorizontalIfPossible</group>
+                  <representation>WeakSeparation</representation>
+                  <showLeftMargin>true</showLeftMargin>
+                  <united>true</united>
+                  <throughAlign>Auto</throughAlign>
+                  <currentRowUse>Auto</currentRowUse>
+                </extInfo>
               </items>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -928,6 +1228,10 @@
               <items xsi:type="form:FormField">
                 <name>ВидПодключенияВнешнееСоединение</name>
                 <id>106</id>
+                <title>
+                  <key>ru</key>
+                  <value>Вид подключения</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -992,6 +1296,10 @@
               <items xsi:type="form:FormField">
                 <name>ВидПодключенияИнтернет</name>
                 <id>103</id>
+                <title>
+                  <key>ru</key>
+                  <value>Вид подключения</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1055,6 +1363,10 @@
               <items xsi:type="form:FormField">
                 <name>ВидПодключенияПассивныйРежим</name>
                 <id>112</id>
+                <title>
+                  <key>ru</key>
+                  <value>Вид подключения</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1274,7 +1586,7 @@
                   </userVisible>
                   <title>
                     <key>ru</key>
-                    <value>Группа1</value>
+                    <value>Группа</value>
                   </title>
                   <extendedTooltip>
                     <name>Группа1РасширеннаяПодсказка</name>
@@ -1336,6 +1648,10 @@
               <items xsi:type="form:FormField">
                 <name>ВидПодключенияОбычныеКаналыСвязи</name>
                 <id>109</id>
+                <title>
+                  <key>ru</key>
+                  <value>Вид подключения</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1450,6 +1766,10 @@
                     <items xsi:type="form:FormField">
                       <name>ЗагрузитьПараметрыПодключенияИзФайла</name>
                       <id>666</id>
+                      <title>
+                        <key>ru</key>
+                        <value>Загрузить параметры подключения из файла</value>
+                      </title>
                       <visible>true</visible>
                       <enabled>true</enabled>
                       <userVisible>
@@ -1498,6 +1818,10 @@
                     <items xsi:type="form:FormField">
                       <name>ИмяФайлаНастроекПодключенияДляЗагрузки</name>
                       <id>617</id>
+                      <title>
+                        <key>ru</key>
+                        <value>Имя файла настроек подключения для загрузки</value>
+                      </title>
                       <visible>true</visible>
                       <enabled>true</enabled>
                       <userVisible>
@@ -1648,7 +1972,7 @@
                   </userVisible>
                   <title>
                     <key>ru</key>
-                    <value>Группа2</value>
+                    <value>Группа</value>
                   </title>
                   <extendedTooltip>
                     <name>Группа2РасширеннаяПодсказка</name>
@@ -1808,7 +2132,7 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Варианты настройки подключения</value>
+          <value>Настройка подключения</value>
         </title>
         <extendedTooltip>
           <name>ГруппаСпособНастройкиПодключенияРасширеннаяПодсказка</name>
@@ -1918,6 +2242,10 @@
           <items xsi:type="form:FormField">
             <name>ИнтернетВебАдрес</name>
             <id>184</id>
+            <title>
+              <key>ru</key>
+              <value>Адрес программы</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1975,6 +2303,10 @@
           <items xsi:type="form:FormField">
             <name>ИнтернетИмяПользователя</name>
             <id>187</id>
+            <title>
+              <key>ru</key>
+              <value>Пользователь</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2029,6 +2361,10 @@
             <items xsi:type="form:FormField">
               <name>ИнтернетПароль</name>
               <id>190</id>
+              <title>
+                <key>ru</key>
+                <value>Пароль</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2081,6 +2417,10 @@
             <items xsi:type="form:FormField">
               <name>ИнтернетЗапомнитьПароль</name>
               <id>193</id>
+              <title>
+                <key>ru</key>
+                <value>Запомнить пароль</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2158,6 +2498,10 @@
           <items xsi:type="form:Button">
             <name>ПараметрыДоступаВИнтернет1</name>
             <id>353</id>
+            <title>
+              <key>ru</key>
+              <value>Параметры доступа в интернет</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2382,6 +2726,10 @@
               <items xsi:type="form:FormField">
                 <name>ВнешнееСоединениеВариантРаботыИнформационнойБазыФайловый</name>
                 <id>157</id>
+                <title>
+                  <key>ru</key>
+                  <value>Вариант работы информационной базы</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2440,6 +2788,10 @@
               <items xsi:type="form:FormField">
                 <name>ВнешнееСоединениеКаталогИнформационнойБазы</name>
                 <id>163</id>
+                <title>
+                  <key>ru</key>
+                  <value>Каталог</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2496,6 +2848,10 @@
               <items xsi:type="form:FormField">
                 <name>ВнешнееСоединениеВариантРаботыИнформационнойБазыКлиентСерверный</name>
                 <id>160</id>
+                <title>
+                  <key>ru</key>
+                  <value>Вариант работы информационной базы</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2554,6 +2910,10 @@
               <items xsi:type="form:FormField">
                 <name>ВнешнееСоединениеКластерСерверов</name>
                 <id>166</id>
+                <title>
+                  <key>ru</key>
+                  <value>Сервер</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2605,6 +2965,10 @@
               <items xsi:type="form:FormField">
                 <name>ВнешнееСоединениеИмяИнформационнойБазы</name>
                 <id>169</id>
+                <title>
+                  <key>ru</key>
+                  <value>Имя базы</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2770,6 +3134,10 @@
               <items xsi:type="form:FormField">
                 <name>ВнешнееСоединениеВидАутентификацииОперационнаяСистема</name>
                 <id>175</id>
+                <title>
+                  <key>ru</key>
+                  <value>Вид аутентификации</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2819,8 +3187,8 @@
                       <key>ru</key>
                       <value>Использовать учетную запись операционной системы</value>
                     </presentation>
-                    <value xsi:type="core:StringValue">
-                      <value>ОперационнаяСистема</value>
+                    <value xsi:type="core:NumberValue">
+                      <value>0</value>
                     </value>
                   </choiceList>
                 </extInfo>
@@ -2828,6 +3196,10 @@
               <items xsi:type="form:FormField">
                 <name>ВнешнееСоединениеВидАутентификации1СПредприятие</name>
                 <id>172</id>
+                <title>
+                  <key>ru</key>
+                  <value>Вид аутентификации</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2877,8 +3249,8 @@
                       <key>ru</key>
                       <value>Использовать указанные имя пользователя и пароль</value>
                     </presentation>
-                    <value xsi:type="core:StringValue">
-                      <value>1СПредприятие</value>
+                    <value xsi:type="core:NumberValue">
+                      <value>1</value>
                     </value>
                   </choiceList>
                 </extInfo>
@@ -2886,6 +3258,10 @@
               <items xsi:type="form:FormField">
                 <name>ВнешнееСоединениеИмяПользователя</name>
                 <id>178</id>
+                <title>
+                  <key>ru</key>
+                  <value>Пользователь</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2937,6 +3313,10 @@
               <items xsi:type="form:FormField">
                 <name>ВнешнееСоединениеПароль</name>
                 <id>181</id>
+                <title>
+                  <key>ru</key>
+                  <value>Пароль</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -3160,6 +3540,10 @@
         <items xsi:type="form:FormField">
           <name>ОбычныеКаналыСвязиFILEИспользование</name>
           <id>268</id>
+          <title>
+            <key>ru</key>
+            <value>Использовать локальный или сетевой каталог для синхронизации данных</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -3211,6 +3595,10 @@
           <items xsi:type="form:FormField">
             <name>ОбычныеКаналыСвязиFILEКаталог</name>
             <id>211</id>
+            <title>
+              <key>ru</key>
+              <value>Каталог</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -3340,6 +3728,10 @@
         <items xsi:type="form:FormField">
           <name>ОбычныеКаналыСвязиFTPИспользование</name>
           <id>271</id>
+          <title>
+            <key>ru</key>
+            <value>Использовать каталог на FTP-сервере для синхронизации данных</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -3394,6 +3786,10 @@
             <items xsi:type="form:FormField">
               <name>ОбычныеКаналыСвязиFTPКаталог</name>
               <id>246</id>
+              <title>
+                <key>ru</key>
+                <value>Адрес каталога</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3445,6 +3841,10 @@
             <items xsi:type="form:FormField">
               <name>ОбычныеКаналыСвязиFTPПорт</name>
               <id>254</id>
+              <title>
+                <key>ru</key>
+                <value>Порт</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3531,6 +3931,10 @@
             <items xsi:type="form:FormField">
               <name>ОбычныеКаналыСвязиFTPПользователь</name>
               <id>257</id>
+              <title>
+                <key>ru</key>
+                <value>Пользователь</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3583,6 +3987,10 @@
             <items xsi:type="form:FormField">
               <name>ОбычныеКаналыСвязиFTPПароль</name>
               <id>260</id>
+              <title>
+                <key>ru</key>
+                <value>Пароль</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3671,6 +4079,10 @@
             <items xsi:type="form:FormField">
               <name>ОбычныеКаналыСвязиFTPИспользоватьОграничениеРазмераФайла</name>
               <id>344</id>
+              <title>
+                <key>ru</key>
+                <value>Ограничение размера файла</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3719,6 +4131,10 @@
             <items xsi:type="form:FormField">
               <name>ОбычныеКаналыСвязиFTPМаксимальныйДопустимыйРазмерФайла</name>
               <id>347</id>
+              <title>
+                <key>ru</key>
+                <value>Максимальный допустимый размер файла</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3849,6 +4265,10 @@
           <items xsi:type="form:FormField">
             <name>ОбычныеКаналыСвязиFTPПассивныйРежим</name>
             <id>334</id>
+            <title>
+              <key>ru</key>
+              <value>Пассивный режим</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -3893,6 +4313,10 @@
           <items xsi:type="form:Button">
             <name>ПараметрыДоступаВИнтернет</name>
             <id>337</id>
+            <title>
+              <key>ru</key>
+              <value>Параметры доступа в интернет</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -3998,6 +4422,10 @@
         <items xsi:type="form:FormField">
           <name>ОбычныеКаналыСвязиEMAILИспользование</name>
           <id>279</id>
+          <title>
+            <key>ru</key>
+            <value>Использовать электронную почту для синхронизации данных</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -4049,6 +4477,10 @@
           <items xsi:type="form:FormField">
             <name>ОбычныеКаналыСвязиEMAILУчетнаяЗапись</name>
             <id>282</id>
+            <title>
+              <key>ru</key>
+              <value>Учетная запись</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -4103,6 +4535,10 @@
             <items xsi:type="form:FormField">
               <name>ОбычныеКаналыСвязиEMAILИспользоватьОграничениеРазмераВложения</name>
               <id>306</id>
+              <title>
+                <key>ru</key>
+                <value>Ограничение размера вложения</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -4151,6 +4587,10 @@
             <items xsi:type="form:FormField">
               <name>ОбычныеКаналыСвязиEMAILМаксимальныйДопустимыйРазмерВложения</name>
               <id>309</id>
+              <title>
+                <key>ru</key>
+                <value>Максимальный допустимый размер вложения</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -4354,6 +4794,10 @@
         <items xsi:type="form:FormField">
           <name>ОбычныеКаналыСвязиТранслитерироватьИменаФайлов</name>
           <id>243</id>
+          <title>
+            <key>ru</key>
+            <value>Транслитерировать имена файлов обмена</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -4404,6 +4848,10 @@
         <items xsi:type="form:FormField">
           <name>ОбычныеКаналыСвязиАрхивироватьФайлы</name>
           <id>214</id>
+          <title>
+            <key>ru</key>
+            <value>Архивировать файлы обмена</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -4495,6 +4943,10 @@
           <items xsi:type="form:FormField">
             <name>ОбычныеКаналыСвязиИспользоватьПарольАрхива</name>
             <id>263</id>
+            <title>
+              <key>ru</key>
+              <value>Пароль архива</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -4543,6 +4995,10 @@
           <items xsi:type="form:FormField">
             <name>ОбычныеКаналыСвязиПарольАрхива</name>
             <id>217</id>
+            <title>
+              <key>ru</key>
+              <value>Пароль архива</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -5091,6 +5547,10 @@
           <items xsi:type="form:FormField">
             <name>Наименование</name>
             <id>482</id>
+            <title>
+              <key>ru</key>
+              <value>Наименование</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -5142,6 +5602,10 @@
           <items xsi:type="form:FormField">
             <name>Префикс</name>
             <id>485</id>
+            <title>
+              <key>ru</key>
+              <value>Префикс</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -5233,6 +5697,10 @@
           <items xsi:type="form:FormField">
             <name>НаименованиеКорреспондента</name>
             <id>488</id>
+            <title>
+              <key>ru</key>
+              <value>Наименование</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -5284,6 +5752,10 @@
           <items xsi:type="form:FormField">
             <name>ПрефиксКорреспондента</name>
             <id>491</id>
+            <title>
+              <key>ru</key>
+              <value>Префикс</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -5375,6 +5847,10 @@
           <items xsi:type="form:FormField">
             <name>ОбычныеКаналыСвязиВидТранспортаПоУмолчанию</name>
             <id>636</id>
+            <title>
+              <key>ru</key>
+              <value>Вид подключения по умолчанию</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -5428,6 +5904,10 @@
           <items xsi:type="form:FormField">
             <name>ИмяФайлаНастроекПодключенияДляВыгрузки</name>
             <id>633</id>
+            <title>
+              <key>ru</key>
+              <value>Имя файла настроек подключения</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -5628,7 +6108,6 @@
                   <segments>ИсправитьДублированиеНастроекСинхронизации</segments>
                 </dataPath>
                 <titleLocation>Right</titleLocation>
-                <toolTipRepresentation>ShowBottom</toolTipRepresentation>
                 <handlers>
                   <event>OnChange</event>
                   <name>ИсправитьДублированиеНастроекСинхронизацииПриИзменении</name>
@@ -5642,7 +6121,6 @@
                     <common>true</common>
                   </userVisible>
                   <type>Label</type>
-                  <width>50</width>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
                   <extInfo xsi:type="form:LabelDecorationExtInfo">
@@ -5666,12 +6144,134 @@
                 <showInFooter>true</showInFooter>
                 <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
               </items>
+              <items xsi:type="form:FormGroup">
+                <name>Группа6</name>
+                <id>826</id>
+                <items xsi:type="form:Decoration">
+                  <name>Декорация11</name>
+                  <id>828</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <extendedTooltip>
+                    <name>Декорация11РасширеннаяПодсказка</name>
+                    <id>830</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <contextMenu>
+                    <name>Декорация11КонтекстноеМеню</name>
+                    <id>829</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <autoFill>true</autoFill>
+                  </contextMenu>
+                  <width>1</width>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <height>1</height>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:PictureDecorationExtInfo">
+                    <fileDragMode>AsFileRef</fileDragMode>
+                  </extInfo>
+                </items>
+                <items xsi:type="form:Decoration">
+                  <name>ДекорацияПояснениеКИсправить</name>
+                  <id>831</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Пояснение</value>
+                  </title>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <extendedTooltip>
+                    <name>ДекорацияПояснениеКИсправитьРасширеннаяПодсказка</name>
+                    <id>833</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <type>Label</type>
+                    <autoMaxWidth>true</autoMaxWidth>
+                    <autoMaxHeight>true</autoMaxHeight>
+                    <extInfo xsi:type="form:LabelDecorationExtInfo">
+                      <horizontalAlign>Left</horizontalAlign>
+                    </extInfo>
+                  </extendedTooltip>
+                  <contextMenu>
+                    <name>ДекорацияПояснениеКИсправитьКонтекстноеМеню</name>
+                    <id>832</id>
+                    <visible>true</visible>
+                    <enabled>true</enabled>
+                    <userVisible>
+                      <common>true</common>
+                    </userVisible>
+                    <autoFill>true</autoFill>
+                  </contextMenu>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </items>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <title>
+                  <key>ru</key>
+                  <value>Группа</value>
+                </title>
+                <extendedTooltip>
+                  <name>Группа6РасширеннаяПодсказка</name>
+                  <id>827</id>
+                  <visible>true</visible>
+                  <enabled>true</enabled>
+                  <userVisible>
+                    <common>true</common>
+                  </userVisible>
+                  <type>Label</type>
+                  <autoMaxWidth>true</autoMaxWidth>
+                  <autoMaxHeight>true</autoMaxHeight>
+                  <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <horizontalAlign>Left</horizontalAlign>
+                  </extInfo>
+                </extendedTooltip>
+                <type>UsualGroup</type>
+                <extInfo xsi:type="form:UsualGroupExtInfo">
+                  <group>HorizontalIfPossible</group>
+                  <showLeftMargin>true</showLeftMargin>
+                  <united>true</united>
+                  <throughAlign>Auto</throughAlign>
+                  <currentRowUse>Auto</currentRowUse>
+                </extInfo>
+              </items>
               <items xsi:type="form:Decoration">
                 <name>Декорация18</name>
                 <id>798</id>
                 <title>
                   <key>ru</key>
-                  <value>&lt;color #ff0000>Внимание!&lt;/>
+                  <value>&lt;color #FF0000>Внимание!
+&lt;/>
 Данная операция необратима и предназначена только для устранения ошибки синхронизации, связанной с дублированием настроек обмена в информационных базах, которые были получены путем копирования.
 
 Не рекомендуется применять для работающих синхронизаций.</value>
@@ -5722,7 +6322,7 @@
               </userVisible>
               <title>
                 <key>ru</key>
-                <value>Группа5</value>
+                <value>Группа</value>
               </title>
               <extendedTooltip>
                 <name>Группа5РасширеннаяПодсказка</name>
@@ -5755,7 +6355,7 @@
             </userVisible>
             <title>
               <key>ru</key>
-              <value>Группа4</value>
+              <value>Группа</value>
             </title>
             <extendedTooltip>
               <name>Группа4РасширеннаяПодсказка</name>
@@ -5810,6 +6410,169 @@
           <extInfo xsi:type="form:UsualGroupExtInfo">
             <group>AlwaysHorizontal</group>
             <representation>NormalSeparation</representation>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <showTitle>true</showTitle>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаВосстановлениеНастроекОбмена</name>
+          <id>856</id>
+          <items xsi:type="form:FormGroup">
+            <name>Группа7</name>
+            <id>858</id>
+            <items xsi:type="form:Decoration">
+              <name>Декорация21</name>
+              <id>860</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>Декорация21РасширеннаяПодсказка</name>
+                <id>862</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>Декорация21КонтекстноеМеню</name>
+                <id>861</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:PictureDecorationExtInfo">
+                <picture xsi:type="core:PictureRef">
+                  <picture>CommonPicture.Предупреждение32</picture>
+                </picture>
+                <fileDragMode>AsFileRef</fileDragMode>
+              </extInfo>
+            </items>
+            <items xsi:type="form:Decoration">
+              <name>Декорация12</name>
+              <id>863</id>
+              <title>
+                <key>ru</key>
+                <value>&lt;colorstyle -16>Внимание!&lt;/>
+Продолжение настройки приведет к изменению кода узла обмена для этой информационной базы. Если в базе уже существуют настроенные обмены, то это может привезти к их неработоспособности.</value>
+              </title>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>Декорация12РасширеннаяПодсказка</name>
+                <id>865</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <contextMenu>
+                <name>Декорация12КонтекстноеМеню</name>
+                <id>864</id>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <autoFill>true</autoFill>
+              </contextMenu>
+              <formatted>true</formatted>
+              <type>Label</type>
+              <width>70</width>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </items>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Группа</value>
+            </title>
+            <extendedTooltip>
+              <name>Группа7РасширеннаяПодсказка</name>
+              <id>859</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>UsualGroup</type>
+            <extInfo xsi:type="form:UsualGroupExtInfo">
+              <group>HorizontalIfPossible</group>
+              <showLeftMargin>true</showLeftMargin>
+              <united>true</united>
+              <throughAlign>Auto</throughAlign>
+              <currentRowUse>Auto</currentRowUse>
+            </extInfo>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Восстановление настроек</value>
+          </title>
+          <extendedTooltip>
+            <name>ГруппаВосстановлениеНастроекОбменаРасширеннаяПодсказка</name>
+            <id>857</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>HorizontalIfPossible</group>
+            <representation>WeakSeparation</representation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
             <showTitle>true</showTitle>
@@ -6304,6 +7067,10 @@
         <items xsi:type="form:Button">
           <name>КомандаНавигацияНачалоДалее</name>
           <id>44</id>
+          <title>
+            <key>ru</key>
+            <value>Далее ></value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -6335,6 +7102,10 @@
         <items xsi:type="form:Button">
           <name>КомандаНавигацияНачалоОтмена</name>
           <id>46</id>
+          <title>
+            <key>ru</key>
+            <value>Отмена</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -6430,6 +7201,10 @@
         <items xsi:type="form:Button">
           <name>КомандаНавигацияПродолжениеНазад</name>
           <id>52</id>
+          <title>
+            <key>ru</key>
+            <value>&lt; Назад</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -6492,6 +7267,10 @@
         <items xsi:type="form:Button">
           <name>КомандаНавигацияПродолжениеДалее</name>
           <id>54</id>
+          <title>
+            <key>ru</key>
+            <value>Далее ></value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -6522,6 +7301,10 @@
         <items xsi:type="form:Button">
           <name>КомандаНавигацияПродолжениеОтмена</name>
           <id>56</id>
+          <title>
+            <key>ru</key>
+            <value>Отмена</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -6617,6 +7400,10 @@
         <items xsi:type="form:Button">
           <name>КомандаНавигацияОкончаниеНазад</name>
           <id>62</id>
+          <title>
+            <key>ru</key>
+            <value>&lt; Назад</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -6679,6 +7466,10 @@
         <items xsi:type="form:Button">
           <name>КомандаНавигацияОкончаниеГотово</name>
           <id>64</id>
+          <title>
+            <key>ru</key>
+            <value>Готово</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -6765,6 +7556,205 @@
         <showTitle>true</showTitle>
       </extInfo>
     </items>
+    <items xsi:type="form:FormGroup">
+      <name>СтраницаНавигацияСпособыНастройкиПодключения</name>
+      <id>866</id>
+      <items xsi:type="form:FormGroup">
+        <name>КоманднаяПанельНавигацияПродолжениеСлева1</name>
+        <id>868</id>
+        <items xsi:type="form:Button">
+          <name>КомандаНазадСпособНастройкиПодключения</name>
+          <id>880</id>
+          <title>
+            <key>ru</key>
+            <value>&lt; Назад</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>КомандаНазадСпособНастройкиПодключенияРасширеннаяПодсказка</name>
+            <id>881</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.КомандаНазадСпособНастройкиПодключения</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Командная панель навигация продолжение слева</value>
+        </title>
+        <extendedTooltip>
+          <name>КоманднаяПанельНавигацияПродолжениеСлева1РасширеннаяПодсказка</name>
+          <id>869</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>CommandBar</type>
+        <extInfo xsi:type="form:CommandBarExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>КоманднаяПанельНавигацияПродолжениеСправа1</name>
+        <id>872</id>
+        <items xsi:type="form:Button">
+          <name>КомандаДалееСпособНастройкиПодключения</name>
+          <id>878</id>
+          <title>
+            <key>ru</key>
+            <value>Далее ></value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>КомандаДалееСпособНастройкиПодключенияРасширеннаяПодсказка</name>
+            <id>879</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.КомандаДалееСпособНастройкиПодключения</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <items xsi:type="form:Button">
+          <name>КомандаНавигацияПродолжениеОтмена1</name>
+          <id>876</id>
+          <title>
+            <key>ru</key>
+            <value>Отмена</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>КомандаНавигацияПродолжениеОтмена1РасширеннаяПодсказка</name>
+            <id>877</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.КомандаОтмена</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Командная панель навигация продолжение справа</value>
+        </title>
+        <extendedTooltip>
+          <name>КоманднаяПанельНавигацияПродолжениеСправа1РасширеннаяПодсказка</name>
+          <id>873</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>CommandBar</type>
+        <extInfo xsi:type="form:CommandBarExtInfo">
+          <horizontalAlign>Right</horizontalAlign>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Страница навигация продолжение</value>
+      </title>
+      <extendedTooltip>
+        <name>СтраницаНавигацияСпособыНастройкиПодключенияРасширеннаяПодсказка</name>
+        <id>867</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Page</type>
+      <extInfo xsi:type="form:PageGroupExtInfo">
+        <group>AlwaysHorizontal</group>
+        <showTitle>true</showTitle>
+      </extInfo>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -6820,6 +7810,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -7034,6 +8025,32 @@
       <valueType>
         <types>String</types>
         <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ДоступенExchangeAdministrationManage_3_0_1_1</name>
+      <id>15</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>КонечнаяТочка</name>
+      <id>13</id>
+      <valueType>
+        <types>DefinedType.КонечнаяТочкаОбменаСообщениями</types>
       </valueType>
       <view>
         <common>true</common>
@@ -7329,8 +8346,8 @@
     </title>
     <id>12</id>
     <valueType>
-      <types>String</types>
-      <stringQualifiers/>
+      <types>Number</types>
+      <numberQualifiers/>
     </valueType>
     <view>
       <common>true</common>
@@ -7710,7 +8727,7 @@
     </title>
     <id>38</id>
     <valueType>
-      <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+      <types>DefinedType.ОбменДаннымиУчетныеЗаписиЭлектроннойПочты</types>
     </valueType>
     <view>
       <common>true</common>
@@ -8444,10 +9461,10 @@
     </edit>
   </attributes>
   <attributes>
-    <name>СпособНастройкиПодключения</name>
+    <name>СпособНастройкиПодключенияВСервисе</name>
     <title>
       <key>ru</key>
-      <value>Способ настройки подключения</value>
+      <value>Способ настройки подключения в сервисе</value>
     </title>
     <id>114</id>
     <valueType>
@@ -8603,10 +9620,82 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ИсправитьДублированиеНастроекСинхронизации1</name>
+    <name>ДоступенExchangeAdministrationManage_3_0_1_1</name>
     <id>20</id>
     <valueType>
       <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>БольшеНастроекВидимость</name>
+    <id>21</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>КонечнаяТочка</name>
+    <id>29</id>
+    <valueType>
+      <types>DefinedType.КонечнаяТочкаОбменаСообщениями</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ВосстановлениеНастроекОбмена</name>
+    <id>44</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>НомерОтправленного</name>
+    <id>45</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>НомерПринятого</name>
+    <id>46</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
     </valueType>
     <view>
       <common>true</common>
@@ -8785,7 +9874,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>CommonPicture.Информация</picture>
+      <picture>StdPicture.Information</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
@@ -8812,6 +9901,90 @@
       <picture>StdPicture.Write</picture>
     </picture>
     <representation>TextPicture</representation>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>БольшеНастроек</name>
+    <title>
+      <key>ru</key>
+      <value>Больше настроек...</value>
+    </title>
+    <id>9</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Больше настроек</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>БольшеНастроек</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>НастроитьВручную</name>
+    <title>
+      <key>ru</key>
+      <value>Настроить вручную...</value>
+    </title>
+    <id>11</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Настроить вручную</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>НастроитьВручную</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>КомандаДалееСпособНастройкиПодключения</name>
+    <title>
+      <key>ru</key>
+      <value>Далее ></value>
+    </title>
+    <id>12</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Команда далее способ настройки подключения</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаДалееСпособНастройкиПодключения</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>КомандаНазадСпособНастройкиПодключения</name>
+    <title>
+      <key>ru</key>
+      <value>&lt; Назад</value>
+    </title>
+    <id>13</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Команда назад способ настройки подключения</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>КомандаНазадСпособНастройкиПодключения</name>
+      </handler>
+    </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>

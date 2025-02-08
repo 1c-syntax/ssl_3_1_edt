@@ -44,7 +44,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Информация32</picture>
+          <picture>StdPicture.DialogInformation</picture>
         </picture>
       </extInfo>
     </items>
@@ -53,7 +53,7 @@
       <id>12</id>
       <title>
         <key>ru</key>
-        <value>Рекомендуется проверить совместимость дополнительных отчетов и обработок с текущей версией программы.
+        <value>Рекомендуется проверить совместимость дополнительных отчетов и обработок с текущей версией приложения.
 
 Устаревшие дополнительные отчеты и обработки могут работать некорректно, в этом случае их необходимо обновить (или временно отключить). </value>
       </title>
@@ -134,6 +134,10 @@
     <items xsi:type="form:Button">
       <name>ФормаПерейтиКСписку</name>
       <id>3</id>
+      <title>
+        <key>ru</key>
+        <value>Перейти к списку</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -165,6 +169,10 @@
     <items xsi:type="form:Button">
       <name>ФормаПроверено</name>
       <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>Проверено</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -195,6 +203,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗакрыть</name>
       <id>5</id>
+      <title>
+        <key>ru</key>
+        <value>Отмена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -231,6 +243,7 @@
   </autoCommandBar>
   <width>52</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -248,7 +261,7 @@
     <id>1</id>
     <toolTip>
       <key>ru</key>
-      <value>Не выводить больше это сообщение до следующего обновления программы.</value>
+      <value>Не выводить больше это сообщение до следующего обновления приложения.</value>
     </toolTip>
     <use>
       <common>true</common>

@@ -232,26 +232,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="f8ab477c-8e78-48c0-9f99-27748b109706">
-    <name>УдалитьЗашифрован</name>
-    <synonym>
-      <key>ru</key>
-      <value>(не используется) Зашифрована</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Признак того, что версия файла зашифрована</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <indexing>Index</indexing>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="24cff6c8-6c20-4383-b97c-6afa52738960">
     <name>ИндексКартинки</name>
     <synonym>
@@ -317,50 +297,6 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="2d51aae9-650d-4719-a94d-2609b69a2d36">
-    <name>УдалитьПодписанЭП</name>
-    <synonym>
-      <key>ru</key>
-      <value>(не используется) Подписана электронно</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Признак того, что версия файла подписана электронно</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="6025f5b5-6dc7-46b8-96e6-02823c5b4de7">
-    <name>ПолноеНаименование</name>
-    <synonym>
-      <key>ru</key>
-      <value>Полное наименование</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>256</length>
-      </stringQualifiers>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Имя версии файла (без расширения) длиной до 256 символов</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value>                                                                                                                                                                                                                                                                </value>
-    </fillValue>
-    <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

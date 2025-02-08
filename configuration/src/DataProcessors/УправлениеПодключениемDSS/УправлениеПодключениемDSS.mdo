@@ -414,10 +414,10 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <templates uuid="135c86fc-2979-4833-9107-38d749a9f82f">
-    <name>ПодключениеУчетнойЗаписиОблачнойПодписи</name>
+    <name>ПодключениеУчетнойЗаписиDSS</name>
     <synonym>
       <key>ru</key>
-      <value>Подключение учетной записи облачной подписи</value>
+      <value>Подключение учетной записи DSS</value>
     </synonym>
   </templates>
   <commands uuid="78288ff9-d838-4970-84bd-9a6b229e6ef0">
@@ -431,20 +431,20 @@
     <representation>Auto</representation>
   </commands>
   <commands uuid="8310f927-1123-4b4b-a65e-0ff29be73329">
-    <name>СерверыОблачнойПодписи</name>
+    <name>СерверыDSS</name>
     <synonym>
       <key>ru</key>
-      <value>Серверы облачной подписи</value>
+      <value>Серверы DSS</value>
     </synonym>
     <group>NavigationPanelOrdinary</group>
     <commandParameterType/>
     <representation>Auto</representation>
   </commands>
   <commands uuid="80a9df2d-593d-483d-8d69-28b1c08ec648">
-    <name>УчетныеЗаписиОблачнойПодписи</name>
+    <name>УчетныеЗаписиDSS</name>
     <synonym>
       <key>ru</key>
-      <value>Учетные записи облачной подписи</value>
+      <value>Учетные записи DSS</value>
     </synonym>
     <group>NavigationPanelOrdinary</group>
     <commandParameterType/>

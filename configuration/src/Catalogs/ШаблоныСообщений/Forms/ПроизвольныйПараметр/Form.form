@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>ТипСтрокой</name>
     <id>7</id>
+    <title>
+      <key>ru</key>
+      <value>Тип параметра</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -61,6 +65,10 @@
   <items xsi:type="form:FormField">
     <name>Представление</name>
     <id>4</id>
+    <title>
+      <key>ru</key>
+      <value>Представление параметра</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -111,6 +119,10 @@
   <items xsi:type="form:FormField">
     <name>Имя</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Имя параметра</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -164,6 +176,10 @@
     <items xsi:type="form:Button">
       <name>ФормаOK</name>
       <id>16</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -196,6 +212,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОтмена</name>
       <id>18</id>
+      <title>
+        <key>ru</key>
+        <value>Отмена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -268,6 +288,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

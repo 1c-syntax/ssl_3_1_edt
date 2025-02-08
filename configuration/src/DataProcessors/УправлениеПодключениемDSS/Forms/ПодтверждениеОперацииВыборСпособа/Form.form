@@ -94,6 +94,10 @@
         <items xsi:type="form:Button">
           <name>ОфлайнПодтверждение</name>
           <id>26</id>
+          <title>
+            <key>ru</key>
+            <value>Офлайн-подтверждение</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -246,6 +250,10 @@
         <items xsi:type="form:Button">
           <name>myDSS</name>
           <id>28</id>
+          <title>
+            <key>ru</key>
+            <value>Мобильное приложение myDSS</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -403,6 +411,10 @@
         <items xsi:type="form:Button">
           <name>AirKey</name>
           <id>30</id>
+          <title>
+            <key>ru</key>
+            <value>Мобильное приложение AirKey DSS</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -555,11 +567,176 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
+        <name>ГруппаМобильноеПриложение2</name>
+        <id>85</id>
+        <items xsi:type="form:Button">
+          <name>DSSSDK</name>
+          <id>87</id>
+          <title>
+            <key>ru</key>
+            <value>Мобильное приложение myDSS 2.0 или другое</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>DSSSDKРасширеннаяПодсказка</name>
+            <id>88</id>
+            <title>
+              <key>ru</key>
+              <value>Информацию по использованию мобильного приложения на базе DSS SDK можно прочитать перейдя по &lt;link http://1c.ru>ссылке&lt;/></value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <formatted>true</formatted>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Form.Command.DSSSDK</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаМобильноеПриложение2Подсказка</name>
+          <id>89</id>
+          <items xsi:type="form:Decoration">
+            <name>ДекорацияМобильноеПриложение2Подсказка</name>
+            <id>91</id>
+            <title>
+              <key>ru</key>
+              <value>Специальное мобильное приложение разработанное с помощью DSS SDK для подтверждения операций пользователем</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ДекорацияМобильноеПриложение2ПодсказкаРасширеннаяПодсказка</name>
+              <id>93</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДекорацияМобильноеПриложение2ПодсказкаКонтекстноеМеню</name>
+              <id>92</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <textColor xsi:type="core:ColorDef">
+              <red>128</red>
+              <green>122</green>
+              <blue>89</blue>
+            </textColor>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Мобильное приложение 2 подсказка</value>
+          </title>
+          <extendedTooltip>
+            <name>ГруппаМобильноеПриложение2ПодсказкаРасширеннаяПодсказка</name>
+            <id>90</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>HorizontalIfPossible</group>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Мобильное приложение2</value>
+        </title>
+        <extendedTooltip>
+          <name>ГруппаМобильноеПриложение2РасширеннаяПодсказка</name>
+          <id>86</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>Vertical</group>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
         <name>ГруппаТелефон</name>
         <id>7</id>
         <items xsi:type="form:Button">
           <name>SMS</name>
           <id>32</id>
+          <title>
+            <key>ru</key>
+            <value>Одноразовый пароль на мобильный телефон</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -712,6 +889,10 @@
         <items xsi:type="form:Button">
           <name>Email</name>
           <id>34</id>
+          <title>
+            <key>ru</key>
+            <value>Одноразовый пароль на электронную почту</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -945,6 +1126,7 @@
   <width>50</width>
   <height>25</height>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -1024,6 +1206,8 @@
     <id>6</id>
     <valueType>
       <types>EnumRef.СпособыАвторизацииDSS</types>
+      <types>String</types>
+      <stringQualifiers/>
     </valueType>
     <view>
       <common>true</common>
@@ -1031,6 +1215,22 @@
     <edit>
       <common>true</common>
     </edit>
+  </attributes>
+  <attributes>
+    <name>ИдентификаторыПриложений</name>
+    <id>7</id>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType/>
+    </extInfo>
   </attributes>
   <formCommands>
     <name>ОфлайнПодтверждение</name>
@@ -1125,6 +1325,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>Почта</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>DSSSDK</name>
+    <title>
+      <key>ru</key>
+      <value>Мобильное приложение myDSS 2.0 или другое</value>
+    </title>
+    <id>6</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>МобильноеПриложение2</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

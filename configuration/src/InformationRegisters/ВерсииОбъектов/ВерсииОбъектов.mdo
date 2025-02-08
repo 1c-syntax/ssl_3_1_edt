@@ -91,6 +91,7 @@
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -405,15 +406,6 @@
     </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <forms uuid="80c23bf0-cef0-4d07-a017-d90635f8041d">
-    <name>ФормаСписка</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма списка</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <forms uuid="47a24216-3299-470b-a18c-d8c1258fff24">
     <name>ОтчетПоВерсиямОбъекта</name>
     <synonym>

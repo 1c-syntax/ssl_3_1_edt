@@ -130,10 +130,14 @@
     <typesFilterValue xsi:type="core:StringValue">
       <value>Справочник_Пользователи</value>
     </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
     <characteristicValues>Catalog.Пользователи.TabularSection.ДополнительныеРеквизиты</characteristicValues>
     <objectField>Catalog.Пользователи.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</objectField>
     <typeField>Catalog.Пользователи.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</typeField>
     <valueField>Catalog.Пользователи.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
   </characteristics>
   <characteristics>
     <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
@@ -142,10 +146,14 @@
     <typesFilterValue xsi:type="core:StringValue">
       <value>Справочник_Пользователи</value>
     </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
     <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
     <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>
     <typeField>InformationRegister.ДополнительныеСведения.Dimension.Свойство</typeField>
     <valueField>InformationRegister.ДополнительныеСведения.Resource.Значение</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
   </characteristics>
   <characteristics>
     <characteristicTypes>Catalog.ВидыКонтактнойИнформации</characteristicTypes>
@@ -154,10 +162,14 @@
     <typesFilterValue xsi:type="core:ReferenceValue">
       <value>Catalog.ВидыКонтактнойИнформации.СправочникПользователи</value>
     </typesFilterValue>
+    <dataPathField>-1</dataPathField>
+    <multipleValuesUseField>-1</multipleValuesUseField>
     <characteristicValues>Catalog.Пользователи.TabularSection.КонтактнаяИнформация</characteristicValues>
     <objectField>Catalog.Пользователи.TabularSection.КонтактнаяИнформация.StandardAttribute.Ref</objectField>
     <typeField>Catalog.Пользователи.TabularSection.КонтактнаяИнформация.Attribute.ВидДляСписка</typeField>
     <valueField>Catalog.Пользователи.TabularSection.КонтактнаяИнформация.Attribute.Представление</valueField>
+    <multipleValuesKeyField>-1</multipleValuesKeyField>
+    <multipleValuesOrderField>-1</multipleValuesOrderField>
   </characteristics>
   <createOnInput>Use</createOnInput>
   <includeHelpInContents>true</includeHelpInContents>
@@ -195,9 +207,9 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Пользователь больше не работает в программе, но сведения о нем сохранены.
+      <value>Пользователь больше не работает в приложении, но сведения о нем сохранены.
 Недействительные пользователи скрываются из всех списков
-при выборе или подборе в документах и других местах программы.</value>
+при выборе или подборе в документах и других местах приложения.</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -280,7 +292,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Неразделенный или разделенный служебный пользователь, права к которому устанавливаются непосредственно и программно.</value>
+      <value>Служебный пользователь для автоматизации некоторых действий в приложении (права не настраиваются интерактивно).</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -346,10 +358,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="d854b528-8456-4453-9c2d-4f96caf10481">
-    <name>СвойстваПользователяИБ</name>
+    <name>УдалитьСвойстваПользователяИБ</name>
     <synonym>
       <key>ru</key>
-      <value>Свойства пользователя ИБ</value>
+      <value>(не используется) Свойства пользователя ИБ</value>
     </synonym>
     <type>
       <types>ValueStorage</types>
@@ -793,7 +805,7 @@
     <name>ОграничениеНаВходВПрограмму</name>
     <synonym>
       <key>ru</key>
-      <value>Ограничение на вход в программу</value>
+      <value>Ограничение на вход в приложение</value>
     </synonym>
     <help>
       <pages>

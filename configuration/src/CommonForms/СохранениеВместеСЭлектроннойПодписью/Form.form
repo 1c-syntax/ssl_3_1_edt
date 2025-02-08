@@ -120,6 +120,10 @@
       <items xsi:type="form:FormField">
         <name>ТаблицаПодписейПометка</name>
         <id>59</id>
+        <title>
+          <key>ru</key>
+          <value>Пометка</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -130,7 +134,7 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>ТаблицаПодписейПометкаExtendedTooltip</name>
+          <name>ТаблицаПодписейПометкаРасширеннаяПодсказка</name>
           <id>67</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -177,7 +181,7 @@
           <segments>ТаблицаПодписей.КомуВыданСертификат</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ТаблицаПодписейАвторПодписиExtendedTooltip</name>
+          <name>ТаблицаПодписейАвторПодписиРасширеннаяПодсказка</name>
           <id>68</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -219,6 +223,10 @@
       <items xsi:type="form:FormField">
         <name>ТаблицаПодписейДатаПодписи</name>
         <id>39</id>
+        <title>
+          <key>ru</key>
+          <value>Дата подписи</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -228,7 +236,7 @@
           <segments>ТаблицаПодписей.ДатаПодписи</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ТаблицаПодписейДатаПодписиExtendedTooltip</name>
+          <name>ТаблицаПодписейДатаПодписиРасширеннаяПодсказка</name>
           <id>69</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -269,6 +277,10 @@
       <items xsi:type="form:FormField">
         <name>ТаблицаПодписейКомментарий</name>
         <id>41</id>
+        <title>
+          <key>ru</key>
+          <value>Комментарий</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -278,7 +290,7 @@
           <segments>ТаблицаПодписей.Комментарий</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ТаблицаПодписейКомментарийExtendedTooltip</name>
+          <name>ТаблицаПодписейКомментарийРасширеннаяПодсказка</name>
           <id>70</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -315,6 +327,61 @@
           <wrap>true</wrap>
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>ТаблицаПодписейМашиночитаемаяДоверенность</name>
+        <id>97</id>
+        <title>
+          <key>ru</key>
+          <value>Машиночитаемая доверенность</value>
+        </title>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ТаблицаПодписей.МашиночитаемаяДоверенностьПредставление</segments>
+        </dataPath>
+        <extendedTooltip>
+          <name>ТаблицаПодписейМашиночитаемаяДоверенностьРасширеннаяПодсказка</name>
+          <id>99</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ТаблицаПодписейМашиночитаемаяДоверенностьКонтекстноеМеню</name>
+          <id>98</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <readOnly>true</readOnly>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <height>2</height>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+          <heightControlVariant>ByContent</heightControlVariant>
         </extInfo>
       </items>
       <commandBarLocation>None</commandBarLocation>
@@ -446,7 +513,7 @@
         </extInfo>
       </searchControlAddition>
       <extendedTooltip>
-        <name>ТаблицаПодписейExtendedTooltip</name>
+        <name>ТаблицаПодписейРасширеннаяПодсказка</name>
         <id>66</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -596,7 +663,7 @@
     </toolTip>
     <toolTipRepresentation>Button</toolTipRepresentation>
     <extendedTooltip>
-      <name>БольшеНеСпрашиватьExtendedTooltip</name>
+      <name>БольшеНеСпрашиватьРасширеннаяПодсказка</name>
       <id>71</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -634,13 +701,17 @@
     <items xsi:type="form:Button">
       <name>ФормаОК</name>
       <id>33</id>
+      <title>
+        <key>ru</key>
+        <value>Сохранить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОКExtendedTooltip</name>
+        <name>ФормаОКРасширеннаяПодсказка</name>
         <id>64</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -671,7 +742,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОтменаExtendedTooltip</name>
+        <name>ФормаОтменаРасширеннаяПодсказка</name>
         <id>65</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -709,6 +780,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -866,6 +938,51 @@
         <stringQualifiers>
           <length>3</length>
         </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>МашиночитаемаяДоверенность</name>
+      <id>13</id>
+      <valueType>
+        <types>ValueList</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>МашиночитаемаяДоверенностьПредставление</name>
+      <title>
+        <key>ru</key>
+        <value>Машиночитаемая доверенность представление</value>
+      </title>
+      <id>14</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Отпечаток</name>
+      <id>9</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
       </valueType>
       <view>
         <common>true</common>

@@ -195,6 +195,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="a805d33c-2cb0-4862-943f-06ded997b940">
+    <name>ОтключенАвтоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отключен автоматически</value>
+    </synonym>
+    <comment>Отключен из-за часто повторяющейся ошибке при выполнении обмена</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="32b11498-542f-46b2-829f-1525936ab7fa">
     <producedTypes>
       <objectType typeId="c3ba48a0-2883-49cf-8127-e08789b81004" valueTypeId="a6e8f9db-43ac-4e39-b9c4-9f4e260ffbe0"/>
@@ -304,6 +320,15 @@
     <synonym>
       <key>ru</key>
       <value>Настройка расписания обменов данными</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="87ed7963-c2e4-4515-b768-47cf72442fd0">
+    <name>ВыборУзлаПланаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор узла плана обмена</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

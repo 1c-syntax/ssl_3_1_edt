@@ -299,6 +299,10 @@
     <items xsi:type="form:Button">
       <name>СписокСостоянийОригиналаВыбрать</name>
       <id>17</id>
+      <title>
+        <key>ru</key>
+        <value>Выбрать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -333,6 +337,10 @@
       <items xsi:type="form:Button">
         <name>УстановитьВсеФлажки</name>
         <id>22</id>
+        <title>
+          <key>ru</key>
+          <value>Установить все флажки</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -363,6 +371,10 @@
       <items xsi:type="form:Button">
         <name>СнятьВсеФлажки</name>
         <id>24</id>
+        <title>
+          <key>ru</key>
+          <value>Снять все флажки</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -429,6 +441,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -501,7 +514,7 @@
     </action>
     <currentRowUse>Auto</currentRowUse>
     <associatedTableElementId xsi:type="core:StringValue">
-      <value>351:02023637-7868-4a5f-8576-835a76e0c9ba</value>
+      <value>СписокСостоянийОригинала</value>
     </associatedTableElementId>
   </formCommands>
   <formCommands>
@@ -527,7 +540,16 @@
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>
+    <associatedTableElementId xsi:type="core:StringValue">
+      <value>СписокСостоянийОригинала</value>
+    </associatedTableElementId>
   </formCommands>
+  <parameters>
+    <name>СписокСостояний</name>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

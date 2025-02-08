@@ -54,6 +54,10 @@
       <items xsi:type="form:FormField">
         <name>ИнформацияСервера</name>
         <id>53</id>
+        <title>
+          <key>ru</key>
+          <value>Информация сервера</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -96,7 +100,7 @@
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
           <autoMaxWidth>true</autoMaxWidth>
-          <height>2</height>
+          <height>3</height>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
           <multiLine>true</multiLine>
@@ -181,6 +185,10 @@
     <items xsi:type="form:FormField">
       <name>Сертификат</name>
       <id>3</id>
+      <title>
+        <key>ru</key>
+        <value>Сертификат</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -236,6 +244,10 @@
       <items xsi:type="form:FormField">
         <name>СпособПодтверждения</name>
         <id>6</id>
+        <title>
+          <key>ru</key>
+          <value>Способ подтверждения</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -284,6 +296,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <wrap>true</wrap>
+          <choiceButton>false</choiceButton>
           <listChoiceMode>true</listChoiceMode>
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
@@ -325,6 +338,10 @@
     <items xsi:type="form:FormField">
       <name>Документы</name>
       <id>9</id>
+      <title>
+        <key>ru</key>
+        <value>Документы</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -416,6 +433,10 @@
       <items xsi:type="form:FormField">
         <name>ГрафическийКод</name>
         <id>34</id>
+        <title>
+          <key>ru</key>
+          <value>Графический код</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -602,6 +623,10 @@
       <items xsi:type="form:Button">
         <name>ОК</name>
         <id>32</id>
+        <title>
+          <key>ru</key>
+          <value>ОК</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -830,6 +855,10 @@
     <items xsi:type="form:FormField">
       <name>Осталось</name>
       <id>20</id>
+      <title>
+        <key>ru</key>
+        <value>Осталось</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -999,6 +1028,7 @@
   </handlers>
   <width>55</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -1088,6 +1118,8 @@
     <id>6</id>
     <valueType>
       <types>EnumRef.СпособыАвторизацииDSS</types>
+      <types>String</types>
+      <stringQualifiers/>
     </valueType>
     <view>
       <common>true</common>

@@ -13,7 +13,7 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>ПользователиСервиса</segments>
+      <segments>ТаблицаПользователиСервиса</segments>
     </dataPath>
     <titleLocation>None</titleLocation>
     <excludedCommands>Add</excludedCommands>
@@ -29,17 +29,21 @@
     <items xsi:type="form:FormField">
       <name>ПользователиСервисаДобавить</name>
       <id>16</id>
+      <title>
+        <key>ru</key>
+        <value>Добавить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>ПользователиСервиса.Добавить</segments>
+        <segments>ТаблицаПользователиСервиса.Добавить</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>ПользователиСервисаДобавитьExtendedTooltip</name>
+        <name>ПользователиСервисаДобавитьРасширеннаяПодсказка</name>
         <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -73,16 +77,20 @@
     <items xsi:type="form:FormField">
       <name>ПользователиСервисаИмя</name>
       <id>4</id>
+      <title>
+        <key>ru</key>
+        <value>Имя</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>ПользователиСервиса.Имя</segments>
+        <segments>ТаблицаПользователиСервиса.Имя</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПользователиСервисаИмяExtendedTooltip</name>
+        <name>ПользователиСервисаИмяРасширеннаяПодсказка</name>
         <id>27</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -119,16 +127,20 @@
     <items xsi:type="form:FormField">
       <name>ПользователиСервисаПолноеИмя</name>
       <id>6</id>
+      <title>
+        <key>ru</key>
+        <value>Полное имя</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>ПользователиСервиса.ПолноеИмя</segments>
+        <segments>ТаблицаПользователиСервиса.ПолноеИмя</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПользователиСервисаПолноеИмяExtendedTooltip</name>
+        <name>ПользователиСервисаПолноеИмяРасширеннаяПодсказка</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -165,15 +177,19 @@
     <items xsi:type="form:FormField">
       <name>ПользователиСервисаИдентификатор</name>
       <id>12</id>
+      <title>
+        <key>ru</key>
+        <value>Идентификатор</value>
+      </title>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>ПользователиСервиса.Идентификатор</segments>
+        <segments>ТаблицаПользователиСервиса.Идентификатор</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПользователиСервисаИдентификаторExtendedTooltip</name>
+        <name>ПользователиСервисаИдентификаторРасширеннаяПодсказка</name>
         <id>29</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -210,16 +226,20 @@
     <items xsi:type="form:FormField">
       <name>ПользователиСервисаДоступ</name>
       <id>14</id>
+      <title>
+        <key>ru</key>
+        <value>Доступ</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>ПользователиСервиса.Доступ</segments>
+        <segments>ТаблицаПользователиСервиса.Доступ</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПользователиСервисаДоступExtendedTooltip</name>
+        <name>ПользователиСервисаДоступРасширеннаяПодсказка</name>
         <id>30</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -254,17 +274,89 @@
     <autoCommandBar>
       <name>ПользователиСервисаКоманднаяПанель</name>
       <id>3</id>
-      <items xsi:type="form:Button">
-        <name>ПользователиСервисаУстановитьВсе</name>
-        <id>18</id>
+      <items xsi:type="form:FormGroup">
+        <name>ПользователиСервисаГруппаКомандФлажки</name>
+        <id>43</id>
+        <items xsi:type="form:Button">
+          <name>ПользователиСервисаУстановитьВсе</name>
+          <id>18</id>
+          <title>
+            <key>ru</key>
+            <value>Установить все</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ПользователиСервисаУстановитьВсеРасширеннаяПодсказка</name>
+            <id>23</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.УстановитьВсе</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <items xsi:type="form:Button">
+          <name>ПользователиСервисаСнятьВсе</name>
+          <id>19</id>
+          <title>
+            <key>ru</key>
+            <value>Снять все</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ПользователиСервисаСнятьВсеРасширеннаяПодсказка</name>
+            <id>24</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.СнятьВсе</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Пользователи сервиса группа команд флажки</value>
+        </title>
         <extendedTooltip>
-          <name>ПользователиСервисаУстановитьВсеExtendedTooltip</name>
-          <id>23</id>
+          <name>ПользователиСервисаГруппаКомандФлажкиРасширеннаяПодсказка</name>
+          <id>44</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -277,42 +369,9 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <commandName>Form.Command.УстановитьВсе</commandName>
-        <representation>Auto</representation>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <placementArea>UserCmds</placementArea>
-        <representationInContextMenu>Auto</representationInContextMenu>
-      </items>
-      <items xsi:type="form:Button">
-        <name>ПользователиСервисаСнятьВсе</name>
-        <id>19</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>ПользователиСервисаСнятьВсеExtendedTooltip</name>
-          <id>24</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <commandName>Form.Command.СнятьВсе</commandName>
-        <representation>Auto</representation>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <placementArea>UserCmds</placementArea>
-        <representationInContextMenu>Auto</representationInContextMenu>
+        <extInfo xsi:type="form:ButtonGroupExtInfo">
+          <representation>Compact</representation>
+        </extInfo>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -439,7 +498,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ПользователиСервисаExtendedTooltip</name>
+      <name>ПользователиСервисаРасширеннаяПодсказка</name>
       <id>25</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -491,13 +550,17 @@
     <items xsi:type="form:Button">
       <name>ДобавитьВыбранныхПользователей</name>
       <id>21</id>
+      <title>
+        <key>ru</key>
+        <value>Добавить выбранных пользователей</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ДобавитьВыбранныхПользователейExtendedTooltip</name>
+        <name>ДобавитьВыбранныхПользователейРасширеннаяПодсказка</name>
         <id>32</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -528,7 +591,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОтменаExtendedTooltip</name>
+        <name>ОтменаРасширеннаяПодсказка</name>
         <id>33</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -564,6 +627,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -573,10 +637,10 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <attributes>
-    <name>ПользователиСервиса</name>
+    <name>ТаблицаПользователиСервиса</name>
     <title>
       <key>ru</key>
-      <value>Пользователи сервиса</value>
+      <value>Таблица пользователи сервиса</value>
     </title>
     <id>1</id>
     <valueType>

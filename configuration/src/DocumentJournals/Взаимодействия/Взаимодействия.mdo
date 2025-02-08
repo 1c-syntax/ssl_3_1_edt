@@ -144,7 +144,7 @@
     <name>УчетнаяЗапись</name>
     <synonym>
       <key>ru</key>
-      <value>Учетная запись</value>
+      <value>Почта</value>
     </synonym>
     <indexing>IndexWithAdditionalOrder</indexing>
     <references>Document.ЭлектронноеПисьмоВходящее.Attribute.УчетнаяЗапись</references>
@@ -554,10 +554,10 @@
     </picture>
   </commands>
   <commands uuid="8c241467-76f7-4161-a8a1-5da4a6576b75">
-    <name>СохранитьПисьмоНаДиск</name>
+    <name>СохранитьПисьмо</name>
     <synonym>
       <key>ru</key>
-      <value>Сохранить письмо на диск</value>
+      <value>Сохранить письмо на компьютер</value>
     </synonym>
     <group>FormCommandBarImportant</group>
     <commandParameterType>
@@ -567,7 +567,7 @@
     <representation>PictureAndText</representation>
     <toolTip>
       <key>ru</key>
-      <value>Сохранить письмо на диск в формате eml</value>
+      <value>Сохранить письмо на компьютер в формате EML</value>
     </toolTip>
     <picture xsi:type="core:PictureRef">
       <picture>CommonPicture.СохранитьФайлКак</picture>

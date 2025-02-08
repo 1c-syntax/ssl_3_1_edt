@@ -35,7 +35,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -89,7 +89,7 @@
         <segments>Список.Code</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КодExtendedTooltip</name>
+        <name>КодРасширеннаяПодсказка</name>
         <id>25</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -140,7 +140,7 @@
         <segments>Список.КоррСчет</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КоррСчетExtendedTooltip</name>
+        <name>КоррСчетРасширеннаяПодсказка</name>
         <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -187,7 +187,7 @@
         <segments>Список.Город</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ГородExtendedTooltip</name>
+        <name>ГородРасширеннаяПодсказка</name>
         <id>27</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -237,7 +237,7 @@
         <segments>Список.Адрес</segments>
       </dataPath>
       <extendedTooltip>
-        <name>АдресExtendedTooltip</name>
+        <name>АдресРасширеннаяПодсказка</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -284,7 +284,7 @@
         <segments>Список.Телефоны</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТелефоныExtendedTooltip</name>
+        <name>ТелефоныРасширеннаяПодсказка</name>
         <id>29</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -491,7 +491,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>23</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -545,6 +545,7 @@
         <endDate>0001-01-01T00:00:00</endDate>
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -553,13 +554,17 @@
     <items xsi:type="form:Button">
       <name>ФормаЗагрузитьКлассификатор</name>
       <id>20</id>
+      <title>
+        <key>ru</key>
+        <value>Загрузить классификатор</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗагрузитьКлассификаторExtendedTooltip</name>
+        <name>ФормаЗагрузитьКлассификаторРасширеннаяПодсказка</name>
         <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -583,13 +588,17 @@
     <items xsi:type="form:Button">
       <name>ФормаПоказыватьНедействующиеБанки</name>
       <id>19</id>
+      <title>
+        <key>ru</key>
+        <value>Показывать недействующие банки</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаПоказыватьНедействующиеБанкиExtendedTooltip</name>
+        <name>ФормаПоказыватьНедействующиеБанкиРасширеннаяПодсказка</name>
         <id>22</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -628,6 +637,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

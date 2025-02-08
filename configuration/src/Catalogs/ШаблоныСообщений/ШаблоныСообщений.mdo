@@ -183,6 +183,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="0f0ac56d-b068-46f2-8440-731683c2b42a">
+    <name>ДобавлятьПрисоединенныеФайлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавлять присоединенные файлы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="5814cb3a-8f7c-45b4-a590-b69d4912120f">
     <name>Назначение</name>
     <synonym>
@@ -243,6 +258,25 @@
     <toolTip>
       <key>ru</key>
       <value>Признак необходимости конвертирования текста SMS сообщения в латиницу</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5c17a594-eb0b-4cdf-af35-0eaba968e065">
+    <name>ПодписьИПечать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подпись и печать</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Добавляет факсимильную подпись и печать в печатную форму</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -325,6 +359,27 @@
       <key>ru</key>
       <value>Признак того, что шаблон предназначен для создания электронных писем</value>
     </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c1bcfc01-529c-4774-a79b-052eee157f2d">
+    <name>ТекстШаблонаПроизвольный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст шаблона произвольный</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Текст, который будет использоваться в качестве произвольного шаблона сообщения.</value>
+    </toolTip>
+    <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
@@ -533,25 +588,6 @@
     <toolTip>
       <key>ru</key>
       <value>Признак, что шаблон формируется внешней обработкой.</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="5c17a594-eb0b-4cdf-af35-0eaba968e065">
-    <name>ПодписьИПечать</name>
-    <synonym>
-      <key>ru</key>
-      <value>Подпись и печать</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Добавляет факсимильную подпись и печать в печатную форму</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

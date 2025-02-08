@@ -43,43 +43,16 @@
   <items xsi:type="form:FormGroup">
     <name>КоманднаяПанель</name>
     <id>42</id>
-    <items xsi:type="form:Button">
-      <name>ФормаИзменить</name>
-      <id>23</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>ФормаИзменитьExtendedTooltip</name>
-        <id>25</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <commandName>Form.Item.Список.StandardCommand.Change</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
-    </items>
     <items xsi:type="form:FormGroup">
       <name>ФормаГруппа3</name>
       <id>24</id>
       <items xsi:type="form:Button">
         <name>ФормаИспользоватьТиповыеПравила</name>
         <id>40</id>
+        <title>
+          <key>ru</key>
+          <value>Использовать типовые правила</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -106,17 +79,22 @@
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>ФормаОбновитьВсеТиповыеПравила</name>
         <id>14</id>
+        <title>
+          <key>ru</key>
+          <value>Обновить все типовые правила</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаОбновитьВсеТиповыеПравилаExtendedTooltip</name>
+          <name>ФормаОбновитьВсеТиповыеПравилаРасширеннаяПодсказка</name>
           <id>27</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -148,7 +126,7 @@
         <value>Форма группа 3</value>
       </title>
       <extendedTooltip>
-        <name>ФормаГруппа3ExtendedTooltip</name>
+        <name>ФормаГруппа3РасширеннаяПодсказка</name>
         <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -176,7 +154,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаНайтиExtendedTooltip</name>
+          <name>ФормаНайтиРасширеннаяПодсказка</name>
           <id>29</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -207,7 +185,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаОтменитьПоискExtendedTooltip</name>
+          <name>ФормаОтменитьПоискРасширеннаяПодсказка</name>
           <id>30</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -239,7 +217,7 @@
         <value>Форма группа 1</value>
       </title>
       <extendedTooltip>
-        <name>ФормаГруппа1ExtendedTooltip</name>
+        <name>ФормаГруппа1РасширеннаяПодсказка</name>
         <id>28</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -267,7 +245,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаОбновитьExtendedTooltip</name>
+          <name>ФормаОбновитьРасширеннаяПодсказка</name>
           <id>32</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -297,7 +275,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаНастройкаСпискаExtendedTooltip</name>
+          <name>ФормаНастройкаСпискаРасширеннаяПодсказка</name>
           <id>33</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -327,7 +305,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаВывестиСписокExtendedTooltip</name>
+          <name>ФормаВывестиСписокРасширеннаяПодсказка</name>
           <id>34</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -357,7 +335,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаКопироватьВБуферОбменаExtendedTooltip</name>
+          <name>ФормаКопироватьВБуферОбменаРасширеннаяПодсказка</name>
           <id>35</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -389,7 +367,7 @@
         <value>Форма группа 2</value>
       </title>
       <extendedTooltip>
-        <name>ФормаГруппа2ExtendedTooltip</name>
+        <name>ФормаГруппа2РасширеннаяПодсказка</name>
         <id>31</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -471,7 +449,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>ИмяПланаОбменаExtendedTooltip</name>
+        <name>ИмяПланаОбменаРасширеннаяПодсказка</name>
         <id>37</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -518,7 +496,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>ВидПравилExtendedTooltip</name>
+        <name>ВидПравилРасширеннаяПодсказка</name>
         <id>38</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -565,7 +543,7 @@
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>ИсточникПравилExtendedTooltip</name>
+        <name>ИсточникПравилРасширеннаяПодсказка</name>
         <id>39</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -603,6 +581,37 @@
     <autoCommandBar>
       <name>СписокКоманднаяПанель</name>
       <id>3</id>
+      <items xsi:type="form:Button">
+        <name>СписокИзменить</name>
+        <id>57</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>СписокИзменитьРасширеннаяПодсказка</name>
+          <id>58</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Item.Список.StandardCommand.Change</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InCommandBar</locationInCommandBar>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -731,7 +740,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>36</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -785,6 +794,7 @@
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
       <userSettingsGroup>ПользовательскиеОтборы</userSettingsGroup>
     </extInfo>
   </items>
@@ -805,6 +815,7 @@
   <excludedCommands>Copy</excludedCommands>
   <excludedCommands>Create</excludedCommands>
   <excludedCommands>Delete</excludedCommands>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

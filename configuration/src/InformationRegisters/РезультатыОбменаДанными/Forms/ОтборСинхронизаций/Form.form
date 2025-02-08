@@ -23,6 +23,10 @@
       <items xsi:type="form:FormField">
         <name>СписокСинхронизацийИспользование</name>
         <id>53</id>
+        <title>
+          <key>ru</key>
+          <value>...</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -67,6 +71,10 @@
       <items xsi:type="form:FormField">
         <name>СписокСинхронизацийСинхронизация</name>
         <id>50</id>
+        <title>
+          <key>ru</key>
+          <value>Синхронизация</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -296,7 +304,7 @@
     </userVisible>
     <title>
       <key>ru</key>
-      <value>Группа1</value>
+      <value>Группа</value>
     </title>
     <extendedTooltip>
       <name>Группа1РасширеннаяПодсказка</name>
@@ -369,6 +377,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОК</name>
       <id>35</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -400,6 +412,10 @@
     <items xsi:type="form:Button">
       <name>ФормаВыключитьВсе</name>
       <id>56</id>
+      <title>
+        <key>ru</key>
+        <value>Сбросить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -469,6 +485,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

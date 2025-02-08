@@ -39,6 +39,10 @@
         <items xsi:type="form:FormField">
           <name>ВыбранныеФайлыИндексКартинки</name>
           <id>30</id>
+          <title>
+            <key>ru</key>
+            <value>Индекс картинки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -48,7 +52,7 @@
             <segments>ВыбранныеФайлы.ИндексКартинки</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ВыбранныеФайлыИндексКартинкиExtendedTooltip</name>
+            <name>ВыбранныеФайлыИндексКартинкиРасширеннаяПодсказка</name>
             <id>44</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -90,6 +94,10 @@
         <items xsi:type="form:FormField">
           <name>ВыбранныеСсылка</name>
           <id>32</id>
+          <title>
+            <key>ru</key>
+            <value>Ссылка</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -143,7 +151,7 @@
           <value>Картинка и наименование</value>
         </title>
         <extendedTooltip>
-          <name>КартинкаИНаименованиеExtendedTooltip</name>
+          <name>КартинкаИНаименованиеРасширеннаяПодсказка</name>
           <id>43</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -296,7 +304,7 @@
         </extInfo>
       </searchControlAddition>
       <extendedTooltip>
-        <name>ВыбранныеФайлыExtendedTooltip</name>
+        <name>ВыбранныеФайлыРасширеннаяПодсказка</name>
         <id>42</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -343,7 +351,7 @@
       <borderColor xsi:type="core:ColorRef">
         <color>Style.BorderColor</color>
       </borderColor>
-      <searchStringLocation>None</searchStringLocation>
+      <searchStringLocation>Top</searchStringLocation>
       <viewStatusLocation>None</viewStatusLocation>
       <searchControlLocation>None</searchControlLocation>
       <currentRowUse>SelectionPresentationAndChoice</currentRowUse>
@@ -398,7 +406,7 @@
       <segments>Комментарий</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ОписаниеExtendedTooltip</name>
+      <name>ОписаниеРасширеннаяПодсказка</name>
       <id>48</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -444,6 +452,10 @@
   <items xsi:type="form:FormField">
     <name>ХранитьВерсии</name>
     <id>21</id>
+    <title>
+      <key>ru</key>
+      <value>Хранить версии</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -454,7 +466,7 @@
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
-      <name>ХранитьВерсииExtendedTooltip</name>
+      <name>ХранитьВерсииРасширеннаяПодсказка</name>
       <id>49</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -492,6 +504,10 @@
     <items xsi:type="form:Button">
       <name>ЗакончитьРедактирование</name>
       <id>4</id>
+      <title>
+        <key>ru</key>
+        <value>Закончить редактирование</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -540,7 +556,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОтменаExtendedTooltip</name>
+        <name>ОтменаРасширеннаяПодсказка</name>
         <id>55</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -580,7 +596,7 @@
       <value>Основная командная панель</value>
     </title>
     <extendedTooltip>
-      <name>ОсновнаяКоманднаяПанельExtendedTooltip</name>
+      <name>ОсновнаяКоманднаяПанельРасширеннаяПодсказка</name>
       <id>53</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -621,6 +637,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -790,7 +807,7 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ВозможностьСоздаватьВерсииФайлов</name>
+    <name>ЕстьВерсииФайлов</name>
     <id>13</id>
     <valueType>
       <types>Boolean</types>
@@ -842,7 +859,7 @@
     <valueType/>
   </parameters>
   <parameters>
-    <name>ВозможностьСоздаватьВерсииФайлов</name>
+    <name>ЕстьВерсииФайлов</name>
     <valueType>
       <types>Boolean</types>
     </valueType>

@@ -54,6 +54,10 @@
   <items xsi:type="form:FormField">
     <name>ДатаВозникновения</name>
     <id>35</id>
+    <title>
+      <key>ru</key>
+      <value>Дата возникновения</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -105,6 +109,10 @@
   <items xsi:type="form:FormField">
     <name>УзелИнформационнойБазы</name>
     <id>13</id>
+    <title>
+      <key>ru</key>
+      <value>Синхронизация</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -155,6 +163,10 @@
     <items xsi:type="form:FormField">
       <name>ПроблемныйОбъект</name>
       <id>10</id>
+      <title>
+        <key>ru</key>
+        <value>Объект</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -243,6 +255,10 @@
     <items xsi:type="form:Button">
       <name>ПоказатьОтличия</name>
       <id>28</id>
+      <title>
+        <key>ru</key>
+        <value>Показать отличия</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -273,6 +289,10 @@
     <items xsi:type="form:Button">
       <name>ОткрытьВерсиюВЭтойПрограмме</name>
       <id>26</id>
+      <title>
+        <key>ru</key>
+        <value>Показать версию в этой программе</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -303,6 +323,10 @@
     <items xsi:type="form:Button">
       <name>ОткрытьВерсию</name>
       <id>24</id>
+      <title>
+        <key>ru</key>
+        <value>Показать версию из другой программы</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -333,6 +357,10 @@
     <items xsi:type="form:Button">
       <name>ПересмотретьРезультатРешенияКоллизии</name>
       <id>30</id>
+      <title>
+        <key>ru</key>
+        <value>Пересмотреть результат</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -392,6 +420,10 @@
   <items xsi:type="form:FormField">
     <name>Описание</name>
     <id>4</id>
+    <title>
+      <key>ru</key>
+      <value>Описание</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -444,6 +476,10 @@
   <items xsi:type="form:FormField">
     <name>КомментарийПредупреждения</name>
     <id>32</id>
+    <title>
+      <key>ru</key>
+      <value>Комментарий администратора к предупреждению синхронизации</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -502,6 +538,10 @@
     <items xsi:type="form:FormField">
       <name>СкрытьПредупреждение</name>
       <id>40</id>
+      <title>
+        <key>ru</key>
+        <value>Скрыть предупреждение</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -595,6 +635,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОК</name>
       <id>16</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -669,6 +713,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

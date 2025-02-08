@@ -198,6 +198,10 @@
   <items xsi:type="form:FormField">
     <name>Результат</name>
     <id>13</id>
+    <title>
+      <key>ru</key>
+      <value>Результат</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -264,6 +268,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСформироватьОтчет</name>
       <id>18</id>
+      <title>
+        <key>ru</key>
+        <value>Сформировать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -295,6 +303,10 @@
     <items xsi:type="form:Button">
       <name>ФормаНастройкиОтчета</name>
       <id>19</id>
+      <title>
+        <key>ru</key>
+        <value>Настройки...</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -325,6 +337,10 @@
     <items xsi:type="form:Button">
       <name>ФормаВыбратьНастройку</name>
       <id>20</id>
+      <title>
+        <key>ru</key>
+        <value>Выбрать настройку</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -356,6 +372,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСохранитьНастройку</name>
       <id>21</id>
+      <title>
+        <key>ru</key>
+        <value>Сохранить настройку</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -387,6 +407,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСтандартнаяНастройка</name>
       <id>22</id>
+      <title>
+        <key>ru</key>
+        <value>Установить стандартные настройки</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -435,6 +459,7 @@
     <event>OnClose</event>
     <name>ПриЗакрытии</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

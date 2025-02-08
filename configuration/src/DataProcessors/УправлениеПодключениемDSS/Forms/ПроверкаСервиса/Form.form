@@ -69,6 +69,10 @@
           <items xsi:type="form:Button">
             <name>Начать</name>
             <id>8</id>
+            <title>
+              <key>ru</key>
+              <value>Начать</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -137,6 +141,10 @@
         <items xsi:type="form:Button">
           <name>Отмена</name>
           <id>10</id>
+          <title>
+            <key>ru</key>
+            <value>Отмена</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -416,6 +424,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

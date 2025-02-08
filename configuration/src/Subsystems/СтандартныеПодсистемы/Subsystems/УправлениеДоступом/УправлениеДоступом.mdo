@@ -19,7 +19,7 @@
   <content>CommonModule.УправлениеДоступомПереопределяемый</content>
   <content>SessionParameter.ВерсииШаблоновОграниченияДоступа</content>
   <content>CommonModule.УправлениеДоступом</content>
-  <content>EventSubscription.ОбновитьГруппыЗначенийДоступа</content>
+  <content>EventSubscription.ОбновитьГруппыЗначенийДоступаПередЗаписью</content>
   <content>EventSubscription.ЗаписатьНаборыЗначенийДоступа</content>
   <content>ScheduledJob.ОбновлениеДоступаНаУровнеЗаписей</content>
   <content>CommonModule.УправлениеДоступомСлужебныйВызовСервера</content>
@@ -46,7 +46,7 @@
   <content>CommonCommand.ПраваДоступа</content>
   <content>DefinedType.ВладелецСОграничениемПоНаборамЗначенийДоступаОбъект</content>
   <content>InformationRegister.ПраваРолей</content>
-  <content>StyleItem.ЗапрещенноеПравоДоступа</content>
+  <content>StyleItem.ЗапрещенноеПравоДоступаЦвет</content>
   <content>SessionParameter.СпискиСОграничениемЧерезКлючиДоступаПользователей</content>
   <content>CommonCommand.НастроитьПрава</content>
   <content>SessionParameter.РазрешенныйНаборГруппПользователей</content>
@@ -111,11 +111,11 @@
   <content>EventSubscription.ПроверитьДоступПередУдалениемДокумента</content>
   <content>EventSubscription.ПроверитьДоступПередУдалением</content>
   <content>Constant.ПервоеОбновлениеДоступаЗавершилось</content>
-  <content>EventSubscription.ОбновитьЗначенияГруппДоступа</content>
+  <content>EventSubscription.ОбновитьГруппыЗначенийДоступаПриЗаписи</content>
   <content>Report.АнализПравДоступа</content>
-  <content>CommonPicture.Создание</content>
-  <content>CommonPicture.Редактирование</content>
-  <content>CommonPicture.Просмотр</content>
+  <content>CommonPicture.УровеньДоступаСоздание</content>
+  <content>CommonPicture.УровеньДоступаРедактирование</content>
+  <content>CommonPicture.УровеньДоступаПросмотр</content>
   <content>StyleItem.ПравоПросмотраФон</content>
   <content>StyleItem.ПравоРедактированияФон</content>
   <content>StyleItem.ПравоСозданияФон</content>
@@ -124,5 +124,22 @@
   <content>EventSubscription.ЗаполнитьНаборыЗначенийДоступаТабличныхЧастейДокументов</content>
   <content>InformationRegister.ИспользуемыеВидыДоступаПоТаблицам</content>
   <content>InformationRegister.ИспользуемыеВидыДоступа</content>
+  <content>CommonPicture.НаследованиеВключено</content>
+  <content>CommonPicture.НаследованиеОтключено</content>
+  <content>CommonPicture.НаследованиеВключеноСПапкой</content>
+  <content>CommonPicture.НаследованиеОтключеноСПапкой</content>
+  <content>Report.ПраваРолей</content>
+  <content>CommonPicture.УровеньДоступаАдминистрированиеИсточника</content>
+  <content>CommonPicture.УровеньДоступаЕстьПраво</content>
+  <content>CommonPicture.УровеньДоступаИспользование</content>
+  <content>CommonPicture.УровеньДоступаИспользованиеИАдминистрированиеИсточника</content>
+  <content>CommonPicture.УровеньДоступаИспользованиеИсточника</content>
+  <content>CommonPicture.УровеньДоступаПолучение</content>
+  <content>CommonPicture.УровеньДоступаПолучениеИУстановка</content>
+  <content>CommonPicture.УровеньДоступаУстановка</content>
+  <content>StyleItem.ВычисленноеПравоДоступаЦвет</content>
+  <content>StyleItem.НеназначенноеПравоДоступаЦвет</content>
+  <content>StyleItem.РазрешенноеПравоДоступаЦвет</content>
+  <content>Report.УчастникиГруппДоступа</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

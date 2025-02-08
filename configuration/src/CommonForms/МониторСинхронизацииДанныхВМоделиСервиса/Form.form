@@ -28,6 +28,10 @@
     <items xsi:type="form:FormField">
       <name>СписокСостоянияУзловОбластьДанных</name>
       <id>51</id>
+      <title>
+        <key>ru</key>
+        <value>Область данных</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -37,7 +41,7 @@
         <segments>СписокСостоянияУзлов.ОбластьДанных</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СписокСостоянияУзловОбластьДанныхExtendedTooltip</name>
+        <name>СписокСостоянияУзловОбластьДанныхРасширеннаяПодсказка</name>
         <id>73</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -79,6 +83,10 @@
     <items xsi:type="form:FormField">
       <name>СписокСостоянияУзловИмяПланаОбмена</name>
       <id>45</id>
+      <title>
+        <key>ru</key>
+        <value>План обмена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -88,7 +96,7 @@
         <segments>СписокСостоянияУзлов.ИмяПланаОбмена</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СписокСостоянияУзловИмяПланаОбменаExtendedTooltip</name>
+        <name>СписокСостоянияУзловИмяПланаОбменаРасширеннаяПодсказка</name>
         <id>74</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -130,6 +138,10 @@
     <items xsi:type="form:FormField">
       <name>СписокСостоянияУзловУзелИнформационнойБазы</name>
       <id>10</id>
+      <title>
+        <key>ru</key>
+        <value>Приложение</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -139,7 +151,7 @@
         <segments>СписокСостоянияУзлов.УзелИнформационнойБазы</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СписокСостоянияУзловУзелИнформационнойБазыExtendedTooltip</name>
+        <name>СписокСостоянияУзловУзелИнформационнойБазыРасширеннаяПодсказка</name>
         <id>75</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -187,6 +199,10 @@
         <items xsi:type="form:FormField">
           <name>СписокСостоянияУзловРезультатПоследнейВыгрузкиДанных</name>
           <id>6</id>
+          <title>
+            <key>ru</key>
+            <value>Результат последней выгрузки данных</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -197,7 +213,7 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
-            <name>СписокСостоянияУзловРезультатПоследнейВыгрузкиДанныхExtendedTooltip</name>
+            <name>СписокСостоянияУзловРезультатПоследнейВыгрузкиДанныхРасширеннаяПодсказка</name>
             <id>78</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -239,6 +255,10 @@
         <items xsi:type="form:FormField">
           <name>СписокСостоянияУзловДатаПоследнейВыгрузки</name>
           <id>16</id>
+          <title>
+            <key>ru</key>
+            <value>Последняя попытка отправки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -248,7 +268,7 @@
             <segments>СписокСостоянияУзлов.ПредставлениеДатыПоследнейВыгрузки</segments>
           </dataPath>
           <extendedTooltip>
-            <name>СписокСостоянияУзловДатаПоследнейВыгрузкиExtendedTooltip</name>
+            <name>СписокСостоянияУзловДатаПоследнейВыгрузкиРасширеннаяПодсказка</name>
             <id>79</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -304,7 +324,7 @@
           <value>Состояния выгрузки</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаСостоянияВыгрузкиExtendedTooltip</name>
+          <name>ГруппаСостоянияВыгрузкиРасширеннаяПодсказка</name>
           <id>77</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -327,6 +347,10 @@
       <items xsi:type="form:FormField">
         <name>СписокСостоянияУзловДатаПоследнейУспешнойВыгрузки</name>
         <id>4</id>
+        <title>
+          <key>ru</key>
+          <value>Данные отправлены</value>
+        </title>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -335,7 +359,7 @@
           <segments>СписокСостоянияУзлов.ПредставлениеДатыПоследнейУспешнойВыгрузки</segments>
         </dataPath>
         <extendedTooltip>
-          <name>СписокСостоянияУзловДатаПоследнейУспешнойВыгрузкиExtendedTooltip</name>
+          <name>СписокСостоянияУзловДатаПоследнейУспешнойВыгрузкиРасширеннаяПодсказка</name>
           <id>80</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -392,7 +416,7 @@
       </title>
       <readOnly>true</readOnly>
       <extendedTooltip>
-        <name>ГруппаВыгрузкиExtendedTooltip</name>
+        <name>ГруппаВыгрузкиРасширеннаяПодсказка</name>
         <id>76</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -413,7 +437,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
-      <name>ГруппаЗагрузки</name>
+      <name>ГруппаЗагрузка</name>
       <id>48</id>
       <items xsi:type="form:FormGroup">
         <name>ГруппаСостоянияЗагрузки</name>
@@ -421,6 +445,10 @@
         <items xsi:type="form:FormField">
           <name>СписокСостоянияУзловРезультатПоследнейЗагрузкиДанных</name>
           <id>8</id>
+          <title>
+            <key>ru</key>
+            <value>Результат последней загрузки данных</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -431,7 +459,7 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
-            <name>СписокСостоянияУзловРезультатПоследнейЗагрузкиДанныхExtendedTooltip</name>
+            <name>СписокСостоянияУзловРезультатПоследнейЗагрузкиДанныхРасширеннаяПодсказка</name>
             <id>83</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -473,6 +501,10 @@
         <items xsi:type="form:FormField">
           <name>СписокСостоянияУзловДатаПоследнейЗагрузки</name>
           <id>14</id>
+          <title>
+            <key>ru</key>
+            <value>Последняя попытка получения</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -482,7 +514,7 @@
             <segments>СписокСостоянияУзлов.ПредставлениеДатыПоследнейЗагрузки</segments>
           </dataPath>
           <extendedTooltip>
-            <name>СписокСостоянияУзловДатаПоследнейЗагрузкиExtendedTooltip</name>
+            <name>СписокСостоянияУзловДатаПоследнейЗагрузкиРасширеннаяПодсказка</name>
             <id>84</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -538,7 +570,7 @@
           <value>Состояния загрузки</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаСостоянияЗагрузкиExtendedTooltip</name>
+          <name>ГруппаСостоянияЗагрузкиРасширеннаяПодсказка</name>
           <id>82</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -561,6 +593,10 @@
       <items xsi:type="form:FormField">
         <name>СписокСостоянияУзловДатаПоследнейУспешнойЗагрузки</name>
         <id>12</id>
+        <title>
+          <key>ru</key>
+          <value>Данные получены</value>
+        </title>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -569,7 +605,7 @@
           <segments>СписокСостоянияУзлов.ПредставлениеДатыПоследнейУспешнойЗагрузки</segments>
         </dataPath>
         <extendedTooltip>
-          <name>СписокСостоянияУзловДатаПоследнейУспешнойЗагрузкиExtendedTooltip</name>
+          <name>СписокСостоянияУзловДатаПоследнейУспешнойЗагрузкиРасширеннаяПодсказка</name>
           <id>85</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -626,7 +662,7 @@
       </title>
       <readOnly>true</readOnly>
       <extendedTooltip>
-        <name>ГруппаЗагрузкиExtendedTooltip</name>
+        <name>ГруппаЗагрузкаРасширеннаяПодсказка</name>
         <id>81</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -661,7 +697,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокСостоянияУзловНайтиExtendedTooltip</name>
+            <name>СписокСостоянияУзловНайтиРасширеннаяПодсказка</name>
             <id>62</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -692,7 +728,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокСостоянияУзловОтменитьПоискExtendedTooltip</name>
+            <name>СписокСостоянияУзловОтменитьПоискРасширеннаяПодсказка</name>
             <id>63</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -724,7 +760,7 @@
           <value>Состояния узлов группа найти</value>
         </title>
         <extendedTooltip>
-          <name>СписокСостоянияУзловГруппаНайтиExtendedTooltip</name>
+          <name>СписокСостоянияУзловГруппаНайтиРасширеннаяПодсказка</name>
           <id>61</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -746,13 +782,17 @@
         <items xsi:type="form:Button">
           <name>СписокСостоянияУзловОбновитьМонитор</name>
           <id>20</id>
+          <title>
+            <key>ru</key>
+            <value>Обновить</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокСостоянияУзловОбновитьМониторExtendedTooltip</name>
+            <name>СписокСостоянияУзловОбновитьМониторРасширеннаяПодсказка</name>
             <id>65</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -784,7 +824,7 @@
           <value>Состояния узлов группа обновить монитор</value>
         </title>
         <extendedTooltip>
-          <name>СписокСостоянияУзловГруппаОбновитьМониторExtendedTooltip</name>
+          <name>СписокСостоянияУзловГруппаОбновитьМониторРасширеннаяПодсказка</name>
           <id>64</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -803,13 +843,17 @@
       <items xsi:type="form:Button">
         <name>СписокСостоянияУзловПодробно</name>
         <id>49</id>
+        <title>
+          <key>ru</key>
+          <value>Подробно</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СписокСостоянияУзловПодробноExtendedTooltip</name>
+          <name>СписокСостоянияУзловПодробноРасширеннаяПодсказка</name>
           <id>66</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -842,7 +886,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокСостоянияУзловКопироватьВБуферОбменаExtendedTooltip</name>
+            <name>СписокСостоянияУзловКопироватьВБуферОбменаРасширеннаяПодсказка</name>
             <id>68</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -873,7 +917,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокСостоянияУзловВывестиСписокExtendedTooltip</name>
+            <name>СписокСостоянияУзловВывестиСписокРасширеннаяПодсказка</name>
             <id>69</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -905,7 +949,7 @@
           <value>Состояния узлов группа вывести список</value>
         </title>
         <extendedTooltip>
-          <name>СписокСостоянияУзловГруппаВывестиСписокExtendedTooltip</name>
+          <name>СписокСостоянияУзловГруппаВывестиСписокРасширеннаяПодсказка</name>
           <id>67</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -930,7 +974,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СписокСостоянияУзловИзменитьФормуExtendedTooltip</name>
+          <name>СписокСостоянияУзловИзменитьФормуРасширеннаяПодсказка</name>
           <id>70</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -960,7 +1004,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СписокСостоянияУзловСправкаExtendedTooltip</name>
+          <name>СписокСостоянияУзловСправкаРасширеннаяПодсказка</name>
           <id>71</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1105,7 +1149,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокСостоянияУзловExtendedTooltip</name>
+      <name>СписокСостоянияУзловРасширеннаяПодсказка</name>
       <id>72</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1128,13 +1172,17 @@
         <items xsi:type="form:Button">
           <name>СписокСостоянияУзловКонтекстноеМенюПерейтиВЖурналРегистрацииСобытийВыгрузкиДанных</name>
           <id>39</id>
+          <title>
+            <key>ru</key>
+            <value>События отправки данных...</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокСостоянияУзловКонтекстноеМенюПерейтиВЖурналРегистрацииСобытийВыгрузкиДанныхExtendedTooltip</name>
+            <name>СписокСостоянияУзловКонтекстноеМенюПерейтиВЖурналРегистрацииСобытийВыгрузкиДанныхРасширеннаяПодсказка</name>
             <id>56</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1158,13 +1206,17 @@
         <items xsi:type="form:Button">
           <name>СписокСостоянияУзловКонтекстноеМенюПерейтиВЖурналРегистрацииСобытийЗагрузкиДанных</name>
           <id>40</id>
+          <title>
+            <key>ru</key>
+            <value>События получения данных...</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокСостоянияУзловКонтекстноеМенюПерейтиВЖурналРегистрацииСобытийЗагрузкиДанныхExtendedTooltip</name>
+            <name>СписокСостоянияУзловКонтекстноеМенюПерейтиВЖурналРегистрацииСобытийЗагрузкиДанныхРасширеннаяПодсказка</name>
             <id>57</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1195,7 +1247,7 @@
           <value>Состояния узлов контекстное меню группа 2</value>
         </title>
         <extendedTooltip>
-          <name>СписокСостоянияУзловКонтекстноеМенюГруппа2ExtendedTooltip</name>
+          <name>СписокСостоянияУзловКонтекстноеМенюГруппа2РасширеннаяПодсказка</name>
           <id>55</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1223,7 +1275,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокСостоянияУзловКонтекстноеМенюВывестиСписокExtendedTooltip</name>
+            <name>СписокСостоянияУзловКонтекстноеМенюВывестиСписокРасширеннаяПодсказка</name>
             <id>59</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1253,7 +1305,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокСостоянияУзловКонтекстноеМенюКопироватьВБуферОбменаExtendedTooltip</name>
+            <name>СписокСостоянияУзловКонтекстноеМенюКопироватьВБуферОбменаРасширеннаяПодсказка</name>
             <id>60</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1284,7 +1336,7 @@
           <value>Состояния узлов контекстное меню группа 1</value>
         </title>
         <extendedTooltip>
-          <name>СписокСостоянияУзловКонтекстноеМенюГруппа1ExtendedTooltip</name>
+          <name>СписокСостоянияУзловКонтекстноеМенюГруппа1РасширеннаяПодсказка</name>
           <id>58</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1343,6 +1395,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

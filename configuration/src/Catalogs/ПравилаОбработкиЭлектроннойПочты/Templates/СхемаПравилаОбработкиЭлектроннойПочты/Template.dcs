@@ -15,12 +15,6 @@
 					<v8:content>Письмо</v8:content>
 				</v8:item>
 			</title>
-			<attributeUseRestriction>
-				<field>true</field>
-				<condition>true</condition>
-				<group>true</group>
-				<order>true</order>
-			</attributeUseRestriction>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Тема</dataPath>
@@ -35,26 +29,20 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>АдресЭлектроннойПочтыОтправителя</dataPath>
 			<field>АдресЭлектроннойПочтыОтправителя</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес электронной почты отправителя</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ОтправительКонтакт</dataPath>
 			<field>ОтправительКонтакт</field>
-			<attributeUseRestriction>
-				<field>true</field>
-				<condition>true</condition>
-				<group>true</group>
-				<order>true</order>
-			</attributeUseRestriction>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Предмет</dataPath>
 			<field>Предмет</field>
-			<attributeUseRestriction>
-				<field>true</field>
-				<condition>true</condition>
-				<group>true</group>
-				<order>true</order>
-			</attributeUseRestriction>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>ТипПисьма</dataPath>

@@ -167,6 +167,30 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="c0f5bbe1-3247-4bbe-a28e-8c55748e7d42">
+    <name>ДоступнаПакетнаяРегистрация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступна пакетная регистрация</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7347d709-bb61-4354-aa79-86ed8025d6d4">
+    <name>ИменаСкрываемыхМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имена скрываемых метаданных</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <forms uuid="2dd7eb87-8130-425a-be13-85235508cde6">
     <name>ВыборУзлаПланаОбмена</name>
     <synonym>

@@ -109,6 +109,10 @@
       <items xsi:type="form:Button">
         <name>НастройкиОтборов</name>
         <id>46</id>
+        <title>
+          <key>ru</key>
+          <value>Настройки</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -664,6 +668,10 @@
     <items xsi:type="form:Button">
       <name>ОбновитьКоличество</name>
       <id>49</id>
+      <title>
+        <key>ru</key>
+        <value>Рассчитать количество</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -740,6 +748,10 @@
     <items xsi:type="form:FormField">
       <name>ОбщееКоличествоОбъектовРегистрации</name>
       <id>42</id>
+      <title>
+        <key>ru</key>
+        <value>Общее количество объектов регистрации</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -830,6 +842,10 @@
     <items xsi:type="form:Button">
       <name>ФормаПодтвердитьВыбор</name>
       <id>35</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -936,6 +952,7 @@
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveDataInSettings>UseList</saveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

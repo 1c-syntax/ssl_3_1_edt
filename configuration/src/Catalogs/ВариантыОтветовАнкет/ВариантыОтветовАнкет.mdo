@@ -181,6 +181,26 @@
     <indexing>IndexWithAdditionalOrder</indexing>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="c234a467-ad6c-41d0-ac9e-8592acd8d9d2">
+    <name>Подсказка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подсказка</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="fc1066b5-20d4-4c73-85f8-9889e554d6e1">
     <name>ФормаЭлемента</name>
     <synonym>

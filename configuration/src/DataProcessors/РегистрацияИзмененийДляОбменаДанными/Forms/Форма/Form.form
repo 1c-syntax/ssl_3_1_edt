@@ -16,6 +16,10 @@
         <items xsi:type="form:FormField">
           <name>УзелОбменаСсылка</name>
           <id>1</id>
+          <title>
+            <key>ru</key>
+            <value>Узел обмена</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -908,6 +912,10 @@
             <items xsi:type="form:Button">
               <name>ПоказатьРезультатВыгрузки</name>
               <id>133</id>
+              <title>
+                <key>ru</key>
+                <value>Результат стандартной выгрузки (РИБ)</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -939,6 +947,10 @@
             <items xsi:type="form:Button">
               <name>ФормаЗарегистрироватьИОМИПредопределенные</name>
               <id>314</id>
+              <title>
+                <key>ru</key>
+                <value>Зарегистрировать данные для восстановления подчиненного узла РИБ</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1068,6 +1080,10 @@
               <items xsi:type="form:FormField">
                 <name>ДеревоМетаданныхПометка</name>
                 <id>16</id>
+                <title>
+                  <key>ru</key>
+                  <value>Пометка</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2588,6 +2604,10 @@
                     <items xsi:type="form:Button">
                       <name>СписокКонстантКонтекстноеМенюОткрытьФормуРегистрацииНаУзлах</name>
                       <id>178</id>
+                      <title>
+                        <key>ru</key>
+                        <value>Открыть форму регистрации на узлах</value>
+                      </title>
                       <visible>true</visible>
                       <enabled>true</enabled>
                       <userVisible>
@@ -2621,6 +2641,10 @@
                     <items xsi:type="form:Button">
                       <name>СписокКонстантКонтекстноеМенюРедактироватьНомерСообщенияОбъекта</name>
                       <id>197</id>
+                      <title>
+                        <key>ru</key>
+                        <value>Редактировать номер сообщения объекта</value>
+                      </title>
                       <visible>true</visible>
                       <enabled>true</enabled>
                       <userVisible>
@@ -2885,6 +2909,7 @@
                   </period>
                   <topLevelParent xsi:type="core:UndefinedValue"/>
                   <showRoot>true</showRoot>
+                  <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
                   <userSettingsGroup>ГруппаПользовательскихНастроекКонстанты</userSettingsGroup>
                 </extInfo>
               </items>
@@ -3550,6 +3575,10 @@
                     <items xsi:type="form:Button">
                       <name>СписокСсылокКонтекстноеМенюРедактироватьНомерСообщенияОбъекта</name>
                       <id>198</id>
+                      <title>
+                        <key>ru</key>
+                        <value>Редактировать номер сообщения объекта</value>
+                      </title>
                       <visible>true</visible>
                       <enabled>true</enabled>
                       <userVisible>
@@ -3805,9 +3834,6 @@
                 <horizontalStretch>true</horizontalStretch>
                 <verticalStretch>true</verticalStretch>
                 <enableStartDrag>true</enableStartDrag>
-                <rowPictureDataPath xsi:type="form:DataPath">
-                  <segments>СписокСсылок.DefaultPicture</segments>
-                </rowPictureDataPath>
                 <extInfo xsi:type="form:DynamicListTableExtInfo">
                   <autoRefreshPeriod>60</autoRefreshPeriod>
                   <period>
@@ -3817,6 +3843,7 @@
                   <restoreCurrentRow>true</restoreCurrentRow>
                   <topLevelParent xsi:type="core:UndefinedValue"/>
                   <showRoot>true</showRoot>
+                  <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
                   <userSettingsGroup>ГруппаПользовательскихНастроекСсылки</userSettingsGroup>
                 </extInfo>
               </items>
@@ -4363,6 +4390,10 @@
                     <items xsi:type="form:Button">
                       <name>СписокНаборовЗаписейКонтекстноеМенюОткрытьФормуРегистрацииНаУзлах</name>
                       <id>180</id>
+                      <title>
+                        <key>ru</key>
+                        <value>Открыть форму регистрации на узлах</value>
+                      </title>
                       <visible>true</visible>
                       <enabled>true</enabled>
                       <userVisible>
@@ -4396,6 +4427,10 @@
                     <items xsi:type="form:Button">
                       <name>СписокНаборовЗаписейКонтекстноеМенюРедактироватьНомерСообщенияОбъекта</name>
                       <id>199</id>
+                      <title>
+                        <key>ru</key>
+                        <value>Редактировать номер сообщения объекта</value>
+                      </title>
                       <visible>true</visible>
                       <enabled>true</enabled>
                       <userVisible>
@@ -4662,6 +4697,7 @@
                   <restoreCurrentRow>true</restoreCurrentRow>
                   <topLevelParent xsi:type="core:UndefinedValue"/>
                   <showRoot>true</showRoot>
+                  <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
                   <userSettingsGroup>ГруппаПользовательскихНастроекНаборЗаписей</userSettingsGroup>
                 </extInfo>
               </items>
@@ -5118,7 +5154,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
-    <name>ГруппаСкрытыхДанных</name>
+    <name>ГруппаДополнительнаяИнформация</name>
     <id>174</id>
     <items xsi:type="form:Decoration">
       <name>СкрытаяКартинкаИнформация32</name>
@@ -5160,15 +5196,70 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
-        <picture xsi:type="form:FormPicture"/>
+        <picture xsi:type="core:PictureRef">
+          <picture>StdPicture.Information</picture>
+        </picture>
       </extInfo>
     </items>
+    <items xsi:type="form:Decoration">
+      <name>ДекорацияРежимВыборочнойРегистрации</name>
+      <id>380</id>
+      <title>
+        <key>ru</key>
+        <value>Режим выборочной регистрации: информация доступна после выбора настройки синхронизации.</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <toolTipRepresentation>Button</toolTipRepresentation>
+      <extendedTooltip>
+        <name>ДекорацияРежимВыборочнойРегистрацииРасширеннаяПодсказка</name>
+        <id>382</id>
+        <title>
+          <key>ru</key>
+          <value>Выборочная регистрация объектов – это режим дополнительной проверки, который используется при регистрации объектов (настраивается разработчиками программы).
+Режим &quot;Отключен&quot; – все записываемые объекты считаются измененными и будут зарегистрированы к обмену;
+Режим &quot;Модифицированность&quot; – регистрируем к обмену объекты, у которых были изменения в данных;
+Режим &quot;Согласно правилам xml&quot; – к обменам регистрируем объекты, у которых есть изменения в реквизитах. Список реквизитов получается из правил конвертаций.</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДекорацияРежимВыборочнойРегистрацииКонтекстноеМеню</name>
+        <id>381</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <title>
       <key>ru</key>
-      <value>Скрытых данных</value>
+      <value>Дополнительная информация</value>
     </title>
     <toolTip>
       <key>ru</key>
@@ -5176,7 +5267,7 @@
     </toolTip>
     <enableContentChange>true</enableContentChange>
     <extendedTooltip>
-      <name>ГруппаСкрытыхДанныхExtendedTooltip</name>
+      <name>ГруппаДополнительнаяИнформацияРасширеннаяПодсказка</name>
       <id>312</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -5192,7 +5283,10 @@
     </extendedTooltip>
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>Vertical</group>
+      <group>HorizontalIfPossible</group>
+      <behavior>Collapsible</behavior>
+      <collapsed>true</collapsed>
+      <controlRepresentation>Picture</controlRepresentation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <showTitle>true</showTitle>
@@ -5242,6 +5336,7 @@
   </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveDataInSettings>UseList</saveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

@@ -6,6 +6,10 @@
     <items xsi:type="form:FormField">
       <name>БизнесПроцесс</name>
       <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>Бизнес-процесс</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -19,7 +23,7 @@
         <name>БизнесПроцессПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>БизнесПроцессExtendedTooltip</name>
+        <name>БизнесПроцессРасширеннаяПодсказка</name>
         <id>33</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -62,6 +66,10 @@
       <items xsi:type="form:FormField">
         <name>Автор</name>
         <id>9</id>
+        <title>
+          <key>ru</key>
+          <value>Автор</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -71,7 +79,7 @@
           <segments>Автор</segments>
         </dataPath>
         <extendedTooltip>
-          <name>АвторExtendedTooltip</name>
+          <name>АвторРасширеннаяПодсказка</name>
           <id>35</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -116,6 +124,10 @@
         <items xsi:type="form:FormField">
           <name>Дата</name>
           <id>24</id>
+          <title>
+            <key>ru</key>
+            <value>Дата</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -125,7 +137,7 @@
             <segments>Дата</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ДатаExtendedTooltip</name>
+            <name>ДатаРасширеннаяПодсказка</name>
             <id>37</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -174,6 +186,10 @@
             <items xsi:type="form:FormField">
               <name>Статус</name>
               <id>26</id>
+              <title>
+                <key>ru</key>
+                <value>Статус</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -184,7 +200,7 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
-                <name>СтатусExtendedTooltip</name>
+                <name>СтатусРасширеннаяПодсказка</name>
                 <id>40</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -228,7 +244,7 @@
               <value>Не завершен</value>
             </title>
             <extendedTooltip>
-              <name>ГруппаНеЗавершенExtendedTooltip</name>
+              <name>ГруппаНеЗавершенРасширеннаяПодсказка</name>
               <id>39</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -254,6 +270,10 @@
             <items xsi:type="form:FormField">
               <name>ДатаЗавершения</name>
               <id>28</id>
+              <title>
+                <key>ru</key>
+                <value>Завершен</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -263,7 +283,7 @@
                 <segments>ДатаЗавершения</segments>
               </dataPath>
               <extendedTooltip>
-                <name>ДатаЗавершенияExtendedTooltip</name>
+                <name>ДатаЗавершенияРасширеннаяПодсказка</name>
                 <id>43</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -313,7 +333,7 @@
               <value>Завершен</value>
             </title>
             <extendedTooltip>
-              <name>ГруппаЗавершенExtendedTooltip</name>
+              <name>ГруппаЗавершенРасширеннаяПодсказка</name>
               <id>42</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -342,7 +362,7 @@
             <value>Статус</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаСтатусExtendedTooltip</name>
+            <name>ГруппаСтатусРасширеннаяПодсказка</name>
             <id>38</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -371,7 +391,7 @@
           <value>Свойства бизнес-процесса</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаСвойстваБизнесПроцессаExtendedTooltip</name>
+          <name>ГруппаСвойстваБизнесПроцессаРасширеннаяПодсказка</name>
           <id>36</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -404,7 +424,7 @@
         <value>Свойства бизнес процесса</value>
       </title>
       <extendedTooltip>
-        <name>СвойстваБизнесПроцессаExtendedTooltip</name>
+        <name>СвойстваБизнесПроцессаРасширеннаяПодсказка</name>
         <id>34</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -466,6 +486,10 @@
     <items xsi:type="form:Button">
       <name>ЗадачиВТочкеМаршрута</name>
       <id>7</id>
+      <title>
+        <key>ru</key>
+        <value>Показать задачи для точки маршрута</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -473,7 +497,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ЗадачиВТочкеМаршрутаExtendedTooltip</name>
+        <name>ЗадачиВТочкеМаршрутаРасширеннаяПодсказка</name>
         <id>45</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -617,6 +641,10 @@
     <items xsi:type="form:Button">
       <name>Обновить</name>
       <id>5</id>
+      <title>
+        <key>ru</key>
+        <value>Обновить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -624,7 +652,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОбновитьExtendedTooltip</name>
+        <name>ОбновитьРасширеннаяПодсказка</name>
         <id>46</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -656,7 +684,7 @@
       <value>Командная панель</value>
     </title>
     <extendedTooltip>
-      <name>КоманднаяПанельExtendedTooltip</name>
+      <name>КоманднаяПанельРасширеннаяПодсказка</name>
       <id>44</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -679,6 +707,10 @@
   <items xsi:type="form:FormField">
     <name>КартаМаршрута</name>
     <id>3</id>
+    <title>
+      <key>ru</key>
+      <value>Карта маршрута</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -689,7 +721,7 @@
     </dataPath>
     <titleLocation>None</titleLocation>
     <extendedTooltip>
-      <name>КартаМаршрутаExtendedTooltip</name>
+      <name>КартаМаршрутаРасширеннаяПодсказка</name>
       <id>48</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -709,6 +741,10 @@
       <items xsi:type="form:Button">
         <name>Задачи</name>
         <id>6</id>
+        <title>
+          <key>ru</key>
+          <value>Показать задачи для точки маршрута</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -716,7 +752,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ЗадачиExtendedTooltip</name>
+          <name>ЗадачиРасширеннаяПодсказка</name>
           <id>47</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -783,6 +819,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

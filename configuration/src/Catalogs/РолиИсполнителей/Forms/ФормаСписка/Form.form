@@ -106,7 +106,7 @@
           </dataPath>
           <defaultItem>true</defaultItem>
           <extendedTooltip>
-            <name>НаименованиеExtendedTooltip</name>
+            <name>НаименованиеРасширеннаяПодсказка</name>
             <id>21</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -152,7 +152,7 @@
             <segments>Список.КраткоеПредставление</segments>
           </dataPath>
           <extendedTooltip>
-            <name>КраткоеПредставлениеExtendedTooltip</name>
+            <name>КраткоеПредставлениеРасширеннаяПодсказка</name>
             <id>22</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -198,7 +198,7 @@
             <segments>Список.Code</segments>
           </dataPath>
           <extendedTooltip>
-            <name>КодExtendedTooltip</name>
+            <name>КодРасширеннаяПодсказка</name>
             <id>23</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -251,7 +251,7 @@
             <value>Внешняя роль, исполнители которой определены в другой информационной базе</value>
           </toolTip>
           <extendedTooltip>
-            <name>ВнешняяРольExtendedTooltip</name>
+            <name>ВнешняяРольРасширеннаяПодсказка</name>
             <id>24</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -300,10 +300,10 @@
           </dataPath>
           <toolTip>
             <key>ru</key>
-            <value>Используется с объектами адресации</value>
+            <value>Используется без объектов адресации</value>
           </toolTip>
           <extendedTooltip>
-            <name>ИспользуетсяБезОбъектовАдресацииExtendedTooltip</name>
+            <name>ИспользуетсяБезОбъектовАдресацииРасширеннаяПодсказка</name>
             <id>25</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -388,7 +388,7 @@
           <value>Информация о роли</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаExtendedTooltip</name>
+          <name>ГруппаРасширеннаяПодсказка</name>
           <id>20</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -417,7 +417,7 @@
           <segments>Список.Комментарий</segments>
         </dataPath>
         <extendedTooltip>
-          <name>КомментарийExtendedTooltip</name>
+          <name>КомментарийРасширеннаяПодсказка</name>
           <id>26</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -462,7 +462,7 @@
         <value>Основное</value>
       </title>
       <extendedTooltip>
-        <name>ОсновноеExtendedTooltip</name>
+        <name>ОсновноеРасширеннаяПодсказка</name>
         <id>19</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -611,7 +611,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>18</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -665,6 +665,7 @@
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
       <userSettingsGroup>ГруппаПользовательскихНастроек</userSettingsGroup>
     </extInfo>
   </items>
@@ -688,6 +689,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

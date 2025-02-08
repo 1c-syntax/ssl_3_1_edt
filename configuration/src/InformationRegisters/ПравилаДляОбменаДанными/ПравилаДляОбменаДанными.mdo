@@ -439,11 +439,46 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <attributes uuid="a21989bd-a57f-4969-be3b-d8b39ead4145">
-    <name>ИспользоватьФильтрВыборочнойРегистрацииОбъектов</name>
+  <resources uuid="1c2103d3-3feb-4412-98c4-c731f22eef2b">
+    <name>ИмяМенеджераРегистрации</name>
     <synonym>
       <key>ru</key>
-      <value>Использовать фильтр выборочной регистрации объектов</value>
+      <value>Имя менеджера регистрации</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="569bb515-cec2-4da0-80f0-34dae50206e0">
+    <name>ПараметрыВыборочнойРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры выборочной регистрации</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="a21989bd-a57f-4969-be3b-d8b39ead4145">
+    <name>УдалитьИспользоватьФильтрВыборочнойРегистрацииОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить использовать фильтр выборочной регистрации объектов</value>
     </synonym>
     <type>
       <types>Boolean</types>

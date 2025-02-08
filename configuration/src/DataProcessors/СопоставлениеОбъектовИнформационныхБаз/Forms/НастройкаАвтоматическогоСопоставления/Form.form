@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>ПоясняющаяНадпись</name>
     <id>12</id>
+    <title>
+      <key>ru</key>
+      <value>Поясняющая надпись</value>
+    </title>
     <titleTextColor xsi:type="core:ColorRef">
       <color>Style.ПоясняющийТекст</color>
     </titleTextColor>
@@ -367,6 +371,10 @@
     <items xsi:type="form:Button">
       <name>ВыполнитьСопоставление</name>
       <id>8</id>
+      <title>
+        <key>ru</key>
+        <value>Выполнить сопоставление</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -399,6 +407,10 @@
     <items xsi:type="form:Button">
       <name>Отмена</name>
       <id>9</id>
+      <title>
+        <key>ru</key>
+        <value>Отмена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -477,6 +489,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

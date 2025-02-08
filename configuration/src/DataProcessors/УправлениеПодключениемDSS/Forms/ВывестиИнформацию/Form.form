@@ -2,7 +2,7 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
     <key>ru</key>
-    <value>Ошибка при работе &quot;Облачной криптографии&quot;</value>
+    <value>Ошибка при работе с сервисом DSS</value>
   </title>
   <items xsi:type="form:FormGroup">
     <name>ГруппаОтобразить</name>
@@ -96,6 +96,10 @@
         <items xsi:type="form:FormField">
           <name>КодОшибки</name>
           <id>17</id>
+          <title>
+            <key>ru</key>
+            <value>Код ошибки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -142,6 +146,10 @@
         <items xsi:type="form:FormField">
           <name>СодержаниеОшибки</name>
           <id>36</id>
+          <title>
+            <key>ru</key>
+            <value>Содержание ошибки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -404,6 +412,10 @@
       <items xsi:type="form:Button">
         <name>Закрыть</name>
         <id>6</id>
+        <title>
+          <key>ru</key>
+          <value>Закрыть</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -553,6 +565,7 @@
   </handlers>
   <width>60</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <enabled>true</enabled>

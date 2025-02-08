@@ -402,6 +402,10 @@
         <items xsi:type="form:Button">
           <name>УстановитьОбновление</name>
           <id>752</id>
+          <title>
+            <key>ru</key>
+            <value>Установить обновление</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -690,6 +694,7 @@
       <formatted>true</formatted>
       <type>Label</type>
       <autoMaxHeight>true</autoMaxHeight>
+      <groupVerticalAlign>Center</groupVerticalAlign>
       <extInfo xsi:type="form:LabelDecorationExtInfo">
         <handlers>
           <event>URLProcessing</event>
@@ -735,6 +740,423 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
+    <name>ИнформационнаяПанельОбнаруженоЗацикливание</name>
+    <id>769</id>
+    <items xsi:type="form:Decoration">
+      <name>ПредупреждениеОЗацикливанииКартинка</name>
+      <id>771</id>
+      <title>
+        <key>ru</key>
+        <value>Предупреждение о зацикливании картинка</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ПредупреждениеОЗацикливанииКартинкаРасширеннаяПодсказка</name>
+        <id>773</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПредупреждениеОЗацикливанииКартинкаКонтекстноеМеню</name>
+        <id>772</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <width>3</width>
+      <autoMaxWidth>true</autoMaxWidth>
+      <height>2</height>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:PictureDecorationExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.Предупреждение32</picture>
+        </picture>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>ПредупреждениеОЗацикливанииОписание</name>
+      <id>774</id>
+      <title>
+        <key>ru</key>
+        <value>Обнаружено зацикливание синхронизаций. Для получения подробной информации перейдите по &lt;link 1>ссылке&lt;/>.</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ПредупреждениеОЗацикливанииОписаниеРасширеннаяПодсказка</name>
+        <id>776</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПредупреждениеОЗацикливанииОписаниеКонтекстноеМеню</name>
+        <id>775</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <formatted>true</formatted>
+      <type>Label</type>
+      <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>true</horizontalStretch>
+      <groupVerticalAlign>Center</groupVerticalAlign>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <handlers>
+          <event>URLProcessing</event>
+          <name>ПредупреждениеОЗацикливанииОписаниеОбработкаНавигационнойСсылки</name>
+        </handlers>
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Предупреждение</value>
+    </title>
+    <extendedTooltip>
+      <name>ИнформационнаяПанельОбнаруженоЗацикливаниеРасширеннаяПодсказка</name>
+      <id>770</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>HorizontalIfPossible</group>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <backColor xsi:type="core:ColorRef">
+        <color>Style.ЦветФонаПредупреждения</color>
+      </backColor>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ИнформационнаяПанельОтключенныеСценариях</name>
+    <id>788</id>
+    <items xsi:type="form:Decoration">
+      <name>ПредупреждениеОбОтключенныхСценарияхКартинка</name>
+      <id>790</id>
+      <title>
+        <key>ru</key>
+        <value>Предупреждение об отключенных сценариях</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ПредупреждениеОбОтключенныхСценарияхКартинкаРасширеннаяПодсказка</name>
+        <id>792</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПредупреждениеОбОтключенныхСценарияхКартинкаКонтекстноеМеню</name>
+        <id>791</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <width>3</width>
+      <autoMaxWidth>true</autoMaxWidth>
+      <height>2</height>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:PictureDecorationExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.Предупреждение32</picture>
+        </picture>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>ПредупреждениеОбОтключенныхСценарияхОписание</name>
+      <id>793</id>
+      <title>
+        <key>ru</key>
+        <value>Отключенные сценарии</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ПредупреждениеОбОтключенныхСценарияхОписаниеРасширеннаяПодсказка</name>
+        <id>795</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПредупреждениеОбОтключенныхСценарияхОписаниеКонтекстноеМеню</name>
+        <id>794</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>true</horizontalStretch>
+      <groupVerticalAlign>Center</groupVerticalAlign>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <handlers>
+          <event>URLProcessing</event>
+          <name>ПредупреждениеОбОтключенныхСценарияхОписаниеОбработкаНавигационнойСсылки</name>
+        </handlers>
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Предупреждение</value>
+    </title>
+    <extendedTooltip>
+      <name>ИнформационнаяПанельОтключенныеСценарияхРасширеннаяПодсказка</name>
+      <id>789</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>HorizontalIfPossible</group>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <backColor xsi:type="core:ColorRef">
+        <color>Style.ЦветФонаПредупреждения</color>
+      </backColor>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
+    <name>ИнформационнаяПанельПереходНаИнтернет</name>
+    <id>777</id>
+    <items xsi:type="form:Decoration">
+      <name>ИнформацияОПереходеНаИнтернетКартинка</name>
+      <id>779</id>
+      <title>
+        <key>ru</key>
+        <value>Информация о переходе на интернет (картинка)</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ИнформацияОПереходеНаИнтернетКартинкаРасширеннаяПодсказка</name>
+        <id>781</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ИнформацияОПереходеНаИнтернетКартинкаКонтекстноеМеню</name>
+        <id>780</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <width>3</width>
+      <autoMaxWidth>true</autoMaxWidth>
+      <height>2</height>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:PictureDecorationExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>StdPicture.Information</picture>
+        </picture>
+        <pictureSize>Proportionally</pictureSize>
+        <imageScale>200</imageScale>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>ИнформацияОПереходеНаИнтернетОписание</name>
+      <id>782</id>
+      <title>
+        <key>ru</key>
+        <value>Для некоторых синхронизаций есть возможность настроить обмен через Интернет (веб-сервис). 
+Это позволит ускорить обмен и более гибко настроить график синхронизации. 
+Для перехода на обмен посредством веб-сервиса, воспользуйтесь помощником перехода в списке &lt;img :2d40609d-b56f-4082-9a6f-8216817ebd24:00000000-0000-0000-0000-000000000000/>.
+
+&lt;link НеПредлагатьПерейтиНаВебСервис>Больше не предлагать перейти на веб-сервис&lt;/>. (Вызвать помощник перехода можно через меню узла синхронизации &lt;b>Ещё&lt;/>)</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ИнформацияОПереходеНаИнтернетОписаниеРасширеннаяПодсказка</name>
+        <id>784</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ИнформацияОПереходеНаИнтернетОписаниеКонтекстноеМеню</name>
+        <id>783</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <formatted>true</formatted>
+      <type>Label</type>
+      <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>true</horizontalStretch>
+      <groupVerticalAlign>Center</groupVerticalAlign>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <handlers>
+          <event>URLProcessing</event>
+          <name>ИнформацияОПереходеНаИнтернетОписаниеОбработкаНавигационнойСсылки</name>
+        </handlers>
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Предупреждение</value>
+    </title>
+    <toolTip>
+      <key>ru</key>
+      <value>Информационная панель обнаружено зацикливание</value>
+    </toolTip>
+    <extendedTooltip>
+      <name>ИнформационнаяПанельПереходНаИнтернетРасширеннаяПодсказка</name>
+      <id>778</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>HorizontalIfPossible</group>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <backColor xsi:type="core:ColorRef">
+        <color>Web.PaleGreen</color>
+      </backColor>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
     <name>ПанельСписокПриложений</name>
     <id>701</id>
     <items xsi:type="form:FormGroup">
@@ -749,6 +1171,10 @@
           <items xsi:type="form:Button">
             <name>СписокПриложенийВыполнитьСинхронизацию</name>
             <id>52</id>
+            <title>
+              <key>ru</key>
+              <value>Синхронизировать</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -782,6 +1208,10 @@
           <items xsi:type="form:Button">
             <name>СписокПриложенийВыполнитьСинхронизациюСДополнительнымиОтборами</name>
             <id>713</id>
+            <title>
+              <key>ru</key>
+              <value>Синхронизировать с дополнительными параметрами</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -812,6 +1242,10 @@
           <items xsi:type="form:Button">
             <name>СписокПриложенийНачальнаяВыгрузкаДанных</name>
             <id>681</id>
+            <title>
+              <key>ru</key>
+              <value>Выгрузка данных для сопоставления</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -874,6 +1308,10 @@
           <items xsi:type="form:Button">
             <name>СписокПриложенийИзменитьНастройкуСинхронизации</name>
             <id>53</id>
+            <title>
+              <key>ru</key>
+              <value>Изменить настройки</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -905,6 +1343,10 @@
           <items xsi:type="form:Button">
             <name>СписокПриложенийСоставОтправляемыхДанных</name>
             <id>360</id>
+            <title>
+              <key>ru</key>
+              <value>Состав отправляемых данных</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -935,6 +1377,10 @@
           <items xsi:type="form:Button">
             <name>СписокПриложенийЗагрузитьПравилаСинхронизацииДанных</name>
             <id>535</id>
+            <title>
+              <key>ru</key>
+              <value>Загрузить правила...</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -966,6 +1412,10 @@
           <items xsi:type="form:Button">
             <name>СписокПриложенийУдалитьНастройкуСинхронизации</name>
             <id>364</id>
+            <title>
+              <key>ru</key>
+              <value>Удалить настройку</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1025,6 +1475,10 @@
         <items xsi:type="form:Button">
           <name>СписокПриложенийСоздатьНастройкуСинхронизации</name>
           <id>634</id>
+          <title>
+            <key>ru</key>
+            <value>Создать</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1056,6 +1510,10 @@
         <items xsi:type="form:Button">
           <name>СписокПриложенийОбновитьМонитор</name>
           <id>671</id>
+          <title>
+            <key>ru</key>
+            <value>Обновить</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1090,6 +1548,10 @@
           <items xsi:type="form:Button">
             <name>СписокПриложенийПерейтиВЖурналРегистрацииСобытийВыгрузкиДанных</name>
             <id>98</id>
+            <title>
+              <key>ru</key>
+              <value>События отправки данных...</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1121,6 +1583,10 @@
           <items xsi:type="form:Button">
             <name>СписокПриложенийПерейтиВЖурналРегистрацииСобытийЗагрузкиДанных</name>
             <id>99</id>
+            <title>
+              <key>ru</key>
+              <value>События получения данных...</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1178,6 +1644,10 @@
         <items xsi:type="form:Button">
           <name>СписокПриложенийПредыдущаяФормаПредупреждений</name>
           <id>738</id>
+          <title>
+            <key>ru</key>
+            <value>Предыдущая форма предупреждений</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1481,6 +1951,10 @@
         <items xsi:type="form:FormField">
           <name>СписокПриложенийПрограмма</name>
           <id>588</id>
+          <title>
+            <key>ru</key>
+            <value>Программа</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1527,6 +2001,10 @@
         <items xsi:type="form:FormField">
           <name>СписокПриложенийПрефиксКорреспондента</name>
           <id>591</id>
+          <title>
+            <key>ru</key>
+            <value>Префикс</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1577,6 +2055,10 @@
           <items xsi:type="form:FormField">
             <name>СписокПриложенийСостояниеКартинка</name>
             <id>568</id>
+            <title>
+              <key>ru</key>
+              <value>Состояние картинка</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1715,6 +2197,10 @@
             <items xsi:type="form:FormField">
               <name>СписокПриложенийСостояниеВыгрузкиКартинка</name>
               <id>654</id>
+              <title>
+                <key>ru</key>
+                <value>Состояние выгрузки картинка</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1768,6 +2254,10 @@
             <items xsi:type="form:FormField">
               <name>СписокПриложенийПредставлениеДатыПоследнейУспешнойВыгрузки</name>
               <id>666</id>
+              <title>
+                <key>ru</key>
+                <value>Данные отправлены</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1816,6 +2306,10 @@
             <items xsi:type="form:FormField">
               <name>СписокПриложенийОтправкаПредупреждения</name>
               <id>732</id>
+              <title>
+                <key>ru</key>
+                <value>Предупреждения</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1935,6 +2429,10 @@
             <items xsi:type="form:FormField">
               <name>СписокПриложенийСостояниеЗагрузкиКартинка</name>
               <id>657</id>
+              <title>
+                <key>ru</key>
+                <value>Состояние загрузки картинка</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1987,6 +2485,10 @@
             <items xsi:type="form:FormField">
               <name>СписокПриложенийПредставлениеДатыПоследнейУспешнойЗагрузки</name>
               <id>663</id>
+              <title>
+                <key>ru</key>
+                <value>Данные получены</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2035,6 +2537,10 @@
             <items xsi:type="form:FormField">
               <name>СписокПриложенийПолучениеПредупреждения</name>
               <id>735</id>
+              <title>
+                <key>ru</key>
+                <value>Предупреждения</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2147,8 +2653,72 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormField">
+          <name>СписокПриложенийДоступенПереходНаWS</name>
+          <id>785</id>
+          <title>
+            <key>ru</key>
+            <value>Доступен переход на WS</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>СписокПриложений.ДоступенПереходНаWS</segments>
+          </dataPath>
+          <titleLocation>None</titleLocation>
+          <extendedTooltip>
+            <name>СписокПриложенийДоступенПереходНаWSРасширеннаяПодсказка</name>
+            <id>787</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>СписокПриложенийДоступенПереходНаWSКонтекстноеМеню</name>
+            <id>786</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>PictureField</type>
+          <editMode>EnterOnInput</editMode>
+          <showInHeader>true</showInHeader>
+          <headerPicture xsi:type="core:PictureRef">
+            <picture>StdPicture.Setting</picture>
+          </headerPicture>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:ImageFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <horizontalStretch>true</horizontalStretch>
+            <verticalStretch>true</verticalStretch>
+            <valuesPicture xsi:type="core:PictureRef">
+              <picture>CommonPicture.СинхронизацияДанныхНастройка</picture>
+            </valuesPicture>
+            <fileDragMode>AsFileRef</fileDragMode>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
           <name>СписокПриложенийРасписаниеНастроено</name>
           <id>641</id>
+          <title>
+            <key>ru</key>
+            <value>Расписание настроено</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2353,6 +2923,10 @@
             <items xsi:type="form:Button">
               <name>СписокПриложенийКонтекстноеМенюВыполнитьСинхронизацию</name>
               <id>673</id>
+              <title>
+                <key>ru</key>
+                <value>Синхронизировать</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2412,6 +2986,10 @@
             <items xsi:type="form:Button">
               <name>СписокПриложенийКонтекстноеМенюИзменитьНастройкуСинхронизации</name>
               <id>679</id>
+              <title>
+                <key>ru</key>
+                <value>Изменить настройки</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2442,6 +3020,10 @@
             <items xsi:type="form:Button">
               <name>СписокПриложенийКонтекстноеМенюСоставОтправляемыхДанных</name>
               <id>687</id>
+              <title>
+                <key>ru</key>
+                <value>Состав отправляемых данных</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2472,6 +3054,10 @@
             <items xsi:type="form:Button">
               <name>СписокПриложенийКонтекстноеМенюУдалитьНастройкуСинхронизации</name>
               <id>683</id>
+              <title>
+                <key>ru</key>
+                <value>Удалить настройку</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2531,6 +3117,10 @@
             <items xsi:type="form:Button">
               <name>СписокПриложенийКонтекстноеМенюПерейтиВЖурналРегистрацииСобытийВыгрузкиДанных</name>
               <id>675</id>
+              <title>
+                <key>ru</key>
+                <value>События отправки данных...</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2561,6 +3151,10 @@
             <items xsi:type="form:Button">
               <name>СписокПриложенийКонтекстноеМенюПерейтиВЖурналРегистрацииСобытийЗагрузкиДанных</name>
               <id>677</id>
+              <title>
+                <key>ru</key>
+                <value>События получения данных...</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2617,6 +3211,10 @@
           <items xsi:type="form:Button">
             <name>СписокПриложенийКонтекстноеМенюОбновитьМонитор</name>
             <id>669</id>
+            <title>
+              <key>ru</key>
+              <value>Обновить</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2965,12 +3563,51 @@
         <textEdit>true</textEdit>
       </extInfo>
     </items>
+    <items xsi:type="form:Button">
+      <name>ИзменитьПрефиксИБ</name>
+      <id>796</id>
+      <title>
+        <key>ru</key>
+        <value>Изменить</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ИзменитьПрефиксИБРасширеннаяПодсказка</name>
+        <id>797</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Hyperlink</type>
+      <commandName>Form.Command.ИзменитьПрефиксИБ</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
     <items xsi:type="form:FormGroup">
       <name>СписокПриложенийГруппаРасписаниеВыполненияОбмена</name>
       <id>594</id>
       <items xsi:type="form:Button">
         <name>СписокПриложенийНастроитьРасписаниеВыполненияОбмена</name>
         <id>102</id>
+        <title>
+          <key>ru</key>
+          <value>Синхронизация по расписанию</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3092,6 +3729,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -3664,6 +4302,36 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>ДоступенПереходНаWS</name>
+      <title>
+        <key>ru</key>
+        <value>Доступен переход на WS</value>
+      </title>
+      <id>26</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>СинхронизацияНедоступна</name>
+      <id>37</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>ЕстьПраваНаАдминистрированиеОбменов</name>
@@ -3878,6 +4546,19 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>ДоступенExchangeAdministrationManage_3_0_1_1</name>
+      <id>4</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>ИндексСтрокиСписокПриложений</name>
@@ -3907,6 +4588,62 @@
     <name>КэшЗначений</name>
     <id>37</id>
     <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ДоступенПереходНаWS</name>
+    <id>6</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ОбнаруженоЗацикливание</name>
+    <id>7</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ОтключенныеСценарии</name>
+    <id>11</id>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType/>
+    </extInfo>
+  </attributes>
+  <attributes>
+    <name>ИзменитьПрефиксИБ</name>
+    <id>12</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
     <view>
       <common>true</common>
     </view>
@@ -4269,6 +5006,27 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>НовыйКодПредопределенногоУзла</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ИзменитьПрефиксИБ</name>
+    <title>
+      <key>ru</key>
+      <value>Изменить префикс ИБ</value>
+    </title>
+    <id>13</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Изменить префикс ИБ</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ИзменитьПрефиксИБ</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

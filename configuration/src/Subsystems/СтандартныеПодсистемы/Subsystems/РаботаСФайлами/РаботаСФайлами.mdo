@@ -26,7 +26,6 @@
   <content>CommonPicture.Папки</content>
   <content>CommonCommand.РазместитьФайлыНачальногоОбраза</content>
   <content>CommonPicture.Сканирование</content>
-  <content>FilterCriterion.ФайлыВТоме</content>
   <content>Enum.ФорматыСканированногоИзображения</content>
   <content>Enum.РазрешенияСканированногоИзображения</content>
   <content>Enum.ЦветностиИзображения</content>
@@ -36,7 +35,6 @@
   <content>Enum.ДействияСФайламиПоДвойномуЩелчку</content>
   <content>Enum.ВариантыСжатияTIFF</content>
   <content>Enum.ФорматыХраненияМногостраничныхФайлов</content>
-  <content>Enum.ФорматыХраненияОдностраничныхФайлов</content>
   <content>CommonModule.РаботаСФайлами</content>
   <content>InformationRegister.УдалитьХранимыеФайлыВерсий</content>
   <content>EventSubscription.СкопироватьРеквизитыВерсииФайловВФайл</content>
@@ -54,7 +52,7 @@
   <content>DefinedType.ВладелецФайлов</content>
   <content>InformationRegister.НаличиеФайлов</content>
   <content>InformationRegister.НастройкиСинхронизацииФайлов</content>
-  <content>InformationRegister.ДвоичныеДанныеФайлов</content>
+  <content>InformationRegister.УдалитьДвоичныеДанныеФайлов</content>
   <content>InformationRegister.СведенияОФайлах</content>
   <content>InformationRegister.СтатусыСинхронизацииФайловСОблачнымСервисом</content>
   <content>DataProcessor.РаботаСФайлами</content>
@@ -89,7 +87,7 @@
   <content>CommonPicture.ПодписанЗашифрованСостояния</content>
   <content>CommonPicture.РабочийКаталогПоУмолчанию</content>
   <content>CommonPicture.РедактироватьФайл</content>
-  <content>CommonTemplate.КомпонентаTWAIN</content>
+  <content>CommonTemplate.КомпонентаСканированияДокументов_3_0_1_1033</content>
   <content>CommonCommand.СозданиеНачальногоОбразаСФайлами</content>
   <content>CommonCommand.ФайлыВТоме</content>
   <content>CommonCommand.РедактируемыеФайлы</content>
@@ -130,5 +128,10 @@
   <content>Constant.СоздаватьПодкаталогиСИменамиВладельцев</content>
   <content>CommonModule.РаботаСФайламиВТомахСлужебный</content>
   <content>StyleItem.ВладелецФайловШрифт</content>
+  <content>Constant.РежимОчисткиФайлов</content>
+  <content>Enum.РежимыОчисткиФайлов</content>
+  <content>Constant.ПутьКТомуБезУчетаРегиональныхНастроек</content>
+  <content>InformationRegister.ХранилищеФайлов</content>
+  <content>Catalog.ХранилищеДвоичныхДанных</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

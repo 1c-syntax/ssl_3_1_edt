@@ -16,6 +16,8 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ОбработчикиОбновления.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ОбработчикиОбновления.Form.ФормаСписка</defaultListForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
@@ -49,6 +51,11 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <dataLockControlMode>Managed</dataLockControlMode>
   <resources uuid="69db1a1c-3e9d-4e3c-b31e-731f2b8635b9">
     <name>Статус</name>
@@ -106,6 +113,24 @@
       <value></value>
     </fillValue>
   </resources>
+  <resources uuid="6e82e4ec-cf8e-4e9f-aaed-69b146c2ed84">
+    <name>ДлительностьРегистрацииДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Длительность регистрации данных</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <resources uuid="35dbc542-3ad9-4a72-9863-229a67cda425">
     <name>ДлительностьОбработки</name>
     <synonym>
@@ -132,6 +157,21 @@
     </synonym>
     <type>
       <types>EnumRef.РежимыВыполненияОбработчиков</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ea232693-49b2-4e10-9349-66e26760602c">
+    <name>Порядок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ПорядокОбработчиковОбновления</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -232,17 +272,13 @@
     </synonym>
     <type>
       <types>String</types>
-      <stringQualifiers>
-        <length>1024</length>
-      </stringQualifiers>
+      <stringQualifiers/>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="c0e2673a-1846-4ae5-933a-4e33b73a866b">
     <name>Комментарий</name>
@@ -488,6 +524,36 @@
       <value></value>
     </fillValue>
   </attributes>
+  <attributes uuid="1908b558-9619-477e-ab33-0c731adf2b0e">
+    <name>ИспользуетсяРазделениеПоКритичности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Используется разделение по критичности</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2bed313f-06ac-43a1-a0bd-008c5457deb1">
+    <name>ОбработаныАктуальныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработаны актуальные данные</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <dimensions uuid="304feda3-6d33-466c-9e0d-9cea97d763be">
     <name>ИмяОбработчика</name>
     <synonym>
@@ -513,4 +579,40 @@
     </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="d6d20d2e-ac18-4bed-aa98-2466871996ac">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="53617fbd-4c88-4b13-b3f5-acc78064fdea">
+    <name>ПерезапускОтложенногоОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перезапуск отложенного обновления</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fae5d2ca-4a2d-4ba3-945c-d6545a6b57f1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7a043029-1b09-4c11-adfd-9f0588e323e8">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>

@@ -10,6 +10,10 @@
     <items xsi:type="form:FormField">
       <name>ИсточникПравил</name>
       <id>29</id>
+      <title>
+        <key>ru</key>
+        <value>Источник правил</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -81,6 +85,10 @@
       <items xsi:type="form:Button">
         <name>ЗагрузитьТиповыеПравила</name>
         <id>19</id>
+        <title>
+          <key>ru</key>
+          <value>Загрузить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -258,7 +266,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Информация</picture>
+          <picture>StdPicture.Information</picture>
         </picture>
       </extInfo>
     </items>
@@ -351,6 +359,10 @@
     <items xsi:type="form:FormField">
       <name>ИнформацияОПравилах</name>
       <id>11</id>
+      <title>
+        <key>ru</key>
+        <value>Информация о комплекте правил</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -594,6 +606,10 @@
           <items xsi:type="form:FormField">
             <name>ВнешняяОбработкаДляОтладкиВыгрузки</name>
             <id>40</id>
+            <title>
+              <key>ru</key>
+              <value>Имя файла обработки для отладки выгрузки</value>
+            </title>
             <visible>true</visible>
             <userVisible>
               <common>true</common>
@@ -736,6 +752,10 @@
           <items xsi:type="form:FormField">
             <name>ВнешняяОбработкаДляОтладкиЗагрузки</name>
             <id>36</id>
+            <title>
+              <key>ru</key>
+              <value>Имя файла обработки для отладки загрузки</value>
+            </title>
             <visible>true</visible>
             <userVisible>
               <common>true</common>
@@ -826,6 +846,10 @@
           <items xsi:type="form:FormField">
             <name>ВключитьПротоколированиеОбменаДанными</name>
             <id>43</id>
+            <title>
+              <key>ru</key>
+              <value>Режим протоколирования обмена данными</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -874,6 +898,10 @@
           <items xsi:type="form:FormField">
             <name>ФайлПротоколаОбмена</name>
             <id>45</id>
+            <title>
+              <key>ru</key>
+              <value>Имя файла протокола обмена</value>
+            </title>
             <visible>true</visible>
             <userVisible>
               <common>true</common>
@@ -1117,85 +1145,6 @@
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
-  <items xsi:type="form:FormGroup">
-    <name>ГруппаДополнительно</name>
-    <id>18</id>
-    <items xsi:type="form:FormField">
-      <name>ИспользоватьФильтрВыборочнойРегистрацииОбъектов</name>
-      <id>13</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>ИспользоватьФильтрВыборочнойРегистрацииОбъектов</segments>
-      </dataPath>
-      <titleLocation>Right</titleLocation>
-      <extendedTooltip>
-        <name>ИспользоватьФильтрВыборочнойРегистрацииОбъектовExtendedTooltip</name>
-        <id>81</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ИспользоватьФильтрВыборочнойРегистрацииОбъектовКонтекстноеМеню</name>
-        <id>14</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>CheckBoxField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
-    </items>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible/>
-    <title>
-      <key>ru</key>
-      <value>Дополнительно</value>
-    </title>
-    <extendedTooltip>
-      <name>ГруппаДополнительноExtendedTooltip</name>
-      <id>80</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </extendedTooltip>
-    <type>UsualGroup</type>
-    <extInfo xsi:type="form:UsualGroupExtInfo">
-      <group>HorizontalIfPossible</group>
-      <showLeftMargin>true</showLeftMargin>
-      <united>true</united>
-      <slaveItemsWidth>LeftWidest</slaveItemsWidth>
-      <throughAlign>Auto</throughAlign>
-      <currentRowUse>Auto</currentRowUse>
-    </extInfo>
-  </items>
   <commandBarLocation>Top</commandBarLocation>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
@@ -1203,6 +1152,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписатьИЗакрыть</name>
       <id>82</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1254,7 +1207,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>0:fe558fde-99b3-45d0-a060-9fc2905309f6</commandName>
+      <commandName>0</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1284,7 +1237,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>0:1f317795-c420-4a30-b594-c492abc55f7a</commandName>
+      <commandName>0</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1315,7 +1268,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>0:c32d43de-b820-49d0-bf7a-d70829f48f40</commandName>
+      <commandName>0</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -1325,6 +1278,10 @@
     <items xsi:type="form:Button">
       <name>СохранитьПравилаВФайл</name>
       <id>20</id>
+      <title>
+        <key>ru</key>
+        <value>Сохранить правила в файл ...</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1371,6 +1328,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -1469,23 +1427,6 @@
       <value>Режим отладки</value>
     </title>
     <id>8</id>
-    <valueType>
-      <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ИспользоватьФильтрВыборочнойРегистрацииОбъектов</name>
-    <title>
-      <key>ru</key>
-      <value>Использовать фильтр выборочной регистрации объектов</value>
-    </title>
-    <id>9</id>
     <valueType>
       <types>Boolean</types>
     </valueType>

@@ -329,6 +329,43 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="793d7af5-b499-4646-9e8e-a5728bf71338">
+    <name>ИспользоватьОтказОтОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать отказ от ответа</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Признак того, что для обязательного вопроса допускается не давать ответ</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e4850e53-03b0-43ba-8365-feb89eb38102">
+    <name>ФормулировкаОтказаОтОтвета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формулировка отказа от ответа</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <tabularSections uuid="c694c132-1ddb-4273-818a-d3cca88c082a">
     <producedTypes>
       <objectType typeId="14607087-e369-45a1-afaf-98c4f1d22343" valueTypeId="1ca3c2f2-859d-4917-8a61-3d925bf6076b"/>

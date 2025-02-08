@@ -135,6 +135,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -382,6 +383,20 @@
         <key>ru</key>
         <value>Комментарий к ответу.</value>
       </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="100ec1d0-3719-4feb-8a66-02f2c89fcd36">
+      <name>БезОтвета</name>
+      <synonym>
+        <key>ru</key>
+        <value>Без ответа</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <dataHistory>Use</dataHistory>

@@ -27,7 +27,7 @@
         <value>Общий отбор по периоду, применяется для всех документов</value>
       </toolTip>
       <extendedTooltip>
-        <name>ПериодДанныхExtendedTooltip</name>
+        <name>ПериодДанныхРасширеннаяПодсказка</name>
         <id>21</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -80,7 +80,7 @@
       <value>Период</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаПериодExtendedTooltip</name>
+      <name>ГруппаПериодРасширеннаяПодсказка</name>
       <id>20</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -135,7 +135,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>КомпоновщикНастроекОтборДобавитьЭлементОтбораExtendedTooltip</name>
+          <name>КомпоновщикНастроекОтборДобавитьЭлементОтбораРасширеннаяПодсказка</name>
           <id>22</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -169,7 +169,7 @@
           <value>Компоновщик настроек отбор группа все действия</value>
         </title>
         <extendedTooltip>
-          <name>КомпоновщикНастроекОтборГруппаВсеДействияExtendedTooltip</name>
+          <name>КомпоновщикНастроекОтборГруппаВсеДействияРасширеннаяПодсказка</name>
           <id>23</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -311,7 +311,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>КомпоновщикНастроекОтборExtendedTooltip</name>
+      <name>КомпоновщикНастроекОтборРасширеннаяПодсказка</name>
       <id>24</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -370,13 +370,17 @@
     <items xsi:type="form:Button">
       <name>ФормаКомандаОК</name>
       <id>11</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаКомандаОКExtendedTooltip</name>
+        <name>ФормаКомандаОКРасширеннаяПодсказка</name>
         <id>17</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -407,7 +411,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСправкаExtendedTooltip</name>
+        <name>ФормаСправкаРасширеннаяПодсказка</name>
         <id>18</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -437,7 +441,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОтменаExtendedTooltip</name>
+        <name>ФормаОтменаРасширеннаяПодсказка</name>
         <id>19</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -474,6 +478,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

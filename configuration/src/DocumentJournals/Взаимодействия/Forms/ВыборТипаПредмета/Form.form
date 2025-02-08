@@ -27,6 +27,10 @@
     <items xsi:type="form:FormField">
       <name>ТаблицаТиповПредметовПредставлениеТипа</name>
       <id>14</id>
+      <title>
+        <key>ru</key>
+        <value>Представление типа</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -256,6 +260,10 @@
   <items xsi:type="form:FormField">
     <name>НеОтображатьВзаимодействия</name>
     <id>23</id>
+    <title>
+      <key>ru</key>
+      <value>Не отображать взаимодействия</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -307,6 +315,10 @@
     <items xsi:type="form:Button">
       <name>ФормаВыбрать</name>
       <id>21</id>
+      <title>
+        <key>ru</key>
+        <value>Выбрать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -383,6 +395,7 @@
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

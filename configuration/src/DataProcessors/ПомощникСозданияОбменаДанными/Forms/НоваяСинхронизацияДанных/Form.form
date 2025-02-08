@@ -101,7 +101,7 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Группа1</value>
+          <value>Группа</value>
         </title>
         <extendedTooltip>
           <name>Группа1РасширеннаяПодсказка</name>
@@ -337,7 +337,7 @@
               </userVisible>
               <title>
                 <key>ru</key>
-                <value>Группа3</value>
+                <value>Группа</value>
               </title>
               <extendedTooltip>
                 <name>Группа3РасширеннаяПодсказка</name>
@@ -445,6 +445,10 @@
               <items xsi:type="form:Button">
                 <name>ПодключитьИнтернетПоддержку</name>
                 <id>65</id>
+                <title>
+                  <key>ru</key>
+                  <value>Подключить</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -480,7 +484,7 @@
               </userVisible>
               <title>
                 <key>ru</key>
-                <value>Группа4</value>
+                <value>Группа</value>
               </title>
               <extendedTooltip>
                 <name>Группа4РасширеннаяПодсказка</name>
@@ -794,7 +798,7 @@
               </userVisible>
               <title>
                 <key>ru</key>
-                <value>Группа2</value>
+                <value>Группа</value>
               </title>
               <extendedTooltip>
                 <name>Группа2РасширеннаяПодсказка</name>
@@ -981,6 +985,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОбновитьСписокНастроек</name>
       <id>21</id>
+      <title>
+        <key>ru</key>
+        <value>Обновить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1028,6 +1036,7 @@
     <event>URLProcessing</event>
     <name>ОбработкаНавигационнойСсылки</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

@@ -23,6 +23,10 @@
     <items xsi:type="form:FormField">
       <name>ДоступныеВидыОбъектовПредставлениеСписка</name>
       <id>22</id>
+      <title>
+        <key>ru</key>
+        <value>Представление списка</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -256,6 +260,10 @@
     <items xsi:type="form:Button">
       <name>ФормаПодобратьИЗакрыть</name>
       <id>38</id>
+      <title>
+        <key>ru</key>
+        <value>Подобрать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -287,6 +295,10 @@
     <items xsi:type="form:Button">
       <name>ФормаПодобрать</name>
       <id>10</id>
+      <title>
+        <key>ru</key>
+        <value>Подобрать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -386,6 +398,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

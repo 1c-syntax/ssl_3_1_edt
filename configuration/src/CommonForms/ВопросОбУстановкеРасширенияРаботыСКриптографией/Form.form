@@ -58,6 +58,10 @@
     <items xsi:type="form:Button">
       <name>ФормаУстановитьИПродолжить</name>
       <id>8</id>
+      <title>
+        <key>ru</key>
+        <value>Установить и продолжить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -90,6 +94,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОтмена</name>
       <id>15</id>
+      <title>
+        <key>ru</key>
+        <value>Отмена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -141,6 +149,7 @@
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

@@ -34,6 +34,8 @@
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
+          <verticalStretch>true</verticalStretch>
           <extInfo xsi:type="form:LabelDecorationExtInfo">
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
@@ -57,52 +59,16 @@
           <fileDragMode>AsFileRef</fileDragMode>
         </extInfo>
       </items>
-      <items xsi:type="form:Decoration">
-        <name>ДекорацияОтступ</name>
-        <id>36</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>ДекорацияОтступРасширеннаяПодсказка</name>
-          <id>38</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>ДекорацияОтступКонтекстноеМеню</name>
-          <id>37</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </items>
       <items xsi:type="form:FormGroup">
         <name>Группа1</name>
         <id>3</id>
         <items xsi:type="form:FormField">
           <name>ПредставлениеОтбораПоПериоду</name>
           <id>57</id>
+          <title>
+            <key>ru</key>
+            <value>Период</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -166,6 +132,10 @@
         <items xsi:type="form:FormField">
           <name>ПредставлениеОтбораСинхронизаций</name>
           <id>63</id>
+          <title>
+            <key>ru</key>
+            <value>Синхронизации</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -229,6 +199,10 @@
         <items xsi:type="form:FormField">
           <name>ПредставлениеОтбораТиповПредупреждений</name>
           <id>60</id>
+          <title>
+            <key>ru</key>
+            <value>Тип</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -296,7 +270,7 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Группа 1</value>
+          <value>Группа</value>
         </title>
         <extendedTooltip>
           <name>Группа1РасширеннаяПодсказка</name>
@@ -325,6 +299,10 @@
       <items xsi:type="form:FormField">
         <name>ТолькоСкрытыеЗаписи</name>
         <id>16</id>
+        <title>
+          <key>ru</key>
+          <value>Только скрытые записи, которые удовлетворяют условиям выше</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -423,7 +401,7 @@
           <title>
             <key>ru</key>
             <value>Подождите, пожалуйста,
-производится удаление уставших записей…</value>
+производится удаление устаревших записей…</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -499,6 +477,10 @@
       <items xsi:type="form:FormField">
         <name>Индикация</name>
         <id>33</id>
+        <title>
+          <key>ru</key>
+          <value>Индикация</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -636,6 +618,10 @@
       <items xsi:type="form:FormField">
         <name>ОписаниеОшибки</name>
         <id>42</id>
+        <title>
+          <key>ru</key>
+          <value>Ошибка (описание для администратора)</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -840,6 +826,10 @@
     <items xsi:type="form:Button">
       <name>ФормаУдалитьПредупреждения</name>
       <id>19</id>
+      <title>
+        <key>ru</key>
+        <value>Удалить предупреждения</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -914,6 +904,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

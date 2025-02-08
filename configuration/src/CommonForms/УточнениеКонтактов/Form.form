@@ -37,6 +37,10 @@
     <items xsi:type="form:FormField">
       <name>ТаблицаКонтактовИзменять</name>
       <id>26</id>
+      <title>
+        <key>ru</key>
+        <value>Изменять</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -51,7 +55,7 @@
         <value>Установить в качестве адреса электронной почты контакта адрес содержащийся в письме </value>
       </toolTip>
       <extendedTooltip>
-        <name>ТаблицаКонтактовИзменятьExtendedTooltip</name>
+        <name>ТаблицаКонтактовИзменятьРасширеннаяПодсказка</name>
         <id>35</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -98,7 +102,7 @@
         <segments>ТаблицаКонтактов.ПолноеПредставление</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ТаблицаКонтактовПолноеПредставлениеExtendedTooltip</name>
+        <name>ТаблицаКонтактовПолноеПредставлениеРасширеннаяПодсказка</name>
         <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -160,7 +164,7 @@
           <name>ТаблицаКонтактовКонтактПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ТаблицаКонтактовКонтактExtendedTooltip</name>
+          <name>ТаблицаКонтактовКонтактРасширеннаяПодсказка</name>
           <id>38</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -227,7 +231,7 @@
           <segments>ТаблицаКонтактов.ТекущийАдресКонтактаПредставление</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ТаблицаКонтактовТекущийАдресКонтактаExtendedTooltip</name>
+          <name>ТаблицаКонтактовТекущийАдресКонтактаРасширеннаяПодсказка</name>
           <id>39</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -285,7 +289,7 @@
         <value>Сохранить в контактах</value>
       </title>
       <extendedTooltip>
-        <name>ТаблицаКонтактовГруппаКонтактВидЭлектроннойПочтыExtendedTooltip</name>
+        <name>ТаблицаКонтактовГруппаКонтактВидЭлектроннойПочтыРасширеннаяПодсказка</name>
         <id>37</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -440,7 +444,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ТаблицаКонтактовExtendedTooltip</name>
+      <name>ТаблицаКонтактовРасширеннаяПодсказка</name>
       <id>34</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -492,6 +496,10 @@
     <items xsi:type="form:Button">
       <name>КомандаОК</name>
       <id>10</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -499,7 +507,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>КомандаОКExtendedTooltip</name>
+        <name>КомандаОКРасширеннаяПодсказка</name>
         <id>33</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -542,6 +550,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

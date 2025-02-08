@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>ПредставлениеХранилищаФайлов</name>
     <id>9</id>
+    <title>
+      <key>ru</key>
+      <value>Владелец файлов</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -16,7 +20,7 @@
       <segments>ПредставлениеХранилищаФайлов</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ПредставлениеХранилищаФайловExtendedTooltip</name>
+      <name>ПредставлениеХранилищаФайловРасширеннаяПодсказка</name>
       <id>22</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -537,7 +541,6 @@
     <rowsPicture xsi:type="core:PictureRef">
       <picture>CommonPicture.КоллекцияПиктограммФайлов</picture>
     </rowsPicture>
-    <searchStringLocation>None</searchStringLocation>
     <viewStatusLocation>None</viewStatusLocation>
     <searchControlLocation>None</searchControlLocation>
     <extInfo xsi:type="form:DynamicListTableExtInfo">
@@ -548,6 +551,7 @@
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
       <userSettingsGroup>ГруппаПользовательскихНастроек</userSettingsGroup>
     </extInfo>
   </items>
@@ -565,6 +569,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

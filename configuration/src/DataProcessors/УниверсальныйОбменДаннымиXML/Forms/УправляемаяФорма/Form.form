@@ -148,6 +148,10 @@
       <items xsi:type="form:FormField">
         <name>ПрямаяВыгрузка</name>
         <id>14</id>
+        <title>
+          <key>ru</key>
+          <value>Прямая выгрузка</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -946,6 +950,10 @@
                 <items xsi:type="form:Button">
                   <name>ТестПодключения</name>
                   <id>32</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Проверить подключение</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1484,6 +1492,10 @@
             <items xsi:type="form:FormField">
               <name>ПериодВыгрузки</name>
               <id>212</id>
+              <title>
+                <key>ru</key>
+                <value>Период выгрузки</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1815,6 +1827,10 @@
               <items xsi:type="form:Button">
                 <name>ТаблицаПравилВыгрузкиВыгрузкаОтметитьВсе</name>
                 <id>178</id>
+                <title>
+                  <key>ru</key>
+                  <value>Выгрузка отметить все</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1845,6 +1861,10 @@
               <items xsi:type="form:Button">
                 <name>ТаблицаПравилВыгрузкиВыгрузкаОтменитьВсе</name>
                 <id>179</id>
+                <title>
+                  <key>ru</key>
+                  <value>Выгрузка отменить все</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1878,6 +1898,10 @@
                 <items xsi:type="form:Button">
                   <name>ТаблицаПравилВыгрузкиВыгрузкаОчиститьУзлыОбмена</name>
                   <id>181</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Очистить узлы обмена</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -1908,6 +1932,10 @@
                 <items xsi:type="form:Button">
                   <name>ТаблицаПравилВыгрузкиВыгрузкаУстановитьУзелОбмена</name>
                   <id>182</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Установить текущий узел обмена у всех</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2295,6 +2323,10 @@
               <items xsi:type="form:Button">
                 <name>ТаблицаНастройкиПараметровВосстановитьПараметры</name>
                 <id>61</id>
+                <title>
+                  <key>ru</key>
+                  <value>Восстановить</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2325,6 +2357,10 @@
               <items xsi:type="form:Button">
                 <name>ТаблицаНастройкиПараметровСохранитьПараметры</name>
                 <id>62</id>
+                <title>
+                  <key>ru</key>
+                  <value>Сохранить</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -3300,6 +3336,10 @@
         <items xsi:type="form:FormField">
           <name>ИмяФайлаПравилЗагрузки</name>
           <id>398</id>
+          <title>
+            <key>ru</key>
+            <value>Имя файла правил</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -4440,6 +4480,9 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Объект.БезопасныйРежим</segments>
+        </dataPath>
         <titleLocation>Right</titleLocation>
         <toolTipRepresentation>Button</toolTipRepresentation>
         <extendedTooltip>
@@ -5590,6 +5633,10 @@
           <items xsi:type="form:FormField">
             <name>МетаданныеДляУдаленияПометка</name>
             <id>206</id>
+            <title>
+              <key>ru</key>
+              <value>Пометка</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -5722,6 +5769,10 @@
           <items xsi:type="form:Button">
             <name>УдаляемыеДанныеУдалениеОтметитьВсе</name>
             <id>172</id>
+            <title>
+              <key>ru</key>
+              <value>Удаление отметить все</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -5752,6 +5803,10 @@
           <items xsi:type="form:Button">
             <name>УдаляемыеДанныеУдалениеОтменитьВсе</name>
             <id>173</id>
+            <title>
+              <key>ru</key>
+              <value>Удаление отменить все</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -5782,6 +5837,10 @@
           <items xsi:type="form:Button">
             <name>УдаляемыеДанныеУдалениеУдалить</name>
             <id>174</id>
+            <title>
+              <key>ru</key>
+              <value>Удалить</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -6116,6 +6175,10 @@
       <items xsi:type="form:Button">
         <name>ФормаНаКлиенте</name>
         <id>198</id>
+        <title>
+          <key>ru</key>
+          <value>На клиенте</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -6146,6 +6209,10 @@
       <items xsi:type="form:Button">
         <name>ФормаНаСервере</name>
         <id>199</id>
+        <title>
+          <key>ru</key>
+          <value>На сервере</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -6251,6 +6318,7 @@
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <saveDataInSettings>UseList</saveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

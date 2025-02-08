@@ -121,6 +121,10 @@
     <items xsi:type="form:FormField">
       <name>ПодписиПутьКФайлу</name>
       <id>4</id>
+      <title>
+        <key>ru</key>
+        <value>Файл электронной подписи</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -130,7 +134,7 @@
         <segments>Подписи.ПутьКФайлу</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПодписиПутьКФайлуExtendedTooltip</name>
+        <name>ПодписиПутьКФайлуРасширеннаяПодсказка</name>
         <id>15</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -178,6 +182,10 @@
     <items xsi:type="form:FormField">
       <name>ПодписиКомментарий</name>
       <id>9</id>
+      <title>
+        <key>ru</key>
+        <value>Комментарий</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -187,7 +195,7 @@
         <segments>Подписи.Комментарий</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПодписиКомментарийExtendedTooltip</name>
+        <name>ПодписиКомментарийРасширеннаяПодсказка</name>
         <id>16</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -227,6 +235,69 @@
         <textEdit>true</textEdit>
       </extInfo>
     </items>
+    <items xsi:type="form:FormField">
+      <name>ПодписиМашиночитаемаяДоверенность</name>
+      <id>54</id>
+      <title>
+        <key>ru</key>
+        <value>Машиночитаемая доверенность</value>
+      </title>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Подписи.МашиночитаемаяДоверенность</segments>
+      </dataPath>
+      <extendedTooltip>
+        <name>ПодписиМашиночитаемаяДоверенностьРасширеннаяПодсказка</name>
+        <id>56</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ПодписиМашиночитаемаяДоверенностьКонтекстноеМеню</name>
+        <id>55</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <handlers>
+          <event>AutoComplete</event>
+          <name>ПодписиМашиночитаемаяДоверенностьАвтоПодбор</name>
+        </handlers>
+        <handlers>
+          <event>StartChoice</event>
+          <name>ПодписиМашиночитаемаяДоверенностьНачалоВыбора</name>
+        </handlers>
+        <width>40</width>
+        <autoMaxWidth>true</autoMaxWidth>
+        <height>2</height>
+        <wrap>true</wrap>
+        <choiceButton>true</choiceButton>
+        <choiceButtonRepresentation>ShowInInputField</choiceButtonRepresentation>
+        <quickChoice>false</quickChoice>
+        <typeDomainEnabled>true</typeDomainEnabled>
+      </extInfo>
+    </items>
     <autoCommandBar>
       <name>ПодписиКоманднаяПанель</name>
       <id>3</id>
@@ -235,7 +306,7 @@
         <id>17</id>
         <title>
           <key>ru</key>
-          <value>Добавить ...</value>
+          <value>Выбрать файлы с компьютера...</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -393,7 +464,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ПодписиExtendedTooltip</name>
+      <name>ПодписиРасширеннаяПодсказка</name>
       <id>14</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -447,13 +518,17 @@
     <items xsi:type="form:Button">
       <name>ФормаОК</name>
       <id>8</id>
+      <title>
+        <key>ru</key>
+        <value>Добавить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОКExtendedTooltip</name>
+        <name>ФормаОКРасширеннаяПодсказка</name>
         <id>12</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -484,7 +559,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОтменаExtendedTooltip</name>
+        <name>ФормаОтменаРасширеннаяПодсказка</name>
         <id>13</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -522,6 +597,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -596,6 +672,55 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>МашиночитаемаяДоверенность</name>
+      <title>
+        <key>ru</key>
+        <value>Машиночитаемая доверенность</value>
+      </title>
+      <id>9</id>
+      <valueType>
+        <types>CatalogRef.МашиночитаемыеДоверенности</types>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ПоляОтбора</name>
+      <id>23</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>НомерДоверенности</name>
+      <id>27</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>МенеджерКриптографииНаСервереОписаниеОшибки</name>
@@ -615,6 +740,106 @@
       <value>Представление данных</value>
     </title>
     <id>5</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>Доверенности</name>
+    <id>6</id>
+    <valueType>
+      <types>ValueTable</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <columns>
+      <name>МашиночитаемаяДоверенность</name>
+      <id>7</id>
+      <valueType>
+        <types>CatalogRef.МашиночитаемыеДоверенности</types>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ИмяФайла</name>
+      <id>11</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>НомерДоверенности</name>
+      <id>12</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ФайлыДоверенности</name>
+      <id>25</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ПоляОтбора</name>
+      <id>26</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+  </attributes>
+  <attributes>
+    <name>ОшибкиПриЗагрузкеДоверенностей</name>
+    <id>8</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>
@@ -646,6 +871,23 @@
       </handler>
     </action>
     <currentRowUse>DontUse</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ПодобратьДоверенности</name>
+    <title>
+      <key>ru</key>
+      <value>Подобрать доверенности</value>
+    </title>
+    <id>2</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПодобратьДоверенности</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <parameters>
     <name>ПоказатьКомментарий</name>

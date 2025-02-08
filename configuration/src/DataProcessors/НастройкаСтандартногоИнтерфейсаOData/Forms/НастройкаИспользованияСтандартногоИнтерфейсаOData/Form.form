@@ -19,6 +19,10 @@
           <items xsi:type="form:FormField">
             <name>СоздатьПользователяСтандартногоИнтерфейсаOData</name>
             <id>74</id>
+            <title>
+              <key>ru</key>
+              <value>Создать для использования автоматического REST-сервиса отдельные имя пользователя и пароль</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -116,6 +120,10 @@
           <items xsi:type="form:FormField">
             <name>ИмяПользователя</name>
             <id>41</id>
+            <title>
+              <key>ru</key>
+              <value>Имя пользователя</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -168,6 +176,10 @@
             <items xsi:type="form:FormField">
               <name>Пароль</name>
               <id>44</id>
+              <title>
+                <key>ru</key>
+                <value>Пароль</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -218,6 +230,10 @@
             <items xsi:type="form:FormField">
               <name>ПодтверждениеПароля</name>
               <id>57</id>
+              <title>
+                <key>ru</key>
+                <value>Подтверждение</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -312,7 +328,7 @@
             <id>40</id>
             <title>
               <key>ru</key>
-              <value>В целях безопасности при использовании автоматического REST-сервиса, не передавайте имя и пароль этого пользователя третьим лицам без необходимости, так как использование REST-сервиса позволяет выполнять чтение и изменение данных приложения. Сообщайте их только надежным лицам и используйте в сторонних программах, которым доверяете.</value>
+              <value>В целях безопасности при использовании автоматического REST-сервиса, не передавайте имя и пароль этого пользователя третьим лицам без необходимости, так как использование REST-сервиса позволяет выполнять чтение и изменение данных приложения. Сообщайте их только надежным лицам и используйте в сторонних приложениях, которым доверяете.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -394,6 +410,10 @@
             <items xsi:type="form:FormField">
               <name>ОбъектыМетаданныхКартинка</name>
               <id>26</id>
+              <title>
+                <key>ru</key>
+                <value>Картинка</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -444,6 +464,10 @@
             <items xsi:type="form:FormField">
               <name>ОбъектыМетаданныхИспользование</name>
               <id>29</id>
+              <title>
+                <key>ru</key>
+                <value>Использование</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -582,6 +606,10 @@
             <items xsi:type="form:FormField">
               <name>ОбъектыМетаданныхПодчиненный</name>
               <id>95</id>
+              <title>
+                <key>ru</key>
+                <value>Примечание</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -590,7 +618,6 @@
               <dataPath xsi:type="form:DataPath">
                 <segments>ОбъектыМетаданных.Подчиненный</segments>
               </dataPath>
-              <titleLocation>None</titleLocation>
               <extendedTooltip>
                 <name>ОбъектыМетаданныхПодчиненныйРасширеннаяПодсказка</name>
                 <id>97</id>
@@ -634,6 +661,10 @@
             <items xsi:type="form:FormField">
               <name>ОбъектыМетаданныхТолькоЧтение</name>
               <id>101</id>
+              <title>
+                <key>ru</key>
+                <value>Только чтение</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -721,6 +752,10 @@
             <items xsi:type="form:Button">
               <name>ОбъектыМетаданныхЗагрузитьМетаданные</name>
               <id>127</id>
+              <title>
+                <key>ru</key>
+                <value>Загрузить метаданные</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -875,14 +910,6 @@
           <extendedTooltip>
             <name>ОбъектыМетаданныхРасширеннаяПодсказка</name>
             <id>4</id>
-            <title>
-              <key>ru</key>
-              <value>Ряд объектов могут быть выделены дополнительно в колонке &quot;Примечание&quot;:
-- Подчиненный объект - объект используется при работе пользователей с приложением не непосредственно , а при работе с другими объектами. Предоставление доступа к таким объектам является штатной ситуацией.
-- Доступен только для чтения - данные объекта могут быть только прочитаны через автоматический REST-сервис.
-
-В списке отображаются только объекты, доступные при текущих настройках программы.</value>
-            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -921,7 +948,6 @@
           <autoMarkIncomplete>false</autoMarkIncomplete>
           <searchOnInput>DontUse</searchOnInput>
           <initialTreeView>ExpandAllLevels</initialTreeView>
-          <output>Disable</output>
           <horizontalStretch>true</horizontalStretch>
           <verticalStretch>true</verticalStretch>
           <rowPictureDataPath xsi:type="form:DataPath">
@@ -930,6 +956,96 @@
           <searchStringLocation>None</searchStringLocation>
           <viewStatusLocation>None</viewStatusLocation>
           <searchControlLocation>None</searchControlLocation>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаПодсказка</name>
+          <id>129</id>
+          <items xsi:type="form:Decoration">
+            <name>ДекорацияПодсказка</name>
+            <id>131</id>
+            <title>
+              <key>ru</key>
+              <value>· &lt;b>Подчиненный объект&lt;/> - объект используется при работе пользователей с приложением не непосредственно, а при работе с другими объектами. Предоставление доступа к таким объектам является штатной ситуацией.
+· &lt;b>Доступен только для чтения&lt;/> - данные объекта могут быть только прочитаны через REST-сервис.
+
+В списке отображаются только объекты, доступные при текущих настройках приложения.</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ДекорацияПодсказкаРасширеннаяПодсказка</name>
+              <id>133</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДекорацияПодсказкаКонтекстноеМеню</name>
+              <id>132</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <formatted>true</formatted>
+            <type>Label</type>
+            <autoMaxHeight>true</autoMaxHeight>
+            <textColor xsi:type="core:ColorRef">
+              <color>Style.ПоясняющийТекст</color>
+            </textColor>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Легенда для колонки Примечание</value>
+          </title>
+          <extendedTooltip>
+            <name>ГруппаПодсказкаРасширеннаяПодсказка</name>
+            <id>130</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>HorizontalIfPossible</group>
+            <behavior>Collapsible</behavior>
+            <collapsed>true</collapsed>
+            <controlRepresentation>Picture</controlRepresentation>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <showTitle>true</showTitle>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -947,13 +1063,14 @@
           <title>
             <key>ru</key>
             <value>В списке перечислены объекты, доступ к которым может быть предоставлен через автоматический REST-сервис.
-Требуемый состав объектов можно уточнить у разработчика сторонней программы, которая будет подключаться к приложению через автоматический REST-сервис.</value>
+Требуемый состав объектов можно уточнить у разработчика стороннего приложения, которое будет подключаться к этому приложению через автоматический REST-сервис. &lt;link https://its.1c.eu/db/v8323doc#bookmark:dev:ti000001358>Информация для разработчиков&lt;/></value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
+          <formatted>true</formatted>
           <type>Label</type>
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
@@ -997,135 +1114,6 @@
         <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
-    <items xsi:type="form:FormGroup">
-      <name>ИнформацияДляРазработчиков</name>
-      <id>55</id>
-      <items xsi:type="form:Decoration">
-        <name>Декорация1</name>
-        <id>64</id>
-        <title>
-          <key>ru</key>
-          <value>&lt;link http://v8.1c.ru/o7/201312rest/index.htm>Обзорное о&lt;/>&lt;link http://v8.1c.ru/o7/201312rest/index.htm>писание технологии автоматического REST-сервиса&lt;/></value>
-        </title>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>Декорация1РасширеннаяПодсказка</name>
-          <id>66</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>Декорация1КонтекстноеМеню</name>
-          <id>65</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <formatted>true</formatted>
-        <type>Label</type>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </items>
-      <items xsi:type="form:Decoration">
-        <name>Декорация2</name>
-        <id>67</id>
-        <title>
-          <key>ru</key>
-          <value>&lt;link http://its.1c.ru/db/v83doc#bookmark:dev:ti000001358>Документация&lt;/>&lt;link http://its.1c.ru/db/v83doc#bookmark:dev:ti000001358> по использованию автоматического REST-сервиса&lt;/></value>
-        </title>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <extendedTooltip>
-          <name>Декорация2РасширеннаяПодсказка</name>
-          <id>69</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>Декорация2КонтекстноеМеню</name>
-          <id>68</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <formatted>true</formatted>
-        <type>Label</type>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </items>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <title>
-        <key>ru</key>
-        <value>Информация для разработчиков</value>
-      </title>
-      <horizontalStretch>true</horizontalStretch>
-      <extendedTooltip>
-        <name>ИнформацияДляРазработчиковРасширеннаяПодсказка</name>
-        <id>56</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <type>UsualGroup</type>
-      <extInfo xsi:type="form:UsualGroupExtInfo">
-        <behavior>Collapsible</behavior>
-        <collapsed>true</collapsed>
-        <controlRepresentation>Picture</controlRepresentation>
-        <representation>WeakSeparation</representation>
-        <showLeftMargin>true</showLeftMargin>
-        <united>true</united>
-        <showTitle>true</showTitle>
-        <throughAlign>Auto</throughAlign>
-        <currentRowUse>Auto</currentRowUse>
-      </extInfo>
-    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -1142,7 +1130,7 @@
       <id>117</id>
       <title>
         <key>ru</key>
-        <value>Автоматический REST-сервис предназначен для взаимодействия прикладных решений на платформе «1С:Предприятие» и сторонних систем (например, для интеграции с Интернет-магазином, корпоративными информационными системами или пакетной загрузки данных в приложение). REST-сервис позволяет получать данные, изменять их, создавать новые объекты (например, справочники и документы) и удалять существующие. </value>
+        <value>Автоматический REST-сервис предназначен для взаимодействия прикладных решений на платформе 1С:Предприятие и сторонних систем (например, для интеграции с Интернет-магазином, корпоративными информационными системами или пакетной загрузки данных в приложение). REST-сервис позволяет получать данные, изменять их, создавать новые объекты (например, справочники и документы) и удалять существующие. </value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1171,6 +1159,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСохранитьИЗакрыть</name>
       <id>34</id>
+      <title>
+        <key>ru</key>
+        <value>Сохранить и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1202,6 +1194,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСохранить</name>
       <id>79</id>
+      <title>
+        <key>ru</key>
+        <value>Сохранить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1249,6 +1245,7 @@
     <event>FillCheckProcessingAtServer</event>
     <name>ОбработкаПроверкиЗаполненияНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

@@ -9,7 +9,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>КодExtendedTooltip</name>
+      <name>КодРасширеннаяПодсказка</name>
       <id>9</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -59,7 +59,7 @@
       <segments>Объект.Description</segments>
     </dataPath>
     <extendedTooltip>
-      <name>НаименованиеExtendedTooltip</name>
+      <name>НаименованиеРасширеннаяПодсказка</name>
       <id>10</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -110,7 +110,7 @@
       <segments>Объект.Parent</segments>
     </dataPath>
     <extendedTooltip>
-      <name>РодительExtendedTooltip</name>
+      <name>РодительРасширеннаяПодсказка</name>
       <id>11</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -159,7 +159,7 @@
       <segments>Объект.Автор</segments>
     </dataPath>
     <extendedTooltip>
-      <name>АвторExtendedTooltip</name>
+      <name>АвторРасширеннаяПодсказка</name>
       <id>12</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -213,6 +213,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

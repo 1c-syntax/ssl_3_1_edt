@@ -76,6 +76,7 @@
   </standardAttributes>
   <createOnInput>DontUse</createOnInput>
   <dataLockFields>ExchangePlan.ОбновлениеИнформационнойБазы.Attribute.Очередь</dataLockFields>
+  <dataLockFields>ExchangePlan.ОбновлениеИнформационнойБазы.Attribute.Временная</dataLockFields>
   <dataLockControlMode>Managed</dataLockControlMode>
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
@@ -90,10 +91,16 @@
   <codeAllowedLength>Variable</codeAllowedLength>
   <descriptionLength>25</descriptionLength>
   <content>
+    <mdObject>InformationRegister.ИсторияРассылкиОтчетов</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.СостоянияРассылокОтчетов</mdObject>
   </content>
   <content>
     <mdObject>Catalog.ЭлектронноеПисьмоВходящееПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ЭкземплярыСервераDSS</mdObject>
   </content>
   <content>
     <mdObject>Catalog.ШаблоныАнкет</mdObject>
@@ -127,6 +134,9 @@
   </content>
   <content>
     <mdObject>InformationRegister.ПериодыНерабочихДнейКалендаря</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.АрхивСообщенийОбменов</mdObject>
   </content>
   <content>
     <mdObject>Catalog.ПапкиЭлектронныхПисем</mdObject>
@@ -198,6 +208,9 @@
     <mdObject>Constant.ВерсияДатЗапретаИзменения</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ОбъектыНезарегистрированныеПриЗацикливании</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.НастройкаПроксиСервера</mdObject>
   </content>
   <content>
@@ -205,6 +218,9 @@
   </content>
   <content>
     <mdObject>InformationRegister.ОбработчикиСобытийСинхронизацииДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЗаявленияНаВыпускСертификата</mdObject>
   </content>
   <content>
     <mdObject>Catalog.ВнешниеКомпоненты</mdObject>
@@ -223,9 +239,6 @@
   </content>
   <content>
     <mdObject>InformationRegister.КалендарныеГрафики</mdObject>
-  </content>
-  <content>
-    <mdObject>InformationRegister.ДомаЗданияСтроения</mdObject>
   </content>
   <content>
     <mdObject>Constant.ЗапретитьОтображениеНебезопасногоСодержимогоВПисьмах</mdObject>
@@ -267,6 +280,12 @@
     <mdObject>Constant.ИспользоватьСинхронизациюДанныхВЛокальномРежиме</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ЗадачиОбменаДаннымиВнутренняяПубликация</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ИсторияАдминистративнойИерархии</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.ВерсияКлассификатораБанков</mdObject>
   </content>
   <content>
@@ -276,10 +295,10 @@
     <mdObject>Constant.ПрофильБезопасностиИнформационнойБазы</mdObject>
   </content>
   <content>
-    <mdObject>Constant.ДнейДоСкрытияПерсональныхДанныхСубъектов</mdObject>
+    <mdObject>Catalog.ЗапланированноеВзаимодействиеПрисоединенныеФайлы</mdObject>
   </content>
   <content>
-    <mdObject>Catalog.ЗапланированноеВзаимодействиеПрисоединенныеФайлы</mdObject>
+    <mdObject>InformationRegister.ИерархияГруппПользователей</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.НастройкиОбменаДаннымиXDTO</mdObject>
@@ -289,6 +308,9 @@
   </content>
   <content>
     <mdObject>InformationRegister.ПредопределенныеВариантыОтчетовВерсийРасширений</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.НастройкиРегистрацииСобытийДоступаКДанным</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.СубъектыДляСкрытияПерсональныхДанных</mdObject>
@@ -307,6 +329,9 @@
   </content>
   <content>
     <mdObject>InformationRegister.НастройкиСинхронизацииФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПрогрессОбновления</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.УдалитьОбластиПерсональныхДанных</mdObject>
@@ -336,6 +361,9 @@
     <mdObject>InformationRegister.ДополнительныеСведения</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.СнимкиОтчетов</mdObject>
+  </content>
+  <content>
     <mdObject>Catalog.ПредопределенныеВариантыОтчетовРасширений</mdObject>
   </content>
   <content>
@@ -357,6 +385,9 @@
     <mdObject>Constant.ИспользоватьСкрытиеПерсональныхДанныхСубъектов</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.СрокиХраненияПерсональныхДанных</mdObject>
+  </content>
+  <content>
     <mdObject>Catalog.ИдентификаторыОбъектовМетаданных</mdObject>
   </content>
   <content>
@@ -375,6 +406,9 @@
     <mdObject>InformationRegister.ИсполнителиЗадач</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.УчетныеЗаписиDSS</mdObject>
+  </content>
+  <content>
     <mdObject>Document.ТелефонныйЗвонок</mdObject>
   </content>
   <content>
@@ -388,6 +422,9 @@
   </content>
   <content>
     <mdObject>Constant.СписокЗапрещенныхРасширенийОбластиДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.МашиночитаемыеДоверенности</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.НастройкиТранспортаОбменаОбластейДанных</mdObject>
@@ -420,6 +457,9 @@
     <mdObject>Constant.ИспользоватьВерсионированиеОбъектов</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.СеансыОбменовДанными</mdObject>
+  </content>
+  <content>
     <mdObject>Catalog.ВерсииРасширений</mdObject>
   </content>
   <content>
@@ -427,6 +467,9 @@
   </content>
   <content>
     <mdObject>InformationRegister.ПричиныИзмененияАдресныхСведений</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ХранилищеФайлов</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.СессииОбменаСообщениямиСистемы</mdObject>
@@ -483,6 +526,9 @@
     <mdObject>InformationRegister.СостоянияОбменовДанными</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ОповещенияПользователейСертификатов</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.ИспользоватьАвтономнуюРаботуВМоделиСервиса</mdObject>
   </content>
   <content>
@@ -490,6 +536,9 @@
   </content>
   <content>
     <mdObject>InformationRegister.ЗначенияГруппДоступаПоУмолчанию</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.РазрешенныеНеаккредитованныеУЦ</mdObject>
   </content>
   <content>
     <mdObject>Constant.ОтложенноеОбновлениеЗавершеноУспешно</mdObject>
@@ -543,6 +592,9 @@
     <mdObject>Constant.ПараметрыБлокировкиРаботыСВнешнимиРесурсами</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.СертификатыПолучателейРассылкиОтчетов</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.ПриоритетОбновленияВОбластяхДанных</mdObject>
   </content>
   <content>
@@ -552,7 +604,7 @@
     <mdObject>InformationRegister.КлючиДоступаНаборовГруппДоступа</mdObject>
   </content>
   <content>
-    <mdObject>Constant.НастройкиВходаПользователей</mdObject>
+    <mdObject>Constant.УдалитьНастройкиВходаПользователей</mdObject>
   </content>
   <content>
     <mdObject>Constant.ПараметрыАдресногоКлассификатора</mdObject>
@@ -579,7 +631,13 @@
     <mdObject>Catalog.СтраныМира</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.МашиночитаемыеДоверенностиСтатусы</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.СоздаватьЭлектронныеПодписиНаСервере</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьГруппыВнешнихПользователей</mdObject>
   </content>
   <content>
     <mdObject>Constant.ИспользоватьДатуИВремяВСрокахЗадач</mdObject>
@@ -597,10 +655,16 @@
     <mdObject>Document.ОтзывСогласияНаОбработкуПерсональныхДанных</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.ДополнительныеАдресныеСведения</mdObject>
+    <mdObject>InformationRegister.КлассификаторыМЧД</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьКомандуЗаметки</mdObject>
   </content>
   <content>
     <mdObject>Catalog.СертификатыКлючейЭлектроннойПодписиИШифрования</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ДополнительныеАдресныеСведения</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.НастройкиТранспортаОбменаДанными</mdObject>
@@ -618,6 +682,9 @@
     <mdObject>InformationRegister.СведенияОФайлах</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.КонтурСинхронизации</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.КоличествоПотоковОбновленияДоступа</mdObject>
   </content>
   <content>
@@ -627,10 +694,16 @@
     <mdObject>InformationRegister.ПотокиОбновления</mdObject>
   </content>
   <content>
+    <mdObject>Constant.ИспользоватьКомандуНапоминаний</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.ПользовательскиеМакетыПечати</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.МуниципальнаяИерархия</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ТаблицыГруппДоступа</mdObject>
@@ -666,10 +739,16 @@
     <mdObject>Document.ЭлектронноеПисьмоИсходящее</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.СпискиОтзываСертификатов</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.МинимальныйИнтервалРегламентныхЗаданийДОИОВМоделиСервиса</mdObject>
   </content>
   <content>
     <mdObject>Constant.ИспользованиеКаталогаДополнительныхОтчетовИОбработокВМоделиСервиса</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ДлительныеОперации</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.УдалитьЗамерыВремени3</mdObject>
@@ -687,13 +766,22 @@
     <mdObject>Catalog.ПапкиФайлов</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.СубъектыДляРасчетаСроковХранения</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.НапоминанияПользователя</mdObject>
   </content>
   <content>
     <mdObject>Constant.ДатаОбновленияПовторноИспользуемыхЗначенийМРО</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.НастройкиПолномочийМЧД</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.ЗначенияГруппДоступа</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ИсторияМуниципальнойИерархии</mdObject>
   </content>
   <content>
     <mdObject>Constant.ИспользоватьАльтернативныйСерверДляЗагрузкиКурсовВалют</mdObject>
@@ -708,6 +796,9 @@
     <mdObject>Constant.АвтоматическиНастраиватьРазрешенияВПрофиляхБезопасности</mdObject>
   </content>
   <content>
+    <mdObject>Constant.РежимОчисткиФайлов</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.КэшПрограммныхИнтерфейсов</mdObject>
   </content>
   <content>
@@ -718,6 +809,9 @@
   </content>
   <content>
     <mdObject>Constant.ДанныеДляОтложенногоОбновления</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.СервисПереводаТекста</mdObject>
   </content>
   <content>
     <mdObject>Constant.НеИспользоватьРазделениеПоОбластямДанных</mdObject>
@@ -744,6 +838,9 @@
     <mdObject>Constant.ГлавныйУзел</mdObject>
   </content>
   <content>
+    <mdObject>Constant.АдресСервисаМЧДРР</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.ЗаголовокСистемы</mdObject>
   </content>
   <content>
@@ -762,7 +859,13 @@
     <mdObject>Constant.ИспользуютсяПрофилиБезопасности</mdObject>
   </content>
   <content>
+    <mdObject>Constant.СтандартныеПодсистемыВАвтономномРежиме</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.ОграничиватьДоступНаУровнеЗаписейУниверсально</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ЭлектронныеПодписиМЧД</mdObject>
   </content>
   <content>
     <mdObject>Constant.ЗарегистрированыИзмененияДанных</mdObject>
@@ -801,7 +904,10 @@
     <mdObject>Constant.НастройкиКолонтитулов</mdObject>
   </content>
   <content>
-    <mdObject>Constant.ИспользоватьОнлайнПоддержку</mdObject>
+    <mdObject>InformationRegister.СертификатыПользователяDSS</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.АдминистративнаяИерархия</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.УдалитьНастройкиТранспортаОбмена</mdObject>
@@ -814,6 +920,9 @@
   </content>
   <content>
     <mdObject>Constant.СинхронизироватьДанныеСПриложениемВИнтернетеПриНачалеРаботыПрограммы</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.НастройкиВходаПользователей</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ПсевдонимыПредопределенныхУзлов</mdObject>
@@ -829,9 +938,6 @@
   </content>
   <content>
     <mdObject>InformationRegister.ОбластиСтатистики</mdObject>
-  </content>
-  <content>
-    <mdObject>InformationRegister.АдресныеОбъекты</mdObject>
   </content>
   <content>
     <mdObject>Constant.НастройкаПодчиненногоУзлаРИБЗавершена</mdObject>
@@ -855,13 +961,16 @@
     <mdObject>Catalog.КлассификаторБанков</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ЗемельныеУчастки</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.ИсторияАдресныхОбъектов</mdObject>
   </content>
   <content>
     <mdObject>Constant.СписокЗапрещенныхРасширений</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.СвязиАдресныхОбъектов</mdObject>
+    <mdObject>InformationRegister.ПериодическиеСерверныеОповещения</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.СообщенияОбменаДаннымиОбластейДанных</mdObject>
@@ -888,10 +997,16 @@
     <mdObject>InformationRegister.ПараметрыРаботыВерсийРасширений</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.ХранилищеДвоичныхДанных</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.НастройкиТранспортаОбменаОбластиДанных</mdObject>
   </content>
   <content>
     <mdObject>Constant.ИспользоватьНапоминанияПользователя</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.УничтоженныеПерсональныеДанные</mdObject>
   </content>
   <content>
     <mdObject>Constant.ПрефиксУзлаРаспределеннойИнформационнойБазы</mdObject>
@@ -909,6 +1024,9 @@
     <mdObject>Catalog.ЯзыкиПечатныхФорм</mdObject>
   </content>
   <content>
+    <mdObject>Constant.ИспользоватьСервисПереводаТекста</mdObject>
+  </content>
+  <content>
     <mdObject>Document.СогласиеНаОбработкуПерсональныхДанных</mdObject>
   </content>
   <content>
@@ -918,10 +1036,22 @@
     <mdObject>InformationRegister.БуферОперацийСтатистики</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.ОтправленныеСерверныеОповещения</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.ПараметрыЦентраМониторинга</mdObject>
   </content>
   <content>
     <mdObject>Constant.ОграничиватьДоступНаУровнеЗаписей</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.АдресныеОбъекты</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СвойстваРасширений</mdObject>
+  </content>
+  <content>
+    <mdObject>Document.АктОбУничтоженииПерсональныхДанных</mdObject>
   </content>
   <content>
     <mdObject>Catalog.ГруппыВнешнихПользователей</mdObject>
@@ -975,9 +1105,6 @@
     <mdObject>Constant.ИспользоватьДатыЗапретаИзменения</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.ЗемельныеУчастки</mdObject>
-  </content>
-  <content>
     <mdObject>InformationRegister.КлючиДоступаКОбъектам</mdObject>
   </content>
   <content>
@@ -1005,7 +1132,16 @@
     <mdObject>BusinessProcess.Задание</mdObject>
   </content>
   <content>
+    <mdObject>InformationRegister.НастройкиАрхиваСообщенийОбменов</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.МакетыПечатныхФорм</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.ИдентификаторыОбъектовВерсийРасширений</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</mdObject>
   </content>
   <content>
     <mdObject>Constant.СинхронизироватьДанныеСПриложениемВИнтернетеПриЗавершенииРаботыПрограммы</mdObject>
@@ -1023,7 +1159,16 @@
     <mdObject>InformationRegister.КлючиДоступаГруппДоступа</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.МашиночитаемыеДоверенностиПрисоединенныеФайлы</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ДомаЗданияСтроения</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.ИспользуемыеВидыДоступаПоТаблицам</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.МашиночитаемыеДоверенностиПредставителиИДоверители</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ДампыПлатформы</mdObject>
@@ -1056,9 +1201,6 @@
     <mdObject>InformationRegister.КомментарииСтатистики</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.ОриентирыАдресныхОбъектов</mdObject>
-  </content>
-  <content>
     <mdObject>Constant.СинхронизироватьФайлы</mdObject>
   </content>
   <content>
@@ -1068,7 +1210,7 @@
     <mdObject>InformationRegister.ОперацииСтатистики</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.ДвоичныеДанныеФайлов</mdObject>
+    <mdObject>InformationRegister.УдалитьДвоичныеДанныеФайлов</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ОбработчикиОбновленияОбщихДанных</mdObject>
@@ -1136,6 +1278,9 @@
   <content>
     <mdObject>Constant.ИспользоватьДатуНачалаЗадач</mdObject>
   </content>
+  <content>
+    <mdObject>Catalog.НастройкиАвторизацииИнтернетСервисов</mdObject>
+  </content>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
@@ -1150,6 +1295,21 @@
       <numberQualifiers>
         <precision>10</precision>
       </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8583ca82-a4f5-4f2a-9b9a-7807b4560e85">
+    <name>Временная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Временная</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

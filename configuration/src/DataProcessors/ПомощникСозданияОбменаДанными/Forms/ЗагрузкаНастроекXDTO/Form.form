@@ -54,7 +54,7 @@
         <id>10</id>
         <title>
           <key>ru</key>
-          <value>Выполняется получение параметров из программы &quot;%НаименованиеКорреспондента%&quot;.
+          <value>Выполняется получение параметров из программы &quot;%1&quot;.
 Пожалуйста, подождите...</value>
         </title>
         <visible>true</visible>
@@ -175,9 +175,9 @@
         <id>16</id>
         <title>
           <key>ru</key>
-          <value>Перед продолжением настройки синхронизации данных (настройки правил отправки и получения данных) требуется получить параметры из программы &quot;%НаименованиеКорреспондента%&quot;.
+          <value>Перед продолжением настройки синхронизации данных (настройки правил отправки и получения данных) требуется получить параметры из программы &quot;%1&quot;.
 
-Перейдите в &quot;%НаименованиеКорреспондента%&quot;, завершите в ней настройку и выполните первоначальную выгрузку данных, после чего завершите настройку в этой программе.</value>
+Перейдите в &quot;%1&quot;, завершите в ней настройку и выполните первоначальную выгрузку данных, после чего завершите настройку в этой программе.</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -282,6 +282,10 @@
     <items xsi:type="form:Button">
       <name>ФормаКомандаГотово</name>
       <id>19</id>
+      <title>
+        <key>ru</key>
+        <value>Готово</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -325,6 +329,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

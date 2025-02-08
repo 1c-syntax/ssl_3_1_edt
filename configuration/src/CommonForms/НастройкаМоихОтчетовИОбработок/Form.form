@@ -55,6 +55,10 @@
         <items xsi:type="form:Button">
           <name>УстановитьФлажки</name>
           <id>42</id>
+          <title>
+            <key>ru</key>
+            <value>Установить флажки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -85,6 +89,10 @@
         <items xsi:type="form:Button">
           <name>СнятьФлажки</name>
           <id>44</id>
+          <title>
+            <key>ru</key>
+            <value>Снять флажки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -224,6 +232,10 @@
       <items xsi:type="form:FormField">
         <name>ИспользуемыеКомандыИспользование</name>
         <id>37</id>
+        <title>
+          <key>ru</key>
+          <value>Использование</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -267,6 +279,10 @@
       <items xsi:type="form:FormField">
         <name>ИспользуемыеКомандыПредставление</name>
         <id>34</id>
+        <title>
+          <key>ru</key>
+          <value>Представление</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -510,6 +526,7 @@
     <verticalStretch>true</verticalStretch>
     <enableStartDrag>true</enableStartDrag>
     <enableDrag>true</enableDrag>
+    <searchStringLocation>Top</searchStringLocation>
     <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
   <commandBarLocation>Bottom</commandBarLocation>
@@ -519,6 +536,10 @@
     <items xsi:type="form:Button">
       <name>ОК</name>
       <id>17</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -527,7 +548,7 @@
       <defaultItem>true</defaultItem>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОКExtendedTooltip</name>
+        <name>ОКРасширеннаяПодсказка</name>
         <id>19</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -559,7 +580,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОтменаExtendedTooltip</name>
+        <name>ОтменаРасширеннаяПодсказка</name>
         <id>20</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -592,6 +613,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>

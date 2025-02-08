@@ -37,6 +37,10 @@
       <items xsi:type="form:FormField">
         <name>ТаблицаФайловПредставление</name>
         <id>12</id>
+        <title>
+          <key>ru</key>
+          <value>Представление</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -46,7 +50,7 @@
           <segments>ТаблицаФайлов.Представление</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ТаблицаФайловПредставлениеExtendedTooltip</name>
+          <name>ТаблицаФайловПредставлениеРасширеннаяПодсказка</name>
           <id>34</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -218,7 +222,7 @@
         </extInfo>
       </searchControlAddition>
       <extendedTooltip>
-        <name>ТаблицаФайловExtendedTooltip</name>
+        <name>ТаблицаФайловРасширеннаяПодсказка</name>
         <id>33</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -244,7 +248,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ТаблицаФайловКонтекстноеМенюУдалитьExtendedTooltip</name>
+            <name>ТаблицаФайловКонтекстноеМенюУдалитьРасширеннаяПодсказка</name>
             <id>32</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -290,7 +294,7 @@
       <verticalStretch>true</verticalStretch>
       <enableStartDrag>true</enableStartDrag>
       <enableDrag>true</enableDrag>
-      <searchStringLocation>None</searchStringLocation>
+      <searchStringLocation>Top</searchStringLocation>
       <viewStatusLocation>None</viewStatusLocation>
       <searchControlLocation>None</searchControlLocation>
       <rowFilter xsi:type="core:UndefinedValue"/>
@@ -298,6 +302,10 @@
     <items xsi:type="form:FormField">
       <name>Картинка</name>
       <id>6</id>
+      <title>
+        <key>ru</key>
+        <value>Адрес картинки</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -308,7 +316,7 @@
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
-        <name>КартинкаExtendedTooltip</name>
+        <name>КартинкаРасширеннаяПодсказка</name>
         <id>35</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -361,7 +369,7 @@
       <value>Изображения</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаИзображенияExtendedTooltip</name>
+      <name>ГруппаИзображенияРасширеннаяПодсказка</name>
       <id>31</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -385,6 +393,137 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormGroup">
+    <name>ОшибкаСканирования</name>
+    <id>66</id>
+    <items xsi:type="form:Decoration">
+      <name>КартинкаОшибкиСканирования</name>
+      <id>68</id>
+      <title>
+        <key>ru</key>
+        <value>Картинка ошибки сканирования</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>КартинкаОшибкиСканированияРасширеннаяПодсказка</name>
+        <id>70</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>КартинкаОшибкиСканированияКонтекстноеМеню</name>
+        <id>69</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:PictureDecorationExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.Предупреждение</picture>
+        </picture>
+        <fileDragMode>AsFileRef</fileDragMode>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>ТекстОшибкиСканирования</name>
+      <id>71</id>
+      <title>
+        <key>ru</key>
+        <value>Сканирование завершилось аварийно, сохранить &lt;link ТехническаяИнформация>информацию для технической поддержки&lt;/>.</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ТекстОшибкиСканированияРасширеннаяПодсказка</name>
+        <id>73</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ТекстОшибкиСканированияКонтекстноеМеню</name>
+        <id>72</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <formatted>true</formatted>
+      <type>Label</type>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <handlers>
+          <event>URLProcessing</event>
+          <name>ТекстОшибкиСканированияОбработкаНавигационнойСсылки</name>
+        </handlers>
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Ошибка сканирования</value>
+    </title>
+    <extendedTooltip>
+      <name>ОшибкаСканированияРасширеннаяПодсказка</name>
+      <id>67</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>HorizontalIfPossible</group>
+      <behavior>Auto</behavior>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
     <name>ГруппаСообщение</name>
     <id>20</id>
     <items xsi:type="form:Decoration">
@@ -400,7 +539,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ДекорацияИконкаExtendedTooltip</name>
+        <name>ДекорацияИконкаРасширеннаяПодсказка</name>
         <id>37</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -429,13 +568,17 @@
       <skipOnInput>false</skipOnInput>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Информация</picture>
+          <picture>StdPicture.Information</picture>
         </picture>
       </extInfo>
     </items>
     <items xsi:type="form:Button">
       <name>ТекстНастроекИзменить1</name>
       <id>64</id>
+      <title>
+        <key>ru</key>
+        <value>Текст настроек изменить</value>
+      </title>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
@@ -472,6 +615,10 @@
       <items xsi:type="form:FormField">
         <name>ТекстНастроек</name>
         <id>17</id>
+        <title>
+          <key>ru</key>
+          <value>Текст настроек</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -482,7 +629,7 @@
         </dataPath>
         <titleLocation>None</titleLocation>
         <extendedTooltip>
-          <name>ТекстНастроекExtendedTooltip</name>
+          <name>ТекстНастроекРасширеннаяПодсказка</name>
           <id>38</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -522,6 +669,10 @@
       <items xsi:type="form:Button">
         <name>ТекстНастроекИзменить</name>
         <id>60</id>
+        <title>
+          <key>ru</key>
+          <value>Текст настроек изменить</value>
+        </title>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -584,6 +735,55 @@
         <currentRowUse>Auto</currentRowUse>
       </extInfo>
     </items>
+    <items xsi:type="form:Decoration">
+      <name>ТребуетсяПомощь</name>
+      <id>74</id>
+      <title>
+        <key>ru</key>
+        <value>Требуется помощь</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ТребуетсяПомощьРасширеннаяПодсказка</name>
+        <id>76</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ТребуетсяПомощьКонтекстноеМеню</name>
+        <id>75</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <handlers>
+          <event>Click</event>
+          <name>ТребуетсяПомощьНажатие</name>
+        </handlers>
+        <hyperlink>true</hyperlink>
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -595,7 +795,7 @@
     </title>
     <height>2</height>
     <extendedTooltip>
-      <name>ГруппаСообщениеExtendedTooltip</name>
+      <name>ГруппаСообщениеРасширеннаяПодсказка</name>
       <id>36</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -671,7 +871,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаПринятьВсеКакОдинФайлExtendedTooltip</name>
+        <name>ФормаПринятьВсеКакОдинФайлРасширеннаяПодсказка</name>
         <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -705,7 +905,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаПринятьВсеКакОтдельныеФайлыExtendedTooltip</name>
+        <name>ФормаПринятьВсеКакОтдельныеФайлыРасширеннаяПодсказка</name>
         <id>27</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -729,13 +929,17 @@
     <items xsi:type="form:Button">
       <name>ФормаСканироватьЕще</name>
       <id>14</id>
+      <title>
+        <key>ru</key>
+        <value>Сканировать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСканироватьЕщеExtendedTooltip</name>
+        <name>ФормаСканироватьЕщеРасширеннаяПодсказка</name>
         <id>24</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -770,7 +974,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ПересканироватьExtendedTooltip</name>
+        <name>ПересканироватьРасширеннаяПодсказка</name>
         <id>25</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -794,13 +998,17 @@
     <items xsi:type="form:Button">
       <name>ФормаНастройка</name>
       <id>19</id>
+      <title>
+        <key>ru</key>
+        <value>Настройка</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаНастройкаExtendedTooltip</name>
+        <name>ФормаНастройкаРасширеннаяПодсказка</name>
         <id>30</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -852,6 +1060,7 @@
   </handlers>
   <excludedCommands>Cancel</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -1162,21 +1371,7 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ПутьКПрограммеКонвертации</name>
-    <id>18</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers/>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>СжатиеTIFF</name>
+    <name>СжатиеTIFFПеречисление</name>
     <id>19</id>
     <valueType>
       <types>EnumRef.ВариантыСжатияTIFF</types>
@@ -1202,7 +1397,7 @@
     </edit>
   </attributes>
   <attributes>
-    <name>СжатиеTIFFЧисло</name>
+    <name>СжатиеTIFF</name>
     <id>21</id>
     <valueType>
       <types>Number</types>
@@ -1361,19 +1556,6 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ФорматХраненияОдностраничный</name>
-    <id>33</id>
-    <valueType>
-      <types>EnumRef.ФорматыХраненияОдностраничныхФайлов</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>ПрефиксИнформационнойБазы</name>
     <id>34</id>
     <valueType>
@@ -1416,6 +1598,113 @@
   <attributes>
     <name>ТолькоОдинФайл</name>
     <id>37</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>СохранятьВPDF</name>
+    <id>38</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИдентификаторКлиента</name>
+    <id>39</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ТипРезультата</name>
+    <id>41</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>НачалоСканирования</name>
+    <id>18</id>
+    <valueType>
+      <types>Date</types>
+      <dateQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>СканированиеЗапущено</name>
+    <id>33</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>Пересканирование</name>
+    <id>40</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>АвтоматическаяПодачаДокументов</name>
+    <id>42</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ДоступностьАвтоматическаяПодачаДокументов</name>
+    <id>43</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
@@ -1576,6 +1865,35 @@
   </parameters>
   <parameters>
     <name>ИдентификаторКлиента</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>ТипРезультата</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ВладелецФайла</name>
+    <valueType>
+      <types>AnyRef</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ЭтоФайл</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>НеОткрыватьКарточкуПослеСозданияИзФайла</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ПараметрыСканирования</name>
     <valueType/>
   </parameters>
   <commandInterface>

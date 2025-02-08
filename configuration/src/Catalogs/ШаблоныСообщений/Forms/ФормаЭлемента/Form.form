@@ -296,6 +296,10 @@
           <items xsi:type="form:FormField">
             <name>ТелоПисьмаВHTML</name>
             <id>46</id>
+            <title>
+              <key>ru</key>
+              <value>Тело письма ВHTML</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -639,6 +643,10 @@
           <items xsi:type="form:FormField">
             <name>ТелоСообщенияОбычныйТекстSMS</name>
             <id>220</id>
+            <title>
+              <key>ru</key>
+              <value>Тело сообщения обычный текст</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -902,6 +910,73 @@
               <key>ru</key>
               <value>Всем</value>
             </inputHint>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>Доступен</name>
+          <id>369</id>
+          <title>
+            <key>ru</key>
+            <value>Доступен</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>Доступен</segments>
+          </dataPath>
+          <shortcut>Ctrl+S</shortcut>
+          <extendedTooltip>
+            <name>ДоступенРасширеннаяПодсказка</name>
+            <id>371</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ДоступенКонтекстноеМеню</name>
+            <id>370</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>RadioButtonField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:RadioButtonsFieldExtInfo">
+            <choiceList>
+              <presentation>
+                <key>ru</key>
+                <value>Только автору</value>
+              </presentation>
+              <value xsi:type="core:StringValue">
+                <value>ТолькоАвтору</value>
+              </value>
+            </choiceList>
+            <choiceList>
+              <presentation>
+                <key>ru</key>
+                <value>Всем</value>
+              </presentation>
+              <value xsi:type="core:StringValue">
+                <value>Всем</value>
+              </value>
+            </choiceList>
           </extInfo>
         </items>
         <visible>true</visible>
@@ -1176,6 +1251,10 @@
               <items xsi:type="form:Button">
                 <name>ДобавитьПараметрВТему</name>
                 <id>324</id>
+                <title>
+                  <key>ru</key>
+                  <value>Тему</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1207,6 +1286,10 @@
               <items xsi:type="form:Button">
                 <name>РеквизитыДобавитьПараметрВТекстСообщения</name>
                 <id>322</id>
+                <title>
+                  <key>ru</key>
+                  <value>Текст сообщения</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -1520,6 +1603,10 @@
             <items xsi:type="form:Button">
               <name>ЭлектронноеПисьмоHTML</name>
               <id>244</id>
+              <title>
+                <key>ru</key>
+                <value>HTML</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1739,6 +1826,10 @@
           <items xsi:type="form:FormField">
             <name>РеквизитыПредставление</name>
             <id>72</id>
+            <title>
+              <key>ru</key>
+              <value>Представление</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1791,6 +1882,10 @@
           <items xsi:type="form:FormField">
             <name>РеквизитыФормат</name>
             <id>284</id>
+            <title>
+              <key>ru</key>
+              <value>Формат</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2040,6 +2135,10 @@
             <items xsi:type="form:Button">
               <name>РеквизитыКонтекстноеМенюДобавитьПараметрВТекстСообщения</name>
               <id>257</id>
+              <title>
+                <key>ru</key>
+                <value>Текст сообщения</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2070,6 +2169,10 @@
             <items xsi:type="form:Button">
               <name>РеквизитыКонтекстноеМенюДобавитьПараметрВТему</name>
               <id>255</id>
+              <title>
+                <key>ru</key>
+                <value>Тему</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2163,6 +2266,10 @@
           <items xsi:type="form:Button">
             <name>ФорматОтображенияРеквизита</name>
             <id>280</id>
+            <title>
+              <key>ru</key>
+              <value>Формат отображения реквизита...</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2226,6 +2333,10 @@
             <items xsi:type="form:Button">
               <name>РеквизитыКонтекстноеМенюИзменить</name>
               <id>338</id>
+              <title>
+                <key>ru</key>
+                <value>Изменить</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2491,6 +2602,10 @@
             <items xsi:type="form:Button">
               <name>ВложенияСкопироватьВложение</name>
               <id>356</id>
+              <title>
+                <key>ru</key>
+                <value>Скопировать</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2521,6 +2636,10 @@
             <items xsi:type="form:Button">
               <name>ВложенияИзменить</name>
               <id>352</id>
+              <title>
+                <key>ru</key>
+                <value>Изменить</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2764,6 +2883,10 @@
           <items xsi:type="form:FormField">
             <name>ВложенияВыбран</name>
             <id>148</id>
+            <title>
+              <key>ru</key>
+              <value>Выбрано</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2816,6 +2939,10 @@
             <items xsi:type="form:FormField">
               <name>ВложенияИндексКартинки</name>
               <id>246</id>
+              <title>
+                <key>ru</key>
+                <value>Индекс картинки</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2868,6 +2995,10 @@
             <items xsi:type="form:FormField">
               <name>ВложенияПредставление</name>
               <id>105</id>
+              <title>
+                <key>ru</key>
+                <value>Представление</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3135,6 +3266,10 @@
             <items xsi:type="form:Button">
               <name>ВложенияКонтекстноеМенюСкопироватьВложение</name>
               <id>354</id>
+              <title>
+                <key>ru</key>
+                <value>Скопировать</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3165,6 +3300,10 @@
             <items xsi:type="form:Button">
               <name>ВложенияКонтекстноеМенюИзменитьВложение</name>
               <id>253</id>
+              <title>
+                <key>ru</key>
+                <value>Изменить</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3346,6 +3485,10 @@
           <items xsi:type="form:FormField">
             <name>ФорматВложений</name>
             <id>272</id>
+            <title>
+              <key>ru</key>
+              <value>Формат печатных форм</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -3428,6 +3571,50 @@
             <contextMenu>
               <name>УпаковатьВАрхивКонтекстноеМеню</name>
               <id>276</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>CheckBoxField</type>
+            <editMode>Enter</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+          </items>
+          <items xsi:type="form:FormField">
+            <name>ДобавлятьПрисоединенныеФайлы</name>
+            <id>364</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Объект.ДобавлятьПрисоединенныеФайлы</segments>
+            </dataPath>
+            <titleLocation>Right</titleLocation>
+            <extendedTooltip>
+              <name>ДобавлятьПрисоединенныеФайлыРасширеннаяПодсказка</name>
+              <id>366</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ДобавлятьПрисоединенныеФайлыКонтекстноеМеню</name>
+              <id>365</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3675,6 +3862,10 @@
     <items xsi:type="form:Button">
       <name>ФормаПроверитьШаблон</name>
       <id>16</id>
+      <title>
+        <key>ru</key>
+        <value>Проверить шаблон</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -3708,6 +3899,10 @@
       <items xsi:type="form:Button">
         <name>ФормаЭлектронноеПисьмоОбычныйТекст</name>
         <id>161</id>
+        <title>
+          <key>ru</key>
+          <value>Обычный текст</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3738,6 +3933,10 @@
       <items xsi:type="form:Button">
         <name>ФормаЭлектронноеПисьмоHTML</name>
         <id>159</id>
+        <title>
+          <key>ru</key>
+          <value>HTML</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3805,6 +4004,10 @@
       <items xsi:type="form:Button">
         <name>ФормаПоШаблону</name>
         <id>176</id>
+        <title>
+          <key>ru</key>
+          <value>По шаблону</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3837,6 +4040,10 @@
       <items xsi:type="form:Button">
         <name>ФормаВнешнейОбработкой</name>
         <id>178</id>
+        <title>
+          <key>ru</key>
+          <value>Внешней обработкой</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3914,6 +4121,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -4408,6 +4616,39 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>Доступен</name>
+    <title>
+      <key>ru</key>
+      <value>Доступен</value>
+    </title>
+    <id>14</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ОграничениеУсловием</name>
+    <id>15</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ПроверитьШаблон</name>
     <title>
@@ -4672,12 +4913,12 @@
       <types>Boolean</types>
     </valueType>
   </parameters>
+  <parameters>
+    <name>ВладелецШаблона</name>
+    <valueType/>
+  </parameters>
   <commandInterface>
     <navigationPanel>
-      <cmiFragmentRecord>
-        <command>0</command>
-        <userVisible/>
-      </cmiFragmentRecord>
       <cmiFragmentRecord>
         <command>CommonCommand.ПрисоединенныеФайлы</command>
         <userVisible/>

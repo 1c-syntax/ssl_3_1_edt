@@ -48,6 +48,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОткрытьФайл</name>
       <id>53</id>
+      <title>
+        <key>ru</key>
+        <value>Просмотреть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -79,6 +83,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗакончитьРедактирование</name>
       <id>52</id>
+      <title>
+        <key>ru</key>
+        <value>Закончить редактирование</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -177,6 +185,7 @@
     <type>CommandBar</type>
     <extInfo xsi:type="form:CommandBarExtInfo">
       <horizontalAlign>Left</horizontalAlign>
+      <commandSource>Item.Список</commandSource>
     </extInfo>
   </items>
   <items xsi:type="form:Table">
@@ -697,7 +706,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>87</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -765,6 +774,10 @@
         <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюОткрыть</name>
           <id>54</id>
+          <title>
+            <key>ru</key>
+            <value>Просмотреть</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -796,6 +809,10 @@
         <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюСохранитьИзменения</name>
           <id>57</id>
+          <title>
+            <key>ru</key>
+            <value>Сохранить изменения</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible/>
@@ -825,6 +842,10 @@
         <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюЗакончитьРедактирование</name>
           <id>55</id>
+          <title>
+            <key>ru</key>
+            <value>Закончить редактирование</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -885,6 +906,10 @@
         <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюСохранитьКак</name>
           <id>59</id>
+          <title>
+            <key>ru</key>
+            <value>Сохранить как...</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -951,6 +976,10 @@
         <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюОбновитьИзФайлаНаДиске</name>
           <id>63</id>
+          <title>
+            <key>ru</key>
+            <value>Обновить из файла на компьютере...</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -982,6 +1011,10 @@
         <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюОткрытьКаталогФайла</name>
           <id>58</id>
+          <title>
+            <key>ru</key>
+            <value>Открыть каталог файла</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1042,6 +1075,10 @@
         <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюОбновить</name>
           <id>113</id>
+          <title>
+            <key>ru</key>
+            <value>Обновить</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1346,7 +1383,6 @@
     <borderColor xsi:type="core:ColorRef">
       <color>Style.BorderColor</color>
     </borderColor>
-    <searchStringLocation>None</searchStringLocation>
     <viewStatusLocation>None</viewStatusLocation>
     <searchControlLocation>None</searchControlLocation>
     <currentRowUse>SelectionPresentationAndChoice</currentRowUse>
@@ -1359,12 +1395,17 @@
       </period>
       <restoreCurrentRow>true</restoreCurrentRow>
       <topLevelParent xsi:type="core:UndefinedValue"/>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
       <userSettingsGroup>ГруппаПользовательскихНастроек</userSettingsGroup>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
     <name>ПоказыватьЗанятыеФайлыПриЗавершенииРаботы</name>
     <id>69</id>
+    <title>
+      <key>ru</key>
+      <value>Показывать занятые файлы при завершении работы</value>
+    </title>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -1374,7 +1415,7 @@
     </dataPath>
     <titleLocation>Right</titleLocation>
     <extendedTooltip>
-      <name>ПоказыватьЗанятыеФайлыПриЗавершенииРаботыExtendedTooltip</name>
+      <name>ПоказыватьЗанятыеФайлыПриЗавершенииРаботыРасширеннаяПодсказка</name>
       <id>94</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1421,7 +1462,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ЗаписатьИЗакрытьExtendedTooltip</name>
+        <name>ЗаписатьИЗакрытьРасширеннаяПодсказка</name>
         <id>96</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1456,7 +1497,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОтменаExtendedTooltip</name>
+        <name>ОтменаРасширеннаяПодсказка</name>
         <id>97</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1486,7 +1527,7 @@
       <value>Командной панели</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаКоманднойПанелиExtendedTooltip</name>
+      <name>ГруппаКоманднойПанелиРасширеннаяПодсказка</name>
       <id>95</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1526,6 +1567,7 @@
     <name>ПриЗакрытии</name>
   </handlers>
   <excludedCommands>Refresh</excludedCommands>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -1773,7 +1815,7 @@
     <id>6</id>
     <toolTip>
       <key>ru</key>
-      <value>Сохранить файл на диск или другое устройство</value>
+      <value>Сохранить файл на компьютер или другое устройство</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -1793,12 +1835,12 @@
     <name>ОбновитьИзФайлаНаДиске</name>
     <title>
       <key>ru</key>
-      <value>Обновить из файла на диске...</value>
+      <value>Обновить из файла на компьютере...</value>
     </title>
     <id>7</id>
     <toolTip>
       <key>ru</key>
-      <value>Обновить из файла на диске</value>
+      <value>Обновить из файла на компьютере</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -1885,7 +1927,5 @@
     <navigationPanel/>
     <commandBar/>
   </commandInterface>
-  <extInfo xsi:type="form:DynamicListFormExtInfo">
-    <groupList>СписокКонтекстноеМеню</groupList>
-  </extInfo>
+  <extInfo xsi:type="form:DynamicListFormExtInfo"/>
 </form:Form>

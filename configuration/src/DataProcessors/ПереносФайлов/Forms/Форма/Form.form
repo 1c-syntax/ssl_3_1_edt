@@ -56,7 +56,7 @@
       <choiceList>
         <presentation>
           <key>ru</key>
-          <value>Между томами на диске</value>
+          <value>Между томами</value>
         </presentation>
         <value xsi:type="core:StringValue">
           <value>ПеренестиМеждуТомами</value>
@@ -65,7 +65,7 @@
       <choiceList>
         <presentation>
           <key>ru</key>
-          <value>Из информационной базы в тома на диске</value>
+          <value>Из информационной базы в тома</value>
         </presentation>
         <value xsi:type="core:StringValue">
           <value>ПеренестиВТома</value>
@@ -74,7 +74,7 @@
       <choiceList>
         <presentation>
           <key>ru</key>
-          <value>Из томов на диске в информационную базу</value>
+          <value>Из томов в информационную базу</value>
         </presentation>
         <value xsi:type="core:StringValue">
           <value>ПеренестиВБазу</value>
@@ -139,6 +139,10 @@
       <items xsi:type="form:FormField">
         <name>ТомХраненияПриемник</name>
         <id>11</id>
+        <title>
+          <key>ru</key>
+          <value>Том хранения приемник</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -277,6 +281,10 @@
       <items xsi:type="form:FormField">
         <name>ТомХраненияИсточник</name>
         <id>19</id>
+        <title>
+          <key>ru</key>
+          <value>Том хранения источник</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -415,6 +423,10 @@
       <items xsi:type="form:FormField">
         <name>ВладелецФайлов</name>
         <id>27</id>
+        <title>
+          <key>ru</key>
+          <value>Владелец файлов</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -557,6 +569,10 @@
         <items xsi:type="form:FormField">
           <name>УточнениеДатыСоздания</name>
           <id>37</id>
+          <title>
+            <key>ru</key>
+            <value>Уточнение даты создания</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -619,6 +635,10 @@
         <items xsi:type="form:FormField">
           <name>ДатаСоздания</name>
           <id>40</id>
+          <title>
+            <key>ru</key>
+            <value>Дата создания</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -786,6 +806,10 @@
       <items xsi:type="form:FormField">
         <name>РасширенияФайлов</name>
         <id>48</id>
+        <title>
+          <key>ru</key>
+          <value>Расширения файлов</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1050,6 +1074,10 @@
     <items xsi:type="form:Button">
       <name>ФормаВыполнитьПеренос</name>
       <id>59</id>
+      <title>
+        <key>ru</key>
+        <value>Перенести</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1118,6 +1146,7 @@
       <common>true</common>
     </userVisible>
     <horizontalAlign>Right</horizontalAlign>
+    <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
     <event>OnOpen</event>
@@ -1128,6 +1157,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -1414,23 +1444,6 @@
     <id>17</id>
     <valueType>
       <types>Boolean</types>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>ПеренесеноФайлов</name>
-    <id>19</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>10</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
     </valueType>
     <view>
       <common>true</common>

@@ -6,6 +6,10 @@
     <items xsi:type="form:Button">
       <name>ПроверкаРаботоспособности</name>
       <id>18</id>
+      <title>
+        <key>ru</key>
+        <value>Проверка работоспособности</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -37,6 +41,10 @@
     <items xsi:type="form:Button">
       <name>ПроверитьПодключение</name>
       <id>30</id>
+      <title>
+        <key>ru</key>
+        <value>Проверить подключение</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -67,6 +75,10 @@
     <items xsi:type="form:Button">
       <name>ИзменитьРеквизитыПодключения</name>
       <id>110</id>
+      <title>
+        <key>ru</key>
+        <value>Заявление на изменение</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -97,6 +109,10 @@
     <items xsi:type="form:Button">
       <name>ОткрытьПредыдущееЗаявление</name>
       <id>112</id>
+      <title>
+        <key>ru</key>
+        <value>Открыть оформленное заявление</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -161,6 +177,10 @@
     <items xsi:type="form:Button">
       <name>ОбновитьСостояние</name>
       <id>105</id>
+      <title>
+        <key>ru</key>
+        <value>Обновить состояние</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -584,6 +604,10 @@
       <items xsi:type="form:FormField">
         <name>Сертификат</name>
         <id>76</id>
+        <title>
+          <key>ru</key>
+          <value>Сертификат</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -646,6 +670,10 @@
       <items xsi:type="form:Button">
         <name>ВыгрузитьСертификат</name>
         <id>55</id>
+        <title>
+          <key>ru</key>
+          <value>Выгрузить</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -840,6 +868,10 @@
       <items xsi:type="form:FormField">
         <name>ЛичныйКабинет</name>
         <id>92</id>
+        <title>
+          <key>ru</key>
+          <value>Личный кабинет</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1172,6 +1204,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

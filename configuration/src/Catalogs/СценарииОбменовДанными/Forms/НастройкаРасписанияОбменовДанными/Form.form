@@ -38,7 +38,7 @@
         <value>Загрузка</value>
       </toolTip>
       <extendedTooltip>
-        <name>ФлагИспользованияЗагрузкиExtendedTooltip</name>
+        <name>ФлагИспользованияЗагрузкиРасширеннаяПодсказка</name>
         <id>53</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -93,7 +93,7 @@
         <value>Выгрузка</value>
       </toolTip>
       <extendedTooltip>
-        <name>ФлагИспользованияВыгрузкиExtendedTooltip</name>
+        <name>ФлагИспользованияВыгрузкиРасширеннаяПодсказка</name>
         <id>54</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -139,7 +139,7 @@
         <segments>Список.Description</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>55</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -397,7 +397,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>52</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -420,13 +420,17 @@
         <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюВключитьОтключитьЗагрузку</name>
           <id>27</id>
+          <title>
+            <key>ru</key>
+            <value>Включить/отключить получение данных</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокКонтекстноеМенюВключитьОтключитьЗагрузкуExtendedTooltip</name>
+            <name>СписокКонтекстноеМенюВключитьОтключитьЗагрузкуРасширеннаяПодсказка</name>
             <id>46</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -450,13 +454,17 @@
         <items xsi:type="form:Button">
           <name>ФормаВключитьОтключитьВыгрузку</name>
           <id>26</id>
+          <title>
+            <key>ru</key>
+            <value>Включить/отключить отправку данных</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ФормаВключитьОтключитьВыгрузкуExtendedTooltip</name>
+            <name>ФормаВключитьОтключитьВыгрузкуРасширеннаяПодсказка</name>
             <id>47</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -487,7 +495,7 @@
           <value>Кнопок включения загрузки выгрузки данных</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаКнопокВключенияЗагрузкиВыгрузкиДанныхExtendedTooltip</name>
+          <name>ГруппаКнопокВключенияЗагрузкиВыгрузкиДанныхРасширеннаяПодсказка</name>
           <id>45</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -509,13 +517,17 @@
         <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюВключитьОтключитьРегламентноеЗадание</name>
           <id>16</id>
+          <title>
+            <key>ru</key>
+            <value>Включить/отключить расписание</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокКонтекстноеМенюВключитьОтключитьРегламентноеЗаданиеExtendedTooltip</name>
+            <name>СписокКонтекстноеМенюВключитьОтключитьРегламентноеЗаданиеРасширеннаяПодсказка</name>
             <id>49</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -545,7 +557,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокКонтекстноеМенюОткрытьСценарийОбменаДаннымиExtendedTooltip</name>
+            <name>СписокКонтекстноеМенюОткрытьСценарийОбменаДаннымиРасширеннаяПодсказка</name>
             <id>50</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -576,7 +588,7 @@
           <value>Контекстное меню группа кнопок</value>
         </title>
         <extendedTooltip>
-          <name>СписокКонтекстноеМенюГруппаКнопокExtendedTooltip</name>
+          <name>СписокКонтекстноеМенюГруппаКнопокРасширеннаяПодсказка</name>
           <id>48</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -595,13 +607,17 @@
       <items xsi:type="form:Button">
         <name>СписокКонтекстноеМенюВыполнитьСценарий</name>
         <id>33</id>
+        <title>
+          <key>ru</key>
+          <value>Выполнить сценарий</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СписокКонтекстноеМенюВыполнитьСценарийExtendedTooltip</name>
+          <name>СписокКонтекстноеМенюВыполнитьСценарийРасширеннаяПодсказка</name>
           <id>51</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -660,6 +676,7 @@
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
@@ -674,7 +691,7 @@
       <segments>Items.Список.CurrentData.Комментарий</segments>
     </dataPath>
     <extendedTooltip>
-      <name>КомментарийExtendedTooltip</name>
+      <name>КомментарийРасширеннаяПодсказка</name>
       <id>56</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -734,7 +751,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаВключитьОтключитьЗагрузкуВыгрузкуExtendedTooltip</name>
+          <name>ФормаВключитьОтключитьЗагрузкуВыгрузкуРасширеннаяПодсказка</name>
           <id>37</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -768,7 +785,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаВключитьОтключитьЗагрузкуExtendedTooltip</name>
+          <name>ФормаВключитьОтключитьЗагрузкуРасширеннаяПодсказка</name>
           <id>38</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -802,7 +819,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаВключитьОтключитьВыгрузку1ExtendedTooltip</name>
+          <name>ФормаВключитьОтключитьВыгрузку1РасширеннаяПодсказка</name>
           <id>39</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -837,7 +854,7 @@
         <value>Включить или отключить загрузку и выгрузку данных</value>
       </toolTip>
       <extendedTooltip>
-        <name>ВключитьОтключитьВыгрузкуЗагрузкуExtendedTooltip</name>
+        <name>ВключитьОтключитьВыгрузкуЗагрузкуРасширеннаяПодсказка</name>
         <id>36</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -859,13 +876,17 @@
     <items xsi:type="form:Button">
       <name>Создать</name>
       <id>13</id>
+      <title>
+        <key>ru</key>
+        <value>Добавить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>СоздатьExtendedTooltip</name>
+        <name>СоздатьРасширеннаяПодсказка</name>
         <id>40</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -889,13 +910,17 @@
     <items xsi:type="form:Button">
       <name>ИзменитьСценарийОбменаДанными</name>
       <id>14</id>
+      <title>
+        <key>ru</key>
+        <value>Изменить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ИзменитьСценарийОбменаДаннымиExtendedTooltip</name>
+        <name>ИзменитьСценарийОбменаДаннымиРасширеннаяПодсказка</name>
         <id>41</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -922,13 +947,17 @@
       <items xsi:type="form:Button">
         <name>ФормаВключитьОтключитьРегламентноеЗадание</name>
         <id>15</id>
+        <title>
+          <key>ru</key>
+          <value>Включить/отключить расписание</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ФормаВключитьОтключитьРегламентноеЗаданиеExtendedTooltip</name>
+          <name>ФормаВключитьОтключитьРегламентноеЗаданиеРасширеннаяПодсказка</name>
           <id>43</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -959,7 +988,7 @@
         <value>Кнопок</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаКнопокExtendedTooltip</name>
+        <name>ГруппаКнопокРасширеннаяПодсказка</name>
         <id>42</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -978,13 +1007,17 @@
     <items xsi:type="form:Button">
       <name>ФормаВыполнитьСценарий</name>
       <id>32</id>
+      <title>
+        <key>ru</key>
+        <value>Выполнить сценарий</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаВыполнитьСценарийExtendedTooltip</name>
+        <name>ФормаВыполнитьСценарийРасширеннаяПодсказка</name>
         <id>44</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1028,6 +1061,7 @@
   <excludedCommands>Delete</excludedCommands>
   <excludedCommands>Find</excludedCommands>
   <excludedCommands>SetDeletionMark</excludedCommands>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

@@ -85,24 +85,6 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="b1dd4569-6ed9-49f4-b05b-359229afb7a5">
-    <name>КодКЛАДР</name>
-    <synonym>
-      <key>ru</key>
-      <value>Код КЛАДР</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>17</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </attributes>
   <attributes uuid="c14cac09-820e-47ae-81bb-eb497950d40c">
     <name>Наименование</name>
     <synonym>
@@ -171,10 +153,10 @@
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="1ce4440e-3709-4cb1-8505-2379d5146be3">
-    <name>Сокращение</name>
+    <name>ТипОбъекта</name>
     <synonym>
       <key>ru</key>
-      <value>Сокращение</value>
+      <value>Тип объекта</value>
     </synonym>
     <type>
       <types>String</types>
@@ -190,23 +172,6 @@
       <value></value>
     </fillValue>
   </attributes>
-  <attributes uuid="81c1f13c-e4ac-46b8-a205-c4f695ddf667">
-    <name>ТекущийКодСубъектаРФ</name>
-    <synonym>
-      <key>ru</key>
-      <value>Текущий код субъекта РФ</value>
-    </synonym>
-    <type>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>2</precision>
-      </numberQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </attributes>
   <attributes uuid="a26d8489-88a8-438e-bb58-c7b5a742a243">
     <name>Уровень</name>
     <synonym>
@@ -221,44 +186,6 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <attributes uuid="4b700bfd-5179-4504-b710-fd65036dded7">
-    <name>РодительскийИдентификатор</name>
-    <synonym>
-      <key>ru</key>
-      <value>Родительский идентификатор</value>
-    </synonym>
-    <type>
-      <types>UUID</types>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Идентификатор родительского объекта (региона, района, города, населенного пункта) используется для связи с вышестоящими административно-территориальными адресными объектами.</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <indexing>Index</indexing>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <attributes uuid="b046cb0b-f88b-4fb1-b08d-bb02b20dee74">
-    <name>МуниципальныйРодительскийИдентификатор</name>
-    <synonym>
-      <key>ru</key>
-      <value>Муниципальный родительский идентификатор</value>
-    </synonym>
-    <type>
-      <types>UUID</types>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Идентификатор родительского объекта (региона, района, города, населенного пункта) используется для связи с вышестоящими муниципальными адресными объектами.</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <indexing>Index</indexing>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>

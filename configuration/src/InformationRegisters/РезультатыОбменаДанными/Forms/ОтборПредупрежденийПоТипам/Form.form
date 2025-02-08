@@ -11,8 +11,60 @@
       <name>Отправка</name>
       <id>24</id>
       <items xsi:type="form:FormField">
+        <name>АдминистративнаяОшибкаПриложения</name>
+        <id>45</id>
+        <title>
+          <key>ru</key>
+          <value>Административная ошибка приложения</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>АдминистративнаяОшибкаПриложения</segments>
+        </dataPath>
+        <titleLocation>Right</titleLocation>
+        <extendedTooltip>
+          <name>АдминистративнаяОшибкаПриложенияРасширеннаяПодсказка</name>
+          <id>47</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>АдминистративнаяОшибкаПриложенияКонтекстноеМеню</name>
+          <id>46</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>CheckBoxField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+      </items>
+      <items xsi:type="form:FormField">
         <name>ОшибкаПроверкиПередОтправкойXTDO</name>
         <id>19</id>
+        <title>
+          <key>ru</key>
+          <value>Ошибка проверки перед отправкой (XDTO)</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -57,6 +109,10 @@
       <items xsi:type="form:FormField">
         <name>ОшибкаВыполненияКодаОбработчиковПриОтправкеДанных</name>
         <id>13</id>
+        <title>
+          <key>ru</key>
+          <value>Ошибки кода обработчиков при отправке</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -141,6 +197,10 @@
       <items xsi:type="form:FormField">
         <name>НепроведенныйДокумент</name>
         <id>1</id>
+        <title>
+          <key>ru</key>
+          <value>Непроведенные документы</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -185,6 +245,10 @@
       <items xsi:type="form:FormField">
         <name>НезаполненныеРеквизиты</name>
         <id>4</id>
+        <title>
+          <key>ru</key>
+          <value>Незаполненные реквизиты</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -229,7 +293,10 @@
       <items xsi:type="form:FormField">
         <name>НепринятыеДанныеПоКоллизии</name>
         <id>7</id>
-        <visible>true</visible>
+        <title>
+          <key>ru</key>
+          <value>Непринятые данные по коллизии</value>
+        </title>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -273,7 +340,10 @@
       <items xsi:type="form:FormField">
         <name>ПринятыеДанныеПоКоллизии</name>
         <id>37</id>
-        <visible>true</visible>
+        <title>
+          <key>ru</key>
+          <value>Принятые данные по коллизии</value>
+        </title>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -317,7 +387,10 @@
       <items xsi:type="form:FormField">
         <name>НепринятыйПоДатеЗапретаОбъектНеСуществуетВБазе</name>
         <id>10</id>
-        <visible>true</visible>
+        <title>
+          <key>ru</key>
+          <value>Непринятый по дате запрета (объект не существует)</value>
+        </title>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -361,7 +434,10 @@
       <items xsi:type="form:FormField">
         <name>НепринятыйПоДатеЗапретаОбъектСуществуетВБазе</name>
         <id>40</id>
-        <visible>true</visible>
+        <title>
+          <key>ru</key>
+          <value>Непринятый по дате запрета (объект существует)</value>
+        </title>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
@@ -405,6 +481,10 @@
       <items xsi:type="form:FormField">
         <name>ОшибкаВыполненияКодаОбработчиковПриПолученииДанных</name>
         <id>16</id>
+        <title>
+          <key>ru</key>
+          <value>Ошибки кода обработчиков при получении</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -432,6 +512,54 @@
         <contextMenu>
           <name>ОшибкаВыполненияКодаОбработчиковПриПолученииДанныхКонтекстноеМеню</name>
           <id>17</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>CheckBoxField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>СообщениеОбменаНеПомещеноВАрхив</name>
+        <id>48</id>
+        <title>
+          <key>ru</key>
+          <value>Сообщение обмена не помещено в архив</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>СообщениеОбменаНеПомещеноВАрхив</segments>
+        </dataPath>
+        <titleLocation>Right</titleLocation>
+        <extendedTooltip>
+          <name>СообщениеОбменаНеПомещеноВАрхивРасширеннаяПодсказка</name>
+          <id>50</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>СообщениеОбменаНеПомещеноВАрхивКонтекстноеМеню</name>
+          <id>49</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -563,6 +691,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОК</name>
       <id>35</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -594,6 +726,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСбросить</name>
       <id>43</id>
+      <title>
+        <key>ru</key>
+        <value>Сбросить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -663,6 +799,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -725,7 +862,7 @@
     <name>НепринятыйПоДатеЗапретаОбъектНеСуществуетВБазе</name>
     <title>
       <key>ru</key>
-      <value>Непринятые по дате запрета (объект не существует)</value>
+      <value>Непринятый по дате запрета (объект не существует)</value>
     </title>
     <id>4</id>
     <valueType>
@@ -776,7 +913,7 @@
     <name>ОшибкаПроверкиПередОтправкойXTDO</name>
     <title>
       <key>ru</key>
-      <value>Ошибка проверки перед отправкой (XTDO)</value>
+      <value>Ошибка проверки перед отправкой (XDTO)</value>
     </title>
     <id>7</id>
     <valueType>
@@ -827,6 +964,40 @@
     <name>КэшЗначений</name>
     <id>10</id>
     <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>АдминистративнаяОшибкаПриложения</name>
+    <title>
+      <key>ru</key>
+      <value>Административная ошибка приложения</value>
+    </title>
+    <id>11</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>СообщениеОбменаНеПомещеноВАрхив</name>
+    <title>
+      <key>ru</key>
+      <value>Сообщение обмена не помещено в архив</value>
+    </title>
+    <id>12</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
     <view>
       <common>true</common>
     </view>

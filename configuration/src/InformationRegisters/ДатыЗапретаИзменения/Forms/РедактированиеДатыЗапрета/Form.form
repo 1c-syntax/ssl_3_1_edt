@@ -9,6 +9,10 @@
       <items xsi:type="form:FormField">
         <name>ЗапретИзмененияДанныхНеУстановлен</name>
         <id>85</id>
+        <title>
+          <key>ru</key>
+          <value>Описание даты запрета</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -18,6 +22,10 @@
           <segments>ОписаниеДатыЗапрета</segments>
         </dataPath>
         <titleLocation>None</titleLocation>
+        <handlers>
+          <event>OnChange</event>
+          <name>ОписаниеДатыЗапретаПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>ЗапретИзмененияДанныхНеУстановленРасширеннаяПодсказка</name>
           <id>87</id>
@@ -66,6 +74,10 @@
         <items xsi:type="form:FormField">
           <name>ПроизвольнаяДатаЗапрета</name>
           <id>90</id>
+          <title>
+            <key>ru</key>
+            <value>Описание даты запрета</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -75,6 +87,10 @@
             <segments>ОписаниеДатыЗапрета</segments>
           </dataPath>
           <titleLocation>None</titleLocation>
+          <handlers>
+            <event>OnChange</event>
+            <name>ПроизвольнаяДатаЗапретаПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>ПроизвольнаяДатаЗапретаРасширеннаяПодсказка</name>
             <id>92</id>
@@ -120,6 +136,10 @@
         <items xsi:type="form:FormField">
           <name>ДатаЗапретаПростойРежим</name>
           <id>93</id>
+          <title>
+            <key>ru</key>
+            <value>Дата запрета</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -350,7 +370,7 @@
             <name>ОписаниеДатыЗапретаПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ОписаниеДатыЗапретаExtendedTooltip</name>
+            <name>ОписаниеДатыЗапретаРасширеннаяПодсказка</name>
             <id>51</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -469,6 +489,10 @@
             <items xsi:type="form:FormField">
               <name>ДатаЗапрета</name>
               <id>24</id>
+              <title>
+                <key>ru</key>
+                <value>Дата запрета</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -483,7 +507,7 @@
                 <name>ДатаЗапретаПриИзменении</name>
               </handlers>
               <extendedTooltip>
-                <name>ДатаЗапретаExtendedTooltip</name>
+                <name>ДатаЗапретаРасширеннаяПодсказка</name>
                 <id>54</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -536,7 +560,7 @@
               <value>Произвольная дата используется</value>
             </title>
             <extendedTooltip>
-              <name>ПроизвольнаяДатаИспользуетсяExtendedTooltip</name>
+              <name>ПроизвольнаяДатаИспользуетсяРасширеннаяПодсказка</name>
               <id>53</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -568,7 +592,7 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>ПустаяНадписьДляОтображенияСтраницы1ExtendedTooltip</name>
+                <name>ПустаяНадписьДляОтображенияСтраницы1РасширеннаяПодсказка</name>
                 <id>56</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -609,7 +633,7 @@
               <value>Произвольная дата не используется</value>
             </title>
             <extendedTooltip>
-              <name>ПроизвольнаяДатаНеИспользуетсяExtendedTooltip</name>
+              <name>ПроизвольнаяДатаНеИспользуетсяРасширеннаяПодсказка</name>
               <id>55</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -639,7 +663,7 @@
             <value>Произвольная дата</value>
           </title>
           <extendedTooltip>
-            <name>ПроизвольнаяДатаExtendedTooltip</name>
+            <name>ПроизвольнаяДатаРасширеннаяПодсказка</name>
             <id>52</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -668,7 +692,7 @@
           <value>Дата запрета с описанием</value>
         </title>
         <extendedTooltip>
-          <name>ДатаЗапретаСОписаниемExtendedTooltip</name>
+          <name>ДатаЗапретаСОписаниемРасширеннаяПодсказка</name>
           <id>50</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -703,6 +727,10 @@
             <items xsi:type="form:FormField">
               <name>РазрешитьИзменениеДанныхДоДатыЗапрета</name>
               <id>3</id>
+              <title>
+                <key>ru</key>
+                <value>Вступает в действие с отсрочкой в</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -717,7 +745,7 @@
                 <name>РазрешитьИзменениеДанныхДоДатыЗапретаПриИзменении</name>
               </handlers>
               <extendedTooltip>
-                <name>РазрешитьИзменениеДанныхДоДатыЗапретаExtendedTooltip</name>
+                <name>РазрешитьИзменениеДанныхДоДатыЗапретаРасширеннаяПодсказка</name>
                 <id>59</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -769,7 +797,7 @@
                 <name>КоличествоДнейРазрешенияПриИзменении</name>
               </handlers>
               <extendedTooltip>
-                <name>КоличествоДнейРазрешенияExtendedTooltip</name>
+                <name>КоличествоДнейРазрешенияРасширеннаяПодсказка</name>
                 <id>63</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -862,7 +890,7 @@
               <value>]</value>
             </toolTip>
             <extendedTooltip>
-              <name>ПояснениеНепроизвольнойДатыExtendedTooltip</name>
+              <name>ПояснениеНепроизвольнойДатыРасширеннаяПодсказка</name>
               <id>66</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1099,6 +1127,10 @@
     <items xsi:type="form:FormField">
       <name>ПользовательПредставление</name>
       <id>31</id>
+      <title>
+        <key>ru</key>
+        <value>Действует для</value>
+      </title>
       <titleTextColor xsi:type="core:ColorRef">
         <color>Style.ПоясняющийТекст</color>
       </titleTextColor>
@@ -1111,7 +1143,7 @@
         <segments>ПользовательПредставление</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПользовательПредставлениеExtendedTooltip</name>
+        <name>ПользовательПредставлениеРасширеннаяПодсказка</name>
         <id>46</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1152,6 +1184,10 @@
     <items xsi:type="form:FormField">
       <name>РазделПредставление</name>
       <id>35</id>
+      <title>
+        <key>ru</key>
+        <value>Раздел</value>
+      </title>
       <titleTextColor xsi:type="core:ColorRef">
         <color>Style.ПоясняющийТекст</color>
       </titleTextColor>
@@ -1164,7 +1200,7 @@
         <segments>РазделПредставление</segments>
       </dataPath>
       <extendedTooltip>
-        <name>РазделПредставлениеExtendedTooltip</name>
+        <name>РазделПредставлениеРасширеннаяПодсказка</name>
         <id>47</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1205,6 +1241,10 @@
     <items xsi:type="form:FormField">
       <name>ОбъектПредставление</name>
       <id>33</id>
+      <title>
+        <key>ru</key>
+        <value>Объект</value>
+      </title>
       <titleTextColor xsi:type="core:ColorRef">
         <color>Style.ПоясняющийТекст</color>
       </titleTextColor>
@@ -1217,7 +1257,7 @@
         <segments>Объект</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ОбъектПредставлениеExtendedTooltip</name>
+        <name>ОбъектПредставлениеРасширеннаяПодсказка</name>
         <id>48</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1296,13 +1336,17 @@
     <items xsi:type="form:Button">
       <name>ФормаОК</name>
       <id>29</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаОКExtendedTooltip</name>
+        <name>ФормаОКРасширеннаяПодсказка</name>
         <id>44</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1337,7 +1381,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаЗакрытьExtendedTooltip</name>
+        <name>ФормаЗакрытьРасширеннаяПодсказка</name>
         <id>45</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1376,6 +1420,7 @@
   <excludedCommands>CustomizeForm</excludedCommands>
   <excludedCommands>Help</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -1565,6 +1610,19 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ЗаписьСуществует</name>
+    <id>12</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ОК</name>
     <title>
@@ -1641,6 +1699,12 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ЗаписьСуществует</name>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
   </parameters>
   <commandInterface>

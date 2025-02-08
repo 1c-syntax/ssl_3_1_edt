@@ -104,7 +104,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ДекорацияПрогрессExtendedTooltip</name>
+          <name>ДекорацияПрогрессРасширеннаяПодсказка</name>
           <id>11</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -387,6 +387,10 @@
     <items xsi:type="form:Button">
       <name>ИсправитьПроблему</name>
       <id>3</id>
+      <title>
+        <key>ru</key>
+        <value>Исправить проблему</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -499,6 +503,7 @@
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -570,6 +575,15 @@
     </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>ИдентификаторПроверки</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

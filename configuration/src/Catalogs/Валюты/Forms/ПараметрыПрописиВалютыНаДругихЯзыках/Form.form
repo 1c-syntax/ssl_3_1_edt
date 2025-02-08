@@ -100,7 +100,7 @@
         <name>СуммаЧислоПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>СуммаЧислоExtendedTooltip</name>
+        <name>СуммаЧислоРасширеннаяПодсказка</name>
         <id>23</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -141,6 +141,10 @@
     <items xsi:type="form:FormField">
       <name>СуммаПрописью</name>
       <id>24</id>
+      <title>
+        <key>ru</key>
+        <value>Сумма прописью</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -151,7 +155,7 @@
       </dataPath>
       <titleLocation>Left</titleLocation>
       <extendedTooltip>
-        <name>СуммаПрописьюExtendedTooltip</name>
+        <name>СуммаПрописьюРасширеннаяПодсказка</name>
         <id>26</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -199,7 +203,7 @@
       <value>Пример прописи суммы</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаПримерПрописиExtendedTooltip</name>
+      <name>ГруппаПримерПрописиРасширеннаяПодсказка</name>
       <id>20</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -231,6 +235,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписатьИЗакрыть</name>
       <id>27</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -262,6 +270,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписать</name>
       <id>29</id>
+      <title>
+        <key>ru</key>
+        <value>Записать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -306,6 +318,7 @@
   </handlers>
   <height>15</height>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

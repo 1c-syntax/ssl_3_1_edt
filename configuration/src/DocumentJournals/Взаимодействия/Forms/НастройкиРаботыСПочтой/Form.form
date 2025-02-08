@@ -13,7 +13,7 @@
       <common>true</common>
     </userVisible>
     <extendedTooltip>
-      <name>УчетнаяЗаписьЭлектроннойПочтыExtendedTooltip</name>
+      <name>УчетнаяЗаписьЭлектроннойПочтыРасширеннаяПодсказка</name>
       <id>56</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -82,7 +82,7 @@
             <name>ВключатьПодписьДляНовыйСообщенийПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ВключатьПодписьДляНовыхСообщенийExtendedTooltip</name>
+            <name>ВключатьПодписьДляНовыхСообщенийРасширеннаяПодсказка</name>
             <id>60</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -133,7 +133,7 @@
             <name>ФорматПодписиДляНовыхСообщенийПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ФорматПодписиДляНовыхСообщенийExtendedTooltip</name>
+            <name>ФорматПодписиДляНовыхСообщенийРасширеннаяПодсказка</name>
             <id>61</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -185,7 +185,7 @@
             <value>Для новых сообщений</value>
           </title>
           <extendedTooltip>
-            <name>ГруппаВключатьФорматНовыеExtendedTooltip</name>
+            <name>ГруппаВключатьФорматНовыеРасширеннаяПодсказка</name>
             <id>62</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -217,6 +217,10 @@
             <items xsi:type="form:FormField">
               <name>ПодписьДляНовыхСообщенийПростойТекст</name>
               <id>5</id>
+              <title>
+                <key>ru</key>
+                <value>Подпись для новых сообщений простой текст</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -227,7 +231,7 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
-                <name>ПодписьДляНовыхСообщенийПростойТекстExtendedTooltip</name>
+                <name>ПодписьДляНовыхСообщенийПростойТекстРасширеннаяПодсказка</name>
                 <id>65</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -275,7 +279,7 @@
               <value>Страница новое сообщение простой текст</value>
             </title>
             <extendedTooltip>
-              <name>СтраницаНовоеСообщениеПростойТекстExtendedTooltip</name>
+              <name>СтраницаНовоеСообщениеПростойТекстРасширеннаяПодсказка</name>
               <id>64</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -311,7 +315,7 @@
                 <value>Команды форматированный документ</value>
               </title>
               <extendedTooltip>
-                <name>ГруппаКомандыФорматированныйДокументExtendedTooltip</name>
+                <name>ГруппаКомандыФорматированныйДокументРасширеннаяПодсказка</name>
                 <id>67</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -334,6 +338,10 @@
             <items xsi:type="form:FormField">
               <name>НовоеСообщениеФорматированныйДокумент</name>
               <id>11</id>
+              <title>
+                <key>ru</key>
+                <value>Новое сообщение форматированный документ</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -344,7 +352,7 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
-                <name>НовоеСообщениеФорматированныйДокументExtendedTooltip</name>
+                <name>НовоеСообщениеФорматированныйДокументРасширеннаяПодсказка</name>
                 <id>68</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -391,7 +399,7 @@
               <value>Страница новое сообщение форматированный текст</value>
             </title>
             <extendedTooltip>
-              <name>СтраницаНовоеСообщениеФорматированныйТекстExtendedTooltip</name>
+              <name>СтраницаНовоеСообщениеФорматированныйТекстРасширеннаяПодсказка</name>
               <id>66</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -421,7 +429,7 @@
             <value>Страницы подпись для новых сообщений</value>
           </title>
           <extendedTooltip>
-            <name>СтраницыПодписьДляНовыхСообщенийExtendedTooltip</name>
+            <name>СтраницыПодписьДляНовыхСообщенийРасширеннаяПодсказка</name>
             <id>63</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -451,7 +459,7 @@
         </title>
         <width>40</width>
         <extendedTooltip>
-          <name>ГруппаДляНовыхСообщенийExtendedTooltip</name>
+          <name>ГруппаДляНовыхСообщенийРасширеннаяПодсказка</name>
           <id>59</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -531,7 +539,7 @@
             <name>ВключатьПодписьПриОтветеПересылкеПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ВключатьПодписьПриОтветеПересылкеExtendedTooltip</name>
+            <name>ВключатьПодписьПриОтветеПересылкеРасширеннаяПодсказка</name>
             <id>70</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -582,7 +590,7 @@
             <name>ФорматПодписиПриОтветеПересылкеПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ФорматПодписиПриОтветеПересылкеExtendedTooltip</name>
+            <name>ФорматПодписиПриОтветеПересылкеРасширеннаяПодсказка</name>
             <id>71</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -630,6 +638,10 @@
             <items xsi:type="form:FormField">
               <name>ПодписьПриОтветеПересылкеПростойТекст</name>
               <id>27</id>
+              <title>
+                <key>ru</key>
+                <value>Подпись при ответе пересылке простой текст</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -640,7 +652,7 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
-                <name>ПодписьПриОтветеПересылкеПростойТекстExtendedTooltip</name>
+                <name>ПодписьПриОтветеПересылкеПростойТекстРасширеннаяПодсказка</name>
                 <id>74</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -688,7 +700,7 @@
               <value>Страница при ответе пересылке простой текст</value>
             </title>
             <extendedTooltip>
-              <name>СтраницаПриОтветеПересылкеПростойТекстExtendedTooltip</name>
+              <name>СтраницаПриОтветеПересылкеПростойТекстРасширеннаяПодсказка</name>
               <id>73</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -724,7 +736,7 @@
                 <value>Команды при ответе пересылке форматированный документ</value>
               </title>
               <extendedTooltip>
-                <name>ГруппаКомандыПриОтветеПересылкеФорматированныйДокументExtendedTooltip</name>
+                <name>ГруппаКомандыПриОтветеПересылкеФорматированныйДокументРасширеннаяПодсказка</name>
                 <id>76</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -757,7 +769,7 @@
               </dataPath>
               <titleLocation>None</titleLocation>
               <extendedTooltip>
-                <name>ПриОтветеПересылкеФорматированныйДокументExtendedTooltip</name>
+                <name>ПриОтветеПересылкеФорматированныйДокументРасширеннаяПодсказка</name>
                 <id>77</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -804,7 +816,7 @@
               <value>Страница при ответе пересылке простой текст</value>
             </title>
             <extendedTooltip>
-              <name>СтраницаПриОтветеПересылкеФорматированныйДокументExtendedTooltip</name>
+              <name>СтраницаПриОтветеПересылкеФорматированныйДокументРасширеннаяПодсказка</name>
               <id>75</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -834,7 +846,7 @@
             <value>Страницы подпись при ответе пересылке</value>
           </title>
           <extendedTooltip>
-            <name>СтраницыПодписьПриОтветеПересылкеExtendedTooltip</name>
+            <name>СтраницыПодписьПриОтветеПересылкеРасширеннаяПодсказка</name>
             <id>72</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -864,7 +876,7 @@
         </title>
         <width>40</width>
         <extendedTooltip>
-          <name>ГруппаПриОтветеПересылкеExtendedTooltip</name>
+          <name>ГруппаПриОтветеПересылкеРасширеннаяПодсказка</name>
           <id>69</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -940,7 +952,7 @@
           </dataPath>
           <titleLocation>Right</titleLocation>
           <extendedTooltip>
-            <name>ВсегдаЗапрашиватьУведомлениеОПрочтенииExtendedTooltip</name>
+            <name>ВсегдаЗапрашиватьУведомлениеОПрочтенииРасширеннаяПодсказка</name>
             <id>80</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -988,7 +1000,7 @@
           </dataPath>
           <titleLocation>Right</titleLocation>
           <extendedTooltip>
-            <name>ВсегдаЗапрашиватьУведомленияОДоставкеExtendedTooltip</name>
+            <name>ВсегдаЗапрашиватьУведомленияОДоставкеРасширеннаяПодсказка</name>
             <id>81</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1022,6 +1034,10 @@
         <items xsi:type="form:FormField">
           <name>ПорядокОтветовНаЗапросыУведомленийОПрочтении</name>
           <id>40</id>
+          <title>
+            <key>ru</key>
+            <value>Порядок ответов на запросы уведомлений о прочтении</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1032,7 +1048,7 @@
           </dataPath>
           <titleLocation>Top</titleLocation>
           <extendedTooltip>
-            <name>ПорядокОтветовНаЗапросыУведомленийОПрочтенииExtendedTooltip</name>
+            <name>ПорядокОтветовНаЗапросыУведомленийОПрочтенииРасширеннаяПодсказка</name>
             <id>82</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1102,7 +1118,7 @@
           <value>Для отправляемых сообщений запрашивать:</value>
         </title>
         <extendedTooltip>
-          <name>ГруппаДляОтправляемыхСообщенийExtendedTooltip</name>
+          <name>ГруппаДляОтправляемыхСообщенийРасширеннаяПодсказка</name>
           <id>79</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1136,7 +1152,7 @@
         <value>Отслеживание писем</value>
       </title>
       <extendedTooltip>
-        <name>ОтслеживаниеПисемExtendedTooltip</name>
+        <name>ОтслеживаниеПисемРасширеннаяПодсказка</name>
         <id>78</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1162,6 +1178,10 @@
       <items xsi:type="form:FormField">
         <name>ОтображатьТелоИсходногоПисьма</name>
         <id>50</id>
+        <title>
+          <key>ru</key>
+          <value>Отображать тело исходного письма  при ответе или пересылке</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1172,7 +1192,7 @@
         </dataPath>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
-          <name>ОтображатьТелоИсходногоПисьмаExtendedTooltip</name>
+          <name>ОтображатьТелоИсходногоПисьмаРасширеннаяПодсказка</name>
           <id>84</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1206,6 +1226,10 @@
       <items xsi:type="form:FormField">
         <name>ВключатьТелоИсходногоПисьма</name>
         <id>52</id>
+        <title>
+          <key>ru</key>
+          <value>Включать тело исходного письма при ответе пересылке</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1216,7 +1240,7 @@
         </dataPath>
         <titleLocation>Right</titleLocation>
         <extendedTooltip>
-          <name>ВключатьТелоИсходногоПисьмаExtendedTooltip</name>
+          <name>ВключатьТелоИсходногоПисьмаРасширеннаяПодсказка</name>
           <id>85</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1268,7 +1292,7 @@
           <value>Данная  настройка имеет смысл только при файловом варианте хранения ИБ. В клиент- серверном варианте отправки и получение писем выполняется регламентным заданием. </value>
         </toolTip>
         <extendedTooltip>
-          <name>ОтправлятьСообщенияСразуExtendedTooltip</name>
+          <name>ОтправлятьСообщенияСразуРасширеннаяПодсказка</name>
           <id>86</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1309,7 +1333,7 @@
         <value>Прочее</value>
       </title>
       <extendedTooltip>
-        <name>ПрочееExtendedTooltip</name>
+        <name>ПрочееРасширеннаяПодсказка</name>
         <id>83</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1339,7 +1363,7 @@
       <value>Страницы настроек</value>
     </title>
     <extendedTooltip>
-      <name>СтраницыНастроекExtendedTooltip</name>
+      <name>СтраницыНастроекРасширеннаяПодсказка</name>
       <id>57</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1365,6 +1389,10 @@
     <items xsi:type="form:Button">
       <name>ЗаписатьИЗакрыть</name>
       <id>48</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1372,7 +1400,7 @@
       </userVisible>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
-        <name>ЗаписатьИЗакрытьExtendedTooltip</name>
+        <name>ЗаписатьИЗакрытьРасширеннаяПодсказка</name>
         <id>54</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1403,7 +1431,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСправкаExtendedTooltip</name>
+        <name>ФормаСправкаРасширеннаяПодсказка</name>
         <id>55</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1435,6 +1463,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

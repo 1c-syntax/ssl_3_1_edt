@@ -8,7 +8,7 @@
       <id>1575</id>
       <title>
         <key>ru</key>
-        <value>Контроль за состоянием программы, резервное копирование и восстановление, оптимизация быстродействия.</value>
+        <value>Контроль за состоянием приложения, резервное копирование и восстановление, оптимизация быстродействия.</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -59,7 +59,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СправкаExtendedTooltip</name>
+          <name>СправкаРасширеннаяПодсказка</name>
           <id>1636</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -90,7 +90,7 @@
         <value>Справка</value>
       </title>
       <extendedTooltip>
-        <name>ГруппаСправкаExtendedTooltip</name>
+        <name>ГруппаСправкаРасширеннаяПодсказка</name>
         <id>1635</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -119,7 +119,7 @@
       <value>Заголовок</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаЗаголовокExtendedTooltip</name>
+      <name>ГруппаЗаголовокРасширеннаяПодсказка</name>
       <id>1632</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -154,7 +154,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОбработкаЖурналРегистрацииОткрытьExtendedTooltip</name>
+        <name>ОбработкаЖурналРегистрацииОткрытьРасширеннаяПодсказка</name>
         <id>1638</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -185,7 +185,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОбработкаАктивныеПользователиОткрытьExtendedTooltip</name>
+        <name>ОбработкаАктивныеПользователиОткрытьРасширеннаяПодсказка</name>
         <id>1639</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -216,7 +216,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОбработкаБлокировкаСоединенийСИнформационнойБазойОткрытьExtendedTooltip</name>
+        <name>ОбработкаБлокировкаСоединенийСИнформационнойБазойОткрытьРасширеннаяПодсказка</name>
         <id>1640</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -247,7 +247,7 @@
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ОбработкаУдалениеПомеченныхОбъектовОткрытьExtendedTooltip</name>
+        <name>ОбработкаУдалениеПомеченныхОбъектовОткрытьРасширеннаяПодсказка</name>
         <id>1641</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -279,7 +279,7 @@
       <value>Частотный сервис</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаЧастотныйСервисExtendedTooltip</name>
+      <name>ГруппаЧастотныйСервисРасширеннаяПодсказка</name>
       <id>1637</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -401,7 +401,7 @@
             <id>1819</id>
             <title>
               <key>ru</key>
-              <value>Команды дополнительных отчетов, подключенных к программе.</value>
+              <value>Команды дополнительных отчетов, подключенных к приложению.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -479,7 +479,7 @@
             <id>1821</id>
             <title>
               <key>ru</key>
-              <value>Команды дополнительных обработок, подключенных к программе.</value>
+              <value>Команды дополнительных обработок, подключенных к приложению.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -625,7 +625,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ОбработкаРегламентныеИФоновыеЗаданияExtendedTooltip</name>
+            <name>ОбработкаРегламентныеИФоновыеЗаданияРасширеннаяПодсказка</name>
             <id>1645</id>
             <title>
               <key>ru</key>
@@ -664,7 +664,7 @@
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
-          <name>ГруппаОбработкаРегламентныеИФоновыеЗаданияExtendedTooltip</name>
+          <name>ГруппаОбработкаРегламентныеИФоновыеЗаданияРасширеннаяПодсказка</name>
           <id>1644</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -693,6 +693,10 @@
         <items xsi:type="form:Button">
           <name>РазблокироватьРаботуСВнешнимиРесурсами</name>
           <id>2025</id>
+          <title>
+            <key>ru</key>
+            <value>Разблокировать работу с внешними ресурсами</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -805,7 +809,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ОбработкаУправлениеИтогамиИАгрегатамиОткрытьExtendedTooltip</name>
+          <name>ОбработкаУправлениеИтогамиИАгрегатамиОткрытьРасширеннаяПодсказка</name>
           <id>1652</id>
           <title>
             <key>ru</key>
@@ -845,7 +849,7 @@
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
-        <name>ГруппаОбработкаУправлениеИтогамиИАгрегатамиОткрытьExtendedTooltip</name>
+        <name>ГруппаОбработкаУправлениеИтогамиИАгрегатамиОткрытьРасширеннаяПодсказка</name>
         <id>1651</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -878,7 +882,7 @@
       <value>Регламентные операции</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаРегламентныеОперацииExtendedTooltip</name>
+      <name>ГруппаРегламентныеОперацииРасширеннаяПодсказка</name>
       <id>1642</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -911,26 +915,29 @@
     <name>ГруппаРезервноеКопированиеИВосстановление</name>
     <id>1467</id>
     <items xsi:type="form:FormGroup">
-      <name>ГруппаВыборСпособаРезервногоКопирования</name>
-      <id>2114</id>
+      <name>ГруппаВыборВариантаХраненияРезервныхКопий</name>
+      <id>2245</id>
       <items xsi:type="form:FormField">
-        <name>СпособРезервногоКопирования</name>
-        <id>2116</id>
-        <visible>true</visible>
+        <name>ХранениеРезервныхКопий</name>
+        <id>2247</id>
+        <title>
+          <key>ru</key>
+          <value>Хранение резервных копий</value>
+        </title>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <dataPath xsi:type="form:DataPath">
-          <segments>СпособРезервногоКопирования</segments>
+          <segments>ХранениеРезервныхКопий</segments>
         </dataPath>
         <handlers>
           <event>OnChange</event>
-          <name>СпособРезервногоКопированияПриИзменении</name>
+          <name>ХранениеРезервныхКопийПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>СпособРезервногоКопированияРасширеннаяПодсказка</name>
-          <id>2118</id>
+          <name>ХранениеРезервныхКопийРасширеннаяПодсказка</name>
+          <id>2249</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -944,8 +951,8 @@
           </extInfo>
         </extendedTooltip>
         <contextMenu>
-          <name>СпособРезервногоКопированияКонтекстноеМеню</name>
-          <id>2117</id>
+          <name>ХранениеРезервныхКопийКонтекстноеМеню</name>
+          <id>2248</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -959,40 +966,32 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
+          <handlers>
+            <event>Clearing</event>
+            <name>ХранениеРезервныхКопийОчистка</name>
+          </handlers>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
-          <horizontalStretch>true</horizontalStretch>
           <wrap>true</wrap>
-          <autoChoiceIncomplete>true</autoChoiceIncomplete>
           <listChoiceMode>true</listChoiceMode>
-          <autoMarkIncomplete>true</autoMarkIncomplete>
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
-          <choiceList>
-            <value xsi:type="core:StringValue">
-              <value>На локальном компьютере</value>
-            </value>
-          </choiceList>
-          <choiceList>
-            <value xsi:type="core:StringValue">
-              <value>1С:Облачный архив</value>
-            </value>
-          </choiceList>
+          <textEdit>true</textEdit>
         </extInfo>
       </items>
+      <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Выбор способа резервного копирования</value>
+        <value>Выбор варианта хранения резервных копий</value>
       </title>
-      <enableContentChange>true</enableContentChange>
       <horizontalStretch>true</horizontalStretch>
       <extendedTooltip>
-        <name>ГруппаВыборСпособаРезервногоКопированияРасширеннаяПодсказка</name>
-        <id>2115</id>
+        <name>ГруппаВыборВариантаХраненияРезервныхКопийРасширеннаяПодсказка</name>
+        <id>2246</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1189,7 +1188,7 @@
             <width>43</width>
             <horizontalStretch>false</horizontalStretch>
             <extendedTooltip>
-              <name>ГруппаНастройкаРезервногоКопированияExtendedTooltip</name>
+              <name>ГруппаНастройкаРезервногоКопированияРасширеннаяПодсказка</name>
               <id>1666</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1246,19 +1245,23 @@
           </extInfo>
         </items>
         <items xsi:type="form:FormGroup">
-          <name>ГруппаНеобходимоОтключитьОблачныйАрхив</name>
-          <id>2135</id>
+          <name>ГруппаОблачныйАрхивРаботает</name>
+          <id>2283</id>
           <items xsi:type="form:Decoration">
-            <name>ИконкаНеобходимоОтключитьОблачныйАрхив</name>
-            <id>2137</id>
+            <name>ИконкаОблачныйАрхивРаботает</name>
+            <id>2285</id>
+            <title>
+              <key>ru</key>
+              <value>Иконка облачный архив работает</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ИконкаНеобходимоОтключитьОблачныйАрхивРасширеннаяПодсказка</name>
-              <id>2139</id>
+              <name>ИконкаОблачныйАрхивРаботаетРасширеннаяПодсказка</name>
+              <id>2287</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1272,8 +1275,8 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>ИконкаНеобходимоОтключитьОблачныйАрхивКонтекстноеМеню</name>
-              <id>2138</id>
+              <name>ИконкаОблачныйАрхивРаботаетКонтекстноеМеню</name>
+              <id>2286</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1285,19 +1288,14 @@
             <autoMaxWidth>true</autoMaxWidth>
             <height>1</height>
             <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:PictureDecorationExtInfo">
-              <picture xsi:type="core:PictureRef">
-                <picture>CommonPicture.ИнформацияПоНедоступнымПолям</picture>
-              </picture>
-            </extInfo>
+            <extInfo xsi:type="form:PictureDecorationExtInfo"/>
           </items>
           <items xsi:type="form:Decoration">
-            <name>ПояснениеНеобходимоОтключитьОблачныйАрхив</name>
-            <id>2140</id>
+            <name>ПояснениеОблачныйАрхивРаботает</name>
+            <id>2288</id>
             <title>
               <key>ru</key>
-              <value>Агенты резервного копирования 1С:Облачный архив остались активными на некоторых компьютерах.
-Они могут продолжать делать резервные копии. Чтобы их отключить, воспользуйтесь &lt;link backup1C:HowToDeactivateAgents>инструкцией&lt;/>.</value>
+              <value>Выгрузка &lt;link setting>резервных копий&lt;/> в облако Фирмы &quot;1C&quot; включена.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1305,8 +1303,8 @@
               <common>true</common>
             </userVisible>
             <extendedTooltip>
-              <name>ПояснениеНеобходимоОтключитьОблачныйАрхивРасширеннаяПодсказка</name>
-              <id>2142</id>
+              <name>ПояснениеОблачныйАрхивРаботаетРасширеннаяПодсказка</name>
+              <id>2290</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1320,8 +1318,8 @@
               </extInfo>
             </extendedTooltip>
             <contextMenu>
-              <name>ПояснениеНеобходимоОтключитьОблачныйАрхивКонтекстноеМеню</name>
-              <id>2141</id>
+              <name>ПояснениеОблачныйАрхивРаботаетКонтекстноеМеню</name>
+              <id>2289</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -1337,7 +1335,7 @@
             <extInfo xsi:type="form:LabelDecorationExtInfo">
               <handlers>
                 <event>URLProcessing</event>
-                <name>ОблачныйАрхивОбработкаНавигационнойСсылки</name>
+                <name>ПояснениеОблачныйАрхивРаботаетОбработкаНавигационнойСсылки</name>
               </handlers>
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
@@ -1348,13 +1346,13 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Необходимо отключить облачный архив</value>
+            <value>Облачный архив работает</value>
           </title>
           <width>86</width>
           <horizontalStretch>false</horizontalStretch>
           <extendedTooltip>
-            <name>ГруппаНеобходимоОтключитьОблачныйАрхивРасширеннаяПодсказка</name>
-            <id>2136</id>
+            <name>ГруппаОблачныйАрхивРаботаетРасширеннаяПодсказка</name>
+            <id>2284</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1369,7 +1367,7 @@
           </extendedTooltip>
           <type>UsualGroup</type>
           <extInfo xsi:type="form:UsualGroupExtInfo">
-            <group>HorizontalIfPossible</group>
+            <group>AlwaysHorizontal</group>
             <representation>NormalSeparation</representation>
             <showLeftMargin>true</showLeftMargin>
             <united>true</united>
@@ -1409,544 +1407,22 @@
       </items>
       <items xsi:type="form:FormGroup">
         <name>СтраницаОблачныйАрхив</name>
-        <id>2143</id>
+        <id>2250</id>
         <items xsi:type="form:FormGroup">
           <name>СтраницыСостоянийОблачныйАрхив</name>
-          <id>2145</id>
-          <items xsi:type="form:FormGroup">
-            <name>СтраницаОблачныйАрхивОжидание</name>
-            <id>2147</id>
-            <items xsi:type="form:Decoration">
-              <name>ДекорацияСтраницаОблачныйАрхивКартинка</name>
-              <id>2149</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <extendedTooltip>
-                <name>ДекорацияСтраницаОблачныйАрхивКартинкаРасширеннаяПодсказка</name>
-                <id>2151</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <contextMenu>
-                <name>ДекорацияСтраницаОблачныйАрхивКартинкаКонтекстноеМеню</name>
-                <id>2150</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <autoFill>true</autoFill>
-              </contextMenu>
-              <width>5</width>
-              <autoMaxWidth>true</autoMaxWidth>
-              <height>3</height>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:PictureDecorationExtInfo">
-                <picture xsi:type="core:PictureRef">
-                  <picture>CommonPicture.ДлительнаяОперация48</picture>
-                </picture>
-              </extInfo>
-            </items>
-            <items xsi:type="form:FormGroup">
-              <name>ГруппаПрогрессПроверкиОблачногоАрхива</name>
-              <id>2152</id>
-              <items xsi:type="form:FormField">
-                <name>ПрогрессПроверкиОблачногоАрхива</name>
-                <id>2154</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <dataPath xsi:type="form:DataPath">
-                  <segments>ПрогрессПроверкиОблачногоАрхива</segments>
-                </dataPath>
-                <titleLocation>None</titleLocation>
-                <extendedTooltip>
-                  <name>ПрогрессПроверкиОблачногоАрхиваРасширеннаяПодсказка</name>
-                  <id>2156</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <type>Label</type>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <extInfo xsi:type="form:LabelDecorationExtInfo">
-                    <horizontalAlign>Left</horizontalAlign>
-                  </extInfo>
-                </extendedTooltip>
-                <contextMenu>
-                  <name>ПрогрессПроверкиОблачногоАрхиваКонтекстноеМеню</name>
-                  <id>2155</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <autoFill>true</autoFill>
-                </contextMenu>
-                <type>ProgressBarField</type>
-                <editMode>Enter</editMode>
-                <showInHeader>true</showInHeader>
-                <headerHorizontalAlign>Left</headerHorizontalAlign>
-                <showInFooter>true</showInFooter>
-                <extInfo xsi:type="form:ProgressBarFieldExtInfo">
-                  <width>40</width>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <height>1</height>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <maxValue>100</maxValue>
-                  <showPercent>true</showPercent>
-                </extInfo>
-              </items>
-              <items xsi:type="form:Decoration">
-                <name>ДекорацияПрогрессПроверкиОблачногоАрхиваОписание</name>
-                <id>2157</id>
-                <visible>true</visible>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <extendedTooltip>
-                  <name>ДекорацияПрогрессПроверкиОблачногоАрхиваОписаниеРасширеннаяПодсказка</name>
-                  <id>2159</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <type>Label</type>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <extInfo xsi:type="form:LabelDecorationExtInfo">
-                    <horizontalAlign>Left</horizontalAlign>
-                  </extInfo>
-                </extendedTooltip>
-                <contextMenu>
-                  <name>ДекорацияПрогрессПроверкиОблачногоАрхиваОписаниеКонтекстноеМеню</name>
-                  <id>2158</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <autoFill>true</autoFill>
-                </contextMenu>
-                <type>Label</type>
-                <height>2</height>
-                <horizontalStretch>true</horizontalStretch>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                  <verticalAlign>Top</verticalAlign>
-                </extInfo>
-              </items>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <title>
-                <key>ru</key>
-                <value>Прогресс проверки облачного архива</value>
-              </title>
-              <enableContentChange>true</enableContentChange>
-              <extendedTooltip>
-                <name>ГруппаПрогрессПроверкиОблачногоАрхиваРасширеннаяПодсказка</name>
-                <id>2153</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <type>UsualGroup</type>
-              <extInfo xsi:type="form:UsualGroupExtInfo">
-                <group>Vertical</group>
-                <showLeftMargin>true</showLeftMargin>
-                <united>true</united>
-                <throughAlign>Auto</throughAlign>
-                <currentRowUse>Auto</currentRowUse>
-              </extInfo>
-            </items>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <title>
-              <key>ru</key>
-              <value>Страница облачный архив ожидание</value>
-            </title>
-            <horizontalStretch>true</horizontalStretch>
-            <extendedTooltip>
-              <name>СтраницаОблачныйАрхивОжиданиеРасширеннаяПодсказка</name>
-              <id>2148</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <type>Page</type>
-            <extInfo xsi:type="form:PageGroupExtInfo">
-              <group>HorizontalIfPossible</group>
-              <showTitle>true</showTitle>
-            </extInfo>
-          </items>
-          <items xsi:type="form:FormGroup">
-            <name>СтраницаОблачныйАрхивНеПодключено</name>
-            <id>2160</id>
-            <items xsi:type="form:FormGroup">
-              <name>ГруппаСервисОблачныйАрхивНеПодключен</name>
-              <id>2162</id>
-              <items xsi:type="form:Decoration">
-                <name>ИконкаСервисОблачныйАрхивНеПодключен</name>
-                <id>2164</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <extendedTooltip>
-                  <name>ИконкаСервисОблачныйАрхивНеПодключенРасширеннаяПодсказка</name>
-                  <id>2166</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <type>Label</type>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <extInfo xsi:type="form:LabelDecorationExtInfo">
-                    <horizontalAlign>Left</horizontalAlign>
-                  </extInfo>
-                </extendedTooltip>
-                <contextMenu>
-                  <name>ИконкаСервисОблачныйАрхивНеПодключенКонтекстноеМеню</name>
-                  <id>2165</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <autoFill>true</autoFill>
-                </contextMenu>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <maxHeight>4</maxHeight>
-                <horizontalStretch>false</horizontalStretch>
-                <verticalStretch>false</verticalStretch>
-                <extInfo xsi:type="form:PictureDecorationExtInfo">
-                  <picture xsi:type="core:PictureRef">
-                    <picture>CommonPicture.ИнформацияПоНедоступнымПолям</picture>
-                  </picture>
-                </extInfo>
-              </items>
-              <items xsi:type="form:Decoration">
-                <name>ДекорацияСервисОблачныйАрхивНеПодключен</name>
-                <id>2167</id>
-                <title>
-                  <key>ru</key>
-                  <value>Для работы с 1С:Облачный архив, его необходимо подключить.</value>
-                </title>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <extendedTooltip>
-                  <name>ДекорацияСервисОблачныйАрхивНеПодключенРасширеннаяПодсказка</name>
-                  <id>2169</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <type>Label</type>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <extInfo xsi:type="form:LabelDecorationExtInfo">
-                    <horizontalAlign>Left</horizontalAlign>
-                  </extInfo>
-                </extendedTooltip>
-                <contextMenu>
-                  <name>ДекорацияСервисОблачныйАрхивНеПодключенКонтекстноеМеню</name>
-                  <id>2168</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <autoFill>true</autoFill>
-                </contextMenu>
-                <formatted>true</formatted>
-                <type>Label</type>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </items>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <title>
-                <key>ru</key>
-                <value>Сервис облачный архив не подключен</value>
-              </title>
-              <extendedTooltip>
-                <name>ГруппаСервисОблачныйАрхивНеПодключенРасширеннаяПодсказка</name>
-                <id>2163</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <type>UsualGroup</type>
-              <extInfo xsi:type="form:UsualGroupExtInfo">
-                <group>HorizontalIfPossible</group>
-                <showLeftMargin>true</showLeftMargin>
-                <united>true</united>
-                <throughAlign>Auto</throughAlign>
-                <currentRowUse>Auto</currentRowUse>
-              </extInfo>
-            </items>
-            <items xsi:type="form:Button">
-              <name>ПодключитьСервисОблачныйАрхив</name>
-              <id>2170</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <extendedTooltip>
-                <name>ПодключитьСервисОблачныйАрхивРасширеннаяПодсказка</name>
-                <id>2171</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <type>UsualButton</type>
-              <commandName>Form.Command.ПодключитьСервисОблачныйАрхив</commandName>
-              <representation>Auto</representation>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <placementArea>UserCmds</placementArea>
-              <representationInContextMenu>Auto</representationInContextMenu>
-            </items>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <title>
-              <key>ru</key>
-              <value>Страница облачный архив не подключено</value>
-            </title>
-            <horizontalStretch>true</horizontalStretch>
-            <extendedTooltip>
-              <name>СтраницаОблачныйАрхивНеПодключеноРасширеннаяПодсказка</name>
-              <id>2161</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <type>Page</type>
-            <extInfo xsi:type="form:PageGroupExtInfo">
-              <group>Vertical</group>
-              <showTitle>true</showTitle>
-            </extInfo>
-          </items>
-          <items xsi:type="form:FormGroup">
-            <name>СтраницаОблачныйАрхивПодключеноНаДругомКомпьютере</name>
-            <id>2172</id>
-            <items xsi:type="form:Decoration">
-              <name>ИконкаСервисОблачныйАрхивПодключенНаДругомКомпьютере</name>
-              <id>2174</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <extendedTooltip>
-                <name>ИконкаСервисОблачныйАрхивПодключенНаДругомКомпьютереРасширеннаяПодсказка</name>
-                <id>2176</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <contextMenu>
-                <name>ИконкаСервисОблачныйАрхивПодключенНаДругомКомпьютереКонтекстноеМеню</name>
-                <id>2175</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <autoFill>true</autoFill>
-              </contextMenu>
-              <width>2</width>
-              <maxHeight>4</maxHeight>
-              <horizontalStretch>false</horizontalStretch>
-              <verticalStretch>true</verticalStretch>
-              <extInfo xsi:type="form:PictureDecorationExtInfo">
-                <picture xsi:type="core:PictureRef">
-                  <picture>CommonPicture.ИнформацияПоНедоступнымПолям</picture>
-                </picture>
-              </extInfo>
-            </items>
-            <items xsi:type="form:Decoration">
-              <name>ДекорацияСервисОблачныйАрхивПодключенНаДругомКомпьютере</name>
-              <id>2177</id>
-              <title>
-                <key>ru</key>
-                <value>Для резервного копирования и восстановления выбран 1С:Облачный архив.
-Настраивать, создавать и восстанавливать копии из 1С:Облачный архив можно только на компьютере, где установлен и активирован Агент резервного копирования и подключен сервис 1С:Облачный архив.
-
-&lt;link backup1C:InstallAgentOnThisPC>Подключить&lt;/> сервис 1С:Облачный архив на этом компьютере.</value>
-              </title>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <extendedTooltip>
-                <name>ДекорацияСервисОблачныйАрхивПодключенНаДругомКомпьютереРасширеннаяПодсказка</name>
-                <id>2179</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <contextMenu>
-                <name>ДекорацияСервисОблачныйАрхивПодключенНаДругомКомпьютереКонтекстноеМеню</name>
-                <id>2178</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <autoFill>true</autoFill>
-              </contextMenu>
-              <formatted>true</formatted>
-              <type>Label</type>
-              <maxWidth>65</maxWidth>
-              <horizontalStretch>true</horizontalStretch>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <handlers>
-                  <event>URLProcessing</event>
-                  <name>ОблачныйАрхивОбработкаНавигационнойСсылки</name>
-                </handlers>
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </items>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <title>
-              <key>ru</key>
-              <value>Страница облачный архив подключено на другом компьютере</value>
-            </title>
-            <horizontalStretch>true</horizontalStretch>
-            <extendedTooltip>
-              <name>СтраницаОблачныйАрхивПодключеноНаДругомКомпьютереРасширеннаяПодсказка</name>
-              <id>2173</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <type>Page</type>
-            <extInfo xsi:type="form:PageGroupExtInfo">
-              <group>HorizontalIfPossible</group>
-              <showTitle>true</showTitle>
-            </extInfo>
-          </items>
+          <id>2252</id>
           <items xsi:type="form:FormGroup">
             <name>СтраницаОблачныйАрхивРаботает</name>
-            <id>2180</id>
+            <id>2254</id>
             <items xsi:type="form:FormGroup">
               <name>ГруппаОблачныйАрхивСохранениеВосстановление</name>
-              <id>2182</id>
+              <id>2256</id>
               <items xsi:type="form:FormGroup">
                 <name>ГруппаОблачныйАрхивРезервноеКопированиеПрограммы</name>
-                <id>2184</id>
-                <items xsi:type="form:Button">
-                  <name>ОблачныйАрхивРезервноеКопированиеПрограммы</name>
-                  <id>2186</id>
+                <id>2258</id>
+                <items xsi:type="form:Decoration">
+                  <name>ОблачныйАрхивСозданиеРезервнойКопии</name>
+                  <id>2260</id>
                   <title>
                     <key>ru</key>
                     <value>Создание резервной копии</value>
@@ -1956,44 +1432,14 @@
                   <userVisible>
                     <common>true</common>
                   </userVisible>
+                  <toolTipRepresentation>ShowBottom</toolTipRepresentation>
                   <extendedTooltip>
-                    <name>ОблачныйАрхивРезервноеКопированиеПрограммыРасширеннаяПодсказка</name>
-                    <id>2187</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <type>Label</type>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <extInfo xsi:type="form:LabelDecorationExtInfo">
-                      <horizontalAlign>Left</horizontalAlign>
-                    </extInfo>
-                  </extendedTooltip>
-                  <type>Hyperlink</type>
-                  <commandName>DataProcessor.РезервноеКопированиеИБ.StandardCommand.Open</commandName>
-                  <representation>Auto</representation>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <placementArea>UserCmds</placementArea>
-                  <representationInContextMenu>Auto</representationInContextMenu>
-                </items>
-                <items xsi:type="form:Decoration">
-                  <name>ОблачныйАрхивПояснениеРезервноеКопированиеПрограммы</name>
-                  <id>2188</id>
-                  <title>
-                    <key>ru</key>
-                    <value>Запуск процедуры создания резервной копии.</value>
-                  </title>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <extendedTooltip>
-                    <name>ОблачныйАрхивПояснениеРезервноеКопированиеПрограммыРасширеннаяПодсказка</name>
-                    <id>2190</id>
+                    <name>ОблачныйАрхивСозданиеРезервнойКопииРасширеннаяПодсказка</name>
+                    <id>2262</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Запуск процедуры создания резервной копии.</value>
+                    </title>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -2007,8 +1453,8 @@
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>ОблачныйАрхивПояснениеРезервноеКопированиеПрограммыКонтекстноеМеню</name>
-                    <id>2189</id>
+                    <name>ОблачныйАрхивСозданиеРезервнойКопииКонтекстноеМеню</name>
+                    <id>2261</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -2019,10 +1465,12 @@
                   <type>Label</type>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
-                  <textColor xsi:type="core:ColorRef">
-                    <color>Style.ПоясняющийТекст</color>
-                  </textColor>
                   <extInfo xsi:type="form:LabelDecorationExtInfo">
+                    <handlers>
+                      <event>Click</event>
+                      <name>ОблачныйАрхивСозданиеРезервнойКопииНажатие</name>
+                    </handlers>
+                    <hyperlink>true</hyperlink>
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </items>
@@ -2033,13 +1481,13 @@
                 </userVisible>
                 <title>
                   <key>ru</key>
-                  <value>Облачный архив резервное копирование программы</value>
+                  <value>Группа резервное копирование приложения</value>
                 </title>
                 <width>43</width>
                 <horizontalStretch>false</horizontalStretch>
                 <extendedTooltip>
                   <name>ГруппаОблачныйАрхивРезервноеКопированиеПрограммыРасширеннаяПодсказка</name>
-                  <id>2185</id>
+                  <id>2259</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2063,37 +1511,41 @@
               </items>
               <items xsi:type="form:FormGroup">
                 <name>ГруппаОблачныйАрхивВосстановлениеРезервнойКопии</name>
-                <id>2191</id>
+                <id>2263</id>
                 <items xsi:type="form:Decoration">
-                  <name>ОблачныйАрхивВосстановлениеИзРезервнойКопии</name>
-                  <id>2193</id>
+                  <name>ОблачныйАрхивОткрытьАрхивныеКопии</name>
+                  <id>2265</id>
                   <title>
                     <key>ru</key>
-                    <value>Получение и удаление резервных копий</value>
+                    <value>Архивные копии</value>
                   </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
                     <common>true</common>
                   </userVisible>
+                  <toolTipRepresentation>ShowBottom</toolTipRepresentation>
                   <extendedTooltip>
-                    <name>ОблачныйАрхивВосстановлениеИзРезервнойКопииРасширеннаяПодсказка</name>
-                    <id>2195</id>
+                    <name>ОблачныйАрхивОткрытьАрхивныеКопииРасширеннаяПодсказка</name>
+                    <id>2267</id>
+                    <title>
+                      <key>ru</key>
+                      <value>Переход к списку резервных копий.</value>
+                    </title>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
                       <common>true</common>
                     </userVisible>
                     <type>Label</type>
-                    <autoMaxWidth>true</autoMaxWidth>
                     <autoMaxHeight>true</autoMaxHeight>
                     <extInfo xsi:type="form:LabelDecorationExtInfo">
                       <horizontalAlign>Left</horizontalAlign>
                     </extInfo>
                   </extendedTooltip>
                   <contextMenu>
-                    <name>ОблачныйАрхивВосстановлениеИзРезервнойКопииКонтекстноеМеню</name>
-                    <id>2194</id>
+                    <name>ОблачныйАрхивОткрытьАрхивныеКопииКонтекстноеМеню</name>
+                    <id>2266</id>
                     <visible>true</visible>
                     <enabled>true</enabled>
                     <userVisible>
@@ -2107,56 +1559,9 @@
                   <extInfo xsi:type="form:LabelDecorationExtInfo">
                     <handlers>
                       <event>Click</event>
-                      <name>ОблачныйАрхивВосстановлениеИзРезервнойКопииНажатие</name>
+                      <name>ОблачныйАрхивОткрытьАрхивныеКопииНажатие</name>
                     </handlers>
                     <hyperlink>true</hyperlink>
-                    <horizontalAlign>Left</horizontalAlign>
-                  </extInfo>
-                </items>
-                <items xsi:type="form:Decoration">
-                  <name>ОблачныйАрхивПояснениеВосстановлениеРезервнойКопии</name>
-                  <id>2196</id>
-                  <title>
-                    <key>ru</key>
-                    <value>Просмотр списка резервных копий, получение и удаление резервных копий.</value>
-                  </title>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <extendedTooltip>
-                    <name>ОблачныйАрхивПояснениеВосстановлениеРезервнойКопииРасширеннаяПодсказка</name>
-                    <id>2198</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <type>Label</type>
-                    <autoMaxWidth>true</autoMaxWidth>
-                    <autoMaxHeight>true</autoMaxHeight>
-                    <extInfo xsi:type="form:LabelDecorationExtInfo">
-                      <horizontalAlign>Left</horizontalAlign>
-                    </extInfo>
-                  </extendedTooltip>
-                  <contextMenu>
-                    <name>ОблачныйАрхивПояснениеВосстановлениеРезервнойКопииКонтекстноеМеню</name>
-                    <id>2197</id>
-                    <visible>true</visible>
-                    <enabled>true</enabled>
-                    <userVisible>
-                      <common>true</common>
-                    </userVisible>
-                    <autoFill>true</autoFill>
-                  </contextMenu>
-                  <type>Label</type>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <textColor xsi:type="core:ColorRef">
-                    <color>Style.ПоясняющийТекст</color>
-                  </textColor>
-                  <extInfo xsi:type="form:LabelDecorationExtInfo">
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </items>
@@ -2167,13 +1572,13 @@
                 </userVisible>
                 <title>
                   <key>ru</key>
-                  <value>Облачный архив восстановление резервной копии</value>
+                  <value>Группа восстановление резервной копии</value>
                 </title>
                 <width>43</width>
                 <horizontalStretch>false</horizontalStretch>
                 <extendedTooltip>
                   <name>ГруппаОблачныйАрхивВосстановлениеРезервнойКопииРасширеннаяПодсказка</name>
-                  <id>2192</id>
+                  <id>2264</id>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2206,7 +1611,7 @@
               </title>
               <extendedTooltip>
                 <name>ГруппаОблачныйАрхивСохранениеВосстановлениеРасширеннаяПодсказка</name>
-                <id>2183</id>
+                <id>2257</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2230,10 +1635,10 @@
             </items>
             <items xsi:type="form:FormGroup">
               <name>ГруппаОблачныйАрхивНастройкаРезервногоКопирования</name>
-              <id>2199</id>
-              <items xsi:type="form:Decoration">
+              <id>2268</id>
+              <items xsi:type="form:Button">
                 <name>ОблачныйАрхивНастройкаРезервногоКопирования</name>
-                <id>2201</id>
+                <id>2291</id>
                 <title>
                   <key>ru</key>
                   <value>Настройка резервного копирования</value>
@@ -2245,7 +1650,11 @@
                 </userVisible>
                 <extendedTooltip>
                   <name>ОблачныйАрхивНастройкаРезервногоКопированияРасширеннаяПодсказка</name>
-                  <id>2203</id>
+                  <id>2292</id>
+                  <title>
+                    <key>ru</key>
+                    <value>Параметры выполнения резервных копий информационной базы.</value>
+                  </title>
                   <visible>true</visible>
                   <enabled>true</enabled>
                   <userVisible>
@@ -2258,75 +1667,14 @@
                     <horizontalAlign>Left</horizontalAlign>
                   </extInfo>
                 </extendedTooltip>
-                <contextMenu>
-                  <name>ОблачныйАрхивНастройкаРезервногоКопированияКонтекстноеМеню</name>
-                  <id>2202</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <autoFill>true</autoFill>
-                </contextMenu>
-                <type>Label</type>
+                <type>Hyperlink</type>
+                <commandName>Form.Command.ОблачныйАрхивНастройкаРезервногоКопирования</commandName>
+                <representation>Auto</representation>
                 <autoMaxWidth>true</autoMaxWidth>
                 <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <handlers>
-                    <event>Click</event>
-                    <name>ОблачныйАрхивНастройкаРезервногоКопированияНажатие</name>
-                  </handlers>
-                  <hyperlink>true</hyperlink>
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </items>
-              <items xsi:type="form:Decoration">
-                <name>ОблачныйАрхивПояснениеНастройкаРезервногоКопирования</name>
-                <id>2204</id>
-                <title>
-                  <key>ru</key>
-                  <value>Настройка параметров резервного копирования.</value>
-                </title>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <extendedTooltip>
-                  <name>ОблачныйАрхивПояснениеНастройкаРезервногоКопированияРасширеннаяПодсказка</name>
-                  <id>2206</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <type>Label</type>
-                  <autoMaxWidth>true</autoMaxWidth>
-                  <autoMaxHeight>true</autoMaxHeight>
-                  <extInfo xsi:type="form:LabelDecorationExtInfo">
-                    <horizontalAlign>Left</horizontalAlign>
-                  </extInfo>
-                </extendedTooltip>
-                <contextMenu>
-                  <name>ОблачныйАрхивПояснениеНастройкаРезервногоКопированияКонтекстноеМеню</name>
-                  <id>2205</id>
-                  <visible>true</visible>
-                  <enabled>true</enabled>
-                  <userVisible>
-                    <common>true</common>
-                  </userVisible>
-                  <autoFill>true</autoFill>
-                </contextMenu>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <textColor xsi:type="core:ColorRef">
-                  <color>Style.ПоясняющийТекст</color>
-                </textColor>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                  <verticalAlign>Top</verticalAlign>
-                </extInfo>
+                <placementArea>UserCmds</placementArea>
+                <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+                <representationInContextMenu>Auto</representationInContextMenu>
               </items>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2335,13 +1683,13 @@
               </userVisible>
               <title>
                 <key>ru</key>
-                <value>Облачный архив настройка резервного копирования</value>
+                <value>Группа настройка резервного копирования</value>
               </title>
               <width>43</width>
               <horizontalStretch>false</horizontalStretch>
               <extendedTooltip>
                 <name>ГруппаОблачныйАрхивНастройкаРезервногоКопированияРасширеннаяПодсказка</name>
-                <id>2200</id>
+                <id>2269</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2375,7 +1723,7 @@
             <horizontalStretch>true</horizontalStretch>
             <extendedTooltip>
               <name>СтраницаОблачныйАрхивРаботаетРасширеннаяПодсказка</name>
-              <id>2181</id>
+              <id>2255</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2395,56 +1743,14 @@
             </extInfo>
           </items>
           <items xsi:type="form:FormGroup">
-            <name>СтраницаОблачныйАрхивОшибки</name>
-            <id>2207</id>
-            <items xsi:type="form:Decoration">
-              <name>ИконкаОблачныйАрхивОшибки</name>
-              <id>2209</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <extendedTooltip>
-                <name>ИконкаОблачныйАрхивОшибкиРасширеннаяПодсказка</name>
-                <id>2211</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <type>Label</type>
-                <autoMaxWidth>true</autoMaxWidth>
-                <autoMaxHeight>true</autoMaxHeight>
-                <extInfo xsi:type="form:LabelDecorationExtInfo">
-                  <horizontalAlign>Left</horizontalAlign>
-                </extInfo>
-              </extendedTooltip>
-              <contextMenu>
-                <name>ИконкаОблачныйАрхивОшибкиКонтекстноеМеню</name>
-                <id>2210</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <autoFill>true</autoFill>
-              </contextMenu>
-              <width>2</width>
-              <horizontalStretch>false</horizontalStretch>
-              <verticalStretch>false</verticalStretch>
-              <extInfo xsi:type="form:PictureDecorationExtInfo">
-                <picture xsi:type="core:PictureRef">
-                  <picture>CommonPicture.ИнформацияПоНедоступнымПолям</picture>
-                </picture>
-              </extInfo>
-            </items>
-            <items xsi:type="form:Decoration">
-              <name>ДекорацияОблачныйАрхивОшибки</name>
-              <id>2212</id>
+            <name>СтраницаОблачныйАрхивНеПодключен</name>
+            <id>2273</id>
+            <items xsi:type="form:Button">
+              <name>ОблачныйАрхивПодключитьСервис</name>
+              <id>2293</id>
               <title>
                 <key>ru</key>
-                <value>Произошли ошибки при подключении к подсистеме Облачный архив.</value>
+                <value>Подключить сервис</value>
               </title>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -2452,8 +1758,12 @@
                 <common>true</common>
               </userVisible>
               <extendedTooltip>
-                <name>ДекорацияОблачныйАрхивОшибкиРасширеннаяПодсказка</name>
-                <id>2214</id>
+                <name>ОблачныйАрхивПодключитьСервисРасширеннаяПодсказка</name>
+                <id>2294</id>
+                <title>
+                  <key>ru</key>
+                  <value>Подключиться к сервису 1С:Облачный архив.</value>
+                </title>
                 <visible>true</visible>
                 <enabled>true</enabled>
                 <userVisible>
@@ -2466,25 +1776,14 @@
                   <horizontalAlign>Left</horizontalAlign>
                 </extInfo>
               </extendedTooltip>
-              <contextMenu>
-                <name>ДекорацияОблачныйАрхивОшибкиКонтекстноеМеню</name>
-                <id>2213</id>
-                <visible>true</visible>
-                <enabled>true</enabled>
-                <userVisible>
-                  <common>true</common>
-                </userVisible>
-                <autoFill>true</autoFill>
-              </contextMenu>
-              <type>Label</type>
-              <horizontalStretch>true</horizontalStretch>
-              <textColor xsi:type="core:ColorRef">
-                <color>Style.ПоясняющийТекст</color>
-              </textColor>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-                <verticalAlign>Top</verticalAlign>
-              </extInfo>
+              <type>Hyperlink</type>
+              <commandName>Form.Command.ОблачныйАрхивНастройкаРезервногоКопирования</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+              <representationInContextMenu>Auto</representationInContextMenu>
             </items>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2493,12 +1792,12 @@
             </userVisible>
             <title>
               <key>ru</key>
-              <value>Страница облачный архив ошибки</value>
+              <value>Страница облачный архив не подключен</value>
             </title>
             <horizontalStretch>true</horizontalStretch>
             <extendedTooltip>
-              <name>СтраницаОблачныйАрхивОшибкиРасширеннаяПодсказка</name>
-              <id>2208</id>
+              <name>СтраницаОблачныйАрхивНеПодключенРасширеннаяПодсказка</name>
+              <id>2274</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -2513,7 +1812,81 @@
             </extendedTooltip>
             <type>Page</type>
             <extInfo xsi:type="form:PageGroupExtInfo">
-              <group>HorizontalIfPossible</group>
+              <group>Vertical</group>
+              <showTitle>true</showTitle>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormGroup">
+            <name>СтраницаОблачныйАрхивЗаблокирован</name>
+            <id>2278</id>
+            <items xsi:type="form:Button">
+              <name>ОблачныйАрхивВосстановитьРаботуСервиса</name>
+              <id>2295</id>
+              <title>
+                <key>ru</key>
+                <value>Восстановить работу сервиса</value>
+              </title>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <extendedTooltip>
+                <name>ОблачныйАрхивВосстановитьРаботуСервисаРасширеннаяПодсказка</name>
+                <id>2296</id>
+                <title>
+                  <key>ru</key>
+                  <value>Обновить настройки резервного копирования в облако Фирмы 1С.</value>
+                </title>
+                <visible>true</visible>
+                <enabled>true</enabled>
+                <userVisible>
+                  <common>true</common>
+                </userVisible>
+                <type>Label</type>
+                <autoMaxWidth>true</autoMaxWidth>
+                <autoMaxHeight>true</autoMaxHeight>
+                <extInfo xsi:type="form:LabelDecorationExtInfo">
+                  <horizontalAlign>Left</horizontalAlign>
+                </extInfo>
+              </extendedTooltip>
+              <type>Hyperlink</type>
+              <commandName>Form.Command.ОблачныйАрхивНастройкаРезервногоКопирования</commandName>
+              <representation>Auto</representation>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <placementArea>UserCmds</placementArea>
+              <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+              <representationInContextMenu>Auto</representationInContextMenu>
+            </items>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Страница облачный архив заблокирован</value>
+            </title>
+            <horizontalStretch>true</horizontalStretch>
+            <extendedTooltip>
+              <name>СтраницаОблачныйАрхивЗаблокированРасширеннаяПодсказка</name>
+              <id>2279</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>Page</type>
+            <extInfo xsi:type="form:PageGroupExtInfo">
+              <group>Vertical</group>
               <showTitle>true</showTitle>
             </extInfo>
           </items>
@@ -2529,7 +1902,7 @@
           <horizontalStretch>true</horizontalStretch>
           <extendedTooltip>
             <name>СтраницыСостоянийОблачныйАрхивРасширеннаяПодсказка</name>
-            <id>2146</id>
+            <id>2253</id>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -2554,11 +1927,11 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Облачный архив</value>
+          <value>Страница облачный архив</value>
         </title>
         <extendedTooltip>
           <name>СтраницаОблачныйАрхивРасширеннаяПодсказка</name>
-          <id>2144</id>
+          <id>2251</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2616,7 +1989,7 @@
       <value>Резервное копирование и восстановление</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаРезервноеКопированиеИВосстановлениеExtendedTooltip</name>
+      <name>ГруппаРезервноеКопированиеИВосстановлениеРасширеннаяПодсказка</name>
       <id>1657</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -2898,7 +2271,7 @@
             <id>2104</id>
             <title>
               <key>ru</key>
-              <value>Обновление программы из файла на локальном диске, в сетевом каталоге или установка исправлений (патчей).</value>
+              <value>Обновление приложения из файла на компьютере, в сетевом каталоге или установка исправлений (патчей).</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2975,7 +2348,7 @@
             <id>2226</id>
             <title>
               <key>ru</key>
-              <value>Список установленных в программе исправлений.</value>
+              <value>Список исправлений, установленных в приложении.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -3073,6 +2446,10 @@
         <items xsi:type="form:Button">
           <name>РезультатыОбновленияИДополнительнаяОбработкаДанных</name>
           <id>2054</id>
+          <title>
+            <key>ru</key>
+            <value>Результаты обновления и дополнительная обработка данных</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -3083,7 +2460,7 @@
             <id>2055</id>
             <title>
               <key>ru</key>
-              <value>Сведения о ходе обновления версии программы, отложенное выполнение дополнительных процедур обработки данных.</value>
+              <value>Сведения о ходе обновления версии приложения, отложенное выполнение дополнительных процедур обработки данных.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -3152,11 +2529,11 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>ОткрытьОписаниеИзмененийСистемыExtendedTooltip</name>
+            <name>ОткрытьОписаниеИзмененийСистемыРасширеннаяПодсказка</name>
             <id>2048</id>
             <title>
               <key>ru</key>
-              <value>История изменений по версиям программы.</value>
+              <value>История изменений по версиям приложения.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -3191,7 +2568,7 @@
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
-          <name>ГруппаОткрытьОписаниеИзмененийСистемыExtendedTooltip</name>
+          <name>ГруппаОткрытьОписаниеИзмененийСистемыРасширеннаяПодсказка</name>
           <id>2046</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3256,6 +2633,10 @@
         <items xsi:type="form:FormField">
           <name>ПриоритетРаботаПользователей</name>
           <id>2242</id>
+          <title>
+            <key>ru</key>
+            <value>Приоритет обработки данных</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -3317,6 +2698,10 @@
           <items xsi:type="form:FormField">
             <name>ПриоритетОбработкаДанных</name>
             <id>2239</id>
+            <title>
+              <key>ru</key>
+              <value>Приоритет обработки данных</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -3482,7 +2867,7 @@
           <id>2230</id>
           <title>
             <key>ru</key>
-            <value>Приоритет за обработкой данных значительно ускоряет обновление, но увеличивает нагрузку на сервер, что может привести к замедлению работы программы.</value>
+            <value>Приоритет за обработкой данных значительно ускоряет обновление, но увеличивает нагрузку на сервер, что может привести к замедлению работы приложения.</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3531,7 +2916,7 @@
             <name>ДетализироватьОбновлениеИБВЖурналеРегистрацииПриИзменении</name>
           </handlers>
           <extendedTooltip>
-            <name>ДетализироватьОбновлениеИБВЖурналеРегистрацииExtendedTooltip</name>
+            <name>ДетализироватьОбновлениеИБВЖурналеРегистрацииРасширеннаяПодсказка</name>
             <id>2065</id>
             <title>
               <key>ru</key>
@@ -3565,6 +2950,45 @@
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
         </items>
+        <items xsi:type="form:Button">
+          <name>ОчисткаУстаревшихДанных</name>
+          <id>2297</id>
+          <title>
+            <key>ru</key>
+            <value>Очистка устаревших данных</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ОчисткаУстаревшихДанныхРасширеннаяПодсказка</name>
+            <id>2298</id>
+            <title>
+              <key>ru</key>
+              <value>Очистка данных вручную, когда при реструктуризации произошла ошибка «Записи регистра стали неуникальными»</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Form.Command.ОчисткаУстаревшихДанных</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3577,7 +3001,7 @@
         <width>43</width>
         <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
-          <name>ГруппаДетализироватьОбновлениеИБВЖурналеРегистрацииExtendedTooltip</name>
+          <name>ГруппаДетализироватьОбновлениеИБВЖурналеРегистрацииРасширеннаяПодсказка</name>
           <id>2062</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3607,7 +3031,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Результаты обновления программы третья строка</value>
+        <value>Результаты обновления приложения третья строка</value>
       </title>
       <extendedTooltip>
         <name>ГруппаРезультатыОбновленияПрограммыТретьяСтрокаРасширеннаяПодсказка</name>
@@ -3640,7 +3064,7 @@
     </userVisible>
     <title>
       <key>ru</key>
-      <value>Обновление программы</value>
+      <value>Обновление приложения</value>
     </title>
     <extendedTooltip>
       <name>ГруппаРезультатыОбновленияПрограммыРасширеннаяПодсказка</name>
@@ -3700,11 +3124,11 @@
           <name>ВыполнятьЗамерыПроизводительностиПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ВыполнятьЗамерыПроизводительностиExtendedTooltip</name>
+          <name>ВыполнятьЗамерыПроизводительностиРасширеннаяПодсказка</name>
           <id>1674</id>
           <title>
             <key>ru</key>
-            <value>Оценка интегральной производительности программы по методике APDEX.</value>
+            <value>Оценка интегральной производительности приложения по методике APDEX.</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -3782,7 +3206,7 @@
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
-        <name>ГруппаВыполнятьЗамерыПроизводительностиExtendedTooltip</name>
+        <name>ГруппаВыполнятьЗамерыПроизводительностиРасширеннаяПодсказка</name>
         <id>1673</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -3940,7 +3364,7 @@
       <width>43</width>
       <horizontalStretch>false</horizontalStretch>
       <extendedTooltip>
-        <name>ГруппаОбработкаОценкаПроизводительностиExtendedTooltip</name>
+        <name>ГруппаОбработкаОценкаПроизводительностиРасширеннаяПодсказка</name>
         <id>1676</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -3973,7 +3397,7 @@
       <value>Оценка производительности</value>
     </title>
     <extendedTooltip>
-      <name>ГруппаОценкаПроизводительностиExtendedTooltip</name>
+      <name>ГруппаОценкаПроизводительностиРасширеннаяПодсказка</name>
       <id>1672</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -4017,10 +3441,6 @@
     <name>ОбработкаОповещения</name>
   </handlers>
   <handlers>
-    <event>OnOpen</event>
-    <name>ПриОткрытии</name>
-  </handlers>
-  <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
@@ -4039,6 +3459,7 @@
   <excludedCommands>Write</excludedCommands>
   <excludedCommands>WriteAndClose</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -4156,47 +3577,6 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ПрогрессПроверкиОблачногоАрхива</name>
-    <title>
-      <key>ru</key>
-      <value>Прогресс проверки облачного архива</value>
-    </title>
-    <id>18</id>
-    <valueType>
-      <types>Number</types>
-      <numberQualifiers>
-        <precision>3</precision>
-        <nonNegative>true</nonNegative>
-      </numberQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
-    <name>СпособРезервногоКопирования</name>
-    <title>
-      <key>ru</key>
-      <value>Способ резервного копирования</value>
-    </title>
-    <id>19</id>
-    <valueType>
-      <types>String</types>
-      <stringQualifiers>
-        <length>30</length>
-      </stringQualifiers>
-    </valueType>
-    <view>
-      <common>true</common>
-    </view>
-    <edit>
-      <common>true</common>
-    </edit>
-  </attributes>
-  <attributes>
     <name>КоличествоПотоковОбновления</name>
     <title>
       <key>ru</key>
@@ -4226,6 +3606,26 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ХранениеРезервныхКопий</name>
+    <title>
+      <key>ru</key>
+      <value>Хранение резервных копий</value>
+    </title>
+    <id>20</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
     </valueType>
     <view>
       <common>true</common>
@@ -4277,25 +3677,42 @@
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ПодключитьСервисОблачныйАрхив</name>
+    <name>ОблачныйАрхивНастройкаРезервногоКопирования</name>
     <title>
       <key>ru</key>
-      <value>Подключить</value>
+      <value>Настройка резервного копирования</value>
     </title>
-    <id>2</id>
+    <id>9</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОблачныйАрхивНастройкаРезервногоКопирования</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОчисткаУстаревшихДанных</name>
+    <title>
+      <key>ru</key>
+      <value>Очистка устаревших данных</value>
+    </title>
+    <id>1</id>
     <toolTip>
       <key>ru</key>
-      <value>Подключить сервис 1С:Облачный архив</value>
+      <value>Очистка устаревших данных перед обновление конфигурации</value>
     </toolTip>
     <use>
       <common>true</common>
     </use>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
-        <name>ПодключитьСервисОблачныйАрхив</name>
+        <name>ОчисткаУстаревшихДанных</name>
       </handler>
     </action>
-    <currentRowUse>DontUse</currentRowUse>
+    <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
     <navigationPanel/>

@@ -7,10 +7,10 @@
   <name>РезультатыОбновленияПрограммы</name>
   <synonym>
     <key>ru</key>
-    <value>Результаты обновления программы</value>
+    <value>Результаты обновления приложения</value>
   </synonym>
   <comment>АПК:78-выкл для вызова различных этапов обновления</comment>
-  <defaultForm>DataProcessor.РезультатыОбновленияПрограммы.Form.ИндикацияХодаОтложенногоОбновленияИБ</defaultForm>
+  <defaultForm>DataProcessor.РезультатыОбновленияПрограммы.Form.РезультатыОбновленияПрограммы</defaultForm>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
     <pages>
@@ -18,10 +18,10 @@
     </pages>
   </help>
   <forms uuid="d5e1806b-9827-40ab-9cfa-23c22456d137">
-    <name>ИндикацияХодаОтложенногоОбновленияИБ</name>
+    <name>РезультатыОбновленияПрограммы</name>
     <synonym>
       <key>ru</key>
-      <value>Индикация хода отложенного обновления ИБ</value>
+      <value>Результаты обновления приложения</value>
     </synonym>
     <help>
       <pages>
@@ -46,10 +46,10 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <forms uuid="d24170d7-5477-4ec8-acd2-0de8bd2067d6">
-    <name>ИндикацияХодаОбновленияИБ</name>
+    <name>ОбновлениеВерсииПрограммы</name>
     <synonym>
       <key>ru</key>
-      <value>Индикация хода обновления ИБ</value>
+      <value>Обновление версии приложения</value>
     </synonym>
     <help>
       <pages>
@@ -92,11 +92,25 @@
     <usePurposes>MobileDevice</usePurposes>
   </forms>
   <forms uuid="388f7571-8f1b-45c5-a8b8-45d648f2f5dd">
-    <name>ОбновлениеДляНеполноправногоПользователя</name>
+    <name>СообщениеДляНеполноправногоПользователя</name>
     <synonym>
       <key>ru</key>
-      <value>Обновление для неполноправного пользователя</value>
+      <value>Сообщение для неполноправного пользователя</value>
     </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="886df9ab-09b4-4c7a-bd44-6afeab68d831">
+    <name>ОчисткаУстаревшихДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очистка устаревших данных</value>
+    </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

@@ -2,7 +2,7 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
     <key>ru</key>
-    <value>Настройка сообщений из других программ</value>
+    <value>Настройка сообщений из других приложений</value>
   </title>
   <items xsi:type="form:Table">
     <name>СписокПодключений</name>
@@ -23,6 +23,10 @@
     <items xsi:type="form:FormField">
       <name>СписокПодключенийАктивно</name>
       <id>20</id>
+      <title>
+        <key>ru</key>
+        <value>Активно</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -84,6 +88,10 @@
     <items xsi:type="form:FormField">
       <name>СписокПодключенийНаименование</name>
       <id>14</id>
+      <title>
+        <key>ru</key>
+        <value>Наименование</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -315,6 +323,10 @@
       <items xsi:type="form:Button">
         <name>ФормаСоздатьБотаТелеграмм</name>
         <id>31</id>
+        <title>
+          <key>ru</key>
+          <value>Чат Telegram</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -348,6 +360,10 @@
       <items xsi:type="form:Button">
         <name>ФормаСоздатьБотаВКонтакте</name>
         <id>33</id>
+        <title>
+          <key>ru</key>
+          <value>Чат ВКонтакте</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -413,6 +429,10 @@
     <items xsi:type="form:Button">
       <name>ФормаОбновить</name>
       <id>41</id>
+      <title>
+        <key>ru</key>
+        <value>Обновить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -452,6 +472,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

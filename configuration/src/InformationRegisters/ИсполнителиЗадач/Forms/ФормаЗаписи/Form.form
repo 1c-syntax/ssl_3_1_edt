@@ -15,7 +15,7 @@
         <segments>Запись.Исполнитель</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ИсполнительExtendedTooltip</name>
+        <name>ИсполнительРасширеннаяПодсказка</name>
         <id>16</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -72,7 +72,7 @@
         <name>РольИсполнителяПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>РольИсполнителяExtendedTooltip</name>
+        <name>РольИсполнителяРасширеннаяПодсказка</name>
         <id>17</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -167,7 +167,7 @@
             <segments>Запись.ОсновнойОбъектАдресации</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ОсновнойОбъектАдресацииExtendedTooltip</name>
+            <name>ОсновнойОбъектАдресацииРасширеннаяПодсказка</name>
             <id>18</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -216,7 +216,7 @@
             <segments>Запись.ДополнительныйОбъектАдресации</segments>
           </dataPath>
           <extendedTooltip>
-            <name>ДополнительныйОбъектАдресацииExtendedTooltip</name>
+            <name>ДополнительныйОбъектАдресацииРасширеннаяПодсказка</name>
             <id>19</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -367,6 +367,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

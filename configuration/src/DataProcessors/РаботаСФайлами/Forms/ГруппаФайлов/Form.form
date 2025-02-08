@@ -200,6 +200,10 @@
     <items xsi:type="form:FormField">
       <name>СтатусСоздана</name>
       <id>37</id>
+      <title>
+        <key>ru</key>
+        <value>Статус создана</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -338,6 +342,10 @@
     <items xsi:type="form:FormField">
       <name>СтатусИзменена</name>
       <id>40</id>
+      <title>
+        <key>ru</key>
+        <value>Статус изменена</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -415,12 +423,71 @@
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
+  <items xsi:type="form:FormField">
+    <name>ВладелецФайла0</name>
+    <id>53</id>
+    <title>
+      <key>ru</key>
+      <value>Размещение</value>
+    </title>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ОбъектПрототип[0].ВладелецФайла</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>ВладелецФайла0РасширеннаяПодсказка</name>
+      <id>55</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ВладелецФайла0КонтекстноеМеню</name>
+      <id>54</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>InputField</type>
+    <readOnly>true</readOnly>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <wrap>true</wrap>
+      <chooseType>true</chooseType>
+      <typeDomainEnabled>true</typeDomainEnabled>
+      <textEdit>true</textEdit>
+    </extInfo>
+  </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
     <items xsi:type="form:Button">
       <name>ФормаСтандартнаяЗаписатьИЗакрыть</name>
       <id>3</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -451,6 +518,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСтандартнаяЗаписать</name>
       <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>Записать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -480,6 +551,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСтандартнаяПеречитать</name>
       <id>19</id>
+      <title>
+        <key>ru</key>
+        <value>Перечитать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -511,6 +586,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСтандартнаяПоказатьВСписке</name>
       <id>21</id>
+      <title>
+        <key>ru</key>
+        <value>Показать в списке</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -542,6 +621,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСтандартнаяСкопировать</name>
       <id>23</id>
+      <title>
+        <key>ru</key>
+        <value>Скопировать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -573,6 +656,10 @@
     <items xsi:type="form:Button">
       <name>ФормаСтандартнаяУстановитьПометкуУдаления</name>
       <id>25</id>
+      <title>
+        <key>ru</key>
+        <value>Пометить на удаление / Снять пометку</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -618,6 +705,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
   <allowFormCustomize>true</allowFormCustomize>

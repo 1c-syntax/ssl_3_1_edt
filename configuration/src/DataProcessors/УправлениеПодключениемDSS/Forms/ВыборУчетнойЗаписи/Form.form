@@ -2,11 +2,15 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
     <key>ru</key>
-    <value>Выберите учетную запись облачной криптографии</value>
+    <value>Выберите учетную запись DSS</value>
   </title>
   <items xsi:type="form:Table">
     <name>Список</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Список</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -435,6 +439,7 @@
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
     </extInfo>
   </items>
   <commandBarLocation>None</commandBarLocation>
@@ -449,6 +454,7 @@
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

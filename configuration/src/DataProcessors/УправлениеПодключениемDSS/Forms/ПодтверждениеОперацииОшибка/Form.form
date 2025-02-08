@@ -132,6 +132,10 @@
     <items xsi:type="form:Button">
       <name>Повторить</name>
       <id>5</id>
+      <title>
+        <key>ru</key>
+        <value>Повторить</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -250,6 +254,7 @@
   </handlers>
   <width>60</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>

@@ -7,6 +7,10 @@
   <items xsi:type="form:FormField">
     <name>СостояниеОбработкиЗаявления</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Состояние обработки заявления</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -63,7 +67,7 @@
     <id>25</id>
     <title>
       <key>ru</key>
-      <value>В случае возникновения ошибки при установке выпущенного сертификата сохраните &lt;link Сертификат>сертификат&lt;/> и &lt;link КорневойСертификат>корневой сертификат&lt;/>  на компьютер и установите их средствами программы криптографии.</value>
+      <value>В случае возникновения ошибки при установке выпущенного сертификата сохраните &lt;link Сертификат>сертификат&lt;/> и &lt;link КорневойСертификат>корневой сертификат&lt;/> на компьютер и установите их средствами приложения электронной подписи и шифрования.</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -161,7 +165,6 @@
       <key>ru</key>
       <value>Служба поддержки:   &lt;b>8-800-333-9313   podpis@1c.ru&lt;/></value>
     </title>
-    <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
@@ -220,6 +223,7 @@
   </handlers>
   <width>45</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -355,6 +359,33 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ИдентификаторАбонента</name>
+    <id>10</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ЗаявлениеОтправлено</name>
+    <id>12</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <parameters>
     <name>СостояниеОбработкиЗаявления</name>
     <valueType>
@@ -421,6 +452,13 @@
     <valueType>
       <types>Date</types>
       <dateQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ИдентификаторАбонента</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
     </valueType>
   </parameters>
   <commandInterface>

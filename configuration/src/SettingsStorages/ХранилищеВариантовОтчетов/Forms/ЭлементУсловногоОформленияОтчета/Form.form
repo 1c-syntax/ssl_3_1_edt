@@ -7,8 +7,65 @@
       <name>ГруппаОформляемыеПоляВариантыВыбора</name>
       <id>354</id>
       <items xsi:type="form:FormField">
+        <name>Использование</name>
+        <id>372</id>
+        <title>
+          <key>ru</key>
+          <value>Используется для</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>Использование</segments>
+        </dataPath>
+        <titleLocation>Right</titleLocation>
+        <toolTip>
+          <key>ru</key>
+          <value>Включить, либо отключить оформление.</value>
+        </toolTip>
+        <extendedTooltip>
+          <name>ИспользованиеРасширеннаяПодсказка</name>
+          <id>374</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ИспользованиеКонтекстноеМеню</name>
+          <id>373</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>CheckBoxField</type>
+        <groupVerticalAlign>Center</groupVerticalAlign>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+      </items>
+      <items xsi:type="form:FormField">
         <name>ВариантВыбораОформляемыхПолей</name>
         <id>356</id>
+        <title>
+          <key>ru</key>
+          <value>Вариант выбора оформляемых полей</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -69,7 +126,7 @@
               <value>Поля</value>
             </presentation>
             <value xsi:type="core:StringValue">
-              <value>Поля</value>
+              <value>Поле</value>
             </value>
           </choiceList>
           <choiceList>
@@ -92,6 +149,10 @@
           <items xsi:type="form:FormField">
             <name>ОформляемоеПоле</name>
             <id>359</id>
+            <title>
+              <key>ru</key>
+              <value>Оформляемое поле</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -677,6 +738,14 @@
         </userVisible>
         <horizontalAlign>Left</horizontalAlign>
       </autoCommandBar>
+      <handlers>
+        <event>BeforeAddRow</event>
+        <name>ОформляемыеПоляПередНачаломДобавления</name>
+      </handlers>
+      <handlers>
+        <event>BeforeRowChange</event>
+        <name>ОформляемыеПоляПередНачаломИзменения</name>
+      </handlers>
       <handlers>
         <event>OnChange</event>
         <name>ОформляемыеПоляПриИзменении</name>
@@ -2524,7 +2593,7 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Фильтр группа 6</value>
+            <value>Фильтры</value>
           </title>
           <extendedTooltip>
             <name>ОтборГруппа6РасширеннаяПодсказка</name>
@@ -2587,6 +2656,14 @@
         </userVisible>
         <horizontalAlign>Left</horizontalAlign>
       </autoCommandBar>
+      <handlers>
+        <event>BeforeAddRow</event>
+        <name>ОтборПередНачаломДобавления</name>
+      </handlers>
+      <handlers>
+        <event>BeforeRowChange</event>
+        <name>ОтборПередНачаломИзменения</name>
+      </handlers>
       <handlers>
         <event>OnChange</event>
         <name>ОтборПриИзменении</name>
@@ -3124,6 +3201,10 @@
   <items xsi:type="form:FormField">
     <name>Наименование</name>
     <id>93</id>
+    <title>
+      <key>ru</key>
+      <value>Заголовок</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -3157,6 +3238,10 @@
       <items xsi:type="form:Button">
         <name>ВставитьНаименованиеПоУмолчаниюКонтекстноеМеню</name>
         <id>331</id>
+        <title>
+          <key>ru</key>
+          <value>Вставить наименование по умолчанию</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3275,6 +3360,10 @@
             <items xsi:type="form:Button">
               <name>Показывать_УстановитьПометки</name>
               <id>190</id>
+              <title>
+                <key>ru</key>
+                <value>Установить пометки</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3305,6 +3394,10 @@
             <items xsi:type="form:Button">
               <name>Показывать_СнятьПометки</name>
               <id>188</id>
+              <title>
+                <key>ru</key>
+                <value>Снять пометки</value>
+              </title>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3429,6 +3522,10 @@
         <items xsi:type="form:FormField">
           <name>ИспользоватьВГруппировке</name>
           <id>185</id>
+          <title>
+            <key>ru</key>
+            <value>В группировке</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -3477,6 +3574,10 @@
         <items xsi:type="form:FormField">
           <name>ИспользоватьВИерархическойГруппировке</name>
           <id>176</id>
+          <title>
+            <key>ru</key>
+            <value>В иерархической группировке</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -3525,6 +3626,10 @@
         <items xsi:type="form:FormField">
           <name>ИспользоватьВОбщемИтоге</name>
           <id>173</id>
+          <title>
+            <key>ru</key>
+            <value>В общем итоге</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -3573,6 +3678,10 @@
         <items xsi:type="form:FormField">
           <name>ИспользоватьВЗаголовкеПолей</name>
           <id>179</id>
+          <title>
+            <key>ru</key>
+            <value>В заголовке полей</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -3621,6 +3730,10 @@
         <items xsi:type="form:FormField">
           <name>ИспользоватьВЗаголовке</name>
           <id>182</id>
+          <title>
+            <key>ru</key>
+            <value>В заголовке</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -3669,6 +3782,10 @@
         <items xsi:type="form:FormField">
           <name>ИспользоватьВПараметрах</name>
           <id>167</id>
+          <title>
+            <key>ru</key>
+            <value>В параметрах</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -3717,6 +3834,10 @@
         <items xsi:type="form:FormField">
           <name>ИспользоватьВОтборе</name>
           <id>170</id>
+          <title>
+            <key>ru</key>
+            <value>В фильтрах</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -3838,6 +3959,10 @@
       <items xsi:type="form:Button">
         <name>ФормаВыбрать</name>
         <id>26</id>
+        <title>
+          <key>ru</key>
+          <value>ОК</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -4003,16 +4128,12 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <group>Vertical</group>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
-  <mobileDeviceCommandBarContent>
-    <value xsi:type="core:StringValue">
-      <value></value>
-    </value>
-  </mobileDeviceCommandBarContent>
   <attributes>
     <name>КомпоновщикНастроек</name>
     <id>1</id>
@@ -4280,7 +4401,27 @@
       <value>Оформляемое поле</value>
     </title>
     <id>7</id>
-    <valueType/>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>Использование</name>
+    <title>
+      <key>ru</key>
+      <value>Использование</value>
+    </title>
+    <id>19</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
     <view>
       <common>true</common>
     </view>
@@ -4389,6 +4530,35 @@
       <types>String</types>
       <stringQualifiers/>
     </valueType>
+  </parameters>
+  <parameters>
+    <name>КомпоновщикНастроек</name>
+    <valueType>
+      <types>DataCompositionSettingsComposer</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>НастройкиОтчета</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>Наименование</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ИдентификаторЭлементаСтруктурыНастроек</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>ИдентификаторКД</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>Поле</name>
+    <valueType/>
   </parameters>
   <commandInterface>
     <navigationPanel/>

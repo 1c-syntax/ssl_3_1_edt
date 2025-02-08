@@ -49,6 +49,10 @@
       <items xsi:type="form:Button">
         <name>СписокСгруппироватьПоСроку</name>
         <id>132</id>
+        <title>
+          <key>ru</key>
+          <value>Срок</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -79,6 +83,10 @@
       <items xsi:type="form:Button">
         <name>СписокСгруппироватьПоВажности</name>
         <id>52</id>
+        <title>
+          <key>ru</key>
+          <value>Важность</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -86,7 +94,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>СписокСгруппироватьПоВажностиExtendedTooltip</name>
+          <name>СписокСгруппироватьПоВажностиРасширеннаяПодсказка</name>
           <id>93</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -110,6 +118,10 @@
       <items xsi:type="form:Button">
         <name>СписокСгруппироватьПоТочкеМаршрута</name>
         <id>53</id>
+        <title>
+          <key>ru</key>
+          <value>Точка маршрута</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -117,7 +129,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>СписокСгруппироватьПоТочкеМаршрутаExtendedTooltip</name>
+          <name>СписокСгруппироватьПоТочкеМаршрутаРасширеннаяПодсказка</name>
           <id>94</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -141,6 +153,10 @@
       <items xsi:type="form:Button">
         <name>СписокСгруппироватьПоАвтору</name>
         <id>61</id>
+        <title>
+          <key>ru</key>
+          <value>Автор</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -148,7 +164,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>СписокСгруппироватьПоАвторуExtendedTooltip</name>
+          <name>СписокСгруппироватьПоАвторуРасширеннаяПодсказка</name>
           <id>95</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -172,6 +188,10 @@
       <items xsi:type="form:Button">
         <name>СписокСгруппироватьПоПредмету</name>
         <id>62</id>
+        <title>
+          <key>ru</key>
+          <value>Предмет</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -179,7 +199,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>СписокСгруппироватьПоПредметуExtendedTooltip</name>
+          <name>СписокСгруппироватьПоПредметуРасширеннаяПодсказка</name>
           <id>96</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -203,6 +223,10 @@
       <items xsi:type="form:Button">
         <name>СписокСгруппироватьСгруппироватьПоБезГруппировки</name>
         <id>54</id>
+        <title>
+          <key>ru</key>
+          <value>Без группировки</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -210,7 +234,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>СписокСгруппироватьСгруппироватьПоБезГруппировкиExtendedTooltip</name>
+          <name>СписокСгруппироватьСгруппироватьПоБезГруппировкиРасширеннаяПодсказка</name>
           <id>97</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -245,7 +269,7 @@
         <value>Сгруппировать по колонке</value>
       </toolTip>
       <extendedTooltip>
-        <name>СгруппироватьПоExtendedTooltip</name>
+        <name>СгруппироватьПоРасширеннаяПодсказка</name>
         <id>92</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -304,6 +328,10 @@
       <items xsi:type="form:Button">
         <name>ОткрытьПредметЗадачи</name>
         <id>134</id>
+        <title>
+          <key>ru</key>
+          <value>Открыть предмет задачи</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -335,6 +363,10 @@
       <items xsi:type="form:Button">
         <name>ОткрытьБизнесПроцесс</name>
         <id>136</id>
+        <title>
+          <key>ru</key>
+          <value>Открыть бизнес-процесс</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -464,7 +496,7 @@
         <value>Командная панель списка</value>
       </title>
       <extendedTooltip>
-        <name>КоманднаяПанельСпискаExtendedTooltip</name>
+        <name>КоманднаяПанельСпискаРасширеннаяПодсказка</name>
         <id>91</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -528,7 +560,7 @@
         <segments>Items.Список.CurrentData.Ref</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ЗадачаЗадачаИсполнителяВыполненоExtendedTooltip</name>
+        <name>ЗадачаЗадачаИсполнителяВыполненоРасширеннаяПодсказка</name>
         <id>87</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -562,7 +594,7 @@
         <segments>Items.Список.CurrentData.Ref</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ЗадачаЗадачаИсполнителяПеренаправитьExtendedTooltip</name>
+        <name>ЗадачаЗадачаИсполнителяПеренаправитьРасширеннаяПодсказка</name>
         <id>88</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -586,6 +618,10 @@
     <items xsi:type="form:Button">
       <name>ОтменитьПринятиеКИсполнению</name>
       <id>81</id>
+      <title>
+        <key>ru</key>
+        <value>Отменить принятие к исполнению</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -627,7 +663,7 @@
         <value>Командная панель формы</value>
       </title>
       <extendedTooltip>
-        <name>КоманднаяПанельФормыExtendedTooltip</name>
+        <name>КоманднаяПанельФормыРасширеннаяПодсказка</name>
         <id>98</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -655,7 +691,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>СправкаExtendedTooltip</name>
+        <name>СправкаРасширеннаяПодсказка</name>
         <id>100</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -686,7 +722,7 @@
       <value>Основная командная панель</value>
     </title>
     <extendedTooltip>
-      <name>ОсновнаяКоманднаяПанельExtendedTooltip</name>
+      <name>ОсновнаяКоманднаяПанельРасширеннаяПодсказка</name>
       <id>85</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -744,7 +780,7 @@
         <value>Важность</value>
       </toolTip>
       <extendedTooltip>
-        <name>ВажностьExtendedTooltip</name>
+        <name>ВажностьРасширеннаяПодсказка</name>
         <id>114</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -799,7 +835,7 @@
         <segments>Список.Number</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НомерExtendedTooltip</name>
+        <name>НомерРасширеннаяПодсказка</name>
         <id>115</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -845,7 +881,7 @@
         <segments>Список.Description</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>116</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -901,7 +937,7 @@
         <segments>Список.ДатаНачала</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДатаНачалаExtendedTooltip</name>
+        <name>ДатаНачалаРасширеннаяПодсказка</name>
         <id>117</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -951,7 +987,7 @@
         <segments>Список.СрокИсполнения</segments>
       </dataPath>
       <extendedTooltip>
-        <name>СрокИсполненияExtendedTooltip</name>
+        <name>СрокИсполненияРасширеннаяПодсказка</name>
         <id>118</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1002,7 +1038,7 @@
         <segments>Список.Автор</segments>
       </dataPath>
       <extendedTooltip>
-        <name>АвторExtendedTooltip</name>
+        <name>АвторРасширеннаяПодсказка</name>
         <id>119</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1049,7 +1085,7 @@
         <segments>Список.ПредметСтрокой</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ПредметExtendedTooltip</name>
+        <name>ПредметРасширеннаяПодсказка</name>
         <id>120</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1099,7 +1135,7 @@
         <segments>Список.Date</segments>
       </dataPath>
       <extendedTooltip>
-        <name>ДатаExtendedTooltip</name>
+        <name>ДатаРасширеннаяПодсказка</name>
         <id>121</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1314,7 +1350,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>113</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1344,7 +1380,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СписокКонтекстноеМенюИзменитьExtendedTooltip</name>
+          <name>СписокКонтекстноеМенюИзменитьРасширеннаяПодсказка</name>
           <id>101</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1368,6 +1404,10 @@
       <items xsi:type="form:Button">
         <name>СписокКонтекстноеМенюОткрытьПредметЗадачи</name>
         <id>142</id>
+        <title>
+          <key>ru</key>
+          <value>Открыть предмет задачи</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1398,6 +1438,10 @@
       <items xsi:type="form:Button">
         <name>СписокКонтекстноеМенюОткрытьБизнесПроцесс</name>
         <id>144</id>
+        <title>
+          <key>ru</key>
+          <value>Открыть бизнес-процесс</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1431,6 +1475,10 @@
         <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюПринятьКИсполнению</name>
           <id>68</id>
+          <title>
+            <key>ru</key>
+            <value>Принять к исполнению</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1461,6 +1509,10 @@
         <items xsi:type="form:Button">
           <name>СписокКонтекстноеМенюОтменитьПринятиеКИсполнению</name>
           <id>69</id>
+          <title>
+            <key>ru</key>
+            <value>Отменить принятие к исполнению</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -1499,7 +1551,7 @@
           <value>Контекстное меню группа</value>
         </title>
         <extendedTooltip>
-          <name>СписокКонтекстноеМенюГруппаExtendedTooltip</name>
+          <name>СписокКонтекстноеМенюГруппаРасширеннаяПодсказка</name>
           <id>102</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1530,7 +1582,7 @@
             <segments>Items.Список.CurrentData.Ref</segments>
           </dataPath>
           <extendedTooltip>
-            <name>СписокКонтекстноеМенюЗадачаЗадачаИсполнителяВыполненоExtendedTooltip</name>
+            <name>СписокКонтекстноеМенюЗадачаЗадачаИсполнителяВыполненоРасширеннаяПодсказка</name>
             <id>106</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1563,7 +1615,7 @@
             <segments>Items.Список.CurrentData.Ref</segments>
           </dataPath>
           <extendedTooltip>
-            <name>СписокКонтекстноеМенюЗадачаЗадачаИсполнителяПеренаправитьExtendedTooltip</name>
+            <name>СписокКонтекстноеМенюЗадачаЗадачаИсполнителяПеренаправитьРасширеннаяПодсказка</name>
             <id>107</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1594,7 +1646,7 @@
           <value>Контекстное меню группа действия</value>
         </title>
         <extendedTooltip>
-          <name>СписокКонтекстноеМенюГруппаДействияExtendedTooltip</name>
+          <name>СписокКонтекстноеМенюГруппаДействияРасширеннаяПодсказка</name>
           <id>105</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1619,7 +1671,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СписокКонтекстноеМенюУстановитьИнтервалExtendedTooltip</name>
+          <name>СписокКонтекстноеМенюУстановитьИнтервалРасширеннаяПодсказка</name>
           <id>108</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1652,7 +1704,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокКонтекстноеМенюНайтиExtendedTooltip</name>
+            <name>СписокКонтекстноеМенюНайтиРасширеннаяПодсказка</name>
             <id>110</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1682,7 +1734,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>СписокКонтекстноеМенюОтменитьПоискExtendedTooltip</name>
+            <name>СписокКонтекстноеМенюОтменитьПоискРасширеннаяПодсказка</name>
             <id>111</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -1713,7 +1765,7 @@
           <value>Контекстное меню группа найти</value>
         </title>
         <extendedTooltip>
-          <name>СписокКонтекстноеМенюГруппаНайтиExtendedTooltip</name>
+          <name>СписокКонтекстноеМенюГруппаНайтиРасширеннаяПодсказка</name>
           <id>109</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1738,7 +1790,7 @@
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>СписокКонтекстноеМенюКопироватьВБуферОбменаExtendedTooltip</name>
+          <name>СписокКонтекстноеМенюКопироватьВБуферОбменаРасширеннаяПодсказка</name>
           <id>112</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1798,12 +1850,17 @@
       </period>
       <restoreCurrentRow>true</restoreCurrentRow>
       <topLevelParent xsi:type="core:UndefinedValue"/>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
       <userSettingsGroup>ГруппаПользовательскихНастроек</userSettingsGroup>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
     <name>ПоказыватьВыполненные</name>
     <id>38</id>
+    <title>
+      <key>ru</key>
+      <value>Показывать выполненные</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -1822,7 +1879,7 @@
       <name>ПоказыватьВыполненныеПриИзменении</name>
     </handlers>
     <extendedTooltip>
-      <name>ПоказыватьВыполненныеExtendedTooltip</name>
+      <name>ПоказыватьВыполненныеРасширеннаяПодсказка</name>
       <id>122</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1878,6 +1935,7 @@
     <name>ПередЗагрузкойДанныхИзНастроекНаСервере</name>
   </handlers>
   <autoSaveDataInSettings>Use</autoSaveDataInSettings>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -2250,18 +2308,7 @@
   </formCommands>
   <commandInterface>
     <navigationPanel/>
-    <commandBar>
-      <cmiFragmentRecord>
-        <command>0:83b807b2-85be-45aa-89fe-364ee411b03a</command>
-        <group>FormCommandBarImportant</group>
-        <index>3</index>
-      </cmiFragmentRecord>
-      <cmiFragmentRecord>
-        <command>0:a0351409-4bdc-4f1e-bd6f-97f1c671b644</command>
-        <group>FormCommandBarImportant</group>
-        <index>2</index>
-      </cmiFragmentRecord>
-    </commandBar>
+    <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:DynamicListFormExtInfo"/>
 </form:Form>

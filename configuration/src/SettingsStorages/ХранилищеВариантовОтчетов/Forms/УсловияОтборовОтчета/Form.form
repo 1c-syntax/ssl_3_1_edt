@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
     <key>ru</key>
     <value>Условия фильтров отчета</value>
@@ -36,6 +36,10 @@
     <items xsi:type="form:FormField">
       <name>ОтборыПредставлениеПользовательскойНастройки</name>
       <id>41</id>
+      <title>
+        <key>ru</key>
+        <value>Поле</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -87,6 +91,10 @@
     <items xsi:type="form:FormField">
       <name>ОтборыВидСравнения</name>
       <id>44</id>
+      <title>
+        <key>ru</key>
+        <value>Условие</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -132,11 +140,6 @@
         <listChoiceMode>true</listChoiceMode>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
-        <typeLink>
-          <datapath xsi:type="form:DataPath">
-            <segments>342:02023637-7868-4a5f-8576-835a76e0c9ba/15</segments>
-          </datapath>
-        </typeLink>
       </extInfo>
     </items>
     <commandBarLocation>Top</commandBarLocation>
@@ -325,6 +328,10 @@
     <items xsi:type="form:Button">
       <name>ФормаВыбрать</name>
       <id>26</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -457,16 +464,12 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <group>Vertical</group>
   <allowFormCustomize>true</allowFormCustomize>
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
-  <mobileDeviceCommandBarContent>
-    <value xsi:type="core:StringValue">
-      <value></value>
-    </value>
-  </mobileDeviceCommandBarContent>
   <attributes>
     <name>КомпоновщикНастроек</name>
     <id>1</id>

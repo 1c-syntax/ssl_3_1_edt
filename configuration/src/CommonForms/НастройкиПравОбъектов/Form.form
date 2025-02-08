@@ -24,6 +24,10 @@
     <items xsi:type="form:FormField">
       <name>ГруппыПравПользователь</name>
       <id>19</id>
+      <title>
+        <key>ru</key>
+        <value>Пользователь</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -37,7 +41,7 @@
         <name>ГруппыПравПользовательПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ГруппыПравПользовательExtendedTooltip</name>
+        <name>ГруппыПравПользовательРасширеннаяПодсказка</name>
         <id>57</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -83,7 +87,7 @@
           <event>TextEditEnd</event>
           <name>ГруппыПравПользовательОкончаниеВводаТекста</name>
         </handlers>
-        <width>35</width>
+        <width>31</width>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <wrap>true</wrap>
@@ -250,7 +254,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>ГруппыПравExtendedTooltip</name>
+      <name>ГруппыПравРасширеннаяПодсказка</name>
       <id>56</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -277,7 +281,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ГруппыПравКонтекстноеМенюДобавитьExtendedTooltip</name>
+          <name>ГруппыПравКонтекстноеМенюДобавитьРасширеннаяПодсказка</name>
           <id>50</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -308,7 +312,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ГруппыПравКонтекстноеМенюСкопироватьExtendedTooltip</name>
+          <name>ГруппыПравКонтекстноеМенюСкопироватьРасширеннаяПодсказка</name>
           <id>51</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -339,7 +343,7 @@
         </userVisible>
         <skipOnInput>false</skipOnInput>
         <extendedTooltip>
-          <name>ГруппыПравКонтекстноеМенюУдалитьExtendedTooltip</name>
+          <name>ГруппыПравКонтекстноеМенюУдалитьРасширеннаяПодсказка</name>
           <id>52</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -363,12 +367,16 @@
       <items xsi:type="form:Button">
         <name>ГруппыПравКонтекстноеМенюСнятьУстановкуПрава</name>
         <id>39</id>
+        <title>
+          <key>ru</key>
+          <value>Не назначено ●</value>
+        </title>
         <visible>true</visible>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ГруппыПравКонтекстноеМенюСнятьУстановкуПраваExtendedTooltip</name>
+          <name>ГруппыПравКонтекстноеМенюСнятьУстановкуПраваРасширеннаяПодсказка</name>
           <id>53</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -392,12 +400,16 @@
       <items xsi:type="form:Button">
         <name>ГруппыПравКонтекстноеМенюУстановитьЗапретПрава</name>
         <id>40</id>
+        <title>
+          <key>ru</key>
+          <value>Запрещено ✘</value>
+        </title>
         <visible>true</visible>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ГруппыПравКонтекстноеМенюУстановитьЗапретПраваExtendedTooltip</name>
+          <name>ГруппыПравКонтекстноеМенюУстановитьЗапретПраваРасширеннаяПодсказка</name>
           <id>54</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -421,12 +433,16 @@
       <items xsi:type="form:Button">
         <name>ГруппыПравКонтекстноеМенюУстановитьРазрешениеПрава</name>
         <id>41</id>
+        <title>
+          <key>ru</key>
+          <value>Разрешено ✔</value>
+        </title>
         <visible>true</visible>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ГруппыПравКонтекстноеМенюУстановитьРазрешениеПраваExtendedTooltip</name>
+          <name>ГруппыПравКонтекстноеМенюУстановитьРазрешениеПраваРасширеннаяПодсказка</name>
           <id>55</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -481,29 +497,579 @@
     </rowsPicture>
     <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
-  <items xsi:type="form:FormField">
-    <name>НаследоватьПраваРодителей</name>
-    <id>15</id>
-    <title>
-      <key>ru</key>
-      <value>Наследовать права от вышестоящих папок</value>
-    </title>
+  <items xsi:type="form:FormGroup">
+    <name>НаследованиеИЛегенда</name>
+    <id>70</id>
+    <items xsi:type="form:FormField">
+      <name>НаследоватьПраваРодителей</name>
+      <id>15</id>
+      <title>
+        <key>ru</key>
+        <value>Наследовать права от вышестоящих папок</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>НаследоватьПраваРодителей</segments>
+      </dataPath>
+      <titleLocation>Right</titleLocation>
+      <handlers>
+        <event>OnChange</event>
+        <name>НаследоватьПраваРодителейПриИзменении</name>
+      </handlers>
+      <extendedTooltip>
+        <name>НаследоватьПраваРодителейРасширеннаяПодсказка</name>
+        <id>58</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>НаследоватьПраваРодителейКонтекстноеМеню</name>
+        <id>16</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>Разделитель</name>
+      <id>75</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>РазделительРасширеннаяПодсказка</name>
+        <id>77</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>РазделительКонтекстноеМеню</name>
+        <id>76</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <autoMaxHeight>true</autoMaxHeight>
+      <horizontalStretch>true</horizontalStretch>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>Легенда</name>
+      <id>78</id>
+      <items xsi:type="form:FormGroup">
+        <name>ЛегендаПравоРазрешено</name>
+        <id>80</id>
+        <items xsi:type="form:Decoration">
+          <name>КартинкаПравоРазрешено</name>
+          <id>104</id>
+          <title>
+            <key>ru</key>
+            <value>✔</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <toolTip>
+            <key>ru</key>
+            <value>Разрешает доступ</value>
+          </toolTip>
+          <extendedTooltip>
+            <name>КартинкаПравоРазрешеноРасширеннаяПодсказка</name>
+            <id>106</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>КартинкаПравоРазрешеноКонтекстноеМеню</name>
+            <id>105</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <textColor xsi:type="core:ColorRef">
+            <color>Style.РазрешенноеПравоДоступаЦвет</color>
+          </textColor>
+          <font xsi:type="core:FontRef">
+            <font>Style.NormalTextFont</font>
+            <bold>true</bold>
+            <italic>false</italic>
+            <underline>false</underline>
+            <strikeout>false</strikeout>
+            <scale>120</scale>
+          </font>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </items>
+        <items xsi:type="form:Decoration">
+          <name>ОписаниеПравоРазрешено</name>
+          <id>85</id>
+          <title>
+            <key>ru</key>
+            <value>Разрешено     </value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <toolTip>
+            <key>ru</key>
+            <value>Разрешает доступ</value>
+          </toolTip>
+          <extendedTooltip>
+            <name>ОписаниеПравоРазрешеноРасширеннаяПодсказка</name>
+            <id>87</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ОписаниеПравоРазрешеноКонтекстноеМеню</name>
+            <id>86</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Легенда право разрешено</value>
+        </title>
+        <extendedTooltip>
+          <name>ЛегендаПравоРазрешеноРасширеннаяПодсказка</name>
+          <id>81</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ЛегендаПравоЗапрещено</name>
+        <id>88</id>
+        <items xsi:type="form:Decoration">
+          <name>КартинкаПравоЗапрещено</name>
+          <id>107</id>
+          <title>
+            <key>ru</key>
+            <value>✘</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <toolTip>
+            <key>ru</key>
+            <value>Запрещает доступ, даже если в других строках для этого пользователя/группы есть разрешение</value>
+          </toolTip>
+          <extendedTooltip>
+            <name>КартинкаПравоЗапрещеноРасширеннаяПодсказка</name>
+            <id>109</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>КартинкаПравоЗапрещеноКонтекстноеМеню</name>
+            <id>108</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <textColor xsi:type="core:ColorRef">
+            <color>Style.ЗапрещенноеПравоДоступаЦвет</color>
+          </textColor>
+          <font xsi:type="core:FontRef">
+            <font>Style.NormalTextFont</font>
+            <bold>true</bold>
+            <italic>false</italic>
+            <underline>false</underline>
+            <strikeout>false</strikeout>
+            <scale>120</scale>
+          </font>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </items>
+        <items xsi:type="form:Decoration">
+          <name>ОписаниеПравоЗапрещено</name>
+          <id>93</id>
+          <title>
+            <key>ru</key>
+            <value>Запрещено  </value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <toolTip>
+            <key>ru</key>
+            <value>Запрещает доступ, даже если в других строках
+для этого пользователя/группы есть разрешение</value>
+          </toolTip>
+          <extendedTooltip>
+            <name>ОписаниеПравоЗапрещеноРасширеннаяПодсказка</name>
+            <id>95</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ОписаниеПравоЗапрещеноКонтекстноеМеню</name>
+            <id>94</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Легенда право запрещено</value>
+        </title>
+        <extendedTooltip>
+          <name>ЛегендаПравоЗапрещеноРасширеннаяПодсказка</name>
+          <id>89</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ЛегендаПравоНеНазначено</name>
+        <id>96</id>
+        <items xsi:type="form:Decoration">
+          <name>КартинкаПравоНеНазначено</name>
+          <id>110</id>
+          <title>
+            <key>ru</key>
+            <value>●</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <toolTip>
+            <key>ru</key>
+            <value>Не разрешает доступ, но и не запрещает</value>
+          </toolTip>
+          <extendedTooltip>
+            <name>КартинкаПравоНеНазначеноРасширеннаяПодсказка</name>
+            <id>112</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>КартинкаПравоНеНазначеноКонтекстноеМеню</name>
+            <id>111</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <textColor xsi:type="core:ColorRef">
+            <color>Style.НеназначенноеПравоДоступаЦвет</color>
+          </textColor>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </items>
+        <items xsi:type="form:Decoration">
+          <name>ОписаниеПравоНеНазначено</name>
+          <id>101</id>
+          <title>
+            <key>ru</key>
+            <value>Не назначено </value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <toolTip>
+            <key>ru</key>
+            <value>Не разрешает доступ, но и не запрещает</value>
+          </toolTip>
+          <extendedTooltip>
+            <name>ОписаниеПравоНеНазначеноРасширеннаяПодсказка</name>
+            <id>103</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ОписаниеПравоНеНазначеноКонтекстноеМеню</name>
+            <id>102</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Легенда право не назначено</value>
+        </title>
+        <extendedTooltip>
+          <name>ЛегендаПравоНеНазначеноРасширеннаяПодсказка</name>
+          <id>97</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Легенда</value>
+      </title>
+      <toolTipRepresentation>Button</toolTipRepresentation>
+      <extendedTooltip>
+        <name>ЛегендаРасширеннаяПодсказка</name>
+        <id>79</id>
+        <title>
+          <key>ru</key>
+          <value>&lt;fontsize 12>&lt;colorstyle 0:5a83b75a-38b0-4d15-9c6f-c201fa97e485>✔&lt;/>&lt;/>&lt;fontsize 12>&lt;color #008000> &lt;/>&lt;/>&lt;fontsize 10>&lt;colorstyle -3>р&lt;/>&lt;/>&lt;fontsize 10>&lt;colorstyle -3>азрешает&lt;/>&lt;/>&lt;fontsize 10>&lt;colorstyle -3> доступ&lt;/>&lt;/>
+&lt;fontsize 12>&lt;colorstyle 0:0c44fdea-7b81-45be-87f5-d64456a9d379>✘&lt;/>&lt;/>&lt;fontsize 12> &lt;/>&lt;fontsize 10>&lt;colorstyle -3>запрещает&lt;/>&lt;/>&lt;fontsize 10>&lt;colorstyle -3> &lt;/>&lt;/>&lt;fontsize 10>&lt;colorstyle -3>доступ, даже если в других &lt;/>&lt;/>&lt;fontsize 10>&lt;colorstyle -3>строках для этого пользователя или &lt;/>&lt;/>&lt;fontsize 10>&lt;colorstyle -3>группы есть разрешение &lt;/>&lt;/>
+&lt;fontsize 12>&lt;colorstyle 0:0a83f9ec-eabe-4e8f-9fa9-0067acad6fc4>●&lt;/>&lt;/>&lt;fontsize 12> &lt;/>&lt;fontsize 12> &lt;/>&lt;fontsize 10>&lt;colorstyle -3>н&lt;/>&lt;/>&lt;fontsize 10>&lt;colorstyle -3>е разрешает доступ, но и не запрещает&lt;/>&lt;/>
+
+&lt;fontsize 10>Таким образом, п&lt;/>&lt;fontsize 10>ользователь &lt;/>&lt;fontsize 10>получит доступ, если ему или группе пользователей, в которую он входит&lt;/>&lt;fontsize 10>,&lt;/>
+&lt;fontsize 10>в соответствующей колонке установлено хотя бы одно разрешение &lt;/>&lt;fontsize 12>&lt;colorstyle 0:5a83b75a-38b0-4d15-9c6f-c201fa97e485>✔&lt;/>&lt;/>
+&lt;fontsize 10>и не установлено ни одного запрета &lt;/>&lt;fontsize 12>&lt;colorstyle 0:0c44fdea-7b81-45be-87f5-d64456a9d379>✘&lt;/>&lt;/>&lt;fontsize 12>&lt;color #000000>.&lt;/>&lt;/></value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <formatted>true</formatted>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <showLeftMargin>true</showLeftMargin>
+        <united>true</united>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:DataPath">
-      <segments>НаследоватьПраваРодителей</segments>
-    </dataPath>
-    <titleLocation>Right</titleLocation>
-    <handlers>
-      <event>OnChange</event>
-      <name>НаследоватьПраваРодителейПриИзменении</name>
-    </handlers>
+    <title>
+      <key>ru</key>
+      <value>Наследование и легенда</value>
+    </title>
     <extendedTooltip>
-      <name>НаследоватьПраваРодителейExtendedTooltip</name>
-      <id>58</id>
+      <name>НаследованиеИЛегендаРасширеннаяПодсказка</name>
+      <id>71</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -516,22 +1082,13 @@
         <horizontalAlign>Left</horizontalAlign>
       </extInfo>
     </extendedTooltip>
-    <contextMenu>
-      <name>НаследоватьПраваРодителейКонтекстноеМеню</name>
-      <id>16</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <autoFill>true</autoFill>
-    </contextMenu>
-    <type>CheckBoxField</type>
-    <editMode>Enter</editMode>
-    <showInHeader>true</showInHeader>
-    <headerHorizontalAlign>Left</headerHorizontalAlign>
-    <showInFooter>true</showInFooter>
-    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
   </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
@@ -539,6 +1096,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписатьИЗакрыть</name>
       <id>12</id>
+      <title>
+        <key>ru</key>
+        <value>Записать и закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -546,7 +1107,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ФормаЗаписатьИЗакрытьExtendedTooltip</name>
+        <name>ФормаЗаписатьИЗакрытьРасширеннаяПодсказка</name>
         <id>42</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -570,6 +1131,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗаписать</name>
       <id>21</id>
+      <title>
+        <key>ru</key>
+        <value>Записать</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -577,7 +1142,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ФормаЗаписатьExtendedTooltip</name>
+        <name>ФормаЗаписатьРасширеннаяПодсказка</name>
         <id>43</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -608,7 +1173,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ФормаДобавитьExtendedTooltip</name>
+        <name>ФормаДобавитьРасширеннаяПодсказка</name>
         <id>44</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -639,7 +1204,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ФормаУдалитьExtendedTooltip</name>
+        <name>ФормаУдалитьРасширеннаяПодсказка</name>
         <id>45</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -660,17 +1225,81 @@
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
-    <items xsi:type="form:Button">
-      <name>ФормаПереместитьВверх</name>
-      <id>37</id>
+    <items xsi:type="form:FormGroup">
+      <name>КнопкиПеремещения</name>
+      <id>113</id>
+      <items xsi:type="form:Button">
+        <name>ФормаПереместитьВверх</name>
+        <id>37</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ФормаПереместитьВверхРасширеннаяПодсказка</name>
+          <id>46</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Item.ГруппыПрав.StandardCommand.MoveUp</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>ФормаПереместитьВниз</name>
+        <id>38</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ФормаПереместитьВнизРасширеннаяПодсказка</name>
+          <id>47</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Item.ГруппыПрав.StandardCommand.MoveDown</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Кнопки перемещения</value>
+      </title>
       <extendedTooltip>
-        <name>ФормаПереместитьВверхExtendedTooltip</name>
-        <id>46</id>
+        <name>КнопкиПеремещенияРасширеннаяПодсказка</name>
+        <id>114</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -683,42 +1312,9 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.Item.ГруппыПрав.StandardCommand.MoveUp</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-    </items>
-    <items xsi:type="form:Button">
-      <name>ФормаПереместитьВниз</name>
-      <id>38</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <extendedTooltip>
-        <name>ФормаПереместитьВнизExtendedTooltip</name>
-        <id>47</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <commandName>Form.Item.ГруппыПрав.StandardCommand.MoveDown</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
+      <extInfo xsi:type="form:ButtonGroupExtInfo">
+        <representation>Compact</representation>
+      </extInfo>
     </items>
     <items xsi:type="form:Button">
       <name>ФормаСправка</name>
@@ -729,7 +1325,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ФормаСправкаExtendedTooltip</name>
+        <name>ФормаСправкаРасширеннаяПодсказка</name>
         <id>48</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -760,7 +1356,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ФормаИзменитьФормуExtendedTooltip</name>
+        <name>ФормаИзменитьФормуРасширеннаяПодсказка</name>
         <id>49</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -812,6 +1408,48 @@
       <representationInContextMenu>Auto</representationInContextMenu>
       <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
+    <items xsi:type="form:Addition">
+      <title>
+        <key>ru</key>
+        <value>Поиск</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>СтрокаПоиск</name>
+      <id>115</id>
+      <extendedTooltip>
+        <name>СтрокаПоискРасширеннаяПодсказка</name>
+        <id>117</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СтрокаПоискКонтекстноеМеню</name>
+        <id>116</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <source>ГруппыПравСтрокаПоиска</source>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -837,6 +1475,7 @@
   <excludedCommands>SaveValues</excludedCommands>
   <excludedCommands>Yes</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -1139,7 +1778,7 @@
     <name>УстановитьРазрешениеПрава</name>
     <title>
       <key>ru</key>
-      <value>Установить разрешение права &quot;Да&quot;</value>
+      <value>Разрешено ✔</value>
     </title>
     <id>4</id>
     <toolTip>
@@ -1160,7 +1799,7 @@
     <name>УстановитьЗапретПрава</name>
     <title>
       <key>ru</key>
-      <value>Установить запрет права &quot;Нет&quot;</value>
+      <value>Запрещено ✘</value>
     </title>
     <id>5</id>
     <toolTip>
@@ -1181,7 +1820,7 @@
     <name>СнятьУстановкуПрава</name>
     <title>
       <key>ru</key>
-      <value>Снять установку права &quot;  &quot;</value>
+      <value>Не назначено ●</value>
     </title>
     <id>6</id>
     <toolTip>

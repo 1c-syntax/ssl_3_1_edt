@@ -68,7 +68,7 @@
           <segments>Список.Number</segments>
         </dataPath>
         <extendedTooltip>
-          <name>НомерExtendedTooltip</name>
+          <name>НомерРасширеннаяПодсказка</name>
           <id>18</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -117,7 +117,7 @@
         </dataPath>
         <defaultItem>true</defaultItem>
         <extendedTooltip>
-          <name>ДатаExtendedTooltip</name>
+          <name>ДатаРасширеннаяПодсказка</name>
           <id>17</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -198,7 +198,7 @@
           <segments>Список.Наименование</segments>
         </dataPath>
         <extendedTooltip>
-          <name>НаименованиеExtendedTooltip</name>
+          <name>НаименованиеРасширеннаяПодсказка</name>
           <id>19</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -246,7 +246,7 @@
           <segments>Список.ШаблонАнкеты</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ШаблонАнкетыExtendedTooltip</name>
+          <name>ШаблонАнкетыРасширеннаяПодсказка</name>
           <id>20</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -327,7 +327,7 @@
           <segments>Список.ДатаНачала</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ДатаНачалаExtendedTooltip</name>
+          <name>ДатаНачалаРасширеннаяПодсказка</name>
           <id>21</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -375,7 +375,7 @@
           <segments>Список.ДатаОкончания</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ДатаОкончанияExtendedTooltip</name>
+          <name>ДатаОкончанияРасширеннаяПодсказка</name>
           <id>22</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -617,7 +617,7 @@
       </extInfo>
     </searchControlAddition>
     <extendedTooltip>
-      <name>СписокExtendedTooltip</name>
+      <name>СписокРасширеннаяПодсказка</name>
       <id>16</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -672,6 +672,7 @@
       </period>
       <topLevelParent xsi:type="core:UndefinedValue"/>
       <showRoot>true</showRoot>
+      <allowGettingCurrentRowURL>true</allowGettingCurrentRowURL>
       <userSettingsGroup>ГруппаПользовательскихНастроек</userSettingsGroup>
     </extInfo>
   </items>
@@ -690,6 +691,7 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

@@ -49,7 +49,7 @@
       <value>Учетная запись электронной почты</value>
     </synonym>
     <type>
-      <types>CatalogRef.УчетныеЗаписиЭлектроннойПочты</types>
+      <types>DefinedType.ОбменДаннымиУчетныеЗаписиЭлектроннойПочты</types>
     </type>
     <toolTip>
       <key>ru</key>
@@ -93,6 +93,18 @@
     <comment>Истина - Отправка и получение сообщений обмена будет выполняться через временный каталог; Ложь – отправка и получение будет выполняться напрямую через каталог обмена</comment>
     <type>
       <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="55412118-700a-4a2d-b7c9-d3b7c0f4bd9a">
+    <name>УзелИнформационнойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел информационной базы</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

@@ -49,7 +49,7 @@
       <groupVerticalAlign>Center</groupVerticalAlign>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Информация32</picture>
+          <picture>StdPicture.DialogInformation</picture>
         </picture>
         <pictureSize>AutoSize</pictureSize>
         <fileDragMode>AsFileRef</fileDragMode>
@@ -854,6 +854,10 @@
       <items xsi:type="form:FormField">
         <name>КомплектПечатныхФормКартинка</name>
         <id>112</id>
+        <title>
+          <key>ru</key>
+          <value>Картинка</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -988,84 +992,147 @@
         <showTitle>true</showTitle>
       </extInfo>
     </items>
-    <items xsi:type="form:FormField">
-      <name>ОригиналПолученКартинка</name>
-      <id>138</id>
+    <items xsi:type="form:FormGroup">
+      <name>КомплектПечатныхФормГруппаСостояние</name>
+      <id>166</id>
+      <items xsi:type="form:FormField">
+        <name>ОригиналПолученКартинка</name>
+        <id>138</id>
+        <title>
+          <key>ru</key>
+          <value>Оригинал получен картинка</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>КомплектПечатныхФорм.ОригиналПолученКартинка</segments>
+        </dataPath>
+        <titleLocation>None</titleLocation>
+        <extendedTooltip>
+          <name>ОригиналПолученКартинкаРасширеннаяПодсказка</name>
+          <id>140</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ОригиналПолученКартинкаКонтекстноеМеню</name>
+          <id>139</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>PictureField</type>
+        <editMode>EnterOnInput</editMode>
+        <showInHeader>true</showInHeader>
+        <headerPicture xsi:type="core:PictureRef">
+          <picture>CommonPicture.СостояниеОригиналаПервичногоДокументаОригиналПолучен</picture>
+        </headerPicture>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:ImageFieldExtInfo">
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
+          <verticalStretch>true</verticalStretch>
+          <valuesPicture xsi:type="core:PictureRef">
+            <picture>CommonPicture.КоллекцияПиктограммНаличиеОригиналаПервичногоДокумента</picture>
+          </valuesPicture>
+          <fileDragMode>AsFileRef</fileDragMode>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormField">
+        <name>КомплектПечатныхФормСостояние</name>
+        <id>64</id>
+        <title>
+          <key>ru</key>
+          <value>Состояние оригинала</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>КомплектПечатныхФорм.Состояние</segments>
+        </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>КомплектПечатныхФормСостояниеПриИзменении</name>
+        </handlers>
+        <extendedTooltip>
+          <name>КомплектПечатныхФормСостояниеРасширеннаяПодсказка</name>
+          <id>66</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>КомплектПечатныхФормСостояниеКонтекстноеМеню</name>
+          <id>65</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>EnterOnInput</editMode>
+        <showInHeader>true</showInHeader>
+        <headerPicture xsi:type="core:PictureRef">
+          <picture>CommonPicture.СостояниеОригиналаПервичногоДокументаОригиналПолучен</picture>
+        </headerPicture>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <handlers>
+            <event>ChoiceProcessing</event>
+            <name>КомплектПечатныхФормСостояниеОбработкаВыбора</name>
+          </handlers>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <wrap>true</wrap>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+          <dropListWidth>5</dropListWidth>
+        </extInfo>
+      </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>КомплектПечатныхФорм.ОригиналПолученКартинка</segments>
-      </dataPath>
-      <titleLocation>None</titleLocation>
-      <extendedTooltip>
-        <name>ОригиналПолученКартинкаРасширеннаяПодсказка</name>
-        <id>140</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ОригиналПолученКартинкаКонтекстноеМеню</name>
-        <id>139</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>PictureField</type>
-      <editMode>EnterOnInput</editMode>
-      <showInHeader>true</showInHeader>
-      <headerPicture xsi:type="core:PictureRef">
-        <picture>CommonPicture.СостояниеОригиналаПервичногоДокументаОригиналПолучен</picture>
-      </headerPicture>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:ImageFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <horizontalStretch>true</horizontalStretch>
-        <verticalStretch>true</verticalStretch>
-        <valuesPicture xsi:type="core:PictureRef">
-          <picture>CommonPicture.КоллекцияПиктограммНаличиеОригиналаПервичногоДокумента</picture>
-        </valuesPicture>
-        <fileDragMode>AsFileRef</fileDragMode>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>КомплектПечатныхФормСостояние</name>
-      <id>64</id>
       <title>
         <key>ru</key>
-        <value>Состояние оригинала</value>
+        <value>Состояние</value>
       </title>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>КомплектПечатныхФорм.Состояние</segments>
-      </dataPath>
-      <handlers>
-        <event>OnChange</event>
-        <name>КомплектПечатныхФормСостояниеПриИзменении</name>
-      </handlers>
       <extendedTooltip>
-        <name>КомплектПечатныхФормСостояниеРасширеннаяПодсказка</name>
-        <id>66</id>
+        <name>КомплектПечатныхФормГруппаСостояниеРасширеннаяПодсказка</name>
+        <id>167</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1078,38 +1145,19 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <contextMenu>
-        <name>КомплектПечатныхФормСостояниеКонтекстноеМеню</name>
-        <id>65</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>InputField</type>
-      <editMode>EnterOnInput</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:InputFieldExtInfo">
-        <handlers>
-          <event>ChoiceProcessing</event>
-          <name>КомплектПечатныхФормСостояниеОбработкаВыбора</name>
-        </handlers>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <wrap>true</wrap>
-        <chooseType>true</chooseType>
-        <typeDomainEnabled>true</typeDomainEnabled>
-        <textEdit>true</textEdit>
-        <dropListWidth>5</dropListWidth>
+      <type>ColumnGroup</type>
+      <extInfo xsi:type="form:ColumnGroupExtInfo">
+        <group>InCell</group>
+        <showTitle>true</showTitle>
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
       <name>КомплектПечатныхФормДатаПоследнегоИзменения</name>
       <id>157</id>
+      <title>
+        <key>ru</key>
+        <value>Дата последнего изменения</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1144,6 +1192,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
+      <readOnly>true</readOnly>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -1160,6 +1209,10 @@
     <items xsi:type="form:FormField">
       <name>КомплектПечатныхФормАвторИзменения</name>
       <id>160</id>
+      <title>
+        <key>ru</key>
+        <value>Автор изменения</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1194,6 +1247,7 @@
         <autoFill>true</autoFill>
       </contextMenu>
       <type>InputField</type>
+      <readOnly>true</readOnly>
       <editMode>Enter</editMode>
       <showInHeader>true</showInHeader>
       <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -1439,6 +1493,10 @@
     <items xsi:type="form:FormField">
       <name>СсылкаНаДокумент</name>
       <id>117</id>
+      <title>
+        <key>ru</key>
+        <value>Ссылка на документ</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1492,6 +1550,10 @@
     <items xsi:type="form:Button">
       <name>ОК</name>
       <id>155</id>
+      <title>
+        <key>ru</key>
+        <value>ОК</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1578,6 +1640,7 @@
   </handlers>
   <width>55</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
   <autoFillCheck>true</autoFillCheck>
@@ -1722,7 +1785,9 @@
     <columns>
       <name>Сотрудник</name>
       <id>10</id>
-      <valueType/>
+      <valueType>
+        <types>DefinedType.Сотрудник</types>
+      </valueType>
       <view>
         <common>true</common>
       </view>
@@ -1983,6 +2048,12 @@
     </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>ДокументСсылка</name>
+    <valueType>
+      <types>AnyRef</types>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

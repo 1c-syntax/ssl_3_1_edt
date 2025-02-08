@@ -135,6 +135,10 @@
     <items xsi:type="form:Button">
       <name>ФормаПерейтиКСписку</name>
       <id>3</id>
+      <title>
+        <key>ru</key>
+        <value>Перейти к списку</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -166,6 +170,10 @@
     <items xsi:type="form:Button">
       <name>ФормаПроверено</name>
       <id>1</id>
+      <title>
+        <key>ru</key>
+        <value>Проверено</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -196,6 +204,10 @@
     <items xsi:type="form:Button">
       <name>ФормаЗакрыть</name>
       <id>5</id>
+      <title>
+        <key>ru</key>
+        <value>Закрыть</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -231,6 +243,7 @@
     <horizontalAlign>Right</horizontalAlign>
   </autoCommandBar>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>

@@ -15,7 +15,7 @@
         <segments>Объект.Description</segments>
       </dataPath>
       <extendedTooltip>
-        <name>НаименованиеExtendedTooltip</name>
+        <name>НаименованиеРасширеннаяПодсказка</name>
         <id>80</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -65,7 +65,7 @@
         <segments>Объект.Code</segments>
       </dataPath>
       <extendedTooltip>
-        <name>КодExtendedTooltip</name>
+        <name>КодРасширеннаяПодсказка</name>
         <id>81</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -113,7 +113,7 @@
       <value>Наименование код</value>
     </title>
     <extendedTooltip>
-      <name>НаименованиеКодExtendedTooltip</name>
+      <name>НаименованиеКодРасширеннаяПодсказка</name>
       <id>79</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -154,7 +154,7 @@
           <segments>Объект.Заголовок</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ЗаголовокExtendedTooltip</name>
+          <name>ЗаголовокРасширеннаяПодсказка</name>
           <id>84</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -203,7 +203,7 @@
           <segments>Объект.Вступление</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ВступлениеExtendedTooltip</name>
+          <name>ВступлениеРасширеннаяПодсказка</name>
           <id>85</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -253,7 +253,7 @@
           <segments>Объект.Заключение</segments>
         </dataPath>
         <extendedTooltip>
-          <name>ЗаключениеExtendedTooltip</name>
+          <name>ЗаключениеРасширеннаяПодсказка</name>
           <id>86</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -301,7 +301,7 @@
         <value>Заголовки</value>
       </title>
       <extendedTooltip>
-        <name>ЗаголовкиExtendedTooltip</name>
+        <name>ЗаголовкиРасширеннаяПодсказка</name>
         <id>83</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -347,6 +347,10 @@
           <items xsi:type="form:FormField">
             <name>ДеревоАнкетыПолныйКод</name>
             <id>72</id>
+            <title>
+              <key>ru</key>
+              <value>Полный код</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -357,7 +361,7 @@
             </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
-              <name>ДеревоАнкетыПолныйКодExtendedTooltip</name>
+              <name>ДеревоАнкетыПолныйКодРасширеннаяПодсказка</name>
               <id>108</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -412,7 +416,7 @@
               <segments>ДеревоАнкеты.Формулировка</segments>
             </dataPath>
             <extendedTooltip>
-              <name>ДеревоАнкетыФормулировкаExtendedTooltip</name>
+              <name>ДеревоАнкетыФормулировкаРасширеннаяПодсказка</name>
               <id>109</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -454,6 +458,10 @@
           <items xsi:type="form:FormField">
             <name>ДеревоАнкетыКодКартинки</name>
             <id>21</id>
+            <title>
+              <key>ru</key>
+              <value>Код картинки</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -464,7 +472,7 @@
             </dataPath>
             <titleLocation>None</titleLocation>
             <extendedTooltip>
-              <name>ДеревоАнкетыКодКартинкиExtendedTooltip</name>
+              <name>ДеревоАнкетыКодКартинкиРасширеннаяПодсказка</name>
               <id>110</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -510,7 +518,7 @@
             <value>Наименование</value>
           </title>
           <extendedTooltip>
-            <name>КартинкаПолныйКодExtendedTooltip</name>
+            <name>КартинкаПолныйКодРасширеннаяПодсказка</name>
             <id>107</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -533,6 +541,10 @@
         <items xsi:type="form:FormField">
           <name>ДеревоАнкетыОбязательный</name>
           <id>25</id>
+          <title>
+            <key>ru</key>
+            <value>Обязательный</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -543,7 +555,7 @@
           </dataPath>
           <titleLocation>None</titleLocation>
           <extendedTooltip>
-            <name>ДеревоАнкетыОбязательныйExtendedTooltip</name>
+            <name>ДеревоАнкетыОбязательныйРасширеннаяПодсказка</name>
             <id>111</id>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -588,6 +600,10 @@
         <items xsi:type="form:FormField">
           <name>ФормаДереваАнкетыЕстьЗаметки</name>
           <id>115</id>
+          <title>
+            <key>ru</key>
+            <value>Есть заметки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -661,7 +677,7 @@
               </userVisible>
               <skipOnInput>false</skipOnInput>
               <extendedTooltip>
-                <name>ДеревоАнкетыКоманднаяПанельДобавитьВопросExtendedTooltip</name>
+                <name>ДеревоАнкетыКоманднаяПанельДобавитьВопросРасширеннаяПодсказка</name>
                 <id>99</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -696,7 +712,7 @@
               </userVisible>
               <skipOnInput>false</skipOnInput>
               <extendedTooltip>
-                <name>ДеревоАнкетыКоманднаяПанельДобавитьТабличныйВопросExtendedTooltip</name>
+                <name>ДеревоАнкетыКоманднаяПанельДобавитьТабличныйВопросРасширеннаяПодсказка</name>
                 <id>100</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -731,7 +747,7 @@
               </userVisible>
               <skipOnInput>false</skipOnInput>
               <extendedTooltip>
-                <name>ДеревоАнкетыКоманднаяПанельДобавитьВопросСУсловиемExtendedTooltip</name>
+                <name>ДеревоАнкетыКоманднаяПанельДобавитьВопросСУсловиемРасширеннаяПодсказка</name>
                 <id>101</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -800,7 +816,7 @@
               </userVisible>
               <skipOnInput>false</skipOnInput>
               <extendedTooltip>
-                <name>ДеревоАнкетыКоманднаяПанельДобавитьРазделExtendedTooltip</name>
+                <name>ДеревоАнкетыКоманднаяПанельДобавитьРазделРасширеннаяПодсказка</name>
                 <id>98</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -860,7 +876,7 @@
             </userVisible>
             <skipOnInput>false</skipOnInput>
             <extendedTooltip>
-              <name>ДеревоАнкетыКоманднаяПанельРедактироватьExtendedTooltip</name>
+              <name>ДеревоАнкетыКоманднаяПанельРедактироватьРасширеннаяПодсказка</name>
               <id>102</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -894,7 +910,7 @@
               </userVisible>
               <skipOnInput>false</skipOnInput>
               <extendedTooltip>
-                <name>ДеревоАнкетыКоманднаяПанельПереместитьВверхExtendedTooltip</name>
+                <name>ДеревоАнкетыКоманднаяПанельПереместитьВверхРасширеннаяПодсказка</name>
                 <id>103</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -926,7 +942,7 @@
               </userVisible>
               <skipOnInput>false</skipOnInput>
               <extendedTooltip>
-                <name>ДеревоАнкетыКоманднаяПанельПереместитьВнизExtendedTooltip</name>
+                <name>ДеревоАнкетыКоманднаяПанельПереместитьВнизРасширеннаяПодсказка</name>
                 <id>104</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -975,7 +991,7 @@
             <extInfo xsi:type="form:ButtonGroupExtInfo"/>
           </items>
           <items xsi:type="form:FormGroup">
-            <name>ФормаДереваАнкетыГруппа1</name>
+            <name>ФормаДереваАнкетыГруппаУдалить</name>
             <id>133</id>
             <items xsi:type="form:Button">
               <name>ДеревоАнкетыКоманднаяПанельУдалить</name>
@@ -987,7 +1003,7 @@
               </userVisible>
               <skipOnInput>false</skipOnInput>
               <extendedTooltip>
-                <name>ДеревоАнкетыКоманднаяПанельУдалитьExtendedTooltip</name>
+                <name>ДеревоАнкетыКоманднаяПанельУдалитьРасширеннаяПодсказка</name>
                 <id>105</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1015,10 +1031,10 @@
             </userVisible>
             <title>
               <key>ru</key>
-              <value>Форма дерева анкеты группа 1</value>
+              <value>Удалить</value>
             </title>
             <extendedTooltip>
-              <name>ФормаДереваАнкетыГруппа1РасширеннаяПодсказка</name>
+              <name>ФормаДереваАнкетыГруппаУдалитьРасширеннаяПодсказка</name>
               <id>134</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1063,6 +1079,48 @@
             <autoMaxHeight>true</autoMaxHeight>
             <placementArea>UserCmds</placementArea>
             <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Addition">
+            <title>
+              <key>ru</key>
+              <value>Поиск</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <name>СтрокаПоиска</name>
+            <id>146</id>
+            <extendedTooltip>
+              <name>СтрокаПоискаРасширеннаяПодсказка</name>
+              <id>148</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>СтрокаПоискаКонтекстноеМеню</name>
+              <id>147</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <source>ФормаДереваАнкетыСтрокаПоиска</source>
+            <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+              <autoMaxWidth>true</autoMaxWidth>
+            </extInfo>
           </items>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1228,7 +1286,7 @@
           </extInfo>
         </searchControlAddition>
         <extendedTooltip>
-          <name>ФормаДереваАнкетыExtendedTooltip</name>
+          <name>ФормаДереваАнкетыРасширеннаяПодсказка</name>
           <id>106</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1254,7 +1312,7 @@
             </userVisible>
             <skipOnInput>false</skipOnInput>
             <extendedTooltip>
-              <name>КонтекстноеМенюФормаДереваАнкетыДобавитьExtendedTooltip</name>
+              <name>КонтекстноеМенюФормаДереваАнкетыДобавитьРасширеннаяПодсказка</name>
               <id>89</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1278,6 +1336,10 @@
           <items xsi:type="form:Button">
             <name>ДеревоАнкетыКонтекстноеМенюДобавитьВопрос</name>
             <id>34</id>
+            <title>
+              <key>ru</key>
+              <value>Добавить простой вопрос</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1285,7 +1347,7 @@
             </userVisible>
             <skipOnInput>false</skipOnInput>
             <extendedTooltip>
-              <name>ДеревоАнкетыКонтекстноеМенюДобавитьВопросExtendedTooltip</name>
+              <name>ДеревоАнкетыКонтекстноеМенюДобавитьВопросРасширеннаяПодсказка</name>
               <id>91</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1312,6 +1374,10 @@
           <items xsi:type="form:Button">
             <name>ДеревоАнкетыКонтекстноеМенюДобавитьВопросСУсловием</name>
             <id>67</id>
+            <title>
+              <key>ru</key>
+              <value>Добавить условный вопрос</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1319,7 +1385,7 @@
             </userVisible>
             <skipOnInput>false</skipOnInput>
             <extendedTooltip>
-              <name>ДеревоАнкетыКонтекстноеМенюДобавитьВопросСУсловиемExtendedTooltip</name>
+              <name>ДеревоАнкетыКонтекстноеМенюДобавитьВопросСУсловиемРасширеннаяПодсказка</name>
               <id>92</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1346,6 +1412,10 @@
           <items xsi:type="form:Button">
             <name>ДеревоАнкетыКонтекстноеМенюДобавитьТабличныйВопрос</name>
             <id>66</id>
+            <title>
+              <key>ru</key>
+              <value>Добавить табличный вопрос</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1353,7 +1423,7 @@
             </userVisible>
             <skipOnInput>false</skipOnInput>
             <extendedTooltip>
-              <name>ДеревоАнкетыКонтекстноеМенюДобавитьТабличныйВопросExtendedTooltip</name>
+              <name>ДеревоАнкетыКонтекстноеМенюДобавитьТабличныйВопросРасширеннаяПодсказка</name>
               <id>93</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1380,6 +1450,10 @@
           <items xsi:type="form:Button">
             <name>ДеревоАнкетыКонтекстноеМенюДобавитьКомплексныйВопрос</name>
             <id>144</id>
+            <title>
+              <key>ru</key>
+              <value>Добавить комплексный вопрос</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1414,6 +1488,10 @@
           <items xsi:type="form:Button">
             <name>ДеревоАнкетыКонтекстноеМенюДобавитьРаздел</name>
             <id>33</id>
+            <title>
+              <key>ru</key>
+              <value>Добавить раздел</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1421,7 +1499,7 @@
             </userVisible>
             <skipOnInput>false</skipOnInput>
             <extendedTooltip>
-              <name>ДеревоАнкетыКонтекстноеМенюДобавитьРазделExtendedTooltip</name>
+              <name>ДеревоАнкетыКонтекстноеМенюДобавитьРазделРасширеннаяПодсказка</name>
               <id>90</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1443,7 +1521,7 @@
             <representationInContextMenu>Auto</representationInContextMenu>
           </items>
           <items xsi:type="form:FormGroup">
-            <name>ФормаДереваАнкетыКонтекстноеМенюГруппа1</name>
+            <name>ФормаДереваАнкетыКонтекстноеМенюГруппаПеремещение</name>
             <id>135</id>
             <items xsi:type="form:Button">
               <name>ДеревоАнкетыКонтекстноеМенюПереместитьВверх</name>
@@ -1455,7 +1533,7 @@
               </userVisible>
               <skipOnInput>false</skipOnInput>
               <extendedTooltip>
-                <name>ДеревоАнкетыКонтекстноеМенюПереместитьВверхExtendedTooltip</name>
+                <name>ДеревоАнкетыКонтекстноеМенюПереместитьВверхРасширеннаяПодсказка</name>
                 <id>94</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1486,7 +1564,7 @@
               </userVisible>
               <skipOnInput>false</skipOnInput>
               <extendedTooltip>
-                <name>ДеревоАнкетыКонтекстноеМенюПереместитьВнизExtendedTooltip</name>
+                <name>ДеревоАнкетыКонтекстноеМенюПереместитьВнизРасширеннаяПодсказка</name>
                 <id>95</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1514,10 +1592,10 @@
             </userVisible>
             <title>
               <key>ru</key>
-              <value>Форма дерева анкеты контекстное меню группа 1</value>
+              <value>Перемещение</value>
             </title>
             <extendedTooltip>
-              <name>ФормаДереваАнкетыКонтекстноеМенюГруппа1РасширеннаяПодсказка</name>
+              <name>ФормаДереваАнкетыКонтекстноеМенюГруппаПеремещениеРасширеннаяПодсказка</name>
               <id>136</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1534,7 +1612,7 @@
             <extInfo xsi:type="form:ButtonGroupExtInfo"/>
           </items>
           <items xsi:type="form:FormGroup">
-            <name>ФормаДереваАнкетыКонтекстноеМенюГруппа2</name>
+            <name>ФормаДереваАнкетыКонтекстноеМенюГруппаУдалить</name>
             <id>137</id>
             <items xsi:type="form:Button">
               <name>ДеревоАнкетыКонтекстноеМенюУдалить</name>
@@ -1546,7 +1624,7 @@
               </userVisible>
               <skipOnInput>false</skipOnInput>
               <extendedTooltip>
-                <name>ДеревоАнкетыКонтекстноеМенюУдалитьExtendedTooltip</name>
+                <name>ДеревоАнкетыКонтекстноеМенюУдалитьРасширеннаяПодсказка</name>
                 <id>96</id>
                 <visible>true</visible>
                 <enabled>true</enabled>
@@ -1574,10 +1652,10 @@
             </userVisible>
             <title>
               <key>ru</key>
-              <value>Форма дерева анкеты контекстное меню группа 2</value>
+              <value>Удалить</value>
             </title>
             <extendedTooltip>
-              <name>ФормаДереваАнкетыКонтекстноеМенюГруппа2РасширеннаяПодсказка</name>
+              <name>ФормаДереваАнкетыКонтекстноеМенюГруппаУдалитьРасширеннаяПодсказка</name>
               <id>138</id>
               <visible>true</visible>
               <enabled>true</enabled>
@@ -1674,7 +1752,7 @@
           <name>ДеревоАнкетыЗаметкиПриИзменении</name>
         </handlers>
         <extendedTooltip>
-          <name>ДеревоАнкетыЗаметкиExtendedTooltip</name>
+          <name>ДеревоАнкетыЗаметкиРасширеннаяПодсказка</name>
           <id>112</id>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -1729,7 +1807,7 @@
         <value>Вопросы</value>
       </title>
       <extendedTooltip>
-        <name>ДеревоАнкетыExtendedTooltip</name>
+        <name>ДеревоАнкетыРасширеннаяПодсказка</name>
         <id>87</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1759,7 +1837,7 @@
       <value>Основные страницы</value>
     </title>
     <extendedTooltip>
-      <name>ОсновныеСтраницыExtendedTooltip</name>
+      <name>ОсновныеСтраницыРасширеннаяПодсказка</name>
       <id>82</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -1796,7 +1874,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ОткрытьФормуЗаполненияАнкетыExtendedTooltip</name>
+        <name>ОткрытьФормуЗаполненияАнкетыРасширеннаяПодсказка</name>
         <id>77</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1820,6 +1898,10 @@
     <items xsi:type="form:Button">
       <name>ЗакончитьРедактирование</name>
       <id>54</id>
+      <title>
+        <key>ru</key>
+        <value>Закончить редактирование</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1827,7 +1909,7 @@
       </userVisible>
       <skipOnInput>false</skipOnInput>
       <extendedTooltip>
-        <name>ЗакончитьРедактированиеExtendedTooltip</name>
+        <name>ЗакончитьРедактированиеРасширеннаяПодсказка</name>
         <id>78</id>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -1869,6 +1951,7 @@
     <name>ПриСозданииНаСервере</name>
   </handlers>
   <excludedCommands>Copy</excludedCommands>
+  <saveWindowSettings>true</saveWindowSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -2179,6 +2262,10 @@
     </columns>
     <columns>
       <name>ПолныйКод</name>
+      <title>
+        <key>ru</key>
+        <value>Полный код</value>
+      </title>
       <id>19</id>
       <valueType>
         <types>String</types>
@@ -2304,6 +2391,74 @@
       <id>27</id>
       <valueType>
         <types>EnumRef.СпособыОтображенияПодсказок</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ИспользоватьМинимальноеЗначение</name>
+      <id>28</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ИспользоватьМаксимальноеЗначение</name>
+      <id>29</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ИспользоватьОтказОтОтвета</name>
+      <id>30</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ФормулировкаОтказаОтОтвета</name>
+      <id>31</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ДиапазонПодсказокЧисловогоВопроса</name>
+      <id>32</id>
+      <valueType>
+        <types>ValueTable</types>
       </valueType>
       <view>
         <common>true</common>
@@ -2446,6 +2601,52 @@
           <numberQualifiers>
             <precision>10</precision>
           </numberQualifiers>
+        </valueType>
+        <view>
+          <common>true</common>
+        </view>
+        <edit>
+          <common>true</common>
+        </edit>
+      </columns>
+    </additionalColumns>
+    <additionalColumns>
+      <tablePath xsi:type="form:DataPath">
+        <segments>ДеревоАнкеты.ДиапазонПодсказокЧисловогоВопроса</segments>
+      </tablePath>
+      <columns>
+        <name>ЗначениеДо</name>
+        <title>
+          <key>ru</key>
+          <value>Значение до</value>
+        </title>
+        <id>1</id>
+        <valueType>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>15</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </valueType>
+        <view>
+          <common>true</common>
+        </view>
+        <edit>
+          <common>true</common>
+        </edit>
+      </columns>
+      <columns>
+        <name>Подсказка</name>
+        <title>
+          <key>ru</key>
+          <value>Подсказка</value>
+        </title>
+        <id>2</id>
+        <valueType>
+          <types>String</types>
+          <stringQualifiers>
+            <length>250</length>
+          </stringQualifiers>
         </valueType>
         <view>
           <common>true</common>
