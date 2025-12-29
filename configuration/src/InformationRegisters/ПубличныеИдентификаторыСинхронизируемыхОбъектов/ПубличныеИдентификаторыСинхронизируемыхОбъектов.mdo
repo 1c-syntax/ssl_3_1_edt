@@ -16,6 +16,7 @@
   </synonym>
   <editType>InDialog</editType>
   <defaultRecordForm>InformationRegister.ПубличныеИдентификаторыСинхронизируемыхОбъектов.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ПубличныеИдентификаторыСинхронизируемыхОбъектов.Form.ФормаСписка</defaultListForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
@@ -114,6 +115,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bea50ff1-49e9-4a2d-beed-8a8594bd57ff">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

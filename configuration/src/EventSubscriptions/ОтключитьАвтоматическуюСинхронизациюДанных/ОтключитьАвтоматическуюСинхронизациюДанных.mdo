@@ -7,7 +7,7 @@
   </synonym>
   <comment>Проверяет необходимость отключения автоматической синхронизации данных</comment>
   <source>
-    <types>InformationRegisterRecordSet.УдалитьНастройкиТранспортаОбмена</types>
+    <types>CatalogObject.НастройкиТранспортаСообщенийОбмена</types>
   </source>
   <event>OnWrite</event>
   <handler>CommonModule.ОбменДаннымиСобытия.ОтключитьАвтоматическуюСинхронизациюДанныхПриЗаписи</handler>

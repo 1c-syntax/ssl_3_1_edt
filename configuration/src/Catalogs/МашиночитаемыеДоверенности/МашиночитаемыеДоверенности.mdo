@@ -1105,6 +1105,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="85ca3f27-36af-4ae6-9240-a7f9698b12ca">
+    <name>Квитанции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квитанции оператора и другие файлы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="d9cc0bdf-ec8a-41e6-a04d-f87a277dc07e">
     <name>ПФ_MXL_Доверенность</name>
     <synonym>
@@ -1138,6 +1147,13 @@
     </synonym>
     <comment>АПК:497 Не подлежит переводу, находится в локализованной части</comment>
     <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="ade8ef52-e3cb-4b26-9d7e-ec1f1cdc19f0">
+    <name>ПФ_MXL_Квитанция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Квитанция</value>
+    </synonym>
   </templates>
   <commands uuid="20cbe469-17f9-44da-8317-91feef8c5d46">
     <name>Отменить</name>

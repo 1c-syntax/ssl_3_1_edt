@@ -10,8 +10,14 @@
     <value>Транспорт сообщений обмена через FTP</value>
   </synonym>
   <defaultForm>DataProcessor.ТранспортСообщенийОбменаFTP.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <attributes uuid="821b93bd-f0dd-4468-972a-d9b2b4de72f1">
-    <name>FTPСжиматьФайлИсходящегоСообщения</name>
+    <name>СжиматьФайлИсходящегоСообщения</name>
     <synonym>
       <key>ru</key>
       <value>Сжимать файл исходящего сообщения</value>
@@ -23,10 +29,10 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="56900066-90e3-40c0-b64a-8f7964a4dfc1">
-    <name>FTPСоединениеМаксимальныйДопустимыйРазмерСообщения</name>
+    <name>МаксимальныйДопустимыйРазмерСообщения</name>
     <synonym>
       <key>ru</key>
-      <value>Максимальный размер сообщения обмена, КБайт</value>
+      <value>Максимальный допустимый размер сообщения</value>
     </synonym>
     <type>
       <types>Number</types>
@@ -43,7 +49,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="56f0c4d6-9b13-486a-9586-05e657dca8be">
-    <name>FTPСоединениеПароль</name>
+    <name>Пароль</name>
     <synonym>
       <key>ru</key>
       <value>Пароль</value>
@@ -57,7 +63,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="c795c0d3-6a0d-4311-9821-df320663727e">
-    <name>FTPСоединениеПассивноеСоединение</name>
+    <name>ПассивноеСоединение</name>
     <synonym>
       <key>ru</key>
       <value>Пассивное соединение</value>
@@ -70,7 +76,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="512b8d89-8798-4549-9e79-b9c3f7d9098f">
-    <name>FTPСоединениеПользователь</name>
+    <name>Пользователь</name>
     <synonym>
       <key>ru</key>
       <value>Пользователь (логин)</value>
@@ -83,7 +89,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="e1fe71f8-f37c-4705-aca1-c25e2bdc5db6">
-    <name>FTPСоединениеПорт</name>
+    <name>Порт</name>
     <synonym>
       <key>ru</key>
       <value>Порт</value>
@@ -99,7 +105,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="7f356abf-9045-4a76-89f3-8b52d467122a">
-    <name>FTPСоединениеПуть</name>
+    <name>Путь</name>
     <synonym>
       <key>ru</key>
       <value>Путь к каталогу</value>
@@ -124,40 +130,14 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="51fa8d01-44a1-4e75-9b04-6a2504972f08">
-    <name>ШаблонИмениФайлаСообщения</name>
+  <attributes uuid="e38fb48f-0e16-44d9-bf3f-21c804c404e0">
+    <name>Транслитерация</name>
     <synonym>
       <key>ru</key>
-      <value>Шаблон имени файла сообщения</value>
+      <value>Транслитерация</value>
     </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <attributes uuid="73dae482-a1ee-4c57-8859-2dd8e8635a49">
-    <name>ИспользоватьВременныйКаталогДляОтправкиИПриемаСообщений</name>
-    <synonym>
-      <key>ru</key>
-      <value>Использовать временный каталог для отправки и приема сообщений</value>
-    </synonym>
-    <comment>Истина - Отправка и получение сообщений обмена будет выполняться через временный каталог; Ложь – отправка и получение будет выполняться напрямую через каталог обмена</comment>
     <type>
       <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <attributes uuid="9c57c3d0-aaa1-4c87-a81c-36ac4dd48eaa">
-    <name>УзелИнформационнойБазы</name>
-    <synonym>
-      <key>ru</key>
-      <value>Узел информационной базы</value>
-    </synonym>
-    <type>
-      <types>ExchangePlanRef</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -167,6 +147,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="02b13a31-1790-4a4f-bab7-bdd8deb0ef3c">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

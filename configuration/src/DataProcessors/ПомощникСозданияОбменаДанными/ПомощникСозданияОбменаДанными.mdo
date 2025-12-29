@@ -9,6 +9,7 @@
     <key>ru</key>
     <value>Помощник настройки синхронизации данных</value>
   </synonym>
+  <defaultForm>DataProcessor.ПомощникСозданияОбменаДанными.Form.НастройкаОбщихПараметров</defaultForm>
   <includeHelpInContents>true</includeHelpInContents>
   <help>
     <pages>
@@ -497,6 +498,31 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="3eba3f44-b58b-4541-be75-a72a059ef371">
+    <name>ВосстановлениеНастроекОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Восстановление настроек обмена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7e73f7e0-6a6c-425b-9ac3-375b12383f3f">
+    <name>ДанныеАутентификации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные аутентификации</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <attributes uuid="0a7d282e-45bb-4a87-b325-1659519867fb">
     <name>ИмяПланаОбменаКорреспондента</name>
     <synonym>
@@ -521,6 +547,36 @@
     <type>
       <types>String</types>
       <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9167a91a-0fe6-45b5-ab9d-e2c9eaa93f67">
+    <name>ИдентификаторНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор настройки</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="02597e1e-6c6a-4bd8-a8f8-1b6d62a8f21a">
+    <name>ИдентификаторТранспорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор транспорта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -658,6 +714,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
   </attributes>
   <attributes uuid="eb69c41a-392d-43bb-9b67-a0adcb651b1e">
     <name>НаименованиеЭтойБазы</name>
@@ -673,6 +730,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
   </attributes>
   <attributes uuid="93b01c88-48a2-4753-b443-0e9892395a8f">
     <name>ПарольАрхиваСообщенияОбмена</name>
@@ -701,6 +759,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
   </attributes>
   <attributes uuid="e71e0297-3709-4247-933e-18a6350cbf39">
     <name>ПрефиксИнформационнойБазыИсточникаУстановлен</name>
@@ -710,6 +769,21 @@
     </synonym>
     <type>
       <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fbe493f8-cf58-4ca8-b7fb-3923771dd5e9">
+    <name>КодУзла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код узла</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -728,6 +802,7 @@
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
   </attributes>
   <attributes uuid="602dac6f-abe6-407a-92d3-7f1613e5dda6">
     <name>ПрефиксИнформационнойБазыПриемникаУстановлен</name>
@@ -762,6 +837,16 @@
     <type>
       <types>ExchangePlanRef</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f2f210f3-a114-4788-9172-9133dc95b832">
+    <name>НастройкиТранспорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки транспорта</value>
+    </synonym>
+    <type/>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -813,6 +898,16 @@
     <type>
       <types>Boolean</types>
     </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="16b68fad-30fb-4c1d-ab96-2d14a2e6ae03">
+    <name>ПоддерживаемыеОбъектыФорматаКорреспондента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поддерживаемые объекты формата корреспондента</value>
+    </synonym>
+    <type/>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
@@ -934,6 +1029,16 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
+  <attributes uuid="84d76e6b-0418-47d0-9df2-95e0116517be">
+    <name>ВерсииФорматаОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версии формата обмена</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <forms uuid="c076b7fd-7e17-4811-82e7-047e2bf43bb0">
     <name>НоваяСинхронизацияДанных</name>
     <synonym>
@@ -948,15 +1053,6 @@
     <synonym>
       <key>ru</key>
       <value>Настройка синхронизации</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="77d8285f-a87b-4a4e-b6ee-85bcd54dee12">
-    <name>НастройкаПодключения</name>
-    <synonym>
-      <key>ru</key>
-      <value>Настройка подключения</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -1002,6 +1098,33 @@
     <synonym>
       <key>ru</key>
       <value>Переход на интернет соединение</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c9b46771-b627-413d-afbb-dd733e0f1a1d">
+    <name>ВыборТипаТранспорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор типа транспорта</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="49192a55-34fe-4db3-8ef9-a0d7af2766c9">
+    <name>НастройкаОбщихПараметров</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка общих параметров</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="31001011-bdbb-4499-a613-72d0305acd9d">
+    <name>ПовторнаяСинхронизацияДанныхПередЗапуском</name>
+    <synonym>
+      <key>ru</key>
+      <value>Повторная синхронизация данных перед запуском</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

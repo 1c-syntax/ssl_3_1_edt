@@ -16,22 +16,6 @@
       <lang>ru</lang>
     </pages>
   </help>
-  <attributes uuid="6c5d0ac3-6086-434c-812b-1c1158ecc574">
-    <name>ВидТранспортаСообщенийОбмена</name>
-    <synonym>
-      <key>ru</key>
-      <value>Укажите способ обмена данными</value>
-    </synonym>
-    <type>
-      <types>EnumRef.ВидыТранспортаСообщенийОбмена</types>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Способ обмена данными</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
   <attributes uuid="783536d7-c0db-44c9-96e8-58b57804d7c8">
     <name>ИмяВременногоКаталогаСообщенийОбмена</name>
     <synonym>
@@ -96,6 +80,21 @@
       <key>ru</key>
       <value>Узел информационной базы обмена</value>
     </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6900c947-150c-4842-b37d-99f9b704f0a5">
+    <name>ИдентификаторТранспорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор транспорта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>

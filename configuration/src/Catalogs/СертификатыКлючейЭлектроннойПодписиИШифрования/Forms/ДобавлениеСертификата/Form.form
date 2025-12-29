@@ -8,7 +8,7 @@
       <id>100</id>
       <title>
         <key>ru</key>
-        <value>Оформить заявление на выпуск сертификата...</value>
+        <value>Выпустить сертификат...</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -18,11 +18,6 @@
       <extendedTooltip>
         <name>ДобавитьЗаявлениеНаВыпускСертификатаРасширеннаяПодсказка</name>
         <id>101</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -43,7 +38,7 @@
       <id>84</id>
       <title>
         <key>ru</key>
-        <value>Добавить для подписания и шифрования...</value>
+        <value>Добавить для подписания и шифрования из личного хранилища...</value>
       </title>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -53,11 +48,6 @@
       <extendedTooltip>
         <name>ДобавитьДляПодписанияИШифрованияРасширеннаяПодсказка</name>
         <id>85</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -67,6 +57,36 @@
       </extendedTooltip>
       <type>UsualButton</type>
       <commandName>Form.Command.ДобавитьДляПодписанияИШифрования</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <representationInContextMenu>Auto</representationInContextMenu>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ДобавитьДляПодписанияИШифрованияИзФайлов</name>
+      <id>102</id>
+      <title>
+        <key>ru</key>
+        <value>Добавить для подписания и шифрования из файлов...</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ДобавитьДляПодписанияИШифрованияИзФайловРасширеннаяПодсказка</name>
+        <id>103</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualButton</type>
+      <commandName>Form.Command.ДобавитьДляПодписанияИШифрованияИзФайлов</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -91,11 +111,6 @@
         <extendedTooltip>
           <name>ДобавитьТолькоДляШифрованияРасширеннаяПодсказка</name>
           <id>93</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -126,11 +141,6 @@
         <extendedTooltip>
           <name>ДобавитьИзФайловРасширеннаяПодсказка</name>
           <id>91</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -161,11 +171,6 @@
         <extendedTooltip>
           <name>ДобавитьИзКаталогаРасширеннаяПодсказка</name>
           <id>89</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -193,11 +198,6 @@
       <extendedTooltip>
         <name>ГруппаТолькоДляШифрованияРасширеннаяПодсказка</name>
         <id>95</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -228,11 +228,6 @@
     <extendedTooltip>
       <name>ГруппаКомандыРасширеннаяПодсказка</name>
       <id>81</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -255,11 +250,6 @@
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
     <horizontalAlign>Right</horizontalAlign>
   </autoCommandBar>
   <handlers>
@@ -294,7 +284,7 @@
     <name>ДобавитьДляПодписанияИШифрования</name>
     <title>
       <key>ru</key>
-      <value>Добавить для подписания и шифрования...</value>
+      <value>Добавить для подписания и шифрования из личного хранилища...</value>
     </title>
     <id>1</id>
     <use>
@@ -357,7 +347,7 @@
     <name>ДобавитьЗаявлениеНаВыпускСертификата</name>
     <title>
       <key>ru</key>
-      <value>Оформить заявление на выпуск сертификата...</value>
+      <value>Выпустить сертификат...</value>
     </title>
     <id>6</id>
     <use>
@@ -394,6 +384,27 @@
     </action>
     <representation>TextPicture</representation>
     <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ДобавитьДляПодписанияИШифрованияИзФайлов</name>
+    <title>
+      <key>ru</key>
+      <value>Добавить для подписания и шифрования из файлов...</value>
+    </title>
+    <id>3</id>
+    <use>
+      <common>true</common>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.СертификатВЛичномХранилище</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ДобавитьДляПодписанияИШифрованияИзФайлов</name>
+      </handler>
+    </action>
+    <representation>TextPicture</representation>
+    <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <parameters>
     <name>СкрытьЗаявление</name>

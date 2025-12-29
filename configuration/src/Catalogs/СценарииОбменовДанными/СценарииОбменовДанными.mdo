@@ -254,7 +254,7 @@
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
     <attributes uuid="f4a85bfb-40c7-4f81-af32-d07b96c53ad0">
-      <name>ВидТранспортаОбмена</name>
+      <name>УдалитьВидТранспортаОбмена</name>
       <synonym>
         <key>ru</key>
         <value>Подключение</value>
@@ -268,7 +268,6 @@
       </toolTip>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
-      <fillChecking>ShowError</fillChecking>
       <dataHistory>Use</dataHistory>
       <fullTextSearch>Use</fullTextSearch>
     </attributes>
@@ -285,6 +284,22 @@
         <key>ru</key>
         <value>Действие сценарий обмена (выгрузка/загрузка данных).</value>
       </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="eabb04a7-2ae0-44ad-bd3a-9118b0c3886c">
+      <name>ИдентификаторТранспорта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор транспорта</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillChecking>ShowError</fillChecking>

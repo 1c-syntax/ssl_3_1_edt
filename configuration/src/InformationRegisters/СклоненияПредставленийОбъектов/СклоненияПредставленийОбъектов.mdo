@@ -15,6 +15,7 @@
     <value>Склонения представлений объектов</value>
   </synonym>
   <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.СклоненияПредставленийОбъектов.Form.ФормаЗаписи</defaultRecordForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
@@ -59,6 +60,10 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Представление, которое склоняется</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -77,6 +82,10 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Родительный падеж представления (именительного падежа)</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -95,6 +104,10 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Дательный падеж представления (именительного падежа)</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -113,6 +126,10 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Винительный падеж представления (именительного падежа)</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -131,6 +148,10 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Творительный падеж представления (именительного падежа)</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -149,6 +170,10 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Предложный падеж представления (именительного падежа)</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -169,6 +194,10 @@
         <length>40</length>
       </stringQualifiers>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Хеш-сумма представления (именительного падежа), которое склоняется</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <denyIncompleteValues>true</denyIncompleteValues>
@@ -188,6 +217,10 @@
     <type>
       <types>DefinedType.ОбъектСклонения</types>
     </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Ссылка на элемент справочника, к которому относится представление или пустая ссылка (для случаев когда склонение представления выполнялось без указания ссылки на объект)</value>
+    </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -197,4 +230,13 @@
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="823f925c-b71f-42b1-a71e-0aab823f59c6">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>

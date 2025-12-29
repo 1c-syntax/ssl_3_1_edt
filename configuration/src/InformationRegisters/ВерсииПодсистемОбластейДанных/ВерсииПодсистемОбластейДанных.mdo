@@ -16,6 +16,7 @@
   </synonym>
   <comment>Версии библиотек этого приложения</comment>
   <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.ВерсииПодсистемОбластейДанных.Form.ФормаСписка</defaultListForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
@@ -134,4 +135,13 @@
     </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="e9b5a16c-d445-4e62-9a1b-bbea46850646">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>

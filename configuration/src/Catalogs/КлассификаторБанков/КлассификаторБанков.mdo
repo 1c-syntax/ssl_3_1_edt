@@ -318,10 +318,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="d253aa54-a447-44aa-bb13-82fd1ce22af4">
-    <name>Страна</name>
+    <name>УдалитьСтрана</name>
     <synonym>
       <key>ru</key>
-      <value>Страна</value>
+      <value>(не используется) Страна</value>
     </synonym>
     <type>
       <types>CatalogRef.СтраныМира</types>
@@ -441,6 +441,24 @@
       <value></value>
     </fillValue>
     <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b6a1652b-6ee8-4cab-9681-c722b60f1e2e">
+    <name>КодСтраны</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код страны</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>3</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>

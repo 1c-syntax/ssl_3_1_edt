@@ -40,12 +40,9 @@
   <content>CommonModule.ОбменДаннымиXDTOСервер</content>
   <content>FunctionalOption.ИспользоватьСинхронизациюДанных</content>
   <content>Constant.ПрефиксУзлаРаспределеннойИнформационнойБазы</content>
-  <content>DataProcessor.ТранспортСообщенийОбменаFILE</content>
   <content>InformationRegister.СостоянияУспешныхОбменовДанными</content>
   <content>InformationRegister.СостоянияОбменовДанными</content>
-  <content>CommonCommand.НастройкиПодключения</content>
   <content>CommonModule.ОбменДаннымиГлобальный</content>
-  <content>WebService.Exchange_3_0_1_1</content>
   <content>CommonCommand.СобытияПолучения</content>
   <content>Enum.ИсточникиПравилДляОбменаДанными</content>
   <content>XDTOPackage.ExchangeMessage</content>
@@ -67,8 +64,6 @@
   <content>CommonPicture.СинхронизацияДанныхНастройка</content>
   <content>CommonCommand.ЗагрузитьКомплектПравил</content>
   <content>DataProcessor.ПомощникИнтерактивногоОбменаДанными</content>
-  <content>DataProcessor.ТранспортСообщенийОбменаFTP</content>
-  <content>DataProcessor.ТранспортСообщенийОбменаEMAIL</content>
   <content>FunctionalOption.ПрефиксИнформационнойБазы</content>
   <content>CommonPicture.СостояниеОбменаДанными</content>
   <content>WebService.EnterpriseDataUpload_1_0_1_1</content>
@@ -82,7 +77,7 @@
   <content>CommonPicture.СинхронизацияДанныхИнтерактивноеВыполнение</content>
   <content>CommonPicture.СостояниеОбменаДаннымиОшибка</content>
   <content>CommonForm.НастройкиСинхронизацииДанных</content>
-  <content>InformationRegister.НастройкиТранспортаОбменаДанными</content>
+  <content>InformationRegister.УдалитьНастройкиТранспортаОбменаДанными</content>
   <content>Role.ВыполнениеСинхронизацииДанных</content>
   <content>CommandGroup.СинхронизацияДанных</content>
   <content>CommonCommand.СинхронизироватьСДополнительнымиПараметрами</content>
@@ -97,12 +92,10 @@
   <content>CommonCommand.ПолучитьНастройкиСинхронизацииДляДругойПрограммы</content>
   <content>EventSubscription.ПроверитьИзменениеФильтровОграниченияМиграцииДанных</content>
   <content>EventSubscription.ОтменитьОтправкуДанныхУзлаВРаспределеннойИнформационнойБазе</content>
-  <content>WebService.Exchange</content>
   <content>InformationRegister.СообщенияОбменаДанными</content>
   <content>ScheduledJob.УдалениеНеактуальнойИнформацииСинхронизации</content>
   <content>InformationRegister.ИзмененияОбщихДанныхУзлов</content>
   <content>EventSubscription.ЗарегистрироватьИзмененияОбщихДанныхУзлов</content>
-  <content>WebService.Exchange_2_0_1_6</content>
   <content>Constant.СообщениеОбменаДаннымиИзГлавногоУзла</content>
   <content>DataProcessor.ВыполнениеОбменаДанными</content>
   <content>CommonForm.ДополнительноеОписание</content>
@@ -162,8 +155,6 @@
   <content>XDTOPackage.EnterpriseData_1_10_8</content>
   <content>CommonModule.ОбновлениеИнформационнойБазыБСД</content>
   <content>XDTOPackage.EnterpriseData_1_8_6</content>
-  <content>WebService.Exchange_3_0_2_1</content>
-  <content>CommonModule.ОбменДаннымиВебСервис</content>
   <content>CommonCommand.ОбъектыНезарегистрированныеПриЗацикливании</content>
   <content>CommonCommand.ПомощникПереходаНаИнтернетВнутренняяПубликация</content>
   <content>InformationRegister.КонтурСинхронизации</content>
@@ -182,9 +173,16 @@
   <content>XDTOPackage.EnterpriseData_1_11_7</content>
   <content>XDTOPackage.EnterpriseData_1_15_3</content>
   <content>XDTOPackage.EnterpriseData_1_12_1</content>
-  <content>WebService.Exchange_3_0_2_2</content>
   <content>XDTOPackage.EnterpriseData_1_16_2</content>
+  <content>CommonPicture.НастройкаОбменаДаннымиАктивна</content>
   <content>XDTOPackage.EnterpriseData_1_17_3</content>
+  <content>DefinedType.ПланыОбменаБСД</content>
+  <content>XDTOPackage.EnterpriseData_1_18_3</content>
+  <content>XDTOPackage.EnterpriseData_1_19_1</content>
+  <content>StyleItem.ПодсказкаСинхронизации</content>
+  <content>CommonCommand.ПредупреждениеЦикличностиНастроекОбменов</content>
+  <content>XDTOPackage.EnterpriseData_1_20_2</content>
   <subsystems>Регистрация</subsystems>
+  <subsystems>ТранспортСообщенийОбмена</subsystems>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

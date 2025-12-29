@@ -20,11 +20,6 @@
         <key>ru</key>
         <value>Обновление выполняется медленно во всех областях (по обработчику за раз и в один поток), экономя аппаратные ресурсы для задач пользователей.</value>
       </title>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -35,11 +30,6 @@
     <contextMenu>
       <name>ПриоритетОбновленияВОбластяхДанныхРаботаПользователейКонтекстноеМеню</name>
       <id>9</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>RadioButtonField</type>
@@ -79,11 +69,6 @@
         <key>ru</key>
         <value>Обновление выполняется быстро во всех областях (непрерывно и в несколько потоков, если поддерживается), в ущерб производительности интерактивной работы пользователей.</value>
       </title>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -94,11 +79,6 @@
     <contextMenu>
       <name>ПриоритетОбновленияВОбластяхДанныхОбработкаДанныхКонтекстноеМеню</name>
       <id>12</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>RadioButtonField</type>
@@ -138,11 +118,6 @@
         <key>ru</key>
         <value>Обновление в каждой области выполняется со своим приоритетом (в каждой свой).</value>
       </title>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <type>Label</type>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -153,11 +128,6 @@
     <contextMenu>
       <name>ПриоритетОбновленияВОбластяхДанныхНеПереопределятьКонтекстноеМеню</name>
       <id>15</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
       <autoFill>true</autoFill>
     </contextMenu>
     <type>RadioButtonField</type>
@@ -180,11 +150,6 @@
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
-    <visible>true</visible>
-    <enabled>true</enabled>
-    <userVisible>
-      <common>true</common>
-    </userVisible>
     <horizontalAlign>Left</horizontalAlign>
     <autoFill>true</autoFill>
   </autoCommandBar>

@@ -97,6 +97,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.СохранениеПоФорматуВыгрузки</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ИспользоватьЭлектронныеПодписи</name>
 		<right>
 			<name>Read</name>
@@ -282,7 +289,7 @@
 		</right>
 	</object>
 	<object>
-		<name>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</name>
+		<name>CommonForm.ВопросОбУстановкеРасширения1СПредприятия</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -802,13 +809,6 @@
 			<name>Read</name>
 			<value>true</value>
 		</right>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.РезультатПроверки</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -1705,6 +1705,33 @@
 		</right>
 	</object>
 	<object>
+		<name>Configuration.БиблиотекаСтандартныхПодсистем</name>
+		<right>
+			<name>MainWindowModeNormal</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeEmbeddedWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeFullscreenWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeKiosk</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>AnalyticsSystemClient</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.НастройкаПодчиненногоУзлаРИБЗавершена</name>
 		<right>
 			<name>Read</name>
@@ -2251,6 +2278,13 @@
 		</right>
 	</object>
 	<object>
+		<name>CommonForm.ВыборОсновнойПечатнойФормы</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.АдресПубликацииИнформационнойБазыВЛокальнойСети</name>
 		<right>
 			<name>Read</name>
@@ -2280,33 +2314,6 @@
 		</right>
 		<right>
 			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Configuration.БиблиотекаСтандартныхПодсистем</name>
-		<right>
-			<name>MainWindowModeNormal</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeEmbeddedWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeFullscreenWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeKiosk</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>AnalyticsSystemClient</name>
 			<value>true</value>
 		</right>
 	</object>

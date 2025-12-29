@@ -14,6 +14,7 @@
     <key>ru</key>
     <value>Соответствия объектов информационных баз</value>
   </synonym>
+  <defaultListForm>InformationRegister.СоответствияОбъектовИнформационныхБаз.Form.ФормаСписка</defaultListForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
@@ -216,4 +217,13 @@
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="a0febcb5-12dd-4405-b503-4436899704dc">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>

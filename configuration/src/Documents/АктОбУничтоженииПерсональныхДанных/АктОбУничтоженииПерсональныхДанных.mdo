@@ -71,10 +71,14 @@
     <typesFilterValue xsi:type="core:StringValue">
       <value>Документ_АктОбУничтоженииПерсональныхДанных</value>
     </typesFilterValue>
+    <dataPathField>0</dataPathField>
+    <multipleValuesUseField>0</multipleValuesUseField>
     <characteristicValues>Document.АктОбУничтоженииПерсональныхДанных.TabularSection.ДополнительныеРеквизиты</characteristicValues>
     <objectField>Document.АктОбУничтоженииПерсональныхДанных.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</objectField>
     <typeField>Document.АктОбУничтоженииПерсональныхДанных.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</typeField>
     <valueField>Document.АктОбУничтоженииПерсональныхДанных.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</valueField>
+    <multipleValuesKeyField>0</multipleValuesKeyField>
+    <multipleValuesOrderField>0</multipleValuesOrderField>
   </characteristics>
   <characteristics>
     <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
@@ -83,10 +87,14 @@
     <typesFilterValue xsi:type="core:StringValue">
       <value>Документ_АктОбУничтоженииПерсональныхДанных</value>
     </typesFilterValue>
+    <dataPathField>0</dataPathField>
+    <multipleValuesUseField>0</multipleValuesUseField>
     <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
     <objectField>InformationRegister.ДополнительныеСведения.Dimension.Объект</objectField>
     <typeField>InformationRegister.ДополнительныеСведения.Dimension.Свойство</typeField>
     <valueField>InformationRegister.ДополнительныеСведения.Resource.Значение</valueField>
+    <multipleValuesKeyField>0</multipleValuesKeyField>
+    <multipleValuesOrderField>0</multipleValuesOrderField>
   </characteristics>
   <createOnInput>Use</createOnInput>
   <help>

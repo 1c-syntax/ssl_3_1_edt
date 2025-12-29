@@ -129,30 +129,6 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </resources>
-  <resources uuid="f779f4a1-1fab-46d4-8043-ac25c247d361">
-    <name>ИмяФайлаПодписи</name>
-    <synonym>
-      <key>ru</key>
-      <value>Имя файла подписи</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>260</length>
-      </stringQualifiers>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Имя файла подписи (служебное поле)</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-  </resources>
   <resources uuid="308358bc-773a-43fa-adff-dcc5884a2bd4">
     <name>Комментарий</name>
     <synonym>
@@ -251,25 +227,6 @@
     <toolTip>
       <key>ru</key>
       <value>Результат последней проверки подписи.</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </resources>
-  <resources uuid="f9865a2a-50e3-4f9c-a509-319be62dc468">
-    <name>Сертификат</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сертификат</value>
-    </synonym>
-    <type>
-      <types>ValueStorage</types>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Двоичные данные сертификата (служебное поле)</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

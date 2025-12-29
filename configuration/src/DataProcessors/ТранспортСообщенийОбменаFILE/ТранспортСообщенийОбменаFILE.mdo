@@ -10,8 +10,14 @@
     <value>Транспорт сообщений обмена через общий сетевой ресурс</value>
   </synonym>
   <defaultForm>DataProcessor.ТранспортСообщенийОбменаFILE.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <attributes uuid="8f44ebad-1160-474e-a566-fb9da55ffcba">
-    <name>FILEКаталогОбменаИнформацией</name>
+    <name>КаталогОбменаИнформацией</name>
     <synonym>
       <key>ru</key>
       <value>Каталог обмена информацией</value>
@@ -24,7 +30,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <attributes uuid="11cf336e-7890-4972-bf71-32d7416ff647">
-    <name>FILEСжиматьФайлИсходящегоСообщения</name>
+    <name>СжиматьФайлИсходящегоСообщения</name>
     <synonym>
       <key>ru</key>
       <value>Сжимать файл исходящего сообщения</value>
@@ -48,40 +54,14 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="14bd3392-36cd-4ed0-8847-44375d6fb861">
-    <name>ШаблонИмениФайлаСообщения</name>
+  <attributes uuid="880658c1-dbab-4333-b51f-efd8b3039a34">
+    <name>Транслитерация</name>
     <synonym>
       <key>ru</key>
-      <value>Шаблон имени файла сообщения</value>
+      <value>Транслитерация</value>
     </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers/>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <attributes uuid="759ede7a-e832-44e6-9b11-5bfb3c507820">
-    <name>ИспользоватьВременныйКаталогДляОтправкиИПриемаСообщений</name>
-    <synonym>
-      <key>ru</key>
-      <value>Использовать временный каталог для отправки и приема сообщений</value>
-    </synonym>
-    <comment>Истина - Отправка и получение сообщений обмена будет выполняться через временный каталог; Ложь – отправка и получение будет выполняться напрямую через каталог обмена</comment>
     <type>
       <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-  </attributes>
-  <attributes uuid="c99c7271-cb3c-4fd2-8789-8637cf984514">
-    <name>УзелИнформационнойБазы</name>
-    <synonym>
-      <key>ru</key>
-      <value>Узел информационной базы</value>
-    </synonym>
-    <type>
-      <types>ExchangePlanRef</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -91,6 +71,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7ef8627b-f924-4fef-982f-2f6bcb4e935b">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

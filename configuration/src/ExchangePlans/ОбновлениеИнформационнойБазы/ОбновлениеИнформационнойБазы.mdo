@@ -18,6 +18,13 @@
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
+    <name>ExchangeDate</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
     <name>ThisNode</name>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
@@ -211,6 +218,9 @@
     <mdObject>InformationRegister.ОбъектыНезарегистрированныеПриЗацикливании</mdObject>
   </content>
   <content>
+    <mdObject>Constant.ИспользоватьСервисМобильнойПодписи</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.НастройкаПроксиСервера</mdObject>
   </content>
   <content>
@@ -271,6 +281,9 @@
     <mdObject>InformationRegister.УровниСокращенийАдресныхСведений</mdObject>
   </content>
   <content>
+    <mdObject>Constant.РазрешитьДоступКИнтернетСервисам</mdObject>
+  </content>
+  <content>
     <mdObject>InformationRegister.СостоянияОригиналовПервичныхДокументов</mdObject>
   </content>
   <content>
@@ -295,6 +308,9 @@
     <mdObject>Constant.ПрофильБезопасностиИнформационнойБазы</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.ПодписантыСервисаМобильнойПодписи</mdObject>
+  </content>
+  <content>
     <mdObject>Catalog.ЗапланированноеВзаимодействиеПрисоединенныеФайлы</mdObject>
   </content>
   <content>
@@ -305,6 +321,9 @@
   </content>
   <content>
     <mdObject>Constant.ИспользоватьПризнакРассмотрено</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.СервисМобильнойПодписиСтатусы</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ПредопределенныеВариантыОтчетовВерсийРасширений</mdObject>
@@ -421,6 +440,9 @@
     <mdObject>Catalog.ОбщиеВнешниеКомпоненты</mdObject>
   </content>
   <content>
+    <mdObject>Constant.РазрешитьДоступКИнтернетСервисамЭлектроннойПодписи</mdObject>
+  </content>
+  <content>
     <mdObject>Constant.СписокЗапрещенныхРасширенийОбластиДанных</mdObject>
   </content>
   <content>
@@ -476,6 +498,9 @@
   </content>
   <content>
     <mdObject>Constant.СписокРасширенийТекстовыхФайлов</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ЗагруженныеВерсииАдресныхСведений</mdObject>
@@ -536,6 +561,9 @@
   </content>
   <content>
     <mdObject>InformationRegister.ЗначенияГруппДоступаПоУмолчанию</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОсновныеПечатныеФормыКонтрагентов</mdObject>
   </content>
   <content>
     <mdObject>Constant.РазрешенныеНеаккредитованныеУЦ</mdObject>
@@ -667,7 +695,7 @@
     <mdObject>InformationRegister.ДополнительныеАдресныеСведения</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.НастройкиТранспортаОбменаДанными</mdObject>
+    <mdObject>InformationRegister.УдалитьНастройкиТранспортаОбменаДанными</mdObject>
   </content>
   <content>
     <mdObject>Constant.СтатусОбновленияКонфигурации</mdObject>
@@ -700,7 +728,7 @@
     <mdObject>InformationRegister.ПользовательскиеМакетыПечати</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</mdObject>
+    <mdObject>InformationRegister.УдалитьБезопасноеХранилищеДанныхОбластейДанных</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.МуниципальнаяИерархия</mdObject>
@@ -946,6 +974,9 @@
     <mdObject>Catalog.ГруппыИсполнителейЗадач</mdObject>
   </content>
   <content>
+    <mdObject>Catalog.НастройкиТранспортаСообщенийОбмена</mdObject>
+  </content>
+  <content>
     <mdObject>Catalog.ЗначенияСвойствОбъектов</mdObject>
   </content>
   <content>
@@ -998,6 +1029,9 @@
   </content>
   <content>
     <mdObject>Catalog.ХранилищеДвоичныхДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОсновныеПечатныеФормыОбъектов</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.НастройкиТранспортаОбменаОбластиДанных</mdObject>

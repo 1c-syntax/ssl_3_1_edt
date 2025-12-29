@@ -5,8 +5,9 @@
     <key>ru</key>
     <value>Проверить безопасный режим перед записью набора записи</value>
   </synonym>
+  <comment>// АПК:1371</comment>
   <source>
-    <types>InformationRegisterRecordSet.НастройкиТранспортаОбменаДанными</types>
+    <types>InformationRegisterRecordSet.УдалитьНастройкиТранспортаОбменаДанными</types>
     <types>InformationRegisterRecordSet.ПравилаДляОбменаДанными</types>
     <types>InformationRegisterRecordSet.ИспользуемыеВидыДоступа</types>
     <types>InformationRegisterRecordSet.СубъектыДляСкрытияПерсональныхДанных</types>
@@ -16,7 +17,6 @@
     <types>InformationRegisterRecordSet.НастройкиСинхронизацииФайлов</types>
     <types>InformationRegisterRecordSet.СообщенияОбменаДаннымиОбластейДанных</types>
     <types>InformationRegisterRecordSet.ЗначенияГруппДоступаПоУмолчанию</types>
-    <types>InformationRegisterRecordSet.БезопасноеХранилищеДанныхОбластейДанных</types>
     <types>InformationRegisterRecordSet.ВерсииПодсистем</types>
     <types>InformationRegisterRecordSet.ДанныеОбработанныеВЦентральномУзлеРИБ</types>
     <types>InformationRegisterRecordSet.СоответствияОбъектовИнформационныхБаз</types>
@@ -50,6 +50,7 @@
     <types>InformationRegisterRecordSet.УничтоженныеПерсональныеДанные</types>
     <types>InformationRegisterRecordSet.НастройкиТранспортаОбменаОбластейДанных</types>
     <types>InformationRegisterRecordSet.СогласияНаОбработкуПерсональныхДанных</types>
+    <types>InformationRegisterRecordSet.БезопасноеХранилищеДанныхОбластейДанных</types>
     <types>InformationRegisterRecordSet.ПараметрыРаботыВерсийРасширений</types>
     <types>InformationRegisterRecordSet.ОбластиПерсональныхДанных</types>
     <types>InformationRegisterRecordSet.ОтправленныеСерверныеОповещения</types>

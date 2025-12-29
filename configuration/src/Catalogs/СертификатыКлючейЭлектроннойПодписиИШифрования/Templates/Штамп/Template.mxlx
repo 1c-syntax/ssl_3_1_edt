@@ -95,18 +95,7 @@
 			<c>
 				<c>
 					<f>11</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content> Сертификат:</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>12</f>
-					<parameter>НомерСертификата</parameter>
+					<parameter>ТекстШтампа</parameter>
 				</c>
 			</c>
 		</row>
@@ -121,19 +110,7 @@
 			</c>
 			<c>
 				<c>
-					<f>11</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content> Владелец:</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
 					<f>12</f>
-					<parameter>ВладелецСертификата</parameter>
 				</c>
 			</c>
 		</row>
@@ -148,19 +125,7 @@
 			</c>
 			<c>
 				<c>
-					<f>14</f>
-					<tl>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content> Действителен:</v8:content>
-						</v8:item>
-					</tl>
-				</c>
-			</c>
-			<c>
-				<c>
-					<f>15</f>
-					<parameter>СрокДействия</parameter>
+					<f>12</f>
 				</c>
 			</c>
 		</row>
@@ -170,19 +135,24 @@
 		<row>
 			<c>
 				<c>
-					<f>16</f>
+					<f>14</f>
 				</c>
 			</c>
 			<c>
 				<c>
-					<f>17</f>
+					<f>15</f>
 					<parameter>ТекстОтметки</parameter>
+				</c>
+			</c>
+			<c>
+				<c>
+					<f>16</f>
 				</c>
 			</c>
 		</row>
 	</rowsItem>
 	<templateMode>true</templateMode>
-	<defaultFormatIndex>18</defaultFormatIndex>
+	<defaultFormatIndex>17</defaultFormatIndex>
 	<height>11</height>
 	<vgRows>11</vgRows>
 	<merge>
@@ -191,20 +161,16 @@
 		<h>1</h>
 	</merge>
 	<merge>
+		<r>3</r>
+		<c>1</c>
+		<h>2</h>
+		<w>1</w>
+	</merge>
+	<merge>
 		<r>6</r>
 		<c>1</c>
 		<w>1</w>
 	</merge>
-	<namedItem xsi:type="NamedItemCells">
-		<name>ВладелецСертификата</name>
-		<area>
-			<type>Rectangle</type>
-			<beginRow>4</beginRow>
-			<endRow>4</endRow>
-			<beginColumn>2</beginColumn>
-			<endColumn>2</endColumn>
-		</area>
-	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
 		<name>Картинка</name>
 		<area>
@@ -213,16 +179,6 @@
 			<endRow>2</endRow>
 			<beginColumn>1</beginColumn>
 			<endColumn>1</endColumn>
-		</area>
-	</namedItem>
-	<namedItem xsi:type="NamedItemCells">
-		<name>НомерСертификата</name>
-		<area>
-			<type>Rectangle</type>
-			<beginRow>3</beginRow>
-			<endRow>3</endRow>
-			<beginColumn>2</beginColumn>
-			<endColumn>2</endColumn>
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
@@ -276,16 +232,6 @@
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
-		<name>СрокДействия</name>
-		<area>
-			<type>Rectangle</type>
-			<beginRow>5</beginRow>
-			<endRow>5</endRow>
-			<beginColumn>2</beginColumn>
-			<endColumn>2</endColumn>
-		</area>
-	</namedItem>
-	<namedItem xsi:type="NamedItemCells">
 		<name>ТекстОтметки</name>
 		<area>
 			<type>Rectangle</type>
@@ -306,21 +252,11 @@
 		</area>
 	</namedItem>
 	<namedItem xsi:type="NamedItemCells">
-		<name>ШтампЛеваяКолонка</name>
-		<area>
-			<type>Rectangle</type>
-			<beginRow>1</beginRow>
-			<endRow>5</endRow>
-			<beginColumn>1</beginColumn>
-			<endColumn>1</endColumn>
-		</area>
-	</namedItem>
-	<namedItem xsi:type="NamedItemCells">
 		<name>ШтампПраваяКолонка</name>
 		<area>
 			<type>Rectangle</type>
 			<beginRow>1</beginRow>
-			<endRow>5</endRow>
+			<endRow>1</endRow>
 			<beginColumn>2</beginColumn>
 			<endColumn>2</endColumn>
 		</area>
@@ -356,8 +292,10 @@
 		<leftBorder>1</leftBorder>
 		<topBorder>1</topBorder>
 		<height>45</height>
+		<borderColor>style:ЦветШтампаЭП</borderColor>
 		<width>72</width>
 		<verticalAlignment>Top</verticalAlignment>
+		<textColor>style:ЦветШтампаЭП</textColor>
 		<fillType>Text</fillType>
 		<protection>true</protection>
 		<picIndex>1</picIndex>
@@ -369,8 +307,10 @@
 		<font>1</font>
 		<topBorder>1</topBorder>
 		<rightBorder>1</rightBorder>
+		<borderColor>style:ЦветШтампаЭП</borderColor>
 		<width>139</width>
 		<horizontalAlignment>Center</horizontalAlignment>
+		<textColor>style:ЦветШтампаЭП</textColor>
 		<textPlacement>Block</textPlacement>
 		<protection>true</protection>
 		<indent>0</indent>
@@ -384,14 +324,18 @@
 	<format>
 		<leftBorder>1</leftBorder>
 		<topBorder>1</topBorder>
+		<borderColor>style:ЦветШтампаЭП</borderColor>
 		<width>72</width>
+		<textColor>style:ЦветШтампаЭП</textColor>
 		<protection>true</protection>
 	</format>
 	<format>
 		<font>0</font>
 		<rightBorder>1</rightBorder>
+		<borderColor>style:ЦветШтампаЭП</borderColor>
 		<width>219</width>
 		<horizontalAlignment>Center</horizontalAlignment>
+		<textColor>style:ЦветШтампаЭП</textColor>
 		<protection>true</protection>
 	</format>
 	<format>
@@ -405,19 +349,19 @@
 	<format>
 		<font>0</font>
 		<leftBorder>1</leftBorder>
+		<rightBorder>1</rightBorder>
+		<bottomBorder>1</bottomBorder>
+		<borderColor>style:ЦветШтампаЭП</borderColor>
 		<width>72</width>
 		<verticalAlignment>Top</verticalAlignment>
+		<textColor>style:ЦветШтампаЭП</textColor>
+		<textPlacement>Wrap</textPlacement>
+		<fillType>Parameter</fillType>
 		<protection>true</protection>
 		<indent>1</indent>
 	</format>
 	<format>
-		<font>0</font>
-		<rightBorder>1</rightBorder>
-		<width>72</width>
-		<verticalAlignment>Top</verticalAlignment>
 		<textPlacement>Wrap</textPlacement>
-		<fillType>Parameter</fillType>
-		<protection>true</protection>
 	</format>
 	<format>
 		<font>0</font>
@@ -431,38 +375,23 @@
 	</format>
 	<format>
 		<font>0</font>
-		<leftBorder>1</leftBorder>
-		<bottomBorder>1</bottomBorder>
-		<height>51</height>
-		<width>72</width>
-		<verticalAlignment>Top</verticalAlignment>
-		<protection>true</protection>
-		<indent>1</indent>
-	</format>
-	<format>
-		<font>0</font>
-		<rightBorder>1</rightBorder>
-		<bottomBorder>1</bottomBorder>
-		<height>51</height>
-		<width>72</width>
-		<verticalAlignment>Top</verticalAlignment>
-		<textPlacement>Wrap</textPlacement>
-		<fillType>Parameter</fillType>
-		<protection>true</protection>
-	</format>
-	<format>
-		<font>0</font>
 		<width>90</width>
 		<horizontalAlignment>Center</horizontalAlignment>
 		<textPlacement>Wrap</textPlacement>
 	</format>
 	<format>
 		<font>0</font>
+		<borderColor>style:ЦветШтампаЭП</borderColor>
 		<width>90</width>
 		<horizontalAlignment>Center</horizontalAlignment>
+		<textColor>style:ЦветШтампаЭП</textColor>
 		<textPlacement>Wrap</textPlacement>
 		<fillType>Parameter</fillType>
 		<protection>true</protection>
+	</format>
+	<format>
+		<borderColor>style:ЦветШтампаЭП</borderColor>
+		<textColor>style:ЦветШтампаЭП</textColor>
 	</format>
 	<format>
 		<width>72</width>

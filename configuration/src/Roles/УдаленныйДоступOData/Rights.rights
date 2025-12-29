@@ -446,6 +446,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.ИспользоватьСервисМобильнойПодписи</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>SessionParameter.ВерсииШаблоновОграниченияДоступа</name>
 		<right>
 			<name>Get</name>
@@ -675,6 +686,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.РазрешитьДоступКИнтернетСервисам</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.СостоянияОригиналовПервичныхДокументов</name>
 		<right>
 			<name>Read</name>
@@ -704,6 +726,25 @@
 		</right>
 		<right>
 			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ПодписантыСервисаМобильнойПодписи</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Insert</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Delete</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -750,6 +791,17 @@
 	</object>
 	<object>
 		<name>Constant.ИспользоватьПризнакРассмотрено</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.СервисМобильнойПодписиСтатусы</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -1202,6 +1254,17 @@
 		</right>
 	</object>
 	<object>
+		<name>Constant.РазрешитьДоступКИнтернетСервисамЭлектроннойПодписи</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.СписокЗапрещенныхРасширенийОбластиДанных</name>
 		<right>
 			<name>Read</name>
@@ -1595,6 +1658,17 @@
 	</object>
 	<object>
 		<name>InformationRegister.ЗначенияГруппДоступаПоУмолчанию</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ОсновныеПечатныеФормыКонтрагентов</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -2614,6 +2688,13 @@
 		</right>
 	</object>
 	<object>
+		<name>SessionParameter.ПараметрыАвторизацииВСервисеМобильнойПодписи</name>
+		<right>
+			<name>Get</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>Constant.ЗаголовокСистемы</name>
 		<right>
 			<name>Read</name>
@@ -2778,6 +2859,13 @@
 		</right>
 	</object>
 	<object>
+		<name>Catalog.ИдентификаторыОбъектовРасширений</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.СостоянияПапокПисем</name>
 		<right>
 			<name>Read</name>
@@ -2851,6 +2939,33 @@
 		<name>SessionParameter.ВидыДоступаБезГруппДляЗначенияДоступа</name>
 		<right>
 			<name>Get</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Configuration.БиблиотекаСтандартныхПодсистем</name>
+		<right>
+			<name>MainWindowModeNormal</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeEmbeddedWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeFullscreenWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeKiosk</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>AnalyticsSystemClient</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -3039,6 +3154,17 @@
 		</right>
 		<right>
 			<name>Delete</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ОсновныеПечатныеФормыОбъектов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -3527,6 +3653,13 @@
 		</right>
 	</object>
 	<object>
+		<name>InformationRegister.ИдентификаторыОбъектовВерсийРасширений</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ФиксацияОбработкиДанныхОбработчиками</name>
 		<right>
 			<name>Read</name>
@@ -3659,33 +3792,6 @@
 		</right>
 		<right>
 			<name>Delete</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Configuration.БиблиотекаСтандартныхПодсистем</name>
-		<right>
-			<name>MainWindowModeNormal</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeEmbeddedWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeFullscreenWorkplace</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>MainWindowModeKiosk</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>AnalyticsSystemClient</name>
 			<value>true</value>
 		</right>
 	</object>
