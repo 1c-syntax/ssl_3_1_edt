@@ -534,11 +534,11 @@
         <name>ГруппаНастройкаНеЗавершена</name>
         <id>3</id>
         <items xsi:type="form:Decoration">
-          <name>КартинкаНастройкаНеЗаервшена</name>
+          <name>КартинкаНастройкаНеЗавершена</name>
           <id>5</id>
           <title>
             <key>ru</key>
-            <value>Картинка настройка не заервшена</value>
+            <value>Картинка настройка не завершена</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -546,7 +546,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>КартинкаНастройкаНеЗаервшенаРасширеннаяПодсказка</name>
+            <name>КартинкаНастройкаНеЗавершенаРасширеннаяПодсказка</name>
             <id>7</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -556,7 +556,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>КартинкаНастройкаНеЗаервшенаКонтекстноеМеню</name>
+            <name>КартинкаНастройкаНеЗавершенаКонтекстноеМеню</name>
             <id>6</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -573,7 +573,7 @@
           </extInfo>
         </items>
         <items xsi:type="form:Decoration">
-          <name>НадписьНастройкаНеЗаервшена</name>
+          <name>НадписьНастройкаНеЗавершена</name>
           <id>8</id>
           <title>
             <key>ru</key>
@@ -585,7 +585,7 @@
             <common>true</common>
           </userVisible>
           <extendedTooltip>
-            <name>НадписьНастройкаНеЗаервшенаРасширеннаяПодсказка</name>
+            <name>НадписьНастройкаНеЗавершенаРасширеннаяПодсказка</name>
             <id>10</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
@@ -595,7 +595,7 @@
             </extInfo>
           </extendedTooltip>
           <contextMenu>
-            <name>НадписьНастройкаНеЗаервшенаКонтекстноеМеню</name>
+            <name>НадписьНастройкаНеЗавершенаКонтекстноеМеню</name>
             <id>9</id>
             <autoFill>true</autoFill>
           </contextMenu>
@@ -689,6 +689,10 @@
     <id>-1</id>
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
+  <handlers>
+    <event>NotificationProcessing</event>
+    <name>ОбработкаОповещения</name>
+  </handlers>
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
@@ -852,6 +856,19 @@
       <id>9</id>
       <valueType>
         <types>Picture</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>ОбязательныеРеквизитыНастройкиЗаполнены</name>
+      <id>10</id>
+      <valueType>
+        <types>Boolean</types>
       </valueType>
       <view>
         <common>true</common>

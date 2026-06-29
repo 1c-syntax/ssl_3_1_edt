@@ -2633,6 +2633,14 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
+          <format>
+            <key>ru</key>
+            <value>ЧН=0</value>
+          </format>
+          <editFormat>
+            <key>ru</key>
+            <value>ЧН=0</value>
+          </editFormat>
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
@@ -2685,6 +2693,14 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
+          <format>
+            <key>ru</key>
+            <value>ЧН=0</value>
+          </format>
+          <editFormat>
+            <key>ru</key>
+            <value>ЧН=0</value>
+          </editFormat>
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
@@ -2732,6 +2748,14 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
+          <format>
+            <key>ru</key>
+            <value>ЧН=0</value>
+          </format>
+          <editFormat>
+            <key>ru</key>
+            <value>ЧН=0</value>
+          </editFormat>
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
@@ -2779,6 +2803,14 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <wrap>true</wrap>
+          <format>
+            <key>ru</key>
+            <value>ЧН=0</value>
+          </format>
+          <editFormat>
+            <key>ru</key>
+            <value>ЧН=0</value>
+          </editFormat>
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
@@ -3255,11 +3287,15 @@
       </title>
       <id>4</id>
       <valueType>
+        <types>String</types>
         <types>Number</types>
         <numberQualifiers>
           <precision>3</precision>
           <nonNegative>true</nonNegative>
         </numberQualifiers>
+        <stringQualifiers>
+          <length>1</length>
+        </stringQualifiers>
       </valueType>
       <view>
         <common>true</common>
@@ -3276,11 +3312,15 @@
       </title>
       <id>5</id>
       <valueType>
+        <types>String</types>
         <types>Number</types>
         <numberQualifiers>
           <precision>3</precision>
           <nonNegative>true</nonNegative>
         </numberQualifiers>
+        <stringQualifiers>
+          <length>1</length>
+        </stringQualifiers>
       </valueType>
       <view>
         <common>true</common>
@@ -3297,11 +3337,15 @@
       </title>
       <id>6</id>
       <valueType>
+        <types>String</types>
         <types>Number</types>
         <numberQualifiers>
           <precision>15</precision>
           <nonNegative>true</nonNegative>
         </numberQualifiers>
+        <stringQualifiers>
+          <length>1</length>
+        </stringQualifiers>
       </valueType>
       <view>
         <common>true</common>
@@ -3318,11 +3362,15 @@
       </title>
       <id>7</id>
       <valueType>
+        <types>String</types>
         <types>Number</types>
         <numberQualifiers>
           <precision>15</precision>
           <nonNegative>true</nonNegative>
         </numberQualifiers>
+        <stringQualifiers>
+          <length>1</length>
+        </stringQualifiers>
       </valueType>
       <view>
         <common>true</common>
@@ -3339,11 +3387,15 @@
       </title>
       <id>8</id>
       <valueType>
+        <types>String</types>
         <types>Number</types>
         <numberQualifiers>
           <precision>15</precision>
           <nonNegative>true</nonNegative>
         </numberQualifiers>
+        <stringQualifiers>
+          <length>1</length>
+        </stringQualifiers>
       </valueType>
       <view>
         <common>true</common>
@@ -3360,11 +3412,15 @@
       </title>
       <id>9</id>
       <valueType>
+        <types>String</types>
         <types>Number</types>
         <numberQualifiers>
           <precision>15</precision>
           <nonNegative>true</nonNegative>
         </numberQualifiers>
+        <stringQualifiers>
+          <length>1</length>
+        </stringQualifiers>
       </valueType>
       <view>
         <common>true</common>

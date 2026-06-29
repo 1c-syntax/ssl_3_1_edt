@@ -90,6 +90,15 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="098211f6-8009-421e-a11a-1fdb6df42c4d">
+    <name>СозданиеБотаMax</name>
+    <synonym>
+      <key>ru</key>
+      <value>Создание бота Max</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="ae1192da-f17d-4527-b9cb-4f4cce810985">
     <name>МакетОтображенияВебЧата</name>
     <synonym>
@@ -105,7 +114,6 @@
       <value>Отключение обсуждений</value>
     </synonym>
     <group>ActionsPanelTools</group>
-    <commandParameterType/>
     <representation>Auto</representation>
   </commands>
   <commands uuid="25741b39-1c6b-4851-8584-9711d25ef05a">
@@ -115,7 +123,6 @@
       <value>Настройки сообщений из других приложений</value>
     </synonym>
     <group>ActionsPanelTools</group>
-    <commandParameterType/>
     <representation>Auto</representation>
   </commands>
 </mdclass:DataProcessor>

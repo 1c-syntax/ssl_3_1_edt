@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form" xmlns:schema="http://g5.1c.ru/v8/dt/data-composition-system/schema">
   <title>
     <key>ru</key>
     <value>Все файлы</value>
@@ -60,6 +60,10 @@
     <items xsi:type="form:FormField">
       <name>СписокНомерКартинкиПодписанЗашифрован</name>
       <id>86</id>
+      <title>
+        <key>ru</key>
+        <value>Зашифровано</value>
+      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -109,6 +113,66 @@
           <style>Single</style>
           <width>1</width>
         </border>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>СписокНомерКартинкиЭтоАрхив</name>
+      <id>166</id>
+      <title>
+        <key>ru</key>
+        <value>В архиве</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.НомерКартинкиЭтоАрхив</segments>
+      </dataPath>
+      <titleLocation>None</titleLocation>
+      <toolTip>
+        <key>ru</key>
+        <value>Файл перенесен в архив</value>
+      </toolTip>
+      <extendedTooltip>
+        <name>СписокНомерКартинкиЭтоАрхивРасширеннаяПодсказка</name>
+        <id>168</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>СписокНомерКартинкиЭтоАрхивКонтекстноеМеню</name>
+        <id>167</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>PictureField</type>
+      <readOnly>true</readOnly>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerPicture xsi:type="core:PictureRef">
+        <picture>CommonPicture.ФайловыйАрхив</picture>
+      </headerPicture>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:ImageFieldExtInfo">
+        <width>2</width>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <horizontalStretch>true</horizontalStretch>
+        <verticalStretch>true</verticalStretch>
+        <valuesPicture xsi:type="core:PictureRef">
+          <picture>CommonPicture.ФайловыйАрхив</picture>
+        </valuesPicture>
+        <border xsi:type="core:BorderDef">
+          <style>Single</style>
+          <width>1</width>
+        </border>
+        <fileDragMode>AsFileRef</fileDragMode>
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
@@ -1429,6 +1493,9 @@
       <common>true</common>
     </edit>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>Список.НомерКартинкиЭтоАрхив</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>Список.Редактирует</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
@@ -1465,9 +1532,20 @@
 	СведенияОФайлах.Расширение КАК Расширение,
 	СведенияОФайлах.ХранитьВерсии КАК ХранитьВерсии,
 	СведенияОФайлах.НомерКартинкиПодписанЗашифрован КАК НомерКартинкиПодписанЗашифрован,
-	СведенияОФайлах.Служебный КАК Служебный
+	СведенияОФайлах.Служебный КАК Служебный,
+	ВЫБОР
+		КОГДА ЕСТЬNULL(ВЫБОР
+					КОГДА СведенияОФайлах.Файл ССЫЛКА Справочник.Файлы
+						ТОГДА ФайлыДляСоединения.ТекущаяВерсия.ДатаПереносаВАрхив
+					ИНАЧЕ СведенияОФайлах.ДатаПереносаВАрхив
+				КОНЕЦ, ДАТАВРЕМЯ(1, 1, 1)) = ДАТАВРЕМЯ(1, 1, 1)
+			ТОГДА -1
+		ИНАЧЕ 0
+	КОНЕЦ КАК НомерКартинкиЭтоАрхив
 ИЗ
 	РегистрСведений.СведенияОФайлах КАК СведенияОФайлах
+		ЛЕВОЕ СОЕДИНЕНИЕ Справочник.Файлы КАК ФайлыДляСоединения
+		ПО (СведенияОФайлах.Файл = ФайлыДляСоединения.Ссылка)
 ГДЕ
 	НЕ СведенияОФайлах.Файл ЕСТЬ NULL</queryText>
       <mainTable>InformationRegister.СведенияОФайлах</mainTable>
@@ -1476,6 +1554,143 @@
       <customQuery>true</customQuery>
       <autoSaveUserSettings>true</autoSaveUserSettings>
       <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ИндексКартинки</dataPath>
+        <field>ИндексКартинки</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Индекс картинки</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаСоздания</dataPath>
+        <field>ДатаСоздания</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ХранитьВерсии</dataPath>
+        <field>ХранитьВерсии</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Размер</dataPath>
+        <field>Размер</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Размер</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Описание</dataPath>
+        <field>Описание</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ПометкаУдаления</dataPath>
+        <field>ПометкаУдаления</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Редактирует</dataPath>
+        <field>Редактирует</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Автор</dataPath>
+        <field>Автор</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Наименование</dataPath>
+        <field>Наименование</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Ссылка</dataPath>
+        <field>Ссылка</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Ссылка</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ФайлРедактируетТекущийПользователь</dataPath>
+        <field>ФайлРедактируетТекущийПользователь</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Файл редактирует текущий пользователь</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ВладелецФайла</dataPath>
+        <field>ВладелецФайла</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Служебный</dataPath>
+        <field>Служебный</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Расширение</dataPath>
+        <field>Расширение</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>НомерКартинкиПодписанЗашифрован</dataPath>
+        <field>НомерКартинкиПодписанЗашифрован</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>НомерКартинкиЭтоАрхив</dataPath>
+        <field>НомерКартинкиЭтоАрхив</field>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Номер картинки это архив</value>
+            </content>
+          </localValue>
+        </title>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>Файл</dataPath>
+        <field>Файл</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ТипХраненияФайла</dataPath>
+        <field>ТипХраненияФайла</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>ДатаПереносаВАрхив</dataPath>
+        <field>ДатаПереносаВАрхив</field>
+      </fields>
+      <fields xsi:type="schema:DataCompositionSchemaDataSetField">
+        <dataPath>УсловноПеренесенВАрхив</dataPath>
+        <field>УсловноПеренесенВАрхив</field>
+      </fields>
+      <parameters>
+        <name>ТекущийПользователь</name>
+        <title>
+          <localValue>
+            <content>
+              <key>ru</key>
+              <value>Текущий пользователь</value>
+            </content>
+          </localValue>
+        </title>
+        <valueType>
+          <types>CatalogRef.УчетныеЗаписиСинхронизацииФайлов</types>
+          <types>CatalogRef.Пользователи</types>
+        </valueType>
+        <values xsi:type="core:UndefinedValue"/>
+        <useRestriction>true</useRestriction>
+      </parameters>
     </extInfo>
   </attributes>
   <formCommands>

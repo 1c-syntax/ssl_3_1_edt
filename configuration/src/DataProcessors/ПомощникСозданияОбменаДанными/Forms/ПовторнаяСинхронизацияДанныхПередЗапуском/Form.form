@@ -52,7 +52,7 @@
         <title>
           <key>ru</key>
           <value>Нажмите &lt;b>Синхронизировать&lt;/>&lt;b> &lt;/>&lt;b>и&lt;/>&lt;b> &lt;/>&lt;b>продолжить,&lt;/> чтобы получить
-обновление приложения еще раз (рекомендуется).
+обновление приложения еще раз (рекомендуется) или загрузите сообщение из архива.
 </value>
         </title>
         <visible>true</visible>
@@ -84,10 +84,10 @@
       </items>
       <items xsi:type="form:FormGroup">
         <name>ГруппаСообщениеИзАрхива</name>
-        <id>89</id>
+        <id>79</id>
         <items xsi:type="form:Decoration">
           <name>ЗаглушкаСообщениеИзАрхива</name>
-          <id>91</id>
+          <id>81</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -95,7 +95,7 @@
           </userVisible>
           <extendedTooltip>
             <name>ЗаглушкаСообщениеИзАрхиваРасширеннаяПодсказка</name>
-            <id>93</id>
+            <id>83</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -105,7 +105,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ЗаглушкаСообщениеИзАрхиваКонтекстноеМеню</name>
-            <id>92</id>
+            <id>82</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>Label</type>
@@ -117,7 +117,7 @@
         </items>
         <items xsi:type="form:FormField">
           <name>ПродолжитьЗагрузкуСообщениемИзАрхива</name>
-          <id>94</id>
+          <id>86</id>
           <title>
             <key>ru</key>
             <value>Продолжить загрузку сообщением из архива</value>
@@ -137,7 +137,7 @@
           </handlers>
           <extendedTooltip>
             <name>ПродолжитьЗагрузкуСообщениемИзАрхиваРасширеннаяПодсказка</name>
-            <id>96</id>
+            <id>88</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -147,7 +147,7 @@
           </extendedTooltip>
           <contextMenu>
             <name>ПродолжитьЗагрузкуСообщениемИзАрхиваКонтекстноеМеню</name>
-            <id>95</id>
+            <id>87</id>
             <autoFill>true</autoFill>
           </contextMenu>
           <type>CheckBoxField</type>
@@ -159,7 +159,7 @@
         </items>
         <items xsi:type="form:Button">
           <name>ОткрытьСообщениеИзАрхива</name>
-          <id>97</id>
+          <id>84</id>
           <title>
             <key>ru</key>
             <value>&lt;Сообщение в архиве отсутствует></value>
@@ -171,7 +171,7 @@
           </userVisible>
           <extendedTooltip>
             <name>ОткрытьСообщениеИзАрхиваРасширеннаяПодсказка</name>
-            <id>98</id>
+            <id>85</id>
             <type>Label</type>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
@@ -198,7 +198,7 @@
         </title>
         <extendedTooltip>
           <name>ГруппаСообщениеИзАрхиваРасширеннаяПодсказка</name>
-          <id>90</id>
+          <id>80</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -1095,7 +1095,7 @@
   </attributes>
   <attributes>
     <name>ПериодЗаписиАрхивногоСообщения</name>
-    <id>17</id>
+    <id>15</id>
     <valueType>
       <types>Date</types>
       <dateQualifiers/>
@@ -1113,10 +1113,32 @@
       <key>ru</key>
       <value>Продолжить загрузку сообщением из архива</value>
     </title>
-    <id>18</id>
+    <id>16</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПараметрыОбработчикаОжиданияОбмена</name>
+    <id>19</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПараметрыОбработчикаОбмена</name>
+    <id>20</id>
+    <valueType/>
     <view>
       <common>true</common>
     </view>
@@ -1235,7 +1257,7 @@
       <key>ru</key>
       <value>Открыть сообщение из архива</value>
     </title>
-    <id>7</id>
+    <id>6</id>
     <use>
       <common>true</common>
     </use>

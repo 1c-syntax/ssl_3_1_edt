@@ -56,6 +56,34 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="78d00cfd-90fe-403a-bab6-2ae5d02fd4d7">
+    <name>ОперацииНаТокене</name>
+    <synonym>
+      <key>ru</key>
+      <value>Операции на токене</value>
+    </synonym>
+    <comment>Операции на токене в мобильном клиенте</comment>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="056f7ce9-0264-43f9-bd46-7a25a1f6a75a">
+    <name>ДобавлениеПриложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавление приложения</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1d9b990d-9ffc-455a-93f8-0ce1d47445de">
+    <name>ВводПинКода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод пин кода</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <templates uuid="766f2abe-1dfd-4e16-bffd-83f44d25d82a">
     <name>КлассификаторАУЦ_1_0_0_1</name>
     <synonym>
@@ -73,5 +101,13 @@
     </synonym>
     <comment>АПК:497 Не подлежит переводу, находится в локализованной части</comment>
     <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="9c448266-9ab9-4968-a493-c9a90fb3372d">
+    <name>КомпонентаМобильнойПодписи_2_0_4_2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компонента мобильной подписи (EDOMP)</value>
+    </synonym>
+    <templateType>AddIn</templateType>
   </templates>
 </mdclass:DataProcessor>

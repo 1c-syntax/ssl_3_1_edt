@@ -1719,6 +1719,7 @@
         <items xsi:type="form:FormGroup">
           <name>ГруппаВводитьПарольВПрограммеЭлектроннойПодписи</name>
           <id>856</id>
+          <displayImportance>High</displayImportance>
           <items xsi:type="form:FormField">
             <name>СертификатВводитьПарольВПрограммеЭлектроннойПодписи</name>
             <id>528</id>
@@ -3075,6 +3076,20 @@
   <attributes>
     <name>АдресСертификата</name>
     <id>32</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ТекстПредупрежденияПриОткрытии</name>
+    <id>35</id>
     <valueType>
       <types>String</types>
       <stringQualifiers/>

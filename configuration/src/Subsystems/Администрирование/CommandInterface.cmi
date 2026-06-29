@@ -160,6 +160,10 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
+      <command>Catalog.ТомаХраненияФайлов.Command.ТомаАрхивногоХранения</command>
+      <visible/>
+    </visibilityFragments>
+    <visibilityFragments>
       <command>CommonCommand.АвтономнаяРаботаВМоделиСервиса</command>
       <visible>
         <common>true</common>
@@ -567,6 +571,7 @@
       <commands>Catalog.ШаблоныСообщений.StandardCommand.OpenList</commands>
       <commands>Catalog.СостоянияОригиналовПервичныхДокументов.StandardCommand.OpenList</commands>
       <commands>Catalog.НаборыДополнительныхРеквизитовИСведений.Command.Метки</commands>
+      <commands>Catalog.ТомаХраненияФайлов.Command.ТомаАрхивногоХранения</commands>
     </orderFragments>
     <orderFragments>
       <group>NavigationPanelSeeAlso</group>

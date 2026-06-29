@@ -119,6 +119,33 @@
 		</right>
 	</object>
 	<object>
+		<name>Configuration.БиблиотекаСтандартныхПодсистем</name>
+		<right>
+			<name>MainWindowModeNormal</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeEmbeddedWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeFullscreenWorkplace</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>MainWindowModeKiosk</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>AnalyticsSystemClient</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
 		<name>InformationRegister.ДополнительныеАдресныеСведения</name>
 		<right>
 			<name>Read</name>
@@ -211,29 +238,25 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.БиблиотекаСтандартныхПодсистем</name>
+		<name>InformationRegister.КвартирыОфисыПомещения</name>
 		<right>
-			<name>MainWindowModeNormal</name>
+			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>MainWindowModeWorkplace</name>
+			<name>Update</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>MainWindowModeEmbeddedWorkplace</name>
+			<name>View</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>MainWindowModeFullscreenWorkplace</name>
+			<name>Edit</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>MainWindowModeKiosk</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>AnalyticsSystemClient</name>
+			<name>TotalsControl</name>
 			<value>true</value>
 		</right>
 	</object>

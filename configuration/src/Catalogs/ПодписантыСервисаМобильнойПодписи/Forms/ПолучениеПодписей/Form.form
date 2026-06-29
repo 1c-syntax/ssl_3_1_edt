@@ -261,6 +261,10 @@
     <name>ОбработкаОповещения</name>
   </handlers>
   <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
@@ -383,6 +387,10 @@
   </parameters>
   <parameters>
     <name>Подписант</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>НастройкаОтправки</name>
     <valueType/>
   </parameters>
   <commandInterface>

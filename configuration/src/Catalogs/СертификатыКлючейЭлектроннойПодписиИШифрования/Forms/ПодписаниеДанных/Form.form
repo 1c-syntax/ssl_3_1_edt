@@ -96,6 +96,7 @@
       <dataPath xsi:type="form:DataPath">
         <segments>ТипПодписи</segments>
       </dataPath>
+      <skipOnInput>true</skipOnInput>
       <toolTipRepresentation>Button</toolTipRepresentation>
       <extendedTooltip>
         <name>ТипПодписиРасширеннаяПодсказка</name>
@@ -225,6 +226,7 @@
           <items xsi:type="form:FormGroup">
             <name>ГруппаПоля</name>
             <id>433</id>
+            <displayImportance>High</displayImportance>
             <items xsi:type="form:FormField">
               <name>Сертификат</name>
               <id>313</id>
@@ -596,7 +598,7 @@
               </extendedTooltip>
               <type>UsualGroup</type>
               <extInfo xsi:type="form:UsualGroupExtInfo">
-                <group>AlwaysHorizontal</group>
+                <group>HorizontalIfPossible</group>
                 <showLeftMargin>true</showLeftMargin>
                 <united>true</united>
                 <throughAlign>Auto</throughAlign>
@@ -788,6 +790,7 @@
             <type>UsualGroup</type>
             <extInfo xsi:type="form:UsualGroupExtInfo">
               <group>Vertical</group>
+              <behavior>Auto</behavior>
               <showLeftMargin>true</showLeftMargin>
               <united>true</united>
               <throughAlign>Auto</throughAlign>
@@ -876,10 +879,6 @@
           <extendedTooltip>
             <name>ПодписантРасширеннаяПодсказка</name>
             <id>535</id>
-            <title>
-              <key>ru</key>
-              <value>Документы будут отправлены в сервис мобильной подписи</value>
-            </title>
             <type>Label</type>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
@@ -911,6 +910,102 @@
             </handlers>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>ВидМобильнойПодписи</name>
+          <id>538</id>
+          <title>
+            <key>ru</key>
+            <value>Отправить в</value>
+          </title>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>ВидМобильнойПодписи</segments>
+          </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>ВидПодписиПриИзменении</name>
+          </handlers>
+          <extendedTooltip>
+            <name>ВидМобильнойПодписиРасширеннаяПодсказка</name>
+            <id>540</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ВидМобильнойПодписиКонтекстноеМеню</name>
+            <id>539</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <extendedEditMultipleValues>true</extendedEditMultipleValues>
+            <listChoiceMode>true</listChoiceMode>
+            <typeDomainEnabled>true</typeDomainEnabled>
+            <textEdit>true</textEdit>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>НастройкаОтправки</name>
+          <id>541</id>
+          <title>
+            <key>ru</key>
+            <value>Настройка отправки</value>
+          </title>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>НастройкаОтправки</segments>
+          </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>НастройкаОтправкиПриИзменении</name>
+          </handlers>
+          <extendedTooltip>
+            <name>НастройкаОтправкиРасширеннаяПодсказка</name>
+            <id>543</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>НастройкаОтправкиКонтекстноеМеню</name>
+            <id>542</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>InputField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:InputFieldExtInfo">
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <wrap>true</wrap>
+            <extendedEditMultipleValues>true</extendedEditMultipleValues>
+            <choiceButton>false</choiceButton>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
           </extInfo>
@@ -2133,6 +2228,49 @@
     <valueType>
       <types>Boolean</types>
     </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ВидМобильнойПодписи</name>
+    <title>
+      <key>ru</key>
+      <value>Вид мобильной подписи</value>
+    </title>
+    <id>38</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>НастройкаОтправки</name>
+    <title>
+      <key>ru</key>
+      <value>Настройка отправки</value>
+    </title>
+    <id>39</id>
+    <valueType>
+      <types>CatalogRef</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПараметрыОтправителя</name>
+    <id>40</id>
+    <valueType/>
     <view>
       <common>true</common>
     </view>

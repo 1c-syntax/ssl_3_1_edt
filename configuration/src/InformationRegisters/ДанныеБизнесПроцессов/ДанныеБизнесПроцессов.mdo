@@ -84,9 +84,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <indexing>Index</indexing>
   </resources>
   <resources uuid="038dbb00-e4c6-4e64-b861-3a0764f54ab3">
@@ -211,9 +209,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
   </resources>
   <resources uuid="7732ef07-16eb-46a0-9645-7de95c5482af">
     <name>ПометкаУдаления</name>
@@ -301,7 +297,6 @@
       <value>Мои бизнес-процессы</value>
     </synonym>
     <group>NavigationPanelOrdinary</group>
-    <commandParameterType/>
     <representation>Auto</representation>
     <toolTip>
       <key>ru</key>

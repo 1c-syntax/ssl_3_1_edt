@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3aa159b-0dcd-4a4f-aab8-74da6e8dd868">
+  <producedTypes>
+    <refType typeId="041be072-4cf2-4135-aacf-a992affcb65b" valueTypeId="658e005f-f09a-471a-b1ba-f169ed98355a"/>
+    <listType typeId="8fd8deb0-7f22-4ce4-b783-d207dda41ade" valueTypeId="99ab6707-ceac-4639-8bbf-1cd396f4d8b7"/>
+    <managerType typeId="159b0f8f-38a5-4020-a1eb-43e8d93c6405" valueTypeId="1f794227-0ab4-4704-9408-2fef2778ca03"/>
+  </producedTypes>
+  <name>ВидыПодписантовМобильногоСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды подписантов мобильного сервиса</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="2438847d-76f6-467b-84c6-a4e03e3b024d">
+    <name>РуководительЮЛ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель ЮЛ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="29e85fdd-5039-4c6c-a58c-97515b1f963d">
+    <name>ИндивидуальныйПредприниматель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индивидуальный предприниматель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f1723542-d89b-4f3f-96de-38f41fa8c946">
+    <name>ФизическоеЛицо</name>
+    <synonym>
+      <key>ru</key>
+      <value>Физическое лицо</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

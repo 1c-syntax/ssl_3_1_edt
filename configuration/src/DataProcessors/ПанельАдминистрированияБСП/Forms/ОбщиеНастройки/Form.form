@@ -2144,7 +2144,7 @@
                 <id>2225</id>
                 <title>
                   <key>ru</key>
-                  <value>Усовершенствовать подписи до выбранного типа</value>
+                  <value>Усовершенствовать подписи до выбранного типа.</value>
                 </title>
                 <type>Label</type>
                 <autoMaxWidth>true</autoMaxWidth>
@@ -2941,6 +2941,265 @@
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>HorizontalIfPossible</group>
         <representation>NormalSeparation</representation>
+        <showLeftMargin>true</showLeftMargin>
+        <united>true</united>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаМобильнаяПодпись</name>
+      <id>2294</id>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаНастройкиМобильнойПодписи</name>
+        <id>2302</id>
+        <items xsi:type="form:FormField">
+          <name>ИспользоватьГосключ</name>
+          <id>2296</id>
+          <title>
+            <key>ru</key>
+            <value>Госключ</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>НаборКонстант.ИспользоватьГосключ</segments>
+          </dataPath>
+          <titleLocation>Right</titleLocation>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <handlers>
+            <event>OnChange</event>
+            <name>Подключаемый_ПриИзмененииРеквизита</name>
+          </handlers>
+          <extendedTooltip>
+            <name>ИспользоватьГосключРасширеннаяПодсказка</name>
+            <id>2298</id>
+            <title>
+              <key>ru</key>
+              <value>Отправлять документы на подписание в мобильное приложение Госключ (Госуслуги).</value>
+            </title>
+            <type>Label</type>
+            <width>43</width>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ИспользоватьГосключКонтекстноеМеню</name>
+            <id>2297</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>CheckBoxField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+        </items>
+        <items xsi:type="form:FormField">
+          <name>ИспользоватьСервисМобильнойПодписи</name>
+          <id>2299</id>
+          <title>
+            <key>ru</key>
+            <value>Моя подпись (ФНС)</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <dataPath xsi:type="form:DataPath">
+            <segments>НаборКонстант.ИспользоватьСервисМобильнойПодписи</segments>
+          </dataPath>
+          <titleLocation>Right</titleLocation>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <handlers>
+            <event>OnChange</event>
+            <name>Подключаемый_ПриИзмененииРеквизита</name>
+          </handlers>
+          <extendedTooltip>
+            <name>ИспользоватьСервисМобильнойПодписиРасширеннаяПодсказка</name>
+            <id>2301</id>
+            <title>
+              <key>ru</key>
+              <value>Отправлять документы на подпись в мобильное приложение Моя подпись (ФНС).</value>
+            </title>
+            <type>Label</type>
+            <width>43</width>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <contextMenu>
+            <name>ИспользоватьСервисМобильнойПодписиКонтекстноеМеню</name>
+            <id>2300</id>
+            <autoFill>true</autoFill>
+          </contextMenu>
+          <type>CheckBoxField</type>
+          <editMode>Enter</editMode>
+          <showInHeader>true</showInHeader>
+          <headerHorizontalAlign>Left</headerHorizontalAlign>
+          <showInFooter>true</showInFooter>
+          <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Настройки мобильной подписи</value>
+        </title>
+        <extendedTooltip>
+          <name>ГруппаНастройкиМобильнойПодписиРасширеннаяПодсказка</name>
+          <id>2303</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>HorizontalIfPossible</group>
+          <behavior>Auto</behavior>
+          <representation>WeakSeparation</representation>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаУчетныеЗаписиМобильнойПодписи</name>
+        <id>2304</id>
+        <items xsi:type="form:Button">
+          <name>НастройкиОтправкиВГосключ</name>
+          <id>2306</id>
+          <title>
+            <key>ru</key>
+            <value>Настройки отправки в Госключ</value>
+          </title>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>НастройкиОтправкиВГосключРасширеннаяПодсказка</name>
+            <id>2307</id>
+            <title>
+              <key>ru</key>
+              <value>Настройки доступа сотрудников организаций для отправки документов на подписание в Госключ.</value>
+            </title>
+            <type>Label</type>
+            <width>43</width>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Catalog.НастройкиОтправкиВГосключ.Command.НастройкиОтправкиВГосключ</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <items xsi:type="form:Button">
+          <name>ПодписантыСервисаМобильнойПодписи</name>
+          <id>2308</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ПодписантыСервисаМобильнойПодписиРасширеннаяПодсказка</name>
+            <id>2309</id>
+            <title>
+              <key>ru</key>
+              <value>Настройки получателей документов на подписание в мобильном приложении.</value>
+            </title>
+            <type>Label</type>
+            <width>43</width>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>Hyperlink</type>
+          <commandName>Catalog.ПодписантыСервисаМобильнойПодписи.Command.ПодписантыСервисаМобильнойПодписи</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Учетные записи мобильной подписи</value>
+        </title>
+        <extendedTooltip>
+          <name>ГруппаУчетныеЗаписиМобильнойПодписиРасширеннаяПодсказка</name>
+          <id>2305</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>UsualGroup</type>
+        <extInfo xsi:type="form:UsualGroupExtInfo">
+          <group>HorizontalIfPossible</group>
+          <behavior>Auto</behavior>
+          <representation>WeakSeparation</representation>
+          <showLeftMargin>true</showLeftMargin>
+          <united>true</united>
+          <throughAlign>Auto</throughAlign>
+          <currentRowUse>Auto</currentRowUse>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Мобильная подпись</value>
+      </title>
+      <extendedTooltip>
+        <name>ГруппаМобильнаяПодписьРасширеннаяПодсказка</name>
+        <id>2295</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>Vertical</group>
+        <behavior>Auto</behavior>
+        <representation>WeakSeparation</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
@@ -4028,10 +4287,16 @@
       <segments>НаборКонстант.ИзвлекатьТекстыФайловНаСервере</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>НаборКонстант.ИспользоватьГосключ</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборКонстант.ИспользоватьПолнотекстовыйПоиск</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборКонстант.ИспользоватьРазделениеПоОбластямДанных</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>НаборКонстант.ИспользоватьСервисМобильнойПодписи</segments>
     </notDefaultUseAlwaysAttributes>
     <main>true</main>
   </attributes>

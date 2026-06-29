@@ -53,11 +53,11 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <recordPresentation>
     <key>ru</key>
-    <value>Статус документа в сервисе &quot;1С:Мобильная подпись&quot;</value>
+    <value>Статус подписания отправленного документа</value>
   </recordPresentation>
   <listPresentation>
     <key>ru</key>
-    <value>Статусы документов в сервисе &quot;1С:Мобильная подпись&quot;</value>
+    <value>Статусы подписания отправленных документов</value>
   </listPresentation>
   <resources uuid="8227aa4a-f331-42a7-b93a-e2a762bc69e4">
     <name>Результат</name>
@@ -238,9 +238,22 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
+  </attributes>
+  <attributes uuid="2bd86a50-dc01-481e-a44b-8d7d0d5c7308">
+    <name>НастройкаОтправкиВГосключ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка отправки в Госключ</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НастройкиОтправкиВГосключ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
   <dimensions uuid="7b56f878-66a1-4f42-b425-56a4b5fb3997">
     <name>ИдентификаторДокумента</name>

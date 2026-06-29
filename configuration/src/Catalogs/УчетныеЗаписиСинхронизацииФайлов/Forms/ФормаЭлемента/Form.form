@@ -1,6 +1,110 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <items xsi:type="form:FormGroup">
+    <name>ГруппаПредупреждениеОНебезопасномПротоколе</name>
+    <id>75</id>
+    <items xsi:type="form:Decoration">
+      <name>ДекорацияКартинкаПредупреждениеОНебезопасномПротоколе</name>
+      <id>77</id>
+      <title>
+        <key>ru</key>
+        <value>Декорация картинка предупреждение о небезопасном протоколе</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ДекорацияКартинкаПредупреждениеОНебезопасномПротоколеРасширеннаяПодсказка</name>
+        <id>79</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДекорацияКартинкаПредупреждениеОНебезопасномПротоколеКонтекстноеМеню</name>
+        <id>78</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:PictureDecorationExtInfo">
+        <picture xsi:type="core:PictureRef">
+          <picture>CommonPicture.Предупреждение</picture>
+        </picture>
+        <fileDragMode>AsFileRef</fileDragMode>
+      </extInfo>
+    </items>
+    <items xsi:type="form:Decoration">
+      <name>ДекорацияНадписьПредупреждениеОНебезопасномПротоколе</name>
+      <id>80</id>
+      <title>
+        <key>ru</key>
+        <value>Выбранный сервис работает по протоколу http - данные авторизации будут передаваться небезопасно.</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ДекорацияНадписьПредупреждениеОНебезопасномПротоколеРасширеннаяПодсказка</name>
+        <id>82</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ДекорацияНадписьПредупреждениеОНебезопасномПротоколеКонтекстноеМеню</name>
+        <id>81</id>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>Label</type>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Предупреждение о небезопасном протоколе</value>
+    </title>
+    <extendedTooltip>
+      <name>ГруппаПредупреждениеОНебезопасномПротоколеРасширеннаяПодсказка</name>
+      <id>76</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>AlwaysHorizontal</group>
+      <behavior>Auto</behavior>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <backColor xsi:type="core:ColorRef">
+        <color>Style.ЦветФонаВнимание</color>
+      </backColor>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:FormGroup">
     <name>ГруппаНаименованиеИНастройки</name>
     <id>65</id>
     <items xsi:type="form:FormField">
@@ -65,6 +169,10 @@
         <dataPath xsi:type="form:DataPath">
           <segments>Объект.Сервис</segments>
         </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>СервисПриИзменении</name>
+        </handlers>
         <extendedTooltip>
           <name>СервисРасширеннаяПодсказка</name>
           <id>71</id>
@@ -119,9 +227,7 @@
               <key>ru</key>
               <value>Ввести свой адрес сервиса</value>
             </presentation>
-            <value xsi:type="core:StringValue">
-              <value></value>
-            </value>
+            <value xsi:type="core:StringValue"/>
           </choiceList>
           <autoCorrectionOnTextInput>DontUse</autoCorrectionOnTextInput>
           <inputHint>

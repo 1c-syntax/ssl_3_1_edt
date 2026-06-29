@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="956d5336-d3c7-400b-b9a0-de4a788f9bb9">
+  <producedTypes>
+    <refType typeId="5ef52079-3879-4069-b68e-40e340b166e1" valueTypeId="c2bf6db4-45ff-4e52-8503-5d38930a3786"/>
+    <listType typeId="0ee86c4d-628e-4193-9cdc-cce150f9ac5e" valueTypeId="576b0fe2-53c4-4ca3-8401-162728a07ca0"/>
+    <managerType typeId="d6d9f94a-c7c0-4bc2-bab5-37bc1458d6a9" valueTypeId="ba0f8b80-d730-4067-9b1f-b0a40d3cf7b7"/>
+  </producedTypes>
+  <name>ВидыМобильныхПодписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды мобильных подписей</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bda0a5dd-591b-4eee-bcce-028a9b82d0a1">
+    <name>ГосключУНЭП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Госключ УНЭП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a178040b-c86c-4d5f-a501-fa529605058e">
+    <name>ГосключУКЭП</name>
+    <synonym>
+      <key>ru</key>
+      <value>Госключ УКЭП</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9d0e899f-8133-4045-8394-84eaa0981d31">
+    <name>МояПодпись</name>
+    <synonym>
+      <key>ru</key>
+      <value>Моя подпись (ФНС)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

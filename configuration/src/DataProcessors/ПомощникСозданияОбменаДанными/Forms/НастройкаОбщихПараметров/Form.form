@@ -8,7 +8,7 @@
     <name>ПанельОсновная</name>
     <id>1</id>
     <items xsi:type="form:FormGroup">
-      <name>СтраницаПолучениеПараметровКорреспондетна</name>
+      <name>СтраницаПолучениеПараметровКорреспондента</name>
       <id>35</id>
       <items xsi:type="form:Decoration">
         <name>ДекорацияПроверкаПодключенияOnlineОжиданиеКартинка</name>
@@ -86,10 +86,10 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Страница получение параметров корреспондетна</value>
+        <value>Страница получение параметров корреспондента</value>
       </title>
       <extendedTooltip>
-        <name>СтраницаПолучениеПараметровКорреспондетнаРасширеннаяПодсказка</name>
+        <name>СтраницаПолучениеПараметровКорреспондентаРасширеннаяПодсказка</name>
         <id>36</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -1829,6 +1829,7 @@
             <value>Далее></value>
           </title>
           <visible>true</visible>
+          <enabled>false</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>

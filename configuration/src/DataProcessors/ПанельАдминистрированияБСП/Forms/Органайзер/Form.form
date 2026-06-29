@@ -612,37 +612,133 @@
       <name>Группа6</name>
       <id>1591</id>
       <items xsi:type="form:FormGroup">
-        <name>ГруппаОткрытьНастройкиСистемнойУчетнойЗаписиЭП</name>
-        <id>1303</id>
-        <items xsi:type="form:Button">
-          <name>ОткрытьНастройкиСистемнойУчетнойЗаписиЭП</name>
-          <id>1302</id>
+        <name>ГруппаНастройкиУчетнойЗаписи</name>
+        <id>1812</id>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаОткрытьНастройкиСистемнойУчетнойЗаписиЭП</name>
+          <id>1303</id>
+          <items xsi:type="form:Button">
+            <name>ОткрытьНастройкиСистемнойУчетнойЗаписиЭП</name>
+            <id>1302</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ОткрытьНастройкиСистемнойУчетнойЗаписиЭПРасширеннаяПодсказка</name>
+              <id>1659</id>
+              <title>
+                <key>ru</key>
+                <value>Электронная почта для рассылки уведомлений из приложения.</value>
+              </title>
+              <type>Label</type>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>Hyperlink</type>
+            <commandName>CommonCommand.НастройкаСистемнойУчетнойЗаписиЭлектроннойПочты</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Открыть настройки системной учетной записи ЭП</value>
+          </title>
+          <width>43</width>
+          <horizontalStretch>false</horizontalStretch>
           <extendedTooltip>
-            <name>ОткрытьНастройкиСистемнойУчетнойЗаписиЭПРасширеннаяПодсказка</name>
-            <id>1659</id>
-            <title>
-              <key>ru</key>
-              <value>Электронная почта для рассылки уведомлений из приложения.</value>
-            </title>
+            <name>ГруппаОткрытьНастройкиСистемнойУчетнойЗаписиЭПРасширеннаяПодсказка</name>
+            <id>1658</id>
             <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <type>Hyperlink</type>
-          <commandName>CommonCommand.НастройкаСистемнойУчетнойЗаписиЭлектроннойПочты</commandName>
-          <representation>Auto</representation>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <placementArea>UserCmds</placementArea>
-          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
-          <representationInContextMenu>Auto</representationInContextMenu>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>Vertical</group>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаОткрытьУчетныеЗаписиЭлектроннойПочты</name>
+          <id>1307</id>
+          <items xsi:type="form:Button">
+            <name>ОткрытьУчетныеЗаписиЭлектроннойПочты</name>
+            <id>1306</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ОткрытьУчетныеЗаписиЭлектроннойПочтыРасширеннаяПодсказка</name>
+              <id>1662</id>
+              <title>
+                <key>ru</key>
+                <value>Настройка учетных записей электронной почты.</value>
+              </title>
+              <type>Label</type>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>Hyperlink</type>
+            <commandName>Catalog.УчетныеЗаписиЭлектроннойПочты.StandardCommand.OpenList</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Открыть учетные записи электронной почты</value>
+          </title>
+          <width>43</width>
+          <horizontalStretch>false</horizontalStretch>
+          <extendedTooltip>
+            <name>ГруппаОткрытьУчетныеЗаписиЭлектроннойПочтыРасширеннаяПодсказка</name>
+            <id>1661</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>Vertical</group>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -651,13 +747,11 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Открыть настройки системной учетной записи ЭП</value>
+          <value>Настройки учетной записи</value>
         </title>
-        <width>43</width>
-        <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
-          <name>ГруппаОткрытьНастройкиСистемнойУчетнойЗаписиЭПРасширеннаяПодсказка</name>
-          <id>1658</id>
+          <name>ГруппаНастройкиУчетнойЗаписиРасширеннаяПодсказка</name>
+          <id>1813</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -667,7 +761,8 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>Vertical</group>
+          <group>AlwaysHorizontal</group>
+          <behavior>Auto</behavior>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
@@ -675,37 +770,141 @@
         </extInfo>
       </items>
       <items xsi:type="form:FormGroup">
-        <name>ГруппаОткрытьУчетныеЗаписиЭлектроннойПочты</name>
-        <id>1307</id>
-        <items xsi:type="form:Button">
-          <name>ОткрытьУчетныеЗаписиЭлектроннойПочты</name>
-          <id>1306</id>
+        <name>ГруппаНастройкиПриложения</name>
+        <id>1814</id>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаЗарегистрироватьПриложениеВOAuthСервисе</name>
+          <id>1816</id>
+          <items xsi:type="form:Button">
+            <name>ЗарегистрироватьПриложениеВOAuthСервисе</name>
+            <id>1818</id>
+            <title>
+              <key>ru</key>
+              <value>Зарегистрировать приложение в OAuth-сервисе</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>ЗарегистрироватьПриложениеВOAuthСервисеРасширеннаяПодсказка</name>
+              <id>1819</id>
+              <title>
+                <key>ru</key>
+                <value>Приложение для авторизации по протоколу OAuth 2.0.</value>
+              </title>
+              <type>Label</type>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>Hyperlink</type>
+            <commandName>CommonCommand.ЗарегистрироватьПриложениеВOAuthСервисе</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Зарегистрировать приложение в OAuth-сервисе</value>
+          </title>
+          <width>43</width>
+          <horizontalStretch>false</horizontalStretch>
           <extendedTooltip>
-            <name>ОткрытьУчетныеЗаписиЭлектроннойПочтыРасширеннаяПодсказка</name>
-            <id>1662</id>
-            <title>
-              <key>ru</key>
-              <value>Настройка учетных записей электронной почты.</value>
-            </title>
+            <name>ГруппаЗарегистрироватьПриложениеВOAuthСервисеРасширеннаяПодсказка</name>
+            <id>1817</id>
             <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <extInfo xsi:type="form:LabelDecorationExtInfo">
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <type>Hyperlink</type>
-          <commandName>Catalog.УчетныеЗаписиЭлектроннойПочты.StandardCommand.OpenList</commandName>
-          <representation>Auto</representation>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <placementArea>UserCmds</placementArea>
-          <toolTipRepresentation>ShowBottom</toolTipRepresentation>
-          <representationInContextMenu>Auto</representationInContextMenu>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>Vertical</group>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>ГруппаНастройкиАвторизацииИнтернетСервисов</name>
+          <id>1820</id>
+          <items xsi:type="form:Button">
+            <name>НастройкиАвторизацииИнтернетСервисов</name>
+            <id>1822</id>
+            <title>
+              <key>ru</key>
+              <value>Настройки авторизации Интернет-сервисов</value>
+            </title>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>НастройкиАвторизацииИнтернетСервисовРасширеннаяПодсказка</name>
+              <id>1823</id>
+              <title>
+                <key>ru</key>
+                <value>Настройка приложений для работы по протоколу OAuth 2.0.</value>
+              </title>
+              <type>Label</type>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <type>Hyperlink</type>
+            <commandName>Catalog.НастройкиАвторизацииИнтернетСервисов.StandardCommand.OpenList</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <toolTipRepresentation>ShowBottom</toolTipRepresentation>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Настройки авторизации Интернет-сервисов</value>
+          </title>
+          <width>43</width>
+          <horizontalStretch>false</horizontalStretch>
+          <extendedTooltip>
+            <name>ГруппаНастройкиАвторизацииИнтернетСервисовРасширеннаяПодсказка</name>
+            <id>1821</id>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <type>UsualGroup</type>
+          <extInfo xsi:type="form:UsualGroupExtInfo">
+            <group>Vertical</group>
+            <showLeftMargin>true</showLeftMargin>
+            <united>true</united>
+            <throughAlign>Auto</throughAlign>
+            <currentRowUse>Auto</currentRowUse>
+          </extInfo>
         </items>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -714,13 +913,11 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Открыть учетные записи электронной почты</value>
+          <value>Настройки приложения</value>
         </title>
-        <width>43</width>
-        <horizontalStretch>false</horizontalStretch>
         <extendedTooltip>
-          <name>ГруппаОткрытьУчетныеЗаписиЭлектроннойПочтыРасширеннаяПодсказка</name>
-          <id>1661</id>
+          <name>ГруппаНастройкиПриложенияРасширеннаяПодсказка</name>
+          <id>1815</id>
           <type>Label</type>
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
@@ -730,7 +927,8 @@
         </extendedTooltip>
         <type>UsualGroup</type>
         <extInfo xsi:type="form:UsualGroupExtInfo">
-          <group>Vertical</group>
+          <group>AlwaysHorizontal</group>
+          <behavior>Auto</behavior>
           <showLeftMargin>true</showLeftMargin>
           <united>true</united>
           <throughAlign>Auto</throughAlign>
@@ -758,7 +956,7 @@
       </extendedTooltip>
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
-        <group>HorizontalIfPossible</group>
+        <group>Vertical</group>
         <representation>NormalSeparation</representation>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>

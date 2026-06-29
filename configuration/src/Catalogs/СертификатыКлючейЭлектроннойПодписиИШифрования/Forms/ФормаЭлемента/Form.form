@@ -3,6 +3,7 @@
   <items xsi:type="form:FormGroup">
     <name>ШапкаГруппа</name>
     <id>325</id>
+    <displayImportance>Usual</displayImportance>
     <items xsi:type="form:FormGroup">
       <name>ПредупреждениеГруппа</name>
       <id>310</id>
@@ -636,6 +637,7 @@
           <key>ru</key>
           <value>Заявление, по которому получен сертификат</value>
         </title>
+        <enabled>false</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
@@ -1898,6 +1900,36 @@
       <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:Button">
+      <name>ФормаОчиститьПерсональныеНастройки</name>
+      <id>334</id>
+      <title>
+        <key>ru</key>
+        <value>Очистить персональные настройки</value>
+      </title>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаОчиститьПерсональныеНастройкиРасширеннаяПодсказка</name>
+        <id>335</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.Command.ОчиститьПерсональныеНастройки</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Balloon</toolTipRepresentation>
+      <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+    </items>
+    <items xsi:type="form:Button">
       <name>ФормаПоказатьЗаявлениеПоКоторомуБылПолученСертификат</name>
       <id>265</id>
       <title>
@@ -1905,6 +1937,7 @@
         <value>Показать заявление, по которому был получен сертификат</value>
       </title>
       <visible>true</visible>
+      <enabled>false</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
@@ -2498,6 +2531,27 @@
     <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
+  <formCommands>
+    <name>ОчиститьПерсональныеНастройки</name>
+    <title>
+      <key>ru</key>
+      <value>Очистить персональные настройки</value>
+    </title>
+    <id>12</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Очищает персональные настройки сертификата: подписание непроверенным сертификатом, доверенность, выбранную для подписания.</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОчиститьПерсональныеНастройки</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <commandInterface>
     <navigationPanel>
       <cmiFragmentRecord>
@@ -2512,6 +2566,10 @@
     <handlers>
       <event>AfterWrite</event>
       <name>ПослеЗаписи</name>
+    </handlers>
+    <handlers>
+      <event>AfterWriteAtServer</event>
+      <name>ПослеЗаписиНаСервере</name>
     </handlers>
     <handlers>
       <event>OnReadAtServer</event>

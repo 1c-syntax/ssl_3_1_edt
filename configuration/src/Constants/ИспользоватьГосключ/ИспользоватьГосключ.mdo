@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7b776038-602c-443b-86f4-f347e01c0f91">
+  <producedTypes>
+    <managerType typeId="fa520e30-7939-43d9-aa14-63e544d5eb33" valueTypeId="c2a219ca-789c-41fa-8dcf-346370199ed7"/>
+    <valueManagerType typeId="31c57945-c1a8-4710-9af9-b97efcac1b15" valueTypeId="db631fc2-8ced-472f-a362-f24ba1989053"/>
+    <valueKeyType typeId="d1960428-8bdf-4ff3-8853-9d66e92da188" valueTypeId="a74bf64f-c243-4854-8801-fe6c1aada905"/>
+  </producedTypes>
+  <name>ИспользоватьГосключ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать госключ</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

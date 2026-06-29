@@ -1559,6 +1559,7 @@
           <value>&lt;  Назад</value>
         </title>
         <visible>true</visible>
+        <enabled>false</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
@@ -1813,19 +1814,13 @@
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:StringValue">
-      <value></value>
-    </value>
+    <value xsi:type="core:StringValue"/>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:StringValue">
-      <value></value>
-    </value>
+    <value xsi:type="core:StringValue"/>
   </mobileDeviceCommandBarContent>
   <mobileDeviceCommandBarContent>
-    <value xsi:type="core:StringValue">
-      <value></value>
-    </value>
+    <value xsi:type="core:StringValue"/>
   </mobileDeviceCommandBarContent>
   <attributes>
     <name>ПрототипКлюч</name>

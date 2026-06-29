@@ -16,7 +16,7 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>Организация</segments>
+        <segments>ОрганизацияОтбор</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
@@ -53,7 +53,7 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>ФизическоеЛицо</name>
+      <name>ФизическоеЛицоОтбор</name>
       <id>42</id>
       <title>
         <key>ru</key>
@@ -65,14 +65,14 @@
         <common>true</common>
       </userVisible>
       <dataPath xsi:type="form:DataPath">
-        <segments>ФизическоеЛицо</segments>
+        <segments>ФизическоеЛицоОтбор</segments>
       </dataPath>
       <handlers>
         <event>OnChange</event>
         <name>ФизическоеЛицоПриИзменении</name>
       </handlers>
       <extendedTooltip>
-        <name>ФизическоеЛицоРасширеннаяПодсказка</name>
+        <name>ФизическоеЛицоОтборРасширеннаяПодсказка</name>
         <id>44</id>
         <type>Label</type>
         <autoMaxWidth>true</autoMaxWidth>
@@ -82,7 +82,7 @@
         </extInfo>
       </extendedTooltip>
       <contextMenu>
-        <name>ФизическоеЛицоКонтекстноеМеню</name>
+        <name>ФизическоеЛицоОтборКонтекстноеМеню</name>
         <id>43</id>
         <autoFill>true</autoFill>
       </contextMenu>
@@ -388,114 +388,6 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
-      <name>Фамилия</name>
-      <id>19</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Фамилия</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>ФамилияРасширеннаяПодсказка</name>
-        <id>21</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ФамилияКонтекстноеМеню</name>
-        <id>20</id>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>LabelField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:LabelFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>Имя</name>
-      <id>28</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Имя</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>ИмяРасширеннаяПодсказка</name>
-        <id>30</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ИмяКонтекстноеМеню</name>
-        <id>29</id>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>LabelField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:LabelFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
-      <name>Отчество</name>
-      <id>31</id>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible>
-        <common>true</common>
-      </userVisible>
-      <dataPath xsi:type="form:DataPath">
-        <segments>Список.Отчество</segments>
-      </dataPath>
-      <extendedTooltip>
-        <name>ОтчествоРасширеннаяПодсказка</name>
-        <id>33</id>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ОтчествоКонтекстноеМеню</name>
-        <id>32</id>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>LabelField</type>
-      <editMode>Enter</editMode>
-      <showInHeader>true</showInHeader>
-      <headerHorizontalAlign>Left</headerHorizontalAlign>
-      <showInFooter>true</showInFooter>
-      <extInfo xsi:type="form:LabelFieldExtInfo">
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-      </extInfo>
-    </items>
-    <items xsi:type="form:FormField">
       <name>Организация</name>
       <id>34</id>
       <visible>true</visible>
@@ -716,10 +608,10 @@
     </extInfo>
   </attributes>
   <attributes>
-    <name>Организация</name>
+    <name>ОрганизацияОтбор</name>
     <title>
       <key>ru</key>
-      <value>Организация</value>
+      <value>Организация отбор</value>
     </title>
     <id>2</id>
     <valueType>
@@ -733,10 +625,10 @@
     </edit>
   </attributes>
   <attributes>
-    <name>ФизическоеЛицо</name>
+    <name>ФизическоеЛицоОтбор</name>
     <title>
       <key>ru</key>
-      <value>Физическое лицо</value>
+      <value>Физическое лицо отбор</value>
     </title>
     <id>3</id>
     <valueType>

@@ -272,7 +272,7 @@
     <horizontalLines>true</horizontalLines>
     <verticalLines>true</verticalLines>
     <useAlternationRowColor>true</useAlternationRowColor>
-    <searchOnInput>Auto</searchOnInput>
+    <searchOnInput>DontUse</searchOnInput>
     <initialListView>Auto</initialListView>
     <initialTreeView>ExpandTopLevel</initialTreeView>
     <horizontalStretch>true</horizontalStretch>
@@ -331,14 +331,12 @@
     </edit>
     <main>true</main>
     <extInfo xsi:type="form:DynamicListExtInfo">
-      <queryText>ВЫБРАТЬ 
-       ПубличныеИдентификаторыСинхронизируемыхОбъектов.Идентификатор, 
-       ПубличныеИдентификаторыСинхронизируемыхОбъектов.Ссылка, 
-       ПубличныеИдентификаторыСинхронизируемыхОбъектов.УзелИнформационнойБазы
- ИЗ 
-       РегистрСведений.ПубличныеИдентификаторыСинхронизируемыхОбъектов
- КАК 
-       ПубличныеИдентификаторыСинхронизируемыхОбъектов</queryText>
+      <queryText>ВЫБРАТЬ
+	ПубличныеИдентификаторыСинхронизируемыхОбъектов.Идентификатор,
+	ПубличныеИдентификаторыСинхронизируемыхОбъектов.Ссылка,
+	ПубличныеИдентификаторыСинхронизируемыхОбъектов.УзелИнформационнойБазы
+ИЗ
+	РегистрСведений.ПубличныеИдентификаторыСинхронизируемыхОбъектов КАК ПубличныеИдентификаторыСинхронизируемыхОбъектов</queryText>
       <mainTable>InformationRegister.ПубличныеИдентификаторыСинхронизируемыхОбъектов</mainTable>
       <dynamicDataRead>true</dynamicDataRead>
       <autoFillAvailableFields>true</autoFillAvailableFields>
@@ -355,8 +353,6 @@
         <attributeUseRestriction>
           <field>true</field>
           <condition>true</condition>
-          <group>true</group>
-          <order>true</order>
         </attributeUseRestriction>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">

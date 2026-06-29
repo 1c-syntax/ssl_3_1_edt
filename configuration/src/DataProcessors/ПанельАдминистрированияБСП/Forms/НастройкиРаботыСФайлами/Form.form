@@ -322,7 +322,7 @@
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
           <extInfo xsi:type="form:InputFieldExtInfo">
-            <maxWidth>30</maxWidth>
+            <maxWidth>35</maxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
             <listChoiceMode>true</listChoiceMode>
@@ -331,7 +331,7 @@
             <choiceList>
               <presentation>
                 <key>ru</key>
-                <value>в информационной базе</value>
+                <value>в базе данных</value>
               </presentation>
               <value xsi:type="core:StringValue">
                 <value>ВИнформационнойБазе</value>
@@ -340,7 +340,7 @@
             <choiceList>
               <presentation>
                 <key>ru</key>
-                <value>в томах на сервере</value>
+                <value>в томах (в сетевых каталогах)</value>
               </presentation>
               <value xsi:type="core:StringValue">
                 <value>ВТомахНаДиске</value>
@@ -349,7 +349,7 @@
             <choiceList>
               <presentation>
                 <key>ru</key>
-                <value>в информационной базе и томах на сервере</value>
+                <value>в базе данных или в томах</value>
               </presentation>
               <value xsi:type="core:StringValue">
                 <value>ВИнформационнойБазеИТомахНаДиске</value>
@@ -1820,6 +1820,7 @@
           <key>ru</key>
           <value>Синхронизировать файлы</value>
         </title>
+        <enabled>false</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
@@ -2598,6 +2599,295 @@
       <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
+  <items xsi:type="form:FormGroup">
+    <name>ГруппаФайловыйАрхив</name>
+    <id>2231</id>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаОбщиеНастройкиФайловогоАрхива</name>
+      <id>2233</id>
+      <items xsi:type="form:FormField">
+        <name>ИспользоватьФайловыйАрхив</name>
+        <id>2235</id>
+        <title>
+          <key>ru</key>
+          <value>Использовать файловый архив</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>ИспользоватьФайловыйАрхив</segments>
+        </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>ИспользоватьФайловыйАрхивПриИзменении</name>
+        </handlers>
+        <extendedTooltip>
+          <name>ИспользоватьФайловыйАрхивРасширеннаяПодсказка</name>
+          <id>2237</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ИспользоватьФайловыйАрхивКонтекстноеМеню</name>
+          <id>2236</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>CheckBoxField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+      </items>
+      <items xsi:type="form:Button">
+        <name>НастройкаРаботыСФайловымАрхивом</name>
+        <id>2238</id>
+        <title>
+          <key>ru</key>
+          <value>Настройка работы с файловым архивом</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>НастройкаРаботыСФайловымАрхивомРасширеннаяПодсказка</name>
+          <id>2239</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>Hyperlink</type>
+        <commandName>Form.Command.НастройкаРаботыСФайловымАрхивом</commandName>
+        <representation>Auto</representation>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <items xsi:type="form:Button">
+        <name>СправочникТомаХраненияФайловАрхивные</name>
+        <id>2240</id>
+        <title>
+          <key>ru</key>
+          <value>Тома архивного хранения</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>СправочникТомаХраненияФайловАрхивныеРасширеннаяПодсказка</name>
+          <id>2241</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <type>Hyperlink</type>
+        <commandName>Form.Command.СправочникТомаХраненияФайловАрхивные</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Общие настройки файлового архива</value>
+      </title>
+      <extendedTooltip>
+        <name>ГруппаОбщиеНастройкиФайловогоАрхиваРасширеннаяПодсказка</name>
+        <id>2234</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>AlwaysHorizontal</group>
+        <behavior>Auto</behavior>
+        <representation>WeakSeparation</representation>
+        <showLeftMargin>true</showLeftMargin>
+        <united>true</united>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
+      <name>ГруппаТекстИнформированияПользователя</name>
+      <id>2242</id>
+      <items xsi:type="form:FormField">
+        <name>ТекстИнформированияПользователяОНедоступностиФайлаВАрхиве</name>
+        <id>2244</id>
+        <title>
+          <key>ru</key>
+          <value>Текст информирования пользователя</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <dataPath xsi:type="form:DataPath">
+          <segments>НаборКонстант.ТекстИнформированияПользователяОНедоступностиФайлаВАрхиве</segments>
+        </dataPath>
+        <handlers>
+          <event>OnChange</event>
+          <name>ТекстИнформированияПользователяОНедоступностиФайлаВАрхивеПриИзменении</name>
+        </handlers>
+        <extendedTooltip>
+          <name>ТекстИнформированияПользователяОНедоступностиФайлаВАрхивеРасширеннаяПодсказка</name>
+          <id>2246</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ТекстИнформированияПользователяОНедоступностиФайлаВАрхивеКонтекстноеМеню</name>
+          <id>2245</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>InputField</type>
+        <editMode>Enter</editMode>
+        <showInHeader>true</showInHeader>
+        <headerHorizontalAlign>Left</headerHorizontalAlign>
+        <showInFooter>true</showInFooter>
+        <extInfo xsi:type="form:InputFieldExtInfo">
+          <maxWidth>62</maxWidth>
+          <height>2</height>
+          <autoMaxHeight>true</autoMaxHeight>
+          <horizontalStretch>true</horizontalStretch>
+          <verticalStretch>false</verticalStretch>
+          <wrap>true</wrap>
+          <multiLine>true</multiLine>
+          <extendedEditMultipleValues>true</extendedEditMultipleValues>
+          <chooseType>true</chooseType>
+          <typeDomainEnabled>true</typeDomainEnabled>
+          <textEdit>true</textEdit>
+        </extInfo>
+      </items>
+      <items xsi:type="form:Decoration">
+        <name>ПояснениеВоВстроенномХранилищеДвоичныхДанных</name>
+        <id>2247</id>
+        <title>
+          <key>ru</key>
+          <value>Текст информирования пользователя в ситуации, когда недоступен файл, перенесенный в файловый архив.</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ПояснениеВоВстроенномХранилищеДвоичныхДанныхРасширеннаяПодсказка</name>
+          <id>2249</id>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <contextMenu>
+          <name>ПояснениеВоВстроенномХранилищеДвоичныхДанныхКонтекстноеМеню</name>
+          <id>2248</id>
+          <autoFill>true</autoFill>
+        </contextMenu>
+        <type>Label</type>
+        <autoMaxHeight>true</autoMaxHeight>
+        <textColor xsi:type="core:ColorRef">
+          <color>Style.ПоясняющийТекст</color>
+        </textColor>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </items>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Текст информирования пользователя</value>
+      </title>
+      <extendedTooltip>
+        <name>ГруппаТекстИнформированияПользователяРасширеннаяПодсказка</name>
+        <id>2243</id>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>UsualGroup</type>
+      <extInfo xsi:type="form:UsualGroupExtInfo">
+        <group>Vertical</group>
+        <behavior>Auto</behavior>
+        <representation>WeakSeparation</representation>
+        <showLeftMargin>true</showLeftMargin>
+        <united>true</united>
+        <throughAlign>Auto</throughAlign>
+        <currentRowUse>Auto</currentRowUse>
+      </extInfo>
+    </items>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Файловый архив</value>
+    </title>
+    <extendedTooltip>
+      <name>ГруппаФайловыйАрхивРасширеннаяПодсказка</name>
+      <id>2232</id>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <behavior>Auto</behavior>
+      <representation>WeakSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <showTitle>true</showTitle>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
   <autoCommandBar>
     <name>ФормаКоманднаяПанель</name>
     <id>-1</id>
@@ -2698,6 +2988,9 @@
       <segments>НаборКонстант.ИспользоватьСинхронизациюДанных</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>НаборКонстант.ИспользоватьФайловыйАрхив</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборКонстант.ИспользоватьЭлектронныеПодписи</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
@@ -2729,6 +3022,9 @@
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборКонстант.СписокРасширенийФайловOpenDocumentОбластиДанных</segments>
+    </notDefaultUseAlwaysAttributes>
+    <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
+      <segments>НаборКонстант.ТекстИнформированияПользователяОНедоступностиФайлаВАрхиве</segments>
     </notDefaultUseAlwaysAttributes>
     <notDefaultUseAlwaysAttributes xsi:type="form:DataPath">
       <segments>НаборКонстант.ХранитьФайлыВТомахНаДиске</segments>
@@ -2882,6 +3178,36 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ДоступныХранилищаДвоичныхДанных</name>
+    <id>7</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИспользоватьФайловыйАрхив</name>
+    <title>
+      <key>ru</key>
+      <value>Использовать файловый архив</value>
+    </title>
+    <id>8</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>СправочникТомаХраненияФайлов</name>
     <title>
@@ -2979,6 +3305,48 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ВыполнитьДедупликацию</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>СправочникТомаХраненияФайловАрхивные</name>
+    <title>
+      <key>ru</key>
+      <value>Справочник тома хранения файлов архивные</value>
+    </title>
+    <id>3</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Справочник тома хранения файлов архивные</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>СправочникТомаХраненияФайловАрхивные</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>НастройкаРаботыСФайловымАрхивом</name>
+    <title>
+      <key>ru</key>
+      <value>Настройка работы с файловым архивом</value>
+    </title>
+    <id>4</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Настройка работы с файловым архивом</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>НастройкаРаботыСФайловымАрхивом</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

@@ -70,9 +70,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="f2f90525-566b-4add-ae3e-cc683dee6209">
     <name>ТипОбъекта</name>
@@ -90,9 +88,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
   </attributes>
   <attributes uuid="59561ccb-5412-4f8a-8961-3d43639e4742">
     <name>КодКЛАДР</name>
@@ -278,7 +274,6 @@
       <value>Загрузить адресный классификатор</value>
     </synonym>
     <group>NavigationPanelOrdinary</group>
-    <commandParameterType/>
     <representation>Auto</representation>
   </commands>
   <commands uuid="6d4e26f4-4cc4-4445-ad7b-547cd0afc750">
@@ -288,7 +283,6 @@
       <value>Подключить интернет-поддержку</value>
     </synonym>
     <group>NavigationPanelOrdinary</group>
-    <commandParameterType/>
     <representation>Auto</representation>
   </commands>
   <commands uuid="5736ef36-69eb-4406-a98e-1e4b4227a10d">
@@ -298,7 +292,6 @@
       <value>Очистить адресный классификатор</value>
     </synonym>
     <group>NavigationPanelOrdinary</group>
-    <commandParameterType/>
     <representation>Auto</representation>
   </commands>
 </mdclass:InformationRegister>

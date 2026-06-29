@@ -416,7 +416,7 @@
     <horizontalLines>true</horizontalLines>
     <verticalLines>true</verticalLines>
     <useAlternationRowColor>true</useAlternationRowColor>
-    <searchOnInput>Auto</searchOnInput>
+    <searchOnInput>DontUse</searchOnInput>
     <initialListView>Auto</initialListView>
     <initialTreeView>ExpandTopLevel</initialTreeView>
     <horizontalStretch>true</horizontalStretch>
@@ -503,8 +503,6 @@
         <attributeUseRestriction>
           <field>true</field>
           <condition>true</condition>
-          <group>true</group>
-          <order>true</order>
         </attributeUseRestriction>
       </fields>
       <fields xsi:type="schema:DataCompositionSchemaDataSetField">

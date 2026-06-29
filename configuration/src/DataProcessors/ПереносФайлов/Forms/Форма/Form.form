@@ -55,7 +55,7 @@
       <choiceList>
         <presentation>
           <key>ru</key>
-          <value>Из информационной базы в тома</value>
+          <value>Из базы данных в тома</value>
         </presentation>
         <value xsi:type="core:StringValue">
           <value>ПеренестиВТома</value>
@@ -64,7 +64,7 @@
       <choiceList>
         <presentation>
           <key>ru</key>
-          <value>Из томов в информационную базу</value>
+          <value>Из томов в базу данных</value>
         </presentation>
         <value xsi:type="core:StringValue">
           <value>ПеренестиВБазу</value>
@@ -163,6 +163,22 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <choiceParameters>
+            <name>Отбор.СпособХраненияФайлов</name>
+            <value xsi:type="form:FormChoiceListDesTimeValue">
+              <value xsi:type="core:ReferenceValue">
+                <value>Enum.СпособыХраненияФайлов.EnumValue.ВСетевыхКаталогах</value>
+              </value>
+            </value>
+          </choiceParameters>
+          <choiceParameters>
+            <name>Отбор.ВидТомаХраненияФайлов</name>
+            <value xsi:type="form:FormChoiceListDesTimeValue">
+              <value xsi:type="core:ReferenceValue">
+                <value>Enum.ВидыХраненияФайлов.EnumValue.ОперационноеХранение</value>
+              </value>
+            </value>
+          </choiceParameters>
         </extInfo>
       </items>
       <visible>true</visible>
@@ -280,6 +296,22 @@
           <chooseType>true</chooseType>
           <typeDomainEnabled>true</typeDomainEnabled>
           <textEdit>true</textEdit>
+          <choiceParameters>
+            <name>Отбор.СпособХраненияФайлов</name>
+            <value xsi:type="form:FormChoiceListDesTimeValue">
+              <value xsi:type="core:ReferenceValue">
+                <value>Enum.СпособыХраненияФайлов.EnumValue.ВСетевыхКаталогах</value>
+              </value>
+            </value>
+          </choiceParameters>
+          <choiceParameters>
+            <name>Отбор.ВидТомаХраненияФайлов</name>
+            <value xsi:type="form:FormChoiceListDesTimeValue">
+              <value xsi:type="core:ReferenceValue">
+                <value>Enum.ВидыХраненияФайлов.EnumValue.ОперационноеХранение</value>
+              </value>
+            </value>
+          </choiceParameters>
         </extInfo>
       </items>
       <visible>true</visible>

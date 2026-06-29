@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b10348eb-6d25-48d7-9267-36cb3de6ebee">
+  <producedTypes>
+    <selectionType typeId="1d56a69a-bdb2-4ee1-b7c6-1f1ba2e75b31" valueTypeId="83e89212-638e-4381-9143-bb2cb329d66b"/>
+    <listType typeId="48e8b4a7-6ee2-4e92-8fc9-b7c83c677036" valueTypeId="2b9bd458-a593-48e9-aad9-47e34419c6f6"/>
+    <managerType typeId="ed7b02f2-7b1f-4549-a967-f44b2d85bef3" valueTypeId="aa512eb6-d320-4433-909c-557fd7e073d4"/>
+    <recordSetType typeId="4215ec06-6efc-4689-902a-22ca57ccce76" valueTypeId="ec27cbdc-98d6-4cec-b5ce-9653a8c432b0"/>
+    <recordKeyType typeId="055acba1-f59f-4d54-96cf-74d5152da68c" valueTypeId="0683b900-b1b5-4d2d-a01b-9f2a5ccb2b0f"/>
+    <recordType typeId="42384830-4d71-4607-a4a3-16081902fafc" valueTypeId="c186f020-259a-4b18-810b-1e82253de150"/>
+    <recordManagerType typeId="8e8e6dbe-178a-43da-9689-c6f97b1d10dc" valueTypeId="4be9b98c-84a0-457b-8f7f-3d15015c284f"/>
+  </producedTypes>
+  <name>КвартирыОфисыПомещения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Квартиры офисы помещения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <attributes uuid="13be8980-1bf6-40f6-933f-6e7e1434548e">
+    <name>Помещения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Помещения</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="48e45f36-f83a-4a93-b657-573aeb3f1de1">
+    <name>АдресныйОбъект</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адресный объект</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="027effdc-8d1c-470b-8675-155102a52f74">
+    <name>КодСубъектаРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Код субъекта РФ</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

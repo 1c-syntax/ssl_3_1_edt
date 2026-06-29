@@ -953,6 +953,10 @@
               <event>Clearing</event>
               <name>ПолноеИмяТипаПараметраВводаНаОснованииОчистка</name>
             </handlers>
+            <handlers>
+              <event>ChoiceProcessing</event>
+              <name>ПолноеИмяТипаПараметраВводаНаОснованииОбработкаВыбора</name>
+            </handlers>
             <autoMaxWidth>true</autoMaxWidth>
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
@@ -1365,6 +1369,7 @@
               <representationInContextMenu>Auto</representationInContextMenu>
             </items>
             <visible>true</visible>
+            <enabled>false</enabled>
             <userVisible>
               <common>true</common>
             </userVisible>
@@ -1448,6 +1453,7 @@
             <showInFooter>true</showInFooter>
             <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
           </items>
+          <enabled>false</enabled>
           <userVisible>
             <common>true</common>
           </userVisible>

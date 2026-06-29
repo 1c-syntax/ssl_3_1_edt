@@ -92,6 +92,12 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
   <dataLockFields>Catalog.НастройкиТранспортаСообщенийОбмена.Attribute.Корреспондент</dataLockFields>
   <dataLockFields>Catalog.НастройкиТранспортаСообщенийОбмена.Attribute.ИдентификаторТранспорта</dataLockFields>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -145,9 +151,7 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:StringValue"/>
     <indexing>Index</indexing>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
